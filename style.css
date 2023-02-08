@@ -15,19 +15,55 @@ a:hover {
     color: #9E00FF;
 }
 
-/* Nav Bar */
+/* 🙃 Nav Bar */
 .nav-bar,
-.nav-links {
+.nav-links,
+.hero-section,
+.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .nav-bar {
-    height: 80px;
+    height: 6rem;
 }
 
 .nav-links {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     gap: 2rem;
+}
+
+/* Main section */
+
+.hero-section {
+    font-size: 2.5rem;
+    height: 25rem;
+}
+
+.lrn {
+    color: #9E00FF;
+}
+
+.buttons {
+    gap: 1rem;
+    position: relative;
+    bottom: 6rem;
+}
+
+.btn {
+    background-color: #9E00FF;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+.btn:hover {
+    color: #000513;
+}
+
+.btn2 {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #9E00FF;
 }
