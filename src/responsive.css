@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    .nav-links {
+        display: none;
+    }
+
+    .banner {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1196px) {
+
+    .banner {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1196px) {
+
+    .banner {
+        font-size: 2rem;
+    }
+}
