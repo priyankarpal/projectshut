@@ -11,6 +11,10 @@
     color: #fff;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 a:hover {
     color: #9E00FF;
 }
@@ -88,7 +92,7 @@ a:hover {
 
 }
 
-.cards {
+#cards {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
