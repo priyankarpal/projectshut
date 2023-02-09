@@ -1,5 +1,5 @@
 1.  Fork this repository
-2.  Clone it to your computer `git clone https://github.com/priyankarpal/ProjectsHut.git`
+2.  Clone it to your computer `git clone https://github.com/your-username/ProjectsHut.git`
 3.  Navigate to the project folder `cd ProjectsHut` 
 4. Add your projects to here
     -  first add image of the project `/images/your-image.png`
