@@ -6,6 +6,10 @@
     h1 {
         font-size: 3rem;
     }
+
+    .title {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 45.625rem) {
@@ -13,6 +17,14 @@
     .banner,
     h1 {
         font-size: 2rem;
+    }
+
+    .title,
+    h2 {
+        font-size: 1rem;
+        margin-left: 2rem;
+
+
     }
 }
 
@@ -25,6 +37,10 @@
 
     .nav-links {
         display: none;
+    }
+
+    .title {
+        font-size: 1rem;
     }
 }
 
@@ -39,6 +55,12 @@
     h1 {
         font-size: 2rem;
     }
+
+    .nav-bar,
+    h3 {
+        margin-left: 2rem;
+    }
+
 
 
 }
