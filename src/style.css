@@ -20,7 +20,8 @@ a:hover {
 .nav-links,
 .hero-section,
 .buttons,
-.ftr-credit {
+.ftr-credit,
+.prj-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +58,8 @@ a:hover {
     bottom: 6rem;
 }
 
-.btn {
+.btn,
+.prj-btn {
     background-color: #9E00FF;
     padding: 1rem;
     border-radius: .5rem;
@@ -78,10 +80,12 @@ a:hover {
 
 /* Projects */
 .prjs {
-    height: 25rem;
+    height: 28rem;
     border: 2px solid #9E00FF;
     width: 455px;
     padding: 1rem;
+    border-radius: .5rem;
+
 }
 
 .cards {
@@ -89,6 +93,8 @@ a:hover {
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
     grid-gap: 1rem;
+
+
 }
 
 .prj-content,
@@ -98,6 +104,7 @@ h3 {
 
 .prj-content,
 p {
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -105,4 +112,17 @@ p {
 .ftr-credit {
     padding-block: 3rem;
     font-size: 1.2rem;
+}
+
+.tech-stacks-col {
+    color: aqua;
+}
+
+.prj-btn:hover {
+    background-color: #9E00FF;
+    color: #000513;
+}
+
+.prj-img {
+    border-radius: .5rem;
 }
