@@ -1,23 +1,44 @@
-@media screen and (max-width: 600px) {
+/* Only for responsive CSS codes */
+@media screen and (max-width: 58.75rem) {
+
+
+    .banner,
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 45.625rem) {
+
+    .banner,
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 33rem) {
+
+    .banner,
+    h1 {
+        font-size: 1.2rem;
+    }
+
     .nav-links {
         display: none;
     }
-
-    .banner {
-        font-size: 1rem;
-    }
 }
 
-@media screen and (max-width: 1196px) {
+@media screen and (max-width: 20.75rem) {
 
-    .banner {
+    .hero-section,
+    .buttons {
+        margin-left: 6rem;
+    }
+
+    .banner,
+    h1 {
         font-size: 2rem;
     }
-}
 
-@media screen and (max-width: 1196px) {
 
-    .banner {
-        font-size: 2rem;
-    }
 }
