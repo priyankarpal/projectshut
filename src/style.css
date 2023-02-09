@@ -25,7 +25,8 @@ a:hover {
 .hero-section,
 .buttons,
 .ftr-credit,
-.prj-btn {
+.prj-btn,
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +40,12 @@ a:hover {
 .nav-links {
     font-size: 1.3rem;
     gap: 2rem;
+}
+
+.nav-bar,
+h3 {
+    font-size: 1.5rem;
+    justify-content: space-around;
 }
 
 /* Main section */
@@ -130,4 +137,9 @@ p {
 .prj-img {
     border-radius: .5rem;
     width: 20.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-block: 1rem;
 }
