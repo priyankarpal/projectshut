@@ -16,3 +16,22 @@
             </div>
         </div>
 ```
+5.  Create a new branch using your `GitHub Username`  
+```diff
+git checkout -b [name_of_your_new_branch]
+```
+6. Add your commits 
+```diff
+git commit -m "Your Changes"
+```
+7. Set upstream command
+```diff
+git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
+```
+8. Push your commits
+```diff
+git push -u origin [Your-branch-name]
+```
+9. Create a PR
+
+10. Wait for merge 
