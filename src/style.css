@@ -19,7 +19,8 @@ a:hover {
 .nav-bar,
 .nav-links,
 .hero-section,
-.buttons {
+.buttons,
+.ftr-credit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,10 +37,11 @@ a:hover {
 }
 
 /* Main section */
-.main{
+.main {
     height: 45rem;
 
 }
+
 .hero-section {
     font-size: 2.5rem;
     height: 30rem;
@@ -88,10 +90,19 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
     grid-gap: 1rem;
 }
-.prj-content,h3{
-margin-block: 1rem;
+
+.prj-content,
+h3 {
+    margin-block: 1rem;
 }
+
 .prj-content,
 p {
     margin-bottom: 2rem;
+}
+
+/* Footer */
+.ftr-credit {
+    padding-block: 3rem;
+    font-size: 1.2rem;
 }
