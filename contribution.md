@@ -5,7 +5,7 @@
     -  first add image of the project `/images/your-image.png`
     - add following code to HTML `index.html` after projects section
 ```diff
-    <!-- Your GitHub username -->
+    <!-- Add Your GitHub username -->
     <div class="prjs">
             <img src="/images/your-image.png" class="prj-img" loading="lazy" alt="Project name">
             <div class="prj-content">
