@@ -95,7 +95,8 @@ h3 {
 }
 
 .prjs {
-  height: 28rem;
+
+  min-height: 28rem;
   border: 2px solid #9e00ff;
   width: 455px;
   border-radius: 0.5rem;
