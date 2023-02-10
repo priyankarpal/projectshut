@@ -102,6 +102,8 @@ h3 {
   border-radius: 0.5rem;
 }
 
+
+
 #cards {
   display: grid;
   place-items: center;
@@ -132,6 +134,7 @@ p {
 .prj-img {
   border-radius: 0.5rem;
   width: 20.5rem;
+  height: 12.5rem;
 }
 
 .title {
