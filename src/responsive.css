@@ -33,6 +33,8 @@
 
 
 
+
+
     .nav-links {
         position: fixed;
         padding-block: 15rem;
@@ -48,6 +50,7 @@
 
     .nav-links.active {
         left: 0;
+
     }
 }
 
