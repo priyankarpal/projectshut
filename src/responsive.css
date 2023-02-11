@@ -12,10 +12,11 @@
     }
 }
 
-@media screen and (max-width: 45.625rem) {
+@media screen and (max-width: 48.625rem) {
 
     .banner,
     h1 {
+
         font-size: 2rem;
     }
 
@@ -23,8 +24,30 @@
     h2 {
         font-size: 1rem;
         margin-left: 2rem;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
 
 
+
+    .nav-links {
+        position: fixed;
+        padding-block: 15rem;
+        left: -100%;
+        top: 4rem;
+        gap: 1;
+        flex-direction: column;
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links.active {
+        left: 0;
     }
 }
 
