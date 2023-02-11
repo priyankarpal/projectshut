@@ -1,4 +1,9 @@
-# Contribute your Code to ProjectsHut
+# 😎 Contribute your Code to ProjectsHut
+#### Make sure you've basic knowledge of 
+ - [Git](https://git-scm.com)
+ - [GitHub](https://github.com)
+ - [HTML](https://www.w3schools.com/html)
+## 🧐 Follow these steps to Contribute
 1.  Fork this repository
 2.  Clone it to your computer `git clone https://github.com/your-username/ProjectsHut.git`
 3.  Navigate to the project folder `cd ProjectsHut` 
