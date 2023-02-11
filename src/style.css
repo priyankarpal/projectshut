@@ -70,14 +70,15 @@ h3 {
   height: 45rem;
 }
 
+
 .hero-section {
   font-size: 2.5rem;
-  height: 30rem;
+  height: 20rem;
 }
 
 .buttons {
   gap: 1rem;
-  position: relative;
+  /* position: relative; */
   bottom: 6rem;
 }
 
@@ -139,4 +140,13 @@ p {
 
 .title {
   font-size: 2rem;
+  margin-top: 5em;
+}
+
+.hamburger {
+  border: 2px solid #9e00ff;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: none;
+  cursor: pointer;
 }
