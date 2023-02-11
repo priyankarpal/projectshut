@@ -1,3 +1,4 @@
+# Contribute your Code to ProjectsHut
 1.  Fork this repository
 2.  Clone it to your computer `git clone https://github.com/your-username/ProjectsHut.git`
 3.  Navigate to the project folder `cd ProjectsHut` 
