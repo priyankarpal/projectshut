@@ -1,8 +1,8 @@
 ---
-name: Add your Issues
+name: "\U0001F43C Add your Issues"
 about: Describe this issue purpose here.
 title: ''
-labels: ''
+labels: good first issue, question
 assignees: priyankarpal
 
 ---
