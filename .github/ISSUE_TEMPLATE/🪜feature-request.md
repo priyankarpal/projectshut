@@ -1,9 +1,9 @@
 ---
-name: Feature request
+name: "\U0001FA9CFeature request"
 about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+title: "\U0001FA9C Feature : "
+labels: Feature
+assignees: priyankarpal
 
 ---
 
