@@ -11,7 +11,7 @@ ProjectsHut is an innovative platform that allows users to publish their project
 - Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose)  to report bugs, and vulnerabilities or add a new feature.
 
 
-## 📂 Project Folder Structure
+## 📂 Folder Structure
 ```
 ProjectsHut
 ├── images
@@ -22,12 +22,17 @@ ProjectsHut
 └── index.html
 ```
 ## 🧰 Tech Stack Used
-
-![](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
-![](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- [HTML](https://en.wikipedia.org/wiki/HTML)   - HyperText Markup Language 
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Cascading Style Sheets 
+- [JS](https://en.wikipedia.org/wiki/JavaScript) - A programming language 
 ## 🫂 Contributors
 <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
 </a>
 
+## 🛡️ License
+ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) file for details.
+
+## 🙏 Support
+
+Don't forget to ⭐ it. 
