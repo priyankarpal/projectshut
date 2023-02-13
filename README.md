@@ -1,4 +1,4 @@
-# 🥑 ProjectsHut
+# 🥑 ProjectsHut - You can find lots of cool Projects
 
 ![ProjectsHut](/images/projectshut.png)
 
