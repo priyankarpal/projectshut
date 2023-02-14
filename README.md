@@ -1,5 +1,5 @@
 # 🥑 ProjectsHut - You can find lots of cool Projects
-
+![ProjectsHut](/images/ProjectsHut.png)
 ## 🤓 Why ProjectsHut?
 
 ProjectsHut is an innovative platform that allows users to publish their projects for free. It's designed to provide a space for individuals to showcase their work and connect with a global audience. The website is open source, which means that its code is freely available to the public, allowing developers to contribute to its growth and improvement.
