@@ -1,6 +1,6 @@
 # 😎 Contribute your Code to ProjectsHut
 
-#### Make sure you've basic knowledge of
+#### Make sure you've basic knowledge of these
 
 - [Git](https://git-scm.com)
 - [GitHub](https://github.com)
