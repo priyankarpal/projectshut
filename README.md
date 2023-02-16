@@ -18,7 +18,7 @@ ProjectsHut is an innovative platform that allows users to publish their project
 ## 🧰 Tech Stack Used
 
 - [TailWind Css](https://tailwindcss.com) - Tailwind CSS is an open source CSS framework.
-- [JavaScript](https://www.javascript.com)- JS, is a programming language
+
 
 ## 🛡️ License
 
