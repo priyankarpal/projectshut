@@ -23,12 +23,6 @@ ProjectsHut is an innovative platform that allows users to publish their project
 
 - [TailWind Css](https://tailwindcss.com) - Tailwind CSS is an open source CSS framework.
 
-## 🫂 Contributors
-
-<a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
-</a>
-
 ## 🛡️ License
 
 ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) file for details.
