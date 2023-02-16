@@ -2,14 +2,10 @@
 
 ![ProjectsHut](/images/screenshot1.png)
 
-
-
 ## 🤓 Why ProjectsHut?
 
 ProjectsHut is an innovative platform that allows users to publish their projects for free. It's designed to provide a space for individuals to showcase their work and connect with a global audience. The website is open source, which means that its code is freely available to the public, allowing developers to contribute to its growth and improvement.
 [ProjectsHut](https://projectshut.vercel.app) 🔥 offers a user-friendly interface, making it easy to publish projects and share them with others. Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its open-source design
-
-
 
 ![ProjectsHut](/images/screenshot2.png)
 
@@ -22,6 +18,7 @@ ProjectsHut is an innovative platform that allows users to publish their project
 ## 🧰 Tech Stack Used
 
 - [TailWind Css](https://tailwindcss.com) - Tailwind CSS is an open source CSS framework.
+- [JavaScript](https://www.javascript.com)- JS, is a programming language
 
 ## 🛡️ License
 
