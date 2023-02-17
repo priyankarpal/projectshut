@@ -10,15 +10,15 @@ Please list any related issues that your PR addresses. For example, if you fixed
 
 Please review and check off the following items before submitting your PR:
 
- <!-- If yes => 'x'  -->
+ <!-- If yes then add 'x' into '[x]'  -->
 
-[ ] I have tested my changes to ensure they work as expected
-[ ] I have included documentation for any new features or changes
-[ ] I have formatted my code according to the project's style guidelines
-[ ] I have written tests for any new features or changes
-[ ] I have run the project's test suite and verified that all tests pass
-[ ] I have updated the README and any other relevant documentation
-[ ] I have checked for any spelling or grammatical errors
+- [ ] I have tested my changes to ensure they work as expected
+- [ ] I have included documentation for any new features or changes
+- [ ] I have formatted my code according to the project's style guidelines
+- [ ] I have written tests for any new features or changes
+- [ ] I have run the project's test suite and verified that all tests pass
+- [ ] I have updated the README and any other relevant documentation
+- [ ] I have checked for any spelling or grammatical errors
 
 ## Additional Information
 
