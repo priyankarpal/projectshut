@@ -19,7 +19,7 @@
     <!-- Add Your GitHub username -->
 
 <div class="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white">
-   <img src="https://github.com/<YOUR-GITHUB-USERNAME>.png" class="h-10 w-10 rounded-full" alt="" srcset="">
+   <img src="https://github.com/<YOUR-GITHUB-USERNAME>.png" class="h-10 w-10 rounded-full" alt="" >
    <a href="<YOUR-PROJECT-LINK>" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
          class="ml-1.5 h-4 w-4 float-right relative bottom-10">
