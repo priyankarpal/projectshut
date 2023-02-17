@@ -38,7 +38,7 @@
 5.  Create a new branch using your `GitHub Username`
 
 ```diff
-git checkout -b [name_of_your_new_branch]
+git checkout -b [Your-branch-name]
 ```
 
 6. Add your commits
