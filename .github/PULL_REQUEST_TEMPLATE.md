@@ -2,7 +2,7 @@
 
 Please describe the changes you made to the Projectshut Open Source website. What features did you add or modify? What bug did you fix?
 
-## Related Issues
+## Related Issue
 
 Please list any related issues that your PR addresses. For example, if you fixed a bug, please reference the issue number that describes the bug.
 
