@@ -41,24 +41,29 @@
 git checkout -b [name_of_your_new_branch]
 ```
 
-6. Add your commits
+6. Add your changes.
+```diff
+git add .
+```
+
+7. Add your commits
 
 ```diff
 git commit -m "Your Changes"
 ```
 
-7. Set upstream command
+8. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-8. Push your commits
+9. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-9. Create a PR
+10. Create a PR
 
-10. Wait for merge
+11. Wait for merge
