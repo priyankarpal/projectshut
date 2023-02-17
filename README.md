@@ -1,4 +1,5 @@
-# 🥑 ProjectsHut - You can find lots of cool Projects
+## 🥑ProjectsHut: A Place to find lots of cool Projects 
+
 
 ![ProjectsHut](/images/screenshot1.png)
 
