@@ -10,17 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
 </head>
 <body class="bg-[#000513] text-[#fff]">
-    <!-- <div class="bg-[#A66EFC] px-4 py-3 text-white">
-        <p class="text-center text-sm font-medium">
-            Celebrate the small wins 🎉 We got stars on GitHub.
-            Thank you
-            for your support.🙏
-
-        </p>
-
-
-    </div> -->
-
     <!-- ⚡ Nav Bar Starts -->
 
     <nav aria-label="Site Nav" class="mx-auto flex max-w-3xl items-center justify-between p-4  ">
@@ -49,6 +38,12 @@
                     </svg>
                 </a>
             </li>
+            <li class="hidden lg:block">
+                <a class="github-button" href="https://github.com/priyankarpal/ProjectsHut"
+                    data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star"
+                    data-size="large" data-show-count="true"
+                    aria-label="Star priyankarpal/ProjectsHut on GitHub">Star</a>
+            </li>
         </ul>
 
     </nav>
@@ -69,12 +64,19 @@
                 </p>
 
                 <div class="mt-8 flex flex-wrap justify-center gap-4">
-                    <a class="block w-full rounded bg-[#A66EFC] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#b384fb] focus:outline-none focus:ring sm:w-auto"
-                        href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md" target="_blank">
-                        Contribute
+
+                    <a class="group relative inline-block focus:outline-none focus:ring"
+                        href="https://github.com/priyankarpal/ProjectsHut/fork" target="_blank">
+                        <span
+                            class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-[#A66EFC] transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+                        <span
+                            class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75">
+                            Fork it
+                        </span>
                     </a>
 
-                    <a class="block w-full rounded px-12 py-3 text-sm font-medium text-[#fff] shadow hover:text-[#A66EFC] border focus:outline-none focus:ring sm:w-auto"
+                    <a class="inline-block  border border-current px-8 py-3 text-sm font-bold text-white tracking-widest uppercase transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-[#A66EFC]"
                         href="#projects">
                         Browse
                     </a>
@@ -233,6 +235,6 @@
     </footer>
 
     <!--  ⚡ Projects Section Ends -->
-
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
