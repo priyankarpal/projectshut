@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+         stencil: ["Allerta Stencil", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 };
