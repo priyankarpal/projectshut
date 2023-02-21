@@ -31,7 +31,7 @@
    <p class="mt-1 text-sm text-gray-300">
      [PROJECT DESCRIPTION]
    </p>
-   <h4 class="pt-2 text-[#A66EFC]">[TECH STACKS NAME]</h4>
+   <h4 class="pt-2 text-primary">[TECH STACKS NAME]</h4>
 </div>
 ```
 
