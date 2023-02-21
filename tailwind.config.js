@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         primary: "#A66EFC",
         secondary: "#000513",
-      }
+      },
+      fontFamily: {
+        stencil: ["Allerta Stencil", "sans-serif"],
+      },
     },
   },
   plugins: [],
