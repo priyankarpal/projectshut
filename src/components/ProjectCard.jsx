@@ -9,7 +9,7 @@ const ProjectCard = ({ gh, name, link, title, description, tech }) => {
         <img
           src={`https://github.com/${gh}.png`}
           className="h-10 w-10 rounded-full"
-          alt={`${name}'s github profile`}
+          alt={`${gh}'s github profile`}
         />
       </div>
       <p className="mt-1  text-gray-500 dark:text-gray-500 flex flex-row overflow-auto">
@@ -26,6 +26,8 @@ const ProjectCard = ({ gh, name, link, title, description, tech }) => {
       <a
         className="mt-3 inline-flex items-center gap-2  text-sm font-medium p-3 justify-center bg-primary rounded text-white   xl:text-[1rem] md:text-[0.8rem]"
         href={link}
+        target="_blank"
+        rel="noreferrer"
       >
         Check it out
       </a>
