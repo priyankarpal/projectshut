@@ -18,8 +18,10 @@
 ```diff
     <!-- Add Your GitHub username -->
 
+    <!-- Add Your GitHub username -->
+
 <div class="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white">
-   <img src="https://github.com/<YOUR-GITHUB-USERNAME>.png" class="h-10 w-10 rounded-full" alt="" >
+   <img src="https://github.com/<YOUR-GITHUB-USERNAME>.png" class="h-10 w-10 rounded-full" alt="Add-Alt-Tag">
    <a href="<YOUR-PROJECT-LINK>" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
          class="ml-1.5 h-4 w-4 float-right relative bottom-10">
@@ -31,8 +33,9 @@
    <p class="mt-1 text-sm text-gray-300">
      [PROJECT DESCRIPTION]
    </p>
-   <h4 class="pt-2 text-primary">[TECH STACKS NAME]</h4>
+   <h4 class="pt-2 text-[#A66EFC]">[TECH STACKS NAME]</h4>
 </div>
+
 ```
 
 5.  Create a new branch using your `GitHub Username`
