@@ -1,40 +1,34 @@
 const ProjectCard = ({ gh, name, link, title, description, tech }) => {
   return (
-    <div className="block rounded-xl border border-gray-800 p-6 shadow-xl transition-all duration-200  hover:border-white hover:scale-105 hover:shadow-[0_7px_15px_RGB(209,211,224)] cursor-pointer">
-      <img
-        src={`https://github.com/${gh}.png`}
-        className="h-10 w-10 rounded-full"
-        alt={`${name}'s github profile`}
-      />
-      <a href={link} target="_blank">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          className="ml-1.5 h-4 w-4 float-right relative bottom-10"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-          ></path>
-        </svg>
-      </a>
-      <h2 className="mt-4 text-xl font-bold text-white">{title}</h2>
-      <p className="mt-1 text-sm text-gray-300">{description}</p>
+    <div className="flex flex-col border shadow-sm rounded-xl p-4 md:p-5 dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition-all duration-200  hover:scale-105  cursor-pointer">
+      <div className="flex justify-between">
+        <h3 className="text-lg font-bold text-gray-800 dark:text-white">
+          {title}
+        </h3>
 
-      <div className="flex flex-row overflow-auto">
+        <img
+          src={`https://github.com/${gh}.png`}
+          className="h-10 w-10 rounded-full"
+          alt={`${name}'s github profile`}
+        />
+      </div>
+      <p className="mt-1  text-gray-500 dark:text-gray-500 flex flex-row overflow-auto">
         {tech.map((tag, i) => (
-          <h4
-            className="bg-primary rounded text-white p-1 m-1 xl:text-[1rem] md:text-[0.8rem]"
+          <p
+            className="bg-green-400 rounded-full text-black pl-[.8rem] pr-[.8rem] m-[.2rem] xl:text-[1rem] md:text-[0.8rem]"
             key={i}
           >
             {tag}
-          </h4>
+          </p>
         ))}
-      </div>
+      </p>
+      <p className="mt-2 text-gray-800 dark:text-gray-400">{description}</p>
+      <a
+        className="mt-3 inline-flex items-center gap-2  text-sm font-medium p-3 justify-center bg-primary rounded text-white   xl:text-[1rem] md:text-[0.8rem]"
+        href={link}
+      >
+        Check it out
+      </a>
     </div>
   );
 };
