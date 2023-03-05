@@ -13,12 +13,12 @@
 3.  Navigate to the project folder `cd ProjectsHut`
 4.  Add your projects to here
     - install dependencies `yarn`
+    - run in local `yarn run dev`
     - add following code to end of `src/projects.json`
 
 ```json
 {
         "gh-username": "YOUR-GITHUB-USERNAME",
-        "name": "HOW-DO-YOU-WANT-TO-BE-CALLED",
         "link": "LINK-TO-GITHUB-OR-DEMO",
         "title": "PROJECT-TITLE",
         "description": "PROJECT-DESCRIPTION",
