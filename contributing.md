@@ -14,7 +14,7 @@
 4.  Add your projects to here
     - install dependencies `yarn`
     - run in local `yarn run dev`
-    - add following code to end of `src/projects.json`
+    - add following code to end of `src/DB/projects.json`
 
 ```json
 {
