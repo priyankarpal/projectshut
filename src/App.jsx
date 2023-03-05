@@ -1,5 +1,5 @@
 import { Navbar, Footer, ProjectCard } from "./components";
-import projects from "./projects.json";
+import projects from "./DB/projects.json";
 
 function App() {
   return (
