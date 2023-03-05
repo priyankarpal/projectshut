@@ -67,7 +67,6 @@ function App() {
           {projects.map((project, i) => (
             <ProjectCard
               gh={project["gh-username"]}
-              name={project.name}
               link={project.link}
               title={project.title}
               description={project.description}
