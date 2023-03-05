@@ -1,5 +1,4 @@
-## 🥑ProjectsHut: A Place to find lots of cool Projects 
-
+## 🥑ProjectsHut: A Place to find lots of cool Projects
 
 ![ProjectsHut](/images/screenshot1.png)
 
@@ -18,8 +17,8 @@ ProjectsHut is an innovative platform that allows users to publish their project
 
 ## 🧰 Tech Stack Used
 
+- [React](https://reactjs.org/) - React is a free and open-source front-end JavaScript library.
 - [Tailwind CSS](https://tailwindcss.com) - Tailwind CSS is an open source CSS framework.
-
 
 ## 🛡️ License
 
