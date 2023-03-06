@@ -25,7 +25,7 @@ const Home = () => {
               target="_blank"
             >
               <span className="inline-block rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-primary focus:outline-none focus:ring active:text-primary">
-                Add projects
+                🧑‍💻 Add projects
               </span>
             </a>
 
@@ -33,7 +33,7 @@ const Home = () => {
               className="inline-block rounded border border-primary px-12 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-white focus:outline-none focus:ring active:bg-primary "
               to="projects"
             >
-              Browse projects
+              👀 Browse projects
             </Link>
           </div>
         </div>
