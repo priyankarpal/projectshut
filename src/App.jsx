@@ -11,7 +11,6 @@ function App() {
         <Route path="projects" element={<Projects />} />
       </Routes>
       <Footer />
-      <script async defer src="https://buttons.github.io/buttons.js" />
     </div>
   );
 }
