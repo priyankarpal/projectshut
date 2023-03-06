@@ -7,17 +7,18 @@
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
 ## 🧐 Follow these steps to Contribute
+> Also you can add your code through Gitpod 
+> [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
 1.  Fork this repository
 2.  Clone it to your computer `git clone https://github.com/your-username/ProjectsHut.git`
 3.  Navigate to the project folder `cd ProjectsHut`
 4.  Add your projects to here
-    - install dependencies `yarn`
-    - run in local `yarn run dev`
-    - add following code to end of `src/DB/projects.json`
 
-> Also you can add your code through Gitpod 
-> [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
+    
+ - add following code to end of `src/DB/projects.json`
+
+
 
 
 ```json
@@ -29,6 +30,10 @@
   "tech": ["some tech 1", "some tech 2", "etc"]
 }
 ```
+
+ > If you want to run it locally then follow these
+ >  - install dependencies `yarn`
+ >  - run in local `yarn run dev`
 
 5.  Create a new branch using your `GitHub Username`
 
