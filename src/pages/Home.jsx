@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section>
-      <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center">
+      <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center font-inter">
         <div className="mx-auto max-w-xl flex flex-col items-center text-center">
-          <h1 className="font-mono text-[50px] sm:text-[60px] text-white font-light -mt-16">
+          <h1 className=" text-[5rem] text-white font-bold -mt-16">
             ProjectsHut
           </h1>
           <h1 className="leading-3 text-[11px] sm:text-[14px] tracking-widest text-primary">
