@@ -1,28 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* root */
-
-html {
-  @apply bg-secondary;
-}
-
-/* Scrollbar design */
-
-.scrollbar::-webkit-scrollbar {
-  @apply h-[5px];
-}
-
-.scrollbar::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgb(166 110 252 / var(--tw-bg-opacity));
-  outline: 1px solid slategrey;
-}
-
-.scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
