@@ -1,13 +1,13 @@
-## 🥑ProjectsHut: A Place to find lots of cool Projects
-
-![screenzy-1678085645412](https://user-images.githubusercontent.com/94536522/223041920-03bda3be-140d-4c41-9e50-d3ec88448cb7.png)
-
 <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
   <img
     src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
     alt="Contribute with Gitpod"
   />
 </a>
+
+## 🥑ProjectsHut: A Place to find lots of cool Projects
+
+![ProjectsHut](/images/projectshut.png)
 
 ## 🤓 Why ProjectsHut ?
 
