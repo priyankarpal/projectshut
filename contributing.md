@@ -35,7 +35,7 @@
 4.  Clone it to your computer
 
 ```
- git clone https://github.com/your-username/ProjectsHut.git
+ git clone https://github.com/[your-username]/ProjectsHut.git
 ```
 
 5.  Navigate to the project folder
