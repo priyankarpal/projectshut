@@ -6,16 +6,16 @@ const Home = () => {
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center font-inter">
         <div className="mx-auto max-w-xl flex flex-col items-center text-center">
-          <h1 className=" text-[5rem] text-white font-bold -mt-16">
+          <h1 className=" text-[5rem] flex-wrap md:text-5 text-white font-bold -mt-16">
             ProjectsHut
           </h1>
-          <h1 className="leading-3 text-[11px] sm:text-[14px] tracking-widest text-primary">
-            Create & Explore
+          <h1 className="leading-3 text-[1rem] tracking-widest text-primary">
+            Show your projects to the world 🌎
           </h1>
 
           <p className="mt-9 sm:text-[1.5rem] sm:leading-relaxed">
             ProjectsHut is an innovative platform that allows users to publish
-            their projects 🤙 for free
+            their projects.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
