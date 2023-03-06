@@ -7,9 +7,9 @@ function App() {
     <div className="bg-secondary text-white">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="/*" element={<Error />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="projects" element={<Projects />} />
+        <Route exact path="/*" element={<Error />} />
       </Routes>
       <Footer />
     </div>
