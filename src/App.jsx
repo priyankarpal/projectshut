@@ -56,8 +56,8 @@ function App() {
           </div>
         </div>
 
-        <div className="mt-8 grid grid-cols-1  gap-8 md:grid-cols-2 lg:grid-cols-3 m-[4rem]">
-          {/* Projects */}
+        <div className="mt-8 grid grid-cols-1 m-[6rem]  gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+          {/* Projects  */}
           {projects.map((project, i) => (
             <ProjectCard
               gh={project["gh-username"]}
