@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section>
-      <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center font-inter">
+      <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center font-inter ">
         <div className="mx-auto max-w-xl flex flex-col items-center text-center">
-          <h1 className=" text-[5rem] flex-wrap md:text-5 text-white font-bold -mt-16">
+          <h1 className=" text-[3rem] flex-wrap xl:text-[5rem] text-white font-bold -mt-16">
             ProjectsHut
           </h1>
-          <h1 className="leading-3 text-[1rem] tracking-widest text-primary">
+          <h1 className="leading-3 text-[1rem] tracking-widest text-primary ">
             Show your projects to the world 🌎
           </h1>
 

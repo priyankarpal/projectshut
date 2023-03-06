@@ -1,13 +1,10 @@
 const Footer = () => {
   return (
     <footer aria-label="Site Footer">
-      <div className=" pb-5 px-10 w-full  bg-secondary">
-        <div className="flex justify-between ">
-          <div>Handcrafted By Students ❤️🚀</div>
-          <div className="flex items-center justify-start ml-4 space-x-4">
-            <a target={"_blank"} href=" https://github.com/priyankarpal">
-              GitHub
-            </a>
+      <div className=" pb-5 px-[5rem] w-full  bg-secondary">
+        <div className="flex justify-between flex-wrap ">
+          <div>Handcrafted with ❤️🚀</div>
+          <div className="flex ml-4 space-x-4">
             <a target={"_blank"} href="https://twitter.com/priyankarpal">
               Twitter
             </a>
