@@ -10,13 +10,13 @@ const Navbar = () => {
         href="/"
         className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white font-bold text-[1.3rem] "
       >
-        ph.
+        🚀
       </a>
 
       <ul className="flex items-center gap-2  text-[1.3rem] text-white">
         <li className="hidden lg:block">
           <Link className="rounded-lg px-3 py-2" to="/">
-            Home
+            🏠 Home
           </Link>
         </li>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Docs
+            📗 Docs
           </a>
         </li>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            🥷 GitHub
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
