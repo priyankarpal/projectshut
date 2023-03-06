@@ -24,18 +24,16 @@ const Home = () => {
               href="https://github.com/priyankarpal/ProjectsHut/fork"
               target="_blank"
             >
-              <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
-
-              <span className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75">
-                Fork it
+              <span className="inline-block rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-primary focus:outline-none focus:ring active:text-primary">
+                Add projects
               </span>
             </a>
 
             <Link
-              className="inline-block  border border-current px-8 py-3 text-sm font-bold text-white tracking-widest uppercase transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-primary"
+              className="inline-block rounded border border-primary px-12 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-white focus:outline-none focus:ring active:bg-primary "
               to="projects"
             >
-              Browse
+              Browse projects
             </Link>
           </div>
         </div>

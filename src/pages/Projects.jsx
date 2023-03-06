@@ -1,19 +1,12 @@
 import React from "react";
 import { ProjectCard } from "../components";
 import projects from "../DB/projects.json";
-import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <section id="projects" className="mb-32">
+    <section id="projects" className="my-32">
       <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
-          <Link
-            className="inline-block my-10 border border-current px-8 py-3 text-sm font-bold text-white tracking-widest uppercase transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-primary"
-            to="/"
-          >
-            Back
-          </Link>
           <h2 className="text-3xl font-bold sm:text-4xl">
             List of cool 🔥 Projects
           </h2>
