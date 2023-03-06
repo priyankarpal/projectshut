@@ -22,7 +22,7 @@ function App() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              class="inline-block rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-primary focus:outline-none focus:ring active:text-primary"
+              className="inline-block rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-primary focus:outline-none focus:ring active:text-primary"
               href="https://github.com/priyankarpal/ProjectsHut/fork"
               target="_blank"
               rel="noreferrer"
@@ -31,7 +31,7 @@ function App() {
             </a>
 
             <a
-              class="inline-block rounded border border-primary px-12 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-white focus:outline-none focus:ring active:bg-primary "
+              className="inline-block rounded border border-primary px-12 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-white focus:outline-none focus:ring active:bg-primary "
               href="#projects"
             >
               Browse projects
