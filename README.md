@@ -1,13 +1,15 @@
 ## 🥑ProjectsHut: A Place to find lots of cool Projects
 
-![ProjectsHut](/images/screenshot1.png)
+![screenzy-1678085645412](https://user-images.githubusercontent.com/94536522/223041920-03bda3be-140d-4c41-9e50-d3ec88448cb7.png)
+
 
 ## 🤓 Why ProjectsHut ?
 
 ProjectsHut is an innovative platform that allows users to publish their projects for free. It's designed to provide a space for individuals to showcase their work and connect with a global audience. The website is open source, which means that its code is freely available to the public, allowing developers to contribute to its growth and improvement.
 [ProjectsHut](https://projectshut.vercel.app) offers a user-friendly interface, making it easy to publish projects and share them with others. Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its open-source design
 
-![ProjectsHut](/images/screenshot2.png)
+![screenzy-1678085669123](https://user-images.githubusercontent.com/94536522/223041960-9440195d-fbd9-47f5-9c70-95f1c13dfa45.png)
+
 
 ## 🤔 How to contribute ?
 
