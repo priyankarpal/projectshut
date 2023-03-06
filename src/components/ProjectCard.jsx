@@ -12,10 +12,10 @@ const ProjectCard = ({ gh, name, link, title, description, tech }) => {
           alt={`${gh}'s github profile`}
         />
       </div>
-      <p className="mt-1  text-gray-500 dark:text-gray-500 flex flex-row overflow-auto">
+      <p className="mt-1  text-gray-500 dark:text-gray-500 flex gap-1 flex-row overflow-auto">
         {tech.map((tag, i) => (
           <p
-            className="bg-green-400 rounded-full text-black pl-[.8rem] pr-[.8rem] m-[.2rem] xl:text-[1rem] md:text-[0.8rem]"
+            className="bg-green-400 rounded-full text-black pl-[.5rem] pr-[.5rem] text-[.8rem]"
             key={i}
           >
             {tag}
