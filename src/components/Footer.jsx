@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer aria-label="Site Footer">
       <div className=" pb-8 mx-auto sm:px-6 w-full bg-secondary">
-        <div className="pt-8 mt-5 border-t flex justify-center items-center border-gray-100 dark:border-gray-800">
+        <div className="pt-8 mt-5  flex justify-center items-center  ">
           <div className="flex items-center justify-start ml-4 space-x-4">
             <a
               href="https://github.com/priyankarpal/ProjectsHut"
