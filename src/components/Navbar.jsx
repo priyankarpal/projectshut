@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav
@@ -13,9 +15,9 @@ const Navbar = () => {
 
       <ul className="flex items-center gap-2  text-[1.3rem] text-white">
         <li className="hidden lg:block">
-          <a className="rounded-lg px-3 py-2" href="/">
+          <Link className="rounded-lg px-3 py-2" to="/">
             Home
-          </a>
+          </Link>
         </li>
 
         <li>
