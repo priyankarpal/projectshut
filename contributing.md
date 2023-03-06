@@ -4,7 +4,7 @@
 
 - [Git](https://git-scm.com)
 - [GitHub](https://github.com)
-- [HTML](https://www.w3schools.com/html)
+- [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
 ## 🧐 Follow these steps to Contribute
 
@@ -16,13 +16,17 @@
     - run in local `yarn run dev`
     - add following code to end of `src/DB/projects.json`
 
+> Also you can add your code through Gitpod 
+> [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
+
+
 ```json
 {
-        "gh-username": "YOUR-GITHUB-USERNAME",
-        "link": "LINK-TO-GITHUB-OR-DEMO",
-        "title": "PROJECT-TITLE",
-        "description": "PROJECT-DESCRIPTION",
-        "tech": ["some tech 1", "some tech 2", "etc"]
+  "gh-username": "YOUR-GITHUB-USERNAME",
+  "link": "LINK-TO-GITHUB-OR-DEMO",
+  "title": "PROJECT-TITLE",
+  "description": "PROJECT-DESCRIPTION",
+  "tech": ["some tech 1", "some tech 2", "etc"]
 }
 ```
 
@@ -33,6 +37,7 @@ git checkout -b [name_of_your_new_branch]
 ```
 
 6. Add your changes.
+
 ```diff
 git add .
 ```
