@@ -9,10 +9,10 @@ function App() {
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-xl flex flex-col items-center text-center">
-            <h1 className="font-mono text-[50px] sm:text-[60px] text-white font-light -mt-16">
+            <h1 className="font-mono text-[50px] sm:text-[60px] text-white font-bold -mt-16">
               ProjectsHut
             </h1>
-            <h1 className="leading-3 text-[11px] sm:text-[14px] tracking-widest text-primary">
+            <h1 className="leading-3 text-[1rem] sm:text-[1rem] tracking-widest text-primary">
               Create & Explore
             </h1>
 
@@ -23,22 +23,19 @@ function App() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                className="group relative inline-block focus:outline-none focus:ring"
+                class="inline-block rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-primary focus:outline-none focus:ring active:text-primary"
                 href="https://github.com/priyankarpal/ProjectsHut/fork"
                 target="_blank"
+                rel="noreferrer"
               >
-                <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
-
-                <span className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75">
-                  Fork it
-                </span>
+                Add projects
               </a>
 
               <a
-                className="inline-block  border border-current px-8 py-3 text-sm font-bold text-white tracking-widest uppercase transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-primary"
+                class="inline-block rounded border border-primary px-12 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-white focus:outline-none focus:ring active:bg-primary "
                 href="#projects"
               >
-                Browse
+                Browse projects
               </a>
             </div>
           </div>
