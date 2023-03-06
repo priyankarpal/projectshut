@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "./components";
-import { Projects, Home } from "./pages";
+import { Projects, Home, Error } from "./pages";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
       <Footer />
     </div>
