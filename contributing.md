@@ -6,9 +6,8 @@
 - [GitHub](https://github.com)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
-## 🧐 Follow these steps to Contribute
-> Also you can add your code through Gitpod 
-> [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
+## 🧐 Follow these steps to Contribute 
+ [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
 1.  Fork this repository
 2.  Clone it to your computer `git clone https://github.com/your-username/ProjectsHut.git`
