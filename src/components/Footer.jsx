@@ -1,27 +1,22 @@
 const Footer = () => {
   return (
     <footer aria-label="Site Footer">
-      <div className=" pb-8 mx-auto sm:px-6 w-full bg-secondary">
-        <div className="pt-8 mt-5  flex justify-center items-center  ">
+      <div className=" pb-5 px-10 w-full  bg-secondary">
+        <div className="flex justify-between ">
+          <div>Handcrafted By Students ❤️🚀</div>
           <div className="flex items-center justify-start ml-4 space-x-4">
-            <a
-              href="https://github.com/priyankarpal/ProjectsHut"
-              title="Github"
-              target="_blank"
-            >
-              <i className="fa-brands fa-github fa-xl" />
+            <a target={"_blank"} href=" https://github.com/priyankarpal">
+              GitHub
+            </a>
+            <a target={"_blank"} href="https://twitter.com/priyankarpal">
+              Twitter
             </a>
             <a
-              href="https://twitter.com/Priyankarpal"
-              title="Twitter"
-              target="_blank"
+              target={"_blank"}
+              href="https://www.linkedin.com/in/priyankarpal"
             >
-              <i className="fa-brands fa-twitter fa-xl" />
+              LinkedIn
             </a>
-          </div>
-
-          <div className="flex items-center justify-center flex-1">
-            Handcrafted By Students ❤️🚀
           </div>
         </div>
       </div>
