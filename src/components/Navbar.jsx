@@ -6,12 +6,12 @@ const Navbar = () => {
       aria-label="Site Nav"
       className="mx-auto flex max-w-3xl items-center justify-between p-4"
     >
-      <a
-        href="/"
+      <Link
+        to="/"
         className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white font-bold text-[1.3rem] "
       >
         🚀
-      </a>
+      </Link>
 
       <ul className="flex items-center gap-2  text-[1.3rem] text-white">
         <li className="hidden lg:block">
