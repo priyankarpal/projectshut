@@ -29,7 +29,7 @@ const ProjectCard = ({ gh, link, title, description, tech }) => {
         target="_blank"
         rel="noreferrer"
       >
-        Check it out
+      Collect it ⚡️
       </a>
     </div>
   );
