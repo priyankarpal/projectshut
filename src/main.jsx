@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./CSS/index.css";
 import { BrowserRouter } from "react-router-dom";
+
+// for analytics by Vercel
 import { inject } from "@vercel/analytics";
 
 inject();
