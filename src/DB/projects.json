@@ -77,10 +77,11 @@
     "tech": ["HTML", "Tailwind", "JS"]
   },
   {
-  "gh-username": "himanshu1221",
-  "link": "https://github.com/himanshu1221/linkfree_clone",
-  "title": "Link Free Clone",
-  "description": "It's a linkfree clone for beginners where you can add your customisations",
-  "tech": ["ReactJS", "CSS", "JavaScript"]
-}
+    "gh-username": "himanshu1221",
+    "link": "https://github.com/himanshu1221/linkfree_clone",
+    "title": "Link Free Clone",
+    "description": "It's a linkfree clone for beginners where you can add your customisations",
+    "tech": ["ReactJS", "CSS", "JavaScript"]
+  }
 ]
+
