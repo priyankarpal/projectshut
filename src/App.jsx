@@ -1,6 +1,6 @@
 import { Navbar, Footer } from "./components";
-import { Projects, Home, Error } from "./pages";
-import { Route, Routes } from "react-router-dom";
+import { Projects, Home } from "./pages";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="/*" element={<Error />} />
+        <Route path="/*" element={<Navigate to={"/"} />} />
       </Routes>
       <Footer />
     </div>
