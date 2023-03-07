@@ -1,4 +1,4 @@
-name: Add labels to issues and pull requests
+name: Add labels
 
 on:
   issues:
