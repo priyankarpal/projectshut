@@ -1,13 +1,13 @@
 import { Navbar, Footer } from "./components";
-import { ProjectsPage, Home } from "./pages";
+import { ProjectsPage, HomePage } from "./pages";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-secondary text-white">
+    <div className=" text-white">
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route path="ProjectsPage" element={<ProjectsPage />} />
         <Route path="/*" element={<Navigate to={"/"} />} />
       </Routes>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center ">
@@ -42,4 +42,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
