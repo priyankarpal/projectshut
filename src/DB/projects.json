@@ -7,6 +7,13 @@
     "tech": ["JSON", "Yo Code"]
   },
   {
+  "gh-username": "priyankarpal",
+  "link": "https://github.com/priyankarpal/JokeHub",
+  "title": "JokeHub",
+  "description": "This is a random jokes collecting website",
+  "tech": ["HTML", "CSS", "JS"]
+ },
+  {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
