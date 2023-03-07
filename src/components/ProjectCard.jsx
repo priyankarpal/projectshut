@@ -15,7 +15,7 @@ const ProjectCard = ({ gh, link, title, description, tech }) => {
       <div className="mt-1  text-gray-500 dark:text-gray-500 flex flex-row overflow-auto scrollbar items-center">
         {tech.map((tag, i) => (
           <p
-            className="bg-green-400 rounded-full text-black pl-[.8rem] pr-[.8rem] m-[.2rem] xl:text-[1rem] md:text-[0.8rem] whitespace-nowrap"
+            className="bg-red-500 rounded-full text-white pl-[.5rem] pr-[.5rem] m-[.2rem] text-[.8rem]"
             key={i}
           >
             {tag}
