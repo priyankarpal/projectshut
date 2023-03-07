@@ -15,7 +15,7 @@ ProjectsHut is an innovative platform that allows users to publish their project
 
 [ProjectsHut](https://projectshut.vercel.app) offers a user-friendly interface, making it easy to publish projects and share them with others. Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its open-source design
 
-![screenzy-1678085669123](https://user-images.githubusercontent.com/94536522/223041960-9440195d-fbd9-47f5-9c70-95f1c13dfa45.png)
+![ProjectsHut](/images/ph-2.png)
 
 ## 🤔 How to contribute ?
 
