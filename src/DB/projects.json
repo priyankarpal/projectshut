@@ -75,5 +75,12 @@
     "title": "QR Code Generator",
     "description": "Simple app to generate and download a QR code that can be used to share a link.",
     "tech": ["HTML", "Tailwind", "JS"]
-  }
+  },
+  {
+  "gh-username": "himanshu1221",
+  "link": "https://github.com/himanshu1221/linkfree_clone",
+  "title": "Link Free Clone",
+  "description": "It's a linkfree clone for beginners where you can add your customisations",
+  "tech": ["ReactJS", "CSS", "JavaScript"]
+}
 ]
