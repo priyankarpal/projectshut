@@ -7,7 +7,7 @@ const Projects = () => {
     <section id="projects" className="my-20">
       <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
         <div className="mx-auto  text-center">
-          <h2 className="text-[4rem] font-bold  font-inter">
+          <h2 className="text-[4rem] font-bold  ">
             List of cool Projects 🤩
           </h2>
 
