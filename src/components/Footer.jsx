@@ -3,8 +3,21 @@ const Footer = () => {
     <footer aria-label="Site Footer">
       <div className=" pb-5 px-[5rem] w-full  bg-secondary">
         <div className="flex justify-between flex-wrap ">
-          <div>Handcrafted with ❤️🚀</div>
-          <div className="flex ml-4 space-x-4">
+          <div>
+            <p>
+              Under{" "}
+              <a
+                href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
+                target={"_blank"}
+                rel="noreferrer"
+                className="text-primary"
+              >
+                MIT License
+              </a>
+            </p>
+          </div>
+
+          <div className="flex ml-4 gap-5">
             <a target={"_blank"} href="https://twitter.com/priyankarpal">
               Twitter
             </a>
