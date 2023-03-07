@@ -1,0 +1,52 @@
+name: Add labels to issues and pull requests
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, edited]
+  push:
+    paths:
+      - '**.md'
+      - 'projects.json'
+
+jobs:
+  add_labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add "bug" label to issues with "bug" in the title
+        if: contains(github.event.issue.title, 'bug')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: bug
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add "small" label to pull requests with less than 100 lines of code
+        if: github.event.pull_request.additions + github.event.pull_request.deletions < 100
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: small
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add "large" label to pull requests with more than 1000 lines of code
+        if: github.event.pull_request.additions + github.event.pull_request.deletions > 1000
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: large
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add "image" label to issues or pull requests with images attached
+        if: contains(github.event.issue.body, '![image]')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: image
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add "docs" label to issues or pull requests when a .md file is modified
+        if: contains(github.event.head_commit.modified, '*.md')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: docs
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add "projects" label to issues or pull requests when projects are added to projects.json
+        if: contains(github.event.head_commit.modified, 'projects.json') && contains(github.event.head_commit.message, 'projects')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: projects
+          github-token: ${{ secrets.GITHUB_TOKEN }}
