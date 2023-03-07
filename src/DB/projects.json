@@ -4,90 +4,137 @@
     "link": "https://github.com/priyankarpal/TheaTheme",
     "title": "Thea Theme",
     "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
-    "tech": ["JSON", "Yo Code"]
+    "tech": [
+      "JSON",
+      "Yo Code"
+    ]
   },
   {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
     "description": "Here is the android clean architecture based Note taking application take a look off it !!",
-    "tech": ["Kotlin", "Jetpack Compose", "Clean Architecture"]
+    "tech": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Clean Architecture"
+    ]
   },
   {
     "gh-username": "A10-g",
     "link": "https://github.com/A10-g/TipCalculator",
     "title": "Tip Calculator",
     "description": "It's a simple Tip Calculator that can also be used as Simple Interest Calculator.",
-    "tech": ["Kotlin"]
+    "tech": [
+      "Kotlin"
+    ]
   },
   {
     "gh-username": "chatbot-1",
     "link": "https://github.com/chatbot-1/SpaceX_Clone",
     "title": "Space-X Clone",
     "description": "It is the clone layout of space-X site owned by Elon Musk.",
-    "tech": ["HTML", "CSS", "JS"]
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "gh-username": "Alkaison",
     "link": "https://github.com/chatbot-1/SpaceX_Clone",
     "title": "Space-X Clone",
     "description": "It is the clone layout of space-X site owned by Elon Musk.",
-    "tech": ["HTML", "CSS", "JS"]
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "gh-username": "Alkaison",
     "link": "https://github.com/Alkaison/Alkaison.github.io",
     "title": "Alkaison Blog",
     "description": "I'll be sharing my knowledge on a variety of topics and concepts.",
-    "tech": ["HTML", "CSS", "JS", "Ruby"]
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS",
+      "Ruby"
+    ]
   },
   {
     "gh-username": "Alkaison",
     "link": "https://github.com/Alkaison/Phonebook-Management-System",
     "title": "Phonebook Management System",
     "description": "It is a software application that allows users to store, organize and manage large numbers of contact records efficiently. The system is designed to have functions such as adding, updating, viewing, listing and deleting contacts.",
-    "tech": ["C"]
+    "tech": [
+      "C"
+    ]
   },
   {
     "gh-username": "JasonDsouza212",
     "link": "https://github.com/JasonDsouza212/free-hit",
     "title": "Free-Hit",
     "description": "This project is a collection of all the open-source projects that we and common people use in their day-to-day lives, such as a resume builder, remote jobs platform, readme generator, and more.",
-    "tech": ["HTML", "CSS", "React"]
+    "tech": [
+      "HTML",
+      "CSS",
+      "React"
+    ]
   },
   {
     "gh-username": "ujjawaltyagii",
     "link": "https://github.com/ujjawaltyagii/Razorpay-Clone",
     "title": "Razorpay Clone",
     "description": "Created Razorpay Clone which is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite.",
-    "tech": ["HTML", "Tailwind", "JS"]
+    "tech": [
+      "HTML",
+      "Tailwind",
+      "JS"
+    ]
   },
   {
     "gh-username": "Vijaykv5",
     "link": "https://github.com/Vijaykv5/Drum-Kit",
     "title": "Drum Kit",
     "description": "This project is to create your own Music by Implementation of JavaScript",
-    "tech": ["HTML", "CSS", "JS"]
+    "tech": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "gh-username": "Shiva-Sai-ssb",
     "link": "https://github.com/Shiva-Sai-ssb/QR-Code-Generator",
     "title": "QR Code Generator",
     "description": "Simple app to generate and download a QR code that can be used to share a link.",
-    "tech": ["HTML", "Tailwind", "JS"]
+    "tech": [
+      "HTML",
+      "Tailwind",
+      "JS"
+    ]
   },
   {
     "gh-username": "himanshu1221",
     "link": "https://github.com/himanshu1221/linkfree_clone",
     "title": "Link Free Clone",
     "description": "It's a linkfree clone for beginners where you can add your customisations",
-    "tech": ["ReactJS", "CSS", "JavaScript"]
+    "tech": [
+      "ReactJS",
+      "CSS",
+      "JavaScript"
+    ]
   },
   {
     "gh-username": "JoseVale99",
     "link": "https://github.com/JoseVale99/loginPyQt5",
     "title": "Login PyQt5 Awesome GUI",
-    "description": "It's a minimalist login in the Python language using the PyQt5 library.",
-    "tech": ["Python", "PyQt5"]
+    "description": "It's a minimalist login in the Python language using the PyQt5 library. ",
+    "tech": [
+      "Python",
+      "PyQt5"
+    ]
   }
 ]
