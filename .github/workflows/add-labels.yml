@@ -26,7 +26,7 @@ jobs:
         with:
           labels: small
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Add "large" label to pull requests with more than 1000 lines of code
+      - name: Add "large" label to pull requests with more than 101 lines of code
         if: github.event.pull_request.additions + github.event.pull_request.deletions > 101
         uses: actions-ecosystem/action-add-labels@v1
         with:
