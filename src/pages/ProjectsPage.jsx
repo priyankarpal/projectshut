@@ -2,14 +2,12 @@ import React from "react";
 import { ProjectCard } from "../components";
 import projects from "../DB/projects.json";
 
-const Projects = () => {
+const ProjectsPage = () => {
   return (
     <section id="projects" className="my-20">
       <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
         <div className="mx-auto  text-center">
-          <h2 className="text-[4rem] font-bold  ">
-            List of cool Projects 🤩
-          </h2>
+          <h2 className="text-[4rem] font-bold  ">List of cool Projects 🤩</h2>
 
           <p className="m-4 text-gray-300 text-[1.5rem]">
             didn't find your project? {"  "}
@@ -46,4 +44,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;
