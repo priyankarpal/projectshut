@@ -1,4 +1,4 @@
-name: Contributors List
+
 on:
     push:
         branches:
