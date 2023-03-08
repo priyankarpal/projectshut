@@ -1,7 +1,7 @@
 name: Update Contributions List
 on:
   schedule:
-    - cron: "0 0 * * *" # Run every day at midnight
+    - cron: "1 * * * *"
 jobs:
   update_contributions_list:
     runs-on: ubuntu-latest
