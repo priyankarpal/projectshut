@@ -137,7 +137,7 @@
       "PyQt5"
     ]
   },
-    {
+  {
     "gh-username": "GyanPrakashKumar",
     "link": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
     "title": "QR code component",
@@ -145,6 +145,16 @@
     "tech": [
       "HTML",
       "CSS"
+    ]
+  },
+  {
+    "gh-username": "T-Regx",
+    "link": "https://github.com/t-regx/T-Regx",
+    "description": "Lightweight, high-level library for regular expressions in PHP",
+    "title": "T-Regx",
+    "tech": [
+      "PHP",
+      "Regexp"
     ]
   }
 ]
