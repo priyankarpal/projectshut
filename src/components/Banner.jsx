@@ -8,8 +8,8 @@ const Banner = () => {
           <div className="relative z-10 lg:py-16 ">
             <div className="relative h-64 sm:h-80 lg:h-full ">
               <img
-                alt="House"
-                src="./images/ph-2.png"
+                alt="ProjectsHut"
+                src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 className="absolute inset-0 h-full w-full object-cover rounded-md"
               />
             </div>
