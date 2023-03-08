@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="relative h-64 sm:h-80 lg:h-full ">
               <img
                 alt="House"
-                src="/images/ph-2.png"
+                src="./images/ph-2.png"
                 className="absolute inset-0 h-full w-full object-cover rounded-md"
               />
             </div>
