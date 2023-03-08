@@ -1,17 +1,27 @@
-name: Update Contributions List
+name: Generate Contributors List
 on:
-  schedule:
-    - cron: "1 * * * *"
+  push:
+    branches:
+      - main
 jobs:
-  update_contributions_list:
+  generate-contributors-list:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
-      - name: Update contributions list
-        uses: peter-evans/github-contributions@v2.2.9
+      - name: Generate contributors list
+        uses: peter-evans/contributors-generator@v2.0.2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: priyankarpal/ProjectsHut
-          user: priyankarpal
-          timeZone: "Asia/Kolkata"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          include-merge-commits: false
+      - name: Commit contributors list
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add CONTRIBUTORS.md
+          git commit -m "Updated contributors list"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          directory: "."
