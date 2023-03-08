@@ -136,5 +136,15 @@
       "Python",
       "PyQt5"
     ]
+  },
+    {
+    "gh-username": "GyanPrakashKumar",
+    "link": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
+    "title": "QR code component",
+    "description": "This is a solution to the QR code component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
+    "tech": [
+      "HTML",
+      "CSS"
+    ]
   }
 ]
