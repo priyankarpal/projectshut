@@ -36,7 +36,7 @@ ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github
 
 Don't forget to ⭐ it. Thanks for awesome supports 🙏
 
-# Our Contributors 
+# Contributors 
 
 <!-- readme: contributors -start -->
 <!-- readme: contributors -end -->
