@@ -30,7 +30,7 @@ ProjectsHut is an innovative platform that allows users to publish their project
 
 ## 🛡️ License
 
-ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) file for details.
+ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
 
 ## 🙏 Support
 
