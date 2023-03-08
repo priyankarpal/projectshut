@@ -36,6 +36,7 @@ ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github
 
 Don't forget to ⭐ it. Thanks for awesome supports 🙏
 
-<a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
-</a>
+# Our Contributors 
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
