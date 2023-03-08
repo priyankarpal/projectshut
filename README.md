@@ -1,4 +1,7 @@
 <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img
     src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
     alt="Contribute with Gitpod"
@@ -36,7 +39,14 @@ ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github
 
 Don't forget to ⭐ it. Thanks for awesome supports 🙏
 
-# Contributors 
+## Contributors ✨
 
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
