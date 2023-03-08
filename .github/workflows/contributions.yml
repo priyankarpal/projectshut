@@ -1,0 +1,17 @@
+name: Update Contributions List
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run every day at midnight
+jobs:
+  update_contributions_list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Update contributions list
+        uses: peter-evans/github-contributions@v2.2.9
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: priyankarpal/ProjectsHut
+          user: priyankarpal
+          timeZone: "Asia/Kolkata"
