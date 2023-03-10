@@ -1,11 +1,5 @@
 # 😎 Contribute your Code to ProjectsHut
 
-#### Make sure you've basic knowledge of these
-
-- [Git](https://git-scm.com)
-- [GitHub](https://github.com)
-- [JSON](https://www.w3schools.com/js/js_json_intro.asp)
-
 ## 🧐 Follow these steps to Contribute
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
