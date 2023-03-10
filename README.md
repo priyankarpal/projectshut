@@ -1,4 +1,3 @@
-
 <div align="center">
 <h1>🥑ProjectsHut</h1> 
 <h3>A Place to find lots of cool Projects</h3>
@@ -29,16 +28,10 @@ ProjectsHut is an innovative platform that allows users to publish their project
 
 ## 🧰 Tech Stack Used
 
-| Technology                                 | Description                                                                                               |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)|  React is a free and open-source front-end JavaScript library.                      |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)   | Tailwind CSS is an open source CSS framework. |
-
-
-<!--
-- [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/) - React is a free and open-source front-end JavaScript library.
-- [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) - Tailwind CSS is an open source CSS framework.
--->
+| Technology                                                                                                                                           | Description                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library. |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                 |
 
 ## 🛡️ License
 
@@ -50,13 +43,6 @@ ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github
   <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
 </a>
 
-
 ## 🙏 Support
 
 Thanks for awesome supports 🙏
-
-
-
-
-
-
