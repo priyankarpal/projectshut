@@ -117,5 +117,12 @@
     "description": "Discover new movies and genres with chatbot experience.",
     "title": "Filmpire",
     "tech": ["React", "Material UI", "Alan AI"]
+  },
+   {
+    "gh-username": "rohitverse",
+    "link": "https://nftgalaxy.vercel.app",
+    "description": "A Simple NFT Marketplace Where People Can Buy, Sell , Create NFT and Resell their NFTs!",
+    "title": "NFTGalaxy Marketplace",
+    "tech": ["NextJs", "Solidity", "Ethers"]
   }
 ]
