@@ -8,8 +8,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route path="ProjectsPage" element={<ProjectsPage />} />
-        <Route path="/*" element={<Navigate to={"/"} />} />
+        <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
+        <Route exact path="/*" element={<Navigate to={"/"} />} />
       </Routes>
       <Footer />
     </div>
