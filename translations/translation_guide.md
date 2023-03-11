@@ -19,13 +19,19 @@ You need to translate the document below.
 
    
    
+## 💡 Translation Tip
+
+* Translating [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) is helpful to read Contributor Covenant's [Translations](https://www.contributor-covenant.org/translations/) documentation. It includes a version, so please check the version carefully.
+
+  
+  
 ## ✒ How to contribute to translation
 
 ### Run it on GitHub Website
 
 1. Fork repository
-
-2. Click on `translation` folder and create a folder with the name of the language you want to translate.
+![ Fork this repository](/images/fork.png)
+2. Click on `translations` folder and create a folder with the name of the language you want to translate.
 
 3. Add the translated documents in folder you have created.
 
@@ -37,7 +43,7 @@ You need to translate the document below.
 ### Run it Locally
 
 1. Fork repository
-
+![ Fork this repository](/images/fork.png)
 2. Clone it to your computer
 
 ```
@@ -68,7 +74,7 @@ yarn run dev
 git checkout -b [name_of_your_new_branch]
 ```
 
-7. Create a folder with the name of the language you want to translate in `translation` folder.
+7. Create a folder with the name of the language you want to translate in `translations` folder.
 
 8. Add the translated documents in folder you have created.
 
@@ -100,8 +106,3 @@ git push -u origin [Your-branch-name]
 
 14. Wait for merge
    
-
-## Translation Tip
-
-* Translating [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) is helpful to read Contributor Covenant's [Translations](https://www.contributor-covenant.org/translations/) documentation. It includes a version, so please check the version carefully.
-
