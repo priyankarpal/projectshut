@@ -16,7 +16,7 @@
 
 ProjectsHut은 사용자가 프로젝트를 무료로 게시할 수 있는 혁신적인 플랫폼입니다. 개인이 자신의 작품을 선보이고 전 세계 사람들과 연결할 수 있는 공간을 제공하도록 설계되었습니다. 웹 사이트는 오픈 소스이므로 누구나 코드를 공개적으로 사용할 수 있어 개발자가 성장과 개선에 기여할 수 있습니다.
 
-[ProjectsHut](https://projectshut.vercel.app)은 사용자 친화적인 인터페이스를 제공하여 프로젝트를 쉽게 게시하고 다른 사람들과 공유할 수 있습니다. 오픈 소스로 설계되었기에 숙련된 전문가이든, 방금 시작한 초보자든, 당신의 작품을 공유하고 기술 공동체에서 관계를 맺는 것이 가치있는 자원이 될 것입니다.
+[ProjectsHut](https://projectshut.vercel.app)은 사용자 친화적인 인터페이스를 제공하여 프로젝트를 쉽게 게시하고 다른 사람들과 공유할 수 있습니다. 숙련된 전문가이든, 방금 시작한 초보자든 당신의 작품을 공유하고 기술 공동체에서 관계를 맺을 수 있으며 이는 가치있는 자원이 될 것입니다. 이는 오픈 소스 설계를 통해 가능한 일입니다.
 
 ## 🤔 어떻게 기여하나요?
 
@@ -28,8 +28,8 @@ ProjectsHut은 사용자가 프로젝트를 무료로 게시할 수 있는 혁�
 
 | 기술                                                                                                                                           | 설명                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library. |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                 |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React는 무료 오픈 소스 프론트엔드 JavaScript 라이브러리입니다. |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS는 오픈소스 CSS 프레임워크입니다.                 |
 
 ## 🛡️ License
 
