@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
   return (
     <nav
       aria-label="Site Nav"
-      className="mx-auto flex max-w-3xl items-center justify-between p-4"
+      className="mx-auto flex max-w-3xl items-center justify-between p-4 "
     >
       <Link
         to="/"
@@ -14,13 +13,13 @@ const Navbar = () => {
       </Link>
 
       <ul className="flex items-center gap-2  text-[1.3rem] text-white">
-        <li className="hidden lg:block">
+        <li className="hidden lg:block  underline hover:no-underline">
           <Link className="rounded-lg px-3 py-2" to="/">
             🏠 Home
           </Link>
         </li>
 
-        <li>
+        <li className=" underline hover:no-underline">
           <a
             className="rounded-lg px-3 py-2"
             href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
@@ -31,7 +30,7 @@ const Navbar = () => {
           </a>
         </li>
 
-        <li>
+        <li className=" underline hover:no-underline">
           <a
             className="inline-flex items-center gap-2 rounded-lg px-3 py-2"
             href="https://github.com/priyankarpal/ProjectsHut/"

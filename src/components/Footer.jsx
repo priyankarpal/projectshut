@@ -4,7 +4,7 @@ const Footer = () => {
       <div className=" pb-5 px-[5rem] w-full  bg-secondary">
         <div className="flex justify-between flex-wrap ">
           <div>
-            <p>
+            <p className=" underline hover:no-underline">
               Under{" "}
               <a
                 href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
@@ -18,12 +18,12 @@ const Footer = () => {
           </div>
 
           <div className="flex ml-4 gap-5">
-            <a target={"_blank"} href="https://twitter.com/priyankarpal">
+            <a target={"_blank"} href="https://twitter.com/priyankarpal" className=" underline hover:no-underline">
               Twitter
             </a>
             <a
               target={"_blank"}
-              href="https://www.linkedin.com/in/priyankarpal"
+              href="https://www.linkedin.com/in/priyankarpal" className=" underline hover:no-underline"
             >
               LinkedIn
             </a>
