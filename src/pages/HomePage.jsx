@@ -14,9 +14,9 @@ const HomePage = () => {
             Show your projects to the world 🌎
           </h1>
 
-          <p className="mt-9 sm:text-[1.5rem] sm:leading-relaxed">
+          <p className="mt-9 sm:text-[1.5rem] sm:leading-relaxed"> 
             ProjectsHut is an innovative platform that allows users to publish
-            their projects.
+            their projects
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -39,6 +39,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+    
+
       <Banner />
     </section>
   );
