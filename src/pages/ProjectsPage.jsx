@@ -15,12 +15,12 @@ const ProjectsPage = () => {
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
               target={"_blank"}
               rel="noreferrer"
-              className="underline underline-offset-8 decoration-sky-500"
+              className=" underline hover:no-underline"
             >
-              Add your projects{" "}
+              Add your project{" "}
             </a>
             {"  "}
-            <span className="whitespace-nowrap rounded-full bg-green-600 px-2.5 py-0.5 text-sm text-white">
+            <span className="whitespace-nowrap rounded-full bg-red-600 px-2.5 py-0.5 text-sm text-white">
               New
             </span>
           </p>
