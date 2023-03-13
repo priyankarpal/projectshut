@@ -5,7 +5,7 @@
 
 The original text is written in English and is currently translated into the following languages:   
 
-* 
+* Korean
    
 
 
@@ -26,6 +26,7 @@ You need to translate the document below.
   
   
 ## ✒ How to contribute to translation
+* Convert official language to your native language. It would ne better for new comers to contribute to this project. 
 
 ### Run it on GitHub Website
 
