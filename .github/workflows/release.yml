@@ -1,4 +1,4 @@
-name: Semver Release
+name: SemVer Release
 
 on:
   push:
@@ -11,28 +11,58 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Set up Node.js and Yarn
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
-          cache: 'yarn'
+          node-version: '14.x'
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Determine version bump
-        id: determine_version
-        run: |
-          CURRENT_VERSION=$(git tag --sort=-v:refname | head -1)
-          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{printf "%d.%d.%d", $1, $2, $3+1}')
-          echo ::set-output name=bump::$NEW_VERSION
-      - name: Create release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        run: yarn install
+      - name: Determine release type
+        id: determine_release_type
+        uses: actions/github-script@v4
         with:
-          tag_name: v${{ steps.determine_version.outputs.bump }}
-          release_name: Release ${{ steps.determine_version.outputs.bump }}
-          body: |
-            Changes in this release:
-            - ...
-          draft: false
-          prerelease: false
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          script: |
+            const { data } = await github.repos.getLatestRelease({ owner: context.repo.owner, repo: context.repo.repo });
+            const lastTag = data.tag_name;
+            const commits = await github.repos.compareCommits({ owner: context.repo.owner, repo: context.repo.repo, base: lastTag, head: context.sha });
+            const regex = /(#major|#minor)/g;
+            const matches = commits.data.commits.filter(commit => commit.commit.message.match(regex));
+            if (matches.find(match => match.commit.message.includes('#major'))) {
+              return 'major';
+            } else if (matches.find(match => match.commit.message.includes('#minor'))) {
+              return 'minor';
+            } else {
+              return 'patch';
+            }
+      - name: Create release
+        uses: actions/github-script@v4
+        with:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          script: |
+            const { data } = await github.repos.createRelease({ owner: context.repo.owner, repo: context.repo.repo, tag_name: `v1.2.3-rc.1`, name: `Release v1.2.3-rc.1`, body: '', draft: true });
+            core.setOutput('release_id', data.id);
+      - name: Update release body
+        uses: actions/github-script@v4
+        with:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          script: |
+            const releaseId = core.getInput('release_id');
+            const releaseNotes = await github.repos.compareCommits({ owner: context.repo.owner, repo: context.repo.repo, base: `v${{ github.event.before }}`, head: `v1.2.3-rc.1` });
+            const { data } = await github.repos.updateRelease({ owner: context.repo.owner, repo: context.repo.repo, release_id: releaseId, body: releaseNotes.data.commits.map(commit => `- ${commit.commit.message}`).join('\n') });
+      - name: Publish release
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') }}
+        uses: actions/github-script@v4
+        with:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          script: |
+            const releaseId = core.getInput('release_id');
+            await github.repos.updateRelease({ owner: context.repo.owner, repo: context.repo.repo, release_id: releaseId, draft: false });
+      - name: Set SemVer tag
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') }}
+        uses: actions/github-script@v4
+        with:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          script: |
+            const releaseType = await github.context.outputs.determine_release_type;
+            const tagParts = `v
