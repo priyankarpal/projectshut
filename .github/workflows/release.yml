@@ -21,12 +21,13 @@ jobs:
       - name: Determine version bump
         id: determine_version
         run: |
-          DATE=$(date +%Y%m%d)
-          echo ::set-output name=bump::$(yarn version --no-git-tag-version --new-version $(yarn version --no-git-tag-version | awk -F. -v OFS=. '{$3+=1; print}')-$DATE)
+          CURRENT_VERSION=$(git tag --sort=-v:refname | head -1)
+          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{printf "%d.%d.%d", $1, $2+1, $3}')
+          echo ::set-output name=bump::$NEW_VERSION
       - name: Create release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           tag_name: v${{ steps.determine_version.outputs.bump }}
           release_name: Release ${{ steps.determine_version.outputs.bump }}
