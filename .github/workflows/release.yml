@@ -1,0 +1,37 @@
+name: Semver Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Node.js and Yarn
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Determine version bump
+        id: determine_version
+        run: |
+          DATE=$(date +%Y%m%d)
+          echo ::set-output name=bump::$(yarn version --no-git-tag-version --new-version $(yarn version --no-git-tag-version | awk -F. -v OFS=. '{$3+=1; print}')-$DATE)
+      - name: Create release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.determine_version.outputs.bump }}
+          release_name: Release ${{ steps.determine_version.outputs.bump }}
+          body: |
+            Changes in this release:
+            - ...
+          draft: false
+          prerelease: false
