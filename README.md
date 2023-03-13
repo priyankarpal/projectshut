@@ -44,3 +44,8 @@ ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github
 ## 🙏 Support
 
 Thanks for awesome supports 🙏
+
+## Translation
+If you want to translate docs remember to create an issue
+
+[Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
