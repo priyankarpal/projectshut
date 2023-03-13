@@ -1,7 +1,7 @@
 ---
 name: 'Translation '
 about: add your language
-title: " Translate"
+title: " [Translate]"
 labels: Translate
 assignees: ''
 
