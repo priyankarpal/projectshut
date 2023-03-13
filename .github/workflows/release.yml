@@ -1,58 +1,51 @@
-name: Release
+name: Release Workflow
 on:
   push:
     branches:
       - main
 jobs:
   release:
-    name: Create Release
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    - name: Set up Node.js and Yarn
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14.x'
-        cache: 'yarn'
-      run: |
-        yarn install --frozen-lockfile
-    - name: Get latest tag
-      id: latest_tag
-      uses: actions/github-script@v4
-      with:
-        script: |
-          const tags = await github.repos.listTags({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-          });
-          return tags.data[0].name;
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-    - name: Get commit log
-      id: commit_log
-      uses: actions/github-script@v4
-      with:
-        script: |
-          const commits = await github.repos.compareCommits({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            base: '${{ steps.latest_tag.outputs.result }}',
-            head: context.sha,
-          });
-          return commits.data.commits.map((commit) => `- ${commit.commit.message}`).join('\n');
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1.0.6
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      with:
-        tag_name: ${{ steps.latest_tag.outputs.result }}
-        release_name: Release ${{ steps.latest_tag.outputs.result }}
-        body: |
-          ### Changes
-          ${steps.commit_log.outputs.result}
-        draft: false
-        prerelease: false
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Get Previous Tag
+        id: prev_tag
+        run: echo ::set-output name=tag::$(git describe --tags --abbrev=0)
+      - name: Versioning
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if [[ "$VERSION" == v* ]]; then
+            VERSION=${VERSION:1}
+          fi
+          MAJOR=$(echo "$VERSION" | cut -d. -f1)
+          MINOR=$(echo "$VERSION" | cut -d. -f2)
+          PATCH=$(echo "$VERSION" | cut -d. -f3)
+          NEW_PATCH=$((PATCH+1))
+          NEW_VERSION="$MAJOR.$MINOR.$NEW_PATCH"
+          echo "New version: $NEW_VERSION"
+          echo "::set-output name=new_version::$NEW_VERSION"
+      - name: Build and Test
+        run: yarn build && yarn test
+      - name: Generate Release Notes
+        id: release_notes
+        run: |
+          echo "Release Notes for version ${{ steps.version.outputs.new_version }}:"
+          git log --pretty=format:"- %s" ${prev_tag}..HEAD > release_notes.txt
+          echo "::set-output name=release_notes::$(cat release_notes.txt)"
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          RELEASE_NOTES: ${{ steps.release_notes.outputs.release_notes }}
+        run: npx semantic-release@^18
+      - name: Push Tag
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tags: v${{ steps.version.outputs.new_version }}
