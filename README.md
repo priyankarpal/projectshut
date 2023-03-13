@@ -48,4 +48,8 @@ Thanks for awesome supports 🙏
 ## Translation
 If you want to translate docs remember to create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
 
+See the [translation guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
+
+### Available on these languages
+
 [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
