@@ -3,7 +3,10 @@
 <h3>A Place to find lots of cool Projects</h3>
 </div>
 
-![ProjectsHut](/images/projectshut.png)
+
+
+
+![ProjectsHut](/images/ph.png)
 
 <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
   <img
