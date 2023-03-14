@@ -1,26 +1,15 @@
 name: Upgrade Packages
-
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
   upgrade-packages:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Node.js and Yarn
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16.x'
-    - name: Upgrade Packages
-      run: yarn upgrade --latest
-    - name: Commit and Push Changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: 'chore: upgrade packages'
-        commit_options: '--no-verify'
-        push: true
-        branch: ${{ github.ref }}
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Yarn
+        run: npm install -g yarn
+      - name: Upgrade Packages
+        run: yarn upgrade
