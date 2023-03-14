@@ -3,14 +3,7 @@
 
 
 
-[![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment)
-
-<a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod" height="23px"
-  />
-</a>
+[![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment)  [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) ![MIT](https://badgen.net/badge/license/MIT/blue)
 
 
 
@@ -75,4 +68,4 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🛡️ License
 
-ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
+ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)- see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
