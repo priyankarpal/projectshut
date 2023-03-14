@@ -1,19 +1,30 @@
-name: dependencies
+name: Build and Test
 
 on:
   push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 * * * *' # Run once a day
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  dependabot:
+  build_and_test:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node: [16]
+
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
-      - name: Dependabot
-        uses: dependabot/dependabot-core@0.215.0
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          directory: '/'
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
+      - name: Install project
+        run: yarn install --frozen-lockfile
+      - name: Build the project
+        run: yarn build --if-present
+      - name: Run tests
+        run: yarn test
