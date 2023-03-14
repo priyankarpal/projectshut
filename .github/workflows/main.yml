@@ -1,0 +1,19 @@
+name: dependencies
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 * * * *' 
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Dependabot
+        uses: dependabot/dependabot-core@0.167.x
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          directory: '/'
