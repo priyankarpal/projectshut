@@ -1,0 +1,20 @@
+name: Upgrade packages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upgrade-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install packages
+        run: yarn install
+
+      - name: Upgrade packages
+        run: yarn upgrade
