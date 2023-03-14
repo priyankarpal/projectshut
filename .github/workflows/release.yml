@@ -1,0 +1,44 @@
+name: Release
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.x'
+
+    - name: Install Dependencies
+      run: yarn install --frozen-lockfile
+
+    - name: Get Previous Tag
+      id: get_prev_tag
+      run: echo "::set-output name=previous_tag::$(git describe --abbrev=0 --tags $(git rev-list --tags --skip=1 --max-count=1))"
+
+    - name: Generate Changelog
+      id: changelog
+      uses: release-changelog-generator/action@v1.3.3
+      with:
+        tag: ${{ steps.get_prev_tag.outputs.previous_tag }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: ${{ steps.changelog.outputs.changelog }}
+        draft: false
+        prerelease: false
