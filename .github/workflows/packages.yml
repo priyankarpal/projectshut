@@ -1,4 +1,4 @@
-name: Upgrade packages
+name: Upgrade Packages
 
 on:
   push:
@@ -10,11 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install packages
-        run: yarn install
-
-      - name: Upgrade packages
-        run: yarn upgrade
+    - uses: actions/checkout@v2
+    - name: Install Node.js and Yarn
+      uses: actions/setup-node@v2
+      with:
+        node-version: 'lts'
+    - name: Upgrade Packages
+      run: yarn upgrade --latest
+    - name: Commit and Push Changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'chore: upgrade packages'
+        commit_options: '--no-verify'
+        push: true
+        branch: ${{ github.ref }}
