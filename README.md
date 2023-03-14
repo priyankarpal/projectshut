@@ -68,4 +68,4 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🛡️ License
 
-ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)- see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
+ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
