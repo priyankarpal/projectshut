@@ -1,12 +1,9 @@
-<div align="center">
-<h1>🥑ProjectsHut</h1> 
-<h3>A Place to find lots of cool Projects</h3>
-</div>
+# **ProjectsHut - Show your projects to the world  🌎🌈**
 
 
 
 
-![ProjectsHut](/images/ph.png)
+[![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment)
 
 <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
   <img
@@ -14,6 +11,10 @@
     alt="Contribute with Gitpod" height="23px"
   />
 </a>
+
+
+
+![ProjectsHut](/images/ph.png)
 
 ## 🤓 Why ProjectsHut ?
 
@@ -23,40 +24,55 @@ The website is open source, which means that its code is freely available to the
 
 [ProjectsHut](https://projectshut.vercel.app) offers a user-friendly interface, making it easy to publish projects and share them with others. 
 
-Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its open-source design
+Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
+Contributing to open-source software (OSS) projects can be a rewarding and fulfilling experience. Not only can you learn new skills, but you can also help make a valuable contribution to a project that benefits the broader community.
+
+> Here are some steps you can take to contribute to this project:
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
-- If you want to contribute then you have to follow this [Contribution Doc](/contributing.md)
+- Follow the [Contribution Documents](/contributing.md)
 - Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
 
 ## 🧰 Tech Stack Used
+
+ In this project, React is used for the frontend while Tailwind CSS is used for styling. The combination of the two technologies allowed for building a responsive and visually appealing user interface that is easy to use and navigate. The use of these technologies also allows for easy maintenance and scalability of the applicatio
+
 
 | Technology                                                                                                                                           | Description                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library. |
 | [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                 |
 
-## 🛡️ License
 
-ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
+## 📙 Translation
+
+ As a user, you have the ability to translate the documentation of this project to new languages. This means that you can take the existing documentation, which may be in one language, and create new versions of it in other languages. 
+
+ By doing so, you can help to make the project more accessible to people who speak different languages, and you can contribute to the project's overall success. To translate the documentation, you will need to have strong language skills in both the original language and the target language, as well as a good understanding of the content and context of the documentation. With these skills, you can ensure that the translated documentation is accurate, clear, and effective.
+
+- If you want to translate docs remember to create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
+
+- See the [translation guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
+
+> **Available on these languages**
+
+- [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+
 
 ## 🤝 Contributors
+ To all the contributors and supporters of this project, we want to express our sincerest thanks. Your time, effort, and expertise have been invaluable in making this project a success. Whether you contributed code, documentation, testing, or simply offered feedback and suggestions, your contributions are deeply appreciated.
+
+
 
 <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
 </a>
 
-## 🙏 Support
 
-Thanks for awesome supports 🙏
 
-## 📙 Translation
-If you want to translate docs remember to create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
 
-See the [translation guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
+## 🛡️ License
 
-### Available on these languages
-
-[Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+ProjectsHut is licensed under the MIT License - see the [LICENSE](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE) details
