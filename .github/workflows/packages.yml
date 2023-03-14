@@ -20,9 +20,9 @@ jobs:
       run: |
         yarn outdated
 
-    - name: Build package
+    - name: Update
       run: |
-        yarn build
+        yarn upgrade
 
     - name: Publish package
       run: |
