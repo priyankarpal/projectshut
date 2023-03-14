@@ -5,8 +5,3 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-# Update Packages
-  - package-ecosystem: "yarn"
-    directory: "/"
-    schedule:
-      interval: "daily"
