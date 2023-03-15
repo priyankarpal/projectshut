@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 
 const HomePage = () => {
   return (
-    <section>
+    <section >
       <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center ">
         <div className="mx-auto max-w-xl flex flex-col items-center text-center">
           <h1 className=" text-[3rem] flex-wrap xl:text-[5rem] text-white font-bold -mt-16">
