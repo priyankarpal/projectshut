@@ -3,12 +3,14 @@
 <!-- Please describe the changes you made to the Projectshut Open Source website. What features did you add or modify? What bug did you fix? -->
 
 ## Screenshots
+
 <!-- PLease add screenshots -->
 
 ## Related Issue
 
 <!-- Please list any related issues that your PR addresses. For example, if you fixed a bug, please reference the issue number that describes the bug.
  -->
+
 ## Checklist
 
 Please review and check off the following items before submitting your PR:
@@ -24,7 +26,8 @@ Please review and check off the following items before submitting your PR:
 - [ ] I have checked for any spelling or grammatical errors
 
 ## Additional Information
-<!-- 
+
+<!--
 Is there anything else you would like to include about your PR? This could include information about how to test your changes or any potential issues that may arise.
 
 Thank you for contributing to the Projectshut Open Source website!

@@ -26,10 +26,10 @@ ProjectsHut은 사용자가 프로젝트를 무료로 게시할 수 있는 혁�
 
 ## 🧰 사용된 기술 모음
 
-| 기술                                                                                                                                           | 설명                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 기술                                                                                                                                                 | 설명                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React는 무료 오픈 소스 프론트엔드 JavaScript 라이브러리입니다. |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS는 오픈소스 CSS 프레임워크입니다.                 |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS는 오픈소스 CSS 프레임워크입니다.                  |
 
 ## 🛡️ License
 

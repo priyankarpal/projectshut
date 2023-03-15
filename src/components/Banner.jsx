@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Banner = () => {
   return (
@@ -19,22 +19,19 @@ const Banner = () => {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-[#1F2937] "></span>
 
             <div className="p-8 sm:p-16 lg:p-24 ">
-              <h2 className="text-2xl font-bold sm:text-3xl">
-                Get Inspired and Showcase Your Projects on ProjectsHut
-              </h2>
+              <h2 className="text-2xl font-bold sm:text-3xl">Get Inspired and Showcase Your Projects on ProjectsHut</h2>
 
               <p className="mt-4 text-gray-300">
-                At ProjectsHut, we believe that everyone has a unique talent and
-                something valuable to share with the world. That's why we've
-                made it easy for you to publish your projects, connect with
-                other users, and gain valuable feedback and insights.
+                At ProjectsHut, we believe that everyone has a unique talent and something valuable to share with the
+                world. That's why we've made it easy for you to publish your projects, connect with other users, and
+                gain valuable feedback and insights.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

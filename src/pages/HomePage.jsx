@@ -1,22 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Banner from "../components/Banner";
+import React from "react"
+import { Link } from "react-router-dom"
+import Banner from "../components/Banner"
 
 const HomePage = () => {
   return (
-    <section >
+    <section>
       <div className="mx-auto max-w-screen-xl px-4 py-20 lg:flex my-28 lg:items-center ">
         <div className="mx-auto max-w-xl flex flex-col items-center text-center">
-          <h1 className=" text-[3rem] flex-wrap xl:text-[5rem] text-white font-bold -mt-16">
-            ProjectsHut
-          </h1>
-          <h1 className="leading-3 text-[1rem] tracking-widest text-primary ">
-            Show your projects to the world 🌎
-          </h1>
+          <h1 className=" text-[3rem] flex-wrap xl:text-[5rem] text-white font-bold -mt-16">ProjectsHut</h1>
+          <h1 className="leading-3 text-[1rem] tracking-widest text-primary ">Show your projects to the world 🌎</h1>
 
-          <p className="mt-9 sm:text-[1.5rem] sm:leading-relaxed"> 
-            ProjectsHut is an innovative platform that allows users to publish
-            their projects
+          <p className="mt-9 sm:text-[1.5rem] sm:leading-relaxed">
+            ProjectsHut is an innovative platform that allows users to publish their projects
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -39,11 +34,10 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    
 
       <Banner />
     </section>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

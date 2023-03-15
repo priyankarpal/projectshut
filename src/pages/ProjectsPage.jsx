@@ -1,6 +1,6 @@
-import React from "react";
-import { ProjectCard } from "../components";
-import projects from "../DB/projects.json";
+import React from "react"
+import { ProjectCard } from "../components"
+import projects from "../DB/projects.json"
 
 const ProjectsPage = () => {
   return (
@@ -20,9 +20,7 @@ const ProjectsPage = () => {
               Add your project{" "}
             </a>
             {"  "}
-            <span className="whitespace-nowrap rounded-full bg-red-600 px-2.5 py-0.5 text-sm text-white">
-              New
-            </span>
+            <span className="whitespace-nowrap rounded-full bg-red-600 px-2.5 py-0.5 text-sm text-white">New</span>
           </p>
         </div>
       </div>
@@ -41,7 +39,7 @@ const ProjectsPage = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ProjectsPage;
+export default ProjectsPage

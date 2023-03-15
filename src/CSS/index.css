@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    background-color: #000513;
-    font-family: 'Inter', sans-serif;
+  background-color: #000513;
+  font-family: "Inter", sans-serif;
 }
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
-    display: none;
-  }
-  
+  display: none;
+}

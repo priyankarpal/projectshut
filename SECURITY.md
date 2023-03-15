@@ -1,6 +1,7 @@
 # Security Policy
 
 ## Supported Versions
+
 Current projects' supported versions.
 
 | Version | Supported          |

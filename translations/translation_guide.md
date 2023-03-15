@@ -1,37 +1,31 @@
 # Translation Guide
 
-   
 ## 📌 Currently Translated Languages
 
-The original text is written in English and is currently translated into the following languages:   
+The original text is written in English and is currently translated into the following languages:
 
-* Korean
-   
-
+- Korean
 
 ## 📄 Document List
 
-You need to translate the document below.      
+You need to translate the document below.
 
-* [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md)
-* [contributing.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md)
-* [README.md](https://github.com/priyankarpal/ProjectsHut/blob/main/README.md)
+- [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md)
+- [contributing.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md)
+- [README.md](https://github.com/priyankarpal/ProjectsHut/blob/main/README.md)
 
-   
-   
 ## 💡 Translation Tip
 
-* Translating [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) is helpful to read Contributor Covenant's [Translations](https://www.contributor-covenant.org/translations/) documentation. It includes a version, so please check the version carefully.
+- Translating [CODE_OF_CONDUCT.md](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) is helpful to read Contributor Covenant's [Translations](https://www.contributor-covenant.org/translations/) documentation. It includes a version, so please check the version carefully.
 
-  
-  
 ## ✒ How to contribute to translation
-* Convert official language to your native language. It would ne better for new comers to contribute to this project. 
+
+- Convert official language to your native language. It would ne better for new comers to contribute to this project.
 
 ### Run it on GitHub Website
 
 1. Fork repository
-![ Fork this repository](/images/fork.png)
+   ![ Fork this repository](/images/fork.png)
 2. Click on `translations` folder and create a folder with the name of the language you want to translate.
 
 3. Add the translated documents in folder you have created.
@@ -40,11 +34,10 @@ You need to translate the document below.
 
 5. Wait for merge.
 
-   
 ### Run it Locally
 
 1. Fork repository
-![ Fork this repository](/images/fork.png)
+   ![ Fork this repository](/images/fork.png)
 2. Clone it to your computer
 
 ```
@@ -106,4 +99,3 @@ git push -u origin [Your-branch-name]
 13. Create a PR
 
 14. Wait for merge
-   

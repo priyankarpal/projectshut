@@ -25,7 +25,8 @@
 ```
 
 > ### 로컬에서 실행하려면 다음의 순서대로 진행합니다.
-4.  당신의 컴퓨터에 클론 합니다.
+>
+> 4.  당신의 컴퓨터에 클론 합니다.
 
 ```
  git clone https://github.com/[your-username]/ProjectsHut.git

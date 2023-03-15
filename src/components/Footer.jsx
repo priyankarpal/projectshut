@@ -23,7 +23,8 @@ const Footer = () => {
             </a>
             <a
               target={"_blank"}
-              href="https://www.linkedin.com/in/priyankarpal" className=" underline hover:no-underline"
+              href="https://www.linkedin.com/in/priyankarpal"
+              className=" underline hover:no-underline"
             >
               LinkedIn
             </a>
@@ -31,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
