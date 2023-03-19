@@ -7,14 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "precommit": "prettier --write \"src/**/*.js\"",
-    "prepare": "husky install .husky",
+    "prepare": "husky install",
     "lint": "prettier --check .",
     "format": "prettier --write ."
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run precommit"
+      "pre-commit": "yarn run format"
     }
   },
   "dependencies": {
