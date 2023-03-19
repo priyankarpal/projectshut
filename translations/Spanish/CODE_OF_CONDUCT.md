@@ -9,7 +9,6 @@ identidad y expresión, nivel de experiencia, educación, situación socioeconó
 nacionalidad, apariencia personal, raza, religión o identidad sexual
 y orientación.
 
-
 Nos comprometemos a actuar e interactuar de manera que contribuyan a una vida abierta, acogedora,
 Comunidad diversa, inclusiva y saludable.
 
@@ -43,7 +42,6 @@ Los líderes comunitarios son responsables de aclarar y hacer cumplir nuestros e
 comportamiento aceptable y tomará medidas correctivas apropiadas y justas en
 respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo,
 o perjudicial.
-
 
 Los líderes comunitarios tienen el derecho y la responsabilidad de eliminar, editar o rechazar
 comentarios, confirmaciones, código, ediciones wiki, problemas y otras contribuciones que son
