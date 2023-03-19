@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-                                                              "build": "vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-                "lint": "prettier --check .",
-                 "format": "prettier --write ."
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "husky": {
     "hooks": {
