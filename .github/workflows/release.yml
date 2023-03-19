@@ -1,11 +1,10 @@
 name: Release
 
 on:
-   push:
+  push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 
 jobs:
   release:
@@ -19,7 +18,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install -g yarn
       - run: yarn
       - run: yarn build
       - run: npx semantic-release
