@@ -7,20 +7,19 @@ const ProjectsPage = () => {
     <section id="projects" className="my-20">
       <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
         <div className="mx-auto  text-center">
-          <h2 className="text-[4rem] font-bold  ">List of cool Projects 🤩</h2>
+          <h2 className="text-[3.5rem] font-bold  ">List of cool Projects </h2>
 
-          <p className="m-4 text-gray-300 text-[1.5rem]">
-            didn't find your project? {"  "}
+          <p className="m-2 text-gray-300 text-[1.2rem]">
+            Want to add your projects?
             <a
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
               target={"_blank"}
               rel="noreferrer"
-              className=" underline hover:no-underline"
+              className=" p-2 rounded-lg"
             >
-              Add your project{" "}
+           Check documentation  <span aria-hidden="true">→</span>
             </a>
-            {"  "}
-            <span className="whitespace-nowrap rounded-full bg-red-600 px-2.5 py-0.5 text-sm text-white">New</span>
+
           </p>
         </div>
       </div>
