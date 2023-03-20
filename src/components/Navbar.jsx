@@ -9,7 +9,7 @@ const Navbar = () => {
         Ph <span className="text-red-500">.</span>
       </Link>
 
-      <ul className="flex items-center gap-2  text-[1.3rem] text-white font-semibold">
+      <ul className="flex items-center gap-2  text-[1.3rem] text-white font-normal">
         <li className="hidden lg:block  ">
           <Link className="rounded-lg px-3 py-2" to="/">
             Home
