@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer
-      aria-label="Site Nav"
+      aria-label="Site Footer"
       className="mx-auto flex max-w-3xl items-center justify-center sm:justify-between flex-wrap p-4 gap-5 "
     >
       <p>
