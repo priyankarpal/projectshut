@@ -9,8 +9,8 @@ const Navbar = () => {
         Ph <span className="text-red-500">.</span>
       </Link>
 
-      <ul className="flex items-center gap-2  text-[1.3rem] text-white font-normal">
-        <li className="hidden lg:block  ">
+      <ul className="flex items-center gap-2  text-white text-[1rem]">
+        <li className="lg:block  ">
           <Link className="rounded-lg px-3 py-2" to="/">
             Home
           </Link>
@@ -18,37 +18,12 @@ const Navbar = () => {
 
         <li>
           <a
-            className="rounded-lg px-3 py-2 "
-            href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
-            target="_blank"
-            rel="noreferrer"
+            href="https://github.com/priyankarpal/ProjectsHut"
+            target={"_blank"}
+            rel={"noreferrer"}
+            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
-            Docs
-          </a>
-        </li>
-
-        <li>
-          <a
-            className="inline-flex items-center gap-2 rounded-lg px-3 py-2"
-            href="https://github.com/priyankarpal/ProjectsHut/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="h-4 w-4"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              ></path>
-            </svg>
+            Star on GitHub
           </a>
         </li>
       </ul>
