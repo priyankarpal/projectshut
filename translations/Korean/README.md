@@ -3,7 +3,7 @@
 <h3>멋진 프로젝트를 많이 찾을 수 있는 장소</h3>
 </div>
 
-![ProjectsHut](/images/projectshut.png)
+![ProjectsHut](https://user-images.githubusercontent.com/88102392/226441712-c3c2f3bb-70f5-4f47-be91-3168a60ffbe7.png)
 
 <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut">
   <img
