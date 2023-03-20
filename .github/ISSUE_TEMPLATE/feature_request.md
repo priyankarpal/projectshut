@@ -1,9 +1,10 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ""
-labels: enhancement, Feature
-assignees: ""
+title: 'FEAT: <what''s your Feature name?>'
+labels: "\U0001F9BE Feature"
+assignees: ''
+
 ---
 
 **Is your feature request related to a problem? Please describe.**

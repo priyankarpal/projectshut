@@ -1,9 +1,10 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ""
-labels: bug
-assignees: ""
+title: 'BUG: <Title of your Problem>'
+labels: "\U0001F41E bug"
+assignees: ''
+
 ---
 
 **Describe the bug**
