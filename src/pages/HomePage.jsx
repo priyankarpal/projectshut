@@ -86,7 +86,7 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-[#A66EFC] py-3 px-8 text-center font-medium text-white hover:bg-[#b788ff]"
                 >
                   Browse Projects
                 </Link>
