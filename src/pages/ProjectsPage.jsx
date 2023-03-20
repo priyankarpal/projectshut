@@ -17,9 +17,8 @@ const ProjectsPage = () => {
               rel="noreferrer"
               className=" p-2 rounded-lg"
             >
-           Check documentation  <span aria-hidden="true">→</span>
+              Check documentation <span aria-hidden="true">→</span>
             </a>
-
           </p>
         </div>
       </div>
