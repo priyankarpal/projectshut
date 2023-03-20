@@ -12,9 +12,9 @@ const Footer = () => {
                 rel="noreferrer"
                 className="text-primary"
               >
-                MIT License  
+                MIT License
               </a>
-              <span>{" "} &copy; {new Date().getFullYear()} - Open Source</span>
+              <span> &copy; {new Date().getFullYear()} - Open Source</span>
             </p>
           </div>
 
