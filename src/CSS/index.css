@@ -7,10 +7,7 @@
   background-color: #000513;
   font-family: "Inter", sans-serif;
 }
-/* Hide the default scrollbar */
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 /* white scrollbar with black background */
 html {
