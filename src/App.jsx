@@ -8,8 +8,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
-        <Route exact path="/*" element={<Navigate to={"/"} />} />
+        <Route path ="/ProjectsPage" element={<ProjectsPage />} />
+        <Route path ="/*" element={<Navigate to={"/"} />} />
       </Routes>
       <Footer />
     </div>
@@ -17,3 +17,4 @@ function App() {
 }
 
 export default App
+
