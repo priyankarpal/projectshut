@@ -8,7 +8,6 @@
   font-family: "Inter", sans-serif;
 }
 
-/* white scrollbar with black background */
 html {
   scrollbar-color: #ffffff #000000;
   scrollbar-width: auto;
