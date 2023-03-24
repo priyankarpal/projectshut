@@ -45,8 +45,9 @@ By doing so, you can help to make the project more accessible to people who spea
 
 > **Available languages**
 
-- [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
-- [Spanish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
+- [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+- [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
+- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 
 ## 🤝 Contributors
 
