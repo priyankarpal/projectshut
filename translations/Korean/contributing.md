@@ -6,11 +6,11 @@
 
 1. 이 레포지토리를 포크 합니다.
 
-![ Fork this repository](/images/fork.png)
+![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
 
 2. `Go to file`을 클릭합니다.
 
-![Go to file](/images/gotofile.png)
+![Go to file](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png)
 
 3. `src/DB/projects.json` 파일 끝에 다음 코드를 추가합니다.
 

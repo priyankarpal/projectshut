@@ -2,7 +2,7 @@
 
 [![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Abrir en GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Verifica el éxito](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 
-![ProjectsHut](/images/ph.png)
+![ProjectsHut](https://user-images.githubusercontent.com/88102392/226441712-c3c2f3bb-70f5-4f47-be91-3168a60ffbe7.png)
 
 ## 🤓 por qué ProjectsHut ?
 
@@ -28,10 +28,10 @@ Contribuir a proyectos de software de código abierto (OSS) puede ser una experi
 
 En este proyecto, React se usa para el frontend, mientras que Tailwind CSS se usa para el estilo. La combinación de las dos tecnologías permitió construir una interfaz de usuario receptiva y visualmente atractiva que es fácil de usar y navegar. El uso de estas tecnologías también permite un fácil mantenimiento y escalabilidad de la aplicación.
 
-| Tecnología                                                                                                                                           | Descripción                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Tecnología                                                                                                                                           | Descripción                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React es una biblioteca JavaScript front-end gratuita y de código abierto. |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS es un marco CSS de código abierto.                 |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS es un marco CSS de código abierto.                            |
 
 ## 📙 Traducción
 

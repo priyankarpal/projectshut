@@ -20,7 +20,7 @@ const ProjectCard = ({ gh, link, title, description, tech }) => {
         target="_blank"
         rel="noreferrer"
       >
-        Collect it ⚡️
+        GitHub Link <span aria-hidden="true">→</span>
       </a>
     </div>
   )
