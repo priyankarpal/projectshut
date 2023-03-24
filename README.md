@@ -37,7 +37,7 @@ In this project, React is used for the frontend while Tailwind CSS is used for s
 
 As a user, you have the ability to translate the documentation of this project to new languages. This means that you can take the existing documentation, which may be in one language, and create new versions of it in other languages.
 
-By doing so, you can help to make the project more accessible to people who speak different languages, and you can contribute to the project's overall success. To translate the documentation, you will need to have strong language skills in both the original language and the target language, as well as a good understanding of the content and context of the documentation. With these skills, you can ensure that the translated documentation is accurate, clear, and effective.
+By doing so, you can help to make the project more accessible to people who speak different languages, and you can contribute to the project's overall success. To translate the documentation, you will need to have strong language skills in both the original language and the target language, as well as a good understanding of the content and context of the documentation. With these skills, you can ensure that the translated documentation is accurate, clear, and effective
 
 - If you want to translate docs remember to create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
 
