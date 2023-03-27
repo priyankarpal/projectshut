@@ -2,6 +2,8 @@
 
 ## 🧐 Follow these steps to Contribute
 
+> ⚠️ Remember to add a [good commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
 1. Fork this repository
