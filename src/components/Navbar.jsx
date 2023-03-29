@@ -10,12 +10,6 @@ const Navbar = () => {
       </Link>
 
       <ul className="flex items-center gap-2  text-white text-[1rem]">
-        <li className="lg:block  ">
-          <Link className="rounded-lg px-3 py-2" to="/">
-            Home
-          </Link>
-        </li>
-
         <li>
           <a
             href="https://github.com/priyankarpal/ProjectsHut"
