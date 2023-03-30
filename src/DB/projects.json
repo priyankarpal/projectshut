@@ -110,6 +110,13 @@
     "title": "Multi Step Form",
     "description": "Designing a multi step form and implementing js functionality",
     "tech": ["HTML", "SCSS", "JavaScript"]
+  },
+  {
+    "gh-username": "onur-celik",
+    "link": "https://github.com/onur-celik/invester",
+    "title": "Invester",
+    "description": "Invester, an open source investment tracking software that lets you create a custom dashboard with 10+ real-time widgets. Track your portfolio performance and market trends in real-time with easy-to-use, fully customizable tools that integrate with popular financial data sources.",
+    "tech": ["React", "TypeScript"]
   }
   
 ]
