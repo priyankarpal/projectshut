@@ -22,7 +22,7 @@ const ProjectCard = ({ gh, link, title, description, tech }) => {
           <p className="mt-2 text-white-800 dark:text-white-400">{description}</p>
         </div>
         <a
-          className="mt-3 inline-flex items-center gap-2  text-sm font-medium p-3 justify-center bg-primary rounded text-white   xl:text-[1rem] md:text-[0.8rem]"
+          className="mt-3 inline-flex items-center gap-2  text-sm font-medium p-3 justify-center bg-primary rounded text-white   xl:text-[1rem] md:text-[0.8rem] hover:scale-105 hover:bg-purple-700"
           href={link}
           target="_blank"
           rel="noreferrer"
