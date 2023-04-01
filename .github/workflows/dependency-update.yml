@@ -2,27 +2,27 @@ name: Update Dependencies
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: "0 0 * * *"
 
 jobs:
   update-dependencies:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      issues: write      
+      issues: write
       pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-         persist-credentials: false
-         fetch-depth: 0
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Install Node.js and Yarn
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
-          cache: 'yarn'
+          node-version: "18.x"
+          cache: "yarn"
 
       - name: Update dependencies
         run: |
