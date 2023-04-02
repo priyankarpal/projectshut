@@ -1,28 +1,28 @@
-name: Update Dependencies
+name: Update dependencies
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *' # Run every day at midnight
 
 jobs:
   update-dependencies:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      issues: write
+      issues: write      
       pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
-          fetch-depth: 0
+         persist-credentials: false
+         fetch-depth: 0
 
       - name: Install Node.js and Yarn
         uses: actions/setup-node@v3
         with:
-          node-version: "18.x"
-          cache: "yarn"
+          node-version: '18.x'
+          cache: 'yarn'
 
       - name: Update dependencies
         run: |
@@ -39,5 +39,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
+          token: ${{secrets.DEPENDENCY_SECRET}}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
