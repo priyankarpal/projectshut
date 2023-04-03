@@ -2,73 +2,68 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
+  extends: ["plugin:react/recommended", "standard"],
   overrides: [
     {
-      files: ['*.md'],
+      files: ["*.md"],
       rules: {
-        'commit-convention/commit-convention': 'off'
-      }
-    }
+        "commit-convention/commit-convention": "off",
+      },
+    },
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ["react"],
   rules: {
     // Disallow unused variables
-    'no-unused-vars': 'error',
+    "no-unused-vars": "error",
 
     // Enforce a maximum line length
-    'max-len': ['warn', { code: 80 }],
+    "max-len": ["warn", { code: 80 }],
 
     // Enforce consistent indentation
-    indent: ['error', 2],
+    indent: ["error", 2],
 
     // Enforce the use of semicolons
-    semi: ['error', 'always'],
+    semi: ["error", "always"],
 
     // Require single quotes for strings
-    quotes: ['error', 'single'],
+    quotes: ["error", "single"],
 
     // Require curly braces for all control statements
-    curly: ['error', 'all'],
+    curly: ["error", "all"],
 
     // Disallow the use of `var` to declare variables
-    'no-var': 'error',
+    "no-var": "error",
 
     // Require conventional commit messages
-    'commit-convention/commit-convention': [
-      'error',
+    "commit-convention/commit-convention": [
+      "error",
       {
-        'type-enum': [
-          'feat', // A new feature
-          'fix', // A bug fix
-          'docs', // Documentation only changes
-          'style', // Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
-          'refactor', // A code change that neither fixes a bug nor adds a feature
-          'perf', // A code change that improves performance
-          'test', // Adding missing tests or correcting existing tests
-          'chore', // Changes to the build process or auxiliary tools and libraries such as documentation generation
-          'revert', // Revert to a commit
-          'build' // Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+        "type-enum": [
+          "feat", // A new feature
+          "fix", // A bug fix
+          "docs", // Documentation only changes
+          "style", // Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+          "refactor", // A code change that neither fixes a bug nor adds a feature
+          "perf", // A code change that improves performance
+          "test", // Adding missing tests or correcting existing tests
+          "chore", // Changes to the build process or auxiliary tools and libraries such as documentation generation
+          "revert", // Revert to a commit
+          "build", // Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
         ],
-        'type-case': 'lowerCase',
-        'type-empty': false,
-        'subject-empty': false,
-        'subject-full-stop': false,
-        'header-max-length': 72,
-        'body-max-line-length': 80,
-        'footer-max-line-length': 80
-      }
-    ]
-  }
-};
+        "type-case": "lowerCase",
+        "type-empty": false,
+        "subject-empty": false,
+        "subject-full-stop": false,
+        "header-max-length": 72,
+        "body-max-line-length": 80,
+        "footer-max-line-length": 80,
+      },
+    ],
+  },
+}
