@@ -43,13 +43,13 @@ cd ProjectsHut
 6.  install dependencies
 
 ```
-yarn
+pnpm i
 ```
 
 7.  run in local
 
 ```
-yarn run dev
+pnpm dev
 ```
 
 8.  Create a new branch using your `GitHub Username`
