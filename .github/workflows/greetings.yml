@@ -19,5 +19,5 @@ jobs:
           issue-message: '<h3>Hey! @${{ github.actor }}! thank you for opening an Issue 🎉 </h3>'
           pr-message: '<h3>Hey! @${{ github.actor }}! thank you for opening a Pull Request 🎉 </h3>'
           footer: | 
-           Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!
-           Thank you and we appreciate your contribution to <b>open source!</b>
+                Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!
+                
