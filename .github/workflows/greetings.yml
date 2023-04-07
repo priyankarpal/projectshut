@@ -1,16 +1,28 @@
-name: Greetings
+name: Welcome Message
 
-on: [pull_request_target, issues]
+on:
+  pull_request:
+    types: [opened]
+  issues:
+    types: [opened]
 
 jobs:
-  greeting:
+  welcome:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
     steps:
-      - uses: actions/first-interaction@v1
+      - name: Send welcome message
+        uses: actions/github-script@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your first issue. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!"
-          pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for submitting your first pull request. Your contribution is valuable and we appreciate your efforts to improve our project. We'll review your changes and provide feedback as soon as possible. Keep up the great work!"
+          script: |
+            const issueOrPullRequest = context.payload.issue || context.payload.pull_request;
+            const author = issueOrPullRequest.user.login;
+            const message = `Welcome, @${author}! Thanks for opening this ${issueOrPullRequest.pull_request ? 'pull request' : 'issue'}!`;
+
+            return github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueOrPullRequest.number,
+              body: message
+            });
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
