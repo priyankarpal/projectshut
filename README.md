@@ -22,7 +22,7 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
 - Follow the [Contribution Documents](/contributing.md)
-- Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
+- Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature
 - Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
 
 ## 🧰 Tech Stack Used
