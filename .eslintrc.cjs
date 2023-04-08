@@ -22,9 +22,6 @@ module.exports = {
     // Disallow unused variables
     "no-unused-vars": "error",
 
-    // Enforce a maximum line length
-    "max-len": ["warn", { code: 80 }],
-
     // Enforce consistent indentation
     indent: ["error", 2],
 
