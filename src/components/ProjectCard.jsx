@@ -1,4 +1,6 @@
-const ProjectCard = ({ gh, link, title, description, tech }) => {
+import React from "react"
+
+function ProjectCard({ gh, link, title, description, tech }) {
   return (
     <div className="flex flex-col border shadow-sm rounded-xl p-4 md:p-5 dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition-all duration-200  hover:scale-105  cursor-pointer">
       <div className="flex flex-col justify-between h-full">
@@ -19,7 +21,7 @@ const ProjectCard = ({ gh, link, title, description, tech }) => {
               </p>
             ))}
           </div>
-          <p className="mt-2 text-white-800 dark:text-white-400">{description}</p>
+          <p className="mt-2 text-white-800 dark:text-white-400 line-clamp-3">{description}</p>
         </div>
         <a
           className="mt-3 inline-flex items-center gap-2  text-sm font-medium p-3 justify-center bg-primary rounded text-white   xl:text-[1rem] md:text-[0.8rem] hover:scale-105 hover:bg-purple-700"
