@@ -7,7 +7,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
   let newTitle = title.length > maxLength_title ? title.slice(0, maxLength_title) + "..." : title
 
   return (
-    <article className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0">
+    <article className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0 dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition-all duration-200  hover:scale-105  cursor-pointer">
       <div className="flex justify-between items-center mb-3">
         <h3 className="capitalize text-lg/5 font-bold basis-full">{newTitle}</h3>
         <img src={`https://github.com/${gh}.png`} alt={`${gh}'s github profile`} className="h-10 w-10 rounded-full" />
@@ -27,7 +27,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
         href={link}
         target="_blank"
         rel="noreferrer"
-        className="inline-block w-full text-center text-white bg-pink-500 rounded-md py-2"
+        className="inline-flex w-full items-center gap-2 justify-center text-center text-white bg-primary  xl:text-[1rem] md:text-[0.8rem] hover:scale-105 hover:bg-purple-700 rounded-md py-2"
       >
         GitHub Link<span aria-hidden="true">→</span>
       </a>
