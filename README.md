@@ -24,6 +24,7 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 - Follow the [Contribution Documents](/contributing.md)
 - Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
 - Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
+- Don't spam if you do it your PR/issue will be closed.
 
 ## 🧰 Tech Stack Used
 
