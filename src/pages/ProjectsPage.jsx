@@ -5,9 +5,11 @@ import projects from "../DB/projects.json"
 const ProjectsPage = () => {
   return (
     <section id="projects" className="my-20">
-      <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
-        <div className="mx-auto  text-center">
-          <h2 className="text-[3.5rem] font-bold  ">List of cool Projects </h2>
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto text-center">
+          <h2 className="text-[3.5rem] font-bold">
+            List of <span className="text-primary">cool</span> Projects
+          </h2>
 
           <p className="m-2 text-gray-300 text-[1.2rem]">
             Want to add your projects?
@@ -15,7 +17,7 @@ const ProjectsPage = () => {
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
               target={"_blank"}
               rel="noreferrer"
-              className=" p-2 rounded-lg"
+              className="p-2 rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
             >
               Check documentation <span aria-hidden="true">→</span>
             </a>
@@ -23,7 +25,7 @@ const ProjectsPage = () => {
         </div>
       </div>
 
-      <div className="mt-15 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3  m-[4rem] ">
+      <div className="mt-15 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 m-[4rem]">
         {/* Projects */}
         {projects.map((project, i) => (
           <ProjectCard
