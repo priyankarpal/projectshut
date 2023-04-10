@@ -26,6 +26,11 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 - Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
 - Don't spam if you do it your PR/issue will be closed.
 
+## Prerequisites
+
+1) Make sure you installed NodeJs in your system.
+2) Also, you have installed pnpm.
+
 ## 🧰 Tech Stack Used
 
 In this project, React is used for the frontend while Tailwind CSS is used for styling. The combination of the two technologies allowed for building a responsive and visually appealing user interface that is easy to use and navigate. The use of these technologies also allows for easy maintenance and scalability of the application.

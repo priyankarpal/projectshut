@@ -131,5 +131,12 @@
     "title": "Chromatico",
     "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
     "tech": ["React", "TypeScript", "TailwindCSS"]
+  },
+  {
+  "gh-username": "Jatan88",
+  "link": "https://github.com/Jatan88/JobSpot",
+  "title": "JobSpot",
+  "description": "A Mobile Application for both Android and iOS for Job Opportunities.",
+  "tech": ["React Native", "Expo"]
   }
 ]
