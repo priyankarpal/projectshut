@@ -124,5 +124,12 @@
     "title": "Magic Quadrant",
     "description": "Magic Quadrant is a scatter chart develop by Gartner to visualize major players in a specific market.",
     "tech": ["React", "TypeScript", "Styled Components"]
+  },
+  {
+    "gh-username": "Deveesh-Shetty",
+    "link": "https://github.com/Deveesh-Shetty/Chromatico",
+    "title": "Chromatico",
+    "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
+    "tech": ["React", "TypeScript", "TailwindCSS"]
   }
 ]
