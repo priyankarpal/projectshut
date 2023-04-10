@@ -24,15 +24,23 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 - Follow the [Contribution Documents](/contributing.md)
 - Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
 - Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
+- Don't spam if you do it your PR/issue will be closed.
+
+## Prerequisites
+
+1. Make sure you installed NodeJs in your system.
+2. Also, you have installed pnpm.
 
 ## 🧰 Tech Stack Used
 
 In this project, React is used for the frontend while Tailwind CSS is used for styling. The combination of the two technologies allowed for building a responsive and visually appealing user interface that is easy to use and navigate. The use of these technologies also allows for easy maintenance and scalability of the application.
 
-| Technology                                                                                                                                           | Description                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library. |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                 |
+| Technology                                                                                                                                           | Description                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library.                                 |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                                                 |
+| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite is a fast and lightweight build tool and development server for modern web applications. |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM is a fast and disk space efficient package manager for Node.js packages.                 |
 
 ## 📙 Translation
 
