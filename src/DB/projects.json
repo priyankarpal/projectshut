@@ -1,0 +1,149 @@
+[
+  {
+    "gh-username": "priyankarpal",
+    "link": "https://github.com/priyankarpal/TheaTheme",
+    "title": "Thea Theme",
+    "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
+    "tech": ["JSON", "Yo Code"]
+  },
+  {
+    "gh-username": "abhidadhaniya23",
+    "link": "https://gigaresources.xyz/",
+    "title": "GigaResources",
+    "description": "Manually curated collection of resources for developers, designers, and other creative professionals to help them build better products.",
+    "tech": ["Resources", "Tools"]
+  },
+  {
+    "gh-username": "Snach13",
+    "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
+    "title": "Note Application",
+    "description": "Here is the android clean architecture based Note taking application take a look off it !!",
+    "tech": ["Kotlin", "Jetpack Compose", "Clean Architecture"]
+  },
+  {
+    "gh-username": "A10-g",
+    "link": "https://github.com/A10-g/TipCalculator",
+    "title": "Tip Calculator",
+    "description": "It's a simple Tip Calculator that can also be used as Simple Interest Calculator.",
+    "tech": ["Kotlin"]
+  },
+  {
+    "gh-username": "Alkaison",
+    "link": "https://github.com/Alkaison/Alkaison.github.io",
+    "title": "Alkaison Blog",
+    "description": "I'll be sharing my knowledge on a variety of topics and concepts.",
+    "tech": ["HTML", "CSS", "JS", "Ruby"]
+  },
+  {
+    "gh-username": "Alkaison",
+    "link": "https://github.com/Alkaison/Phonebook-Management-System",
+    "title": "Phonebook Management System",
+    "description": "It is a software application that allows users to store, organize and manage large numbers of contact records efficiently. The system is designed to have functions such as adding, updating, viewing, listing and deleting contacts.",
+    "tech": ["C"]
+  },
+  {
+    "gh-username": "JasonDsouza212",
+    "link": "https://github.com/JasonDsouza212/free-hit",
+    "title": "Free-Hit",
+    "description": "This project is a collection of all the open-source projects that we and common people use in their day-to-day lives, such as a resume builder, remote jobs platform, readme generator, and more.",
+    "tech": ["HTML", "CSS", "React"]
+  },
+  {
+    "gh-username": "ujjawaltyagii",
+    "link": "https://github.com/ujjawaltyagii/Razorpay-Clone",
+    "title": "Razorpay Clone",
+    "description": "Created Razorpay Clone which is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite.",
+    "tech": ["HTML", "Tailwind", "JS"]
+  },
+  {
+    "gh-username": "Vijaykv5",
+    "link": "https://github.com/Vijaykv5/Drum-Kit",
+    "title": "Drum Kit",
+    "description": "This project is to create your own Music by Implementation of JavaScript",
+    "tech": ["HTML", "CSS", "JS"]
+  },
+  {
+    "gh-username": "Shiva-Sai-ssb",
+    "link": "https://github.com/Shiva-Sai-ssb/QR-Code-Generator",
+    "title": "QR Code Generator",
+    "description": "Simple app to generate and download a QR code that can be used to share a link.",
+    "tech": ["HTML", "Tailwind", "JS"]
+  },
+  {
+    "gh-username": "himanshu1221",
+    "link": "https://github.com/himanshu1221/linkfree_clone",
+    "title": "Link Free Clone",
+    "description": "It's a linkfree clone for beginners where you can add your customisations",
+    "tech": ["ReactJS", "CSS", "JavaScript"]
+  },
+  {
+    "gh-username": "JoseVale99",
+    "link": "https://github.com/JoseVale99/loginPyQt5",
+    "title": "Login PyQt5 Awesome GUI",
+    "description": "It's a minimalist login in the Python language using the PyQt5 library. ",
+    "tech": ["Python", "PyQt5"]
+  },
+  {
+    "gh-username": "GyanPrakashKumar",
+    "link": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
+    "title": "QR code component",
+    "description": "This is a solution to the QR code component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
+    "tech": ["HTML", "CSS"]
+  },
+  {
+    "gh-username": "T-Regx",
+    "link": "https://github.com/t-regx/T-Regx",
+    "description": "Lightweight, high-level library for regular expressions in PHP",
+    "title": "T-Regx",
+    "tech": ["PHP", "Regexp"]
+  },
+  {
+    "gh-username": "RotrixLOL",
+    "link": "https://github.com/RotrixLOL/filmpire",
+    "description": "Discover new movies and genres with chatbot experience.",
+    "title": "Filmpire",
+    "tech": ["React", "Material UI", "Alan AI"]
+  },
+  {
+    "gh-username": "himanshukrmr",
+    "link": "https://github.com/himanshukrmr/multi-step-form",
+    "title": "Multi Step Form",
+    "description": "Designing a multi step form and implementing js functionality",
+    "tech": ["HTML", "SCSS", "JavaScript"]
+  },
+  {
+    "gh-username": "onur-celik",
+    "link": "https://github.com/onur-celik/invester",
+    "title": "Invester",
+    "description": "Invester, an open source investment tracking software that lets you create a custom dashboard with 10+ real-time widgets. Track your portfolio performance and market trends in real-time with easy-to-use, fully customizable tools that integrate with popular financial data sources.",
+    "tech": ["React", "TypeScript"]
+  },
+  {
+    "gh-username": "ozanbatuhankurucu",
+    "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
+    "title": "Magic Quadrant",
+    "description": "Magic Quadrant is a scatter chart develop by Gartner to visualize major players in a specific market.",
+    "tech": ["React", "TypeScript", "Styled Components"]
+  },
+  {
+    "gh-username": "Deveesh-Shetty",
+    "link": "https://github.com/Deveesh-Shetty/Chromatico",
+    "title": "Chromatico",
+    "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
+    "tech": ["React", "TypeScript", "TailwindCSS"]
+  },
+  {
+    "gh-username": "Jatan88",
+    "link": "https://github.com/Jatan88/JobSpot",
+    "title": "JobSpot",
+    "description": "A Mobile Application for both Android and iOS for Job Opportunities.",
+    "tech": ["React Native", "Expo"]
+  },
+  {
+    "gh-username": "SurajPratap10",
+    "link": "https://github.com/SurajPratap10/TrailBlaze",
+    "title": "TrailBlaze",
+    "description": "TrailBlaze is an all-in-one movie and TV show Trailers viewing app.",
+    "tech": ["React", "Redux Toolkit", "TMDB API"]
+  }
+]

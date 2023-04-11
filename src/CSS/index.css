@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+@tailwind base;
+
+/* As the followings are default styles, they must be placed after base layer */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+  border-radius: 10px;
+}
+html {
+  scrollbar-color: #ffffff #000000;
+  scrollbar-width: auto;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #000513;
+}
+
+@tailwind components;
+@tailwind utilities;
