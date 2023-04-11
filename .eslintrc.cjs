@@ -9,7 +9,7 @@ module.exports = {
     {
       files: ["*.md"],
       rules: {
-        "commit-convention/commit-convention": "off",
+        "commit-convention/commit-convention": "on",
       },
     },
   ],
@@ -29,7 +29,7 @@ module.exports = {
     semi: ["error", "always"],
 
     // Require single quotes for strings
-    quotes: ["error", "single"],
+    quotes: ["error", "double"],
 
     // Require curly braces for all control statements
     curly: ["error", "all"],

@@ -2,12 +2,20 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App"
 import "./CSS/index.css"
-import { BrowserRouter } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import ProjectsPage from "./pages/ProjectsPage"
 import { inject } from "@vercel/analytics"
 inject()
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-)
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/ProjectsPage",
+    element: <ProjectsPage />,
+  },
+])
+
+ReactDOM.createRoot(document.getElementById("root")).render(<RouterProvider router={router} />)
