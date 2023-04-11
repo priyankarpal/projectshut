@@ -29,9 +29,9 @@
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
-    "@types/react": "^18.0.33",
+    "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react-swc": "^3.2.0",
+    "@vitejs/plugin-react-swc": "^3.3.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.38.0",
     "eslint-config-standard": "^17.0.0",
