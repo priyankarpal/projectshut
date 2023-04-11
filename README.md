@@ -26,9 +26,8 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 - Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
 - Don't spam if you do it your PR/issue will be closed.
 
-=======
 
-## Prerequisites
+## 🤏 Prerequisites
 
 1. Make sure you installed NodeJs in your system.
 2. Also, you have installed pnpm.
