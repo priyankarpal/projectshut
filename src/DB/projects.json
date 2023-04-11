@@ -138,5 +138,12 @@
     "title": "JobSpot",
     "description": "A Mobile Application for both Android and iOS for Job Opportunities.",
     "tech": ["React Native", "Expo"]
+  },
+  {
+    "gh-username": "SurajPratap10",
+    "link": "https://github.com/SurajPratap10/TrailBlaze",
+    "title": "TrailBlaze",
+    "description": "TrailBlaze is an all-in-one movie and TV show Trailers viewing app.",
+    "tech": ["React", "Redux Toolkit", "TMDB API"]
   }
 ]
