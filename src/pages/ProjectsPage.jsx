@@ -4,28 +4,39 @@ import projects from "../DB/projects.json"
 
 const ProjectsPage = () => {
   return (
-    <main className=" my-8 min-h-[65.75vh] max-w-6xl w-11/12 mx-auto sm:min-h-[73vh] lg:min-h-[78vh]">
-      {/* As the number of cards may change, it is important to give a min-height to 'main' */}
-      <h1 className="text-[3.5rem] font-bold  text-center">
-        List of <span className="text-primary">cool </span>Projects
-      </h1>
-      <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
-        Want to add your projects?
-        <a
-          href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
-          target={"_blank"}
-          rel="noreferrer"
-          className="p-2 inline-block rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
-        >
-          Check documentation <span aria-hidden="true">→</span>
-        </a>
-      </p>
-      <section className="mt-7 sm:grid sm:grid-cols-2 sm:gap-x-3 sm:gap-y-3 sm:justify-items-center sm:items-center lg:grid-cols-3 lg:gap-x-5 lg:gap-y-5">
+    <section id="projects" className="my-20">
+      <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
+        <div className="mx-auto  text-center">
+          <h2 className="text-[3.5rem] font-bold  ">List of cool Projects </h2>
+
+          <p className="m-2 text-gray-300 text-[1.2rem]">
+            Want to add your projects?
+            <a
+              href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
+              target={"_blank"}
+              rel="noreferrer"
+              className=" p-2 rounded-lg"
+            >
+              Check documentation <span aria-hidden="true">→</span>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-15 grid grid-cols-1  gap-8 md:grid-cols-2 lg:grid-cols-3 m-[4rem] ">
+        {/* Projects */}
         {projects.map((project, i) => (
-          <ProjectCard gh={project["gh-username"]} {...project} key={i} />
+          <ProjectCard
+            gh={project["gh-username"]}
+            link={project.link}
+            title={project.title}
+            description={project.description}
+            tech={project.tech}
+            key={i}
+          />
         ))}
-      </section>
-    </main>
+      </div>
+    </section>
   )
 }
 

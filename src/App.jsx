@@ -4,7 +4,7 @@ import { Route, Routes, Navigate } from "react-router-dom"
 
 function App() {
   return (
-    <div className=" text-white font-mono">
+    <div className=" text-white">
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
