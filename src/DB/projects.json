@@ -146,4 +146,12 @@
     "description": "TrailBlaze is an all-in-one movie and TV show Trailers viewing app.",
     "tech": ["React", "Redux Toolkit", "TMDB API"]
   }
+  {
+      "gh-username": "jayk-gupta",
+    "link": "https://github.com/jayk-gupta/Anu-portfolio",
+    "title": "Portfolio site",
+    "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
+    "tech": ["React", "tailwind css"]
+  
+  }
 ]
