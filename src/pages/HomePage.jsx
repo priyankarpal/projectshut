@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
-import SplashScreen from "../components/Splash_Screen"
+import SplashScreen from "../components/SplashScreen"
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(true)
