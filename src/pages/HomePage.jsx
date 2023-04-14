@@ -84,9 +84,9 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent bg-[#A66EFC] py-3 px-8 text-center font-medium text-white hover:bg-[#702dd4]"
+                  className="inline-block rounded-md border border-transparent bg-[#FFFFFF] py-3 px-8 text-center font-bold text-black hover:bg-[##FFFFFF]"
                 >
-                  Browse Projects
+                  Browse Projects <span aria-hidden="true">→</span>
                 </Link>
               </div>
             </div>

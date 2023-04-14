@@ -1,3 +1,4 @@
 import ProjectsPage from "./ProjectsPage"
 import HomePage from "./HomePage"
-export { ProjectsPage, HomePage }
+import ContriButorsPage from "./ContributorsPage"
+export { ProjectsPage, HomePage, ContriButorsPage }
