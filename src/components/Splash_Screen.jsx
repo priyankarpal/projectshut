@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const SplashScreen = () => {
   return (
@@ -9,11 +9,9 @@ const SplashScreen = () => {
         <div className="w-8 h-8 from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r rounded-full"></div>
       </div>
 
-      <div className="mt-4 text-xl font-bold text-white flex items-center justify-center">
-        Loading...
-      </div>
+      <div className="mt-4 text-xl font-bold text-white flex items-center justify-center">Loading...</div>
     </div>
-  );
-};
+  )
+}
 
-export default SplashScreen;
+export default SplashScreen
