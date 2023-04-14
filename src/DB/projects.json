@@ -5,13 +5,20 @@
     "title": "Thea Theme",
     "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
     "tech": ["JSON", "Yo Code"]
-  },
+  }, 
   {
     "gh-username": "abhidadhaniya23",
     "link": "https://gigaresources.xyz/",
     "title": "GigaResources",
     "description": "Manually curated collection of resources for developers, designers, and other creative professionals to help them build better products.",
     "tech": ["Resources", "Tools"]
+  },
+  {
+    "gh-username": "Swpn0neel",
+    "link": "https://github.com/Swpn0neel/swapnoneel-portfolio",
+    "title": "Swapnoneel's Portfolio",
+    "description": "A professional portfolio of Swapnoneel Saha, with his Achievements, Educational Journey and Contact Support to reach out to him.",
+    "tech": ["React", "CSS", "Node.js"]
   },
   {
     "gh-username": "Snach13",
