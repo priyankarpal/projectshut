@@ -5,7 +5,7 @@
     "title": "Thea Theme",
     "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
     "tech": ["JSON", "Yo Code"]
-  }, 
+  },
   {
     "gh-username": "abhidadhaniya23",
     "link": "https://gigaresources.xyz/",
@@ -133,7 +133,6 @@
     "tech": ["React", "TypeScript", "Styled Components"]
   },
   {
-
     "gh-username": "nayanrdeveloper",
     "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
     "title": "DeDoctor",
@@ -167,6 +166,5 @@
     "title": "Portfolio site",
     "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
     "tech": ["React", "tailwind css"]
-
   }
 ]
