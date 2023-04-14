@@ -9,7 +9,7 @@ module.exports = {
     {
       files: ["*.md"],
       rules: {
-        "commit-convention/commit-convention": "off",
+        "commit-convention/commit-convention": "on",
       },
     },
   ],
@@ -22,17 +22,14 @@ module.exports = {
     // Disallow unused variables
     "no-unused-vars": "error",
 
-    // Enforce a maximum line length
-    "max-len": ["warn", { code: 80 }],
-
     // Enforce consistent indentation
     indent: ["error", 2],
 
     // Enforce the use of semicolons
     semi: ["error", "always"],
 
-    // Require single quotes for strings
-    quotes: ["error", "single"],
+    // Require double quotes for strings
+    quotes: ["error", "double"],
 
     // Require curly braces for all control statements
     curly: ["error", "all"],
