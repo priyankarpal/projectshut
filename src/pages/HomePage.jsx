@@ -1,10 +1,20 @@
-import React from "react"
+import React,{useState,useEffect} from "react"
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
+import SplashScreen from "../components/Splash_Screen";
+
 
 const HomePage = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    setTimeout(() => setIsLoading(false), 1000);
+  }, []);
+
   return (
     <>
+    {isLoading ? <SplashScreen /> : (
       <div className="relative overflow-hidden bg-[#000513]">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -93,7 +103,9 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+    )}
       <Banner />
+    
     </>
   )
 }
