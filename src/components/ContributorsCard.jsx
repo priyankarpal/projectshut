@@ -15,7 +15,6 @@ function Contributors({ owner, repo }) {
       .then((response) => response.json())
       .then((data) => {
         setContributors(data)
-        console.log(data)
         setLoading(false) // set loading to false when the fetch request is completed
       })
       .catch((error) => {
