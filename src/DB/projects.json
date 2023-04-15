@@ -166,5 +166,12 @@
     "title": "Portfolio site",
     "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
     "tech": ["React", "tailwind css"]
-  }
+  },
+  {
+  "gh-username": "YOUR-GITHUB-USERNAME",
+  "link": "LINK-TO-GITHUB-OR-DEMO",
+  "title": "PROJECT-TITLE",
+  "description": "PROJECT-DESCRIPTION",
+  "tech": ["some tech 1", "some tech 2", "etc"]
+}
 ]
