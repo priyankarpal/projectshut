@@ -12,6 +12,9 @@ importers:
       husky:
         specifier: ^8.0.3
         version: 8.0.3
+      process:
+        specifier: ^0.11.10
+        version: 0.11.10
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -2233,6 +2236,12 @@ packages:
     engines: { node: ">=10.13.0" }
     hasBin: true
     dev: true
+
+  /process@0.11.10:
+    resolution:
+      { integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A== }
+    engines: { node: ">= 0.6.0" }
+    dev: false
 
   /prop-types@15.8.1:
     resolution:

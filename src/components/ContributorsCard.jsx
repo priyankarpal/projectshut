@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react"
+import process from "process"
 
 function Contributors({ owner, repo }) {
   const [contributors, setContributors] = useState([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setLoading(true) // set loading to true when the fetch request is initiated
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors`)
+    setLoading(true) // set loading to true when th e fetch request is initiated
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors`, {
+      headers: {
+        Authorization: ` ${process.env.YOUR_TOKEN}`,
+      },
+    })
       .then((response) => response.json())
       .then((data) => {
         setContributors(data)
+        console.log(data)
         setLoading(false) // set loading to false when the fetch request is completed
       })
       .catch((error) => {
