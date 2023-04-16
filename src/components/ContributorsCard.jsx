@@ -1,37 +1,44 @@
 import React, { useEffect, useState } from "react"
+import process from "process"
 
 function Contributors({ owner, repo }) {
   const [contributors, setContributors] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors`)
+    setLoading(true) // set loading to true when th e fetch request is initiated
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors`, {
+      headers: {
+        Authorization: ` ${process.env.YOUR_TOKEN}`,
+      },
+    })
       .then((response) => response.json())
-      .then((data) => setContributors(data))
+      .then((data) => {
+        setContributors(data)
+        setLoading(false) // set loading to false when the fetch request is completed
+      })
+      .catch((error) => {
+        console.log(error)
+        setLoading(false) // set loading to false when an error occurs
+      })
   }, [owner, repo])
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-5 ">
-      {contributors.map((contributor) => (
-        <div key={contributor.id}>
-          <div className="min-w-max pl-5 pr-5  rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
-            <div className="flex justify-end px-4 pt-4"></div>
-            <div className="flex flex-col items-center pb-10">
-              <img className="h-32 mb-3 rounded-full shadow-lg" src={contributor.avatar_url} alt={contributor.login} />
-
-              <div className="flex mt-4 space-x-3 md:mt-6">
-                <a
-                  href={contributor.html_url}
-                  target="_blank"
-                  className="inline-flex items-center font-medium text-center text-purple-400 hover:underline"
-                >
-                  GitHub Link
-                </a>
-              </div>
-            </div>
-          </div>
+    <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 justify-items-center items-center ">
+      {loading ? (
+        <div className="flex justify-center items-center h-full col-span-10">
+          <span className="text-primary text-xl font-semibold">Loading...</span>
         </div>
-      ))}
-    </div>
+      ) : (
+        contributors.map((contributor) => (
+          <div className="min-w-max p-2" key={contributor.id}>
+            <a href={contributor.html_url} target="_blank">
+              <img className="h-16 mb-3 rounded-full " src={contributor.avatar_url} alt={contributor.login} />
+            </a>
+          </div>
+        ))
+      )}
+    </section>
   )
 }
 

@@ -5,7 +5,7 @@
     "title": "Thea Theme",
     "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
     "tech": ["JSON", "Yo Code"]
-  }, 
+  },
   {
     "gh-username": "abhidadhaniya23",
     "link": "https://gigaresources.xyz/",
@@ -131,6 +131,13 @@
     "title": "Magic Quadrant",
     "description": "Magic Quadrant is a scatter chart develop by Gartner to visualize major players in a specific market.",
     "tech": ["React", "TypeScript", "Styled Components"]
+  },
+  {
+    "gh-username": "nayanrdeveloper",
+    "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
+    "title": "DeDoctor",
+    "description": "DeDoctor are web3 based Doctor Consulation Application where user can create Appointment and Call with Doctor and charge cut in crypto Balance",
+    "tech": ["React", "TypeScript", "Tailwind Css", "Solidity"]
   },
   {
     "gh-username": "Deveesh-Shetty",
