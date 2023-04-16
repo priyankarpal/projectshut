@@ -14,6 +14,13 @@
     "tech": ["Resources", "Tools"]
   },
   {
+    "gh-username": "Swpn0neel",
+    "link": "https://github.com/Swpn0neel/swapnoneel-portfolio",
+    "title": "Swapnoneel's Portfolio",
+    "description": "A professional portfolio of Swapnoneel Saha, with his Achievements, Educational Journey and Contact Support to reach out to him.",
+    "tech": ["React", "CSS", "Node.js"]
+  },
+  {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
@@ -124,6 +131,13 @@
     "title": "Magic Quadrant",
     "description": "Magic Quadrant is a scatter chart develop by Gartner to visualize major players in a specific market.",
     "tech": ["React", "TypeScript", "Styled Components"]
+  },
+  {
+    "gh-username": "nayanrdeveloper",
+    "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
+    "title": "DeDoctor",
+    "description": "DeDoctor are web3 based Doctor Consulation Application where user can create Appointment and Call with Doctor and charge cut in crypto Balance",
+    "tech": ["React", "TypeScript", "Tailwind Css", "Solidity"]
   },
   {
     "gh-username": "Deveesh-Shetty",
