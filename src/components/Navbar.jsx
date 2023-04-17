@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
-import { BsPeopleFill } from "react-icons/bs"
 
 const Navbar = () => {
   return (
     <nav aria-label="Site Nav" className="mx-auto flex max-w-3xl items-center justify-between p-4 ">
       <Link
         to="/"
-        className="inline-flex h-10 items-center justify-center rounded-lg text-white font-bold text-[2.3rem] "
+        className="inline-flex h-10 items-center justify-center rounded-lg text-white font-extrabold text-[2rem] "
       >
         Ph <span className="text-red-500">.</span>
       </Link>
@@ -26,9 +25,9 @@ const Navbar = () => {
         <li>
           <Link
             to="/ContributorsPage"
-            className="inline-flex h-10 items-center justify-center rounded-lg text-white font-bold text-[1.5rem] "
+            className="inline-flex h-10 items-center justify-center rounded-md text-white font-bold hover:bg-slate-900 p-1"
           >
-            <BsPeopleFill />
+            Contributors
           </Link>
         </li>
       </ul>
