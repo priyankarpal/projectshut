@@ -3,6 +3,7 @@ import { Navbar, Footer } from "./components"
 import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
 import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
+import PageNotFound from "./components/PageNotFound"
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -26,7 +27,7 @@ function App() {
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
             <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
             <Route exact path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
-            <Route exact path="/*" element={<Navigate to={"/"} />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
         </>
