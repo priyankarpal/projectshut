@@ -3,9 +3,6 @@ lockfileVersion: "6.0"
 importers:
   .:
     dependencies:
-      "@vercel/analytics":
-        specifier: ^0.1.11
-        version: 0.1.11(react@18.2.0)
       ci:
         specifier: ^2.2.0
         version: 2.2.0
@@ -582,15 +579,6 @@ packages:
     resolution:
       { integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ== }
     dev: true
-
-  /@vercel/analytics@0.1.11(react@18.2.0):
-    resolution:
-      { integrity: sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw== }
-    peerDependencies:
-      react: ^16.8||^17||^18
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /@vitejs/plugin-react-swc@3.3.0(vite@4.2.1):
     resolution:
