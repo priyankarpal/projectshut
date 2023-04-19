@@ -166,5 +166,19 @@
     "title": "Portfolio site",
     "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
     "tech": ["React", "tailwind css"]
-  }
+  },
+  {
+  "gh-username": "pranshu05",
+  "link": "https://github.com/pranshu05/pranshu05.vercel.app",
+  "title": "React-Portfolio",
+  "description": "My portfolio website made in react. https://pranshu05.vercel.app",
+  "tech": ["React", "BootStrap", "CSS"]
+  },
+  {
+  "gh-username": "pranshu05",
+  "link": "https://github.com/pranshu05/elpha",
+  "title": "Elpha",
+  "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier. https://dsc.gg/elpha",
+  "tech": ["Node-JS", "discord.js", "MongoDB"]
+ }
 ]
