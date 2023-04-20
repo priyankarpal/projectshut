@@ -30,7 +30,7 @@ const ProjectsPage = () => {
       <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
         Want to add your projects?
         <a
-          href="https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
+          href="https://projectshut.vercel.app/AddYourProjectsGuide"
           target={"_blank"}
           rel="noreferrer"
           className="p-2 inline-block rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
