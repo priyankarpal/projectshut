@@ -25,9 +25,9 @@ const Navbar = () => {
         <li>
           <Link
             to="/ContributorsPage"
-            className="inline-flex h-10 items-center justify-center rounded-md text-white font-bold hover:bg-slate-900 p-1"
+            className="inline-block rounded-md border border-transparent bg-[#FFFFFF] py-2 px-3 text-center font-bold text-black hover:bg-[##FFFFFF]"
           >
-            Contributors
+            Contributors <span aria-hidden="true">→</span>
           </Link>
         </li>
       </ul>
