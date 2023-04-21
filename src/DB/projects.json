@@ -4,7 +4,7 @@
     "link": "https://github.com/priyankarpal/TheaTheme",
     "title": "Thea Theme",
     "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
-    "tech": ["JSON", "Yo Code"]
+    "tech": ["YoCode"]
   },
   {
     "gh-username": "abhidadhaniya23",
@@ -81,7 +81,7 @@
     "link": "https://github.com/himanshu1221/linkfree_clone",
     "title": "Link Free Clone",
     "description": "It's a linkfree clone for beginners where you can add your customisations",
-    "tech": ["ReactJS", "CSS", "JavaScript"]
+    "tech": ["ReactJs", "CSS", "JavaScript"]
   },
   {
     "gh-username": "JoseVale99",
@@ -137,14 +137,14 @@
     "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
     "title": "DeDoctor",
     "description": "DeDoctor are web3 based Doctor Consulation Application where user can create Appointment and Call with Doctor and charge cut in crypto Balance",
-    "tech": ["React", "TypeScript", "Tailwind Css", "Solidity"]
+    "tech": ["React", "TypeScript", "Tailwind", "Solidity"]
   },
   {
     "gh-username": "Deveesh-Shetty",
     "link": "https://github.com/Deveesh-Shetty/Chromatico",
     "title": "Chromatico",
     "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
-    "tech": ["React", "TypeScript", "TailwindCSS"]
+    "tech": ["React", "TypeScript", "Tailwind"]
   },
   {
     "gh-username": "Jatan88",
@@ -158,14 +158,14 @@
     "link": "https://github.com/SurajPratap10/TrailBlaze",
     "title": "TrailBlaze",
     "description": "TrailBlaze is an all-in-one movie and TV show Trailers viewing app.",
-    "tech": ["React", "Redux Toolkit", "TMDB API"]
+    "tech": ["React", "Redux", "TMDB API"]
   },
   {
     "gh-username": "jayk-gupta",
     "link": "https://github.com/jayk-gupta/Anu-portfolio",
     "title": "Portfolio site",
     "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
-    "tech": ["React", "tailwind css"]
+    "tech": ["React", "Tailwind"]
   },
   {
     "gh-username": "pranshu05",
@@ -179,13 +179,13 @@
     "link": "https://github.com/pranshu05/elpha",
     "title": "Elpha",
     "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier. https://dsc.gg/elpha",
-    "tech": ["Node-JS", "discord.js", "MongoDB"]
+    "tech": ["NodeJs", "discord.js", "MongoDB"]
   },
   {
     "gh-username": "Ahtaxam",
     "link": "https://guileless-sorbet-8d48c5.netlify.app/",
     "title": "Nex research",
     "description": "A online Survey App that let users to create survey according to their needs which is easy to use and are free.   ",
-    "tech": ["Node-JS", "React", "MongoDB", "Express.js", "Material UI"]
+    "tech": ["NodeJs", "React", "MongoDB", "Expressjs", "Material UI"]
   }
 ]
