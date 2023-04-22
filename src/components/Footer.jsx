@@ -33,7 +33,10 @@ const Footer = () => {
           style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
         >
           Share on Twitter
+          MIT License
         </a>
+        <span> &copy; {new Date().getFullYear()} - Open Source</span>
+        </p>
       </div>
     </footer>
   )
