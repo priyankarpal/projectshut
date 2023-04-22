@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { FaGithub } from "react-icons/fa"
+import { FaDiscord, FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
   return (
@@ -20,6 +20,11 @@ const Navbar = () => {
             className="text-[1.5rem] "
           >
             <FaGithub />
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/9qnF5esp" target={"_blank"} rel={"noreferrer"} className="text-[1.5rem] ">
+            <FaDiscord />
           </a>
         </li>
         <li>
