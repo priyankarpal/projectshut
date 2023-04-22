@@ -181,7 +181,7 @@
     "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier. https://dsc.gg/elpha",
     "tech": ["NodeJs", "discord.js", "MongoDB"]
   },
-  
+
   {
     "gh-username": "Ahtaxam",
     "link": "https://guileless-sorbet-8d48c5.netlify.app/",
@@ -194,6 +194,6 @@
     "link": "https://github.com/ashishsurya/t3-flashcards-app",
     "title": "Flashcards App",
     "description": "Flashcards app which is used for storing deck of flashcards for storing question and answers for academic purpose ",
-    "tech": ["NextJS", "React", "Planetscale", "Typescript", "TailwindCSS" , "T3" ]
+    "tech": ["NextJS", "React", "Planetscale", "Typescript", "TailwindCSS", "T3"]
   }
 ]
