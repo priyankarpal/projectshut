@@ -24,17 +24,7 @@ export default function Footer() {
             target="_blank"
             className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
           >
-            <FaGithub className="text-2xl" />
-          </a>
-          <a
-            href="https://discord.com/invite/9qnF5esp"
-            rel="noreferrer"
-            target="_blank"
-            className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
-          >
-            <FaDiscord className="text-2xl" />
-          </a>
-        </div>
+
       </div>
     </footer>
   )
