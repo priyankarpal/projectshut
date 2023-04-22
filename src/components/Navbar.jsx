@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link, NavLink } from "react-router-dom"
-import { FaGithub } from "react-icons/fa"
+import { FaDiscord, FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
 import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
@@ -80,6 +80,16 @@ const Navbar = () => {
                 className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] "
               >
                 <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://discord.gg/9qnF5esp"
+                target={"_blank"}
+                rel={"noreferrer"}
+                className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] "
+              >
+                <FaDiscord />
               </a>
             </li>
           </ul>
