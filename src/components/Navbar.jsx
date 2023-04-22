@@ -6,14 +6,13 @@ import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
+
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
-
-  // const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
     <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full bg-gray-900" style={{}}>
@@ -95,7 +94,7 @@ const Navbar = () => {
           }}
           sx={{
             display: { xs: "block", sm: "none" },
-            "& .MuiDrawer-paper": { boxSizing: "border-box", width: "55%" },
+            "& .MuiDrawer-paper": { boxSizing: "border-box", width: "56%" },
           }}
         >
           <SideMenu handleDrawerToggle={handleDrawerToggle} />
