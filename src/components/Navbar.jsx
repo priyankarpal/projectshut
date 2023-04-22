@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
-import "../CSS/navbar.css"
+import "../CSS/index.css"
 import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full bg-gray-900" style={{}}>
-      <div className="nav-item-container">
+      <div className="flex flex-row justify-between">
         {/* Logo for project Hunt */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton
@@ -70,7 +70,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Additional elemnt of navbar */}
-        <div className="item-navbar" id="additional-elm">
+        <div className="flex justify-center">
           <ul className="flex items-center gap-5 text-white text-[1rem]">
             <li>
               <a

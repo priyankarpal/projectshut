@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton"
 
 export default function SideMenu(props) {
   return (
-    <div className=" h-screen bg-gray-900 " id="elements-of-sidebar">
+    <div className=" h-screen bg-gray-900 flex flex-col " id="elements-of-sidebar">
       <div className="flex mt-4 mb-8 border-b border-gray-400">
         <span
           className=""
