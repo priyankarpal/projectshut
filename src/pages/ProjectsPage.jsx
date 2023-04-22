@@ -54,6 +54,7 @@ const ProjectsPage = () => {
               type="button"
               className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${page === ind ? "text-primary" : null}`}
               onClick={() => setPage(ind)}
+              key={ind}
             >
               {ind + 1}
             </button>
