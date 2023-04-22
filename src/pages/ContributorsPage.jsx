@@ -1,9 +1,18 @@
-import React from "react"
+import React, { useContext } from "react"
 import Contributors from "../components/ContributorsCard"
+import { ThemeContext } from "../context/theme"
 
 function ContriButorsPage() {
+  const { theme } = useContext(ThemeContext)
+  const { backgroundColor, textColor } = theme
   return (
-    <main className=" my-8 min-h-[65.75vh] max-w-6xl w-11/12 mx-auto sm:min-h-[73vh] lg:min-h-[78vh]">
+    <main
+      className=" my-8 min-h-[65.75vh] max-w-6xl w-11/12 mx-auto sm:min-h-[73vh] lg:min-h-[78vh]"
+      style={{
+        backgroundColor: backgroundColor,
+        color: textColor,
+      }}
+    >
       <h1 className=" text-[1.5rem] md:text-[3rem] pb-5 font-bold  text-center">
         Our <span className="text-primary">Contributors </span>
       </h1>

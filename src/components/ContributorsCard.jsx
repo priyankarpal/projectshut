@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useContext } from "react"
 import process from "process"
+import { ThemeContext } from "../context/theme"
 
 function Contributors({ owner, repo }) {
   const [contributors, setContributors] = useState([])
   const [loading, setLoading] = useState(true)
+  const { theme } = useContext(ThemeContext)
 
   useEffect(() => {
     setLoading(true) // set loading to true when th e fetch request is initiated

@@ -1,15 +1,24 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
+import { ThemeContext } from "../context/theme"
 
 const HomePage = () => {
+  const { theme, buttonBgColor, buttonTextColor } = useContext(ThemeContext)
+
   return (
     <>
-      <div className="relative overflow-hidden bg-[#000513]">
+      <div
+        className="relative overflow-hidden"
+        style={{
+          backgroundColor: theme.backgroundColor,
+          color: theme.textColor,
+        }}
+      >
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="font text-4xl font-bold  text-white sm:text-6xl">Show your project to the world</h1>
+              <h1 className="font text-4xl font-bold sm:text-6xl">Show your project to the world</h1>
               <p className="mt-4 text-xl text-gray-400">
                 ProjectsHut is an innovative platform that allows users to publish their projects for free.
               </p>
@@ -83,8 +92,9 @@ const HomePage = () => {
                 </div>
 
                 <Link
-                  to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent bg-[#FFFFFF] py-3 px-8 text-center font-bold text-black hover:bg-[##FFFFFF]"
+                  to="/ProjectsPage"
+                  className="inline-block rounded-md border border-transparent py-3 px-8 text-center font-bold"
+                  style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
                 >
                   Browse Projects <span aria-hidden="true">→</span>
                 </Link>

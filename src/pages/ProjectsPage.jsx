@@ -1,11 +1,14 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import { ProjectCard } from "../components"
 import projects from "../DB/projects.json"
 import { paginate } from "../utils/paginate"
+import { ThemeContext } from "../context/theme"
 
 const paginatedArr = paginate(projects)
 
 const ProjectsPage = () => {
+  const { theme } = useContext(ThemeContext)
+  const { backgroundColor, textColor } = theme
   const [page, setPage] = useState(0)
 
   const currentItems = paginatedArr[page]
@@ -23,11 +26,17 @@ const ProjectsPage = () => {
   }
 
   return (
-    <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
+    <main
+      className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 "
+      style={{
+        backgroundColor: backgroundColor,
+        color: textColor,
+      }}
+    >
       <h1 className="text-[3.5rem] font-bold  text-center">
         List of <span className="text-primary">cool </span>Projects
       </h1>
-      <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
+      <p className={"mt-3 ${textColor} text-[1.2rem] text-center mx-auto w-10/12"}>
         Want to add your projects?
         <a
           href="https://projectshut.vercel.app/AddYourProjectsGuide"

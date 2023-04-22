@@ -1,8 +1,13 @@
 import { BiGitRepoForked } from "react-icons/bi"
 import { AiTwotoneFile } from "react-icons/ai"
 import { RiGitRepositoryCommitsFill } from "react-icons/ri"
+import { ThemeContext } from "../context/theme"
+import { useContext } from "react"
 
 export default function AddYourProjectsGuide() {
+  const { theme } = useContext(ThemeContext)
+  const { backgroundColor, textColor } = theme
+
   const codeString = `{
     "gh-username": "YOUR-GITHUB-USERNAME",
     "link": "LINK-TO-GITHUB-OR-DEMO",
@@ -12,7 +17,13 @@ export default function AddYourProjectsGuide() {
   }`
 
   return (
-    <section className="relative isolate overflow-hidden bg-[#000513] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <section
+      className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+      style={{
+        backgroundColor: backgroundColor,
+        color: textColor,
+      }}
+    >
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
@@ -36,8 +47,10 @@ export default function AddYourProjectsGuide() {
       </div>
 
       <article className="grid justify-center items-center max-w-5xl mx-auto ">
-        <div className="  text-base leading-7 text-white">
-          <p className="mb-5 text-xl font-bold tracking-tight text-white ">Follow these steps to add your projects</p>
+        <div className="  text-base leading-7 text-gray-400">
+          <p className={"mb-5 text-xl font-bold tracking-tight  ${textColor} "}>
+            Follow these steps to add your projects
+          </p>
           <div className="flex items-center gap-5">
             <span>
               <BiGitRepoForked />

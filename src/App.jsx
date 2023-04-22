@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useContext } from "react"
 import { Navbar, Footer } from "./components"
 import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
-import { Route, Routes, Navigate, useLocation } from "react-router-dom"
+import { Route, Routes, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
+import { ThemeProvider } from "./context/theme"
+import { ThemeContext } from "./context/theme"
 
 function App() {
+  const { theme } = useContext(ThemeContext)
+  const { backgroundColor, textColor } = theme
+
   const [isLoading, setIsLoading] = useState(true)
   const location = useLocation()
-
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 1000)
   }, [])
@@ -16,23 +20,31 @@ function App() {
   const showSplashScreen = location.pathname === "/"
 
   return (
-    <div className=" text-white font-mono">
-      {showSplashScreen && isLoading ? (
-        <SplashScreen />
-      ) : (
-        <>
-          <Navbar />
-          <Routes>
-            <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
-            <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
-            <Route exact path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
-            <Route path="*" element={<PageNotFound />} />
-          </Routes>
-          <Footer />
-        </>
-      )}
-    </div>
+    <ThemeProvider>
+      <div
+        className="text-white font-mono "
+        style={{
+          backgroundColor: backgroundColor,
+          color: textColor,
+        }}
+      >
+        <Navbar />
+        {showSplashScreen && isLoading ? (
+          <SplashScreen />
+        ) : (
+          <>
+            <Routes>
+              <Route exact path="/" element={<HomePage />} />
+              <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
+              <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
+              <Route exact path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
+              <Route path="*" element={<PageNotFound />} />
+            </Routes>
+            <Footer />
+          </>
+        )}
+      </div>
+    </ThemeProvider>
   )
 }
 
