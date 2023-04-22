@@ -4,8 +4,8 @@ import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "
 import { Route, Routes, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
-import { ThemeProvider } from "./context/theme"
-import { ThemeContext } from "./context/theme"
+import { ThemeProvider } from "./context/Theme"
+import { ThemeContext } from "./context/Theme"
 
 function App() {
   const { theme } = useContext(ThemeContext)
@@ -44,6 +44,21 @@ function App() {
           </>
         )}
       </div>
+      {showSplashScreen && isLoading ? (
+        <SplashScreen />
+      ) : (
+        <div className=" text-white font-mono">
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
+            <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
+            <Route exact path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+          <Footer />
+        </div>
+      )}
     </ThemeProvider>
   )
 }
