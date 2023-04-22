@@ -45,21 +45,22 @@ const ProjectsPage = () => {
         ))}
       </section>
       <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
-        <button type="button" className="bg-white px-3 py-1 rounded-md " onClick={prevPage}>
+        <button type="button" className="bg-white px-3 py-1 hover:bg-slate-200 rounded-md " onClick={prevPage}>
           Prev
         </button>
         {paginatedArr.map((ele, ind) => {
           return (
             <button
               type="button"
-              className={`bg-white px-3 py-1  rounded-md ${page === ind ? "text-primary" : null}`}
+              className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${page === ind ? "text-primary" : null}`}
               onClick={() => setPage(ind)}
+              key={ind}
             >
               {ind + 1}
             </button>
           )
         })}
-        <button type="button" className="bg-white px-3 py-1 rounded-md " onClick={nextPage}>
+        <button type="button" className="bg-white px-3 py-1 rounded-md hover:bg-slate-200" onClick={nextPage}>
           Next
         </button>
       </div>

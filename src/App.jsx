@@ -16,12 +16,13 @@ function App() {
   const showSplashScreen = location.pathname === "/"
 
   return (
-    <div className=" text-white font-mono">
+    <div className="text-white font-mono">
       {showSplashScreen && isLoading ? (
         <SplashScreen />
       ) : (
         <>
           <Navbar />
+
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
