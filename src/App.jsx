@@ -44,11 +44,13 @@ function App() {
           </>
         )}
       </div>
+    <div className="text-white font-mono">
       {showSplashScreen && isLoading ? (
         <SplashScreen />
       ) : (
         <div className=" text-white font-mono">
           <Navbar />
+
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />

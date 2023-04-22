@@ -20,6 +20,9 @@ const HomePage = () => {
             <div className="sm:max-w-lg">
               <h1 className="font text-4xl font-bold sm:text-6xl">Show your project to the world</h1>
                 <h1 className="font text-4xl font-bold  text-white sm:text-6xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[5rem]">Show your project to the world</h1>
+              <h1 className="font text-4xl font-bold  text-white sm:text-6xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[5rem]">
+                Show your project to the world
+              </h1>
               <p className="mt-4 text-xl text-gray-400">
                 ProjectsHut is an innovative platform that allows users to publish their projects for free.
               </p>
