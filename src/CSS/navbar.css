@@ -1,0 +1,14 @@
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* this class  by default came with use of NavLink  */
+.active {
+  border-bottom: 2px solid purple;
+}
+
+#additional-elm {
+  justify-content: center;
+}
