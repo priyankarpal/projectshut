@@ -49,7 +49,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold  rounded-md focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Home
               </NavLink>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ProjectsPage"
-                className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800 "
+                className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
               >
                 Projects
               </NavLink>
@@ -65,7 +65,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/AddYourProjectsGuide"
-                className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Docs
               </NavLink>
@@ -73,7 +73,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Contributers
               </NavLink>
