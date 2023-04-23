@@ -67,7 +67,7 @@ const ProjectsPage = () => {
             variant={selectedButton === index ? "contained" : "outlined"}
             className="bg-primary hover:bg-slate-200"
           >
-            <span className="text-white"> {tech.toLowerCase()}</span>
+            <span className={selectedButton == index ? "text-white" : "text-primary"}> {tech.toLowerCase()}</span>
           </Button>
         ))}
       </div>
