@@ -19,16 +19,10 @@ const Navbar = () => {
   return (
     <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full">
       <div className="flex flex-row justify-between">
-        {/* Logo for project Hunt */}
+        {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
+          <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
+            <MenuIcon className="text-white" />
           </IconButton>
         </div>
         <div className="item-navbar" id="logo-ph">
@@ -53,7 +47,7 @@ const Navbar = () => {
                 to="/ProjectsPage"
                 className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800 "
               >
-                Project Page
+                Projects
               </NavLink>
             </li>
             <li>
@@ -61,7 +55,7 @@ const Navbar = () => {
                 to="/AddYourProjectsGuide"
                 className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Guide
+                Docs
               </NavLink>
             </li>
             <li>
@@ -69,7 +63,7 @@ const Navbar = () => {
                 to="/ContributorsPage"
                 className="inline-block py-2 px-3 text-center font-bold  hover:bg-slate-300 rounded-md active:bg-slate-400  focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Our Contributers
+                Contributers
               </NavLink>
             </li>
           </ul>
@@ -83,6 +77,7 @@ const Navbar = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                aria-label="Github"
               >
                 <FaGithub />
               </a>
@@ -93,6 +88,7 @@ const Navbar = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                aria-label="Discord"
               >
                 <FaDiscord />
               </a>
