@@ -5,6 +5,7 @@ import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
 import { ThemeContext } from "./context/Theme"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   const { theme } = useContext(ThemeContext)
@@ -32,7 +33,7 @@ function App() {
       ) : (
         <>
           <Navbar />
-
+          <ScrollToTop />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
