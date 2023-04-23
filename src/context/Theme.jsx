@@ -10,6 +10,10 @@ const lightTheme = {
     buttonBgColor: "#000",
     buttonTextColor: "#fff",
   },
+  navbar: {
+    background: "#fff",
+    color: "#000",
+  },
 }
 
 const darkTheme = {
@@ -19,6 +23,10 @@ const darkTheme = {
   button: {
     buttonBgColor: "#fff",
     buttonTextColor: "#000",
+  },
+  navbar: {
+    background: "#111827",
+    color: "#fff",
   },
 }
 

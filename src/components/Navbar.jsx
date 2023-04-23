@@ -11,13 +11,21 @@ import { ThemeContext } from "../context/Theme"
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
   const { theme, toggleTheme } = useContext(ThemeContext)
+  const { navbar } = theme
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
 
   return (
-    <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full bg-gray-900">
+    <nav
+      aria-label="Site Nav"
+      className=" mx-auto  justify p-4 w-full bg-gray-900"
+      style={{
+        background: navbar.background,
+        color: navbar.color,
+      }}
+    >
       <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
@@ -70,35 +78,35 @@ const Navbar = () => {
         </div>
         {/* Additional elemnt of navbar */}
         <div className="flex justify-center">
-            <ul className="flex items-center gap-5  text-[1rem]">
-              <li>
-                <a
-                  href="https://github.com/priyankarpal/ProjectsHut"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
-                  aria-label="Github"
-                >
-                  <FaGithub />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://discord.gg/9qnF5esp"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
-                  aria-label="Discord"
-                >
-                  <FaDiscord />
-                </a>
-              </li>
-              <li>
+          <ul className="flex items-center gap-5  text-[1rem]">
+            <li>
+              <a
+                href="https://github.com/priyankarpal/ProjectsHut"
+                target={"_blank"}
+                rel={"noreferrer"}
+                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                aria-label="Github"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://discord.gg/9qnF5esp"
+                target={"_blank"}
+                rel={"noreferrer"}
+                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                aria-label="Discord"
+              >
+                <FaDiscord />
+              </a>
+            </li>
+            <li>
               <button onClick={toggleTheme} className="text-2xl ">
                 {theme.icon}
               </button>
-              </li>
-            </ul>
+            </li>
+          </ul>
         </div>
         <Drawer
           variant="temporary"
