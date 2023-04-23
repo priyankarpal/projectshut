@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full">
+    <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full ">
       <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
@@ -93,13 +93,13 @@ const Navbar = () => {
                 <FaDiscord />
               </a>
             </li>
+            <li>
+              <button onClick={toggleTheme} className="text-2xl ">
+                {theme.icon}
+              </button>
+            </li>
           </ul>
         </div>
-
-        <button onClick={toggleTheme} className="text-3xl">
-          {theme.icon}{" "}
-        </button>
-
         <Drawer
           variant="temporary"
           open={mobileOpen}
