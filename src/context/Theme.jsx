@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect } from "react"
 const ThemeContext = createContext("light")
 
 const lightTheme = {
-  background: "#fff",
+  background: "#f5f6fa",
   color: "#000",
   icon: "☀️",
   button: {
