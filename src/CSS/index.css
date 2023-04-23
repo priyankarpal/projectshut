@@ -11,6 +11,21 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .dev-img-parent-class {
+    height: 40vh;
+  }
+
+  .dev-img-class {
+    width: 80%;
+    height: auto;
+    max-width: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-35%, 0%);
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
