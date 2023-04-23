@@ -48,10 +48,5 @@ body {
   background-color: #000513;
 }
 
-/* this class  by default came with use of NavLink  */
-.active {
-  border-bottom: 2px solid purple;
-}
-
 @tailwind components;
 @tailwind utilities;

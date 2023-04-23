@@ -41,7 +41,7 @@ export default function SideMenu(props) {
       <div className="flex justify-center">
         <NavLink
           to="/"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
           {"Home"}
@@ -50,7 +50,7 @@ export default function SideMenu(props) {
       <div className="flex justify-center">
         <NavLink
           to="/ProjectsPage"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
           {"Project Page"}
@@ -59,7 +59,7 @@ export default function SideMenu(props) {
       <div className="flex justify-center">
         <NavLink
           to="/AddYourProjectsGuide"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
           {"Guide"}
@@ -68,7 +68,7 @@ export default function SideMenu(props) {
       <div className="flex justify-center">
         <NavLink
           to="/ContributorsPage"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
           {"Our Contributers"}

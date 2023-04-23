@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full bg-gray-900" style={{}}>
+    <nav aria-label="Site Nav" className=" mx-auto  justify p-4 w-full bg-gray-900">
       <div className="flex flex-row justify-between">
         {/* Logo for project Hunt */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
@@ -39,14 +39,17 @@ const Navbar = () => {
         <div className="item-navbar hidden md:block" id="elements-of-navbar">
           <ul className="flex items-center gap-5 text-white text-[1rem]">
             <li>
-              <NavLink to="/" className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]">
+              <NavLink
+                to="/"
+                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+              >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/ProjectsPage"
-                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800 "
               >
                 Project Page
               </NavLink>
@@ -54,7 +57,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/AddYourProjectsGuide"
-                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Guide
               </NavLink>
@@ -62,7 +65,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-[##FFFFFF]"
+                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Our Contributers
               </NavLink>
