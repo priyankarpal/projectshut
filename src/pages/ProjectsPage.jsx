@@ -48,7 +48,7 @@ const ProjectsPage = () => {
       <h1 className="text-[3.5rem] font-bold  text-center">
         List of <span className="text-primary">cool </span>Projects
       </h1>
-      <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
+      <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
         Want to add your projects?
         <a
           href="https://projectshut.vercel.app/AddYourProjectsGuide"
