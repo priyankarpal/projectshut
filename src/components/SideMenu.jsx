@@ -31,14 +31,14 @@ export default function SideMenu(props) {
         >
           <Link
             to="/"
-            className="h-10 items-center rounded-lg text-white font-extrabold text-[2rem] "
+            className="h-10 mb-5 items-center rounded-lg text-white font-extrabold text-[2rem] "
             onClick={() => props.handleDrawerToggle()}
           >
             {"Ph"} <span className="text-red-500">.</span>
           </Link>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-start">
         <NavLink
           to="/"
           className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
@@ -47,31 +47,31 @@ export default function SideMenu(props) {
           {"Home"}
         </NavLink>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-start">
         <NavLink
           to="/ProjectsPage"
           className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
-          {"Project Page"}
+          {"Projects"}
         </NavLink>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-start">
         <NavLink
           to="/AddYourProjectsGuide"
           className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
-          {"Guide"}
+          {"Docs"}
         </NavLink>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-start">
         <NavLink
           to="/ContributorsPage"
           className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
           onClick={() => props.handleDrawerToggle()}
         >
-          {"Our Contributers"}
+          {"Contributers"}
         </NavLink>
       </div>
       {/* </ul> */}

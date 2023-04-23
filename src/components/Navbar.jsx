@@ -51,7 +51,7 @@ const Navbar = () => {
                 to="/ProjectsPage"
                 className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800 "
               >
-                Project Page
+                Projects
               </NavLink>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 to="/AddYourProjectsGuide"
                 className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Guide
+                Docs
               </NavLink>
             </li>
             <li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 to="/ContributorsPage"
                 className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Our Contributers
+                Contributers
               </NavLink>
             </li>
           </ul>
