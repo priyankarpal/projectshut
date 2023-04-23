@@ -16,6 +16,7 @@ const ProjectsPage = () => {
   useEffect(() => {
     const data = paginatedArr[page]
     setItems(data)
+    window.scrollTo(0, 0) // this makes the page scroll to top on page state changes
   }, [page])
 
   // this useEffect is for when user clear the filter (double click) then render only that page projects
