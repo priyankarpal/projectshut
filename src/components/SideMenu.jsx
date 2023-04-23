@@ -15,7 +15,7 @@ export default function SideMenu(props) {
         >
           <IconButton
             color="inherit"
-            aria-label="open drawer"
+            aria-label="close drawer"
             edge="start"
             sx={{ mr: 2, display: { sm: "none" } }}
             onClick={() => props.handleDrawerToggle()}
@@ -38,42 +38,45 @@ export default function SideMenu(props) {
           </Link>
         </div>
       </div>
-      <div className="flex justify-start">
-        <NavLink
-          to="/"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
-          onClick={() => props.handleDrawerToggle()}
-        >
-          {"Home"}
-        </NavLink>
-      </div>
-      <div className="flex justify-start">
-        <NavLink
-          to="/ProjectsPage"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
-          onClick={() => props.handleDrawerToggle()}
-        >
-          {"Projects"}
-        </NavLink>
-      </div>
-      <div className="flex justify-start">
-        <NavLink
-          to="/AddYourProjectsGuide"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
-          onClick={() => props.handleDrawerToggle()}
-        >
-          {"Docs"}
-        </NavLink>
-      </div>
-      <div className="flex justify-start">
-        <NavLink
-          to="/ContributorsPage"
-          className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
-          onClick={() => props.handleDrawerToggle()}
-        >
-          {"Contributers"}
-        </NavLink>
-      </div>
+      <ul className="block">
+        <li>
+          <NavLink
+            to="/"
+            className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            onClick={() => props.handleDrawerToggle()}
+          >
+            {"Home"}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/ProjectsPage"
+            className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            onClick={() => props.handleDrawerToggle()}
+          >
+            {"Projects"}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/AddYourProjectsGuide"
+            className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            onClick={() => props.handleDrawerToggle()}
+          >
+            {"Docs"}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/ContributorsPage"
+            className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            onClick={() => props.handleDrawerToggle()}
+          >
+            {"Contributers"}
+          </NavLink>
+        </li>
+      </ul>
+
       {/* </ul> */}
     </div>
   )
