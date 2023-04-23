@@ -7,7 +7,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
 
   return (
     <article
-      className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 dark:shadow-slate-700/[.7] transition-all duration-200 hover:scale-95 bg-{theme.navbar.background} text-{theme.color}"
+      className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7] transition-all duration-200 hover:scale-95"
       style={{
         background: theme.navbar.background,
         color: theme.color,
