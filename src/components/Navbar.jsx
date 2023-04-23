@@ -30,7 +30,11 @@ const Navbar = () => {
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
-            <MenuIcon className="text-white" />
+            <MenuIcon
+              style={{
+                color: navbar.color,
+              }}
+            />
           </IconButton>
         </div>
         <div className="item-navbar" id="logo-ph">
