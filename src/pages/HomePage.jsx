@@ -1,15 +1,17 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
+import { ThemeContext } from "../context/Theme"
 
 const HomePage = () => {
+  const { theme } = useContext(ThemeContext)
   return (
     <>
-      <div className="relative overflow-hidden bg-[#000513]">
+      <div className="relative overflow-hidden">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="font text-4xl font-bold  text-white sm:text-6xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[5rem]">
+              <h1 className="font text-4xl font-bold sm:text-6xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[5rem]">
                 Show your project to the world
               </h1>
               <p className="mt-4 text-xl text-gray-400">
@@ -86,7 +88,11 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent bg-[#FFFFFF] py-3 px-8 text-center font-bold text-black hover:bg-[##FFFFFF] browse-projects-link"
+                  className="inline-block rounded-md border border-transparent  py-3 px-8 text-center font-bold  browse-projects-link"
+                  style={{
+                    backgroundColor: theme.button.buttonBgColor,
+                    color: theme.button.buttonTextColor,
+                  }}
                 >
                   Browse Projects <span aria-hidden="true">→</span>
                 </Link>
