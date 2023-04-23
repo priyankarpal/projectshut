@@ -77,7 +77,7 @@ const Navbar = () => {
                 href="https://github.com/priyankarpal/ProjectsHut"
                 target={"_blank"}
                 rel={"noreferrer"}
-                className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] "
+                className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[1.5rem] "
               >
                 <FaGithub />
               </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 href="https://discord.gg/9qnF5esp"
                 target={"_blank"}
                 rel={"noreferrer"}
-                className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] "
+                className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[1.5rem] "
               >
                 <FaDiscord />
               </a>
