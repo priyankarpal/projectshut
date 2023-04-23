@@ -1,6 +1,6 @@
 import React from "react"
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer aria-label="Site Footer">
       <p className="text-center p-5">
@@ -18,5 +18,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export default Footer
