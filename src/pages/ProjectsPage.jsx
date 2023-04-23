@@ -44,15 +44,15 @@ const ProjectsPage = () => {
           <ProjectCard gh={project["gh-username"]} {...project} key={i} />
         ))}
       </section>
-      <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
-        <button type="button" className="bg-white px-3 py-1 hover:bg-slate-200 rounded-md " onClick={prevPage}>
+      <div className=" py-5 flex gap-2 flex-wrap justify-center text-white ">
+        <button type="button" className="bg-white px-3 py-1 hover:bg-slate-200 rounded-md text-black " onClick={prevPage}>
           Prev
         </button>
         {paginatedArr.map((ele, ind) => {
           return (
             <button
               type="button"
-              className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${page === ind ? "text-primary" : null}`}
+              className={`bg- px-3 py-1 hover:bg-slate-200 rounded-md ${page === ind ? "text-primary" : null}`}
               onClick={() => setPage(ind)}
               key={ind}
             >
@@ -60,7 +60,7 @@ const ProjectsPage = () => {
             </button>
           )
         })}
-        <button type="button" className="bg-white px-3 py-1 rounded-md hover:bg-slate-200" onClick={nextPage}>
+        <button type="button" className="bg-white px-3 py-1 rounded-md hover:bg-slate-200 text-black" onClick={nextPage}>
           Next
         </button>
       </div>
