@@ -6,29 +6,14 @@ import IconButton from "@mui/material/IconButton"
 export default function SideMenu(props) {
   return (
     <div className=" h-screen bg-gray-900 flex flex-col " id="elements-of-sidebar">
+      {/*  Logo & Close icon section */}
       <div className="flex mt-4 mb-8 border-b border-gray-400">
-        <span
-          className=""
-          style={{
-            marginLeft: "5%",
-          }}
-        >
-          <IconButton
-            color="inherit"
-            aria-label="close drawer"
-            edge="start"
-            sx={{ mr: 2, display: { sm: "none" } }}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            <CloseIcon style={{ color: "white" }} />
+        <span className="ml-[5%]">
+          <IconButton aria-label="close drawer" edge="start" onClick={() => props.handleDrawerToggle()}>
+            <CloseIcon className="text-white" />
           </IconButton>
         </span>
-        <div
-          className="flex items-center"
-          style={{
-            marginLeft: "18%",
-          }}
-        >
+        <div className="flex items-center ml-[15%]">
           <Link
             to="/"
             className="h-10 mb-5 items-center rounded-lg text-white font-extrabold text-[2rem] "
@@ -38,6 +23,8 @@ export default function SideMenu(props) {
           </Link>
         </div>
       </div>
+
+      {/*  SideBar navlinks section */}
       <ul className="block">
         <li>
           <NavLink
