@@ -4,6 +4,7 @@ import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "
 import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -21,6 +22,7 @@ function App() {
         <SplashScreen />
       ) : (
         <>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route exact path="/" element={<HomePage />} />

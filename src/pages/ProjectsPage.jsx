@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { ProjectCard } from "../components"
 import projects from "../DB/projects.json"
 import { paginate } from "../utils/paginate"
@@ -7,6 +7,10 @@ const paginatedArr = paginate(projects)
 
 const ProjectsPage = () => {
   const [page, setPage] = useState(0)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [page])
 
   const currentItems = paginatedArr[page]
 
