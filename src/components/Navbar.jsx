@@ -19,14 +19,8 @@ const Navbar = () => {
       <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
+          <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
+            <MenuIcon className="text-white" />
           </IconButton>
         </div>
         <div className="item-navbar" id="logo-ph">
