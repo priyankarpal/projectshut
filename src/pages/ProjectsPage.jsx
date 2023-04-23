@@ -16,6 +16,7 @@ const ProjectsPage = () => {
   useEffect(() => {
     const data = paginatedArr[page]
     setItems(data)
+    window.scrollTo(0, 0) // this makes the page scroll to top on page state changes
   }, [page])
 
   // this useEffect is for when user clear the filter (double click) then render only that page projects
@@ -48,7 +49,7 @@ const ProjectsPage = () => {
       <h1 className="text-[3.5rem] font-bold  text-center">
         List of <span className="text-primary">cool </span>Projects
       </h1>
-      <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
+      <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
         Want to add your projects?
         <a
           href="https://projectshut.vercel.app/AddYourProjectsGuide"
