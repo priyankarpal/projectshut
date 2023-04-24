@@ -33,7 +33,9 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🧰 Tech Stack Used
 
-In this project, React is used for the frontend while Tailwind CSS is used for styling. The combination of the two technologies allowed for building a responsive and visually appealing user interface that is easy to use and navigate. The use of these technologies also allows for easy maintenance and scalability of the application.
+We're excited to share that our project leverages the power of React for the frontend, and the stylish and versatile Tailwind CSS for an eye-catching and intuitive user interface. The seamless integration of these two cutting-edge technologies has enabled us to create a responsive and visually stunning platform that is both easy to use and navigate.
+
+Furthermore, utilizing React and Tailwind CSS provides many benefits, including easy maintenance and scalability of the application. This ensures that our platform can adapt and grow alongside the needs of our users, while maintaining its superior performance and polished aesthetics.
 
 | Technology                                                                                                                                           | Description                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
