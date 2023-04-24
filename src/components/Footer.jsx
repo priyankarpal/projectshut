@@ -10,7 +10,7 @@ export default function Footer() {
           <h2 className="font-bold text-white sm:text-3xl  mb-4">Built for collaboration 🤝🏼</h2>
 
           <p className="max-w-sm mx-auto mt-4 text-gray-400">
-            ProjectsHut is an open-source project. Feel free to contribute to the project.
+            ProjectsHut is an open-source project. Feel free to contribute and help us make this project even better
           </p>
         </div>
 
