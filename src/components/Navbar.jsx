@@ -75,7 +75,7 @@ const Navbar = () => {
                 to="/ContributorsPage"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Contributers
+                Contributors
               </NavLink>
             </li>
           </ul>
