@@ -202,5 +202,12 @@
     "title": "Digital Agency Landing Page",
     "description": "Build digital media agency landing page template using html, css, javascript. ",
     "tech": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+  "gh-username": "shyamtawli",
+  "link": "https://github.com/shyamtawli/devFind",
+  "title": "devFind - OpenSource",
+  "description": "Open Source for Devs. Add Profiles, Search by Skills. Contribute Now",
+  "tech": ["ReactJS", "CSS"]
   }
 ]
