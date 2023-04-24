@@ -27,8 +27,7 @@ const Navbar = () => {
           <Link to="/" className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] ">
             Ph <span className="text-red-500">.</span>
           </Link>
-          <div className="item-navbar" id="logo-ph">
-        </div>
+          <div className="item-navbar" id="logo-ph"></div>
         </div>
         {/* Main element of navbar */}
         <div className="item-navbar hidden md:block" id="elements-of-navbar">
