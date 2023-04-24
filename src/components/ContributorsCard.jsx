@@ -7,7 +7,7 @@ function Contributors({ owner, repo }) {
 
   useEffect(() => {
     setLoading(true) // set loading to true when th e fetch request is initiated
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors`, {
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
       headers: {
         Authorization: ` ${process.env.YOUR_TOKEN}`,
       },
