@@ -19,7 +19,7 @@ const lightTheme = {
 const darkTheme = {
   background: "#000",
   color: "#fff",
-  icon: "🌙",
+  icon: "🌜 ",
   button: {
     buttonBgColor: "#fff",
     buttonTextColor: "#000",

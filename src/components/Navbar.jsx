@@ -88,7 +88,7 @@ const Navbar = () => {
                 href="https://github.com/priyankarpal/ProjectsHut"
                 target={"_blank"}
                 rel={"noreferrer"}
-                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
                 aria-label="Github"
               >
                 <FaGithub />
@@ -99,14 +99,14 @@ const Navbar = () => {
                 href="https://discord.gg/9qnF5esp"
                 target={"_blank"}
                 rel={"noreferrer"}
-                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
                 aria-label="Discord"
               >
                 <FaDiscord />
               </a>
             </li>
             <li>
-              <button onClick={toggleTheme} className="text-2xl ">
+              <button onClick={toggleTheme} className="text-[1.3rem] pb-2 ">
                 {theme.icon}
               </button>
             </li>
