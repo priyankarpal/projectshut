@@ -27,8 +27,9 @@ const Navbar = () => {
           <Link to="/" className="inline-flex h-10 items-center rounded-lg text-white font-extrabold text-[2rem] ">
             Ph <span className="text-red-500">.</span>
           </Link>
+          <div className="item-navbar" id="logo-ph">
         </div>
-
+        </div>
         {/* Main element of navbar */}
         <div className="item-navbar hidden md:block" id="elements-of-navbar">
           <ul className="flex items-center gap-5 text-white text-[1rem]">
@@ -54,6 +55,14 @@ const Navbar = () => {
                 className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Docs
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/About"
+                className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+              >
+                About
               </NavLink>
             </li>
             <li>

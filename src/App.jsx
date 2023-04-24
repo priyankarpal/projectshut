@@ -4,6 +4,7 @@ import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "
 import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
+import About from "./pages/About"
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -22,8 +23,8 @@ function App() {
       ) : (
         <>
           <Navbar />
-
           <Routes>
+            <Route exact path="About" element={<About />} />
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
             <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
