@@ -16,6 +16,7 @@ const ProjectsPage = () => {
   useEffect(() => {
     const data = paginatedArr[page]
     setItems(data)
+    window.scrollTo(0, 0) // this makes the page scroll to top on page state changes
   }, [page])
 
   // this useEffect is for when user clear the filter (double click) then render only that page projects
@@ -48,7 +49,7 @@ const ProjectsPage = () => {
       <h1 className="text-[3.5rem] font-bold  text-center">
         List of <span className="text-primary">cool </span>Projects
       </h1>
-      <p className="mt-3 text-gray-300 text-[1.2rem] text-center mx-auto w-10/12">
+      <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
         Want to add your projects?
         <a
           href="https://projectshut.vercel.app/AddYourProjectsGuide"
@@ -73,7 +74,7 @@ const ProjectsPage = () => {
       </div>
 
       {/* As the number of cards may change, it is important to give a min-height to 'section' */}
-      <section className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh]">
+      <section className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh] ">
         {currentItems.map((project, i) => (
           <ProjectCard gh={project["gh-username"]} {...project} key={i} />
         ))}

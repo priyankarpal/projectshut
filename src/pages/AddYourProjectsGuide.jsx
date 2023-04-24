@@ -12,7 +12,7 @@ export default function AddYourProjectsGuide() {
   }`
 
   return (
-    <section className="relative isolate overflow-hidden bg-[#000513] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <section className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
@@ -36,8 +36,8 @@ export default function AddYourProjectsGuide() {
       </div>
 
       <article className="grid justify-center items-center max-w-5xl mx-auto ">
-        <div className="  text-base leading-7 text-white">
-          <p className="mb-5 text-xl font-bold tracking-tight text-white ">Follow these steps to add your projects</p>
+        <div className="  text-base leading-7 ">
+          <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
           <div className="flex items-center gap-5">
             <span>
               <BiGitRepoForked />
@@ -56,7 +56,7 @@ export default function AddYourProjectsGuide() {
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
               Click on Go to file(I'm doing from{" "}
-              <span className="bg-gray-700 text-white p-1 rounded-md">priyankarpal/projectshut</span> )
+              <span className="bg-gray-700  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
 
@@ -71,8 +71,7 @@ export default function AddYourProjectsGuide() {
               <AiTwotoneFile />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              Add following code to end of{" "}
-              <span className="bg-gray-800 p-1 rounded-md text-white">src/DB/projects.json</span>
+              Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
           <code className="block">{codeString}</code>

@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
 import CloseIcon from "@mui/icons-material/Close"
 import IconButton from "@mui/material/IconButton"
+import { ThemeContext } from "../context/Theme"
 
 export default function SideMenu(props) {
   return (
@@ -9,7 +10,12 @@ export default function SideMenu(props) {
       {/*  Logo & Close icon section */}
       <div className="flex mt-4 mb-8 border-b border-gray-400">
         <span className="ml-[5%]">
-          <IconButton aria-label="close drawer" edge="start" onClick={() => props.handleDrawerToggle()}>
+          <IconButton
+            aria-label="close drawer"
+            edge="start"
+            onClick={() => props.handleDrawerToggle()}
+            className="text-black"
+          >
             <CloseIcon className="text-white" />
           </IconButton>
         </span>

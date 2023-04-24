@@ -1,8 +1,18 @@
 import React from "react"
+import { useContext } from "react"
+import { ThemeContext } from "../context/Theme"
 
 function ProjectCard({ gh, link, title, description, tech }) {
+  const { theme } = useContext(ThemeContext)
+
   return (
-    <article className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0 dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition-all duration-200 hover:scale-95   ">
+    <article
+      className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7] transition-all duration-200 hover:scale-95"
+      style={{
+        background: theme.navbar.background,
+        color: theme.color,
+      }}
+    >
       <div className="flex justify-between items-center mb-3">
         <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{title}</h3>
         <img src={`https://github.com/${gh}.png`} alt={`${gh}'s github profile`} className="h-10 w-10 rounded-full" />

@@ -195,5 +195,12 @@
     "title": "Flashcards App",
     "description": "Flashcards app which is used for storing deck of flashcards for storing question and answers for academic purpose ",
     "tech": ["NextJS", "React", "Planetscale", "Typescript", "TailwindCSS", "T3"]
+  },
+  {
+    "gh-username": "Stroller15",
+    "link": "https://github.com/Stroller15/Digitalmedia",
+    "title": "Digital Agency Landing Page",
+    "description": "Build digital media agency landing page template using html, css, javascript. ",
+    "tech": ["HTML", "CSS", "JavaScript"]
   }
 ]
