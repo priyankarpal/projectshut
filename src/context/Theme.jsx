@@ -3,6 +3,7 @@ import React, { createContext, useState, useEffect } from "react"
 const ThemeContext = createContext("light")
 
 const lightTheme = {
+  mode: "light",
   background: "#f5f6fa",
   color: "#000",
   icon: "☀️",
@@ -17,6 +18,7 @@ const lightTheme = {
 }
 
 const darkTheme = {
+  mode: "dark",
   background: "#000",
   color: "#fff",
   icon: "🌜 ",
