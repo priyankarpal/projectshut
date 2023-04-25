@@ -25,7 +25,7 @@ const HomePage = () => {
                   aria-hidden="true"
                   className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
                 >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 py-16">
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
@@ -88,7 +88,7 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent  py-3 px-8 text-center font-bold  browse-projects-link"
+                  className="inline-block rounded-md border border-transparent  py-3 px-8 text-center font-bold"
                   style={{
                     backgroundColor: theme.button.buttonBgColor,
                     color: theme.button.buttonTextColor,
