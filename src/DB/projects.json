@@ -207,7 +207,7 @@
   "gh-username": "shyamtawli",
   "link": "https://github.com/shyamtawli/devFind",
   "title": "devFind - OpenSource",
-  "description": "Open Source for Devs. Add Profiles, Search by Skills. Contribute Now",
+  "description": "devFind lets developers easily create profiles to showcase their skills and find collaborators.",
   "tech": ["ReactJS", "CSS"]
   }
 ]
