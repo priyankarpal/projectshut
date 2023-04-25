@@ -4,13 +4,6 @@
 
 /* As the followings are default styles, they must be placed after base layer */
 
-@media (max-width: 640px) {
-  .browse-projects-link {
-    position: relative;
-    z-index: 1;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .dev-img-parent-class {
     height: 40vh;

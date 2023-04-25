@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
 
         <div
-          className="pt-8 mt-16 border-t flex gap-3 border-gray-100 dark:border-gray-800  sm:justify-center lg:mt-24"
+          className="pt-8 mt-16 border-t flex gap-3 border-gray-100 dark:border-gray-800 justify-center lg:mt-24"
           style={{ borderColor: theme.color }}
         >
           <a
