@@ -106,7 +106,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <button onClick={toggleTheme} className="text-[1.3rem] pb-2 ">
+              <button onClick={toggleTheme} className="text-[1.3rem] ">
                 {theme.icon}
               </button>
             </li>
