@@ -1,14 +1,12 @@
-import React, { useState, useEffect, useContext } from "react"
+import React, { useState, useEffect } from "react"
 import { Navbar, Footer } from "./components"
 import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
 import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
-import { ThemeContext } from "./context/Theme"
-import ScrollToTop from "./components/ScrollToTop"
+import About from "./pages/About"
 
 function App() {
-  const { theme } = useContext(ThemeContext)
   const [isLoading, setIsLoading] = useState(true)
   const location = useLocation()
 
@@ -19,22 +17,14 @@ function App() {
   const showSplashScreen = location.pathname === "/"
 
   return (
-    <div
-      className="text-white font-mono"
-      style={{
-        background: theme.background,
-        color: theme.color,
-        buttonBgColor: theme.button.buttonBgColor,
-        buttonColor: theme.button.buttonColor,
-      }}
-    >
+    <div className="text-white font-mono">
       {showSplashScreen && isLoading ? (
         <SplashScreen />
       ) : (
         <>
           <Navbar />
-          <ScrollToTop />
           <Routes>
+            <Route exact path="About" element={<About />} />
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/ProjectsPage" element={<ProjectsPage />} />
             <Route exact path="/ContributorsPage" element={<ContriButorsPage />} />
