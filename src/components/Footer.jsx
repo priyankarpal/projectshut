@@ -3,7 +3,7 @@ import { ThemeContext } from "../context/Theme"
 
 export default function Footer() {
   const { theme } = useContext(ThemeContext)
-  const bgColor = theme.mode === "dark" ? "#111827" : theme.background
+  const bgColor = theme.mode === "dark" ? theme.navbar.background : theme.background
 
   return (
     <footer aria-label="Site Footer" className="bg-white dark:bg-gray-900" style={{ backgroundColor: bgColor }}>
