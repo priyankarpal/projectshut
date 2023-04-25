@@ -99,6 +99,7 @@ const Navbar = () => {
                 <FaDiscord />
               </a>
             </li>
+
           </ul>
         </div>
 
