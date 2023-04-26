@@ -69,12 +69,15 @@ git add .
 ```diff
 git commit -m "Your Changes"
 ```
+
 > If you encounter this error while commits
 >
->```diff
->husky - pre-commit hook exited with code 1(error)
->```
+> ```diff
+> husky - pre-commit hook exited with code 1(error)
+> ```
+>
 > use this command
+>
 > ```diff
 > pnpm format
 > ```
