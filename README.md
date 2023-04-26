@@ -2,7 +2,7 @@
 
 [![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 
-![ProjectsHut](https://user-images.githubusercontent.com/88102392/226441712-c3c2f3bb-70f5-4f47-be91-3168a60ffbe7.png)
+![projectshut](https://user-images.githubusercontent.com/88102392/234469385-a939ac7c-04b2-4e42-9a39-a86d5fd4672f.png)
 
 ## 🤓 Why ProjectsHut ?
 
@@ -28,8 +28,8 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🤏 Prerequisites
 
-1. Make sure you installed NodeJs in your system.
-2. Also, you have installed pnpm.
+- Make sure you installed NodeJs in your system.
+- Also, you have installed pnpm.
 
 ## 🧰 Tech Stack Used
 
