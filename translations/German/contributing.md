@@ -25,6 +25,7 @@
   "tech": ["einige Technologie 1", "einige Technologie 2", "etc"]
 }
 ```
+
 4. Klonen Sie es auf Ihren Computer
 
 ```

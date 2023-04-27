@@ -37,12 +37,12 @@ Wir freuen uns, Ihnen mitteilen zu können, dass unser Projekt die Leistungsfäh
 
 Darüber hinaus bietet die Verwendung von React und Tailwind CSS viele Vorteile, einschließlich einfacher Wartung und Skalierbarkeit der Anwendung. Dadurch wird sichergestellt, dass sich unsere Plattform an die Bedürfnisse unserer Benutzer anpassen und mit ihnen wachsen kann, während ihre überlegene Leistung und ausgefeilte Ästhetik erhalten bleiben.
 
-| Technologie                                                                                                                                          | Beschreibung                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React ist eine kostenlose  Open-Source-Front-End-JavaScript-Bibliothek.                                 |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS ist ein Open-Source-CSS framework.                                                 |
+| Technologie                                                                                                                                          | Beschreibung                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React ist eine kostenlose Open-Source-Front-End-JavaScript-Bibliothek.                                |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS ist ein Open-Source-CSS framework.                                                       |
 | [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite ist ein schnelles und leichtes Build-Tool und ein Entwicklungsserver für moderne Webanwendungen. |
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM ist ein schneller und platzsparender Paketmanager für Node.js-Pakete.                 |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM ist ein schneller und platzsparender Paketmanager für Node.js-Pakete.                            |
 
 ## 📙 Übersetzung
 
@@ -71,4 +71,5 @@ An alle Mitwirkenden und Unterstützer dieses Projekts möchten wir unseren aufr
 ![vercel logo](https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667)
 
 ## 🛡️ Lizenz
+
 ProjectsHut ist lizenziert unter der [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)

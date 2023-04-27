@@ -76,5 +76,5 @@ Die Community Impact Guidelines wurden inspiriert von der [Code of Conduct Enfor
 
 [homepage]: https://www.contributor-covenant.org
 
-Für Antworten auf häufig gestellte Fragen zu diesem Verhaltenskodex besuchen Sie die FAQ unter https://www.contributor-covenant.org/faq. Übersetzungen sind unter 
+Für Antworten auf häufig gestellte Fragen zu diesem Verhaltenskodex besuchen Sie die FAQ unter https://www.contributor-covenant.org/faq. Übersetzungen sind unter
 https://www.contributor-covenant.org/translations verfügbar.
