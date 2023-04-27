@@ -5,6 +5,11 @@ import { ThemeContext } from "../context/Theme"
 function ProjectCard({ gh, link, title, description, tech }) {
   const { theme } = useContext(ThemeContext)
 
+  const maxTechItems = 3
+  if (tech.length > maxTechItems) {
+    tech = [...tech.slice(0, maxTechItems), `+${tech.length - maxTechItems}`]
+  }
+
   return (
     <article
       className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7] transition-all duration-200 hover:scale-95"
@@ -20,7 +25,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
 
       <div className=" text-gray-400 flex flex-row overflow-auto scrollbar items-center">
         {tech.map((tag, i) => (
-          <p className="line-clamp-1 text-gray-3  00  pr-[.5rem] mb-[1rem] text-[.7rem]" key={i}>
+          <p className=" text-gray-300  pr-[.5rem] mb-[1rem] text-[.7rem]" key={i}>
             {tag}
           </p>
         ))}
