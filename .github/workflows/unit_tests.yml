@@ -1,0 +1,26 @@
+name: Unit Tests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Install pnpm
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install nodejs
+          curl -L https://raw.githubusercontent.com/pnpm/self-installer/master/install.js | PNPM_VERSION=6.16.0 node
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Run Tests
+        run: pnpm test
