@@ -39,30 +39,31 @@ De plus, l'utilisation de React et de Tailwind CSS offre de nombreux avantages, 
 
 | Technologie                                                                                                                                           | Description                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library.                                 |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                                                 |
-| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite is a fast and lightweight build tool and development server for modern web applications. |
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM is a fast and disk space efficient package manager for Node.js packages.                 |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React est une bibliothèque JavaScript frontale gratuite et open-source.                                 |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS est un framework CSS open source.                                                 |
+| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite est un outil de construction et de serveur de développement rapide et léger pour les applications web modernes. |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM est un gestionnaire de paquets rapide et efficace en termes d'espace disque pour les paquets Node.js.               |
 
-## 📙 Translation
+## 📙 Traduction
 
-As a user, you have the ability to translate the documentation of this project to new languages. This means that you can take the existing documentation, which may be in one language, and create new versions of it in other languages.
+En tant qu'utilisateur, vous avez la possibilité de traduire la documentation de ce projet dans de nouvelles langues. Cela signifie que vous pouvez prendre la documentation existante, qui peut être dans une langue, et créer de nouvelles versions dans d'autres langues.
 
-By doing so, you can help to make the project more accessible to people who speak different languages, and you can contribute to the project's overall success. To translate the documentation, you will need to have strong language skills in both the original language and the target language, as well as a good understanding of the content and context of the documentation. With these skills, you can ensure that the translated documentation is accurate, clear, and effective
+En le faisant, vous pouvez aider à rendre le projet plus accessible aux personnes qui parlent différentes langues, et vous pouvez contribuer au succès global du projet. Pour traduire la documentation, vous devrez avoir de solides compétences linguistiques dans la langue d'origine et la langue cible, ainsi qu'une bonne compréhension du contenu et du contexte de la documentation. Avec ces compétences, vous pouvez vous assurer que la documentation traduite est précise, claire et efficace.
 
-- If you want to translate docs remember to create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
+- Si vous voulez traduire la documentation, veuillez créer un [issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate)
 
-- See the [translation guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
+- Voir le [Guide De Traduction](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) pour traduire
 
-> **Available languages**
+> **Langues Disponibles**
 
+- [English](https://github.com/priyankarpal/ProjectsHut)
 - [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 
-## 🤝 Contributors
+## 🤝 Contributeurs
 
-To all the contributors and supporters of this project, we want to express our sincerest thanks. Your time, effort, and expertise have been invaluable in making this project a success. Whether you contributed code, documentation, testing, or simply offered feedback and suggestions, your contributions are deeply appreciated.
+À tous les contributeurs et soutiens de ce projet, nous voulons exprimer nos sincères remerciements. Votre temps, votre effort et votre expertise ont été inestimables pour faire de ce projet un succès. Que vous ayez contribué du code, de la documentation, des tests, ou simplement offert des commentaires et des suggestions, vos contributions sont profondément appréciées.
 
 <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />
@@ -70,6 +71,6 @@ To all the contributors and supporters of this project, we want to express our s
 
 ![vercel logo](https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667)
 
-## 🛡️ License
+## 🛡️ Licence
 
-ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
+ProjectsHut est sous la licence [Licence MIT](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
