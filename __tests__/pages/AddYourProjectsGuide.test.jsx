@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest"
 import { screen, render } from "@testing-library/react"
-import AddYourProjectsGuide from "./AddYourProjectsGuide"
+import AddYourProjectsGuide from "../../src/pages/AddYourProjectsGuide"
 
 describe("Projects Guide page test", () => {
   test("Should render Projects Guide Page", () => {
