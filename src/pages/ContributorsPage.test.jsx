@@ -1,0 +1,10 @@
+import { describe, expect, test } from "vitest"
+import { screen, render } from "@testing-library/react"
+import ContributorsPage from "./ContributorsPage"
+
+describe("Contributors Page test", () => {
+  test("Should render Contributors Page", () => {
+    render(<ContributorsPage />)
+    expect(screen.getByText(/Contributors/i)).toBeTruthy()
+  })
+})
