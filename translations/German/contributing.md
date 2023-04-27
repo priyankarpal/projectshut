@@ -14,7 +14,7 @@
 
 ![Gehe zur Datei](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png)
 
-3. Add following code to end of `src/DB/projects.json` `src/DB/projects.json`
+3. Add following code to end of `src/DB/projects.json`
 
 ```json
 {
