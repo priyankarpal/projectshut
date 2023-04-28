@@ -90,8 +90,8 @@ const HomePage = () => {
                   to="ProjectsPage"
                   className="inline-block rounded-md border border-transparent  py-3 px-8 text-center font-bold"
                   style={{
-                    backgroundColor: theme.button.buttonBgColor,
-                    color: theme.button.buttonTextColor,
+                    backgroundColor: theme?.button?.buttonBgColor,
+                    color: theme?.button?.buttonTextColor,
                   }}
                 >
                   Browse Projects <span aria-hidden="true">→</span>

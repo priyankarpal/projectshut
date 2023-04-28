@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest"
   },
   "husky": {
     "hooks": {
@@ -35,6 +36,7 @@
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
     "@vitejs/plugin-react-swc": "^3.3.0",
@@ -46,9 +48,11 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
+    "jsdom": "^21.1.1",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "vitest": "^0.30.1"
   }
 }
