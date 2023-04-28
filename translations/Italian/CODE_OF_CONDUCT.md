@@ -62,11 +62,11 @@ I leader della comunità seguiranno queste linee guida nel determinare le conseg
 
 ## Attribuzione
 
-Questo Codice di Condotta è adattato dal [Contributor Covenant][homepage], versione 2.0, disponibile su https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+Questo Codice di Condotta è adattato dal [Patto dei Collaboratori][pagina iniziale], versione 2.0, disponibile su https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
 Le Linee Guida per l'impatto sulla comunità sono state ispirate dalla [scala di intervento del codice di condotta di Mozilla](https://github.com/mozilla/diversity).
 
-[homepage]: https://www.contributor-covenant.org
+[pagina iniziale]: https://www.contributor-covenant.org
 
 Per risposte alle domande comuni riguardo a questo codice di condotta, si prega di consultare le FAQ su https://www.contributor-covenant.org/faq. Le traduzioni sono disponibili su https://www.contributor-covenant.org/translations.
 
