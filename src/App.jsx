@@ -4,6 +4,7 @@ import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "
 import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
+import ProjectList from "./components/ProjectList"
 import { ThemeContext } from "./context/Theme"
 import ScrollToTop from "./components/ScrollToTop"
 
@@ -35,13 +36,15 @@ function App() {
           <Navbar />
           <ScrollToTop />
           <Routes>
+            <Route path="/Projects/:username" element={<ProjectList />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/ProjectsPage" element={<ProjectsPage />} />
             <Route path="/ContributorsPage" element={<ContriButorsPage />} />
             <Route path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
-          <Footer />
+        <Footer />
+
         </>
       )}
     </div>
