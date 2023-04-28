@@ -1,7 +1,7 @@
 name: 🔖 Documentation update
 description: Improve Documentation
 title: "[Docs]: "
-labels: ["📚 Documentation","🕵🏼‍♂️ goal: Improvement"]
+labels: ["📚 Documentation", "🕵🏼‍♂️ goal: Improvement"]
 body:
   - type: markdown
     attributes:
@@ -30,4 +30,3 @@ body:
       description: By submitting this issue, you agree to follow our Code of Conduct
       options:
         - label: I agree to follow this project's Code of Conduct
-      
