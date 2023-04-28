@@ -43,8 +43,7 @@ function App() {
             <Route path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
-        <Footer />
-
+          <Footer />
         </>
       )}
     </div>

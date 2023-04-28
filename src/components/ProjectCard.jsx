@@ -1,7 +1,7 @@
 import React from "react"
 import { useContext } from "react"
 import { ThemeContext } from "../context/Theme"
-import ProjectList from '../components/ProjectList'
+import ProjectList from "../components/ProjectList"
 import { Route, Routes, Navigate, useLocation, Link, NavLink } from "react-router-dom"
 
 function ProjectCard({ gh, link, title, description, tech }) {
@@ -9,7 +9,6 @@ function ProjectCard({ gh, link, title, description, tech }) {
 
   return (
     <>
-    
       <article
         className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7] transition-all duration-200 hover:scale-95"
         style={{
@@ -31,7 +30,6 @@ function ProjectCard({ gh, link, title, description, tech }) {
         </div>
         <p className="mb-3 line-clamp-2">{description}</p>
 
-
         <div className="flex flex-row justify-between">
           <div>
             <a
@@ -44,7 +42,10 @@ function ProjectCard({ gh, link, title, description, tech }) {
             </a>
           </div>
           <div>
-            <Link to={`/Projects/${gh}`} className="w-full px-4 py-2  items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 ">
+            <Link
+              to={`/Projects/${gh}`}
+              className="w-full px-4 py-2  items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
+            >
               More..<span aria-hidden="true">→</span>
             </Link>
           </div>

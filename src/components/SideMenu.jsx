@@ -5,14 +5,16 @@ import IconButton from "@mui/material/IconButton"
 import { ThemeContext } from "../context/Theme"
 
 export default function SideMenu(props) {
-
-  
   const { theme } = useContext(ThemeContext)
   return (
-    <div className=" h-screen flex flex-col " id="elements-of-sidebar" style={{
-      background: theme.background,
-      color: theme.color,
-    }}>
+    <div
+      className=" h-screen flex flex-col "
+      id="elements-of-sidebar"
+      style={{
+        background: theme.background,
+        color: theme.color,
+      }}
+    >
       {/*  Logo & Close icon section */}
       <div className="flex mt-4 mb-8 border-b border-gray-400">
         <span className="ml-[5%] my-1">
