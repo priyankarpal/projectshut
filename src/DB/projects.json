@@ -209,5 +209,12 @@
     "title": "devFind - OpenSource",
     "description": "devFind lets developers easily create profiles to showcase their skills and find collaborators.",
     "tech": ["ReactJS", "CSS"]
-  }
+  },
+  {
+  "gh-username": "sagar1621",
+  "link": "https://github.com/sagar1621/Golds-Gym",
+  "title": "GoldsGym",
+  "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
+  "tech": ["ReactJs", "TailwindCSS", "Material UI", "Rapid API"]
+}
 ]
