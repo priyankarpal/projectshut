@@ -222,6 +222,6 @@
   "link": "https://github.com/rupali-codes/LinksHub",
   "title": "LinksHub",
   "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
-  "tech": ["TypeScript", "NextJS", "TailwindCSS",]
+  "tech": ["TypeScript", "NextJS", "TailwindCSS"]
 }
 ]
