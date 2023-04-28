@@ -1,0 +1,21 @@
+name: 🗣️ Translate Documentation
+description: Translate Documentation
+title: "[Docs]: "
+labels: ["🤏  priority: medium", "🗣 Translate", "📚 Documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this translate documentation update template!
+  - type: textarea
+    id: translate-docs
+    attributes:
+      label: in which language do you want to translate?
+      value: "I want to translate documentation to "
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
