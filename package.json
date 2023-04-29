@@ -19,8 +19,8 @@
     }
   },
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.2",
@@ -32,7 +32,7 @@
     "react-clamp-lines": "^3.0.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-router-dom": "^6.10.0",
+    "react-router-dom": "^6.11.0",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.2",
+    "vite": "^4.3.3",
     "vitest": "^0.30.1"
   }
 }
