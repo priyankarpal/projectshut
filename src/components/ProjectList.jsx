@@ -29,62 +29,9 @@ export default function ProjectList() {
 
   return (
     <div className="flex flex-col md:flex-row h-screen my-4">
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded rounded-md order-2 md:order-1">
-        <div
-          className="flex justify-start items-center mb-3 my-5 "
-          style={
-            {
-              // border: '2px solid green',
-            }
-          }
-        >
-          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
-        </div>
-
-        {Object.keys(userObj).length > 0 && (
-          <div
-            className="w-100 min-h-400 my-1"
-            style={{
-              // border : '2px solid green',
-              borderRadius: "10px",
-              background: theme.navbar.background,
-              color: theme.color,
-              minHeight: "100px",
-            }}
-          >
-            <div className=" border-b  rounded-lg p-4 relative">
-              <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{userObj.title}</p>
-              <p className="line-clamp-1 pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{userObj.description}</p>
-              <span className="absolute top-3 right-5">
-                <a
-                  href={userObj.link}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
-                  aria-label="Github"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-            </div>
-
-            <div className=" flex flex-row overflow-auto scrollbar items-center ">
-              <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
-              <div className="flex flex-wrap">
-                {userObj.tech.map((tag, i) => {
-                  return (
-                    <p className="mb-3 line-clamp-2 my-2 whitespace-normal" key={i}>
-                      {tag}
-                    </p>
-                  )
-                })}
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
+      
       <div
-        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md order-1 md:order-2 "
+        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md "
         style={{
           // border: '2px solid red',
           background: theme.navbar.background,
@@ -147,6 +94,56 @@ export default function ProjectList() {
             </a>
           </div>
         </div>
+      </div>
+
+
+      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded rounded-md ">
+        <div
+          className="flex justify-start items-center mb-3 my-5 "
+        >
+          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
+        </div>
+
+        {Object.keys(userObj).length > 0 && (
+          <div
+            className="w-100 min-h-400 my-1"
+            style={{
+              borderRadius: "10px",
+              background: theme.navbar.background,
+              color: theme.color,
+              minHeight: "100px",
+            }}
+          >
+            <div className=" border-b  rounded-lg p-4 relative">
+              <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{userObj.title}</p>
+              <p className="line-clamp-1 pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{userObj.description}</p>
+              <span className="absolute top-3 right-5">
+                <a
+                  href={userObj.link}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+                  aria-label="Github"
+                >
+                  <FaGithub />
+                </a>
+              </span>
+            </div>
+
+            <div className=" flex flex-row overflow-auto scrollbar items-center ">
+              <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
+              <div className="flex flex-wrap">
+                {userObj.tech.map((tag, i) => {
+                  return (
+                    <p className="mb-3 line-clamp-2 my-2 whitespace-normal mx-3" key={i}>
+                      {tag}
+                    </p>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
