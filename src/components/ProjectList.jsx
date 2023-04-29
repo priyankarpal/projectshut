@@ -22,7 +22,6 @@ export default function ProjectList() {
     if (userObj.length > 0) {
       setObject(userObj[0])
     }
-    console.log("userObj", userObj)
   }, [])
 
   return (
@@ -30,7 +29,6 @@ export default function ProjectList() {
       <div
         className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md "
         style={{
-          // border: '2px solid red',
           background: theme.navbar.background,
           color: theme.color,
         }}
