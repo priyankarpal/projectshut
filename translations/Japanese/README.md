@@ -1,6 +1,6 @@
-# **ProjectsHut - あなたのプロジェクトを世界に披露しましょう 🌎🌈**。
+# **ProjectsHut - あなたのプロジェクトを世界に披露しましょう 🌎🌈**
 
-[![ページビルドデプロイメント](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![GitPodで開く](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![成功のチェック](https://badgen.net/github/checks/node-formidable/node-formidable) [[!!MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
+[![ページビルドデプロイメント](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![GitPodで開く](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![成功のチェック](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/234469385-a939ac7c-04b2-4e42-9a39-a86d5fd4672f.png)
 
