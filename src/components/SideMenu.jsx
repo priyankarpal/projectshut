@@ -11,8 +11,8 @@ export default function SideMenu(props) {
       className=" h-screen flex flex-col "
       id="elements-of-sidebar"
       style={{
-        background: theme.background,
-        color: theme.color,
+        background: theme?.background,
+        color: theme?.color,
       }}
     >
       {/*  Logo & Close icon section */}
