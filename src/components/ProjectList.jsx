@@ -12,7 +12,6 @@ export default function ProjectList() {
 
   const [userObj, setObject] = useState({})
 
-
   useEffect(() => {
     // return object which has a simillar name as in URL , which can be get by useParams() hook.
     //  And being added into objForUser
@@ -28,7 +27,6 @@ export default function ProjectList() {
 
   return (
     <div className="flex flex-col md:flex-row h-screen my-4">
-      
       <div
         className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md "
         style={{
@@ -95,11 +93,8 @@ export default function ProjectList() {
         </div>
       </div>
 
-
       <div className="w-full md:w-3/4 mx-2 flex flex-col rounded rounded-md ">
-        <div
-          className="flex justify-start items-center mb-3 my-5 "
-        >
+        <div className="flex justify-start items-center mb-3 my-5 ">
           <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
         </div>
 
