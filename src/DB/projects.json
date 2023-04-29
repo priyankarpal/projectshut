@@ -230,5 +230,12 @@
     "title": "LinksHub",
     "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
     "tech": ["TypeScript", "NextJS", "TailwindCSS"]
+  },
+  {
+    "gh-username": "Blaize15",
+    "link": "https://github.com/Blaize15/Line-followeg-robot",
+    "title": "Line Following Robot",
+    "description": "A robot which follows a dark colored line with the help of sensors.",
+    "tech": ["Raspberry pi", "python3"]
   }
 ]
