@@ -58,19 +58,13 @@ pnpm dev
 git checkout -b [name_of_your_new_branch]
 ```
 
-9. Make sure all the test cases pass
-
-```
-pnpm test
-```
-
-10. Add your changes.
+9. Add your changes.
 
 ```diff
 git add .
 ```
 
-11. Add your commits
+10. Add your commits
 
 ```diff
 git commit -m "Your Changes"
@@ -88,18 +82,18 @@ git commit -m "Your Changes"
 > pnpm format
 > ```
 
-12. Set upstream command
+11. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-13. Push your commits
+12. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-14. Create a PR
+13. Create a PR
 
-15. Wait for merge
+14. Wait for merge

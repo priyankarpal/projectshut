@@ -43,10 +43,12 @@ Al hacerlo, puede ayudar a que el proyecto sea más accesible para las personas 
 
 - Ver el [Guía de traducción](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
 
-> **para traducir**
+> **Idiomas Disponibles**
 
 - [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
-
+- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
+- [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
+- [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 ## 🤝 Colaboradores
 
 A todos los colaboradores y simpatizantes de este proyecto, queremos expresar nuestro más sincero agradecimiento. Su tiempo, esfuerzo y experiencia han sido invaluables para hacer de este proyecto un éxito. Ya sea que haya contribuido con código, documentación, pruebas o simplemente haya ofrecido comentarios y sugerencias, sus contribuciones son profundamente apreciadas.
