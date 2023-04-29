@@ -5,6 +5,10 @@
 The original text is written in English and is currently translated into the following languages:
 
 - Korean
+- Spanish
+- Tamil
+- German
+- Italian
 
 ## 📄 Document List
 
