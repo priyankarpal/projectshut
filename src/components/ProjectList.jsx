@@ -12,7 +12,6 @@ export default function ProjectList() {
 
   const [userObj, setObject] = useState({})
 
-  let objForUser = {} // Empty object for user details which get feils when useEffect runs
 
   useEffect(() => {
     // return object which has a simillar name as in URL , which can be get by useParams() hook.
