@@ -9,6 +9,7 @@ The original text is written in English and is currently translated into the fol
 - Tamil
 - German
 - Italian
+- Japanese
 
 ## 📄 Document List
 
