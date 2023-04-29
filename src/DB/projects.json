@@ -218,10 +218,19 @@
   "tech": ["ReactJs", "TailwindCSS", "Material UI", "Rapid API"]
   },
   {
+
+    "gh-username": "parma1111",
+    "link": "https://github.com/parma1111/Domino-website-clone",
+    "title": "Domino-Clone",
+    "description": "Domino's is a Global Brand, founded in 1960 and is the recognized world leader in pizza delivery operating a network of company-owned and franchise-owned stores in the United States and international markets. In 1996, the first Domino's Pizza store was opened in New Delhi.",
+    "tech": ["ReactJs", "TailwindCSS", "JavaScript", "Nodejs"]
+  },
+  {
   "gh-username": "rupali-codes",
   "link": "https://github.com/rupali-codes/LinksHub",
   "title": "LinksHub",
   "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
   "tech": ["TypeScript", "NextJS", "TailwindCSS"]
-}
+  }
+
 ]
