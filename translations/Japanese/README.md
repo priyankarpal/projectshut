@@ -1,6 +1,6 @@
 # **ProjectsHut - あなたのプロジェクトを世界に披露しましょう 🌎🌈**。
 
-[![ページビルドデプロイメント](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![GitPodで開く](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![成功のチェック](https://badgen.net/github/checks/node-formidable/node-formidable) [!!MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
+[![ページビルドデプロイメント](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![GitPodで開く](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![成功のチェック](https://badgen.net/github/checks/node-formidable/node-formidable) [[!!MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/234469385-a939ac7c-04b2-4e42-9a39-a86d5fd4672f.png)
 
@@ -37,12 +37,12 @@ ProjectsHutは、最新のウェブテクノロジーで動作するオープン
 
 さらに、ReactとTailwind CSSを活用することで、アプリケーションのメンテナンスやスケーラビリティが容易になるなど、多くのメリットがあります。これにより、優れたパフォーマンスと洗練された美しさを維持しながら、ユーザーのニーズに合わせてプラットフォームを適応・成長させることができるのです。
 
-| 技術｜説明｜技術
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/) | Reactは、フリーでオープンソースのフロントエンドJavaScriptライブラリです。                                |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSSはオープンソースのCSSフレームワークです。                                                |
-| [[Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/) | Viteは、モダンなWebアプリケーションのための高速かつ軽量なビルドツールと開発サーバーです。|
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/) | PNPMは、Node.jsパッケージのための高速でディスクスペース効率の良いパッケージマネージャです。                |
+| 技術                                                                                                                                         | 説明                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://ja.reactjs.org/)                    | Reactは、フリーでオープンソースのフロントエンドJavaScriptライブラリです。                             |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSSは、オープンソースのCSSフレームワークです。                                               |
+| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Viteは、モダンなWebアプリケーションのための高速で軽量なビルドツールおよび開発サーバーです。         |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPMは、Node.jsパッケージのための高速でディスクスペース効率的なパッケージマネージャーです。         |
 
 ## 📙 翻訳
 
