@@ -30,8 +30,8 @@ export default function ProjectList() {
       <div
         className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded-md "
         style={{
-          background: theme.navbar.background,
-          color: theme.color,
+          background: theme?.navbar?.background,
+          color: theme?.color,
         }}
       >
         <div className="flex justify-center items-center mb-3 my-10">
@@ -103,14 +103,14 @@ export default function ProjectList() {
             className="w-100 min-h-400 my-1"
             style={{
               borderRadius: "10px",
-              background: theme.navbar.background,
-              color: theme.color,
+              background: theme?.navbar?.background,
+              color: theme?.color,
               minHeight: "100px",
             }}
           >
             <div className=" border-b border-gray-600 p-4 relative">
               <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{userObj.title}</p>
-              <p className="line-clamp-1 pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{userObj.description}</p>
+              <p className=" pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{userObj.description}</p>
               <span className="absolute top-3 right-5">
                 <a
                   href={userObj.link}
@@ -127,9 +127,9 @@ export default function ProjectList() {
             <div className=" flex flex-row overflow-auto scrollbar items-center ">
               <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
               <div className="flex flex-wrap">
-                {userObj.tech.map((tag, i) => {
+                {userObj.tech.map((tag) => {
                   return (
-                    <p className="mb-3 line-clamp-2 my-2 whitespace-normal mx-3" key={i}>
+                    <p className="mb-3 line-clamp-2 my-2 whitespace-normal mx-3 text-gray-400  " key={tag.id}>
                       {tag}
                     </p>
                   )
