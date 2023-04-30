@@ -21,6 +21,13 @@
     "tech": ["React", "CSS", "Node.js"]
   },
   {
+    "gh-username": "ManishBisht777",
+    "link": "https://github.com/ManishBisht777/courseify",
+    "title": "Courseify",
+    "description": "A web app with Next.js 13 to provide crisp content on various topics and resources as well to learn them in depth.",
+    "tech": ["NextJS", "Content Layer", "Tailwind", "Typescript"]
+  },
+  {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
@@ -209,5 +216,33 @@
     "title": "devFind - OpenSource",
     "description": "devFind lets developers easily create profiles to showcase their skills and find collaborators.",
     "tech": ["ReactJS", "CSS"]
+  },
+  {
+    "gh-username": "sagar1621",
+    "link": "https://github.com/sagar1621/Golds-Gym",
+    "title": "GoldsGym",
+    "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
+    "tech": ["ReactJs", "TailwindCSS", "Material UI", "Rapid API"]
+  },
+  {
+    "gh-username": "parma1111",
+    "link": "https://github.com/parma1111/Domino-website-clone",
+    "title": "Domino-Clone",
+    "description": "Domino's is a Global Brand, founded in 1960 and is the recognized world leader in pizza delivery operating a network of company-owned and franchise-owned stores in the United States and international markets. In 1996, the first Domino's Pizza store was opened in New Delhi.",
+    "tech": ["ReactJs", "TailwindCSS", "JavaScript", "Nodejs"]
+  },
+  {
+    "gh-username": "rupali-codes",
+    "link": "https://github.com/rupali-codes/LinksHub",
+    "title": "LinksHub",
+    "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
+    "tech": ["TypeScript", "NextJS", "TailwindCSS"]
+  },
+  {
+    "gh-username": "Blaize15",
+    "link": "https://github.com/Blaize15/Line-followeg-robot",
+    "title": "Line Following Robot",
+    "description": "A robot which follows a dark colored line with the help of sensors.",
+    "tech": ["Raspberry pi", "python3"]
   }
 ]

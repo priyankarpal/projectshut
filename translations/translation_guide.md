@@ -5,6 +5,11 @@
 The original text is written in English and is currently translated into the following languages:
 
 - Korean
+- Spanish
+- Tamil
+- German
+- Italian
+- Japanese
 
 ## 📄 Document List
 
@@ -20,7 +25,7 @@ You need to translate the document below.
 
 ## ✒ How to contribute to translation
 
-- Convert official language to your native language. It would ne better for new comers to contribute to this project.
+- Convert the official language to your native language. It would be better for new comers to contribute to this project.
 
 ### Run it on GitHub Website
 

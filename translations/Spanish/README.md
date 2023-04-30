@@ -43,9 +43,13 @@ Al hacerlo, puede ayudar a que el proyecto sea más accesible para las personas 
 
 - Ver el [Guía de traducción](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) to translate
 
-> **para traducir**
+> **Idiomas Disponibles**
 
 - [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
+- [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
+- [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 
 ## 🤝 Colaboradores
 

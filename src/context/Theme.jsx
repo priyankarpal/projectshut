@@ -6,7 +6,7 @@ const lightTheme = {
   mode: "light",
   background: "#f5f6fa",
   color: "#000",
-  icon: "☀️",
+  icon: "🤓",
   button: {
     buttonBgColor: "#000",
     buttonTextColor: "#fff",
@@ -21,7 +21,7 @@ const darkTheme = {
   mode: "dark",
   background: "#000",
   color: "#fff",
-  icon: "🌜",
+  icon: "🥸",
   button: {
     buttonBgColor: "#fff",
     buttonTextColor: "#000",

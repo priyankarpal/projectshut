@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest"
   },
   "husky": {
     "hooks": {
@@ -18,8 +19,8 @@
     }
   },
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.2",
@@ -31,10 +32,11 @@
     "react-clamp-lines": "^3.0.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-router-dom": "^6.10.0",
+    "react-router-dom": "^6.11.0",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
     "@vitejs/plugin-react-swc": "^3.3.0",
@@ -46,9 +48,11 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
+    "jsdom": "^21.1.1",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.2"
+    "vite": "^4.3.3",
+    "vitest": "^0.30.1"
   }
 }
