@@ -3,8 +3,8 @@ import { useContext } from "react"
 import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/Theme"
 import projects from "../DB/projects.json"
-import techStack from "../utils/techStack"
-import { FaDiscord, FaGithub, FaTwitterSquare, FaLinkedinIn, FaYoutubeSquare } from "react-icons/fa"
+import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa"
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs"
 
 export default function ProjectList() {
   const { theme } = useContext(ThemeContext)
@@ -25,9 +25,10 @@ export default function ProjectList() {
   }, [])
 
   return (
-    <div className="flex flex-col md:flex-row h-screen my-4">
+    <section className="flex flex-col md:flex-row h-screen my-4">
+      {/* Left side profile section */}
       <div
-        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md "
+        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded-md "
         style={{
           background: theme.navbar.background,
           color: theme.color,
@@ -49,7 +50,7 @@ export default function ProjectList() {
               href={userObj.link}
               target={"_blank"}
               rel={"noreferrer"}
-              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
               aria-label="Github"
             >
               <FaGithub />
@@ -60,7 +61,7 @@ export default function ProjectList() {
               href={userObj.link}
               target={"_blank"}
               rel={"noreferrer"}
-              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
               aria-label="Github"
             >
               <FaLinkedinIn />
@@ -71,10 +72,10 @@ export default function ProjectList() {
               href={userObj.link}
               target={"_blank"}
               rel={"noreferrer"}
-              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
               aria-label="Github"
             >
-              <FaTwitterSquare />
+              <FaTwitter />
             </a>
           </div>
           <div className="mx-4">
@@ -82,16 +83,17 @@ export default function ProjectList() {
               href={userObj.link}
               target={"_blank"}
               rel={"noreferrer"}
-              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+              className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
               aria-label="Github"
             >
-              <FaYoutubeSquare />
+              <FaYoutube />
             </a>
           </div>
         </div>
       </div>
+      {/* Projects lists */}
 
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded rounded-md ">
+      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
         <div className="flex justify-start items-center mb-3 my-5 ">
           <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
         </div>
@@ -106,7 +108,7 @@ export default function ProjectList() {
               minHeight: "100px",
             }}
           >
-            <div className=" border-b  rounded-lg p-4 relative">
+            <div className=" border-b border-gray-600 p-4 relative">
               <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{userObj.title}</p>
               <p className="line-clamp-1 pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{userObj.description}</p>
               <span className="absolute top-3 right-5">
@@ -114,10 +116,10 @@ export default function ProjectList() {
                   href={userObj.link}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                   aria-label="Github"
                 >
-                  <FaGithub />
+                  <BsFillArrowUpRightCircleFill />
                 </a>
               </span>
             </div>
@@ -137,6 +139,6 @@ export default function ProjectList() {
           </div>
         )}
       </div>
-    </div>
+    </section>
   )
 }
