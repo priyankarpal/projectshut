@@ -2,7 +2,9 @@
 
 ## 🧐 Follow these steps to Contribute
 
-> ⚠️ Remember to add a [good commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
+- whenever you create a PR/issue please add a good title & description
+- add good commit messages
+- add screenshots if needed
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
