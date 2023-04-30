@@ -4,11 +4,11 @@
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/234469385-a939ac7c-04b2-4e42-9a39-a86d5fd4672f.png)
 
-## 🤓 なぜProjectsHutなのか？
+## 🤓 なぜ ProjectsHut なのか？
 
-ProjectsHutへようこそ！ProjectsHutは、コストをかけずにプロジェクトを公開するための最先端のウェブプラットフォームです。私たちのプラットフォームは、個人が自分の作品を発表し、世界中の人々と交流するための特別な空間を提供するために設計されています。
+ProjectsHut へようこそ！ProjectsHut は、コストをかけずにプロジェクトを公開するための最先端のウェブプラットフォームです。私たちのプラットフォームは、個人が自分の作品を発表し、世界中の人々と交流するための特別な空間を提供するために設計されています。
 
-ProjectsHutは、最新のウェブテクノロジーで動作するオープンソースプロジェクトです。このプラットフォームのコードは自由に公開されており、世界中の開発者がその成長と改善に貢献することができます。
+ProjectsHut は、最新のウェブテクノロジーで動作するオープンソースプロジェクトです。このプラットフォームのコードは自由に公開されており、世界中の開発者がその成長と改善に貢献することができます。
 
 [ProjectsHut](https://projectshut.vercel.app)は、ユーザーフレンドリーなインターフェースを提供し、プロジェクトを公開したり、他の人と共有したりすることが簡単にできます。
 
@@ -24,25 +24,25 @@ ProjectsHutは、最新のウェブテクノロジーで動作するオープン
 - 貢献する前に[行動規範]()を読んでください。
 - バグや脆弱性を報告したり、新しい機能を追加したりするために [課題](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) を作成します。
 - コミットメッセージをきちんと書くことを忘れないようにしましょう。変更をコミットする前に、このツイート [プロフェッショナルなコミットの書き方とは？](https://twitter.com/Priyankarpal/status/1638403157863673859) を参考にするとよいでしょう。
-- スパムをするとPR/issueがクローズされてしまうのでやめましょう。
+- スパムをすると PR/issue がクローズされてしまうのでやめましょう。
 
 ## 🤏 前提条件
 
-- システムにNodeJsがインストールされていることを確認してください。
-- また、pnpmがインストールされていることを確認してください。
+- システムに NodeJs がインストールされていることを確認してください。
+- また、pnpm がインストールされていることを確認してください。
 
 ## 🧰 使用した技術スタック
 
-私たちのプロジェクトでは、フロントエンドにReactを、目を引く直感的なユーザーインターフェースにスタイリッシュで汎用性の高いTailwind CSSを活用しています。この2つの最先端技術をシームレスに統合することで、使いやすくナビゲートしやすい、レスポンシブで視覚的に美しいプラットフォームを作り上げることができました。
+私たちのプロジェクトでは、フロントエンドに React を、目を引く直感的なユーザーインターフェースにスタイリッシュで汎用性の高い Tailwind CSS を活用しています。この 2 つの最先端技術をシームレスに統合することで、使いやすくナビゲートしやすい、レスポンシブで視覚的に美しいプラットフォームを作り上げることができました。
 
-さらに、ReactとTailwind CSSを活用することで、アプリケーションのメンテナンスやスケーラビリティが容易になるなど、多くのメリットがあります。これにより、優れたパフォーマンスと洗練された美しさを維持しながら、ユーザーのニーズに合わせてプラットフォームを適応・成長させることができるのです。
+さらに、React と Tailwind CSS を活用することで、アプリケーションのメンテナンスやスケーラビリティが容易になるなど、多くのメリットがあります。これにより、優れたパフォーマンスと洗練された美しさを維持しながら、ユーザーのニーズに合わせてプラットフォームを適応・成長させることができるのです。
 
-| 技術                                                                                                                                         | 説明                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://ja.reactjs.org/)                    | Reactは、フリーでオープンソースのフロントエンドJavaScriptライブラリです。                             |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSSは、オープンソースのCSSフレームワークです。                                               |
-| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Viteは、モダンなWebアプリケーションのための高速で軽量なビルドツールおよび開発サーバーです。         |
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPMは、Node.jsパッケージのための高速でディスクスペース効率的なパッケージマネージャーです。         |
+| 技術                                                                                                                                                 | 説明                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://ja.reactjs.org/)                           | React は、フリーでオープンソースのフロントエンド JavaScript ライブラリです。                   |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS は、オープンソースの CSS フレームワークです。                                     |
+| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite は、モダンな Web アプリケーションのための高速で軽量なビルドツールおよび開発サーバーです。 |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM は、Node.js パッケージのための高速でディスクスペース効率的なパッケージマネージャーです。  |
 
 ## 📙 翻訳
 
@@ -74,4 +74,4 @@ ProjectsHutは、最新のウェブテクノロジーで動作するオープン
 
 ## 🛡️ ライセンス
 
-ProjectsHutは[MITライセンス](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)のもとでライセンスされています。
+ProjectsHut は[MIT ライセンス](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)のもとでライセンスされています。

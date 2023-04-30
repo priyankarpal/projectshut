@@ -1,4 +1,4 @@
-# 😎 あなたのコードをProjectsHutに投稿してください。
+# 😎 あなたのコードを ProjectsHut に投稿してください。
 
 ## 🧐 以下のステップを踏んで投稿してください。
 
@@ -52,7 +52,7 @@ pnpm i
 pnpm dev
 ```
 
-8.  GitHubのユーザー名`を使用して新しいブランチを作成します。
+8.  GitHub のユーザー名`を使用して新しいブランチを作成します。
 
 ```diff
 git checkout -b [name_of_your_new_branch]
@@ -100,6 +100,6 @@ git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 git push -u origin [Your-branch-name]
 ```
 
-14. PRを作成する
+14. PR を作成する
 
 15. マージ待ち
