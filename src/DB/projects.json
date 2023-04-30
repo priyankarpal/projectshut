@@ -21,6 +21,13 @@
     "tech": ["React", "CSS", "Node.js"]
   },
   {
+    "gh-username": "ManishBisht777",
+    "link": "https://github.com/ManishBisht777/courseify",
+    "title": "Courseify",
+    "description": "A web app with Next.js 13 to provide crisp content on various topics and resources as well to learn them in depth.",
+    "tech": ["NextJS", "Content Layer", "Tailwind", "Typescript"]
+  },
+  {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
