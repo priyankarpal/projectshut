@@ -8,11 +8,9 @@
 
 1. Fork ce dépôt
 
-![ Fork ](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
-2. Cliquez sur `Go to file`
+![ Fork ](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png) 2. Cliquez sur `Go to file`
 
-![Go to file](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png)
-3. Ajouter le code suivant à la fin de `src/DB/projects.json`
+![Go to file](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png) 3. Ajouter le code suivant à la fin de `src/DB/projects.json`
 
 ```json
 {
@@ -20,7 +18,7 @@
   "link": "LIEN-DE-VOTRE-PROJET",
   "title": "TITRE-DU-PROJET",
   "description": "DESCRIPTION-DU-PROJET",
-  "tech": ["technologie-1", "technologie-2","etc"],
+  "tech": ["technologie-1", "technologie-2", "etc"]
 }
 ```
 

@@ -14,7 +14,6 @@ Les exemples de comportements qui contribuent à un environnement positif pour n
 - Respecter les opinions, les points de vue et les expériences divergentes
 - Donner et accepter gracieusement les critiques constructives
 - Assumer la responsabilité et s'excuser auprès des personnes touchées par nos erreurs, et apprendre de l'expérience
-  
 - Se concentrer sur ce qui est le mieux non seulement pour nous en tant qu'individus, mais pour l'ensemble de la communauté
   overall community
 
