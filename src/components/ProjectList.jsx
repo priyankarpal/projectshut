@@ -25,9 +25,10 @@ export default function ProjectList() {
   }, [])
 
   return (
-    <div className="flex flex-col md:flex-row h-screen my-4">
+    <section className="flex flex-col md:flex-row h-screen my-4">
+      {/* Left side profile section */}
       <div
-        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded rounded-md "
+        className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded-md "
         style={{
           background: theme.navbar.background,
           color: theme.color,
@@ -90,8 +91,9 @@ export default function ProjectList() {
           </div>
         </div>
       </div>
+      {/* Projects lists */}
 
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded rounded-md ">
+      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
         <div className="flex justify-start items-center mb-3 my-5 ">
           <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
         </div>
@@ -137,6 +139,6 @@ export default function ProjectList() {
           </div>
         )}
       </div>
-    </div>
+    </section>
   )
 }
