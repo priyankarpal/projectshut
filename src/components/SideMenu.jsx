@@ -61,15 +61,7 @@ export default function SideMenu(props) {
             {"Projects"}
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/AddYourProjectsGuide"
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {"Docs"}
-          </NavLink>
-        </li>
+
         <li>
           <NavLink
             to="/ContributorsPage"
@@ -78,6 +70,26 @@ export default function SideMenu(props) {
           >
             {"Contributers"}
           </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/AddYourProjectsGuide"
+            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            onClick={() => props.handleDrawerToggle()}
+          >
+            {"Documentation"}
+          </NavLink>
+        </li>
+        <li>
+          <a
+            href="https://github.com/priyankarpal/ProjectsHut"
+            target={"_blank"}
+            rel={"noreferrer"}
+            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            aria-label="Github"
+          >
+            {"GitHub"}
+          </a>
         </li>
       </ul>
 
