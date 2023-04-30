@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react"
 import { Navbar, Footer } from "./components"
 import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
-import { Route, Routes, Navigate, useLocation } from "react-router-dom"
+import { Route, Routes, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
 import ProjectList from "./components/ProjectList"
@@ -21,12 +21,12 @@ function App() {
 
   return (
     <div
-      className="text-white font-mono"
+      className="text-white font-lato"
       style={{
-        background: theme.background,
-        color: theme.color,
-        buttonBgColor: theme.button.buttonBgColor,
-        buttonColor: theme.button.buttonColor,
+        background: theme?.background,
+        color: theme?.color,
+        buttonBgColor: theme?.button?.buttonBgColor,
+        buttonColor: theme?.button?.buttonColor,
       }}
     >
       {showSplashScreen && isLoading ? (
