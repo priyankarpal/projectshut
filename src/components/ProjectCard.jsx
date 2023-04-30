@@ -1,8 +1,7 @@
 import React from "react"
 import { useContext } from "react"
 import { ThemeContext } from "../context/Theme"
-import ProjectList from "../components/ProjectList"
-import { Route, Routes, Navigate, useLocation, Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function ProjectCard({ gh, link, title, description, tech }) {
   const { theme } = useContext(ThemeContext)
@@ -41,7 +40,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
               href={link}
               target="_blank"
               rel="noreferrer"
-              className="w-full px-4 py-2 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
+              className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
             >
               GitHub Link<span aria-hidden="true">→</span>
             </a>
@@ -49,9 +48,9 @@ function ProjectCard({ gh, link, title, description, tech }) {
           <div>
             <Link
               to={`/Projects/${gh}`}
-              className="w-full px-4 py-2  items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
+              className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
             >
-              More..<span aria-hidden="true">→</span>
+              More<span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>

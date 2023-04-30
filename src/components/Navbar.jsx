@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
-import { FaDiscord, FaGithub } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
 import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
@@ -18,14 +18,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav
-      aria-label="Site Nav"
-      className=" mx-auto  justify p-4 w-full bg-gray-900"
-      style={{
-        background: navbar.background,
-        color: navbar.color,
-      }}
-    >
+    <nav aria-label="Site Nav" className=" mx-auto p-5 lg:w-1/2">
       <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
@@ -83,7 +76,7 @@ const Navbar = () => {
         {/* Additional elemnt of navbar */}
         <div className="flex justify-center">
           <ul className="flex items-center gap-5  text-[1rem]">
-            <li>
+            <li className="hidden lg:flex">
               <a
                 href="https://github.com/priyankarpal/ProjectsHut"
                 target={"_blank"}
@@ -94,17 +87,7 @@ const Navbar = () => {
                 <FaGithub />
               </a>
             </li>
-            <li>
-              <a
-                href="https://discord.gg/9qnF5esp"
-                target={"_blank"}
-                rel={"noreferrer"}
-                className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.3rem] "
-                aria-label="Discord"
-              >
-                <FaDiscord />
-              </a>
-            </li>
+
             <li>
               <button onClick={toggleTheme} className="text-[1.3rem] ">
                 {theme.icon}
