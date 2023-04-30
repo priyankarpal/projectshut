@@ -1,99 +1,104 @@
-# 😎 Contribute your Code to ProjectsHut
+# 😎 Contribuez votre code à ProjectsHut
 
-## 🧐 Follow these steps to Contribute
+## 🧐 Suivez ces étapes pour contribuer
 
-> ⚠️ Remember to add a [good commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
+> ⚠️ N'oubliez pas d'ajouter un [bon commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
+[![Ouvrir sur Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
-1. Fork this repository
+1. Fork ce dépôt
 
-![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
-
-2. Click on `Go to file`
+![ Fork ](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
+2. Cliquez sur `Go to file`
 
 ![Go to file](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png)
-
-3. Add following code to end of `src/DB/projects.json`
+3. Ajouter le code suivant à la fin de `src/DB/projects.json`
 
 ```json
 {
-  "gh-username": "YOUR-GITHUB-USERNAME",
-  "link": "LINK-TO-GITHUB-OR-DEMO",
-  "title": "PROJECT-TITLE",
-  "description": "PROJECT-DESCRIPTION",
-  "tech": ["some tech 1", "some tech 2", "etc"]
+  "gh-username": "NOM-D'UTILISATEUR-GITHUB",
+  "link": "LIEN-DE-VOTRE-PROJET",
+  "title": "TITRE-DU-PROJET",
+  "description": "DESCRIPTION-DU-PROJET",
+  "tech": ["technologie-1", "technologie-2","etc"],
 }
 ```
 
-> ### If you want to run it locally then follow these
+> ### Si vous voulez lancer localement, suivez ces étapes
 
-4.  Clone it to your computer
+4. Clonez le depôt
 
 ```
- git clone https://github.com/[your-username]/ProjectsHut.git
+ git clone https://github.com/[votre-nom-d'utilisateur]/ProjectsHut.git
 ```
 
-5.  Navigate to the project folder
+5. Naviguez vers le dossier
 
 ```
 cd ProjectsHut
 ```
 
-6.  install dependencies
+6. installer les dépendances
 
 ```
 pnpm i
 ```
 
-7.  run in local
+7. lancer en local.
 
 ```
-pnpm dev
+ pnpm dev
 ```
 
-8.  Create a new branch using your `GitHub Username`
+8. Créer une nouvelle branche utilisant votre `Nom-d'utilisateur-github`
 
 ```diff
-git checkout -b [name_of_your_new_branch]
+git checkout -b [nom_d_utilisateur_github]
 ```
 
-9. Add your changes.
+9. Lancer les tests
+
+```
+pnpm test
+```
+
+10. Faites vos changements
 
 ```diff
 git add .
 ```
 
-10. Add your commits
+11. Commit vos changements
 
 ```diff
-git commit -m "Your Changes"
+git commit -m "Vos messages de commit"
+
 ```
 
-> If you encounter this error while commits
+> Si vous obtenez une erreur comme celle-ci
 >
 > ```diff
 > husky - pre-commit hook exited with code 1(error)
 > ```
 >
-> use this command
+> utilisez cette commande
 >
 > ```diff
 > pnpm format
 > ```
 
-11. Set upstream command
+12. Ajouter le dépôt d'origine
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-12. Push your commits
+13. Push vers votre branche
 
 ```diff
-git push -u origin [Your-branch-name]
+git push -u origin [votre-branche]
 ```
 
-13. Create a PR
+14. Créer une pull request
 
-14. Wait for merge
+15. Attendez que votre pull request soit acceptée
