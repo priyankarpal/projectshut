@@ -2,7 +2,9 @@
 
 ## 🧐 Follow these steps to Contribute
 
-> ⚠️ Remember to add a [good commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
+- whenever you create a PR/issue please add a good title & description
+- add good commit messages
+- add screenshots if needed
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
@@ -58,13 +60,19 @@ pnpm dev
 git checkout -b [name_of_your_new_branch]
 ```
 
-9. Add your changes.
+9. Make sure all the test cases pass
+
+```
+pnpm test
+```
+
+10. Add your changes.
 
 ```diff
 git add .
 ```
 
-10. Add your commits
+11. Add your commits
 
 ```diff
 git commit -m "Your Changes"
@@ -82,18 +90,18 @@ git commit -m "Your Changes"
 > pnpm format
 > ```
 
-11. Set upstream command
+12. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-12. Push your commits
+13. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-13. Create a PR
+14. Create a PR
 
-14. Wait for merge
+15. Wait for merge

@@ -6,16 +6,16 @@ import { ThemeContext } from "../context/Theme"
 const HomePage = () => {
   const { theme } = useContext(ThemeContext)
   return (
-    <>
+    <section>
       <div className="relative overflow-hidden">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="font text-4xl font-bold sm:text-6xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[5rem]">
-                Show your project to the world
+              <h1 className="font text-5xl font-bold  md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem]">
+                Share your projects
               </h1>
-              <p className="mt-4 text-xl text-gray-400">
-                ProjectsHut is an innovative platform that allows users to publish their projects for free.
+              <p className="mt-4 text-xl text-gray-400  tracking-wide">
+                ProjectsHut is an platform where you can share your open source projects with the world.
               </p>
             </div>
             <div>
@@ -88,13 +88,13 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent  py-3 px-8 text-center font-bold"
+                  className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold"
                   style={{
-                    backgroundColor: theme.button.buttonBgColor,
-                    color: theme.button.buttonTextColor,
+                    backgroundColor: theme?.button?.buttonBgColor,
+                    color: theme?.button?.buttonTextColor,
                   }}
                 >
-                  Browse Projects <span aria-hidden="true">→</span>
+                  Browse Projects
                 </Link>
               </div>
             </div>
@@ -102,7 +102,7 @@ const HomePage = () => {
         </div>
       </div>
       <Banner />
-    </>
+    </section>
   )
 }
 
