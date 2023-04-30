@@ -49,6 +49,7 @@ Al hacerlo, puede ayudar a que el proyecto sea más accesible para las personas 
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 
 ## 🤝 Colaboradores
 
