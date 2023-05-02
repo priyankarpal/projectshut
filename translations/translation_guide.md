@@ -10,6 +10,7 @@ The original text is written in English and is currently translated into the fol
 - German
 - Italian
 - Japanese
+- French
 
 ## 📄 Document List
 

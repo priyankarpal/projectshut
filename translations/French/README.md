@@ -60,6 +60,9 @@ En le faisant, vous pouvez aider à rendre le projet plus accessible aux personn
 - [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
+- [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 
 ## 🤝 Contributeurs
 
