@@ -36,9 +36,11 @@ You need to translate the document below.
 
 3. Add the translated documents in folder you have created.
 
-4. Create PR (Pull Request) to contribute translation
+4. Add the language name to the available languages list in all language folder README.md files(including original README.md)
 
-5. Wait for merge.
+5. Create PR (Pull Request) to contribute translation
+
+6. Wait for merge.
 
 ### Run it Locally
 
