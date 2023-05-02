@@ -42,37 +42,39 @@
 cd ProjectsHut
 ```
 
-6.  install dependencies
+6. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+
+7. install dependencies
 
 ```
 pnpm i
 ```
 
-7.  run in local
+8.  run in local
 
 ```
 pnpm dev
 ```
 
-8.  Create a new branch using your `GitHub Username`
+9.  Create a new branch using your `GitHub Username`
 
 ```diff
 git checkout -b [name_of_your_new_branch]
 ```
 
-9. Make sure all the test cases pass
+10. Make sure all the test cases pass
 
 ```
 pnpm test
 ```
 
-10. Add your changes.
+11. Add your changes.
 
 ```diff
 git add .
 ```
 
-11. Add your commits
+12. Add your commits
 
 ```diff
 git commit -m "Your Changes"
@@ -90,18 +92,18 @@ git commit -m "Your Changes"
 > pnpm format
 > ```
 
-12. Set upstream command
+13. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-13. Push your commits
+14. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-14. Create a PR
+15. Create a PR
 
-15. Wait for merge
+16. Wait for merge
