@@ -30,9 +30,8 @@ You need to translate the document below.
 
 ### Run it on GitHub Website
 
-1. Fork repository 
-![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
-   
+1. Fork repository
+   ![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
 2. Click on `translations` folder and create a folder with the name of the language you want to translate.
 
 3. Add the translated documents in folder you have created.
@@ -109,4 +108,3 @@ git push -u origin [Your-branch-name]
 13. Create a PR
 
 14. Wait for merge
-
