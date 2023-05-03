@@ -56,11 +56,13 @@ ProjectsHut は、最新のウェブテクノロジーで動作するオープ�
 
 > **利用可能な言語**
 
+- [English](https://github.com/priyankarpal/ProjectsHut)
 - [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 
 ## 🤝 貢献者
 

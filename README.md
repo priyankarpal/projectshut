@@ -62,6 +62,7 @@ By doing so, you can help to make the project more accessible to people who spea
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 
 ## 🤝 Contributors
 
