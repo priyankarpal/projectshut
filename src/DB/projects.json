@@ -244,5 +244,19 @@
     "title": "Line Following Robot",
     "description": "A robot which follows a dark colored line with the help of sensors.",
     "tech": ["Raspberry pi", "python3"]
+  },
+  {
+    "gh-username": "oyepriyansh",
+    "link": "https://github.com/oyepriyansh/url-shortener",
+    "title": "URL Shortener",
+    "description": "simple replit database url shortner ti shorten your messy links",
+    "tech": ["NodeJS"]
+  },
+  {
+    "gh-username": "oyepriyansh",
+    "link": "https://oyepriyansh.github.io/ToDoList",
+    "title": "TO DO List",
+    "description": "A to do list web application which allow user to save tasks, even after closing browser",
+    "tech": ["HTML", "CSS", "JavaScript"]
   }
 ]
