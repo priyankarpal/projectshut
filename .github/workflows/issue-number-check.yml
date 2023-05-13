@@ -1,0 +1,21 @@
+name: Issue Number Check
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  pr-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Issue Number
+        run: |
+          issue_number=$(echo "${{ github.event.pull_request.title }}" | grep -oE '#[0-9]+' | sed 's/#//')
+          if [ -z "$issue_number" ]; then
+            echo "Error: The PR title & body must include an issue number in the format '#<number>'."
+            exit 1
+          fi
+
+      - name: Success
+        run: |
+          echo "Issue number check passed!"
