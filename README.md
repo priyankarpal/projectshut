@@ -76,4 +76,5 @@ To all the contributors and supporters of this project, we want to express our s
 ![vercel logo](https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667)
 
 ## 🛡️ License
+
 ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
