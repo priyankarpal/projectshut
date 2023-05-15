@@ -15,7 +15,7 @@ const HomePage = () => {
                 Share your projects
               </h1>
               <p className="mt-4 text-xl text-gray-400  tracking-wide">
-                ProjectsHut is an platform where you can share your open source projects with the world.
+                ProjectsHut is a platform where you can share your open source projects with the world.
               </p>
             </div>
             <div>
