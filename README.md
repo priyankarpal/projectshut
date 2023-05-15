@@ -28,7 +28,7 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🤏 Prerequisites
 
-- Make sure you installed NodeJs in your system.
+- Make sure you installed NodeJs in your system
 - Also, you have installed pnpm.
 
 ## 🧰 Tech Stack Used
