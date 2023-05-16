@@ -16,7 +16,7 @@ Whether you're a seasoned professional or just starting out, It's a valuable res
 
 ## 🤔 How to contribute ?
 
-Contributing to open-source software (OSS) projects can be a rewarding and fulfilling experience. Not only can you learn new skills, but you can also help make a valuable contribution to a project that benefits the broader community.
+Contributing to open-source software (OSS) projects can be a rewarding and fulfilling experience. Not only can you learn new skills, but you can also help make a valuable contribution to a project that benefits the broader community
 
 > Here are some steps you can take to contribute to this project:
 
