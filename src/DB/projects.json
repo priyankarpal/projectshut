@@ -689,5 +689,23 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "noobtube20103152",
+    "Social_media": {
+      "gitHub": "https://github.com/noobtuber20103152",
+      "LinkedIn": "https://www.linkedin.com/in/ujjawal-rachhoya-054297211/",
+      "Instagram": "https://www.instagram.com/ujjawal_r100/",
+      "YouTube": "www.youtube.com/@explorewithme100",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://trello-clone-ten-iota.vercel.app/",
+        "title": "Advanced To-Do List",
+        "description": "The project is a to-do list app with Google authentication and real-time UI updates. Users can sign in using their Google credentials, ensuring secure access. The app features an intuitive interface for creating, editing, and organizing tasks, with options for due dates, reminders, and tags. The standout feature is real-time UI updates, which instantly reflect changes across devices. This is achieved through technologies like web sockets or real-time databases, providing a seamless user experience. The app enhances productivity and organization, offering a convenient platform for efficient task management.",
+        "tech": ["NextJS", "TailwindCSS", "Firebase", "JavaScript"]
+      }
+    ]
   }
 ]
