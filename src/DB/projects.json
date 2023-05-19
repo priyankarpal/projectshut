@@ -265,5 +265,11 @@
     "title": "Movie Trailer",
     "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
     "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
+  },
+  { "gh-username": "noobtuber20103152",
+   "link": "https://trello-clone-ten-iota.vercel.app/", 
+   "title": "Advanced To-Do App", 
+   "description": "The project is a to-do list app with Google authentication and real-time UI updates. Users can sign in using their Google credentials, ensuring secure access. The app features an intuitive interface for creating, editing, and organizing tasks, with options for due dates, reminders, and tags. The standout feature is real-time UI updates, which instantly reflect changes across devices. This is achieved through technologies like web sockets or real-time databases, providing a seamless user experience. The app enhances productivity and organization, offering a convenient platform for efficient task management.", 
+   "tech": ["NextJS", "Firebase", "Tailwnd CSS"] 
   }
 ]
