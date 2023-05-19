@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest"
   },
   "husky": {
     "hooks": {
