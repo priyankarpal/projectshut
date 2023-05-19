@@ -3,13 +3,8 @@ import { useContext } from "react"
 import { ThemeContext } from "../context/Theme"
 import { Link } from "react-router-dom"
 
-function ProjectCard({ gh, link, title, description, tech }) {
+function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
   const { theme } = useContext(ThemeContext)
-
-  const maxTechItems = 3
-  if (tech.length > maxTechItems) {
-    tech = [...tech.slice(0, maxTechItems), `+${tech.length - maxTechItems}`]
-  }
 
   return (
     <>
@@ -21,23 +16,27 @@ function ProjectCard({ gh, link, title, description, tech }) {
         }}
       >
         <div className="flex justify-between items-center mb-3">
-          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{title}</h3>
-          <img src={`https://github.com/${gh}.png`} alt={`${gh}'s github profile`} className="h-10 w-10 rounded-full" />
+          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{listOfProjects[0]["title"]}</h3>
+          <img
+            src={`https://github.com/${github_username}.png`}
+            alt={`${github_username}'s github profile`}
+            className="h-10 w-10 rounded-full"
+          />
         </div>
 
         <div className=" text-gray-400 flex flex-row overflow-auto scrollbar items-center">
-          {tech.map((tag, i) => (
+          {listOfProjects[0]["tech"].map((tag, i) => (
             <p className="line-clamp-1 text-gray-3  00  pr-[.5rem] mb-[1rem] text-[.7rem]" key={i}>
               {tag}
             </p>
           ))}
         </div>
-        <p className="mb-3 line-clamp-2">{description}</p>
+        <p className="mb-3 line-clamp-2">{listOfProjects[0]["description"]}</p>
 
         <div className="flex flex-row justify-between">
           <div>
             <a
-              href={link}
+              href={listOfProjects[0]["link"]}
               target="_blank"
               rel="noreferrer"
               className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
@@ -47,7 +46,7 @@ function ProjectCard({ gh, link, title, description, tech }) {
           </div>
           <div>
             <Link
-              to={`/Projects/${gh}`}
+              to={`/Projects/${github_username}`}
               className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
             >
               More<span aria-hidden="true">→</span>
