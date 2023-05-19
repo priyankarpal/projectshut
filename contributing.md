@@ -2,7 +2,9 @@
 
 ## 🧐 Follow these steps to Contribute
 
-> ⚠️ Remember to add a [good commit](https://twitter.com/Priyankarpal/status/1638403157863673859)
+- whenever you create a PR/issue please add a good title & description
+- add good commit messages
+- add screenshots if needed
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
 
@@ -40,31 +42,39 @@
 cd ProjectsHut
 ```
 
-6.  install dependencies
+6. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+
+7. install dependencies
 
 ```
 pnpm i
 ```
 
-7.  run in local
+8.  run in local
 
 ```
 pnpm dev
 ```
 
-8.  Create a new branch using your `GitHub Username`
+9.  Create a new branch using your `GitHub Username`
 
 ```diff
 git checkout -b [name_of_your_new_branch]
 ```
 
-9. Add your changes.
+10. Make sure all the test cases pass
+
+```
+pnpm test
+```
+
+11. Add your changes.
 
 ```diff
 git add .
 ```
 
-10. Add your commits
+12. Add your commits
 
 ```diff
 git commit -m "Your Changes"
@@ -82,18 +92,18 @@ git commit -m "Your Changes"
 > pnpm format
 > ```
 
-11. Set upstream command
+13. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-12. Push your commits
+14. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-13. Create a PR
+15. Create a PR
 
-14. Wait for merge
+16. Wait for merge

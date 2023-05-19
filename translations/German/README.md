@@ -56,10 +56,13 @@ Dadurch können Sie dazu beitragen, dass das Projekt für Menschen, die verschie
 
 > **Verfügbare Sprachen**
 
+- [English](https://github.com/priyankarpal/ProjectsHut)
 - [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 
 ## 🤝 Mitwirkende
 

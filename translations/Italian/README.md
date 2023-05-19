@@ -37,12 +37,12 @@ Siamo entusiasti di condividere che il nostro progetto sfrutta il potere di Reac
 
 Inoltre, l'utilizzo di React e Tailwind CSS fornisce molti vantaggi, tra cui una facile manutenzione e scalabilità dell'applicazione. Ciò garantisce che la nostra piattaforma possa adattarsi e crescere insieme alle esigenze dei nostri utenti, mantenendo al contempo le sue prestazioni superiori e la sua estetica curata.
 
-| Tecnologia                                                                                                                                           | Descrizione                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React è una libreria JavaScript front-end gratuita e open-source.                                 |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS è un framework CSS open source.                                                 |
+| Tecnologia                                                                                                                                           | Descrizione                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React è una libreria JavaScript front-end gratuita e open-source.                                                           |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS è un framework CSS open source.                                                                                |
 | [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite è un veloce ed efficiente strumento di build e server di sviluppo per applicazioni web moderne, open source e leggero. |
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM è un gestore di pacchetti veloce ed efficiente in termini di spazio su disco per i pacchetti Node.js.                 |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM è un gestore di pacchetti veloce ed efficiente in termini di spazio su disco per i pacchetti Node.js.                  |
 
 ## 📙 Traduzione
 
@@ -55,10 +55,13 @@ In questo modo, puoi contribuire a rendere il progetto più accessibile alle per
 
 > **Lingue disponibili**
 
+- [English](https://github.com/priyankarpal/ProjectsHut)
 - [한국어](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Spagnolo](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [Tamil](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 
 ## 🤝 Collaboratori
 
@@ -73,4 +76,3 @@ A tutti i collaboratori e sostenitori di questo progetto, vogliamo esprimere i n
 ## 🛡️ Licenza
 
 ProjectsHut è concesso in licenza sotto la [Licenza MIT](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
-

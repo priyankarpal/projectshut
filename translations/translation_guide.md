@@ -9,6 +9,8 @@ The original text is written in English and is currently translated into the fol
 - Tamil
 - German
 - Italian
+- Japanese
+- French
 
 ## 📄 Document List
 
@@ -24,24 +26,27 @@ You need to translate the document below.
 
 ## ✒ How to contribute to translation
 
-- Convert official language to your native language. It would ne better for new comers to contribute to this project.
+- Convert the official language to your native language. It would be better for new comers to contribute to this project.
 
 ### Run it on GitHub Website
 
 1. Fork repository
-   ![ Fork this repository](/images/fork.png)
+   ![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
 2. Click on `translations` folder and create a folder with the name of the language you want to translate.
 
 3. Add the translated documents in folder you have created.
 
-4. Create PR (Pull Request) to contribute translation
+4. Add the language name to the available languages list in all language folder README.md files(including original README.md)
 
-5. Wait for merge.
+5. Create PR (Pull Request) to contribute translation
+
+6. Wait for merge.
 
 ### Run it Locally
 
 1. Fork repository
-   ![ Fork this repository](/images/fork.png)
+   ![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
+
 2. Clone it to your computer
 
 ```
@@ -57,13 +62,13 @@ cd ProjectsHut
 4.  install dependencies
 
 ```
-yarn
+pnpm i
 ```
 
 5.  run in local
 
 ```
-yarn run dev
+pnpm dev
 ```
 
 6.  Create a new branch using your `GitHub Username`

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ["JetBrains Mono", "monospace"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         primary: "#A66EFC",

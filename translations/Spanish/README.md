@@ -45,10 +45,14 @@ Al hacerlo, puede ayudar a que el proyecto sea más accesible para las personas 
 
 > **Idiomas Disponibles**
 
+- [English](https://github.com/priyankarpal/ProjectsHut)
 - [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+
 ## 🤝 Colaboradores
 
 A todos los colaboradores y simpatizantes de este proyecto, queremos expresar nuestro más sincero agradecimiento. Su tiempo, esfuerzo y experiencia han sido invaluables para hacer de este proyecto un éxito. Ya sea que haya contribuido con código, documentación, pruebas o simplemente haya ofrecido comentarios y sugerencias, sus contribuciones son profundamente apreciadas.

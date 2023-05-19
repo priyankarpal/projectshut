@@ -10,6 +10,6 @@ describe("HomePage test", () => {
         <HomePage />
       </Router>,
     )
-    expect(screen.getByText(/Show your project to the world/i)).toBeTruthy()
+    expect(screen.getByText(/Share your Projects/i)).toBeTruthy()
   })
 })

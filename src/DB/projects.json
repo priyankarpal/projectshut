@@ -21,6 +21,13 @@
     "tech": ["React", "CSS", "Node.js"]
   },
   {
+    "gh-username": "ManishBisht777",
+    "link": "https://github.com/ManishBisht777/courseify",
+    "title": "Courseify",
+    "description": "A web app with Next.js 13 to provide crisp content on various topics and resources as well to learn them in depth.",
+    "tech": ["NextJS", "Content Layer", "Tailwind", "Typescript"]
+  },
+  {
     "gh-username": "Snach13",
     "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
     "title": "Note Application",
@@ -134,7 +141,7 @@
   },
   {
     "gh-username": "nayanrdeveloper",
-    "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
+    "link": "https://github.com/nayanrdeveloper/DeDoctor_web3_Ur_hackthon_2.0.",
     "title": "DeDoctor",
     "description": "DeDoctor are web3 based Doctor Consulation Application where user can create Appointment and Call with Doctor and charge cut in crypto Balance",
     "tech": ["React", "TypeScript", "Tailwind", "Solidity"]
@@ -211,14 +218,13 @@
     "tech": ["ReactJS", "CSS"]
   },
   {
-  "gh-username": "sagar1621",
-  "link": "https://github.com/sagar1621/Golds-Gym",
-  "title": "GoldsGym",
-  "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
-  "tech": ["ReactJs", "TailwindCSS", "Material UI", "Rapid API"]
+    "gh-username": "sagar1621",
+    "link": "https://github.com/sagar1621/Golds-Gym",
+    "title": "GoldsGym",
+    "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
+    "tech": ["ReactJs", "TailwindCSS", "Material UI", "Rapid API"]
   },
   {
-
     "gh-username": "parma1111",
     "link": "https://github.com/parma1111/Domino-website-clone",
     "title": "Domino-Clone",
@@ -226,11 +232,38 @@
     "tech": ["ReactJs", "TailwindCSS", "JavaScript", "Nodejs"]
   },
   {
-  "gh-username": "rupali-codes",
-  "link": "https://github.com/rupali-codes/LinksHub",
-  "title": "LinksHub",
-  "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
-  "tech": ["TypeScript", "NextJS", "TailwindCSS"]
+    "gh-username": "rupali-codes",
+    "link": "https://github.com/rupali-codes/LinksHub",
+    "title": "LinksHub",
+    "description": "LinksHub is an open source Hub of ready-to-use tech resources. It contains links to free resources such as images, fonts, color, animation, languages and many more.",
+    "tech": ["TypeScript", "NextJS", "TailwindCSS"]
+  },
+  {
+    "gh-username": "Blaize15",
+    "link": "https://github.com/Blaize15/Line-followeg-robot",
+    "title": "Line Following Robot",
+    "description": "A robot which follows a dark colored line with the help of sensors.",
+    "tech": ["Raspberry pi", "python3"]
+  },
+  {
+    "gh-username": "oyepriyansh",
+    "link": "https://github.com/oyepriyansh/url-shortener",
+    "title": "URL Shortener",
+    "description": "simple replit database url shortner ti shorten your messy links",
+    "tech": ["NodeJS"]
+  },
+  {
+    "gh-username": "oyepriyansh",
+    "link": "https://oyepriyansh.github.io/ToDoList",
+    "title": "TO DO List",
+    "description": "A to do list web application which allow user to save tasks, even after closing browser",
+    "tech": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "gh-username": "goketech",
+    "link": "https://movie-trailer-app-lake.vercel.app/",
+    "title": "Movie Trailer",
+    "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
+    "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
   }
-
 ]
