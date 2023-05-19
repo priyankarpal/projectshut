@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import process from "process"
+import fetch from "node-fetch"
 
 function Contributors({ owner, repo }) {
   const [contributors, setContributors] = useState([])
