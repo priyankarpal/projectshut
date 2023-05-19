@@ -61,7 +61,6 @@ export default function SideMenu(props) {
             {"Projects"}
           </NavLink>
         </li>
-
         <li>
           <NavLink
             to="/ContributorsPage"
