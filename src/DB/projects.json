@@ -265,5 +265,12 @@
     "title": "Movie Trailer",
     "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
     "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
+  },
+  {
+    "gh-username": "vishnu-mouli-102408",
+    "link": "spotify-clone-102408.netlify.app",
+    "title": "Spotify Clone",
+    "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
+    "tech": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Vite JS", "Spotify API"]
   }
 ]
