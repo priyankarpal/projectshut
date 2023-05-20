@@ -689,5 +689,29 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "buildwithaman",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://buildwithaman.github.io/SimpleSnakeGameUsingJavaScript/",
+        "title": "SNAKE Game",
+        "description": "This is a traditional snake game.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+        "gh-username": "buildwithaman",
+        "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
+        "title": "Expanding Cards Image Carousel",
+        "description": "This is a Image Carousel Project where user can upload their own images. On clicking the image , it will expand with an animation effect",
+        "tech": ["HTML", "CSS", "JavaScript"]
   }
-]
