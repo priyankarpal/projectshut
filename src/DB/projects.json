@@ -689,5 +689,21 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
-  }
-]
+  },
+  {
+    "github_username": "buildwithaman",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
+        "title": "Expanding Cards Image Carousel",
+        "description": "This is a Expanding Cards Carousel Project . Here viewer can choose their own image , and when the user clicks on the image it expands with a animation effect",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+  ]
