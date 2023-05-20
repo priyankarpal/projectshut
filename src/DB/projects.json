@@ -268,7 +268,7 @@
   },
   {
     "gh-username": "vishnu-mouli-102408",
-    "link": "spotify-clone-102408.netlify.app",
+    "link": "https://github.com/vishnu-mouli-102408/spotify-clone",
     "title": "Spotify Clone",
     "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
     "tech": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Vite JS", "Spotify API"]
