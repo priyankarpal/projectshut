@@ -689,5 +689,12 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
-  }
+  },
+ {
+  "gh-username": "snehalsenapati23",
+  "link": "https://react-video-mania.vercel.app/",
+  "title": "Video Mania",
+  "description": "Developed a video streaming platform using React.js, Chakra UI, and Sass. The platform enables users to stream videos while providing a seamless user experience. Utilized various front-end technologies to build a responsive and modern platform",
+  "tech": ["React Js", "Sass", "Javascript","Chakra UI"]
+}
 ]
