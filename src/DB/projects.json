@@ -688,6 +688,24 @@
         "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
-    ]
+    ],
+    {
+    "github_username" : " sonustar",
+     "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+  
+    "Projects":[
+  {
+  "link":"soon be deployed and updated",
+  "title":"study time-counter",
+  "description":"it is a app which helps student to count how many hours he studies in a day infact he can check the back records ",
+  "tech":["HTML","CSS","Javascript"]
+  }
+  ]
   }
 ]
