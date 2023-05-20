@@ -1,17 +1,19 @@
-import React, { useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { ProjectCard } from "../components"
 import projects from "../DB/projects.json"
 import techStack from "../utils/techStack"
 import { paginate } from "../utils/paginate"
 import { Button } from "@mui/material"
+import { ThemeContext } from "../context/Theme"
 const paginatedArr = paginate(projects)
 
 const ProjectsPage = () => {
+  const { theme } = useContext(ThemeContext)
   const [page, setPage] = useState(0)
   const [currentItems, setItems] = useState([])
   const [selectedButton, setSelectedButton] = useState(null)
   const [search, setsearch] = useState("")
-  // this useEffect is for when user click on pagination button then render only that page projects
+  // this useEffect is for when user click on paginartion button then render only that page projects
   useEffect(() => {
     const data = paginatedArr[page]
     setItems(data)
@@ -91,8 +93,8 @@ const ProjectsPage = () => {
           onChange={(e) => {
             handleSearch(e.target.value)
           }}
-          style={{ borderWidth: "1px", width: "100%" }}
-          className="outline-none p-2 text-primary bg-black border-solid border-primary rounded"
+          style={{ borderWidth: "1px", width: "100%", backgroundColor: theme?.background }}
+          className={`outline-none p-2 text-primary border-solid border-primary rounded`}
           type="text"
           placeholder="Search Projects"
         />
