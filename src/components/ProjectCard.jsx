@@ -1,7 +1,6 @@
-import React from "react"
-import { useContext } from "react"
-import { ThemeContext } from "../context/Theme"
+import React, { useContext } from "react"
 import { Link } from "react-router-dom"
+import { ThemeContext } from "../context/Theme"
 
 function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
   const { theme } = useContext(ThemeContext)
@@ -9,7 +8,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
   return (
     <>
       <article
-        className="border shadow-sm rounded-xl py-5 px-3 mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]"
+        className="bg-white border border-gray-200 rounded-lg shadow p-6 hover:shadow-xl transition duration-300 ease-in-out"
         style={{
           background: theme?.navbar?.background,
           color: theme?.color,
@@ -39,7 +38,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
               href={listOfProjects[0]["link"]}
               target="_blank"
               rel="noreferrer"
-              className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
+              className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 to-violet-600 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
             >
               GitHub Link<span aria-hidden="true">→</span>
             </a>
@@ -47,7 +46,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
           <div>
             <Link
               to={`/Projects/${github_username}`}
-              className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
+              className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 to-violet-600 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
             >
               More<span aria-hidden="true">→</span>
             </Link>
