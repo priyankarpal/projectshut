@@ -59,6 +59,24 @@
       }
     ]
   },
+   {
+    "github_username": "jayk-gupta",
+    "Social_media": {
+      "gitHub": "jayk-gupta",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "jayk_gupta"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/jayk-gupta/web-resources-project",
+        "title": "Web Resources Hub",
+        "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
+        "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
   {
     "github_username": "ManishBisht777",
     "Social_media": {
