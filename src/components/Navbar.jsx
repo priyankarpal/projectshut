@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/ProjectsPage"
+                to="/projects-page"
                 className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
               >
                 Projects
@@ -57,7 +57,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/AddYourProjectsGuide"
+                to="/add-your-projects-guide"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Docs
@@ -65,7 +65,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/ContributorsPage"
+                to="/contributors-page"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
                 Contributors
