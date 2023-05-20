@@ -689,5 +689,22 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "Rakesh-indupuri",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://rakesh-indupuri.github.io/quiz_app/",
+        "title": "Quiz App",
+        "description": "I've developed a React quiz app. It's a user-friendly application that allows users to participate in interactive quiz. This quiz application has basic react questions. The app also keeps track of users' scores and displays them at the end of each quiz. It's a fun and educational tool for individuals looking to test their knowledge and challenge themselves.",
+        "tech": ["HTML","CSS","React"]
+      }
+    ]
   }
-]
