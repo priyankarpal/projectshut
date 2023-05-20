@@ -1,12 +1,32 @@
-# 😎 Contribute your Code to ProjectsHut
+# Follow these steps to contribute
 
-## 🧐 Follow these steps to Contribute
+**Understand the Project:**
 
-- whenever you create a PR/issue please add a good title & description
-- add good commit messages
-- add screenshots if needed
+Familiarize yourself with the project's objectives, architecture, and existing codebase. This will enable you to make informed contributions that align with the project's goals.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut)
+**Choose an Issue/Create an issue:**
+
+Create an issue or work on the existing issue if you're assigned.
+
+**Assign an Issue Number:**
+
+Assign the `#ISSUE_NUMBER` in the description of the PR request.
+
+**Work on Your assigned issue first:**
+
+We kindly request that you prioritize working on your assigned issue at this time. It is highly recommended that you begin by creating an issue before proceeding to create a pull request. By doing so, you can outline the problem or task at hand and facilitate a smoother workflow. Once the issue is established, please proceed to implement the necessary changes, address any bugs, or incorporate new features to effectively resolve the selected issue/task.
+
+**Commit Your Changes:**
+
+Once you have made significant progress or completed your contribution, commit your changes with a descriptive commit message. It is advisable to make frequent, small commits to make the review process more manageable. Please check [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+## DO NOT SPAM !!! ⚠
+If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, he/she will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project. 
+
+
+
+# 😎 How to add your projects to ProjectsHut
+
 
 1. Fork this repository
 
@@ -19,62 +39,76 @@
 3. Add following code to end of `src/DB/projects.json`
 
 ```json
-{
-  "gh-username": "YOUR-GITHUB-USERNAME",
-  "link": "LINK-TO-GITHUB-OR-DEMO",
-  "title": "PROJECT-TITLE",
-  "description": "PROJECT-DESCRIPTION",
-  "tech": ["some tech 1", "some tech 2", "etc"]
-}
+ {
+    "github_username": "YOUR_GITHUB_USERNAME",
+    "Social_media": {
+      "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
+      "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+    },
+    "Projects": [ 
+      {
+        "link": "PROJECT_LINK",
+        "title": "PROJECT_NAME",
+        "description": "PROJECT_DESCRIPTION",
+        "tech": "[tech1,tech2]" 
+      }     
+    ]
+  }
 ```
+4. Commit all changes.
 
-> ### If you want to run it locally then follow these
 
-4.  Clone it to your computer
+> ### OR, If you want to run it locally then follow these
+
+
+1.  Clone it to your computer
 
 ```
  git clone https://github.com/[your-username]/ProjectsHut.git
 ```
 
-5.  Navigate to the project folder
+2.  Navigate to the project folder
 
 ```
 cd ProjectsHut
 ```
 
-6. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
 
-7. install dependencies
+4. install dependencies
 
 ```
 pnpm i
 ```
 
-8.  run in local
-
-```
-pnpm dev
-```
-
-9.  Create a new branch using your `GitHub Username`
+5.   Create a new branch using your `GitHub Username`
 
 ```diff
 git checkout -b [name_of_your_new_branch]
 ```
 
-10. Make sure all the test cases pass
+6.  Run in local 
+
+```
+pnpm dev
+```
+
+7. Make sure all the test cases pass
 
 ```
 pnpm test
 ```
 
-11. Add your changes.
+8. Add your changes.
 
 ```diff
 git add .
 ```
 
-12. Add your commits
+9. Add your commits
 
 ```diff
 git commit -m "Your Changes"
@@ -92,18 +126,18 @@ git commit -m "Your Changes"
 > pnpm format
 > ```
 
-13. Set upstream command
+10. Set upstream command
 
 ```diff
 git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
-14. Push your commits
+11. Push your commits
 
 ```diff
 git push -u origin [Your-branch-name]
 ```
 
-15. Create a PR
+12. Create a PR
 
-16. Wait for merge
+> ### Now Wait for the merge
