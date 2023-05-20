@@ -4,14 +4,13 @@ import projects from "../DB/projects.json"
 import techStack from "../utils/techStack"
 import { paginate } from "../utils/paginate"
 import { Button } from "@mui/material"
-
 const paginatedArr = paginate(projects)
 
 const ProjectsPage = () => {
   const [page, setPage] = useState(0)
   const [currentItems, setItems] = useState([])
   const [selectedButton, setSelectedButton] = useState(null)
-
+  const [search, setsearch] = useState("")
   // this useEffect is for when user click on pagination button then render only that page projects
   useEffect(() => {
     const data = paginatedArr[page]
@@ -44,6 +43,19 @@ const ProjectsPage = () => {
     setPage((page + 1) % paginatedArr.length)
   }
 
+  const handleSearch = (value) => {
+    setsearch(value)
+    let filterProject = new Set()
+    projects.forEach((user) => {
+      user.Projects.forEach((project) => {
+        if (project.title.toLowerCase().includes(value.toLowerCase())) {
+          filterProject.add(user)
+        }
+      })
+    })
+    setItems(Array.from(filterProject))
+  }
+
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
       <h1 className="text-[3.5rem] font-bold  text-center">
@@ -71,6 +83,19 @@ const ProjectsPage = () => {
             <span className={selectedButton == index ? "text-white" : "text-primary"}> {tech.toLowerCase()}</span>
           </Button>
         ))}
+      </div>
+
+      <div className="flex justify-start">
+        <input
+          value={search}
+          onChange={(e) => {
+            handleSearch(e.target.value)
+          }}
+          style={{ borderWidth: "1px", width: "100%" }}
+          className="outline-none p-2 text-primary bg-black border-solid border-primary rounded"
+          type="text"
+          placeholder="Search Projects"
+        />
       </div>
 
       {/* As the number of cards may change, it is important to give a min-height to 'section' */}
