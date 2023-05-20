@@ -689,5 +689,23 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "Akshatchaube01",
+    "Social_media": {
+      "gitHub": "https://github.com/Akshatchaube01",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Akshatchaube01/Iron-Grit",
+        "title": "Gym Application",
+        "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   }
 ]
