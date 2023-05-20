@@ -13,7 +13,7 @@ const ProjectsPage = () => {
   const [currentItems, setItems] = useState([])
   const [selectedButton, setSelectedButton] = useState(null)
   const [search, setsearch] = useState("")
-  // this useEffect is for when user click on paginartion button then render only that page projects
+  // this useEffect is for when user click on pagination button then render only that page projects
   useEffect(() => {
     const data = paginatedArr[page]
     setItems(data)
