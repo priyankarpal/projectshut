@@ -689,5 +689,23 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
-  }
+  },
+    {
+    "github_username": "vaishalidewangan786",
+    "Social_media": {
+      "gitHub": "https://github.com/vaishalidewangan786",
+      "LinkedIn": "https://www.linkedin.com/in/vaishali-dewangan-2060721a5/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaishalidewangan786.github.io/GeoTrackerX/",
+        "title": "GeoTrackerX",
+        "description": "The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
+        "tech": ["HTML","CSS","JAVASCRIPT","IPify-API"]
+      }
+    ]
+  },
 ]
