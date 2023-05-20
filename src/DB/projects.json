@@ -146,12 +146,39 @@
       "YouTube": "",
       "Twitter": ""
     },
+      {
+    "github_username": "abhidadhaniya23",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
     "Projects": [
       {
-        "link": "https://github.com/Alkaison/Alkaison.github.io",
+        "link": "https://youtube-project-eight.vercel.app/",
+        "title": "youtube clone",
+        "description": "Manually curated collection of resources for developers, designers, and other creative professionals to help them build better products.",
+        "tech": ["Resources", "Tools"]
+      }
+    ]
+  },
+  {
+    "github_username": "warisamir",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/warisamir/spotifyred.github.io",
         "title": "Alkaison Blog",
         "description": "I'll be sharing my knowledge on a variety of topics and concepts.",
-        "tech": ["HTML", "CSS", "JS", "Ruby"]
+        "tech": ["HTML", "CSS", "JS", "tainwindcss,react"]
       }
     ]
   },
