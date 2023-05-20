@@ -16,7 +16,16 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
         }}
       >
         <div className="flex justify-between items-center mb-3">
-          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{listOfProjects[0]["title"]}</h3>
+          <div className="capitalize text-lg/5 font-bold basis-full line-clamp-1">
+            {listOfProjects[0].live ? (
+              <a href={listOfProjects[0].live} target="_blank" className="bg-red">
+                {listOfProjects[0].title}
+              </a>
+            ) : (
+              <h3>{listOfProjects[0]["title"]}</h3>
+            )}
+          </div>
+
           <img
             src={`https://github.com/${github_username}.png`}
             alt={`${github_username}'s github profile`}

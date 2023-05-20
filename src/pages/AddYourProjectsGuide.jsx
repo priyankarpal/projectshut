@@ -6,6 +6,7 @@ export default function AddYourProjectsGuide() {
   const codeString = `{
     "gh-username": "YOUR-GITHUB-USERNAME",
     "link": "LINK-TO-GITHUB-OR-DEMO",
+    "live": "YOUR_PROJECT_LIVE_LINK",
     "title": "PROJECT-TITLE",
     "description": "PROJECT-DESCRIPTION",
     "tech": ["some tech 1", "some tech 2", "etc"]

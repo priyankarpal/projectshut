@@ -136,7 +136,15 @@ export default function ProjectList() {
                 }}
               >
                 <div className=" border-b border-gray-600 p-4 relative">
-                  <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{project["title"]}</p>
+                  <div className="capitalize text-lg/5 font-bold basis-full line-clamp-1">
+                    {project.live ? (
+                      <a href={project.live} target="_blank">
+                        {project.title}
+                      </a>
+                    ) : (
+                      <p>{listOfProjects[0]["title"]}</p>
+                    )}
+                  </div>
                   <p className=" pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{project["description"]}</p>
                   <span className="absolute top-3 right-5">
                     <a
