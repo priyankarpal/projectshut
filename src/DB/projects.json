@@ -689,5 +689,23 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaibhav-maurya.netlify.app/",
+        "title": "Portfolio site",
+        "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
+        "tech": ["CSS", "JavaScript", "HTML"]
+      }
+    ]
   }
 ]
