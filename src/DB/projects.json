@@ -707,5 +707,11 @@
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
+  },
+  {
+        "gh-username": "buildwithaman",
+        "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
+        "title": "Expanding Cards Image Carousel",
+        "description": "This is a Image Carousel Project where user can upload their own images. On clicking the image , it will expand with an animation effect",
+        "tech": ["HTML", "CSS", "JavaScript"]
   }
-]
