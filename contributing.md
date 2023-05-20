@@ -59,6 +59,7 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
   }
 ```
 4. Commit all changes.
+ - add a commit like this for only projects addition `data: project addition by [your-githubuser-name] #issue_number`
 
 
 > ### OR, If you want to run it locally then follow these
