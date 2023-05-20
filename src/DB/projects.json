@@ -23,6 +23,30 @@
       }
     ]
   },
+{
+    "github_username": "warisamir",
+    "Social_media": {
+      "gitHub": "https://github.com/warisamir",
+      "LinkedIn": "https://www.linkedin.com/in/waris-amir-0387461b3/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://youtube-project-eight.vercel.app/",
+        "title": "youtube clone",
+        "description": "Thea theme is a visually stunning music lsitening website for the popular music player like youtube alternative",
+        "tech": ["rockon"]
+      },
+      {
+        "link": "https://github.com/warisamir/spotifyred.github.io",
+        "title": "Suggest Us",
+        "description": "A Application for doctors to get in touch with community of doctors .",
+        "tech": ["ReactJS", "tailwaindCSS", "Material UI",]
+      }
+    ]
+  },
   {
     "github_username": "abhidadhaniya23",
     "Social_media": {
