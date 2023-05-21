@@ -64,6 +64,7 @@ ProjectsHut は、最新のウェブテクノロジーで動作するオープ�
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 - [മലയാളം](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Malayalam)
+- [Turkish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Turkish)
 
 ## 🤝 貢献者
 
