@@ -743,5 +743,23 @@
         "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "crocmons",
+  "Social_media": {
+    "gitHub": "https://github.com/crocmons",
+    "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/salsabil_ilma"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/crocmons/ProjectsHut",
+      "title": "ProjectsHut",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": "['react','tailwindcss']"
+    }
+  ]
+}
 ]
