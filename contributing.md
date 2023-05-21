@@ -85,7 +85,9 @@ pnpm i
 
 5.  Now do ahead and create a new branch and move to the branch
 
-`git checkout -b fix-issue-<ISSUE-NUMBER>`
+```
+git checkout -b fix-issue-<ISSUE-NUMBER>
+```
 
 6.  Run in local
 
