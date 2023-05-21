@@ -42,7 +42,11 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md focus:outline-none focus:ring focus:ring-gray-800"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Home
               </NavLink>
@@ -50,7 +54,11 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ProjectsPage"
-                className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Projects
               </NavLink>
@@ -58,7 +66,11 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/AddYourProjectsGuide"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Docs
               </NavLink>
@@ -66,7 +78,11 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Contributors
               </NavLink>

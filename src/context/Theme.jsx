@@ -14,6 +14,8 @@ const lightTheme = {
   navbar: {
     background: "#fff",
     color: "#000",
+    hoverColor: "#fff", // New property for the color on hover and focus
+    hoverBackground: "#000",
   },
 }
 
@@ -29,6 +31,8 @@ const darkTheme = {
   navbar: {
     background: "#111827",
     color: "#fff",
+    hoverColor: "#111827", // New property for the color on hover and focus
+    hoverBackground: "#fff", // New property for the background on hover and focus
   },
 }
 
