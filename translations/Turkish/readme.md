@@ -19,6 +19,7 @@ Deneyimli bir profesyonel ya da yeni başlayan olun, teknoloji topluluğunda ça
 Açık kaynak yazılım (OSS) projelerine katkıda bulunmak, ödüllendirici ve ödüllendirici bir deneyim olabilir. Yalnızca yeni beceriler öğrenmekle kalmaz, aynı zamanda daha geniş topluluğa fayda sağlayan bir projeye değerli katkılarda bulunmaya da yardımcı olabilirsiniz.
 
 > Bu projeye katkıda bulunmak için izleyebileceğiniz adımlar şunlardır:
+
 - Katkıda bulunmadan önce [Davranış Kuralları](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md)nı okumayı unutmayın.
 - [Katılım Belgelerini](/contributing.md) takip edin.
 - Hataları, güvenlik açıklarını bildirmek veya yeni bir özellik eklemek için bir [sorun](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) oluşturun.
@@ -36,12 +37,12 @@ Projemizin ön uç tarafında React'in gücünden ve şık ve çok yönlü Tailw
 
 Ayrıca, React ve Tailwind CSS kullanmanın birçok faydası bulunmaktadır, bunlar arasında uygulamanın kolay bakımı ve ölçeklenebilirliği yer almaktadır. Bu, platformumuzun kullanıcılarımızın ihtiyaçlarına paralel olarak adapte olabileceği ve büyüyebileceği, üstün performansını ve estetiğini korurken sağlanır.
 
-| Teknoloji                                                                                                                                           | Açıklama                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React, ücretsiz ve açık kaynaklı bir ön uç JavaScript kütüphanesidir.                                 |
-| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS, açık kaynaklı bir CSS çerçevesidir.                                                     |
-| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite, modern web uygulamaları için hızlı ve hafif bir derleme aracı ve geliştirme sunucusudur.         |
-| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM, Node.js paketleri için hızlı ve disk alanı verimli bir paket yöneticisidir.                       |
+| Teknoloji                                                                                                                                            | Açıklama                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React, ücretsiz ve açık kaynaklı bir ön uç JavaScript kütüphanesidir.                                                             |
+| [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS, açık kaynaklı bir CSS çerçevesidir.                                                                                 |
+| [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite, modern web uygulamaları için hızlı ve hafif bir derleme aracı ve geliştirme sunucusudur.                                    |
+| [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM, Node.js paketleri için hızlı ve disk alanı verimli bir paket yöneticisidir.                                                 |
 | [![Material UI](https://img.shields.io/badge/-Material_UI-0081CB?logo=Material-UI&logoColor=white&style=for-the-badge)](https://mui.com/)            | Material UI, modern web uygulama arayüzleri oluşturmak için önceden oluşturulmuş UI bileşenlerine sahip bir React kütüphanesidir. |
 
 ## 📙 Çeviri
@@ -55,6 +56,7 @@ Bunu yaparak, farklı dilleri konuşan insanların projeye erişimini daha kolay
 - Çeviri yapmak için [çeviri kılavuzunu](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) inceleyin.
 
 > **Mevcut diller**
+
 - [English](https://github.com/priyankarpal/ProjectsHut)
 - [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
