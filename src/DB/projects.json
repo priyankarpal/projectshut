@@ -42,23 +42,23 @@
     ]
   },
   {
-  "github_username": "YashkShrivas4491",
-  "Social_media": {
-    "gitHub": "https://github.com/YashkShrivas4491",
-    "LinkedIn": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
-    "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
-    "Twitter": "https://twitter.com/YashKumarS4491"
+    "github_username": "YashkShrivas4491",
+    "Social_media": {
+      "gitHub": "https://github.com/YashkShrivas4491",
+      "LinkedIn": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "https://twitter.com/YashKumarS4491"
+    },
+    "Projects": [
+      {
+        "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
+        "title": "Weather Website",
+        "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
-      "title": "Weather Website",
-      "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
-      "tech": "[Html,Css,Js]"
-    }
-  ]
-},
   {
     "github_username": "Swpn0neel",
     "Social_media": {
@@ -709,7 +709,6 @@
     ]
   },
   {
-
     "github_username": "sshiwangi",
     "Social_media": {
       "gitHub": "https://github.com/sshiwangi",
@@ -726,7 +725,7 @@
         "tech": ["React"]
       }
     ]
-   },
+  },
   {
     "github_username": "vaibhav-xt",
     "Social_media": {
