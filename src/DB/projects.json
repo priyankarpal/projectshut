@@ -691,6 +691,7 @@
     ]
   },
   {
+
     "github_username": "vishnu-mouli-102408",
     "Social_media": {
       "gitHub": "https://github.com/vishnu-mouli-102408",
@@ -705,6 +706,23 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
+    }
+   ]
+  }
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaibhav-maurya.netlify.app/",
+        "title": "Portfolio site",
+        "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
+        "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
   }
