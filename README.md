@@ -12,7 +12,7 @@ ProjectsHut is an open source project that runs on the latest web technologies. 
 
 [ProjectsHut](https://projectshut.vercel.app) offers a user-friendly interface, making it easy to publish projects and share them with others.
 
-Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its [Open Source](https://opensource.guide) design.
+Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
 
@@ -64,6 +64,7 @@ By doing so, you can help to make the project more accessible to people who spea
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+- [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
 
 ## 🤝 Contributors
 
