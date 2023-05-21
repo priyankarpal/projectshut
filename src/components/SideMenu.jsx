@@ -46,7 +46,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/"
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            className="inline-block py-2 px-3 text-center font-bold ml-2 transition-colors duration-300 hover:bg-gray-300 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
             onClick={() => props.handleDrawerToggle()}
           >
             {"Home"}
@@ -55,7 +55,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/ProjectsPage"
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            className="inline-block py-2 px-3 text-center font-bold ml-2 transition-colors duration-300 hover:bg-gray-300 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
             onClick={() => props.handleDrawerToggle()}
           >
             {"Projects"}
@@ -64,7 +64,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/ContributorsPage"
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            className="inline-block py-2 px-3 text-center font-bold ml-2 transition-colors duration-300 hover:bg-gray-300 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
             onClick={() => props.handleDrawerToggle()}
           >
             {"Contributers"}
@@ -73,7 +73,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/AddYourProjectsGuide"
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            className="inline-block py-2 px-3 text-center font-bold ml-2 transition-colors duration-300 hover:bg-gray-300 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
             onClick={() => props.handleDrawerToggle()}
           >
             {"Documentation"}
@@ -84,7 +84,7 @@ export default function SideMenu(props) {
             href="https://github.com/priyankarpal/ProjectsHut"
             target={"_blank"}
             rel={"noreferrer"}
-            className="inline-block py-2 px-3 text-center font-bold  hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+            className="inline-block py-2 px-3 text-center font-bold ml-2 transition-colors duration-300 hover:bg-gray-300 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
             aria-label="Github"
           >
             {"GitHub"}
