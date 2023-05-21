@@ -38,9 +38,9 @@ function App() {
           <Routes>
             <Route path="/projects/:username" element={<ProjectList />} />
             <Route path="/" element={<HomePage />} />
-            <Route path="/projects-page" element={<ProjectsPage />} />
-            <Route path="/contributors-page" element={<ContriButorsPage />} />
-            <Route path="/add-your-projects-guide" element={<AddYourProjectsGuide />} />
+            <Route path="/projectspage" element={<ProjectsPage />} />
+            <Route path="/contributorspage" element={<ContriButorsPage />} />
+            <Route path="/docs" element={<AddYourProjectsGuide />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
