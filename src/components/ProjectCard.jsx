@@ -46,7 +46,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
           </div>
           <div>
             <Link
-              to={`/Projects/${github_username}`}
+              to={`/projects/${github_username.toLowerCase()}`}
               className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
             >
               More<span aria-hidden="true">→</span>
