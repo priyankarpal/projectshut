@@ -871,20 +871,8 @@
         "title": "SUMZ",
         "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
         "tech": ["React", "Tailwind", "Redux Toolkit","Redux JS"]
-      }
-    ]
-  },
-  {
-    "github_username": "Atharva-3000",
-    "Social_media": {
-      "gitHub": "https://github.com/Atharva-3000",
-      "LinkedIn": "https://www.linkedin.com/in/atharva-deshmukh-b0479522a/",
-      "Instagram": "https://www.instagram.com/atharva_xoxo/",
-      "YouTube": "",
-      "Twitter": "https://twitter.com/Powxu_XD"
-    },
-    "Projects": [
-      {
+      },
+        {
         "link": "http://atharva3000-portfolio.netlify.app/",
         "title": "Personal Portfolio Website",
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
