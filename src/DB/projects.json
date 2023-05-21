@@ -779,5 +779,23 @@
         "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
       }
     ]
+  },
+  {
+    "github_username": "abhinav-m22",
+    "Social_media": {
+      "gitHub": "https://github.com/abhinav-m22/",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav-mahajan-b805b022a/",
+      "Instagram": "https://www.instagram.com/abhi_m_22/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/abhinav_m22"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/abhinav-m22/google-keep-clone-2.0",
+        "title": "Google Keep Clone 2.0 - Notes App",
+        "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
+        "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      }
+    ]
   }
 ]
