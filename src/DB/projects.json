@@ -743,5 +743,23 @@
         "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
+  },
+  {
+    "github_username": "itsme-shivamkumar",
+    "Social_media": {
+      "gitHub": "https://github.com/itsme-shivamkumar",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-kumar-9575a7227/",
+      "Instagram": "https://www.instagram.com/sherlock_shivam/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/itsme-shivamkumar/desume",
+        "title": "Desume | Resume Builder For Developers",
+        "description": "Desume Editor is a React-based web app that allows developers to edit their resumes with ease. With Desume Editor, developers can create or modify resumes with HTML and CSS directly in the app.",
+        "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
+      }
+    ]
   }
 ]
