@@ -12,7 +12,7 @@ export default function AddYourProjectsGuide() {
   }`
 
   return (
-    <section className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-hidden lg:px-0">
+    <section className="relative isolate overflow-hidden   lg:overflow-hidden ">
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
