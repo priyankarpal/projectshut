@@ -88,7 +88,7 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold"
+                  className="button inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold"
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,
                     color: theme?.button?.buttonTextColor,
