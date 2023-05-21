@@ -77,7 +77,7 @@
       }
     ]
   },
-   {
+  {
     "github_username": "jayk-gupta",
     "Social_media": {
       "gitHub": "https://github.com/jayk-gupta",
@@ -759,10 +759,10 @@
         "title": "Gym Application",
         "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
         "tech": ["HTML", "CSS", "JavaScript"]
-       }
-      ]
+      }
+    ]
   },
-  
+
   {
     "github_username": " sonustar",
     "Social_media": {
@@ -801,7 +801,6 @@
     ]
   },
   {
-
     "github_username": "vishnu-mouli-102408",
     "Social_media": {
       "gitHub": "https://github.com/vishnu-mouli-102408",
@@ -816,8 +815,8 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
-    }
-   ]
+      }
+    ]
   },
   {
     "github_username": "vaibhav-xt",
@@ -870,13 +869,13 @@
         "link": "https://github.com/Atharva-3000/summarizer",
         "title": "SUMZ",
         "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
-        "tech": ["React", "Tailwind", "Redux Toolkit","Redux JS"]
+        "tech": ["React", "Tailwind", "Redux Toolkit", "Redux JS"]
       },
-        {
+      {
         "link": "http://atharva3000-portfolio.netlify.app/",
         "title": "Personal Portfolio Website",
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
-        "tech": ["React","Email JS","Framer Motion"]
+        "tech": ["React", "Email JS", "Framer Motion"]
       }
     ]
   },
@@ -897,6 +896,23 @@
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
       }
     ]
+  },
+  {
+    "github_username": "akkshayTandon",
+    "Social_media": {
+      "gitHub": "https://github.com/akkshayTandon",
+      "LinkedIn": "https://www.linkedin.com/in/akkshaytandon/",
+      "Instagram": "https://www.instagram.com/tandonakkshay/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/AkkshayTandon"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akkshayTandon/C-Programs",
+        "title": "C-Programs",
+        "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
+        "tech": ["C"]
+      }
+    ]
   }
-    
 ]
