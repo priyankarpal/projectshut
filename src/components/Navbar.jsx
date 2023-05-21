@@ -42,7 +42,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:transition duration-300 ease-in-out hover:bg-gray-300"
               >
                 Home
               </NavLink>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ProjectsPage"
-                className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:transition duration-300 ease-in-out hover:bg-gray-300 "
               >
                 Projects
               </NavLink>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/AddYourProjectsGuide"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:transition duration-300 ease-in-out hover:bg-gray-300"
               >
                 Docs
               </NavLink>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:transition duration-300 ease-in-out hover:bg-gray-300"
               >
                 Contributors
               </NavLink>
