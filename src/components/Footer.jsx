@@ -6,7 +6,7 @@ export default function Footer() {
   const bgColor = theme.mode === "dark" ? theme.navbar.background : theme.background
 
   const getCurrentYear = () => {
-    return new Date().getFullYear();
+    return new Date().getFullYear()
   }
 
   return (
