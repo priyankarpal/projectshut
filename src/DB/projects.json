@@ -721,12 +721,6 @@
         "title": "WaveSlayer",
         "description": "A simple python chatbot that interacts using voice ",
         "tech": ["Python","Openai"]
-      },
-      {
-        "link": "https://github.com/slayerrr12/BotForge-Discord",
-        "title": "BotForge-Discord",
-        "description": "A discord bot that works using slash commands and has awesome commands your your server",
-        "tech": ["Javascript", "Discord.js", "NodeJS"]
       }
     ]
   }
