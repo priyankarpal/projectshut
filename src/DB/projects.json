@@ -42,6 +42,24 @@
     ]
   },
   {
+    "github_username": "YashkShrivas4491",
+    "Social_media": {
+      "gitHub": "https://github.com/YashkShrivas4491",
+      "LinkedIn": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "https://twitter.com/YashKumarS4491"
+    },
+    "Projects": [
+      {
+        "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
+        "title": "Weather Website",
+        "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
+  },
+  {
     "github_username": "Swpn0neel",
     "Social_media": {
       "gitHub": "",
@@ -691,6 +709,24 @@
     ]
   },
   {
+    "github_username": "sshiwangi",
+    "Social_media": {
+      "gitHub": "https://github.com/sshiwangi",
+      "LinkedIn": "https://www.linkedin.com/in/shiwangi-kumari-5b0b3b1b7/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/sshiwangi770"
+    },
+    "Projects": [
+      {
+        "link": "react-quiz-six-steel.vercel.app/",
+        "title": "React-Quiz",
+        "description": "React Quiz is a user-friendly WebApp that presents a set of four answer choices for each question. By selecting the appropriate option, users can swiftly evaluate their performance and receive a calculated score based on the number of correct answers.",
+        "tech": ["React"]
+      }
+    ]
+  },
+  {
     "github_username": "vaibhav-xt",
     "Social_media": {
       "gitHub": "",
@@ -705,6 +741,24 @@
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["CSS", "JavaScript", "HTML"]
+      }
+    ]
+  },
+  {
+    "github_username": "itsme-shivamkumar",
+    "Social_media": {
+      "gitHub": "https://github.com/itsme-shivamkumar",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-kumar-9575a7227/",
+      "Instagram": "https://www.instagram.com/sherlock_shivam/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/itsme-shivamkumar/desume",
+        "title": "Desume | Resume Builder For Developers",
+        "description": "Desume Editor is a React-based web app that allows developers to edit their resumes with ease. With Desume Editor, developers can create or modify resumes with HTML and CSS directly in the app.",
+        "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
       }
     ]
   }

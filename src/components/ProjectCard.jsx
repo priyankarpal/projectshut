@@ -24,13 +24,13 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
           />
         </div>
 
-        <div className=" text-gray-400 flex flex-row overflow-auto scrollbar items-center">
+        {/* <div className=" text-gray-400 flex flex-row overflow-auto scrollbar items-center">
           {listOfProjects[0]["tech"].map((tag, i) => (
             <p className="line-clamp-1 text-gray-3  00  pr-[.5rem] mb-[1rem] text-[.7rem]" key={i}>
               {tag}
             </p>
           ))}
-        </div>
+        </div> */}
         <p className="mb-3 line-clamp-2">{listOfProjects[0]["description"]}</p>
 
         <div className="flex flex-row justify-between">
