@@ -31,10 +31,11 @@ export default function Footer() {
           >
             Under MIT License
           </a>
-          <p className="max-w-md mx-auto mt-4 text-gray-400">
+        </div>
+          <p className="max-w-md mx-auto text-center text-gray-400">
             Copyright &copy; {getCurrentYear()} by ProjectsHut. All right reserved.
           </p>
-        </div>
+        
       </div>
     </footer>
   )
