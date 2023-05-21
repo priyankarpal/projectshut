@@ -727,24 +727,24 @@
     ]
   },
 
-    {
-    "github_username" : " sonustar",
-     "Social_media": {
+  {
+    "github_username": " sonustar",
+    "Social_media": {
       "gitHub": "github.com/sonustar",
-        "LinkedIn": "",
+      "LinkedIn": "",
       "Instagram": "",
       "YouTube": "",
       "Twitter": ""
     },
-   "Projects":[
-  {
-  "link":"https://charming-salmiakki-126b1d.netlify.app",
-  "title":"study time-counter" ,
-  "description":"it is a app which helps student to count how many hours he studies in a day infact he can check the back records ",
-  "tech":["HTML","CSS","Javascript"]
-  }
-  ]
-},
+    "Projects": [
+      {
+        "link": "https://charming-salmiakki-126b1d.netlify.app",
+        "title": "study time-counter",
+        "description": "it is a app which helps student to count how many hours he studies in a day infact he can check the back records ",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
 
   {
     "github_username": "sshiwangi",
@@ -800,6 +800,5 @@
         "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
       }
     ]
-
   }
 ]
