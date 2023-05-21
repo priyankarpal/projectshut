@@ -12,6 +12,7 @@ The original text is written in English and is currently translated into the fol
 - Japanese
 - French
 - മലയാളം
+- Turkish
 
 ## 📄 Document List
 
