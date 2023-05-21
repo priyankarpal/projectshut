@@ -36,11 +36,11 @@ function App() {
           <Navbar />
           <ScrollToTop />
           <Routes>
-            <Route path="/Projects/:username" element={<ProjectList />} />
+            <Route path="/projects/:username" element={<ProjectList />} />
             <Route path="/" element={<HomePage />} />
-            <Route path="/ProjectsPage" element={<ProjectsPage />} />
-            <Route path="/ContributorsPage" element={<ContriButorsPage />} />
-            <Route path="/AddYourProjectsGuide" element={<AddYourProjectsGuide />} />
+            <Route path="/projectspage" element={<ProjectsPage />} />
+            <Route path="/contributorspage" element={<ContriButorsPage />} />
+            <Route path="/docs" element={<AddYourProjectsGuide />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
