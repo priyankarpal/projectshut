@@ -5,6 +5,10 @@ export default function Footer() {
   const { theme } = useContext(ThemeContext)
   const bgColor = theme.mode === "dark" ? theme.navbar.background : theme.background
 
+  const getCurrentYear = () => {
+    return new Date().getFullYear()
+  }
+
   return (
     <footer aria-label="Site Footer" className="bg-white dark:bg-gray-900" style={{ backgroundColor: bgColor }}>
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
@@ -27,6 +31,9 @@ export default function Footer() {
           >
             Under MIT License
           </a>
+          <p className="max-w-md mx-auto mt-4 text-gray-400">
+            Copyright &copy; {getCurrentYear()} by ProjectsHut. All right reserved.
+          </p>
         </div>
       </div>
     </footer>
