@@ -693,7 +693,7 @@
     {
     "github_username" : " sonustar",
      "Social_media": {
-      "gitHub": "",
+      "gitHub": "github.com/sonustar",
       "LinkedIn": "",
       "Instagram": "",
       "YouTube": "",
@@ -703,7 +703,7 @@
     "Projects":[
   {
   "link":"soon be deployed and updated",
-  "title":"study time-counter",
+  "title":"study time-counter" ,
   "description":"it is a app which helps student to count how many hours he studies in a day infact he can check the back records ",
   "tech":["HTML","CSS","Javascript"]
   }
