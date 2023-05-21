@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest a feature request
 title: "[Feat]: "
-labels: ["🦾 Feature", "🕵🏼‍♂️ goal: Improvement"]
+labels: ["🦾 Feature", "🚦status: awaiting triage"]
 body:
   - type: markdown
     attributes:
