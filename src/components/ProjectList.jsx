@@ -17,7 +17,7 @@ export default function ProjectList() {
     //  And being added into objForUser
 
     const filterdObj = projects.filter((obj) => {
-      if (obj["github_username"] === username) {
+      if (obj["github_username"].toLowerCase() === username) {
         return obj
       }
     })
