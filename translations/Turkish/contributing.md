@@ -18,7 +18,7 @@ Bu süreçte atanmış sorun üzerinde çalışmanızı önceliklendirmenizi ric
 
 **Değişikliklerinizi Kaydedin:**
 
-Önemli ilerleme kaydettiyseniz veya katkınızı tamamladıysanız, değişikliklerinizi açıklayıcı bir şekilde kaydedin. İnceleme sürecini daha yönetilebilir hale getirmek için sık ve küçük "commit"ler yapmanız tavsiye edilir. Lütfen [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) kontrol edin. 
+Önemli ilerleme kaydettiyseniz veya katkınızı tamamladıysanız, değişikliklerinizi açıklayıcı bir şekilde kaydedin. İnceleme sürecini daha yönetilebilir hale getirmek için sık ve küçük "commit"ler yapmanız tavsiye edilir. Lütfen [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) kontrol edin.
 
 ## SPAM YAPMAYIN!!! ⚠
 
