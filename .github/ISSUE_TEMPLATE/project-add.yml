@@ -1,17 +1,17 @@
-name: 🗣️ Translate Documentation
-description: Translate Documentation
-title: "[Docs]: "
-labels: ["🗣 Translate", "📚 Documentation", "🚦status: awaiting triage"]
+name: 🌱 Project Addition
+description: Add a new project to the list
+title: "data: project addition by "
+labels: ["🌱 chore: projects addition"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this translate documentation update template!
   - type: textarea
-    id: translate-docs
+    id: project-add
     attributes:
-      label: in which language do you want to translate?
-      value: "I want to translate documentation to "
+      label: Add a new project to the list
+      value: " I want to add a new project to the list "
   - type: checkboxes
     id: terms
     attributes:

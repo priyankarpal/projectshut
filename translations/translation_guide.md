@@ -11,6 +11,8 @@ The original text is written in English and is currently translated into the fol
 - Italian
 - Japanese
 - French
+- മലയാളം
+- Turkish
 
 ## 📄 Document List
 
