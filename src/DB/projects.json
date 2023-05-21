@@ -77,6 +77,24 @@
       }
     ]
   },
+   {
+    "github_username": "jayk-gupta",
+    "Social_media": {
+      "gitHub": "https://github.com/jayk-gupta",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/jayk_gupta"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/jayk-gupta/web-resources-project",
+        "title": "Web Resources Hub",
+        "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
+        "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
   {
     "github_username": "ManishBisht777",
     "Social_media": {
@@ -164,6 +182,24 @@
         "title": "Phonebook Management System",
         "description": "It is a software application that allows users to store, organize and manage large numbers of contact records efficiently. The system is designed to have functions such as adding, updating, viewing, listing and deleting contacts.",
         "tech": ["C"]
+      }
+    ]
+  },
+  {
+    "github_username": "jfmartinz",
+    "Social_media": {
+      "gitHub": "https://github.com/jfmartinz",
+      "LinkedIn": "https://www.linkedin.com/feed/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/jfmartinz"
+    },
+    "Projects": [
+      {
+        "link": "https://jfmartinz.github.io/Project-Etch-A-Sketch/",
+        "title": "Etch-A-Sketch Project",
+        "description": " An Etch A Sketch is a classic children's toy that allows you to draw pictures by turning two knobs to control a stylus that moves across a screen. Recreating an Etch A Sketch in JavaScript involves capturing the user's input from the keyboard or mouse and updating the display accordingly.",
+        "tech": "[HTML,CSS,JS]"
       }
     ]
   },
@@ -709,6 +745,44 @@
     ]
   },
   {
+    "github_username": "Akshatchaube01",
+    "Social_media": {
+      "gitHub": "https://github.com/Akshatchaube01",
+      "LinkedIn": "https://www.linkedin.com/in/akshat-chaube-b2b042226/",
+      "Instagram": "https://www.instagram.com/akshat_chaube/",
+      "YouTube": "https://www.youtube.com/channel/UCNfx9NE5H8nIxCWIt9JuOng",
+      "Twitter": "https://twitter.com/akshat_chaube"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Akshatchaube01/Iron-Grit",
+        "title": "Gym Application",
+        "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+       }
+      ]
+  },
+  
+  {
+    "github_username": " sonustar",
+    "Social_media": {
+      "gitHub": "github.com/sonustar",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://charming-salmiakki-126b1d.netlify.app",
+        "title": "study time-counter",
+        "description": "it is a app which helps student to count how many hours he studies in a day infact he can check the back records ",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+
+  {
     "github_username": "sshiwangi",
     "Social_media": {
       "gitHub": "https://github.com/sshiwangi",
@@ -727,6 +801,25 @@
     ]
   },
   {
+
+    "github_username": "vishnu-mouli-102408",
+    "Social_media": {
+      "gitHub": "https://github.com/vishnu-mouli-102408",
+      "LinkedIn": "https://www.linkedin.com/in/ganivada-mouli/",
+      "Instagram": "https://instagram.com/vishnu.mouli",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamVishnuMouli"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vishnu-mouli-102408/spotify-clone",
+        "title": "Spotify Clone",
+        "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
+        "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
+    }
+   ]
+  },
+  {
     "github_username": "vaibhav-xt",
     "Social_media": {
       "gitHub": "",
@@ -735,6 +828,7 @@
       "YouTube": "",
       "Twitter": ""
     },
+
     "Projects": [
       {
         "link": "https://vaibhav-maurya.netlify.app/",
@@ -759,6 +853,66 @@
         "title": "Desume | Resume Builder For Developers",
         "description": "Desume Editor is a React-based web app that allows developers to edit their resumes with ease. With Desume Editor, developers can create or modify resumes with HTML and CSS directly in the app.",
         "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
+      }
+    ]
+  },
+  {
+    "github_username": "Atharva-3000",
+    "Social_media": {
+      "gitHub": "https://github.com/Atharva-3000",
+      "LinkedIn": "https://www.linkedin.com/in/atharva-deshmukh-b0479522a/",
+      "Instagram": "https://www.instagram.com/atharva_xoxo/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Powxu_XD"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharva-3000/summarizer",
+        "title": "SUMZ",
+        "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
+        "tech": ["React", "Tailwind", "Redux Toolkit","Redux JS"]
+      },
+        {
+        "link": "http://atharva3000-portfolio.netlify.app/",
+        "title": "Personal Portfolio Website",
+        "description": "You can use this template to create your own portfolio easily and showcase your projects.",
+        "tech": ["React","Email JS","Framer Motion"]
+      }
+    ]
+  },
+  {
+    "github_username": "abhinav-m22",
+    "Social_media": {
+      "gitHub": "https://github.com/abhinav-m22/",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav-mahajan-b805b022a/",
+      "Instagram": "https://www.instagram.com/abhi_m_22/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/abhinav_m22"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/abhinav-m22/google-keep-clone-2.0",
+        "title": "Google Keep Clone 2.0 - Notes App",
+        "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
+        "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      }
+    ]
+  },
+   {
+    "github_username": "akshaykamath45",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaykamath45",
+      "LinkedIn": "https://www.linkedin.com/in/akshaykamath45/",
+      "Instagram": "https://www.instagram.com/akshaykamath45/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/akshaykamath_45"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaykamath45/Google-Clone",
+        "title": "Google Clone",
+        "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
+        "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
       }
     ]
   }
