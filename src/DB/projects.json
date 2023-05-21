@@ -707,5 +707,23 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+  {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaibhav-maurya.netlify.app/",
+        "title": "Portfolio site",
+        "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
+        "tech": ["CSS", "JavaScript", "HTML"]
+      }
+    ]
   }
 ]
