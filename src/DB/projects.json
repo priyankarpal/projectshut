@@ -897,6 +897,23 @@
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
       }
     ]
+  },
+   {
+    "github_username": "akshaykamath45",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaykamath45",
+      "LinkedIn": "https://www.linkedin.com/in/akshaykamath45/",
+      "Instagram": "https://www.instagram.com/akshaykamath45/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/akshaykamath_45"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaykamath45/Google-Clone",
+        "title": "Google Clone",
+        "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
+        "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
+      }
+    ]
   }
-    
 ]
