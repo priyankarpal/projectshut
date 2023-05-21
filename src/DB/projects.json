@@ -77,6 +77,24 @@
       }
     ]
   },
+   {
+    "github_username": "jayk-gupta",
+    "Social_media": {
+      "gitHub": "https://github.com/jayk-gupta",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/jayk_gupta"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/jayk-gupta/web-resources-project",
+        "title": "Web Resources Hub",
+        "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
+        "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
   {
     "github_username": "ManishBisht777",
     "Social_media": {
@@ -783,6 +801,25 @@
     ]
   },
   {
+
+    "github_username": "vishnu-mouli-102408",
+    "Social_media": {
+      "gitHub": "https://github.com/vishnu-mouli-102408",
+      "LinkedIn": "https://www.linkedin.com/in/ganivada-mouli/",
+      "Instagram": "https://instagram.com/vishnu.mouli",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamVishnuMouli"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vishnu-mouli-102408/spotify-clone",
+        "title": "Spotify Clone",
+        "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
+        "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
+    }
+   ]
+  },
+  {
     "github_username": "vaibhav-xt",
     "Social_media": {
       "gitHub": "",
@@ -818,5 +855,24 @@
         "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "Framer Motion"]
       }
     ]
+  },
+  {
+    "github_username": "abhinav-m22",
+    "Social_media": {
+      "gitHub": "https://github.com/abhinav-m22/",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav-mahajan-b805b022a/",
+      "Instagram": "https://www.instagram.com/abhi_m_22/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/abhinav_m22"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/abhinav-m22/google-keep-clone-2.0",
+        "title": "Google Keep Clone 2.0 - Notes App",
+        "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
+        "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      }
+    ]
   }
+    
 ]
