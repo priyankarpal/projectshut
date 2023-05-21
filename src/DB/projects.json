@@ -743,5 +743,23 @@
         "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
+  },
+  {
+    "github_username": "akkshayTandon",
+    "Social_media": {
+      "gitHub": "https://github.com/akkshayTandon",
+      "LinkedIn": "https://www.linkedin.com/in/akkshaytandon/",
+      "Instagram": "https://www.instagram.com/tandonakkshay/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/AkkshayTandon"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akkshayTandon/C-Programs",
+        "title": "C-Programs",
+        "description": "This repository contains some of the useful C-Programs,each categorized, which can help college students.",
+        "tech": ["C"]
+      }
+    ]
   }
 ]
