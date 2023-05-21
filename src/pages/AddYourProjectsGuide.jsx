@@ -98,21 +98,139 @@ export default function AddYourProjectsGuide() {
             alt="add professional commits like this"
             className="mt-5"
           />
-          <div className="flex items-center gap-5 mt-5">
-            <span>
-              <RiGitRepositoryCommitsFill />
-            </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
-          </div>
+        </div>
+        <div className="mt-5 flex items-center gap-5">
           <span>
-            Fill up the description & create PR by clicking on the{" "}
-            <span className="bg-green-600 rounded-md p-1">Create Pull Request</span> button
+            <AiTwotoneFile />
           </span>
-          <img
-            src="https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png"
-            alt="add professional commits like this"
-            className="mt-5"
-          />
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            OR, If you want to run it locally then follow these steps
+          </p>
+        </div>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
+        </div>
+        <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code>
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
+        </div>
+        <code className="block">cd ProjectsHut</code>
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+          </p>
+        </div>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
+        </div>
+        <code className="block">pnpm i</code>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Create a new branch using your `GitHub Username`
+          </p>
+        </div>
+        <code className="block">git checkout -b [name_of_your_new_branch]</code>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
+        </div>
+        <code className="block">pnpm dev</code>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
+        </div>
+        <code className="block">pnpm test</code>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <AiTwotoneFile />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
+        </div>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
+        </div>
+        <code className="block">git add .</code>
+
+        <div className="mt-5 flex items-center gap-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
+        </div>
+        <code className="block">git commit -m "Added [your-changes]"</code>
+
+        <div className="flex items-center gap-5 mt-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            If you encounter this error while commits
+          </p>
+        </div>
+        <code className="block">husky - pre-commit hook exited with code 1(error)</code>
+
+        <div className="flex items-center gap-5 mt-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
+        </div>
+        <code className="block">pnpm format</code>
+
+        <div className="flex items-center gap-5 mt-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
+        </div>
+        <code className="block">git remote add upstream https://github.com/priyankarpal/ProjectsHut.git</code>
+
+        <div className="flex items-center gap-5 mt-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
+        </div>
+        <code className="block">git push origin [Your-branch-name]</code>
+
+        <div className="flex items-center gap-5 mt-5">
+          <span>
+            <RiGitRepositoryCommitsFill />
+          </span>
+          <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
         </div>
       </article>
     </section>
