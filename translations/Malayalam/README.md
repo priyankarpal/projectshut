@@ -66,6 +66,7 @@
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+- [Turkish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Turkish)
 
 ## 🤝 സംഭാവന ചെയ്യുന്നവർ
 

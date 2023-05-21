@@ -1,1 +1,1 @@
-export default ["React", "NodeJs", "CSS", "HTML", "NextJS", "JavaScript", "Python"]
+export default ["React", "NodeJs", "CSS", "HTML", "NextJS", "JavaScript", "Python", "C"]
