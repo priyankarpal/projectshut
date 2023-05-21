@@ -78,3 +78,5 @@ To all the contributors and supporters of this project, we want to express our s
 ## 🛡️ License
 
 ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
+
+![image](https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3)
