@@ -1,7 +1,7 @@
 name: 🗣️ Translate Documentation
 description: Translate Documentation
 title: "[Docs]: "
-labels: ["🤏  priority: medium", "🗣 Translate", "📚 Documentation"]
+labels: ["🗣 Translate", "📚 Documentation", "🚦status: awaiting triage"]
 body:
   - type: markdown
     attributes:
