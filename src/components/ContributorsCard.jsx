@@ -1,26 +1,38 @@
-import React, { useEffect, useState } from "react"
+import axios from "axios"
 import process from "process"
+import React, { useEffect, useState } from "react"
 
 function Contributors({ owner, repo }) {
   const [contributors, setContributors] = useState([])
   const [loading, setLoading] = useState(true)
 
+  const fetchContributorsData = async () => {
+    try {
+      setLoading(true) // set loading to true when th e fetch request is initiated
+
+      // fetch data asynchronously and assign it to a variable
+      const contributorsData = await axios.get(
+        `https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`,
+        {
+          headers: {
+            Authorization: ` ${process.env.GITHUB_TOKEN}`,
+          },
+        },
+      )
+
+      // check for successfull status from fetch request then proceed with setting the contributors list
+      if (contributorsData?.status === 200 || contributorsData?.status === 201) {
+        setContributors(contributorsData?.data)
+      }
+    } catch (error) {
+      console.log("Error fetching contributors data", error)
+    } finally {
+      setLoading(false) // set loading to false when an error occurs or data is loaded
+    }
+  }
+
   useEffect(() => {
-    setLoading(true) // set loading to true when th e fetch request is initiated
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
-      headers: {
-        Authorization: ` ${process.env.GITHUB_TOKEN}`,
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        setContributors(data)
-        setLoading(false) // set loading to false when the fetch request is completed
-      })
-      .catch((error) => {
-        console.log(error)
-        setLoading(false) // set loading to false when an error occurs
-      })
+    fetchContributorsData()
   }, [owner, repo])
 
   return (
