@@ -783,6 +783,25 @@
     ]
   },
   {
+
+    "github_username": "vishnu-mouli-102408",
+    "Social_media": {
+      "gitHub": "https://github.com/vishnu-mouli-102408",
+      "LinkedIn": "https://www.linkedin.com/in/ganivada-mouli/",
+      "Instagram": "https://instagram.com/vishnu.mouli",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamVishnuMouli"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vishnu-mouli-102408/spotify-clone",
+        "title": "Spotify Clone",
+        "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
+        "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
+    }
+   ]
+  },
+  {
     "github_username": "vaibhav-xt",
     "Social_media": {
       "gitHub": "",
@@ -819,4 +838,5 @@
       }
     ]
   }
+    
 ]
