@@ -6,7 +6,7 @@
 
 **कोई इश्यू चुनें/कोई इश्यू बनाएँ:**
 
-एक इश्यू बनायें या किसी पहले से बने हुए इश्यू पर काम करें अगर वो आपको सौंपा गया है तो। 
+एक इश्यू बनायें या किसी पहले से बने हुए इश्यू पर काम करें अगर वो आपको सौंपा गया है तो।
 
 **एक इश्यू संख्या असाइन करें:**
 
@@ -37,33 +37,31 @@
 3. `src/DB/projects.json` के अंत में यह कोड जोड़ें
 
 ```json
- {
-    "github_username": "YOUR_GITHUB_USERNAME",
-    "Social_media": {
-      "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
-      "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
-      "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
-    },
-    "Projects": [ 
-      {
-        "link": "PROJECT_LINK",
-        "title": "PROJECT_NAME",
-        "description": "PROJECT_DESCRIPTION",
-        "tech": "[tech1,tech2]" 
-      }     
-    ]
-  }
+{
+  "github_username": "YOUR_GITHUB_USERNAME",
+  "Social_media": {
+    "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
+    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
+    "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+    "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+  },
+  "Projects": [
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": "[tech1,tech2]"
+    }
+  ]
+}
 ```
-
 
 4. सभी परिवर्तन कमिट करें।
 
 - केवल परियोजनाओं के अतिरिक्त के लिए इस तरह की कमिट जोड़ें `data: project addition by [your-githubuser-name] #issue_number`
 
 > ### या, अगर आप इसे स्थानीय रूप से चलाना चाहते हैं तो इन चरणों का पालन करें
-
 
 1. इसे अपने कंप्यूटर पर क्लोन करें
 
@@ -77,7 +75,7 @@
 cd ProjectsHut
 ```
 
-3. `.env.example` का नाम बदलकर `.env` कर दें  और `.env` फ़ाइल में अपना `GitHub Personal Access Token` जोड़ें 
+3. `.env.example` का नाम बदलकर `.env` कर दें और `.env` फ़ाइल में अपना `GitHub Personal Access Token` जोड़ें
 
 4. निर्भरता स्थापित करें
 
@@ -116,12 +114,13 @@ git commit -m "Your Changes"
 ```
 
 > यदि आप कमिट करते समय इस त्रुटि का सामना करते हैं
-> 
->  ```diff
->  husky - pre-commit hook exited with code 1(error)
->  ```
->  
+>
+> ```diff
+> husky - pre-commit hook exited with code 1(error)
+> ```
+>
 > इस कमांड का उपयोग करें
+>
 > ```diff
 > pnpm format
 > ```
