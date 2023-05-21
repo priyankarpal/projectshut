@@ -6,7 +6,7 @@ Familiarize yourself with the project's objectives, architecture, and existing c
 
 **Choose an Issue/Create an issue:**
 
-Create an issue or work on the existing issue if you're assigned.
+Create an issue or work on the existing issue if you're assigned. Also, if you're in `GSSOC'23`, please add `"I'm in GSSOC'23"` so that we can add the `GSSOC'23` label on that particular issue/PR.
 
 **Assign an Issue Number:**
 
