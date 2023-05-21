@@ -691,7 +691,7 @@
     ]
   },
   {
- patch-1
+
     "github_username": "sshiwangi",
     "Social_media": {
       "gitHub": "https://github.com/sshiwangi",
@@ -706,6 +706,10 @@
         "title": "React-Quiz",
         "description": "React Quiz is a user-friendly WebApp that presents a set of four answer choices for each question. By selecting the appropriate option, users can swiftly evaluate their performance and receive a calculated score based on the number of correct answers.",
         "tech": ["React"]
+      }
+    ]
+   },
+  {
     "github_username": "vaibhav-xt",
     "Social_media": {
       "gitHub": "",
