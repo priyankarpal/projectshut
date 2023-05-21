@@ -744,7 +744,25 @@
       }
     ]
   },
-
+  {
+    "github_username": "Akshatchaube01",
+    "Social_media": {
+      "gitHub": "https://github.com/Akshatchaube01",
+      "LinkedIn": "https://www.linkedin.com/in/akshat-chaube-b2b042226/",
+      "Instagram": "https://www.instagram.com/akshat_chaube/",
+      "YouTube": "https://www.youtube.com/channel/UCNfx9NE5H8nIxCWIt9JuOng",
+      "Twitter": "https://twitter.com/akshat_chaube"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Akshatchaube01/Iron-Grit",
+        "title": "Gym Application",
+        "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+       }
+      ]
+  },
+  
   {
     "github_username": " sonustar",
     "Social_media": {
