@@ -46,6 +46,7 @@ function App() {
           <LanguageDropDown onChange={(e) => handleClick(e)} />
           <ScrollToTop />
           <Routes>
+
             <Route path="/Projects/:username" element={<ProjectList />} />
             <Route
               path="/"
@@ -93,6 +94,7 @@ function App() {
                 />
               }
             />
+
             <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer h2={t("footer_h2")} p={t("footer_p")} />

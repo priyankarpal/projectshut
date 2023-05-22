@@ -62,6 +62,8 @@ In questo modo, puoi contribuire a rendere il progetto più accessibile alle per
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+- [മലയാളം](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Malayalam)
+- [Turkish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Turkish)
 
 ## 🤝 Collaboratori
 

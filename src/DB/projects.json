@@ -24,6 +24,30 @@
     ]
   },
   {
+    "github_username": "villAsh",
+    "Social_media": {
+      "gitHub": "https://github.com/villAsh",
+      "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/villAsh/v1lash.io",
+        "title": "Personal Portfolio Website",
+        "description": "This is my personal portfolio website made using ReactJs",
+        "tech": ["ReactJs", "TailwindCss", "Framer Motion", "React Router"]
+      },
+      {
+        "link": "https://github.com/villAsh/Movie_app",
+        "title": "Movie App",
+        "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+        "tech": ["ReactJS", "TailwindCss", "Redux Toolkit", "React", "Router", "React", "Skeleton"]
+      }
+    ]
+  },
+  {
     "github_username": "abhidadhaniya23",
     "Social_media": {
       "gitHub": "",
@@ -42,6 +66,42 @@
     ]
   },
   {
+    "github_username": "urz-ahmed",
+    "Social_media": {
+      "gitHub": "https://github.com/urz-ahmed",
+      "LinkedIn": "https://www.linkedin.com/in/urooj-ahmad/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://social-utopia.vercel.app/",
+        "title": "Social Utopia",
+        "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
+        "tech": ["ReactJs", "Firebase", "TailwindCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "YashkShrivas4491",
+    "Social_media": {
+      "gitHub": "https://github.com/YashkShrivas4491",
+      "LinkedIn": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "https://twitter.com/YashKumarS4491"
+    },
+    "Projects": [
+      {
+        "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
+        "title": "Weather Website",
+        "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
+  },
+  {
     "github_username": "Swpn0neel",
     "Social_media": {
       "gitHub": "",
@@ -56,6 +116,42 @@
         "title": "Swapnoneel's Portfolio",
         "description": "A professional portfolio of Swapnoneel Saha, with his Achievements, Educational Journey and Contact Support to reach out to him.",
         "tech": ["React", "CSS", "Node.js"]
+      }
+    ]
+  },
+  {
+    "github_username": "jayk-gupta",
+    "Social_media": {
+      "gitHub": "https://github.com/jayk-gupta",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/jayk_gupta"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/jayk-gupta/web-resources-project",
+        "title": "Web Resources Hub",
+        "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
+        "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Arunjagan12",
+    "Social_media": {
+      "gitHub": "https://github.com/Arunjagan12",
+      "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
+      "Instagram": "https://www.instagram.com/arun.jegan.12/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
+        "title": "3d portfolio",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "tech": ["React", "Three", "Tailwindcss", "framer motion"]
       }
     ]
   },
@@ -146,6 +242,24 @@
         "title": "Phonebook Management System",
         "description": "It is a software application that allows users to store, organize and manage large numbers of contact records efficiently. The system is designed to have functions such as adding, updating, viewing, listing and deleting contacts.",
         "tech": ["C"]
+      }
+    ]
+  },
+  {
+    "github_username": "jfmartinz",
+    "Social_media": {
+      "gitHub": "https://github.com/jfmartinz",
+      "LinkedIn": "https://www.linkedin.com/feed/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/jfmartinz"
+    },
+    "Projects": [
+      {
+        "link": "https://jfmartinz.github.io/Project-Etch-A-Sketch/",
+        "title": "Etch-A-Sketch Project",
+        "description": " An Etch A Sketch is a classic children's toy that allows you to draw pictures by turning two knobs to control a stylus that moves across a screen. Recreating an Etch A Sketch in JavaScript involves capturing the user's input from the keyboard or mouse and updating the display accordingly.",
+        "tech": "[HTML,CSS,JS]"
       }
     ]
   },
@@ -691,8 +805,10 @@
     ]
   },
 
+
   {
     "github_username": "gkprasanth",
+
     "Social_media": {
       "gitHub": "",
       "LinkedIn": "",
@@ -702,10 +818,12 @@
     },
     "Projects": [
       {
+
         "link": "https://crypto-x-gkprasanth.vercel.app/",
         "title": "CryptoX",
         "description": "A website where you can check out details of all the cryptocurrencies and crypto exchanges available in the market.",
         "tech": ["React", "Chakra UI", "HTML", "CSS", "JavaScript", "Coingecko API"]
+
       }
     ]
   }
