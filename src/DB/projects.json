@@ -24,6 +24,30 @@
     ]
   },
   {
+    "github_username": "villAsh",
+    "Social_media": {
+      "gitHub": "https://github.com/villAsh",
+      "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/villAsh/v1lash.io",
+        "title": "Personal Portfolio Website",
+        "description": "This is my personal portfolio website made using ReactJs",
+        "tech": ["ReactJs", "TailwindCss", "Framer Motion", "React Router"]
+      },
+      {
+        "link": "https://github.com/villAsh/Movie_app",
+        "title": "Movie App",
+        "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+        "tech": ["ReactJS", "TailwindCss", "Redux Toolkit", "React", "Router", "React", "Skeleton"]
+      }
+    ]
+  },
+  {
     "github_username": "abhidadhaniya23",
     "Social_media": {
       "gitHub": "",
@@ -56,11 +80,10 @@
         "title": "Social Utopia",
         "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
         "tech": ["ReactJs", "Firebase", "TailwindCSS"]
-
-   }
- ]
-},
-{
+      }
+    ]
+  },
+  {
     "github_username": "YashkShrivas4491",
     "Social_media": {
       "gitHub": "https://github.com/YashkShrivas4491",
@@ -96,7 +119,7 @@
       }
     ]
   },
-   {
+  {
     "github_username": "jayk-gupta",
     "Social_media": {
       "gitHub": "https://github.com/jayk-gupta",
@@ -111,6 +134,24 @@
         "title": "Web Resources Hub",
         "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
         "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Arunjagan12",
+    "Social_media": {
+      "gitHub": "https://github.com/Arunjagan12",
+      "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
+      "Instagram": "https://www.instagram.com/arun.jegan.12/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
+        "title": "3d portfolio",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "tech": ["React", "Three", "Tailwindcss", "framer motion"]
       }
     ]
   },
@@ -778,10 +819,9 @@
         "title": "Gym Application",
         "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
         "tech": ["HTML", "CSS", "JavaScript"]
-       }
-      ]
+      }
+    ]
   },
-  
   {
     "github_username": " sonustar",
     "Social_media": {
@@ -800,7 +840,6 @@
       }
     ]
   },
-
   {
     "github_username": "sshiwangi",
     "Social_media": {
@@ -820,7 +859,6 @@
     ]
   },
   {
-
     "github_username": "vishnu-mouli-102408",
     "Social_media": {
       "gitHub": "https://github.com/vishnu-mouli-102408",
@@ -835,8 +873,8 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
-    }
-   ]
+      }
+    ]
   },
   {
     "github_username": "vaibhav-xt",
@@ -847,13 +885,34 @@
       "YouTube": "",
       "Twitter": ""
     },
-
     "Projects": [
       {
         "link": "https://vaibhav-maurya.netlify.app/",
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["CSS", "JavaScript", "HTML"]
+      }
+    ]
+  },
+  {
+    "github_username": "slayerrr12",
+    "Social_media": {
+      "gitHub": "https://github.com/slayerrr12",
+      "LinkedIn": "https://www.linkedin.com/in/arin-sharma-752045247/",
+      "Instagram": "https://instagram.com/arinsharma889?igshid=MzNlNGNkZWQ4Mg=="
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/slayerrr12/WaveSlayer",
+        "title": "WaveSlayer",
+        "description": "A simple python chatbot that interacts using voice ",
+        "tech": ["Python", "Openai"]
+      },
+      {
+        "link": "https://github.com/slayerrr12/BotForge-Discord",
+        "title": "BotForge-Discord",
+        "description": "A discord bot that does wonders ",
+        "tech": ["discord.js", "NodeJS"]
       }
     ]
   },
@@ -889,13 +948,13 @@
         "link": "https://github.com/Atharva-3000/summarizer",
         "title": "SUMZ",
         "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
-        "tech": ["React", "Tailwind", "Redux Toolkit","Redux JS"]
+        "tech": ["React", "Tailwind", "Redux Toolkit", "Redux JS"]
       },
-        {
+      {
         "link": "http://atharva3000-portfolio.netlify.app/",
         "title": "Personal Portfolio Website",
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
-        "tech": ["React","Email JS","Framer Motion"]
+        "tech": ["React", "Email JS", "Framer Motion"]
       }
     ]
   },
@@ -917,7 +976,25 @@
       }
     ]
   },
-   {
+  {
+    "github_username": "akkshayTandon",
+    "Social_media": {
+      "gitHub": "https://github.com/akkshayTandon",
+      "LinkedIn": "https://www.linkedin.com/in/akkshaytandon/",
+      "Instagram": "https://www.instagram.com/tandonakkshay/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/AkkshayTandon"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akkshayTandon/C-Programs",
+        "title": "C-Programs",
+        "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
+        "tech": ["C"]
+      }
+    ]
+  },
+  {
     "github_username": "akshaykamath45",
     "Social_media": {
       "gitHub": "https://github.com/akshaykamath45",
@@ -931,7 +1008,25 @@
         "link": "https://github.com/akshaykamath45/Google-Clone",
         "title": "Google Clone",
         "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
-        "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
+        "tech": ["ReactJS", "Material UI", "React Router", "Context API", "Google Custom Search API", "Firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "vaishalidewangan786",
+    "Social_media": {
+      "gitHub": "https://github.com/vaishalidewangan786",
+      "LinkedIn": "https://www.linkedin.com/in/vaishali-dewangan-2060721a5/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaishalidewangan786.github.io/GeoTrackerX/",
+        "title": "GeoTrackerX",
+        "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
+        "tech": ["Javascript", "Css", "Html", "API-IPify"]
       }
     ]
   }
