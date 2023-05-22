@@ -42,6 +42,25 @@
     ]
   },
   {
+    "github_username": "urz-ahmed",
+    "Social_media": {
+      "gitHub": "https://github.com/urz-ahmed",
+      "LinkedIn": "https://www.linkedin.com/in/urooj-ahmad/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://social-utopia.vercel.app/",
+        "title": "Social Utopia",
+        "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
+        "tech": ["ReactJs", "Firebase", "TailwindCSS"]
+
+   }
+ ]
+},
+{
     "github_username": "YashkShrivas4491",
     "Social_media": {
       "gitHub": "https://github.com/YashkShrivas4491",
@@ -897,6 +916,23 @@
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
       }
     ]
+  },
+   {
+    "github_username": "akshaykamath45",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaykamath45",
+      "LinkedIn": "https://www.linkedin.com/in/akshaykamath45/",
+      "Instagram": "https://www.instagram.com/akshaykamath45/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/akshaykamath_45"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaykamath45/Google-Clone",
+        "title": "Google Clone",
+        "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
+        "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
+      }
+    ]
   }
-    
 ]
