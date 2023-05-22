@@ -5,6 +5,7 @@ import { ThemeContext } from "../context/Theme"
 import projects from "../DB/projects.json"
 import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa"
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 export default function ProjectList() {
   const { theme } = useContext(ThemeContext)
@@ -36,6 +37,14 @@ export default function ProjectList() {
             color: theme?.color,
           }}
         >
+          {/* Beack to projects link */}
+          <div className="m-4 hover:text-cyan-300">
+            <span>{"<"}</span>
+            <Link to="/ProjectsPage" className="font-mono ml-2">
+              Back to Projects
+            </Link>
+          </div>
+
           <div className="flex justify-center items-center mb-3 my-10">
             <img
               src={`https://github.com/${username}.png`}
