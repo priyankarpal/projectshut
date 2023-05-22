@@ -24,29 +24,29 @@
     ]
   },
   {
-  "github_username": "villAsh",
-  "Social_media": {
-    "gitHub": "https://github.com/villAsh",
-    "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
-  },
-  "Projects": [
-    {
-       "link": "https://github.com/villAsh/v1lash.io",
-      "title": "Personal Portfolio Website",
-      "description": "This is my personal portfolio website",
-      "tech": "[ReactJs,TailwindCss,Framer Motion,React Router,]"
+    "github_username": "villAsh",
+    "Social_media": {
+      "gitHub": "https://github.com/villAsh",
+      "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
     },
-    {
-      "link": "https://github.com/villAsh/Movie_app",
-      "title": "Movie App",
-      "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
-      "tech": "[ReactJs,TailwindCss,Redux Toolkit,React Router,React Skeleton]"
-    }
-  ]
-},
+    "Projects": [
+      {
+        "link": "https://github.com/villAsh/v1lash.io",
+        "title": "Personal Portfolio Website",
+        "description": "This is my personal portfolio website",
+        "tech": "[ReactJs,TailwindCss,Framer Motion,React Router,]"
+      },
+      {
+        "link": "https://github.com/villAsh/Movie_app",
+        "title": "Movie App",
+        "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+        "tech": "[ReactJs,TailwindCss,Redux Toolkit,React Router,React Skeleton]"
+      }
+    ]
+  },
   {
     "github_username": "abhidadhaniya23",
     "Social_media": {
@@ -137,7 +137,7 @@
       }
     ]
   },
-   {
+  {
     "github_username": "Arunjagan12",
     "Social_media": {
       "gitHub": "https://github.com/Arunjagan12",
@@ -995,7 +995,7 @@
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["C"]
       }
-      ]
+    ]
   },
   {
     "github_username": "akshaykamath45",
@@ -1029,7 +1029,7 @@
         "link": "https://vaishalidewangan786.github.io/GeoTrackerX/",
         "title": "GeoTrackerX",
         "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
-        "tech": ["Javascript","Css","Html","API-IPify"]
+        "tech": ["Javascript", "Css", "Html", "API-IPify"]
       }
     ]
   }
