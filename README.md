@@ -12,7 +12,7 @@ ProjectsHut is an open source project that runs on the latest web technologies. 
 
 [ProjectsHut](https://projectshut.vercel.app) offers a user-friendly interface, making it easy to publish projects and share them with others.
 
-Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community. With its [Open Source](https://opensource.guide) design.
+Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
 
@@ -64,6 +64,31 @@ By doing so, you can help to make the project more accessible to people who spea
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+- [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
+
+<div align=center>
+<img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
+</div>
+
+<h1 align=center> Project Admin </h1>
+<table align=center >
+        <tr>
+            <td align="center"><a href="https://github.com/priyankarpal"><img alt="priyankarpal"
+                        src="https://github.com/priyankarpal.png" width="100px;"><br><sub><b> Priyankar Pal
+                        </b></sub></a><br></td> </a></td>
+
+</table>
+
+<h1 align=center> Project Mentors </h1>
+<table align=center>
+        <tr>
+            <td align="center"><a href="https://github.com/hariketsheth"><img alt="hariketsheth"
+                        src="https://github.com/hariketsheth.png" width="100px;"><br><sub><b> Hariket Sukeshkumar Sheth
+                        </b></sub></a><br></td> </a></td>
+            <td align="center"><a href="https://github.com/swapnilgarg7"><img alt="swapnilgarg7"
+                        src="https://github.com/swapnilgarg7.png" width="100px;"><br><sub><b> Swapnil Garg
+                        </b></sub></a><br></td></a></td>
+</table>
 
 ## 🤝 Contributors
 
@@ -78,5 +103,3 @@ To all the contributors and supporters of this project, we want to express our s
 ## 🛡️ License
 
 ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
-
-![image](https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3)
