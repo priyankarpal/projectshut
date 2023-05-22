@@ -48,8 +48,12 @@ const Navbar = () => {
           <ul className="flex items-center gap-5 text-[1rem]">
             <li>
               <NavLink
-                to="/" className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                to="/"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
@@ -57,16 +61,19 @@ const Navbar = () => {
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
-                }}>
+                }}
+              >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-
                 to="/ProjectsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 to="/projectspage"
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
@@ -82,10 +89,12 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-
                 to="/AddYourProjectsGuide"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 to="/docs"
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
@@ -95,7 +104,6 @@ const Navbar = () => {
                   color: navbar.color,
                   backgroundColor: "white",
                 }}
-
               >
                 Docs
               </NavLink>
@@ -104,12 +112,15 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Contributors
               </NavLink>
             </li>
-
           </ul>
         </div>
 
