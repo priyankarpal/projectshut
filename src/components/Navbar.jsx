@@ -21,7 +21,11 @@ const Navbar = () => {
   const switchTrackColor = theme.mode === "dark" ? "#9CA3AF" : undefined
 
   return (
-    <nav aria-label="Site Nav" className="sticky top-0 z-[100] backdrop-blur-sm" style={{backgroundColor: theme.mode === "dark" ? "#00000080" : "#f5f6fa80"}}>
+    <nav
+      aria-label="Site Nav"
+      className="sticky top-0 z-[100] backdrop-blur-sm"
+      style={{ backgroundColor: theme.mode === "dark" ? "#00000080" : "#f5f6fa80" }}
+    >
       <div className="flex flex-row justify-between mx-auto p-5 lg:w-1/2">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
