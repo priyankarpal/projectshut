@@ -97,7 +97,7 @@ const HomePage = () => {
                     color: theme?.button?.buttonTextColor,
                   }}
                 >
-                  Browse Projects
+                  search project
                 </Link>
               </div>
             </div>
