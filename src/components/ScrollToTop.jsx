@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineArrowUp } from 'react-icons/ai';
 
-import "../CSS/ScrollToTop.css";
-
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false); // State to track the visibility of the scroll-to-top button
 
@@ -35,7 +33,7 @@ const ScrollToTop = () => {
   return (
     <>
       <button
-        className={`scroll-to-top ${isVisible ? "visible" : ""}`}
+        className={` scroll-to-top ${isVisible ? "visible fixed bottom-4 right-4" : ""}`} 
         onClick={scrollToTop}
       >
         <AiOutlineArrowUp size={20} />
@@ -45,3 +43,4 @@ const ScrollToTop = () => {
 };
 
 export default ScrollToTop;
+
