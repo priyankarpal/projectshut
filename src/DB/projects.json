@@ -56,11 +56,10 @@
         "title": "Social Utopia",
         "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
         "tech": ["ReactJs", "Firebase", "TailwindCSS"]
-
-   }
- ]
-},
-{
+      }
+    ]
+  },
+  {
     "github_username": "YashkShrivas4491",
     "Social_media": {
       "gitHub": "https://github.com/YashkShrivas4491",
@@ -96,7 +95,7 @@
       }
     ]
   },
-   {
+  {
     "github_username": "jayk-gupta",
     "Social_media": {
       "gitHub": "https://github.com/jayk-gupta",
@@ -796,10 +795,10 @@
         "title": "Gym Application",
         "description": "This website allows users to add their favorite exercises with a video demonstration, blogs and diet plans.",
         "tech": ["HTML", "CSS", "JavaScript"]
-       }
-      ]
+      }
+    ]
   },
-  
+
   {
     "github_username": " sonustar",
     "Social_media": {
@@ -838,7 +837,6 @@
     ]
   },
   {
-
     "github_username": "vishnu-mouli-102408",
     "Social_media": {
       "gitHub": "https://github.com/vishnu-mouli-102408",
@@ -853,8 +851,8 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite JS", "Spotify API", "Tailwind CSS"]
-    }
-   ]
+      }
+    ]
   },
   {
     "github_username": "vaibhav-xt",
@@ -872,6 +870,28 @@
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["CSS", "JavaScript", "HTML"]
+      }
+    ]
+  },
+  {
+    "github_username": "slayerrr12",
+    "Social_media": {
+      "gitHub": "https://github.com/slayerrr12",
+      "LinkedIn": "https://www.linkedin.com/in/arin-sharma-752045247/",
+      "Instagram": "https://instagram.com/arinsharma889?igshid=MzNlNGNkZWQ4Mg=="
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/slayerrr12/WaveSlayer",
+        "title": "WaveSlayer",
+        "description": "A simple python chatbot that interacts using voice ",
+        "tech": ["Python", "Openai"]
+      },
+      {
+        "link": "https://github.com/slayerrr12/BotForge-Discord",
+        "title": "BotForge-Discord",
+        "description": "A discord bot that does wonders ",
+        "tech": ["discord.js", "Node.js"]
       }
     ]
   },
@@ -907,13 +927,13 @@
         "link": "https://github.com/Atharva-3000/summarizer",
         "title": "SUMZ",
         "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
-        "tech": ["React", "Tailwind", "Redux Toolkit","Redux JS"]
+        "tech": ["React", "Tailwind", "Redux Toolkit", "Redux JS"]
       },
-        {
+      {
         "link": "http://atharva3000-portfolio.netlify.app/",
         "title": "Personal Portfolio Website",
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
-        "tech": ["React","Email JS","Framer Motion"]
+        "tech": ["React", "Email JS", "Framer Motion"]
       }
     ]
   },
@@ -935,7 +955,7 @@
       }
     ]
   },
-   {
+  {
     "github_username": "akshaykamath45",
     "Social_media": {
       "gitHub": "https://github.com/akshaykamath45",
@@ -949,7 +969,25 @@
         "link": "https://github.com/akshaykamath45/Google-Clone",
         "title": "Google Clone",
         "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
-        "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
+        "tech": ["ReactJS", "Material UI", "React Router", "Context API", "Google Custom Search API", "Firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "vaishalidewangan786",
+    "Social_media": {
+      "gitHub": "https://github.com/vaishalidewangan786",
+      "LinkedIn": "https://www.linkedin.com/in/vaishali-dewangan-2060721a5/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaishalidewangan786.github.io/GeoTrackerX/",
+        "title": "GeoTrackerX",
+        "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
+        "tech": ["Javascript","Css","Html","API-IPify"]
       }
     ]
   }
