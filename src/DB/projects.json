@@ -915,7 +915,7 @@
         "link": "https://github.com/slayerrr12/BotForge-Discord",
         "title": "BotForge-Discord",
         "description": "A discord bot that does wonders ",
-        "tech": ["discord.js", "Node.js"]
+        "tech": ["discord.js", "NodeJS"]
       }
     ]
   },
