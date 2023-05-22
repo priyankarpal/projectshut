@@ -42,6 +42,25 @@
     ]
   },
   {
+    "github_username": "urz-ahmed",
+    "Social_media": {
+      "gitHub": "https://github.com/urz-ahmed",
+      "LinkedIn": "https://www.linkedin.com/in/urooj-ahmad/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://social-utopia.vercel.app/",
+        "title": "Social Utopia",
+        "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
+        "tech": ["ReactJs", "Firebase", "TailwindCSS"]
+
+   }
+ ]
+},
+{
     "github_username": "YashkShrivas4491",
     "Social_media": {
       "gitHub": "https://github.com/YashkShrivas4491",
