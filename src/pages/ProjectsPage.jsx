@@ -33,7 +33,18 @@ const ProjectsPage = ({ project_sort, project_check, project_want_to_add, list_o
   // this function will filter project based on selected technology and set the state of items
   const handleQuery = (index) => {
     setSelectedButton((prev) => (prev === index ? null : index))
-    setItems(projects.filter((obj) => obj.tech.includes(techStack[index])))
+    const regexPattern = new RegExp(techStack[index], "i")
+    let currProjects = []
+    projects?.map((obj) => {
+      let arr = obj["Projects"][0].tech
+      for (let i = 0; i < arr.length; i++) {
+        if (regexPattern.test(arr[i])) {
+          currProjects.push(obj)
+          break
+        }
+      }
+    })
+    setItems(currProjects)
   }
   const prevPage = () => {
     if (page - 1 < 0) {
