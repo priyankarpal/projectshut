@@ -1,7 +1,7 @@
 # **ProjectsHut - Share your projects to the world 🌎🌈**
 
 [![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/235369195-189ad8cd-31df-4099-8b99-3efac3056651.png)
 
