@@ -991,6 +991,12 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["C"]
+      },
+      {
+        "link": "https://github.com/akkshayTandon/Java-Programs",
+        "title": "JAVA Programs",
+        "description": "This repository contains some useful JAVA programs and projects, each categorized, which can help the college students.",
+        "tech": ["Java"]
       }
     ]
   },
@@ -1048,4 +1054,22 @@
       }
     ]
   }
+{
+  "github_username": "Ks103",
+  "Social_media": {
+    "gitHub": "https://github.com/Ks103",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github-usernamefind.netlify.app/",
+      "title": "Github-user-info",
+      "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
+        "tech": ["Javascript", "Css", "Html", "React","Tailwind CSS"]
+    }
+  ]
+}
 ]
