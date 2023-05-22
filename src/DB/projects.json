@@ -114,6 +114,24 @@
       }
     ]
   },
+   {
+    "github_username": "Arunjagan12",
+    "Social_media": {
+      "gitHub": "https://github.com/Arunjagan12",
+      "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
+      "Instagram": "https://www.instagram.com/arun.jegan.12/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
+        "title": "3d portfolio",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "tech": ["React", "Three", "Tailwindcss", "framer motion"]
+      }
+    ]
+  },
   {
     "github_username": "ManishBisht777",
     "Social_media": {
