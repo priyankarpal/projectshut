@@ -48,7 +48,7 @@ const Navbar = () => {
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
@@ -63,7 +63,7 @@ const Navbar = () => {
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
@@ -78,7 +78,7 @@ const Navbar = () => {
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
@@ -114,6 +114,20 @@ const Navbar = () => {
             />
           </div>
         </div>
+        <Drawer
+          className="block md:hidden"
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            "& .MuiDrawer-paper": { boxSizing: "border-box", width: "56%" },
+          }}
+        >
+          <SideMenu handleDrawerToggle={handleDrawerToggle} />
+        </Drawer>
       </div>
     </nav>
   )
