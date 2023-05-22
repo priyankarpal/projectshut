@@ -31,7 +31,7 @@ export default function Footer() {
           >
             Under MIT License
           </a>
-          <p className="max-w-md mx-auto mt-4 text-gray-400">
+          <p className="max-w-md mx-auto text-gray-400">
             Copyright &copy; {getCurrentYear()} by ProjectsHut. All right reserved.
           </p>
         </div>
