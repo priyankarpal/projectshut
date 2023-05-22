@@ -1063,23 +1063,22 @@
     "YouTube": "",
     "Twitter": ""
   },
-  "Projects": [
-    {
-      "link": "https://github-usernamefind.netlify.app/",
-      "title": "Github-user-info",
-      "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
-        "tech": ["Javascript", "Css", "Html", "React","Tailwind CSS"]
 
-        
-    },
-    {
-      "link": "https://khushitech.netlify.app/",
-      "title": "Portfolio site",
-      "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
-      "tech": "[Html,Css,Js]"
-    }
-  ]
-},
+    "Projects": [
+      {
+        "link": "https://github-usernamefind.netlify.app/",
+        "title": "Github-user-info",
+        "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
+        "tech": ["Javascript", "Css", "Html", "React", "Tailwind CSS"]
+      },
+      {
+        "link": "https://khushitech.netlify.app/",
+        "title": "Portfolio site",
+        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
+  },
   {
     "github_username": "narayan2111",
     "Social_media": {
