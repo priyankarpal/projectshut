@@ -166,7 +166,9 @@ export default function ProjectList() {
                     {project["tech"].map((tag, index) => {
                       return (
                         <p
-                          className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 uppercase last:mr-0 mr-1"
+                          className={`text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-0 mr-1 ${
+                            theme.mode === "dark" ? "text-black bg-white" : "text-white bg-black"
+                          }`}
                           key={index}
                         >
                           {tag}
