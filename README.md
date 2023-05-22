@@ -66,6 +66,30 @@ By doing so, you can help to make the project more accessible to people who spea
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 - [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
 
+<div align=center>
+<img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
+</div>
+
+<h1 align=center> Project Admin </h1>
+<table align=center >
+        <tr>
+            <td align="center"><a href="https://github.com/priyankarpal"><img alt="priyankarpal"
+                        src="https://github.com/priyankarpal.png" width="100px;"><br><sub><b> Priyankar Pal
+                        </b></sub></a><br></td> </a></td>
+
+</table>
+
+<h1 align=center> Project Mentors </h1>
+<table align=center>
+        <tr>
+            <td align="center"><a href="https://github.com/hariketsheth"><img alt="hariketsheth"
+                        src="https://github.com/hariketsheth.png" width="100px;"><br><sub><b> Hariket Sukeshkumar Sheth
+                        </b></sub></a><br></td> </a></td>
+            <td align="center"><a href="https://github.com/swapnilgarg7"><img alt="swapnilgarg7"
+                        src="https://github.com/swapnilgarg7.png" width="100px;"><br><sub><b> Swapnil Garg
+                        </b></sub></a><br></td></a></td>
+</table>
+
 ## 🤝 Contributors
 
 To all the contributors and supporters of this project, we want to express our sincerest thanks. Your time, effort, and expertise have been invaluable in making this project a success. Whether you contributed code, documentation, testing, or simply offered feedback and suggestions, your contributions are deeply appreciated.
@@ -79,5 +103,3 @@ To all the contributors and supporters of this project, we want to express our s
 ## 🛡️ License
 
 ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
-
-![image](https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3)

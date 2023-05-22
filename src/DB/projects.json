@@ -24,6 +24,30 @@
     ]
   },
   {
+  "github_username": "villAsh",
+  "Social_media": {
+    "gitHub": "https://github.com/villAsh",
+    "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+       "link": "https://github.com/villAsh/v1lash.io",
+      "title": "Personal Portfolio Website",
+      "description": "This is my personal portfolio website",
+      "tech": "[ReactJs,TailwindCss,Framer Motion,React Router,]"
+    },
+    {
+      "link": "https://github.com/villAsh/Movie_app",
+      "title": "Movie App",
+      "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+      "tech": "[ReactJs,TailwindCss,Redux Toolkit,React Router,React Skeleton]"
+    }
+  ]
+},
+  {
     "github_username": "abhidadhaniya23",
     "Social_media": {
       "gitHub": "",
@@ -38,6 +62,24 @@
         "title": "GigaResources",
         "description": "Manually curated collection of resources for developers, designers, and other creative professionals to help them build better products.",
         "tech": ["Resources", "Tools"]
+      }
+    ]
+  },
+  {
+    "github_username": "urz-ahmed",
+    "Social_media": {
+      "gitHub": "https://github.com/urz-ahmed",
+      "LinkedIn": "https://www.linkedin.com/in/urooj-ahmad/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://social-utopia.vercel.app/",
+        "title": "Social Utopia",
+        "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with React and Firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
+        "tech": ["ReactJs", "Firebase", "TailwindCSS"]
       }
     ]
   },
@@ -92,6 +134,24 @@
         "title": "Web Resources Hub",
         "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
         "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
+   {
+    "github_username": "Arunjagan12",
+    "Social_media": {
+      "gitHub": "https://github.com/Arunjagan12",
+      "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
+      "Instagram": "https://www.instagram.com/arun.jegan.12/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
+        "title": "3d portfolio",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "tech": ["React", "Three", "Tailwindcss", "framer motion"]
       }
     ]
   },
@@ -838,6 +898,28 @@
     ]
   },
   {
+    "github_username": "slayerrr12",
+    "Social_media": {
+      "gitHub": "https://github.com/slayerrr12",
+      "LinkedIn": "https://www.linkedin.com/in/arin-sharma-752045247/",
+      "Instagram": "https://instagram.com/arinsharma889?igshid=MzNlNGNkZWQ4Mg=="
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/slayerrr12/WaveSlayer",
+        "title": "WaveSlayer",
+        "description": "A simple python chatbot that interacts using voice ",
+        "tech": ["Python", "Openai"]
+      },
+      {
+        "link": "https://github.com/slayerrr12/BotForge-Discord",
+        "title": "BotForge-Discord",
+        "description": "A discord bot that does wonders ",
+        "tech": ["discord.js", "Node.js"]
+      }
+    ]
+  },
+  {
     "github_username": "itsme-shivamkumar",
     "Social_media": {
       "gitHub": "https://github.com/itsme-shivamkumar",
@@ -912,6 +994,42 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["C"]
+      }
+      ]
+  },
+  {
+    "github_username": "akshaykamath45",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaykamath45",
+      "LinkedIn": "https://www.linkedin.com/in/akshaykamath45/",
+      "Instagram": "https://www.instagram.com/akshaykamath45/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/akshaykamath_45"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaykamath45/Google-Clone",
+        "title": "Google Clone",
+        "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
+        "tech": ["ReactJS", "Material UI", "React Router", "Context API", "Google Custom Search API", "Firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "vaishalidewangan786",
+    "Social_media": {
+      "gitHub": "https://github.com/vaishalidewangan786",
+      "LinkedIn": "https://www.linkedin.com/in/vaishali-dewangan-2060721a5/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://vaishalidewangan786.github.io/GeoTrackerX/",
+        "title": "GeoTrackerX",
+        "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
+        "tech": ["Javascript","Css","Html","API-IPify"]
       }
     ]
   }
