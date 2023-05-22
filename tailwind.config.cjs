@@ -11,6 +11,7 @@ module.exports = {
         primary: "#A66EFC",
         secondary: "#000513",
       },
+      // changed here
       padding: {
         'custom': '52rem', // Add your custom padding value
       },
