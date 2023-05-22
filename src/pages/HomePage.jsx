@@ -2,9 +2,11 @@ import React, { useContext } from "react"
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
 import { ThemeContext } from "../context/Theme"
+import LanguageDropDown from "@/components/LanguageDropDown"
 
-const HomePage = () => {
+const HomePage = ({ hero1, hero2, btn, banner_h1, banner_p, banner_btn1, banner_btn2 }) => {
   const { theme } = useContext(ThemeContext)
+
   return (
     <section>
       <div className="relative overflow-hidden">
@@ -12,11 +14,9 @@ const HomePage = () => {
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
               <h1 className="font text-5xl font-bold  md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem]">
-                Share your projects
+                {hero1}
               </h1>
-              <p className="mt-4 text-xl text-gray-400  tracking-wide">
-                ProjectsHut is a platform where you can share your open source projects with the world.
-              </p>
+              <p className="mt-4 text-xl text-gray-400  tracking-wide">{hero2}</p>
             </div>
             <div>
               <div className="mt-10">
@@ -94,14 +94,14 @@ const HomePage = () => {
                     color: theme?.button?.buttonTextColor,
                   }}
                 >
-                  Browse Projects
+                  {btn}
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Banner />
+      <Banner banner_h1={banner_h1} banner_p={banner_p} banner_btn1={banner_btn1} banner_btn2={banner_btn2} />
     </section>
   )
 }

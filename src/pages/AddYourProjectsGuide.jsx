@@ -2,7 +2,7 @@ import { BiGitRepoForked } from "react-icons/bi"
 import { AiTwotoneFile } from "react-icons/ai"
 import { RiGitRepositoryCommitsFill } from "react-icons/ri"
 
-export default function AddYourProjectsGuide() {
+export default function AddYourProjectsGuide({ follow, fork, add, commit, create, fill, create2, fill2 }) {
   const codeString = `{
     "gh-username": "YOUR-GITHUB-USERNAME",
     "link": "LINK-TO-GITHUB-OR-DEMO",
@@ -37,12 +37,12 @@ export default function AddYourProjectsGuide() {
 
       <article className="grid justify-center items-center max-w-5xl mx-auto ">
         <div className="  text-base leading-7 ">
-          <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
+          <p className="mb-5 text-xl font-bold tracking-tight  ">{follow}</p>
           <div className="flex items-center gap-5">
             <span>
               <BiGitRepoForked />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Fork this repository</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600"> {fork}</p>
           </div>
           <img
             src="https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png"
@@ -71,7 +71,8 @@ export default function AddYourProjectsGuide() {
               <AiTwotoneFile />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
+              {add}
+              <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
           <code className="block">{codeString}</code>
@@ -79,7 +80,7 @@ export default function AddYourProjectsGuide() {
             <span>
               <RiGitRepositoryCommitsFill />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600"> {commit}</p>
           </div>
           <img
             src="https://user-images.githubusercontent.com/88102392/232192543-5fcc2711-7693-4dba-8993-75e3528b8530.png"
@@ -90,9 +91,9 @@ export default function AddYourProjectsGuide() {
             <span>
               <RiGitRepositoryCommitsFill />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600"> {create}</p>
           </div>
-          <span>Fill up the description</span>
+          <span>{fill}</span>
           <img
             src="https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png"
             alt="add professional commits like this"
@@ -102,11 +103,10 @@ export default function AddYourProjectsGuide() {
             <span>
               <RiGitRepositoryCommitsFill />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600"> {create2}</p>
           </div>
           <span>
-            Fill up the description & create PR by clicking on the{" "}
-            <span className="bg-green-600 rounded-md p-1">Create Pull Request</span> button
+            {fill2}e <span className="bg-green-600 rounded-md p-1">Create Pull Request</span> button
           </span>
           <img
             src="https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png"

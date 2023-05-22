@@ -5,6 +5,8 @@ import "./CSS/index.css"
 import { BrowserRouter } from "react-router-dom"
 import { ThemeProvider } from "./context/Theme"
 
+import "./utils/i18n"
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <ThemeProvider>

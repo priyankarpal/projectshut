@@ -689,5 +689,24 @@
         "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
       }
     ]
+  },
+
+  {
+    "github_username": "gkprasanth",
+    "Social_media": {
+      "gitHub": "",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://crypto-x-gkprasanth.vercel.app/",
+        "title": "CryptoX",
+        "description": "A website where you can check out details of all the cryptocurrencies and crypto exchanges available in the market.",
+        "tech": ["React", "Chakra UI", "HTML", "CSS", "JavaScript", "Coingecko API"]
+      }
+    ]
   }
 ]

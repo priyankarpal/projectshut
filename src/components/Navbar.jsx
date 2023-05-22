@@ -8,7 +8,7 @@ import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
 import { ThemeContext } from "../context/Theme"
 
-const Navbar = () => {
+const Navbar = ({ home, projects, docs, contributors }) => {
   const [mobileOpen, setMobileOpen] = useState(false)
   const { theme, toggleTheme } = useContext(ThemeContext)
   const { navbar } = theme
@@ -44,7 +44,7 @@ const Navbar = () => {
                 to="/"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Home
+                {home}
               </NavLink>
             </li>
             <li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 to="/ProjectsPage"
                 className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
               >
-                Projects
+                {projects}
               </NavLink>
             </li>
             <li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 to="/AddYourProjectsGuide"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Docs
+                {docs}
               </NavLink>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                 to="/ContributorsPage"
                 className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
               >
-                Contributors
+                {contributors}
               </NavLink>
             </li>
           </ul>

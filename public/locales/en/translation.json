@@ -1,0 +1,35 @@
+{
+  "home": "Home",
+  "Docs": "Docs",
+
+  "hero1": "Share your projects",
+  "hero2": "ProjectsHut is a platform where you can share your open source projects with the world.",
+  "btn": "Browse Projects",
+
+  "banner_h1": "Create your first Pull Request to ProjectsHut",
+  "banner_p": "It's designed to provide a space for individuals to showcase their work and connect with a global audience.",
+  "banner_btn1": "Fork repository",
+  "banner_btn2": "Add your projects",
+
+  "project_want_to_add": "Want to add your projects?",
+  "project_sort": "Sort project based on technology",
+  "project_check": "Check documentation",
+
+  "our": "Our",
+  "Contributors": "Contributors",
+
+  "footer_h2": "Built for collaboration",
+  "footer_p": "ProjectsHut is an open-source project. Feel free to contribute and help us make this project even better",
+  "list_of": "List of",
+  "projects": "Projects",
+  "cool": "cool",
+
+  "follow": "Follow these steps to add your projects",
+  "fork": "Fork this repository",
+  "add": "Add following code to end of ",
+  "commit": "Commit your changes",
+  "create": "Create Pull Request & wait for merge",
+  "fill": "Fill up the description",
+  "create2": "Create Pull Request & wait for merge",
+  "fill2": "Fill up the description & create PR by clicking on the"
+}

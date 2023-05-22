@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-function Banner() {
+function Banner({ banner_h1, banner_p, banner_btn1, banner_btn2 }) {
   return (
     <>
       <div>
@@ -21,13 +21,8 @@ function Banner() {
               </defs>
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Create your first Pull Request to ProjectsHut
-              </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                It's designed to provide a space for individuals to showcase their work and connect with a global
-                audience.
-              </p>
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">{banner_h1}</h2>
+              <p className="mt-6 text-lg leading-8 text-gray-300">{banner_p}</p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
                   href="https://github.com/priyankarpal/ProjectsHut/fork"
@@ -35,13 +30,13 @@ function Banner() {
                   rel={"noreferrer"}
                   className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
-                  Fork repository
+                  {banner_btn1}
                 </a>
                 <Link
                   to="/AddYourProjectsGuide"
                   className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
-                  Add your projects <span aria-hidden="true">→</span>
+                  {banner_btn2} <span aria-hidden="true">→</span>
                 </Link>
               </div>
             </div>

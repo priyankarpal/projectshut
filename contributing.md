@@ -21,12 +21,10 @@ We kindly request that you prioritize working on your assigned issue at this tim
 Once you have made significant progress or completed your contribution, commit your changes with a descriptive commit message. It is advisable to make frequent, small commits to make the review process more manageable. Please check [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## DO NOT SPAM !!! ⚠
-If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, he/she will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project. 
 
-
+If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, he/she will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
 
 # 😎 How to add your projects to ProjectsHut
-
 
 1. Fork this repository
 
@@ -39,30 +37,29 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 3. Add following code to end of `src/DB/projects.json`
 
 ```json
- {
-    "github_username": "YOUR_GITHUB_USERNAME",
-    "Social_media": {
-      "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
-      "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
-      "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
-    },
-    "Projects": [ 
-      {
-        "link": "PROJECT_LINK",
-        "title": "PROJECT_NAME",
-        "description": "PROJECT_DESCRIPTION",
-        "tech": "[tech1,tech2]" 
-      }     
-    ]
-  }
+{
+  "github_username": "YOUR_GITHUB_USERNAME",
+  "Social_media": {
+    "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
+    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
+    "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+    "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+  },
+  "Projects": [
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": "[tech1,tech2]"
+    }
+  ]
+}
 ```
+
 4. Commit all changes.
 
-
 > ### OR, If you want to run it locally then follow these
-
 
 1.  Clone it to your computer
 
@@ -84,13 +81,13 @@ cd ProjectsHut
 pnpm i
 ```
 
-5.   Create a new branch using your `GitHub Username`
+5.  Create a new branch using your `GitHub Username`
 
 ```diff
 git checkout -b [name_of_your_new_branch]
 ```
 
-6.  Run in local 
+6.  Run in local
 
 ```
 pnpm dev

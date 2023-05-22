@@ -4,10 +4,13 @@ import projects from "../DB/projects.json"
 import techStack from "../utils/techStack"
 import { paginate } from "../utils/paginate"
 import { Button } from "@mui/material"
+import LanguageDropDown from "@/components/LanguageDropDown"
+import { useTranslation } from "react-i18next"
+import i18next from "i18next"
 
 const paginatedArr = paginate(projects)
 
-const ProjectsPage = () => {
+const ProjectsPage = ({ project_sort, project_check, project_want_to_add, list_of, cool, projects }) => {
   const [page, setPage] = useState(0)
   const [currentItems, setItems] = useState([])
   const [selectedButton, setSelectedButton] = useState(null)
@@ -47,19 +50,20 @@ const ProjectsPage = () => {
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
       <h1 className="text-[3.5rem] font-bold  text-center">
-        List of <span className="text-primary">cool </span>Projects
+        {list_of} <span className="text-primary">{cool} </span>
+        {projects}
       </h1>
       <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
-        Want to add your projects?
+        {project_want_to_add}
         <a
           href="https://projectshut.vercel.app/AddYourProjectsGuide"
           rel="noreferrer"
           className="p-2 inline-block rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
         >
-          Check documentation <span aria-hidden="true">→</span>
+          {project_check} <span aria-hidden="true">→</span>
         </a>
       </p>
-      <p className="flex justify-center mt-6 text-primary text-center ">Sort project based on technology</p>
+      <p className="flex justify-center mt-6 text-primary text-center ">{project_sort}</p>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
           <Button
