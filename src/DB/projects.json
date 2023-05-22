@@ -977,6 +977,24 @@
     ]
   },
   {
+    "github_username": "Ks103",
+    "Social_media": {
+      "gitHub": "https://github.com/Ks103",
+      "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://khushitech.netlify.app/",
+        "title": "Personal-Portfolio",
+        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning" ,
+           "tech": ["Javascript", "Css", "Html"]
+      }
+    ]
+  },
+  {
     "github_username": "akkshayTandon",
     "Social_media": {
       "gitHub": "https://github.com/akkshayTandon",
