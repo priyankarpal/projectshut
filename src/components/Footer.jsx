@@ -20,18 +20,18 @@ export default function Footer() {
         </div>
 
         <div
-          className="pt-8 mt-16 border-t flex gap-3 border-gray-100 dark:border-gray-800 justify-center lg:mt-24"
+          className="pt-8 mt-16 border-t flex flex-col gap-3 border-gray-100 dark:border-gray-800 justify-center lg:mt-24"
           style={{ borderColor: theme.color }}
         >
           <a
             href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
             target="_blank"
-            className="text-white"
+            className="text-white text-center"
             style={{ color: theme.color }}
           >
             Under MIT License
           </a>
-          <p className="max-w-md mx-auto mt-4 text-gray-400">
+          <p className="max-w-md mx-auto text-gray-400 text-center">
             Copyright &copy; {getCurrentYear()} by ProjectsHut. All right reserved.
           </p>
         </div>
