@@ -5,10 +5,6 @@
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/235369195-189ad8cd-31df-4099-8b99-3efac3056651.png)
 
-## 🚀 About ProjectsHut
-+ Welcome to **[ProjectsHut](https://projectshut.vercel.app)**, a *cutting-edge web platform* for publishing projects without any cost. 
-+ Our platform is designed to provide individuals with an exceptional space to showcase their work and engage with a worldwide audience.
-
 ## 🤓 Why ProjectsHut ?
 
 + **[ProjectsHut](https://projectshut.vercel.app)** is an open source project that runs on the latest web technologies. 
