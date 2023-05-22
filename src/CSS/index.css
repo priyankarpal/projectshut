@@ -41,5 +41,6 @@ body {
   background-color: #000513;
 }
 
+
 @tailwind components;
 @tailwind utilities;

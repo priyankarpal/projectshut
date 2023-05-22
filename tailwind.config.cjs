@@ -11,6 +11,9 @@ module.exports = {
         primary: "#A66EFC",
         secondary: "#000513",
       },
+      padding: {
+        'custom': '52rem', // Add your custom padding value
+      },
     },
   },
   plugins: [],
