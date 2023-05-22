@@ -33,10 +33,10 @@ const ScrollToTop = () => {
   return (
     <>
       <button
-        className={` scroll-to-top ${isVisible ? "visible fixed bottom-4 right-4" : ""}`} 
+        className={`fixed p-2 bg-gray-400 bg-opacity-25 rounded-full  ${isVisible ? " bottom-4 right-4" : "hidden"}`} 
         onClick={scrollToTop}
       >
-        <AiOutlineArrowUp size={20} />
+        <AiOutlineArrowUp size={25}  />
       </button>
     </>
   );
