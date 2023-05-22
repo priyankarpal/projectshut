@@ -165,7 +165,10 @@ export default function ProjectList() {
                   <div className="flex flex-wrap">
                     {project["tech"].map((tag, index) => {
                       return (
-                        <p className="mb-3 line-clamp-2 my-2 whitespace-normal mx-3 text-gray-400  " key={index}>
+                        <p
+                          className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 uppercase last:mr-0 mr-1"
+                          key={index}
+                        >
                           {tag}
                         </p>
                       )
