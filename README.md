@@ -77,7 +77,7 @@ By doing so, you can help to make the project more accessible to people who spea
                         src="https://github.com/priyankarpal.png" width="100px;"><br><sub><b> Priyankar Pal
                         </b></sub></a><br></td> </a></td>
 
-</table> 
+</table>
 
 <h1 align=center> Project Mentors </h1>
 <table align=center>
