@@ -1014,5 +1014,29 @@
         "tech": ["Javascript","Css","Html","API-IPify"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "parag477",
+    "Social_media": {
+      "gitHub": "https://github.com/parag477",
+      "LinkedIn": "https://www.linkedin.com/in/parag-agrawal-101892202/",
+      "Instagram": "https://instagram.com/parag_codes",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Parag_477"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/parag477/SmartStree",
+        "title": "SmartStree",
+        "description": "Smart Stree is a webapp for women safety.",
+        "tech": ["BootStrap", "Context API", "PHP"]
+      },
+      {
+        "link": "https://github.com/parag477/Medica",
+        "title": "Suggest Us",
+        "description": "Medica is a webapp used to scan and read x-rays to help doctors",
+        "tech": ["ReactJS", "Django", "MySQL"]
+      }
+    ]
+  },
 ]
