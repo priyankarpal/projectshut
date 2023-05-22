@@ -1,7 +1,7 @@
 name: 🔖 Documentation update
 description: Improve Documentation
 title: "[Docs]: "
-labels: ["📚 Documentation", "🚦status: awaiting triage"]
+labels: ["📚 Documentation", "🚦status: awaiting triage","label 1"]
 body:
   - type: markdown
     attributes:
