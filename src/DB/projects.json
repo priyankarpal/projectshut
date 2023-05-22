@@ -934,5 +934,23 @@
         "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "itsme-shivamkumar",
+    "Social_media": {
+      "gitHub": "https://github.com/itsme-shivamkumar",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-kumar-9575a7227/",
+      "Instagram": "https://www.instagram.com/sherlock_shivam/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/itsme-shivamkumar/whatismyscore",
+        "title": "Whatismyscore | CPI Calculator",
+        "description": "A Web App for Calculating CPI of NIT Raipur Students",
+        "tech": ["React", "JQuery", "JavaScript", "CSS", "HTML"]
+      }
+    ]
+  },
 ]
