@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/AddYourProjectsGuide"
+                to="/docs"
                 className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
                   theme.mode === "light"
                     ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
