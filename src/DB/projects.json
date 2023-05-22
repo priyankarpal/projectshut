@@ -757,7 +757,7 @@
     {
       "link": "https://github.com/crocmons/ProjectsHut",
       "title": "ProjectsHut",
-      "description": "PROJECT_DESCRIPTION",
+      "description": "Updated the Home page Grid Images which is now Responsive in mobile device #417",
       "tech": ["React","TailwindCSS"]
     }
   ]

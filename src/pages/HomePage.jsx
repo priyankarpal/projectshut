@@ -5,9 +5,11 @@ import { ThemeContext } from "../context/Theme"
 
 const HomePage = () => {
   const { theme } = useContext(ThemeContext)
+
   return (
     <section>
       <div className="relative overflow-hidden">
+        {/* added custom padding also added mt-14 */}
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
@@ -66,6 +68,7 @@ const HomePage = () => {
                           />
                         </div>
                       </div>
+                      {/* changed here xs screen should be hidden */}
                       <div className="hidden md:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
