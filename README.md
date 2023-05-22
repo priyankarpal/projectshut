@@ -1,8 +1,5 @@
 <h1 align="center"> ProjectsHut - Share your projects to the world 🌎🌈</h1>
 
-<p align="center"><a href="https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main" alt="pages-build-deployment"></a> <a href="https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut"><img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod" alt="Open in GitPod"></a> <img src="https://badgen.net/github/checks/node-formidable/node-formidable" alt="Checks Success"> <a href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"><img src="https://badgen.net/badge/license/MIT/blue" alt="MIT"></a></p>
-
-
 [![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
