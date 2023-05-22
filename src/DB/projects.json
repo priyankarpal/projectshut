@@ -758,7 +758,7 @@
       "link": "https://github.com/crocmons/ProjectsHut",
       "title": "ProjectsHut",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "['react','tailwindcss']"
+      "tech": ["React","TailwindCSS"]
     }
   ]
 }
