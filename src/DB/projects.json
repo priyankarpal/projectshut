@@ -930,7 +930,7 @@
         "link": " https://umba-clone.vercel.app/",
         "title": "Umba-clone",
         "description": "This is an Umba clone web app built with reactJs and tailwind-css ",
-        "tech": ["ReactJS", "Tailwind CSS", "Framer-motion", "Javascript", ]
+        "tech": ["ReactJS", "Tailwind CSS", "Framer-motion", "Javascript"]
       }
     ]
   },
