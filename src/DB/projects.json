@@ -991,6 +991,12 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["C"]
+      },
+      {
+        "link": "https://github.com/akkshayTandon/Java-Programs",
+        "title": "JAVA Programs",
+        "description": "This repository contains some useful JAVA programs and projects, each categorized, which can help the college students.",
+        "tech": ["Java"]
       }
     ]
   },
