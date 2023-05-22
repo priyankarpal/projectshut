@@ -31,7 +31,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
             </p>
           ))}
         </div> */}
-        <p className="mb-3 line-clamp-2">{listOfProjects[0]["description"]}</p>
+        <p className="mb-2 line-clamp-2">{listOfProjects[0]["description"]}</p>
 
         <div className="flex flex-row justify-between">
           <div>
@@ -39,17 +39,23 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
               href={listOfProjects[0]["link"]}
               target="_blank"
               rel="noreferrer"
-              className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
+              className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
             >
-              GitHub Link<span aria-hidden="true">→</span>
+              GitHub Link
+              <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
+                →
+              </span>
             </a>
           </div>
           <div>
             <Link
               to={`/projects/${github_username.toLowerCase()}`}
-              className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
+              className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
             >
-              More<span aria-hidden="true">→</span>
+              More
+              <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
+                →
+              </span>
             </Link>
           </div>
         </div>
