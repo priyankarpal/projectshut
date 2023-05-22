@@ -24,6 +24,30 @@
     ]
   },
   {
+  "github_username": "villAsh",
+  "Social_media": {
+    "gitHub": "https://github.com/villAsh",
+    "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+       "link": "https://github.com/villAsh/v1lash.io",
+      "title": "Personal Portfolio Website",
+      "description": "This is my personal portfolio website",
+      "tech": "[ReactJs,TailwindCss,Framer Motion,React Router,]"
+    },
+    {
+      "link": "https://github.com/villAsh/Movie_app",
+      "title": "Movie App",
+      "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+      "tech": "[ReactJs,TailwindCss,Redux Toolkit,React Router,React Skeleton]"
+    }
+  ]
+},
+  {
     "github_username": "abhidadhaniya23",
     "Social_media": {
       "gitHub": "",
