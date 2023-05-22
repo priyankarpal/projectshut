@@ -24,6 +24,30 @@
     ]
   },
   {
+  "github_username": "villAsh",
+  "Social_media": {
+    "gitHub": "https://github.com/villAsh",
+    "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+       "link": "https://github.com/villAsh/v1lash.io",
+      "title": "Personal Portfolio Website",
+      "description": "This is my personal portfolio website",
+      "tech": "[ReactJs,TailwindCss,Framer Motion,React Router,]"
+    },
+    {
+      "link": "https://github.com/villAsh/Movie_app",
+      "title": "Movie App",
+      "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
+      "tech": "[ReactJs,TailwindCss,Redux Toolkit,React Router,React Skeleton]"
+    }
+  ]
+},
+  {
     "github_username": "abhidadhaniya23",
     "Social_media": {
       "gitHub": "",
@@ -110,6 +134,24 @@
         "title": "Web Resources Hub",
         "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
         "tech": ["React", "TailwindCSS"]
+      }
+    ]
+  },
+   {
+    "github_username": "Arunjagan12",
+    "Social_media": {
+      "gitHub": "https://github.com/Arunjagan12",
+      "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
+      "Instagram": "https://www.instagram.com/arun.jegan.12/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
+        "title": "3d portfolio",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "tech": ["React", "Three", "Tailwindcss", "framer motion"]
       }
     ]
   },
