@@ -1,4 +1,4 @@
-# Follow these steps to contribute
+# Follow these steps to contribute📈
 
 **Understand the Project:**
 
@@ -6,7 +6,7 @@ Familiarize yourself with the project's objectives, architecture, and existing c
 
 **Choose an Issue/Create an issue:**
 
-Create an issue or work on the existing issue if you're assigned.
+Create an issue or work on the existing issue if you're assigned. Also, if you're in `GSSOC'23`, please add `"I'm in GSSOC'23"` so that we can add the `GSSOC'23` label on that particular issue/PR.
 
 **Assign an Issue Number:**
 
@@ -22,7 +22,7 @@ Once you have made significant progress or completed your contribution, commit y
 
 ## DO NOT SPAM !!! ⚠
 
-If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, he/she will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
+If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, that particular person will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
 
 # 😎 How to add your projects to ProjectsHut
 
@@ -59,15 +59,16 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 
 4. Commit all changes.
 
-- add a commit like this for only projects addition `data: project addition by [your-githubuser-name] #issue_number`
+- Add a commit like this for only projects addition `data: project addition by [your-githubuser-name] #issue_number`
 
-> ### OR, If you want to run it locally then follow these
+> ### Alternatively, if you prefer to run the project locally, follow these steps:
 
-1.  Clone it to your computer
+1.  Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
 
-```
- git clone https://github.com/[your-username]/ProjectsHut.git
-```
+- HTTP
+  `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
+- SSH
+  `git clone git@github.com:<YOUR-USERNAME>/ProjectsHut.git`
 
 2.  Navigate to the project folder
 
@@ -77,16 +78,16 @@ cd ProjectsHut
 
 3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
 
-4. install dependencies
+4. Install dependencies
 
 ```
 pnpm i
 ```
 
-5.  Create a new branch using your `GitHub Username`
+5.  Now do ahead and create a new branch and move to the branch
 
-```diff
-git checkout -b [name_of_your_new_branch]
+```
+git checkout -b fix-issue-<ISSUE-NUMBER>
 ```
 
 6.  Run in local
@@ -101,42 +102,40 @@ pnpm dev
 pnpm test
 ```
 
-8. Add your changes.
+8. After done you can now push this changes, for doing that follow the following command chain
 
-```diff
-git add .
-```
+   - `git status` (Shows the changed files)
+   - `git add .` (Will add all the files to staging area)
+   - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
+   - > If you encounter this error while commits
+     >
+     > ```diff
+     > husky - pre-commit hook exited with code 1(error)
+     > ```
+     >
+     > use this command
+     >
+     > ```diff
+     > pnpm format
+     > ```
+   - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
+   - `git push origin fix-issue-<ISSUE-NUMBER>`
 
-9. Add your commits
+9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-```diff
-git commit -m "Your Changes"
-```
+10. Now fill in the form template of the pull request and give necessary description.
 
-> If you encounter this error while commits
->
-> ```diff
-> husky - pre-commit hook exited with code 1(error)
-> ```
->
-> use this command
->
-> ```diff
-> pnpm format
-> ```
+11. Click on **Submit**
 
-10. Set upstream command
+12. Hurrey! You just did your contribution to this project 🎉
 
-```diff
-git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
-```
+13. Wait for your pull request to be reviewed and merged.
 
-11. Push your commits
+> NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
 
-```diff
-git push -u origin [Your-branch-name]
-```
+## Useful Links
 
-12. Create a PR
-
-> ### Now Wait for the merge
+- [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+- [GitHub Pull Requests Guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [GitHub Issues Guide](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+- [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)

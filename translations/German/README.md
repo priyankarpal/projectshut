@@ -64,6 +64,7 @@ Dadurch können Sie dazu beitragen, dass das Projekt für Menschen, die verschie
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 - [മലയാളം](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Malayalam)
+- [Turkish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Turkish)
 
 ## 🤝 Mitwirkende
 
