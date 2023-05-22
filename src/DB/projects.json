@@ -1042,7 +1042,7 @@
         "link": "https://github.com/ayushlohmod/shareWall",
         "title": "ShareWall",
         "description": "ShareWall is a social media app where you can upload and download photos",
-        "tech": ["React", "Javascript", "TailWindCss", "Sanity"]
+        "tech": ["React", "Javascript", "TailWindCss", "Sanity "]
       }
     ]
   }
