@@ -54,9 +54,6 @@ const Navbar = () => {
                     ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                     : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
                 }`}
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
-                }`}
                 activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
@@ -74,10 +71,6 @@ const Navbar = () => {
                     ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                     : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
                 }`}
-                to="/projectspage"
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
-                }`}
                 activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
@@ -94,10 +87,6 @@ const Navbar = () => {
                   theme.mode === "light"
                     ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                     : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-                }`}
-                to="/docs"
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
                 activestyle={{
                   fontWeight: "bold",
