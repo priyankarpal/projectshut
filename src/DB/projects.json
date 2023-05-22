@@ -915,5 +915,23 @@
         "tech": ["ReactJS", "Material UI","React Router","Context API","Google Custom Search API","Firebase"]
       }
     ]
-  }
+  },
+   {
+    "github_username": "wisdom-egba",
+    "Social_media": {
+      "gitHub": "https://github.com/wisdom-egba",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": " https://umba-clone.vercel.app/",
+        "title": "Umba-clone",
+        "description": "This is an Umba clone web app built with reactJs and tailwind-css ",
+        "tech": ["ReactJS", "Tailwind CSS", "Framer-motion", "Javascript", ]
+      }
+    ]
+  },
 ]
