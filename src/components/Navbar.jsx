@@ -14,11 +14,22 @@ const Navbar = () => {
   const { navbar } = theme
 
   const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen)
+    setMobileOpen(!mobileOpen) 
   }
 
   return (
-    <nav aria-label="Site Nav" className=" mx-auto p-5 lg:w-1/2">
+    <nav
+      aria-label="Site Nav"
+      className="mx-auto p-5 lg:w-1/2"
+      style={{
+        boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.2)",
+        background: "rgba(255, 255, 255, 0.05)",
+        position: "relative",
+        zIndex: 1,
+        position:"sticky",
+        top:0
+      }}
+    >
       <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
@@ -38,11 +49,11 @@ const Navbar = () => {
 
         {/* Main element of navbar */}
         <div className="item-navbar hidden md:block" id="elements-of-navbar">
-          <ul className="flex items-center gap-5  text-[1rem]">
+        <ul className="flex items-center gap-5 text-[1rem]">
             <li>
               <NavLink
                 to="/"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:text-gray-800 hover:bg-white"
               >
                 Home
               </NavLink>
@@ -50,7 +61,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/projectspage"
-                className="inline-block py-2 px-3 text-center font-bold rounded-md  focus:outline-none focus:ring focus:ring-gray-800 "
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:text-gray-800 hover:bg-white"
               >
                 Projects
               </NavLink>
@@ -58,7 +69,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/docs"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:text-gray-800 hover:bg-white"
               >
                 Docs
               </NavLink>
@@ -66,7 +77,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/contributorspage"
-                className="inline-block py-2 px-3 text-center font-bold  rounded-md   focus:outline-none focus:ring focus:ring-gray-800"
+                className="inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring focus:ring-gray-800 hover:text-gray-800 hover:bg-white"
               >
                 Contributors
               </NavLink>
