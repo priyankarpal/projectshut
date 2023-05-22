@@ -1029,5 +1029,23 @@
         "tech": ["Javascript", "Css", "Html", "API-IPify"]
       }
     ]
+  },
+  {
+    "github_username": "crocmons",
+    "Social_media": {
+      "gitHub": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension.git",
+      "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension",
+        "title": "Exchange Rate Converter Extension",
+        "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
+        "tech": ["JavaScript", "CSS", "HTML", "Rapid API"]
+      }
+    ]
   }
 ]
