@@ -62,7 +62,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["gitHub"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaGithub />
@@ -75,7 +75,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["LinkedIn"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaLinkedinIn />
@@ -88,7 +88,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["Twitter"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaTwitter />
@@ -101,7 +101,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["YouTube"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaYoutube />
@@ -114,7 +114,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["Instagram"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaInstagram />
