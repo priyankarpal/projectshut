@@ -1097,5 +1097,23 @@
 
       }
     ]
+  },
+  {
+    "github_username": "vishnu-mouli-102408",
+    "Social_media": {
+      "gitHub": "https://github.com/vishnu-mouli-102408",
+      "LinkedIn": "https://www.linkedin.com/in/ganivada-mouli/",
+      "Instagram": "https://instagram.com/vishnu.mouli",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamVishnuMouli"
+    },
+    "Projects": [
+      {
+        "link": "https://weather-app-102408.netlify.app/",
+        "title": "Weather App",
+        "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
+        "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
+      }
+    ]
   }
 ]
