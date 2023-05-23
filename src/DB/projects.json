@@ -97,7 +97,7 @@
         "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
         "title": "Weather Website",
         "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
-        "tech": "[Html,Css,Js]"
+        "tech": ["Html", "Css", "Js"]
       }
     ]
   },
@@ -973,6 +973,12 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/yt-bookmark-extension",
+        "title": "YouTube Bookmark Chrome Extension",
+        "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
+        "tech": ["JavaScript", "DOM", "HTML", "CSS"]
       }
     ]
   },
@@ -1037,6 +1043,24 @@
     ]
   },
   {
+    "github_username": "crocmons",
+    "Social_media": {
+      "gitHub": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension.git",
+      "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension",
+        "title": "Exchange Rate Converter Extension",
+        "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
+        "tech": ["JavaScript", "CSS", "HTML", "Rapid API"]
+      }
+    ]
+  },
+  {
     "github_username": "Ks103",
     "Social_media": {
       "gitHub": "https://github.com/Ks103",
@@ -1051,6 +1075,102 @@
         "title": "Github-user-info",
         "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
         "tech": ["Javascript", "Css", "Html", "React", "Tailwind CSS"]
+      },
+      {
+        "link": "https://khushitech.netlify.app/",
+        "title": "Portfolio site",
+        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
+        "tech": ["Html", "Css", "Js"]
+      }
+    ]
+  },
+  {
+    "github_username": "Niladri2003",
+    "Social_media": {
+      "gitHub": "https://github.com/Niladri2003",
+      "LinkedIn": "https://www.linkedin.com/in/niladriadak23/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://weather-app-ashy-eight.vercel.app/",
+        "title": "Weather Website",
+        "description": "This website is of finding wheather of your location and as well as you can search any place.",
+        "tech": ["Javascript", "Css", "Html", "Weather-api", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "narayan2111",
+    "Social_media": {
+      "gitHub": "https://github.com/narayan2111",
+      "LinkedIn": "https://www.linkedin.com/in/narayan2111",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Narayan80194026"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/narayan2111/Front_end",
+        "title": "Responsive Front-end Design",
+        "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
+        "tech": ["Javascript", "Css", "Html"]
+      }
+    ]
+  },
+  {
+    "github_username": "Sriparno08",
+    "Social_media": {
+      "gitHub": "https://github.com/Sriparno08",
+      "LinkedIn": "https://www.linkedin.com/in/sriparnoroy/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Sriparno08"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sriparno08/Start-Contributing",
+        "title": "Start Contributing",
+        "description": "This project aims to help beginners get started with contributing to open source by providing a substantial amount of useful resources. Everyone is welcome to contribute and be a part of this project.",
+        "tech": ["Open Source"]
+      }
+    ]
+  },
+  {
+    "github_username": "Sanchitbajaj02",
+    "Social_media": {
+      "gitHub": "https://github.com/Sanchitbajaj02",
+      "LinkedIn": "https://www.linkedin.com/in/sanchitbajaj02",
+      "Instagram": "https://www.instagram.com/sbajaj_02",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/solitrix02"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sanchitbajaj02/GitHub-Finder",
+        "title": "Github Finder",
+        "description": "Github Finder is a website that helps finding usernames on github where they analyse their daily activites as well as check their statistics. There is also functionality for searching and getting information about Github organizations along with their recent projects.",
+        "tech": ["React js", "Material UI", "GitHub API", "Context API"]
+      }
+    ]
+  },
+  {
+    "github_username": "KawishAli6578",
+    "Social_media": {
+      "gitHub": "https://github.com/KawishAli6578",
+      "LinkedIn": "https://www.linkedin.com/in/kawish-ali-771b90227/",
+      "Instagram": "https://www.instagram.com/kawish_ali14/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/KawishAli55"
+    },
+    "Projects": [
+      {
+        "link": "https://test.basimart.com/",
+        "title": "E-commerce website",
+        "description": "Basimart Makes It Easy To Order From Your Favorite Stores. Shop For Items From Stores Near You, With A Selection Of More Than 500 Retailers And Trusted Local Grocers Across Costa Rica Basimart Will Connect You With A Personal Shopper In Your Area To Shop And Deliver Your Order.",
+        "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
   },

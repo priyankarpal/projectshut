@@ -5,6 +5,7 @@ import { ThemeContext } from "../context/Theme"
 import projects from "../DB/projects.json"
 import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa"
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 export default function ProjectList() {
   const { theme } = useContext(ThemeContext)
@@ -36,6 +37,14 @@ export default function ProjectList() {
             color: theme?.color,
           }}
         >
+          {/* Beack to projects link */}
+          <div className="m-4 hover:text-cyan-300">
+            <span>{"<"}</span>
+            <Link to="/ProjectsPage" className="font-mono ml-2">
+              Back to Projects
+            </Link>
+          </div>
+
           <div className="flex justify-center items-center mb-3 my-10">
             <img
               src={`https://github.com/${username}.png`}
@@ -53,7 +62,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["gitHub"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaGithub />
@@ -66,7 +75,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["LinkedIn"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaLinkedinIn />
@@ -79,7 +88,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["Twitter"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaTwitter />
@@ -92,7 +101,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["YouTube"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaYoutube />
@@ -105,7 +114,7 @@ export default function ProjectList() {
                   href={userObj["Social_media"]["Instagram"]}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] "
+                  className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
                   <FaInstagram />
@@ -153,10 +162,15 @@ export default function ProjectList() {
 
                 <div className=" flex flex-row overflow-auto scrollbar items-center ">
                   <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap ">
                     {project["tech"].map((tag, index) => {
                       return (
-                        <p className="mb-3 line-clamp-2 my-2 whitespace-normal mx-3 text-gray-400  " key={index}>
+                        <p
+                          className={`text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-2 mr-1 mt-1 ${
+                            theme.mode === "dark" ? "text-black bg-white" : "text-white bg-black"
+                          }`}
+                          key={index}
+                        >
                           {tag}
                         </p>
                       )

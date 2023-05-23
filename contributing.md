@@ -52,6 +52,12 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
       "tech": "[tech1,tech2]"
+    },
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": "[tech1,tech2]"
     }
   ]
 }
@@ -76,7 +82,7 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 cd ProjectsHut
 ```
 
-3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+3. Create `.env` file to the root folder & copy code from `.env.example` & add your `GitHub Personal Access Token` in `.env` file
 
 4. Install dependencies
 
