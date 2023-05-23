@@ -40,6 +40,12 @@ html {
 body {
   background-color: #000513;
 }
+.glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 @tailwind components;
 @tailwind utilities;
