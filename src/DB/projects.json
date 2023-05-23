@@ -973,6 +973,12 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/yt-bookmark-extension",
+        "title": "YouTube Bookmark Chrome Extension",
+        "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
+        "tech": ["JavaScript", "DOM", "HTML", "CSS"]
       }
     ]
   },
