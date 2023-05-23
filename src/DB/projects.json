@@ -1036,24 +1036,50 @@
       }
     ]
   },
-{
-  "github_username": "Ks103",
-  "Social_media": {
-    "gitHub": "https://github.com/Ks103",
-    "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
+  {
+    "github_username": "crocmons",
+    "Social_media": {
+      "gitHub": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension.git",
+      "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension",
+        "title": "Exchange Rate Converter Extension",
+        "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
+        "tech": ["JavaScript", "CSS", "HTML", "Rapid API"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github-usernamefind.netlify.app/",
-      "title": "Github-user-info",
-      "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
-        "tech": ["Javascript", "Css", "Html", "React","Tailwind CSS"]
-    }
-  ]
-},
+  {
+    "github_username": "Ks103",
+    "Social_media": {
+      "gitHub": "https://github.com/Ks103",
+      "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+
+    "Projects": [
+      {
+        "link": "https://github-usernamefind.netlify.app/",
+        "title": "Github-user-info",
+        "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
+        "tech": ["Javascript", "Css", "Html", "React", "Tailwind CSS"]
+      },
+      {
+        "link": "https://khushitech.netlify.app/",
+        "title": "Portfolio site",
+        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
+  },
+
 {
   "github_username": "Niladri2003",
   "Social_media": {
@@ -1071,5 +1097,25 @@
         "tech": ["Javascript", "Css", "Html", "Weather-api","Tailwind CSS"]
     }
   ]
-}
+},
+
+  {
+    "github_username": "narayan2111",
+    "Social_media": {
+      "gitHub": "https://github.com/narayan2111",
+      "LinkedIn": "https://www.linkedin.com/in/narayan2111",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Narayan80194026"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/narayan2111/Front_end",
+        "title": "Responsive Front-end Design",
+        "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
+        "tech": ["Javascript", "Css", "Html"]
+      }
+    ]
+  }
+
 ]
