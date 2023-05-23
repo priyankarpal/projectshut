@@ -1,12 +1,17 @@
-import { useContext } from "react"
+import { useContext, useEffect, useState } from "react"
 import { Outlet } from "react-router-dom"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import { ThemeContext } from "../context/Theme"
 import ScrollToTop from "./ScrollToTop"
+import SplashScreen from "./SplashScreen"
 
 export default function Layout() {
   const { theme } = useContext(ThemeContext)
+  const [isLoading, setIsLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 1000)
+  }, [])
 
   return (
     <div
@@ -18,10 +23,16 @@ export default function Layout() {
         buttonColor: theme?.button?.buttonColor,
       }}
     >
-      <Navbar />
-      <ScrollToTop />
-      <Outlet />
-      <Footer />
+      {isLoading ? (
+        <SplashScreen />
+      ) : (
+        <>
+          <Navbar />
+          <ScrollToTop />
+          <Outlet />
+          <Footer />
+        </>
+      )}
     </div>
   )
 }
