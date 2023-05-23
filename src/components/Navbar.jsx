@@ -2,12 +2,16 @@ import React, { useState, useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
+import "./componentStyle/navbar.css"
+import LightModeIcon from "@mui/icons-material/LightMode"
+import DarkModeIcon from "@mui/icons-material/DarkMode"
 import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
 import { ThemeContext } from "../context/Theme"
 import Switch from "@mui/material/Switch"
+import { MoonIcon, SunIcon } from "../assets/svgIcons"
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -17,6 +21,7 @@ const Navbar = () => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
+  let light = theme.mode === "light"
 
   const switchTrackColor = theme.mode === "dark" ? "#9CA3AF" : undefined
 
@@ -44,8 +49,12 @@ const Navbar = () => {
           <ul className="flex items-center gap-5 text-[1rem]">
             <li>
               <NavLink
-                to="/" className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                to="/"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
                 }`}
@@ -53,16 +62,19 @@ const Navbar = () => {
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
-                }}>
+                }}
+              >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-
                 to="/ProjectsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 to="/projectspage"
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
@@ -78,10 +90,12 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-
                 to="/AddYourProjectsGuide"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
-
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
                 to="/docs"
                 className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
                   theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
@@ -91,7 +105,6 @@ const Navbar = () => {
                   color: navbar.color,
                   backgroundColor: "white",
                 }}
-
               >
                 Docs
               </NavLink>
@@ -100,12 +113,15 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${theme.mode === "light" ? "hover:text-white hover:bg-black focus:text-white focus:bg-black": "hover:text-black hover:bg-white focus:text-black focus:bg-white"}`}
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
               >
                 Contributors
               </NavLink>
             </li>
-
           </ul>
         </div>
 
@@ -121,16 +137,34 @@ const Navbar = () => {
             >
               <FaGithub />
             </a>
-            <Switch
-              checked={theme.mode === "dark"}
-              onChange={toggleTheme}
-              color="default"
-              sx={{
-                "& .MuiSwitch-track": {
-                  backgroundColor: switchTrackColor,
-                },
-              }}
-            />
+
+            <li className="md:flex flex-col-reverse  hidden">
+              <input
+                onClick={toggleTheme}
+                checked={light}
+                className="hidden w-0 h-0 checked:bg-[#ebebeb] transform:left-[78px] transform:translate-x-[-100%] transform:bg-gradient-to-b transform:from-white transform:to-white"
+                type="checkbox"
+                id="dark-mode-toggle"
+              />
+              <label
+                className="w-[82px] h-[42px] relative block bg-[#242424] cursor-pointer rounded-full after:after-util  "
+                htmlFor="dark-mode-toggle"
+              >
+                <SunIcon className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px] fill-white transition-[0.3s] " />
+                <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-white transition-[0.3s]" />
+              </label>
+            </li>
+          </div>
+          <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
+            {theme.mode === "light" ? (
+              <div>
+                <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
+              </div>
+            ) : (
+              <div>
+                <DarkModeIcon className="bg-[#242424] rounded-full p-1 " />
+              </div>
+            )}
           </div>
         </div>
         <Drawer
