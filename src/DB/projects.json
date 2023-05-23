@@ -1085,6 +1085,26 @@
       }
     ]
   },
+
+{
+  "github_username": "Niladri2003",
+  "Social_media": {
+    "gitHub": "https://github.com/Niladri2003",
+    "LinkedIn": "https://www.linkedin.com/in/niladriadak23/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://weather-app-ashy-eight.vercel.app/",
+      "title": "Weather Website",
+      "description": "This website is of finding wheather of your location and as well as you can search any place.",
+        "tech": ["Javascript", "Css", "Html", "Weather-api","Tailwind CSS"]
+    }
+  ]
+},
+
   {
     "github_username": "narayan2111",
     "Social_media": {
@@ -1139,4 +1159,5 @@
       }
     ]
   }
+
 ]
