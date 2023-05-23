@@ -17,6 +17,41 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
   const { theme, toggleTheme } = useContext(ThemeContext)
   const { navbar } = theme
+  const navLinks = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "Projects",
+      path: "/projectspage",
+    },
+    {
+      name: "Docs",
+      path: "/docs",
+    },
+    {
+      name: "Contributors",
+      path: "/contributorspage",
+    },
+  ]
+
+  const navLinkEls = navLinks.map((navLink) => (
+    <li key={navLink.path}>
+      <NavLink
+        to={navLink.path}
+        className={({ isActive }) =>
+          `inline-block py-2 px-3 text-center font-bold  rounded-md ${
+            theme.mode === "light"
+              ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
+              : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+          }`
+        }
+      >
+        {navLink.name}
+      </NavLink>
+    </li>
+  ))
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
@@ -46,65 +81,7 @@ const Navbar = () => {
 
         {/* Main element of navbar */}
         <div className="item-navbar hidden md:block" id="elements-of-navbar">
-          <ul className="flex items-center gap-5 text-[1rem]">
-            <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                    theme.mode === "light"
-                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
-                  }`
-                }
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/projectspage"
-                className={({ isActive }) =>
-                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                    theme.mode === "light"
-                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
-                  }`
-                }
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/docs"
-                className={({ isActive }) =>
-                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                    theme.mode === "light"
-                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
-                  }`
-                }
-              >
-                Docs
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink
-                to="/contributorspage"
-                className={({ isActive }) =>
-                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                    theme.mode === "light"
-                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
-                  }`
-                }
-              >
-                Contributors
-              </NavLink>
-            </li>
-          </ul>
+          <ul className="flex items-center gap-5 text-[1rem]">{navLinkEls}</ul>
         </div>
 
         {/* GitHub icon and Dark/Light Mode Toggle */}
@@ -114,7 +91,7 @@ const Navbar = () => {
               href="https://github.com/priyankarpal/ProjectsHut"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem]"
+              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
               aria-label="Github"
             >
               <FaGithub />
