@@ -4,6 +4,7 @@ import PageNotFound from "./components/PageNotFound"
 import ProjectList from "./components/ProjectList"
 import Layout from "./components/Layout"
 import SplashScreen from "./components/SplashScreen"
+import { ThemeProvider } from "./context/Theme"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,7 +20,11 @@ const router = createBrowserRouter(
 )
 
 function App() {
-  return <RouterProvider router={router} fallbackElement={<SplashScreen />} />
+  return (
+    <ThemeProvider>
+      <RouterProvider router={router} fallbackElement={<SplashScreen />} />
+    </ThemeProvider>
+  )
 }
 
 export default App
