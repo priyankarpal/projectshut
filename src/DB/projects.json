@@ -1096,5 +1096,23 @@
         "tech": ["Javascript", "Css", "Html"]
       }
     ]
+  },
+  {
+    "github_username": "Sanchitbajaj02",
+    "Social_media": {
+      "gitHub": "https://github.com/Sanchitbajaj02",
+      "LinkedIn": "https://www.linkedin.com/in/sanchitbajaj02",
+      "Instagram": "https://www.instagram.com/sbajaj_02",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/solitrix02"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sanchitbajaj02/GitHub-Finder",
+        "title": "Github Finder",
+        "description": "Github Finder is a website that helps finding usernames on github where they analyse their daily activites as well as check their statistics. There is also functionality for searching and getting information about Github organizations along with their recent projects.",
+        "tech": ["React js", "Material UI", "GitHub API", "Context API"]
+      }
+    ]
   }
 ]
