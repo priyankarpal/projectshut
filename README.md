@@ -62,6 +62,7 @@ By doing so, you can help to make the project more accessible to people who spea
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 - [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
+- [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)
 
 <div align=center>
 <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
