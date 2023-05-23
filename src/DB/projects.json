@@ -1173,7 +1173,7 @@
         "link": "https://test.basimart.com/",
         "title": "E-commerce website",
         "description": "Basimart Makes It Easy To Order From Your Favorite Stores. Shop For Items From Stores Near You, With A Selection Of More Than 500 Retailers And Trusted Local Grocers Across Costa Rica Basimart Will Connect You With A Personal Shopper In Your Area To Shop And Deliver Your Order.",
-        "tech": ["React.js", "Mongodb","Firebase", "Nodejs", "Cloudinary"]
+        "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
   }
