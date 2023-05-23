@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/ProjectsPage"
+                to="/projectspage"
                 className={({ isActive }) =>
                   `inline-block py-2 px-3 text-center font-bold  rounded-md ${
                     theme.mode === "light"
@@ -91,7 +91,7 @@ const Navbar = () => {
 
             <li>
               <NavLink
-                to="/ContributorsPage"
+                to="/contributorspage"
                 className={({ isActive }) =>
                   `inline-block py-2 px-3 text-center font-bold  rounded-md ${
                     theme.mode === "light"
