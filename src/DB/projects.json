@@ -97,7 +97,7 @@
         "link": "https://yashkshrivas4491.github.io/WeatherWebApp/",
         "title": "Weather Website",
         "description": "This project is about building a web application to show a weather forecast using weather API from external services Open weather map",
-        "tech": "[Html,Css,Js]"
+        "tech": ["Html", "Css", "Js"]
       }
     ]
   },
@@ -1069,7 +1069,6 @@
       "YouTube": "",
       "Twitter": ""
     },
-
     "Projects": [
       {
         "link": "https://github-usernamefind.netlify.app/",
@@ -1081,11 +1080,10 @@
         "link": "https://khushitech.netlify.app/",
         "title": "Portfolio site",
         "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
-        "tech": "[Html,Css,Js]"
+        "tech": ["Html", "Css", "Js"]
       }
     ]
   },
-
   {
     "github_username": "Niladri2003",
     "Social_media": {
@@ -1104,7 +1102,6 @@
       }
     ]
   },
-
   {
     "github_username": "narayan2111",
     "Social_media": {
