@@ -973,6 +973,12 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/yt-bookmark-extension",
+        "title": "YouTube Bookmark Chrome Extension",
+        "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
+        "tech": ["JavaScript", "DOM", "HTML", "CSS"]
       }
     ]
   },
@@ -1094,24 +1100,6 @@
         "title": "Responsive Front-end Design",
         "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
         "tech": ["Javascript", "Css", "Html"]
-      }
-    ]
-  },
-  {
-    "github_username": "abhinav-m22",
-    "Social_media": {
-      "gitHub": "https://github.com/abhinav-m22/",
-      "LinkedIn": "https://www.linkedin.com/in/abhinav-mahajan-b805b022a/",
-      "Instagram": "https://www.instagram.com/abhi_m_22/",
-      "YouTube": "",
-      "Twitter": "https://twitter.com/abhinav_m22"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/abhinav-m22/google-keep-clone-2.0",
-        "title": "Google Keep Clone 2.0 - Notes App",
-        "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
-        "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
       }
     ]
   }
