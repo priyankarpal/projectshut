@@ -38,7 +38,7 @@ const Navbar = () => {
         to={navLink.path}
         className={({ isActive }) =>
           `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-            theme.mode === "dark"
+            theme.mode === "light"
               ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
               : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
           }`
