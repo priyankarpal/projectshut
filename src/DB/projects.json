@@ -1158,5 +1158,23 @@
         "tech": ["React js", "Material UI", "GitHub API", "Context API"]
       }
     ]
+  },
+  {
+    "github_username": "KawishAli6578",
+    "Social_media": {
+      "gitHub": "https://github.com/KawishAli6578",
+      "LinkedIn": "https://www.linkedin.com/in/kawish-ali-771b90227/",
+      "Instagram": "https://www.instagram.com/kawish_ali14/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/KawishAli55"
+    },
+    "Projects": [
+      {
+        "link": "https://test.basimart.com/",
+        "title": "E-commerce website",
+        "description": "Basimart Makes It Easy To Order From Your Favorite Stores. Shop For Items From Stores Near You, With A Selection Of More Than 500 Retailers And Trusted Local Grocers Across Costa Rica Basimart Will Connect You With A Personal Shopper In Your Area To Shop And Deliver Your Order.",
+        "tech": ["React.js", "Mongodb","Firebase", "Nodejs", "Cloudinary"]
+      }
+    ]
   }
 ]

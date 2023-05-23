@@ -2,12 +2,16 @@ import React, { useState, useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
+import "./componentStyle/navbar.css"
+import LightModeIcon from "@mui/icons-material/LightMode"
+import DarkModeIcon from "@mui/icons-material/DarkMode"
 import SideMenu from "./SideMenu"
 import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
 import { ThemeContext } from "../context/Theme"
 import Switch from "@mui/material/Switch"
+import { MoonIcon, SunIcon } from "../assets/svgIcons"
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -52,16 +56,13 @@ const Navbar = () => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
+  let light = theme.mode === "light"
 
   const switchTrackColor = theme.mode === "dark" ? "#9CA3AF" : undefined
 
   return (
-    <nav
-      aria-label="Site Nav"
-      className="sticky top-0 z-[100] backdrop-blur-sm"
-      style={{ backgroundColor: theme.mode === "dark" ? "#00000080" : "#f5f6fa80" }}
-    >
-      <div className="flex flex-row justify-between mx-auto p-5 lg:w-1/2">
+    <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2">
+      <div className="flex flex-row justify-between">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
@@ -95,16 +96,34 @@ const Navbar = () => {
             >
               <FaGithub />
             </a>
-            <Switch
-              checked={theme.mode === "dark"}
-              onChange={toggleTheme}
-              color="default"
-              sx={{
-                "& .MuiSwitch-track": {
-                  backgroundColor: switchTrackColor,
-                },
-              }}
-            />
+
+            <li className="md:flex flex-col-reverse  hidden">
+              <input
+                onClick={toggleTheme}
+                checked={light}
+                className="hidden w-0 h-0 checked:bg-[#ebebeb] transform:left-[78px] transform:translate-x-[-100%] transform:bg-gradient-to-b transform:from-white transform:to-white"
+                type="checkbox"
+                id="dark-mode-toggle"
+              />
+              <label
+                className="w-[82px] h-[42px] relative block bg-[#242424] cursor-pointer rounded-full after:after-util  "
+                htmlFor="dark-mode-toggle"
+              >
+                <SunIcon className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px] fill-white transition-[0.3s] " />
+                <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-[#7e7e7e] transition-[0.3s]" />
+              </label>
+            </li>
+          </div>
+          <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
+            {theme.mode === "light" ? (
+              <div>
+                <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
+              </div>
+            ) : (
+              <div>
+                <DarkModeIcon className="bg-[#242424] rounded-full p-1 " />
+              </div>
+            )}
           </div>
         </div>
         <Drawer
