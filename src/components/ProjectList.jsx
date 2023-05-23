@@ -28,7 +28,6 @@ export default function ProjectList() {
 
   return (
     <section className="flex flex-col md:flex-row  xs:h-[95vh] sm:h-[90vh] md:h-[100vh] xsm:my-2">
-
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
@@ -125,8 +124,6 @@ export default function ProjectList() {
           </div>
         </div>
       )}
-
-
 
       {/* Projects lists */}
 
