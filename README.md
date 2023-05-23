@@ -3,16 +3,15 @@
 [![pages-build-deployment](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-
 ![projectshut](https://user-images.githubusercontent.com/88102392/235369195-189ad8cd-31df-4099-8b99-3efac3056651.png)
 
 ## 🤓 Why ProjectsHut ?
 
-+ **[ProjectsHut](https://projectshut.vercel.app)** is an open source project that runs on the latest web technologies. 
-+ The platform's code is freely available to the public, allowing developers from all around the world to contribute to its growth and improvement.
-+ **[ProjectsHut](https://projectshut.vercel.app)** offers a user-friendly interface, making it easy to publish projects and share them with others.
+- **[ProjectsHut](https://projectshut.vercel.app)** is an open source project that runs on the latest web technologies.
+- The platform's code is freely available to the public, allowing developers from all around the world to contribute to its growth and improvement.
+- **[ProjectsHut](https://projectshut.vercel.app)** offers a user-friendly interface, making it easy to publish projects and share them with others.
 
->Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
+> Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
 
@@ -33,7 +32,7 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🧰 Tech Stack Used
 
-+ We're excited to share that our project leverages the power of React for the frontend, and the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive user interface. 
+- We're excited to share that our project leverages the power of React for the frontend, and the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive user interface.
 
 | Technology                                                                                                                                           | Description                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -90,8 +89,8 @@ By doing so, you can help to make the project more accessible to people who spea
 
 ## 🤝 Contributors
 
-+ To all the contributors and supporters of this project, we want to express our sincerest thanks. Your time, effort, and expertise have been invaluable in making this project a success. 
-+ Whether you contributed code, documentation, testing, or simply offered feedback and suggestions, your contributions are deeply appreciated.
+- To all the contributors and supporters of this project, we want to express our sincerest thanks. Your time, effort, and expertise have been invaluable in making this project a success.
+- Whether you contributed code, documentation, testing, or simply offered feedback and suggestions, your contributions are deeply appreciated.
 
 <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut" />

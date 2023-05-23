@@ -49,16 +49,13 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                  theme.mode === "light"
-                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-                }`}
-                activestyle={{
-                  fontWeight: "bold",
-                  color: navbar.color,
-                  backgroundColor: "white",
-                }}
+                className={({ isActive }) =>
+                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                    theme.mode === "light"
+                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
+                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+                  }`
+                }
               >
                 Home
               </NavLink>
@@ -66,16 +63,13 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ProjectsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                  theme.mode === "light"
-                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-                }`}
-                activestyle={{
-                  fontWeight: "bold",
-                  color: navbar.color,
-                  backgroundColor: "white",
-                }}
+                className={({ isActive }) =>
+                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                    theme.mode === "light"
+                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
+                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+                  }`
+                }
               >
                 Projects
               </NavLink>
@@ -83,16 +77,13 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/docs"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                  theme.mode === "light"
-                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-                }`}
-                activestyle={{
-                  fontWeight: "bold",
-                  color: navbar.color,
-                  backgroundColor: "white",
-                }}
+                className={({ isActive }) =>
+                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                    theme.mode === "light"
+                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
+                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+                  }`
+                }
               >
                 Docs
               </NavLink>
@@ -101,11 +92,13 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ContributorsPage"
-                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
-                  theme.mode === "light"
-                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-                }`}
+                className={({ isActive }) =>
+                  `inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                    theme.mode === "light"
+                      ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
+                      : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+                  }`
+                }
               >
                 Contributors
               </NavLink>
