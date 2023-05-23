@@ -9,7 +9,7 @@ function Contributors({ owner, repo }) {
     setLoading(true) // set loading to true when th e fetch request is initiated
     fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
       headers: {
-        Authorization: ` ${process.env.GITHUB_TOKEN}`,
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
       },
     })
       .then((response) => response.json())
@@ -30,7 +30,7 @@ function Contributors({ owner, repo }) {
           <span className="text-primary text-xl font-semibold">Loading...</span>
         </div>
       ) : (
-        contributors.map((contributor) => (
+        contributors?.map((contributor) => (
           <div className="min-w-max p-2" key={contributor.id}>
             <a href={contributor.html_url} target="_blank">
               <img className="h-16 mb-3 rounded-full " src={contributor.avatar_url} alt={contributor.login} />
