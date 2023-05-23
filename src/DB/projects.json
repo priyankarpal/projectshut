@@ -973,6 +973,12 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/yt-bookmark-extension",
+        "title": "YouTube Bookmark Chrome Extension",
+        "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
+        "tech": ["JavaScript", "DOM", "HTML", "CSS"]
       }
     ]
   },
@@ -1114,6 +1120,24 @@
         "title": "Responsive Front-end Design",
         "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
         "tech": ["Javascript", "Css", "Html"]
+      }
+    ]
+  },
+  {
+    "github_username": "Sanchitbajaj02",
+    "Social_media": {
+      "gitHub": "https://github.com/Sanchitbajaj02",
+      "LinkedIn": "https://www.linkedin.com/in/sanchitbajaj02",
+      "Instagram": "https://www.instagram.com/sbajaj_02",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/solitrix02"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sanchitbajaj02/GitHub-Finder",
+        "title": "Github Finder",
+        "description": "Github Finder is a website that helps finding usernames on github where they analyse their daily activites as well as check their statistics. There is also functionality for searching and getting information about Github organizations along with their recent projects.",
+        "tech": ["React js", "Material UI", "GitHub API", "Context API"]
       }
     ]
   }

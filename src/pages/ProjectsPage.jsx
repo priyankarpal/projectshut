@@ -8,26 +8,37 @@ import { Button } from "@mui/material"
 const paginatedArr = paginate(projects)
 
 const ProjectsPage = () => {
-  const [page, setPage] = useState(0)
+  //used the json format to avoid code repeatation
+  const [page, setPage] = useState({ pageNo: 0, prev: false, next: false })
   const [currentItems, setItems] = useState([])
   const [selectedButton, setSelectedButton] = useState(null)
 
   // this useEffect is for when user click on pagination button then render only that page projects
+
   useEffect(() => {
-    const data = paginatedArr[page]
+    //checks if the current page is the last page
+    page.next = page.pageNo === paginatedArr.length - 1 ? true : false
+    //checks if the current page is the first page
+    page.prev = page.pageNo === 0 ? true : false
+    setPage({ ...page })
+
+    const data = paginatedArr[page.pageNo]
     setItems(data)
+
     window.scrollTo(0, 0) // this makes the page scroll to top on page state changes
-  }, [page])
+  }, [page.pageNo])
 
   // this useEffect is for when user clear the filter (double click) then render only that page projects
+
   useEffect(() => {
     if (selectedButton === null) {
-      setItems(paginatedArr[page])
+      setItems(paginatedArr[page.pageNo])
       return
     }
   }, [selectedButton])
 
   // this function will filter project based on selected technology and set the state of items
+
   const handleQuery = (index) => {
     setSelectedButton((prev) => (prev === index ? null : index))
     const regexPattern = new RegExp(techStack[index], "i")
@@ -43,16 +54,25 @@ const ProjectsPage = () => {
     })
     setItems(currProjects)
   }
+
   const prevPage = () => {
-    if (page - 1 < 0) {
-      setPage(paginatedArr.length - 1)
+    if (page.pageNo - 1 < 0) {
+      page.pageNo = paginatedArr.length - 1
+      setPage({ ...page })
       return
     }
-    setPage(page - 1)
+    page.pageNo = page.pageNo - 1
+    setPage({ ...page })
   }
 
   const nextPage = () => {
-    setPage((page + 1) % paginatedArr.length)
+    page.pageNo = (page.pageNo + 1) % paginatedArr.length
+    setPage({ ...page })
+  }
+
+  const handleSetPage = (ind) => {
+    page.pageNo = ind
+    setPage({ ...page })
   }
 
   return (
@@ -99,22 +119,38 @@ const ProjectsPage = () => {
       {/* when user apply filter then show specific projects and hide prev and next page */}
       {selectedButton === null && (
         <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
-          <button type="button" className="bg-white px-3 py-1 hover:bg-slate-200 rounded-md " onClick={prevPage}>
+          <button
+            type="button"
+            className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
+              page.prev ? `disabled:cursor-not-allowed` : null
+            }`}
+            disabled={page.prev}
+            onClick={prevPage}
+          >
             Prev
           </button>
           {paginatedArr.map((ele, ind) => {
             return (
               <button
                 type="button"
-                className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${page === ind ? "text-primary" : null}`}
-                onClick={() => setPage(ind)}
+                className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
+                  page.pageNo === ind ? "text-primary" : null
+                }`}
+                onClick={() => handleSetPage(ind)}
                 key={ind}
               >
                 {ind + 1}
               </button>
             )
           })}
-          <button type="button" className="bg-white px-3 py-1 rounded-md hover:bg-slate-200" onClick={nextPage}>
+          <button
+            type="button"
+            className={`bg-white px-3 py-1 rounded-md hover:bg-slate-200 ${
+              page.next ? `disabled:cursor-not-allowed` : null
+            }`}
+            disabled={page.next}
+            onClick={nextPage}
+          >
             Next
           </button>
         </div>
