@@ -162,11 +162,11 @@ export default function ProjectList() {
 
                 <div className=" flex flex-row overflow-auto scrollbar items-center ">
                   <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap ">
                     {project["tech"].map((tag, index) => {
                       return (
                         <p
-                          className={`text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-0 mr-1 ${
+                          className={`text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-2 mr-1 mt-1 ${
                             theme.mode === "dark" ? "text-black bg-white" : "text-white bg-black"
                           }`}
                           key={index}
