@@ -98,9 +98,7 @@ const HomePage = () => {
                     color: theme?.button?.buttonTextColor,
                   }}
                 >
-                  <div className="hover:text-transparent hover:bg-clip-text hover:bg-[#e7ccff]">
                   Browse Projects
-                  </div>
                 </Link>
               </div>
             </div>
