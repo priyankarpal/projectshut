@@ -973,6 +973,12 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
         "tech": ["ReactJS", "Material UI", "JavaScript", "CSS", "JSX"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/yt-bookmark-extension",
+        "title": "YouTube Bookmark Chrome Extension",
+        "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
+        "tech": ["JavaScript", "DOM", "HTML", "CSS"]
       }
     ]
   },
@@ -991,6 +997,12 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["C"]
+      },
+      {
+        "link": "https://github.com/akkshayTandon/Java-Programs",
+        "title": "JAVA Programs",
+        "description": "This repository contains some useful JAVA programs and projects, each categorized, which can help the college students.",
+        "tech": ["Java"]
       }
     ]
   },
@@ -1027,6 +1039,67 @@
         "title": "GeoTrackerX",
         "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
         "tech": ["Javascript", "Css", "Html", "API-IPify"]
+      }
+    ]
+  },
+  {
+    "github_username": "crocmons",
+    "Social_media": {
+      "gitHub": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension.git",
+      "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension",
+        "title": "Exchange Rate Converter Extension",
+        "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
+        "tech": ["JavaScript", "CSS", "HTML", "Rapid API"]
+      }
+    ]
+  },
+  {
+    "github_username": "Ks103",
+    "Social_media": {
+      "gitHub": "https://github.com/Ks103",
+      "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+
+    "Projects": [
+      {
+        "link": "https://github-usernamefind.netlify.app/",
+        "title": "Github-user-info",
+        "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
+        "tech": ["Javascript", "Css", "Html", "React", "Tailwind CSS"]
+      },
+      {
+        "link": "https://khushitech.netlify.app/",
+        "title": "Portfolio site",
+        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
+        "tech": "[Html,Css,Js]"
+      }
+    ]
+  },
+  {
+    "github_username": "narayan2111",
+    "Social_media": {
+      "gitHub": "https://github.com/narayan2111",
+      "LinkedIn": "https://www.linkedin.com/in/narayan2111",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Narayan80194026"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/narayan2111/Front_end",
+        "title": "Responsive Front-end Design",
+        "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
+        "tech": ["Javascript", "Css", "Html"]
       }
     ]
   }
