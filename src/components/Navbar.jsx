@@ -113,7 +113,7 @@ const Navbar = () => {
               href="https://github.com/priyankarpal/ProjectsHut"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem]"
+              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
               aria-label="Github"
             >
               <FaGithub />
