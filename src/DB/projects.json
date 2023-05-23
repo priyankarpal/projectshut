@@ -1104,7 +1104,7 @@
     ]
   },
   {
-    "github_username": "YOUR_GITHUB_USERNAME",
+    "github_username": "Sriparno08",
     "Social_media": {
       "gitHub": "https://github.com/Sriparno08",
       "LinkedIn": "https://www.linkedin.com/in/sriparnoroy/",
@@ -1117,7 +1117,7 @@
         "link": "https://github.com/Sriparno08/Start-Contributing",
         "title": "Start Contributing",
         "description": "This project aims to help beginners get started with contributing to open source by providing a substantial amount of useful resources. Everyone is welcome to contribute and be a part of this project.",
-        "tech": ""
+        "tech": ["Open Source"]
       }
     ]
   }
