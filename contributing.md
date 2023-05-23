@@ -52,6 +52,12 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
       "tech": "[tech1,tech2]"
+    },
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": "[tech1,tech2]"
     }
   ]
 }
