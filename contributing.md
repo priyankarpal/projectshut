@@ -82,7 +82,7 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 cd ProjectsHut
 ```
 
-3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+3. Create `.env` file to the root folder & copy code from `.env.local` & add your `GitHub Personal Access Token` in `.env` file
 
 4. Install dependencies
 
