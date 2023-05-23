@@ -21,8 +21,12 @@ const Navbar = () => {
   const switchTrackColor = theme.mode === "dark" ? "#9CA3AF" : undefined
 
   return (
-    <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2">
-      <div className="flex flex-row justify-between">
+    <nav
+      aria-label="Site Nav"
+      className="sticky top-0 z-[100] backdrop-blur-sm"
+      style={{ backgroundColor: theme.mode === "dark" ? "#00000080" : "#f5f6fa80" }}
+    >
+      <div className="flex flex-row justify-between mx-auto p-5 lg:w-1/2">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
@@ -45,10 +49,12 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
@@ -59,11 +65,13 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/projectspage"
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
+                to="/ProjectsPage"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
@@ -75,16 +83,31 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/docs"
-                className={`inline-block py-2 px-3 text-center font-bold rounded-md focus:outline-none focus:ring ${
-                  theme.name === "light" ? "hover:text-white hover:bg-black" : "hover:text-black hover:bg-white"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
                 }`}
-                activeStyle={{
+                activestyle={{
                   fontWeight: "bold",
                   color: navbar.color,
                   backgroundColor: "white",
                 }}
               >
                 Docs
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                to="/ContributorsPage"
+                className={`inline-block py-2 px-3 text-center font-bold  rounded-md ${
+                  theme.mode === "light"
+                    ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
+                    : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+                }`}
+              >
+                Contributors
               </NavLink>
             </li>
           </ul>
@@ -114,6 +137,20 @@ const Navbar = () => {
             />
           </div>
         </div>
+        <Drawer
+          className="block md:hidden"
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            "& .MuiDrawer-paper": { boxSizing: "border-box", width: "56%" },
+          }}
+        >
+          <SideMenu handleDrawerToggle={handleDrawerToggle} />
+        </Drawer>
       </div>
     </nav>
   )
