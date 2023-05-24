@@ -9,7 +9,7 @@ function Contributors({ owner, repo }) {
     setLoading(true) // set loading to true when th e fetch request is initiated
     fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
       headers: {
-        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        Authorization: ` ${process.env.GITHUB_TOKEN}`,
       },
     })
       .then((response) => response.json())

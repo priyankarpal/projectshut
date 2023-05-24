@@ -1158,5 +1158,23 @@
         "tech": ["React js", "Material UI", "GitHub API", "Context API"]
       }
     ]
+  },
+   {
+    "github_username": "jibola2588",
+     "Social_media": {
+      "gitHub": "https://github.com/jibola2588",
+      "LinkedIn": "https://www.linkedin.com/in/ajibola-fawole-69b348159/",
+      "Instagram": "https://www.instagram.com/harjheebolar/",
+      "YouTube": "https://www.youtube.com/@fawolejibola4890/",
+      "Twitter": "https://twitter.com/AjibolaLuman"
+    },
+    "Projects": [
+      {
+        "link": "https://recipe-app-repo.vercel.app/",
+        "title": "Recipe app",
+        "description": "The Recipe application is a web-based platform designed to store and organize recipes for users. It assists users in remembering the cooking methods and step-by-step instructions involved in preparing each recipe.",
+        "tech": ["Vue js", "Vuex"]
+      }
+    ]
   }
 ]
