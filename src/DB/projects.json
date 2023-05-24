@@ -43,7 +43,7 @@
         "link": "https://github.com/villAsh/Movie_app",
         "title": "Movie App",
         "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
-        "tech": ["React", "Tailwind CSS", "Redux Toolkit","React Router", "Skeleton"]
+        "tech": ["React", "Tailwind CSS", "Redux Toolkit", "React Router", "Skeleton"]
       }
     ]
   },
@@ -259,7 +259,7 @@
         "link": "https://jfmartinz.github.io/Project-Etch-A-Sketch/",
         "title": "Etch-A-Sketch Project",
         "description": " An Etch A Sketch is a classic children's toy that allows you to draw pictures by turning two knobs to control a stylus that moves across a screen. Recreating an Etch A Sketch in JavaScript involves capturing the user's input from the keyboard or mouse and updating the display accordingly.",
-        "tech": ["HTML","CSS","JavaScript"]
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
