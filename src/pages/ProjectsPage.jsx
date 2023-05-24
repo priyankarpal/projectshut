@@ -45,7 +45,6 @@ const ProjectsPage = () => {
     let currProjects = []
     projects?.map((obj) => {
       let arr = obj["Projects"][0].tech
-      console.log(arr, "arrarr")
       for (let i = 0; i < arr.length; i++) {
         if (regexPattern.test(arr[i])) {
           currProjects.push(obj)
