@@ -3,7 +3,6 @@ import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } 
 import PageNotFound from "./components/PageNotFound"
 import ProjectList from "./components/ProjectList"
 import Layout from "./components/Layout"
-import SplashScreen from "./components/SplashScreen"
 import { ThemeProvider } from "./context/Theme"
 
 const router = createBrowserRouter(
@@ -22,7 +21,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <ThemeProvider>
-      <RouterProvider router={router} fallbackElement={<SplashScreen />} />
+      <RouterProvider router={router} />
     </ThemeProvider>
   )
 }
