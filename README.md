@@ -14,21 +14,15 @@
 > Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
-
- - Contributing to open-source software (OSS) projects can be a rewarding and fulfilling experience. 
- - Not only can you learn new skills, but you can also help make a valuable contribution to a project that benefits the broader community.
-
-> Here are some steps you can take to contribute to this project:
+#### Here are some steps you can take to contribute to this project:
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
-- Follow the [Contribution Documents](/contributing.md)
-- Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
-- Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes.
-- Don't spam if you do it your PR/issue will be closed.
+- Follow the [Contribution Documents](/contributing.md). Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
+- Remember to add a good commit message. You can see this tweet for reference [How to write professional commits?](https://twitter.com/Priyankarpal/status/1638403157863673859) before commiting the changes. Don't spam if you do it your PR/issue will be closed.
 
 ## 🤏 Prerequisites
 
-- Make sure your system has the following software installed:
+#### Make sure your system has the following software installed:
   - `NodeJS` - [Link ↗️](https://nodejs.org/en)
   - `pnpm` - [Link ↗️](https://pnpm.io/)
 
@@ -45,28 +39,25 @@
     | [![Material UI](https://img.shields.io/badge/-Material_UI-0081CB?logo=Material-UI&logoColor=white&style=for-the-badge)](https://mui.com/)            | Material UI is a React library with pre-built UI components for creating modern web app interfaces. |
 
 ## 📙 Translation
- - ### 🏆 Importance
-    - Your contribution to Translation of this project's Documentation makes the project more accessible to more people as well as the project's overall success.
-    - Translate the documentation of this project to new Languages by taking existing Documentation in one Language as Reference.
- - ### 🤏 Prerequisites
-    - Strong skills in your respective language and reference language. 
-    - Strong understanding of the content and context of documentation.
- - ### 📝 Steps
-    - To Translate Documentation, remember to create a new [Issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate).
-    - See the [Translation Guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) for more information.
-    <br>
+### 🏆 Importance
+ - Your contribution to Translation of this project's Documentation makes the project more accessible to more people. 
+ - Translate the documentation of this project to new Languages by taking existing Documentation in one Language as Reference.
+### 🤏 Prerequisites
+ - Strong skills in your respective language and reference language. Strong understanding of the content and context of documentation.
+### 📝 Steps
+ - To Translate Documentation, remember to create a new [Issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate). See the [Translation Guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) for more information.
 
-    | Available languages |
-    |---|
-    | [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean) |
-    | [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish) |
-    | [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil) |
-    | [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German) |
-    | [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian) |
-    | [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) |
-    | [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French) |
-    | [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi) |
-    | [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog) |
+  | Available languages |
+  |---|
+  | [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean) |
+  | [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish) |
+  | [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil) |
+  | [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German) |
+  | [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian) |
+  | [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) |
+  | [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French) |
+  | [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi) |
+  | [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog) |
 
 <div align=center>
   <h2>This Project is part of</h2>
@@ -124,10 +115,7 @@
 <h1 align="center"> For GSSOC'23 Contributors ❤️</h1>
 <ul>
   <li>
-    A contributor can work on only one issue at a time.   
-  </li>
-  <li>
-    A contributor is expected to submit a PR for review within one week of assignment
+    A contributor can work on only one issue at a time. A contributor is expected to submit a PR for review within one week of assignment
   </li>
   <li>
     Failing to do so will result in unassignment of the issue and will then be assigned to the next person who has raised interest in working on the issue on First-Come-First-Serve basis.
@@ -137,42 +125,15 @@
 <h1 align="center"> GSSOC'23 Point Distribution </h1>
 <h3> Level 1 - Documentation/Minor bug Fix </h3> 
 <h4><code> Points - 10 </code></h4>
-<ul>
-  <li>
-    Contributors can add, update, or remove Documentation/Code to improve overall organization/clarity of the Project.
-  </li>
-  <li>
-    Minor bug fixes - fixing small, isolated issues in the codebase.
-  </li>
-  <li>
-    Minor Fixes can include typos, broken links, or performance problems. 
-  </li>
-  <li>
-    Bug fixes are an important part of maintaining the stability and reliability of the project.
-  </li>
-</ul>
+  Minor bug fixes are small, isolated issues in the codebase. Minor Fixes can include typos, broken links, or performance problems. This type of contribution improves overall organization/clarity of the project.
 
 <h3> Level 2 - Enhancement of existing features </h3>
 <h4><code> Points - 25 </code></h4>
-<ul>
-  <li>
-    Features or enhancement - adding new functionailty to an open-source project.
-  </li>
-  <li>
-    Contributors can add new features, improve existing features or add new functionality to existing features.
-  </li>
-</ul>
+Features enhancement add new functionality to an open-source project or 'enhance' ( improve upon) already existing functionality.
 
 <h3> Level 3 - Refactoring/ Adding functionalities </h3>
 <h4><code> Points - 45 </code></h4>
-<ul>
-  <li>
-    Core contributions, such as implementing major features or refactoring significant parts of the codebase.
-  </li>
-  <li>
-    This needs a deep understanding of the codebase and it's pattern.
-  </li>
-</ul>
+Core contributions, such as implementing major features or refactoring significant parts of the codebase. This needs a deep understanding of the codebase and it's pattern.
 
 ## 🤝 Contributors
 

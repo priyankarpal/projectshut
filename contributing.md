@@ -14,8 +14,7 @@
 
 **Work on Your assigned issue first:**
 
- - We kindly request that you prioritize working on your assigned issue at this time. 
- - It is highly recommended that you begin by creating an issue before proceeding to create a pull request. 
+ - We kindly request that you prioritize working on your assigned issue at this time. It is highly recommended that you begin by creating an issue before proceeding to create a pull request. 
  - By doing so, you can outline the problem or task at hand and facilitate a smoother workflow. 
  - Once the issue is established, please proceed to implement the necessary changes, address any bugs, or incorporate new features to effectively resolve the selected issue/task.
 
@@ -41,7 +40,6 @@
 
 #### 3. Add following code to end of `src/DB/projects.json`
 
-    ```json
     {
       "github_username": "YOUR_GITHUB_USERNAME",
       "Social_media": {
@@ -56,11 +54,10 @@
           "link": "PROJECT_LINK",
           "title": "PROJECT_NAME",
           "description": "PROJECT_DESCRIPTION",
-          "tech": "[tech1,tech2]"
+          "tech": ["tech1","tech2"]
         }
       ]
     }
-    ```
 
 #### 4. Commit all changes.
 
@@ -68,46 +65,44 @@
 
 > ### Alternatively, if you prefer to run the project locally, follow these steps:
 
-1.  Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
+1.  Go to preferred folder in your computer and paste the following command after forking our repository (Only one of it if you don't have ssh setup then go with HTTP command)
 
     - HTTP
       `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
     - SSH
       `git clone git@github.com:<YOUR-USERNAME>/ProjectsHut.git`
 
-2.  Navigate to the project folder
+2. Navigate to the project folder
 
     ```
     cd ProjectsHut
     ```
 
-3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
-
-4. Install dependencies
+3. Install dependencies
 
     ```
     pnpm i
     ```
 
-5.  Now do ahead and create a new branch and move to the branch
+4.  Now do ahead and create a new branch and move to the branch
 
     ```
     git checkout -b fix-issue-<ISSUE-NUMBER>
     ```
 
-6.  Run in local
+5.  Run in local
 
     ```
     pnpm dev
     ```
 
-7. Make sure all the test cases pass
+6. Make sure all the test cases pass
 
     ```
     pnpm test
     ```
 
-8. After done you can now push this changes, for doing that follow the following command chain
+7. After done you can now push this changes, for doing that follow the following command chain
 
    - `git status` (Shows the changed files)
    - `git add .` (Will add all the files to staging area)
@@ -126,15 +121,15 @@
    - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
    - `git push origin fix-issue-<ISSUE-NUMBER>`
 
-9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+8. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-10. Now fill in the form template of the pull request and give the necessary description.
+9. Now fill in the form template of the pull request and give the necessary description.
 
-11. Click on **Submit**
+10. Click on **Submit**
 
-12. Hurray! You just made your first contribution to this project 🎉
+11. Hurray! You just made your first contribution to this project 🎉
 
-13. Wait for your pull request to be reviewed and merged.
+12. Wait for your pull request to be reviewed and merged.
 
 > NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
 
