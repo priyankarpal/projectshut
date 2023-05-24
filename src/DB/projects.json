@@ -874,12 +874,12 @@
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite", "Spotify API", "Tailwind CSS"]
       },
-        { 
-       "link": "https://weather-app-102408.netlify.app/",
-       "title": "Weather App",
-       "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
+      {
+        "link": "https://weather-app-102408.netlify.app/",
+        "title": "Weather App",
+        "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
         "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
-   }
+      }
     ]
   },
   {
@@ -1194,9 +1194,8 @@
         "link": "https://youtube-clone-accodes21.vercel.app/",
         "title": "YouTube Clone",
         "description": "A fully working clone of YouTube made using ReactJS, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
-        "tech": ["React.js","Material UI", "React Router","CSS","Youtube API"]
+        "tech": ["React.js", "Material UI", "React Router", "CSS", "Youtube API"]
       }
-      
     ]
   },
   {
@@ -1218,6 +1217,25 @@
     ]
   },
   {
+    "github_username": "kunalkashyap-1",
+    "Social_media": {
+      "gitHub": "https://github.com/kunalkashyap-1",
+      "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/kunal_code"
+    },
+    "Projects": [
+      {
+        "link": "https://feedparsify.netlify.com/",
+        "title": "News API",
+        "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
+        "tech": ["React", "Material UI", "Express js", "cherrio"]
+      }
+    ]
+},
+
+{
     "github_username": "jibola2588",
     "Social_media": {
       "gitHub": "https://github.com/jibola2588",
@@ -1235,27 +1253,7 @@
       }
     ]
   },
-
-{
-  "github_username": "kunalkashyap-1",
-  "Social_media": {
-    "gitHub": "https://github.com/kunalkashyap-1",
-    "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/kunal_code"
-  },
-  "Projects": [
-    {
-      "link": "https://feedparsify.netlify.com/",
-      "title": "News API",
-      "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
-      "tech": ["React", "Material UI", "Express js", "cherrio"]
-    }
-  ]
-},
-{
-
+  {
     "github_username": "BaibhavTiwari",
     "Social_media": {
       "gitHub": "https://github.com/BaibhavTiwari",
@@ -1269,7 +1267,7 @@
         "link": "https://summarizzer.netlify.app/",
         "title": "Summarizer",
         "description": "Summarizer is a web application built with React and Redux that utilizes the article-extractor-and-summarizer Rapid API to summarize articles and blog posts.",
-        "tech": ["Javascript", "React","Node","RapidApi", "Tailwind CSS"]
+        "tech": ["Javascript", "React", "Node", "RapidApi", "Tailwind CSS"]
       }
     ]
   },
@@ -1287,45 +1285,44 @@
         "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
         "title": "Expanding Cards Image Carousel",
         "description": "This project is a beginner level Javascript project. Here viewer can choose their own image. when clicked on a particular image it will expand with an animation effect",
-        "tech": ["HTML","CSS","JavaScript"]
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
   {
-  "github_username": "coder12git",
-  "Social_media": {
-    "gitHub": "https://github.com/coder12git",
-    "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/Suruchi18591098"
+    "github_username": "coder12git",
+    "Social_media": {
+      "gitHub": "https://github.com/coder12git",
+      "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Suruchi18591098"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coder12git/PoweringSTEMHacks",
+        "title": "Diagnose",
+        "description": "Skin cancer detection from your skin images.",
+        "tech": ["Python", "TensorFlow", "Streamlit", "Machine learning"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/coder12git/PoweringSTEMHacks",
-      "title": "Diagnose",
-      "description": "Skin cancer detection from your skin images.",
-      "tech": ["Python", "TensorFlow", "Streamlit", "Machine learning"]
-    }
-  ]
-},
-{
-
-  "github_username": "sangdeepganvir",
-  "Social_media": {
-    "gitHub": "https://github.com/sangdeepganvir",
-    "LinkedIn": "https://www.linkedin.com/in/sanghdeep-ganvir-b2016a173/",
-    "Instagram": "https://instagram.com/sanghdeep.jnv?igshid=OTk0YzhjMDVlZA==",
-    "YouTube": "",
-    "Twitter": ""
-  },
-  "Projects": [
-    {
-      "link": "https://sangdeepganvir.github.io/HuffmanCompressor/",
-      "title": "Huffman-Compressor",
-      "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
-      "tech": ["Html","CSS","Javascript","C++"]
-    }
-  ]
-}
+  {
+    "github_username": "sangdeepganvir",
+    "Social_media": {
+      "gitHub": "https://github.com/sangdeepganvir",
+      "LinkedIn": "https://www.linkedin.com/in/sanghdeep-ganvir-b2016a173/",
+      "Instagram": "https://instagram.com/sanghdeep.jnv?igshid=OTk0YzhjMDVlZA==",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://sangdeepganvir.github.io/HuffmanCompressor/",
+        "title": "Huffman-Compressor",
+        "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
+        "tech": ["Html", "CSS", "Javascript", "C++"]
+      }
+    ]
+  }
 ]
