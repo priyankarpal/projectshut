@@ -51,16 +51,30 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
       "link": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "[tech1,tech2]"
+      "tech": ["tech1", "tech2"]
     },
     {
       "link": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "[tech1,tech2]"
+      "tech": ["tech1", "tech2"]
     }
   ]
 }
+```
+
+- You should write the tech full name
+  > js 👎
+  > javascript 👎
+  > JavaScript 👍
+  > css 👎
+  > CSS 👍
+
+> ### in short, you can write your tech on Google and copy from there so we can have common naming conventions
+
+```
+
+
 ```
 
 4. Commit all changes.
