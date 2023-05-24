@@ -877,8 +877,7 @@
         { 
        "link": "https://weather-app-102408.netlify.app/",
        "title": "Weather App",
-       "description": "Your go-to weather app for real-time forecasts, personalized updates, and 
-        seamless planning.",
+       "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
         "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
    }
     ]
