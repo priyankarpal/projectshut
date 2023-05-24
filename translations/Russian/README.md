@@ -1,4 +1,4 @@
-<h1 align="center"> ProjectsHut - Share your projects to the world 🌎🌈</h1>
+<h1 align="center"> ProjectsHut - Поделитесь своими проектами со всем миром 🌎🌈</h1>
 
 [![страницы-сборка-развертывание](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/priyankarpal/ProjectsHut/actions/workflows/pages/pages-build-deployment) [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/priyankarpal/ProjectsHut) ![Checks Success](https://badgen.net/github/checks/node-formidable/node-formidable) [![MIT](https://badgen.net/badge/license/MIT/blue)](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENS)
 [![Любовь с открытым исходным кодом](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
