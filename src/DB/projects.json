@@ -1307,6 +1307,25 @@
       }
     ]
   },
+{
+  "github_username": "Deepanshu0703",
+  "Social_media": {
+    "gitHub": "https://github.com/Deepanshu0703",
+    "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Deepanshu0703/Face-Recognition-and-Emotion-Detection",
+      "title": "Face-Recognition-and-Emotion-Detection",
+      "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
+      "tech": ["Python","OpenCV","Keras","Tensorflow"]
+    }
+    
+  ]
+},
   {
     "github_username": "sangdeepganvir",
     "Social_media": {
