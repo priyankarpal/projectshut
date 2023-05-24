@@ -1211,5 +1211,23 @@
         "tech": ["Javascript", "React","Node","RapidApi", "Tailwind CSS"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "coder12git",
+  "Social_media": {
+    "gitHub": "https://github.com/coder12git",
+    "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Suruchi18591098"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/coder12git/PoweringSTEMHacks",
+      "title": "Diagnose",
+      "description": "Skin cancer detection from your skin images.",
+      "tech": ["Python", "TensorFlow", "Streamlit", "Machine learning"]
+    }
+  ]
+}
 ]
