@@ -47,5 +47,38 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* animated text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated-text {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+/* animated image */
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.floating-image {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
 @tailwind components;
 @tailwind utilities;
