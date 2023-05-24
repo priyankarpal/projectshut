@@ -33,7 +33,7 @@ const darkTheme = {
 }
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState(lightTheme)
+  const [theme, setTheme] = useState(darkTheme) // Set darkTheme as the initial value
 
   const toggleTheme = () => {
     const newTheme = theme === lightTheme ? darkTheme : lightTheme
@@ -53,3 +53,5 @@ const ThemeProvider = ({ children }) => {
 }
 
 export { ThemeProvider, ThemeContext }
+
+
