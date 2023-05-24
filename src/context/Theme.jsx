@@ -53,5 +53,3 @@ const ThemeProvider = ({ children }) => {
 }
 
 export { ThemeProvider, ThemeContext }
-
-
