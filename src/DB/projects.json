@@ -1173,5 +1173,23 @@
         "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "Hariom01010",
+  "Social_media": {
+    "gitHub": "https://github.com/Hariom01010",
+    "LinkedIn": "https://www.linkedin.com/in/hariom-vashista-603436226/",
+    "Instagram": "https://www.instagram.com/hariom_vashista/",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/HariomVashista"
+  },
+  "Projects": [
+    {
+      "link": "https://projectshut.vercel.app/",
+      "title": "Projects Hut",
+      "description": "It's designed to provide a space for individuals to showcase their work and connect with a global audience ",
+      "tech": "[ReactJs,Tailwind CSS]"
+    }
+  ]
+}
 ]
