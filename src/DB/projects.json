@@ -1173,5 +1173,23 @@
         "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
+  },
+  {
+    "github_username": "BaibhavTiwari",
+    "Social_media": {
+      "gitHub": "https://github.com/BaibhavTiwari",
+      "LinkedIn": "https://www.linkedin.com/in/baibhavtiwari/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/BaibhavTiwari11"
+    },
+    "Projects": [
+      {
+        "link": "https://summarizzer.netlify.app/",
+        "title": "Summarizer",
+        "description": "Summarizer is a web application built with React and Redux that utilizes the article-extractor-and-summarizer Rapid API to summarize articles and blog posts.",
+        "tech": ["Javascript", "React","Node","RapidApi", "Tailwind CSS"]
+      }
+    ]
   }
 ]
