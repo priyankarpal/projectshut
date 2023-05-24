@@ -62,6 +62,7 @@ By doing so, you can help to make the project more accessible to people who spea
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
 - [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
 - [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
+- [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)
 
 <div align=center>
 <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
@@ -86,6 +87,27 @@ By doing so, you can help to make the project more accessible to people who spea
                         src="https://github.com/swapnilgarg7.png" width="100px;"><br><sub><b> Swapnil Garg
                         </b></sub></a><br></td></a></td>
 </table>
+
+<h1> GSSOC'23 Issue Timeline </h1>
+- A contributor can work on only one issue at a time.   
+- A contributor is expected to submit a PR for review within one week of assignment, failing to do so will result in unassignment of the issue and will then be         assigned to the next person who has raised interest in working on the issue.
+
+<h1> GSSOC'23 Point's Distribution </h1>
+<h3> Level 1 - Documentation/Minor bug Fix </h3> 
+<h3> Points - 10 </h3>
+- Contributors can update existing documentation, write new documentation for features or code and improve the overall organization and clarity of the projects         documentation.   
+- Minor bug fixes refer to fixing small, isolated issues in the codebase.  
+- Fixing issues such as typos, broken links, or performance problems. 
+- Bug fixes are an important part of maintaining the stability and reliability.
+
+<h3> Level 2 - Enhancement of existing features </h3>
+<h3> Points - 25 </h3>
+- Features or enhancement contributions refer to adding new functionailty to an open-source project.     
+- Contributors can add new features, improve existing features or add new functionality to existing features.
+
+<h3> Level 3 - Refactoring/ Adding functionalities </h3>
+<h3> Points - 45 </h3>
+- Core contributions, such as implementing major features or refactoring significant parts of the codebase. This needs a deep understanding of the codebase and it's     pattern.
 
 ## 🤝 Contributors
 
