@@ -1190,7 +1190,8 @@
         "description": "A fully working clone of YouTube made using ReactJS, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
         "tech": ["React.js","Material UI", "React Router","CSS","Youtube API"]
       }
-}
+      
+    ]
 },
 {
 
