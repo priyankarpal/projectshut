@@ -4,7 +4,6 @@ import Banner from "../components/Banner"
 import { ThemeContext } from "../context/Theme"
 
 const HomePage = () => {
-  
   const { theme } = useContext(ThemeContext)
 
   return (
