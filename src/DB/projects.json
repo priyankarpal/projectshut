@@ -873,7 +873,13 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite", "Spotify API", "Tailwind CSS"]
-      }
+      },
+        { 
+       "link": "https://weather-app-102408.netlify.app/",
+       "title": "Weather App",
+       "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
+        "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
+   }
     ]
   },
   {
@@ -1211,6 +1217,24 @@
       }
     ]
   },
+  {
+  "github_username": "kunalkashyap-1",
+  "Social_media": {
+    "gitHub": "https://github.com/kunalkashyap-1",
+    "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/kunal_code"
+  },
+  "Projects": [
+    {
+      "link": "https://feedparsify.netlify.com/",
+      "title": "News API",
+      "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
+      "tech": ["React", "Material UI", "Express js", "cherrio"]
+    }
+  ]
+},
 {
 
     "github_username": "BaibhavTiwari",
@@ -1283,6 +1307,25 @@
       "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
       "tech": ["Html","CSS","Javascript","C++"]
     }
+  ]
+},
+{
+  "github_username": "Deepanshu0703",
+  "Social_media": {
+    "gitHub": "https://github.com/Deepanshu0703",
+    "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Deepanshu0703/Face-Recognition-and-Emotion-Detection",
+      "title": "Face-Recognition-and-Emotion-Detection",
+      "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
+      "tech": ["Python","OpenCV","Keras","Tensorflow"]
+    }
+    
   ]
 }
 
