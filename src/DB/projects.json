@@ -1343,5 +1343,23 @@
         "tech": ["Html", "CSS", "Javascript", "C++"]
       }
     ]
+  },
+  {
+    "github_username": "anamika7153",
+    "Social_media": {
+      "gitHub": "https://github.com/anamika7153",
+      "LinkedIn": "https://www.linkedin.com/in/anamika-yadav-24a369191/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anamika7153/finalYearProject",
+        "title": "ProjektHouse",
+        "description": "ProjektHouse is a Web Application for managing final year team data and associated project files. The application enables teams to create an account, log in, and manage their project details and files.",
+        "tech": ["MongoDB", "React","Node","Express"]
+      }
+    ]
   }
 ]
