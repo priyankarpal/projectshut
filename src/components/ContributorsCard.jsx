@@ -33,7 +33,7 @@ function Contributors({ owner, repo }) {
           <span className="text-primary text-xl font-semibold">Loading...</span>
         </div>
       ) : (
-        contributors.map((contributor) => (
+        contributors?.map((contributor) => (
           <div className="min-w-max p-2" key={contributor.id}>
             <a href={contributor.html_url} target="_blank">
               <img className="h-16 mb-3 rounded-full " src={contributor.avatar_url} alt={contributor.login} />
