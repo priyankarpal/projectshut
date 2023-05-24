@@ -1363,3 +1363,23 @@
     ]
   }
 ]
+
+
+{
+  "github_username": "ShreyaDhiman24",
+  "Social_media": {
+    "gitHub": "https://github.com/ShreyaDhiman24",
+    "LinkedIn": "https://www.linkedin.com/in/shreya-dhiman-25a753247/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/ShreyaDhiman17"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/ShreyaDhiman24/Thrift",
+      "title": "Thrift",
+      "description": " Thrift is a humanitarian effort dedicated to promoting literacy by offering free old books to learners. Along with them, you can buy OR sell second hand books & your handmade works as well. A unique component of our work is the identification of adjacent NGOs that can place requests for books or other needed items for children, thereby benefiting pupils.",
+      "tech": ["ReactJs", "Firebase"]
+    }
+  ]
+}
