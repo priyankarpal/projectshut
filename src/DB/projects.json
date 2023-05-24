@@ -1173,5 +1173,23 @@
         "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
+  },
+  {
+    "github_username": "Khushbumaheshwarii",
+    "Social_media": {
+      "gitHub": "https://github.com/khushbumaheshwarii",
+      "LinkedIn": "https://www.linkedin.com/in/khushbu-maheshwari-004214219/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "https://twitter.com/khushbumahii"
+    },
+    "Projects": [
+      {
+        "link": "https://githubprofilefinder-tau.vercel.app/",
+        "title": "Github Profile Finder",
+        "description": "You can use this Project to find any GitHub User profile by Just Entering their Username",
+        "tech": ["Html", "Css", "Js"]
+      }
+    ]
   }
 ]
