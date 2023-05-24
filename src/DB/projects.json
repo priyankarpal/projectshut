@@ -1231,6 +1231,24 @@
     ]
   },
   {
+    "github_username": "buildwithaman",
+    "Social_media": {
+      "gitHub": "https://github.com/buildwithaman",
+      "LinkedIn": "https://www.linkedin.com/in/aman-kumar-856b61237/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Amankmr559"
+    },
+    "Projects": [
+      {
+        "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
+        "title": "Expanding Cards Image Carousel",
+        "description": "This project is a beginner level Javascript project. Here viewer can choose their own image. when clicked on a particular image it will expand with an animation effect",
+        "tech": ["HTML","CSS","JavaScript"]
+      }
+    ]
+  },
+  {
   "github_username": "coder12git",
   "Social_media": {
     "gitHub": "https://github.com/coder12git",
@@ -1267,5 +1285,5 @@
     }
   ]
 }
- 
+
 ]
