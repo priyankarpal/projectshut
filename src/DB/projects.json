@@ -1217,6 +1217,24 @@
       }
     ]
   },
+  {
+  "github_username": "kunalkashyap-1",
+  "Social_media": {
+    "gitHub": "https://github.com/kunalkashyap-1",
+    "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/kunal_code"
+  },
+  "Projects": [
+    {
+      "link": "https://feedparsify.netlify.com/",
+      "title": "News API",
+      "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
+      "tech": ["React", "Material UI", "Express js", "cherrio"]
+    }
+  ]
+},
 {
 
     "github_username": "BaibhavTiwari",

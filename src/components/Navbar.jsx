@@ -43,8 +43,8 @@ const Navbar = () => {
         className={({ isActive }) =>
           `inline-block py-2 px-3 text-center font-bold  rounded-md ${
             theme.mode === "light"
-              ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-              : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+              ? `hover:text-white hover:bg-black transiton-all duration-200 ${isActive && "text-white bg-black"}`
+              : `hover:text-black hover:bg-white transiton-all duration-200 ${isActive && "text-black bg-white"}`
           }`
         }
       >
