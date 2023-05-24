@@ -873,7 +873,13 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite", "Spotify API", "Tailwind CSS"]
-      }
+      },
+        { 
+       "link": "https://weather-app-102408.netlify.app/",
+       "title": "Weather App",
+       "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
+        "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
+   }
     ]
   },
   {
