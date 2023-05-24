@@ -873,7 +873,13 @@
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
         "tech": ["HTML", "CSS", "JavaScript", "Vite", "Spotify API", "Tailwind CSS"]
-      }
+      },
+        { 
+       "link": "https://weather-app-102408.netlify.app/",
+       "title": "Weather App",
+       "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
+        "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
+   }
     ]
   },
   {
@@ -1211,6 +1217,43 @@
       }
     ]
   },
+  {
+    "github_username": "jibola2588",
+    "Social_media": {
+      "gitHub": "https://github.com/jibola2588",
+      "LinkedIn": "https://www.linkedin.com/in/ajibola-fawole-69b348159/",
+      "Instagram": "https://www.instagram.com/harjheebolar/",
+      "YouTube": "https://www.youtube.com/@fawolejibola4890/",
+      "Twitter": "https://twitter.com/AjibolaLuman"
+    },
+    "Projects": [
+      {
+        "link": "https://recipe-app-repo.vercel.app/",
+        "title": "Recipe app",
+        "description": "The Recipe application is a web-based platform designed to store and organize recipes for users. It assists users in remembering the cooking methods and step-by-step instructions involved in preparing each recipe.",
+        "tech": ["Vue js", "Vuex"]
+      }
+    ]
+  },
+
+{
+  "github_username": "kunalkashyap-1",
+  "Social_media": {
+    "gitHub": "https://github.com/kunalkashyap-1",
+    "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/kunal_code"
+  },
+  "Projects": [
+    {
+      "link": "https://feedparsify.netlify.com/",
+      "title": "News API",
+      "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
+      "tech": ["React", "Material UI", "Express js", "cherrio"]
+    }
+  ]
+},
 {
 
     "github_username": "BaibhavTiwari",
@@ -1227,6 +1270,24 @@
         "title": "Summarizer",
         "description": "Summarizer is a web application built with React and Redux that utilizes the article-extractor-and-summarizer Rapid API to summarize articles and blog posts.",
         "tech": ["Javascript", "React","Node","RapidApi", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "buildwithaman",
+    "Social_media": {
+      "gitHub": "https://github.com/buildwithaman",
+      "LinkedIn": "https://www.linkedin.com/in/aman-kumar-856b61237/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Amankmr559"
+    },
+    "Projects": [
+      {
+        "link": "https://buildwithaman.github.io/Project7_ExpandingCardsUsingUserUploadedFiles/",
+        "title": "Expanding Cards Image Carousel",
+        "description": "This project is a beginner level Javascript project. Here viewer can choose their own image. when clicked on a particular image it will expand with an animation effect",
+        "tech": ["HTML","CSS","JavaScript"]
       }
     ]
   },
@@ -1267,5 +1328,4 @@
     }
   ]
 }
- 
 ]
