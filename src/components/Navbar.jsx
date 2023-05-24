@@ -125,6 +125,7 @@ const Navbar = () => {
             >
               <FaGithub />
             </a>
+
             <Switch
               checked={theme.mode === "dark"}
               onChange={toggleTheme}

@@ -28,11 +28,10 @@ export default function ProjectList() {
 
   return (
     <section className="flex flex-col md:flex-row  xs:h-[95vh] sm:h-[90vh] md:h-[100vh] xsm:my-2">
-
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
-          className="w-full xsm:w-[95%] xsm:mx-auto sm:h-[100vh] md:w-[36%] xsm:h-[60vh]  md:ml-1 flex flex-col shadow-white-md rounded-md  "
+          className="w-full xsm:w-[95%] xsm:mx-auto sm:h-[100vh] md:w-[36%] lg:max-w-[25%] xl:max-w-[25%] xsm:h-[60vh]  md:ml-1 flex flex-col shadow-white-md rounded-md  "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
@@ -125,8 +124,6 @@ export default function ProjectList() {
           </div>
         </div>
       )}
-
-
 
       {/* Projects lists */}
 
