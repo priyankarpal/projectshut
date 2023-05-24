@@ -1173,5 +1173,43 @@
         "tech": ["React", "MongoDB", "Firebase", "Node.js", "Cloudinary"]
       }
     ]
+  },
+  {
+    "github_username": "accodes21",
+    "Social_media": {
+      "gitHub": "https://github.com/accodes21",
+      "LinkedIn": "https://www.linkedin.com/in/aarya-chopkar-581aa2228",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/ChopkarAarya"
+    },
+    "Projects": [
+      {
+        "link": "https://youtube-clone-accodes21.vercel.app/",
+        "title": "YouTube Clone",
+        "description": "A fully working clone of YouTube made using ReactJS, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
+        "tech": ["React.js","Material UI", "React Router","CSS","Youtube API"]
+      }
+      
+    ]
+},
+{
+
+    "github_username": "BaibhavTiwari",
+    "Social_media": {
+      "gitHub": "https://github.com/BaibhavTiwari",
+      "LinkedIn": "https://www.linkedin.com/in/baibhavtiwari/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/BaibhavTiwari11"
+    },
+    "Projects": [
+      {
+        "link": "https://summarizzer.netlify.app/",
+        "title": "Summarizer",
+        "description": "Summarizer is a web application built with React and Redux that utilizes the article-extractor-and-summarizer Rapid API to summarize articles and blog posts.",
+        "tech": ["Javascript", "React","Node","RapidApi", "Tailwind CSS"]
+      }
+    ]
   }
 ]
