@@ -1048,6 +1048,25 @@
       }
     ]
   },
+
+  {
+    "github_username": "ayushlohmod",
+    "Social_media": {
+      "gitHub": "https://github.com/ayushlohmod",
+      "LinkedIn": "https://www.linkedin.com/in/ayush-lohmod-22411a139/",
+      "Instagram": "https://www.instagram.com/ayushlohmod/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/ayushlohmod"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ayushlohmod/shareWall",
+        "title": "ShareWall",
+        "description": "ShareWall is a social media app where you can upload and download photos",
+        "tech": ["React", "Javascript", "TailWindCss", "Sanity "]
+      }
+    ]
+  },
   {
     "github_username": "crocmons",
     "Social_media": {
@@ -1376,6 +1395,24 @@
         "title": "Thrift",
         "description": " Thrift is a humanitarian effort dedicated to promoting literacy by offering free old books to learners. Along with them, you can buy OR sell second hand books & your handmade works as well. A unique component of our work is the identification of adjacent NGOs that can place requests for books or other needed items for children, thereby benefiting pupils.",
         "tech": ["ReactJs", "Firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "neekamhrzn",
+    "Social_media": {
+      "gitHub": "https://github.com/neekamhrzn",
+      "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/neekamhrzn/File-Zipping-Software",
+        "title": "File Zipping Software",
+        "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
+        "tech": ["C++", "SFML"]
       }
     ]
   }
