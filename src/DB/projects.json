@@ -1433,5 +1433,22 @@
         "tech": ["HTML", "CSS", "PHP", "Mysql"]
       }
     ]
-  }
+  }, {
+      "github_username": "komalioruganti",
+      "Social_media": {
+        "gitHub": "https://github.com/komalioruganti",
+        "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/komalioruganti/ChatGPT-Clone",
+          "title": "ChatGPT-Clone",
+          "description": "A bot that generates text and images for the given prompts.",
+          "tech": ["React","Node","Express","JavaScript","CSS","OpenAi API"]
+        }
+      ]
+    }
 ]
