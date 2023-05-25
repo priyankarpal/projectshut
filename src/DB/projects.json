@@ -1173,5 +1173,23 @@
         "tech": ["React.js", "Mongodb", "Firebase", "Nodejs", "Cloudinary"]
       }
     ]
+  },
+  {
+    "github_username": "Princessayomide53",
+    "Social_media": {
+      "gitHub": "https://github.com/Princessayomide53",
+      "LinkedIn": "https://www.linkedin.com/in/princess-ayomide-ogunnaike-235b25211",
+      "Instagram": "https://www.instagram.com/thenextdoorchick",
+      "YouTube": "payomide53@gmail.com",
+      "Twitter": "https://twitter.com/Princy_koko"
+    },
+    "Projects": [
+      {
+        "link": "",
+        "title": "Travel Agency",
+        "description": "Jadoo is the name of the Website, it's a travel agency website that can help people with their traveling into another country and makes them book a flight ",
+        "tech": ["React js", "TailwindCSS", "Rapid API", "Redux"]
+      }
+    ]
   }
 ]
