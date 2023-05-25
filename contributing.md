@@ -51,16 +51,30 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
       "link": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "[tech1,tech2]"
+      "tech": ["tech1", "tech2"]
     },
     {
       "link": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "[tech1,tech2]"
+      "tech": ["tech1", "tech2"]
     }
   ]
 }
+```
+
+- You should write the tech full name
+  > js 👎
+  > javascript 👎
+  > JavaScript 👍
+  > css 👎
+  > CSS 👍
+
+> ### in short, you can write your tech on Google and copy from there so we can have common naming conventions
+
+```
+
+
 ```
 
 4. Commit all changes.
@@ -82,7 +96,7 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 cd ProjectsHut
 ```
 
-3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+3. Create `.env` file to the root folder & copy code from `.env.example` & add your `GitHub Personal Access Token` in `.env` file
 
 4. Install dependencies
 
