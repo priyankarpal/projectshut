@@ -14,6 +14,7 @@
 > Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ## 🤔 How to contribute ?
+
 #### Here are some steps you can take to contribute to this project:
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
@@ -23,41 +24,48 @@
 ## 🤏 Prerequisites
 
 #### Make sure your system has the following software installed:
-  - `NodeJS` - [Link ↗️](https://nodejs.org/en)
-  - `pnpm` - [Link ↗️](https://pnpm.io/)
+
+- `NodeJS` - [Link ↗️](https://nodejs.org/en)
+- `pnpm` - [Link ↗️](https://pnpm.io/)
 
 ## 🧰 Tech Stack Used
 
 - We're excited to share that our project leverages the power of React for the frontend, with the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive User Interface (UI).
 
-    | Technology                                                                                                                                           | Description                                                                                         |
-    | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-    | [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library.                                       |
-    | [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                                                       |
-    | [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite is a fast and lightweight build tool and development server for modern web applications.       |
-    | [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM is a fast and disk space efficient package manager for Node.js packages.                       |
-    | [![Material UI](https://img.shields.io/badge/-Material_UI-0081CB?logo=Material-UI&logoColor=white&style=for-the-badge)](https://mui.com/)            | Material UI is a React library with pre-built UI components for creating modern web app interfaces. |
+  | Technology                                                                                                                                           | Description                                                                                         |
+  | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+  | [![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)                              | React is a free and open-source front-end JavaScript library.                                       |
+  | [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | Tailwind CSS is an open source CSS framework.                                                       |
+  | [![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=)](https://vitejs.dev/)     | Vite is a fast and lightweight build tool and development server for modern web applications.       |
+  | [![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)](https://pnpm.io/)        | PNPM is a fast and disk space efficient package manager for Node.js packages.                       |
+  | [![Material UI](https://img.shields.io/badge/-Material_UI-0081CB?logo=Material-UI&logoColor=white&style=for-the-badge)](https://mui.com/)            | Material UI is a React library with pre-built UI components for creating modern web app interfaces. |
 
 ## 📙 Translation
-### 🏆 Importance
- - Your contribution to Translation of this project's Documentation makes the project more accessible to more people. 
- - Translate the documentation of this project to new Languages by taking existing Documentation in one Language as Reference.
-### 🤏 Prerequisites
- - Strong skills in your respective language and reference language. Strong understanding of the content and context of documentation.
-### 📝 Steps
- - To Translate Documentation, remember to create a new [Issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate). See the [Translation Guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) for more information.
 
-  | Available languages |
-  |---|
-  | [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean) |
-  | [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish) |
-  | [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil) |
-  | [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German) |
-  | [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian) |
-  | [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) |
-  | [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French) |
-  | [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi) |
-  | [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog) |
+### 🏆 Importance
+
+- Your contribution to Translation of this project's Documentation makes the project more accessible to more people.
+- Translate the documentation of this project to new Languages by taking existing Documentation in one Language as Reference.
+
+### 🤏 Prerequisites
+
+- Strong skills in your respective language and reference language. Strong understanding of the content and context of documentation.
+
+### 📝 Steps
+
+- To Translate Documentation, remember to create a new [Issue](https://github.com/priyankarpal/ProjectsHut/issues/new?assignees=&labels=Translate&template=translation-.md&title=+Translate). See the [Translation Guide](https://github.com/priyankarpal/ProjectsHut/blob/main/translations/translation_guide.md) for more information.
+
+| Available languages                                                                     |
+| --------------------------------------------------------------------------------------- |
+| [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)     |
+| [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)  |
+| [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)       |
+| [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)     |
+| [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)  |
+| [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) |
+| [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)     |
+| [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)       |
+| [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)   |
 
 <div align=center>
   <h2>This Project is part of</h2>
@@ -147,7 +155,9 @@ Core contributions, such as implementing major features or refactoring significa
 </div>
 
 # 👋 Show your support
- - Give a ⭐ if this project helped you.
+
+- Give a ⭐ if this project helped you.
 
 # 🛡️ License
+
 ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
