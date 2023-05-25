@@ -1236,25 +1236,25 @@
     ]
   },
   {
-  "github_username": "Hardikaz",
-  "Social_media": {
-    "gitHub": "https://github.com/Hardikaz",
-    "LinkedIn": "https://www.linkedin.com/in/hardik-sharma-52ab7823b/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/Hardik_Sharma4"
+    "github_username": "Hardikaz",
+    "Social_media": {
+      "gitHub": "https://github.com/Hardikaz",
+      "LinkedIn": "https://www.linkedin.com/in/hardik-sharma-52ab7823b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hardik_Sharma4"
+    },
+    "Projects": [
+      {
+        "link": "https://hardikaz.github.io/GitHubUsersAPI/",
+        "title": "GitHub Users API",
+        "description": "This project is made by using GitHub Users API and simple HTML, CSS, JavaScript",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://hardikaz.github.io/GitHubUsersAPI/",
-      "title": "GitHub Users API",
-      "description": "This project is made by using GitHub Users API and simple HTML, CSS, JavaScript",
-      "tech": ["HTML","CSS","JavaScript"]
-    }
-  ]
-},
 
-{
+  {
     "github_username": "kunalkashyap-1",
     "Social_media": {
       "gitHub": "https://github.com/kunalkashyap-1",
@@ -1452,22 +1452,23 @@
         "tech": ["HTML", "CSS", "PHP", "Mysql"]
       }
     ]
-  }, {
-      "github_username": "komalioruganti",
-      "Social_media": {
-        "gitHub": "https://github.com/komalioruganti",
-        "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
-        "Instagram": "",
-        "YouTube": "",
-        "Twitter": ""
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/komalioruganti/ChatGPT-Clone",
-          "title": "ChatGPT-Clone",
-          "description": "A bot that generates text and images for the given prompts.",
-          "tech": ["React","Node","Express","JavaScript","CSS","OpenAi API"]
-        }
-      ]
-    }
+  },
+  {
+    "github_username": "komalioruganti",
+    "Social_media": {
+      "gitHub": "https://github.com/komalioruganti",
+      "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/komalioruganti/ChatGPT-Clone",
+        "title": "ChatGPT-Clone",
+        "description": "A bot that generates text and images for the given prompts.",
+        "tech": ["React", "Node", "Express", "JavaScript", "CSS", "OpenAi API"]
+      }
+    ]
+  }
 ]
