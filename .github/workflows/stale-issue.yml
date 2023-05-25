@@ -1,0 +1,29 @@
+name: "Close Stale Issues"
+on:
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  # All other permissions are set to none
+  issues: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/stale@v4.1.1
+        with:
+          stale-issue-label: "stale"
+          exempt-issue-labels: "not-stale"
+          days-before-issue-stale: 3
+          days-before-issue-close: 1
+          # Only close stale issues, leave PRs alone
+          days-before-pr-stale: -1
+          stale-issue-message: >
+            This issue has been automatically marked as stale because it has been open for 3 days
+            with no activity. It will be closed in next 1 days if no further activity occurs. To
+            permanently prevent this issue from being considered stale, add the label 'not-stale',
+            but commenting on the issue is preferred when possible.
+          close-issue-message: >
+            This issue has been closed because it has not received any activity in the last 1 days
+            since being marked as 'stale'
