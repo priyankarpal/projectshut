@@ -6,8 +6,12 @@ function Contributors({ owner, repo }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    getContributorData()
+  }, [owner, repo])
+
+  const getContributorData = async () => {
     setLoading(true) // set loading to true when th e fetch request is initiated
-    fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
+    await fetch(`https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100`, {
       headers: {
         Authorization: ` ${process.env.GITHUB_TOKEN}`,
       },
@@ -21,8 +25,7 @@ function Contributors({ owner, repo }) {
         console.log(error)
         setLoading(false) // set loading to false when an error occurs
       })
-  }, [owner, repo])
-
+  }
   return (
     <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 justify-items-center items-center ">
       {loading ? (

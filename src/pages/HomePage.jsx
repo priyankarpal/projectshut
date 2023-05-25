@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="font text-5xl font-bold md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem]">
+              <h1 className="font text-5xl font-bold  md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
                 Share your projects
               </h1>
               <p className="mt-4 text-xl text-gray-400 tracking-wide">
@@ -55,7 +55,7 @@ const HomePage = () => {
 
                 <Link
                   to="ProjectsPage"
-                  className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold"
+                  className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 "
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,
                     color: theme?.button?.buttonTextColor,
