@@ -1046,10 +1046,10 @@
         "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
         "tech": ["Javascript", "CSS", "HTML", "ipify API"]
       }
-      ]
+    ]
   },
-  
-      {
+
+  {
     "github_username": "ayushlohmod",
     "Social_media": {
       "gitHub": "https://github.com/ayushlohmod",
@@ -1399,21 +1399,21 @@
     ]
   },
   {
-  "github_username": "neekamhrzn",
-  "Social_media": {
-    "gitHub": "https://github.com/neekamhrzn",
-    "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/neekamhrzn/File-Zipping-Software",
-      "title": "File Zipping Software",
-      "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
-      "tech": ["C++", "SFML"]
-    }
-  ]
-}
+    "github_username": "neekamhrzn",
+    "Social_media": {
+      "gitHub": "https://github.com/neekamhrzn",
+      "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/neekamhrzn/File-Zipping-Software",
+        "title": "File Zipping Software",
+        "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
+        "tech": ["C++", "SFML"]
+      }
+    ]
+  }
 ]
