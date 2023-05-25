@@ -1048,6 +1048,25 @@
       }
     ]
   },
+
+  {
+    "github_username": "ayushlohmod",
+    "Social_media": {
+      "gitHub": "https://github.com/ayushlohmod",
+      "LinkedIn": "https://www.linkedin.com/in/ayush-lohmod-22411a139/",
+      "Instagram": "https://www.instagram.com/ayushlohmod/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/ayushlohmod"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ayushlohmod/shareWall",
+        "title": "ShareWall",
+        "description": "ShareWall is a social media app where you can upload and download photos",
+        "tech": ["React", "Javascript", "TailWindCss", "Sanity "]
+      }
+    ]
+  },
   {
     "github_username": "crocmons",
     "Social_media": {
@@ -1122,7 +1141,7 @@
         "link": "https://github.com/narayan2111/Front_end",
         "title": "Responsive Front-end Design",
         "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
-        "tech": ["Javascript", "CSS", "HTML"]
+        "tech": ["Javascript", "Css", "Html"]
       }
     ]
   },
@@ -1217,6 +1236,25 @@
     ]
   },
   {
+    "github_username": "Hardikaz",
+    "Social_media": {
+      "gitHub": "https://github.com/Hardikaz",
+      "LinkedIn": "https://www.linkedin.com/in/hardik-sharma-52ab7823b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hardik_Sharma4"
+    },
+    "Projects": [
+      {
+        "link": "https://hardikaz.github.io/GitHubUsersAPI/",
+        "title": "GitHub Users API",
+        "description": "This project is made by using GitHub Users API and simple HTML, CSS, JavaScript",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+
+  {
     "github_username": "kunalkashyap-1",
     "Social_media": {
       "gitHub": "https://github.com/kunalkashyap-1",
@@ -1233,9 +1271,9 @@
         "tech": ["React", "Material UI", "Express js", "cherrio"]
       }
     ]
-},
+  },
 
-{
+  {
     "github_username": "jibola2588",
     "Social_media": {
       "gitHub": "https://github.com/jibola2588",
@@ -1307,25 +1345,24 @@
       }
     ]
   },
-{
-  "github_username": "Deepanshu0703",
-  "Social_media": {
-    "gitHub": "https://github.com/Deepanshu0703",
-    "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
+  {
+    "github_username": "Deepanshu0703",
+    "Social_media": {
+      "gitHub": "https://github.com/Deepanshu0703",
+      "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Deepanshu0703/Face-Recognition-and-Emotion-Detection",
+        "title": "Face-Recognition-and-Emotion-Detection",
+        "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
+        "tech": ["Python", "OpenCV", "Keras", "Tensorflow"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/Deepanshu0703/Face-Recognition-and-Emotion-Detection",
-      "title": "Face-Recognition-and-Emotion-Detection",
-      "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
-      "tech": ["Python","OpenCV","Keras","Tensorflow"]
-    }
-    
-  ]
-},
   {
     "github_username": "sangdeepganvir",
     "Social_media": {
@@ -1358,7 +1395,79 @@
         "link": "https://github.com/anamika7153/finalYearProject",
         "title": "ProjektHouse",
         "description": "ProjektHouse is a Web Application for managing final year team data and associated project files. The application enables teams to create an account, log in, and manage their project details and files.",
-        "tech": ["MongoDB", "React","Node","Express"]
+        "tech": ["MongoDB", "React", "Node", "Express"]
+      }
+    ]
+  },
+  {
+    "github_username": "ShreyaDhiman24",
+    "Social_media": {
+      "gitHub": "https://github.com/ShreyaDhiman24",
+      "LinkedIn": "https://www.linkedin.com/in/shreya-dhiman-25a753247/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/ShreyaDhiman17"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ShreyaDhiman24/Thrift",
+        "title": "Thrift",
+        "description": " Thrift is a humanitarian effort dedicated to promoting literacy by offering free old books to learners. Along with them, you can buy OR sell second hand books & your handmade works as well. A unique component of our work is the identification of adjacent NGOs that can place requests for books or other needed items for children, thereby benefiting pupils.",
+        "tech": ["ReactJs", "Firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "neekamhrzn",
+    "Social_media": {
+      "gitHub": "https://github.com/neekamhrzn",
+      "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/neekamhrzn/File-Zipping-Software",
+        "title": "File Zipping Software",
+        "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
+        "tech": ["C++", "SFML"]
+      }
+    ]
+  },
+  {
+    "github_username": "iriteshmishra",
+    "Social_media": {
+      "gitHub": "https://github.com/iriteshmishra",
+      "LinkedIn": "https://www.linkedin.com/in/riteshmishra2/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iriteshmishraa"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/iriteshmishra/Cafe-website",
+        "title": "Cafe Website",
+        "description": "Cafe Website was created so that the users can order cakes or other cafe foods from their own respective place",
+        "tech": ["HTML", "CSS", "PHP", "Mysql"]
+      }
+    ]
+  },
+  {
+    "github_username": "komalioruganti",
+    "Social_media": {
+      "gitHub": "https://github.com/komalioruganti",
+      "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/komalioruganti/ChatGPT-Clone",
+        "title": "ChatGPT-Clone",
+        "description": "A bot that generates text and images for the given prompts.",
+        "tech": ["React", "Node", "Express", "JavaScript", "CSS", "OpenAi API"]
       }
     ]
   }

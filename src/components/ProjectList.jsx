@@ -27,11 +27,11 @@ export default function ProjectList() {
   }, [])
 
   return (
-    <section className="flex flex-col md:flex-row h-screen my-4">
+    <section className="flex flex-col md:flex-row  xs:h-[95vh] sm:h-[90vh] md:h-[100vh] xsm:my-2">
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
-          className="w-full md:w-1/4 mx-2 flex flex-col shadow-white-md rounded-md "
+          className="w-full xsm:w-[95%] xsm:mx-auto sm:h-[100vh] md:w-[36%] lg:max-w-[25%] xl:max-w-[25%] xsm:h-[60vh]  md:ml-1 flex flex-col shadow-white-md rounded-md  "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
@@ -55,9 +55,9 @@ export default function ProjectList() {
           <div className="flex justify-center items-center mb-3 my-10 text-center">
             <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{username}</h3>
           </div>
-          <div className="flex flex-row mx-auto my-2">
+          <div className="flex flex-row xsm:mx-auto my-2 ">
             {userObj["Social_media"]["gitHub"] !== "" && (
-              <div className="mx-4">
+              <div className="mx-5 xsm:mx-2">
                 <a
                   href={userObj["Social_media"]["gitHub"]}
                   target={"_blank"}
@@ -124,9 +124,10 @@ export default function ProjectList() {
           </div>
         </div>
       )}
+
       {/* Projects lists */}
 
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
+      <div className="w-full  xsm:w-[95%] xsm:mx-auto md:w-3/4 md:mx-2 flex flex-col rounded-md">
         <div className="flex justify-start items-center mb-3 my-5 ">
           <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
         </div>
@@ -135,7 +136,7 @@ export default function ProjectList() {
           userObj["Projects"].map((project, index) => {
             return (
               <div
-                className="w-100 min-h-400 my-1"
+                className="w-100 min-h-400 my-1 "
                 key={index}
                 style={{
                   borderRadius: "10px",
@@ -166,7 +167,7 @@ export default function ProjectList() {
                     {project["tech"].map((tag, index) => {
                       return (
                         <p
-                          className={`text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-2 mr-1 mt-1 ${
+                          className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase last:mr-2 mr-1 mt-1 ${
                             theme.mode === "dark" ? "text-black bg-white" : "text-white bg-black"
                           }`}
                           key={index}
