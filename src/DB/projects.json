@@ -1187,7 +1187,7 @@
       {
         "link": "",
         "title": "Travel Agency",
-        "description": "Jadoo is the name of the Website, it's a travel agency website that can help people with their traveling into another country and makes them book a flight ",
+        "description": "Jadoo is the Name, it's a travel agency website that can helps people with their traveling into another country and enable them book any flight of their choice ",
         "tech": ["React js", "TailwindCSS", "Rapid API", "Redux", "Firebase"]
       }
     ]
