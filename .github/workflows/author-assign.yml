@@ -1,4 +1,4 @@
-name: "Auto Author Assign for Pull Request"
+name: "Author Assign"
 
 on:
   pull_request_target:
