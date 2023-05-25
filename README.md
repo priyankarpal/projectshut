@@ -32,7 +32,7 @@ Contributing to open-source software (OSS) projects can be a rewarding and fulfi
 
 ## 🧰 Tech Stack Used
 
-- We're excited to share that our project leverages the power of React for the frontend, and the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive user interface.
+- We're excited to share that our project leverages the power of React for the frontend, and the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive user interface
 
 | Technology                                                                                                                                           | Description                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
