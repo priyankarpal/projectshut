@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">Built for collaboration 🤝</h2>
           <p className="max-w-sm mx-auto mt-4 text-gray-400">
-            ProjectsHut is an open-source project. Feel free to contribute and help us make this project even better
+            ProjectsHut is an open-source project. Feel free to contribute and help us to make this project even better.
           </p>
         </div>
       </div>
