@@ -879,6 +879,12 @@
         "title": "Weather App",
         "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
         "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
+      },
+       {
+        "link": "https://github.com/vishnu-mouli-102408/NewsApp",
+        "title": "News App",
+        "description": "This news application is a big interactive database that tells a news story. Think of it like you would any other piece of journalism.",
+        "tech": ["HTML", "CSS", "JavaScript", "News API", "Bootstrap", "React JS"]
       }
     ]
   },
