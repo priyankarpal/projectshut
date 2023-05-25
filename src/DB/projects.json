@@ -1378,5 +1378,23 @@
         "tech": ["ReactJs", "Firebase"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "neekamhrzn",
+  "Social_media": {
+    "gitHub": "https://github.com/neekamhrzn",
+    "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/neekamhrzn/File-Zipping-Software",
+      "title": "File Zipping Software",
+      "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
+      "tech": ["C++", "SFML"]
+    }
+  ]
+}
 ]
