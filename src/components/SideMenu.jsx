@@ -30,7 +30,7 @@ export default function SideMenu(props) {
             <CloseIcon className="" />
           </IconButton>
         </span>
-        <div className="flex items-center ml-[15%]">
+        <div className="flex items-center ml-[25%]">
           <Link
             to="/"
             className="h-10 mb-5 items-center rounded-lg  font-extrabold text-[2rem] "
@@ -46,7 +46,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/"
-            className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
+            className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
@@ -59,7 +59,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/ProjectsPage"
-            className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
+            className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
@@ -72,7 +72,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/ContributorsPage"
-            className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
+            className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
@@ -85,7 +85,7 @@ export default function SideMenu(props) {
         <li>
           <NavLink
             to="/AddYourProjectsGuide"
-            className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
+            className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
@@ -100,7 +100,7 @@ export default function SideMenu(props) {
             href="https://github.com/priyankarpal/ProjectsHut"
             target={"_blank"}
             rel={"noreferrer"}
-            className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
+            className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"

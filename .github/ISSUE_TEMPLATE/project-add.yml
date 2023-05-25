@@ -1,7 +1,7 @@
 name: 🌱 Project Addition
 description: Add a new project to the list
 title: "data: project addition by "
-labels: ["🌱 chore: projects addition", "👍  status: approved", "gssoc23", "🟨 level 1"]
+labels: ["🌱 chore: projects addition", "👍  status: approved", "gssoc23", "level1"]
 body:
   - type: markdown
     attributes:
