@@ -18,7 +18,7 @@ function ContriButorsPage() {
   // fetch contributor data
   const getContributorData = async () => {
     setLoading(true) // set loading to true when the fetch request is initiated
-    await fetch(`https://api.github.com/repos/priyankarpal/ProjectsHut/contributors?per_page=100`, {
+    await fetch(`https://api.github.com/repos/priyankarpal/ProjectsHut/contributors?per_page=300`, {
       headers: {
         Authorization: ` ${process.env.GITHUB_TOKEN}`,
       },
