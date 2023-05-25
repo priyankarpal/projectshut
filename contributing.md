@@ -56,14 +56,20 @@
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
       "tech": ["tech1", "tech2"]
+    },
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": ["tech1", "tech2"]
     }
   ]
 }
 ```
 
 You should write the full Tech name: <br>
-**👎Bad Tech Names:** js, JS, react, reactjs, css <br>
-**👍Good Tech Names:** Javascript, ReactJS, CSS
+**👎 Bad Tech Names:** js, JS, react, reactjs, css <br>
+**👍 Good Tech Names:** Javascript, ReactJS, CSS
 
 #### 4. Commit all changes.
 
@@ -118,7 +124,7 @@ You should write the full Tech name: <br>
 
     - `git status` (Shows the changed files)
     - `git add .` (Will add all the files to staging area)
-    - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
+    - `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
     - > If you encounter this error while commits
       >
       > ```diff
