@@ -11,7 +11,7 @@
 - The platform's code is freely available to the public, allowing developers from all around the world to contribute to its growth and improvement.
 - **[ProjectsHut](https://projectshut.vercel.app)** offers a user-friendly interface, making it easy to publish projects and share them with others
 
-> Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
+> Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design
 
 ## 🤔 How to contribute ?
 
