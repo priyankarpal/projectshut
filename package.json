@@ -34,7 +34,8 @@
     "react-icons": "^4.8.0",
     "react-paginate": "^8.2.0",
     "react-router-dom": "^6.11.2",
-    "styled-components": "6.0.0-rc.2"
+    "styled-components": "6.0.0-rc.2",
+    "workspace-name": "^0.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
