@@ -1,3 +1,5 @@
+name: "Greetings"
+
 on:
   fork:
   push:
@@ -17,4 +19,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your issue. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!"
           pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for submitting your first pull request. Your contribution is valuable and we appreciate your efforts to improve our project."
-          footer: "We will promptly review your changes and offer feedback. Keep up the excellent work! Please ensure that you have included a valid title, description, and issue number in your pull request. If any of these elements are missing or not linked correctly, we will be unable to merge your pull request."
+          footer: "We will promptly review your changes and offer feedback. Keep up the excellent work! <br> <h2> Please ensure that you have included a valid title, description, and issue number in your pull request. If any of these elements are missing or not linked correctly, we will be unable to merge your pull request. </h2>"
