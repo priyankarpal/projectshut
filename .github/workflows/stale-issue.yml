@@ -20,10 +20,8 @@ jobs:
           # Only close stale issues, leave PRs alone
           days-before-pr-stale: -1
           stale-issue-message: >
-            This issue has been automatically marked as stale because it has been open for 3 days
-            with no activity. It will be closed in next 1 days if no further activity occurs. To
-            permanently prevent this issue from being considered stale, add the label 'not-stale',
-            but commenting on the issue is preferred when possible.
+            This issue has been automatically marked as stale because it has been open for few days
+            with no activity. It will be closed in next 1 days if no further activity occurs.
           close-issue-message: >
             This issue has been closed because it has not received any activity in the last 1 days
             since being marked as 'stale'
