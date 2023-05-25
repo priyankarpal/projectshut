@@ -88,6 +88,11 @@ function ContriButorsPage() {
         pageCount={pageCount}
         previousLabel="< previous"
         renderOnZeroPageCount={null}
+        containerClassName="py-6 flex gap-2 flex-wrap justify-center align-baseline"
+        pageLinkClassName="transition-all border border-solid rounded h-10 w-10 flex items-center justify-center hover:bg-slate-300 whitespace-nowrap"
+        activeLinkClassName="bg-[rgb(166,110,252)] text-white hover:bg-[rgb(166,110,252)]"
+        previousLinkClassName="transition-all border border-solid rounded h-10 px-2 flex items-center justify-center hover:bg-slate-300"
+        nextLinkClassName="transition-all border border-solid rounded h-10 px-4 flex items-center justify-center hover:bg-slate-300 whitespace-nowrap"
       />
     </main>
   )
