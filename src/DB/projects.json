@@ -1415,5 +1415,40 @@
         "tech": ["C++", "SFML"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "iriteshmishra",
+    "Social_media": {
+      "gitHub": "https://github.com/iriteshmishra",
+      "LinkedIn": "https://www.linkedin.com/in/riteshmishra2/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iriteshmishraa"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/iriteshmishra/Cafe-website",
+        "title": "Cafe Website",
+        "description": "Cafe Website was created so that the users can order cakes or other cafe foods from their own respective place",
+        "tech": ["HTML", "CSS", "PHP", "Mysql"]
+      }
+    ]
+  }, {
+      "github_username": "komalioruganti",
+      "Social_media": {
+        "gitHub": "https://github.com/komalioruganti",
+        "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/komalioruganti/ChatGPT-Clone",
+          "title": "ChatGPT-Clone",
+          "description": "A bot that generates text and images for the given prompts.",
+          "tech": ["React","Node","Express","JavaScript","CSS","OpenAi API"]
+        }
+      ]
+    }
 ]
