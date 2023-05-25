@@ -919,6 +919,12 @@
         "title": "BotForge-Discord",
         "description": "A discord bot that does wonders ",
         "tech": ["DiscordJS", "Node.js"]
+      },
+      {
+        "link": "https://github.com/slayerrr12/Cloned-APPS",
+        "title": "Cloned-APPS",
+        "description": "clones i have created for learning purpose in my web dev journey",
+        "tech": ["HTML", "CSS", "Node.js", "VANILLA JAVASCRIPT"]
       }
     ]
   },
