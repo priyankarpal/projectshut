@@ -39,7 +39,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      {window.innerWidth > 768 && <ScrollToTop />}
     </footer>
   )
 }
