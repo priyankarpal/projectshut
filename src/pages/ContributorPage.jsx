@@ -9,7 +9,7 @@ function ContriButorsPage() {
   const [loading, setLoading] = useState(true)
 
   // variable for pagination
-  const itemsPerPage = 40
+  const itemsPerPage = 30
   // hooks for pagination
   const [pageCount, setPageCount] = useState(0)
   const [itemOffset, setItemOffset] = useState(0)
