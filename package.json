@@ -32,6 +32,7 @@
     "react-clamp-lines": "^3.0.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-paginate": "^8.2.0",
     "react-router-dom": "^6.11.2",
     "styled-components": "6.0.0-rc.2"
   },
