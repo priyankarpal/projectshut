@@ -1236,6 +1236,25 @@
     ]
   },
   {
+  "github_username": "Hardikaz",
+  "Social_media": {
+    "gitHub": "https://github.com/Hardikaz",
+    "LinkedIn": "https://www.linkedin.com/in/hardik-sharma-52ab7823b/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Hardik_Sharma4"
+  },
+  "Projects": [
+    {
+      "link": "https://hardikaz.github.io/GitHubUsersAPI/",
+      "title": "GitHub Users API",
+      "description": "This project is made by using GitHub Users API and simple HTML, CSS, JavaScript",
+      "tech": ["HTML","CSS","JavaScript"]
+    }
+  ]
+},
+
+{
     "github_username": "kunalkashyap-1",
     "Social_media": {
       "gitHub": "https://github.com/kunalkashyap-1",
