@@ -1811,5 +1811,29 @@
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
       }
     ]
+  },
+   {
+    "github_username": "hkirat",
+    "Social_media": {
+      "gitHub": "https://github.com/hkirat",
+      "LinkedIn": "https://in.linkedin.com/in/kirat-li",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/channel/UCWX0cUR2rZcqKei1Vstww-A",
+      "Twitter": "https://twitter.com/kirat_tw/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/hkirat/linkedin-bot",
+        "title": "Linkedin-Bot",
+        "description": "Accepting each connection request on linkedin can be overwhelming sometimes, to resolve this issue this linkedin-bot automatically accepts all the connection invitations.",
+        "tech": ["Javascript"]
+      },
+      {
+        "link": "https://github.com/hkirat/peetcode",
+        "title": "PeetCode",
+        "description": "It's an online algorithmic problem solving platform like leetcode where you can run your code. Get a chance to win Airpods by completing bounty.",
+        "tech": ["REACTJS", "CSS", "EXPRESSJS", "HTML"]
+      }
+    ]
   }
 ]
