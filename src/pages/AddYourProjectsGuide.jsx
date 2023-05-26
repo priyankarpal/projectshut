@@ -4,11 +4,30 @@ import { RiGitRepositoryCommitsFill } from "react-icons/ri"
 
 export default function AddYourProjectsGuide() {
   const codeString = `{
-    "gh-username": "YOUR-GITHUB-USERNAME",
-    "link": "LINK-TO-GITHUB-OR-DEMO",
-    "title": "PROJECT-TITLE",
-    "description": "PROJECT-DESCRIPTION",
-    "tech": ["some tech 1", "some tech 2", "etc"]
+      github_username: "YOUR_GITHUB_USERNAME",
+      Social_media: {
+        gitHub: "YOUR_GITHUB_ACCOUNT_LINK",
+        LinkedIn: "YOUR_LINKEDIN_ACCOUNT_LINK",
+        Instagram: "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        YouTube: "YOUR_YOUTUBE_ACCOUNT_LINK",
+        Twitter: "YOUR_TWITTER_ACCOUNT_LINK",
+      },
+      Projects: [
+        {
+          link: "PROJECT_LINK",
+          title: "PROJECT_NAME",
+          description:
+            "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"],
+        },
+        {
+          link: "PROJECT_LINK",
+          title: "PROJECT_NAME",
+          description:
+            "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"],
+        }
+      ]
   }`
 
   return (
@@ -74,7 +93,9 @@ export default function AddYourProjectsGuide() {
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block">{codeString}</code>
+          <code className="block">
+            <pre>{codeString}</pre>
+          </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
               <RiGitRepositoryCommitsFill />
