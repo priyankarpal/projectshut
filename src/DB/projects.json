@@ -1553,3 +1553,21 @@
   ]
 }
 ]
+{
+  "github_username": "manojsai1",
+  "Social_media": {
+    "gitHub": "https://github.com/manojsai1/",
+    "LinkedIn": "https://www.linkedin.com/in/manojsai1/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Offlinite"
+  },
+  "Projects": [
+    {
+      "link": "https://cryptospy.vercel.app/",
+      "title": "Cryptospy",
+      "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
+      "tech": ["REACTJS", "SCSS"]
+    },
+  ]
+}
