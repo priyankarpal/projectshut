@@ -1530,7 +1530,7 @@
   },
   "Projects": [
     {
-      "link": "",
+      "link": "https://hack-codedynamos.vercel.app/home",
       "title": "Cosmic Cravings: A Food Ordering Web App",
       "description": "Developed a food ordering app designed on a Mars-based theme.",
       "tech": ["ReactJS" , "Tailwind CSS", "Firebase"]
