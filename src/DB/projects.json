@@ -191,6 +191,26 @@
       }
     ]
   },
+  
+  {
+    "github_username": "Soumya-Kushwaha",
+    "Social_media": {
+      "gitHub": "https://github.com/Soumya-Kushwaha",
+      "LinkedIn": "https://www.linkedin.com/in/kushwaha-soumya",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Soumya-Kushwaha/Credit-Card-Fraud-Detection",
+        "title": "Credit Card Fraud Detection",
+        "description": "Credit Card Fraud Detection Using Machine Learning & Python",
+        "tech": ["Python", "Data Science", "Machine Learning"]
+      }
+    ]
+  },
+  
   {
     "github_username": "A10-g",
     "Social_media": {
