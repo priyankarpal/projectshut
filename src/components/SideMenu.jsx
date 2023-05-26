@@ -71,19 +71,6 @@ export default function SideMenu(props) {
         </li>
         <li>
           <NavLink
-            to="/ContributorsPage"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-            }`}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {"Contributers"}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/AddYourProjectsGuide"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === "light"
