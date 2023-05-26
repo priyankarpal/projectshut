@@ -4,6 +4,7 @@ import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const paginatedArr = paginate(projects);
 
@@ -82,15 +83,14 @@ const ProjectsPage = () => {
       </h1>
       <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
         Want to add your projects?
-        <a
-          href="https://projectshut.vercel.app/docs"
+        <Link
+          to="/docs"
           rel="noreferrer"
           className="p-2 inline-block rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
         >
           Check documentation <span aria-hidden="true">→</span>
-        </a>
+        </Link>
       </p>
-      <p className="flex justify-center mt-6 text-primary text-center ">Sort project based on technology</p>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
           <Button
