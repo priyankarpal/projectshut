@@ -322,11 +322,11 @@
   {
     "github_username": "ujjawaltyagii",
     "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
+      "gitHub": "https://github.com/ujjawaltyagii",
+      "LinkedIn": "https://www.linkedin.com/in/ujjawal-tyagi-9943a722b/",
+      "Instagram": "https://www.instagram.com/ujjawal.tyagii/",
       "YouTube": "",
-      "Twitter": ""
+      "Twitter": "https://twitter.com/ujjawal_tyagiii"
     },
     "Projects": [
       {
@@ -334,6 +334,24 @@
         "title": "Razorpay Clone",
         "description": "Created Razorpay Clone which is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite.",
         "tech": ["HTML", "Tailwind CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/Sober-Sense",
+        "title": "Sober-Sense",
+        "description": "An AI/ML solution to prevent drunk drive accidents using Face recognition & Speech Recognition.",
+        "tech": ["Python", "Javascript", "Bootstrap", "HTML"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/ImageClassification",
+        "title": "Image-Classifier",
+        "description": "Built an image classifier using Python, Tensorflow and Keras with Jupyter Notebook to classify sad and happy faces.",
+        "tech": ["Python", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/RoomRevamp",
+        "title": "Room Revamp",
+        "description": "A Virtual Interior Designer website where users can upload a photo of their room and customize it with different furniture and decor items.",
+        "tech": ["Tailwind CSS", "Javascript", "HTML"]
       }
     ]
   },
@@ -1809,30 +1827,6 @@
         "title": "Binary Search Tree Visualizer",
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
-      }
-    ]
-  },
-   {
-    "github_username": "hkirat",
-    "Social_media": {
-      "gitHub": "https://github.com/hkirat",
-      "LinkedIn": "https://in.linkedin.com/in/kirat-li",
-      "Instagram": "",
-      "YouTube": "https://www.youtube.com/channel/UCWX0cUR2rZcqKei1Vstww-A",
-      "Twitter": "https://twitter.com/kirat_tw/"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/hkirat/linkedin-bot",
-        "title": "Linkedin-Bot",
-        "description": "Accepting each connection request on linkedin can be overwhelming sometimes, to resolve this issue this linkedin-bot automatically accepts all the connection invitations.",
-        "tech": ["Javascript"]
-      },
-      {
-        "link": "https://github.com/hkirat/peetcode",
-        "title": "PeetCode",
-        "description": "It's an online algorithmic problem solving platform like leetcode where you can run your code. Get a chance to win Airpods by completing bounty.",
-        "tech": ["REACTJS", "CSS", "EXPRESSJS", "HTML"]
       }
     ]
   }
