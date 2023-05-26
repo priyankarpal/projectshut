@@ -27,11 +27,11 @@ export default function ProjectList() {
   }, [])
 
   return (
-    <section className="flex flex-col md:flex-row  xs:h-[95vh] sm:h-[90vh] md:h-[100vh] xsm:my-2">
+    <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
-          className="w-full xsm:w-[95%] xsm:mx-auto sm:h-[100vh] md:w-[36%] lg:max-w-[25%] xl:max-w-[25%] xsm:h-[60vh]  md:ml-1 flex flex-col shadow-white-md rounded-md  "
+          className="w-full md:w-[36%] lg:max-w-[25%] xsm:h-[50vh] md:h-[60vh] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2"
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
@@ -45,15 +45,15 @@ export default function ProjectList() {
             </Link>
           </div>
 
-          <div className="flex justify-center items-center mb-3 my-10">
+          <div className="flex justify-center items-center mb-3 my-10 ">
             <img
               src={`https://github.com/${username}.png`}
               alt={`${username}'s github profile`}
-              className="w-32 h-32  rounded-full"
+              className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg "
             />
           </div>
           <div className="flex justify-center items-center mb-3 my-10 text-center">
-            <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{username}</h3>
+            <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">@{username}</h3>
           </div>
           <div className="flex flex-row xsm:mx-auto my-2 ">
             {userObj["Social_media"]["gitHub"] !== "" && (
@@ -127,16 +127,16 @@ export default function ProjectList() {
 
       {/* Projects lists */}
 
-      <div className="w-full  xsm:w-[95%] xsm:mx-auto md:w-3/4 md:mx-2 flex flex-col rounded-md">
-        <div className="flex justify-start items-center mb-3 my-5 ">
-          <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{"Projects"}</h3>
+      <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md">
+        <div className="flex justify-start items-center mb-5 mt-1">
+          <h3 className="capitalize text-xl font-bold basis-full line-clamp-1 pl-1">Projects</h3>
         </div>
 
         {Object.keys(userObj).length > 0 &&
           userObj["Projects"].map((project, index) => {
             return (
               <div
-                className="w-100 min-h-400 my-1 "
+                className="w-100 my-1 p-4 shadow-lg mb-4"
                 key={index}
                 style={{
                   borderRadius: "10px",
@@ -146,9 +146,9 @@ export default function ProjectList() {
                 }}
               >
                 <div className=" border-b border-gray-600 p-4 relative">
-                  <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1 pl-4">{project["title"]}</p>
-                  <p className=" pr-[.5rem] mb-[1rem] text-[.9rem] my-3 mx-7">{project["description"]}</p>
-                  <span className="absolute top-3 right-5">
+                  <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project["title"]}</p>
+                  <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project["description"]}</p>
+                  <span className="absolute top-0 right-2">
                     <a
                       href={project["link"]}
                       target={"_blank"}
@@ -160,14 +160,14 @@ export default function ProjectList() {
                     </a>
                   </span>
                 </div>
-
-                <div className=" flex flex-row overflow-auto scrollbar items-center ">
-                  <div className="mb-3 line-clamp-2 my-2 mx-6">Tech-Stack : </div>
-                  <div className="flex flex-wrap ">
+                {/* Tech Stack section */}
+                <div className="flex flex-row items-center mt-2 gap-4">
+                  <div className="mr-6 md:mr-4">Tech-Stack : </div>
+                  <div className="flex flex-wrap gap-2">
                     {project["tech"].map((tag, index) => {
                       return (
                         <p
-                          className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase last:mr-2 mr-1 mt-1 ${
+                          className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase  ${
                             theme.mode === "dark" ? "text-black bg-white" : "text-white bg-black"
                           }`}
                           key={index}
