@@ -57,9 +57,9 @@ export default function SideMenu(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to="/ProjectsPage"
+          <NavLink to="/projectspage"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
+
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
@@ -71,8 +71,9 @@ export default function SideMenu(props) {
         </li>
         <li>
           <NavLink
-            to="/AddYourProjectsGuide"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
+            to="/docs"
+              className={`block py-2 px-3 text-left font-bold rounded-md ${
+
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
                 : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
