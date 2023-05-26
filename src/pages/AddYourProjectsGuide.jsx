@@ -93,7 +93,9 @@ export default function AddYourProjectsGuide() {
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block"><pre>{codeString}</pre></code>
+          <code className="block">
+            <pre>{codeString}</pre>
+          </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
               <RiGitRepositoryCommitsFill />
