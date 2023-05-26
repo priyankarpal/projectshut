@@ -4,7 +4,7 @@ const ThemeContext = createContext("light")
 
 const lightTheme = {
   mode: "light",
-  background: "#f5f6fa",
+  background: "#ECF2FF",
   color: "#000",
   icon: "🤓",
   button: {
@@ -19,7 +19,7 @@ const lightTheme = {
 
 const darkTheme = {
   mode: "dark",
-  background: "#000",
+  background: "#191A19",
   color: "#fff",
   icon: "🥸",
   button: {
