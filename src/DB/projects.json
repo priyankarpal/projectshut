@@ -1571,6 +1571,24 @@
   ]
 },
 {
+  "github_username": "anirudhsalaria",
+  "Social_media": {
+    "gitHub": "https://github.com/anirudhsalaria",
+    "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+    "Instagram": "https://www.instagram.com/salariaanirudh",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/anirudhsalaria/Harrypotter",
+      "title": "HarryPotter Website",
+      "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
+      "tech": ["HTML5", "CSS3"]
+    }
+   ]
+},
+ {
   "github_username": "manojsai1",
   "Social_media": {
     "gitHub": "https://github.com/manojsai1/",
@@ -1585,6 +1603,7 @@
       "title": "Cryptospy",
       "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
       "tech": ["REACTJS", "SCSS"]
+
     }
   ]
 }
