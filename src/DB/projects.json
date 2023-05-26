@@ -1501,6 +1501,24 @@
     }
   ]
 },
+{
+  "github_username": "Kumudhaart",
+  "Social_media": {
+    "gitHub": "https://github.com/Kumudhaart",
+    "LinkedIn": "https://www.linkedin.com/in/kumudha-m-9aa95020a/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Kumudhaart/Tindog",
+      "title": "Tindog E-Commerece website",
+      "description": "Tindog website is a E-Commerce Website for dog lovers.Tinndog website is user freindly and responsive",
+      "tech": ["HTML5", "CSS3","Javascript","Bootstrap"]
+    }
+    ]
+},
   {
   "github_username": "AgamK18",
   "Social_media": {
