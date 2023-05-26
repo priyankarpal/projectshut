@@ -19,7 +19,6 @@ async function fetchData() {
 
 export async function loader() {
   const data = fetchData()
-  console.log(await data)
   return defer({ data: data })
 }
 
