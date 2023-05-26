@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import '../CSS/index.css';
@@ -54,6 +54,23 @@ const Navbar = () => {
 
   const switchTrackColor = theme.mode === 'dark' ? '#9CA3AF' : undefined;
 
+  //  GitHub API to show the version number
+  const [latestRelease, setLatestRelease] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://api.github.com/repos/priyankarpal/projectshut/releases/latest');
+        const data = await response.json();
+        setLatestRelease(data);
+      } catch (error) {
+        console.log('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2">
       <div className="flex flex-row gap-4 justify-between w-full">
@@ -107,6 +124,18 @@ const Navbar = () => {
                 <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-[#7e7e7e] transition-[0.3s]" />
               </label>
             </li>
+            {/*  To show the version number  */}
+            <div className="hidden md:block">
+              {latestRelease ? (
+                <div>
+                  <a href={latestRelease.html_url} target="_blank" rel="noreferrer">
+                    {latestRelease.tag_name}
+                  </a>
+                </div>
+              ) : (
+                <span>Loading...</span>
+              )}
+            </div>
           </div>
           <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
             {theme.mode === 'light' ? (
