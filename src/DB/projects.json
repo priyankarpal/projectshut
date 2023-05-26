@@ -1,5 +1,23 @@
 [
   {
+  "github_username": "sumitkr2000",
+  "Social_media": {
+    "gitHub": "https://github.com/sumitkr2000",
+    "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+    "Instagram": "",
+    "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/sumitkr2000/yoga",
+      "title": "Yoga Website",
+      "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+      "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+    }
+  ]
+},
+  {
     "github_username": "priyankarpal",
     "Social_media": {
       "gitHub": "https://github.com/priyankarpal",
