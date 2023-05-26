@@ -90,7 +90,7 @@ const HomePage = () => {
                 </div>
 
                 <Link
-                  to="ProjectsPage"
+                  to="/projectspage"
                   className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold"
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,

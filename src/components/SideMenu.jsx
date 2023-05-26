@@ -58,7 +58,7 @@ export default function SideMenu(props) {
         </li>
         <li>
           <NavLink
-            to="/ProjectsPage"
+            to="/projectspage"
             className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
@@ -71,7 +71,7 @@ export default function SideMenu(props) {
         </li>
         <li>
           <NavLink
-            to="/ContributorsPage"
+            to="/contributorspage"
             className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
@@ -79,12 +79,12 @@ export default function SideMenu(props) {
             }`}
             onClick={() => props.handleDrawerToggle()}
           >
-            {"Contributers"}
+            {"Contributors"}
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/AddYourProjectsGuide"
+            to="/docs"
             className={`inline-block py-2 px-3 text-center font-bold rounded-md ${
               theme.mode === "light"
                 ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
