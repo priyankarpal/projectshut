@@ -1478,6 +1478,43 @@
     ]
   },
   {
+    "github_username": "Princessayomide53",
+    "Social_media": {
+      "gitHub": "https://github.com/Princessayomide53",
+      "LinkedIn": "https://www.linkedin.com/in/princess-ayomide-ogunnaike-235b25211",
+      "Instagram": "https://www.instagram.com/thenextdoorchick",
+      "YouTube": "payomide53@gmail.com",
+      "Twitter": "https://twitter.com/Princy_koko"
+    },
+    "Projects": [
+      {
+        "link": "https://jadoo-blond.vercel.app/",
+        "title": "Travel Agency",
+        "description": "Jadoo is the Name, it's a travel agency website that can helps people with their traveling into another country and enable them book any flight of their choice ",
+        "tech": ["React js", "TailwindCSS", "Rapid API", "Redux", "Firebase"]
+      }
+    ]
+  },
+{
+  "github_username": "Swapnil-Singh-99",
+  "Social_media": {
+    "gitHub": "https://github.com/Swapnil-Singh-99",
+    "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
+      "title": "Rock Paper Scissors",
+      "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
+      "tech": ["HTML", "CSS", "Javascript"]
+    }
+  ]
+},
+ {
+
     "github_username": "Swapnil-Singh-99",
     "Social_media": {
       "gitHub": "https://github.com/Swapnil-Singh-99",
