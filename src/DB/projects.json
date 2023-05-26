@@ -1478,21 +1478,21 @@
     ]
   },
   {
-  "github_username": "Swapnil-Singh-99",
-  "Social_media": {
-    "gitHub": "https://github.com/Swapnil-Singh-99",
-    "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
-      "title": "Rock Paper Scissors",
-      "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
-      "tech": ["HTML", "CSS", "Javascript"]
-    }
-  ]
-}
+    "github_username": "Swapnil-Singh-99",
+    "Social_media": {
+      "gitHub": "https://github.com/Swapnil-Singh-99",
+      "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
+        "title": "Rock Paper Scissors",
+        "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  }
 ]
