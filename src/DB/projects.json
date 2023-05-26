@@ -1513,5 +1513,55 @@
       }
     ]
   },
-  
+  {
+  "github_username": "AgamK18",
+  "Social_media": {
+    "gitHub": "https://github.com/AgamK18",
+    "LinkedIn": "https://www.linkedin.com/in/agamk18/"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/AgamK18/CrypTracker",
+      "title": "CrypTracker",
+      "description": "User can search for any cryptocurrency and see details about the same. The user can also follow latest news about the domain.",
+      "tech": ["ReactJS", "Tailwind CSS", "tsPartciles"]
+    }
+    ]
+},
+{
+  "github_username": "abhay-raj19",
+  "Social_media": {
+    "gitHub": "www.github.com/abhay-raj19",
+    "LinkedIn": "www.linkedin.com/in/abhay-raj19",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "www.twitter.com/abhayraj423"
+  },
+  "Projects": [
+    {
+      "link": "https://drum-kit-one-nu.vercel.app/",
+      "title": "Drum Kit",
+      "description": "A Simple Drum kit website ,used for playing diffrent drums sound using a website users can play by both using keyboard and by clicking on it.",
+      "tech": ["HTML", "JavaScript","CSS"]
+    }
+  ]
+},
+  {
+  "github_username": "poojaramnaney",
+  "Social_media": {
+    "gitHub": "https://github.com/poojaramnaney",
+    "LinkedIn": "https://www.linkedin.com/in/pooja-ramnaney/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/pooja_ramnaney"
+  },
+  "Projects": [
+    {
+      "link": "https://hack-codedynamos.vercel.app/home",
+      "title": "Cosmic Cravings: A Food Ordering Web App",
+      "description": "Developed a food ordering app designed on a Mars-based theme.",
+      "tech": ["ReactJS" , "Tailwind CSS", "Firebase"]
+    }
+  ]
+}
 ]
