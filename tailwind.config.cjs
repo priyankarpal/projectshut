@@ -16,6 +16,7 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
+        // these are the theme colors don't change them
         primary: '#A66EFC',
         secondary: '#000513',
       },
