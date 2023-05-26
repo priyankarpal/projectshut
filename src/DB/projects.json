@@ -1,22 +1,22 @@
 [
   {
-  "github_username": "sumitkr2000",
-  "Social_media": {
-    "gitHub": "https://github.com/sumitkr2000",
-    "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
-    "Instagram": "",
-    "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
-    "Twitter": ""
+    "github_username": "sumitkr2000",
+    "Social_media": {
+      "gitHub": "https://github.com/sumitkr2000",
+      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/sumitkr2000/yoga",
+        "title": "Yoga Website",
+        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/sumitkr2000/yoga",
-      "title": "Yoga Website",
-      "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
-      "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
-    }
-  ]
-},
   {
     "github_username": "priyankarpal",
     "Social_media": {
@@ -209,7 +209,7 @@
       }
     ]
   },
-  
+
   {
     "github_username": "Soumya-Kushwaha",
     "Social_media": {
@@ -228,7 +228,7 @@
       }
     ]
   },
-  
+
   {
     "github_username": "A10-g",
     "Social_media": {
@@ -1693,43 +1693,42 @@
     ]
   },
   {
-  "github_username": "coder12git",
-  "Social_media": {
-    "gitHub": "https://github.com/coder12git",
-    "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/Suruchi18591098"
+    "github_username": "coder12git",
+    "Social_media": {
+      "gitHub": "https://github.com/coder12git",
+      "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Suruchi18591098"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coder12git/PoweringSTEMHacks",
+        "title": "Diagnose",
+        "description": "Skin cancer detection from your skin images.",
+        "tech": ["Python", "TensorFlow", "Streamlit", "Machine learning"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/coder12git/PoweringSTEMHacks",
-      "title": "Diagnose",
-      "description": "Skin cancer detection from your skin images.",
-      "tech": ["Python", "TensorFlow", "Streamlit", "Machine learning"]
-    }
-  ]
-},
-{
-
-  "github_username": "sangdeepganvir",
-  "Social_media": {
-    "gitHub": "https://github.com/sangdeepganvir",
-    "LinkedIn": "https://www.linkedin.com/in/sanghdeep-ganvir-b2016a173/",
-    "Instagram": "https://instagram.com/sanghdeep.jnv?igshid=OTk0YzhjMDVlZA==",
-    "YouTube": "",
-    "Twitter": ""
+  {
+    "github_username": "sangdeepganvir",
+    "Social_media": {
+      "gitHub": "https://github.com/sangdeepganvir",
+      "LinkedIn": "https://www.linkedin.com/in/sanghdeep-ganvir-b2016a173/",
+      "Instagram": "https://instagram.com/sanghdeep.jnv?igshid=OTk0YzhjMDVlZA==",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://sangdeepganvir.github.io/HuffmanCompressor/",
+        "title": "Huffman-Compressor",
+        "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
+        "tech": ["Html", "CSS", "Javascript", "C++"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://sangdeepganvir.github.io/HuffmanCompressor/",
-      "title": "Huffman-Compressor",
-      "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
-      "tech": ["Html","CSS","Javascript","C++"]
-    }
-  ]
-},
-{
+  {
     "github_username": "anirudhsalaria",
     "Social_media": {
       "gitHub": "https://github.com/anirudhsalaria",
@@ -1808,8 +1807,8 @@
       {
         "link": "https://github.com/roshan798/Binary-Search-Tree-Visualizer",
         "title": "Binary Search Tree Visualizer",
-        "description":"This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
-        "tech": ["Html", "Css","JavaScript","D3.js"]
+        "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
+        "tech": ["Html", "Css", "JavaScript", "D3.js"]
       }
     ]
   }

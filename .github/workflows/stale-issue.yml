@@ -1,7 +1,7 @@
-name: "Close Stale Issues"
+name: 'Close Stale Issues'
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: '0 8 * * *'
 
 permissions:
   # All other permissions are set to none
@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/stale@v4.1.1
         with:
-          stale-issue-label: "stale"
-          exempt-issue-labels: "not-stale"
+          stale-issue-label: 'stale'
+          exempt-issue-labels: 'not-stale'
           days-before-issue-stale: 3
           days-before-issue-close: 1
           # Only close stale issues, leave PRs alone

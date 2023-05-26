@@ -1,9 +1,9 @@
-import { ProjectsPage, HomePage, AddYourProjectsGuide } from "./pages"
-import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } from "react-router-dom"
-import PageNotFound from "./components/PageNotFound"
-import ProjectList from "./components/ProjectList"
-import Layout from "./components/Layout"
-import { ThemeProvider } from "./context/Theme"
+import { ProjectsPage, HomePage, AddYourProjectsGuide } from './pages';
+import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } from 'react-router-dom';
+import PageNotFound from './components/PageNotFound';
+import ProjectList from './components/ProjectList';
+import Layout from './components/Layout';
+import { ThemeProvider } from './context/Theme';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,14 +15,14 @@ const router = createBrowserRouter(
       <Route path="*" element={<PageNotFound />} />
     </Route>,
   ),
-)
+);
 
 function App() {
   return (
     <ThemeProvider>
       <RouterProvider router={router} />
     </ThemeProvider>
-  )
+  );
 }
 
-export default App
+export default App;

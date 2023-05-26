@@ -1,34 +1,34 @@
-import React, { useState, useContext } from "react"
-import { Link, NavLink } from "react-router-dom"
-import { FaGithub } from "react-icons/fa"
-import "../CSS/index.css"
-import LightModeIcon from "@mui/icons-material/LightMode"
-import DarkModeIcon from "@mui/icons-material/DarkMode"
-import SideMenu from "./SideMenu"
-import Drawer from "@mui/material/Drawer"
-import IconButton from "@mui/material/IconButton"
-import MenuIcon from "@mui/icons-material/Menu"
-import { ThemeContext } from "../context/Theme"
-import { MoonIcon, SunIcon } from "../assets/svgIcons"
+import React, { useState, useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { FaGithub } from 'react-icons/fa';
+import '../CSS/index.css';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import SideMenu from './SideMenu';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import { ThemeContext } from '../context/Theme';
+import { MoonIcon, SunIcon } from '../assets/svgIcons';
 
 const Navbar = () => {
-  const [mobileOpen, setMobileOpen] = useState(false)
-  const { theme, toggleTheme } = useContext(ThemeContext)
-  const { navbar } = theme
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { navbar } = theme;
   const navLinks = [
     {
-      name: "Home",
-      path: "/",
+      name: 'Home',
+      path: '/',
     },
     {
-      name: "Projects",
-      path: "/projectspage",
+      name: 'Projects',
+      path: '/projectspage',
     },
     {
-      name: "Docs",
-      path: "/docs",
+      name: 'Docs',
+      path: '/docs',
     },
-  ]
+  ];
 
   const navLinkEls = navLinks.map((navLink) => (
     <li key={navLink.path}>
@@ -36,23 +36,23 @@ const Navbar = () => {
         to={navLink.path}
         className={({ isActive }) =>
           `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-            theme.mode === "light"
-              ? `hover:text-white hover:bg-black transiton-all duration-200 ${isActive && "text-white bg-black"}`
-              : `hover:text-black hover:bg-white transiton-all duration-200 ${isActive && "text-black bg-white"}`
+            theme.mode === 'light'
+              ? `hover:text-white hover:bg-black transiton-all duration-200 ${isActive && 'text-white bg-black'}`
+              : `hover:text-black hover:bg-white transiton-all duration-200 ${isActive && 'text-black bg-white'}`
           }`
         }
       >
         {navLink.name}
       </NavLink>
     </li>
-  ))
+  ));
 
   const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen)
-  }
-  let light = theme.mode === "light"
+    setMobileOpen(!mobileOpen);
+  };
+  let light = theme.mode === 'light';
 
-  const switchTrackColor = theme.mode === "dark" ? "#9CA3AF" : undefined
+  const switchTrackColor = theme.mode === 'dark' ? '#9CA3AF' : undefined;
 
   return (
     <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2">
@@ -109,7 +109,7 @@ const Navbar = () => {
             </li>
           </div>
           <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
-            {theme.mode === "light" ? (
+            {theme.mode === 'light' ? (
               <div>
                 <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
               </div>
@@ -129,14 +129,14 @@ const Navbar = () => {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            "& .MuiDrawer-paper": { boxSizing: "border-box", width: "56%" },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '56%' },
           }}
         >
           <SideMenu handleDrawerToggle={handleDrawerToggle} />
         </Drawer>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

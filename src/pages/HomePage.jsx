@@ -1,11 +1,11 @@
-import React, { useContext } from "react"
-import { Link } from "react-router-dom"
-import Banner from "../components/Banner"
-import { ThemeContext } from "../context/Theme"
-import images from "../DB/homepage-image.json"
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import Banner from '../components/Banner';
+import { ThemeContext } from '../context/Theme';
+import images from '../DB/homepage-image.json';
 
 const HomePage = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
 
   return (
     <section>
@@ -82,7 +82,7 @@ const HomePage = () => {
       </div>
       <Banner />
     </section>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

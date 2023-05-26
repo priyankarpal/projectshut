@@ -1,79 +1,79 @@
-import React, { useEffect, useState } from "react"
-import { ProjectCard } from "../components"
-import projects from "../DB/projects.json"
-import techStack from "../utils/techStack"
-import { paginate } from "../utils/paginate"
-import { Button } from "@mui/material"
+import React, { useEffect, useState } from 'react';
+import { ProjectCard } from '../components';
+import projects from '../DB/projects.json';
+import techStack from '../utils/techStack';
+import { paginate } from '../utils/paginate';
+import { Button } from '@mui/material';
 
-const paginatedArr = paginate(projects)
+const paginatedArr = paginate(projects);
 
 const ProjectsPage = () => {
   //used the json format to avoid code repeatation
-  const [page, setPage] = useState({ pageNo: 0, prev: false, next: false })
-  const [currentItems, setItems] = useState([])
-  const [selectedButton, setSelectedButton] = useState(null)
+  const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
+  const [currentItems, setItems] = useState([]);
+  const [selectedButton, setSelectedButton] = useState(null);
 
   // this useEffect is for when user click on pagination button then render only that page projects
 
   useEffect(() => {
     //checks if the current page is the last page
-    page.next = page.pageNo === paginatedArr.length - 1 ? true : false
+    page.next = page.pageNo === paginatedArr.length - 1 ? true : false;
     //checks if the current page is the first page
-    page.prev = page.pageNo === 0 ? true : false
-    setPage({ ...page })
+    page.prev = page.pageNo === 0 ? true : false;
+    setPage({ ...page });
 
-    const data = paginatedArr[page.pageNo]
-    setItems(data)
+    const data = paginatedArr[page.pageNo];
+    setItems(data);
 
-    window.scrollTo(0, 0) // this makes the page scroll to top on page state changes
-  }, [page.pageNo])
+    window.scrollTo(0, 0); // this makes the page scroll to top on page state changes
+  }, [page.pageNo]);
 
   // this useEffect is for when user clear the filter (double click) then render only that page projects
 
   useEffect(() => {
     if (selectedButton === null) {
-      setItems(paginatedArr[page.pageNo])
-      return
+      setItems(paginatedArr[page.pageNo]);
+      return;
     }
-  }, [selectedButton])
+  }, [selectedButton]);
 
   // this function will filter project based on selected technology and set the state of items
 
   const handleQuery = (index) => {
-    setSelectedButton((prev) => (prev === index ? null : index))
-    const regexPattern = new RegExp(techStack[index], "i")
-    let currProjects = []
+    setSelectedButton((prev) => (prev === index ? null : index));
+    const regexPattern = new RegExp(techStack[index], 'i');
+    let currProjects = [];
     projects?.map((obj) => {
-      let arr = obj["Projects"][0].tech
+      let arr = obj['Projects'][0].tech;
       for (let i = 0; i < arr.length; i++) {
         if (regexPattern.test(arr[i])) {
-          currProjects.push(obj)
-          break
+          currProjects.push(obj);
+          break;
         }
       }
-    })
-    setItems(currProjects)
-  }
+    });
+    setItems(currProjects);
+  };
 
   const prevPage = () => {
     if (page.pageNo - 1 < 0) {
-      page.pageNo = paginatedArr.length - 1
-      setPage({ ...page })
-      return
+      page.pageNo = paginatedArr.length - 1;
+      setPage({ ...page });
+      return;
     }
-    page.pageNo = page.pageNo - 1
-    setPage({ ...page })
-  }
+    page.pageNo = page.pageNo - 1;
+    setPage({ ...page });
+  };
 
   const nextPage = () => {
-    page.pageNo = (page.pageNo + 1) % paginatedArr.length
-    setPage({ ...page })
-  }
+    page.pageNo = (page.pageNo + 1) % paginatedArr.length;
+    setPage({ ...page });
+  };
 
   const handleSetPage = (ind) => {
-    page.pageNo = ind
-    setPage({ ...page })
-  }
+    page.pageNo = ind;
+    setPage({ ...page });
+  };
 
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
@@ -96,10 +96,10 @@ const ProjectsPage = () => {
           <Button
             key={index}
             onClick={() => handleQuery(index)}
-            variant={selectedButton === index ? "contained" : "outlined"}
+            variant={selectedButton === index ? 'contained' : 'outlined'}
             className="bg-primary hover:bg-slate-200"
           >
-            <span className={selectedButton == index ? "text-white" : "text-primary"}> {tech.toLowerCase()}</span>
+            <span className={selectedButton == index ? 'text-white' : 'text-primary'}> {tech.toLowerCase()}</span>
           </Button>
         ))}
       </div>
@@ -108,9 +108,9 @@ const ProjectsPage = () => {
       <section className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh] ">
         {currentItems.map((item, i) => (
           <ProjectCard
-            github_username={item["github_username"]}
-            listOfProjects={item["Projects"]}
-            socaialMedia={item["Social_media"]}
+            github_username={item['github_username']}
+            listOfProjects={item['Projects']}
+            socaialMedia={item['Social_media']}
             key={i}
           />
         ))}
@@ -134,14 +134,14 @@ const ProjectsPage = () => {
               <button
                 type="button"
                 className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
-                  page.pageNo === ind ? "text-primary" : null
+                  page.pageNo === ind ? 'text-primary' : null
                 }`}
                 onClick={() => handleSetPage(ind)}
                 key={ind}
               >
                 {ind + 1}
               </button>
-            )
+            );
           })}
           <button
             type="button"
@@ -156,7 +156,7 @@ const ProjectsPage = () => {
         </div>
       )}
     </main>
-  )
-}
+  );
+};
 
-export default ProjectsPage
+export default ProjectsPage;
