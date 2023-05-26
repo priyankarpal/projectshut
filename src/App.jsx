@@ -1,12 +1,16 @@
-import React, { useState, useEffect, useContext } from "react"
+import React, { useState, useEffect, useContext, lazy, Suspense } from "react"
 import { Navbar, Footer } from "./components"
-import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
 import { Route, Routes, useLocation } from "react-router-dom"
 import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
 import ProjectList from "./components/ProjectList"
 import { ThemeContext } from "./context/Theme"
 import ScrollToTop from "./components/ScrollToTop"
+
+const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
+const HomePage = lazy(() => import("./pages/HomePage"));
+const ContriButorsPage = lazy(() => import("./pages/ContributorsPage"));
+const AddYourProjectsGuide = lazy(() => import("./pages/AddYourProjectsGuide"));
 
 function App() {
   const { theme } = useContext(ThemeContext)
@@ -37,10 +41,26 @@ function App() {
           <ScrollToTop />
           <Routes>
             <Route path="/projects/:username" element={<ProjectList />} />
-            <Route path="/" element={<HomePage />} />
-            <Route path="/projectspage" element={<ProjectsPage />} />
-            <Route path="/contributorspage" element={<ContriButorsPage />} />
-            <Route path="/docs" element={<AddYourProjectsGuide />} />
+            <Route path="/" element={
+              <Suspense fallback={<SplashScreen />}>
+                <HomePage />
+              </Suspense>
+            } />
+            <Route path="/projectspage" element={
+              <Suspense fallback={<SplashScreen />}>
+                <ProjectsPage />
+              </Suspense>
+            } />
+            <Route path="/contributorspage" element={
+              <Suspense fallback={<SplashScreen />}>
+                <ContriButorsPage />
+              </Suspense>
+            } />
+            <Route path="/docs" element={
+              <Suspense fallback={<SplashScreen />}>
+                <AddYourProjectsGuide />
+              </Suspense>
+            } />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
