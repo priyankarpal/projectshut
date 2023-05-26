@@ -1501,6 +1501,21 @@
     }
   ]
 },
+  {
+  "github_username": "AgamK18",
+  "Social_media": {
+    "gitHub": "https://github.com/AgamK18",
+    "LinkedIn": "https://www.linkedin.com/in/agamk18/"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/AgamK18/CrypTracker",
+      "title": "CrypTracker",
+      "description": "User can search for any cryptocurrency and see details about the same. The user can also follow latest news about the domain.",
+      "tech": ["ReactJS", "Tailwind CSS", "tsPartciles"]
+    }
+    ]
+},
 {
   "github_username": "abhay-raj19",
   "Social_media": {
