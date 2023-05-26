@@ -1585,7 +1585,7 @@
       "title": "Cryptospy",
       "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
       "tech": ["REACTJS", "SCSS"]
-    },
+    }
   ]
 }
 ]
