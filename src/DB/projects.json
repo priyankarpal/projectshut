@@ -1,5 +1,23 @@
 [
   {
+    "github_username": "SasiVardhan247",
+    "Social_media": {
+      "gitHub": "https://github.com/SasiVardhan247",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/SasiVardhan247/UserLocation",
+        "title": "User Location",
+        "description": "User Location WebApp is useful in many real-world cases to locate the nearest available surrounding people. It's useful to locate Hospitals in case of emergency and also all the nearest visiting places.",
+        "tech": ["Java","Springboot","gradle"]
+      }
+    ]
+  },
+  {
     "github_username": "sumitkr2000",
     "Social_media": {
       "gitHub": "https://github.com/sumitkr2000",
