@@ -82,3 +82,12 @@ body {
 }
 @tailwind components;
 @tailwind utilities;
+
+/* For Navbar CSS   */
+
+input:checked + label svg.sun {
+  fill: #7e7e7e;
+}
+input:checked + label svg.moon {
+  fill: black;
+}
