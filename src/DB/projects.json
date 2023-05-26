@@ -1659,5 +1659,29 @@
         "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
       }
     ]
+  },
+  {
+    "github_username": "suravshrestha",
+    "Social_media": {
+      "gitHub": "https://github.com/suravshrestha",
+      "LinkedIn": "https://www.linkedin.com/in/surav-shrestha-222122231/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/suravshrestha/derma",
+        "title": "Derma",
+        "description": "An Artificial Intelligence application for predicting skin diseases.",
+        "tech": ["Node.js", "Express.js", "MongoDB", "React.js", "Python", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/suravshrestha/visualizeit",
+        "title": "VisualizeIT",
+        "description": "Interactive visualization tool for pathfinding, backtracking, and recursion algorithms.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js"]
+      }
+    ]
   }
 ]
