@@ -1617,5 +1617,47 @@
         "tech": ["REACTJS", "SCSS"]
       }
     ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anirudhsalaria/Harrypotter",
+        "title": "HarryPotter Website",
+        "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
+        "tech": ["HTML5", "CSS3"]
+      }
+    ]
+  },
+  {
+    "github_username": "iamharshkr",
+    "Social_media": {
+      "gitHub": "https://github.com/iamharshkr/",
+      "LinkedIn": "https://www.linkedin.com/in/iamharshk/",
+      "Instagram": "https://instagram.com/iamharshk",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamharshk01"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/iamharshkr/thrifty-thumbs",
+        "title": "Thrifty Thumbs",
+        "description": "Thrifty Thumbs is a price comparison website that helps users to find the best deals on products from various online stores. With Thrifty Thumbs, users can compare prices of a product across different stores like Amazon, Flipkart, Reliance Digital, and Shopclues.",
+        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+      },
+      {
+        "link": "https://github.com/iamharshkr/apnastock",
+        "title": "Apna Stock",
+        "description": "You can use our tool for the analysis the stock and also you can predict the price of stock. We use some of the best indicators for the analysis of the stock, Eg: Simple Moving Average, Bollinger Bands, Stochastic Oscillator, Commodity Channel Index And RSI. By analyzing these indicators you can predict the movement of the stock.",
+        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+      }
+    ]
   }
 ]
