@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 import { Link } from 'react-router-dom';
 
-function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
+function ProjectCard({ github_username, listOfProjects }) {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -24,16 +24,10 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
           />
         </div>
 
-        {/* <div className=" text-gray-400 flex flex-row overflow-auto scrollbar items-center">
-          {listOfProjects[0]["tech"].map((tag, i) => (
-            <p className="line-clamp-1 text-gray-3  00  pr-[.5rem] mb-[1rem] text-[.7rem]" key={i}>
-              {tag}
-            </p>
-          ))}
-        </div> */}
         <p className="mb-2 line-clamp-2">{listOfProjects[0]['description']}</p>
 
         <div className="flex flex-row justify-between">
+          {/*  GitHub Link Button */}
           <div>
             <a
               href={listOfProjects[0]['link']}
@@ -48,6 +42,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
             </a>
           </div>
           <div>
+            {/* for user profile card page button  */}
             <Link
               to={`/projects/${github_username.toLowerCase()}`}
               className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
