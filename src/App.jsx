@@ -4,6 +4,7 @@ import PageNotFound from "./components/PageNotFound"
 import ProjectList from "./components/ProjectList"
 import Layout from "./components/Layout"
 import { ThemeProvider } from "./context/Theme"
+import { loader as contributorsPageLoader } from "./pages/ContributorsPage"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -12,7 +13,7 @@ const router = createBrowserRouter(
       <Route path="projectspage" element={<ProjectsPage />} />
       <Route path="projects/:username" element={<ProjectList />} />
       <Route path="docs" element={<AddYourProjectsGuide />} />
-      <Route path="contributorspage" element={<ContriButorsPage />} />
+      <Route loader={contributorsPageLoader} path="contributorspage" element={<ContriButorsPage />} />
       <Route path="*" element={<PageNotFound />} />
     </Route>,
   ),
