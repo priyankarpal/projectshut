@@ -1704,5 +1704,23 @@
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
       }
     ]
+  },
+  {
+      "github_username": "WajeehaCodes",
+      "Social_media": {
+        "gitHub": "https://github.com/WajeehaCodes",
+        "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
+          "title": "Shopping Cart JS",
+          "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
+          "tech": ["HTML", "CSS", "JavaScript"]
+        }
+      ]
   }
 ]
