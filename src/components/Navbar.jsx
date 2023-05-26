@@ -2,7 +2,6 @@ import React, { useState, useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
-import "./componentStyle/navbar.css"
 import LightModeIcon from "@mui/icons-material/LightMode"
 import DarkModeIcon from "@mui/icons-material/DarkMode"
 import SideMenu from "./SideMenu"
@@ -10,7 +9,6 @@ import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
 import { ThemeContext } from "../context/Theme"
-import Switch from "@mui/material/Switch"
 import { MoonIcon, SunIcon } from "../assets/svgIcons"
 
 const Navbar = () => {
@@ -30,10 +28,6 @@ const Navbar = () => {
       name: "Docs",
       path: "/docs",
     },
-    {
-      name: "Contributors",
-      path: "/contributorspage",
-    },
   ]
 
   const navLinkEls = navLinks.map((navLink) => (
@@ -43,8 +37,8 @@ const Navbar = () => {
         className={({ isActive }) =>
           `inline-block py-2 px-3 text-center font-bold  rounded-md ${
             theme.mode === "light"
-              ? `hover:text-white hover:bg-black ${isActive && "text-white bg-black"}`
-              : `hover:text-black hover:bg-white ${isActive && "text-black bg-white"}`
+              ? `hover:text-white hover:bg-black transiton-all duration-200 ${isActive && "text-white bg-black"}`
+              : `hover:text-black hover:bg-white transiton-all duration-200 ${isActive && "text-black bg-white"}`
           }`
         }
       >
@@ -62,7 +56,7 @@ const Navbar = () => {
 
   return (
     <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row gap-4 justify-between w-full">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
@@ -99,7 +93,7 @@ const Navbar = () => {
 
             <li className="md:flex flex-col-reverse  hidden">
               <input
-                onClick={toggleTheme}
+                onChange={toggleTheme}
                 checked={light}
                 className="hidden w-0 h-0 checked:bg-[#ebebeb] transform:left-[78px] transform:translate-x-[-100%] transform:bg-gradient-to-b transform:from-white transform:to-white"
                 type="checkbox"

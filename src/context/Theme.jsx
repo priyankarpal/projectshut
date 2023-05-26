@@ -2,11 +2,12 @@ import React, { createContext, useState, useEffect } from "react"
 
 const ThemeContext = createContext("light")
 
+//  light theme object
+
 const lightTheme = {
   mode: "light",
   background: "#f5f6fa",
   color: "#000",
-  icon: "🤓",
   button: {
     buttonBgColor: "#000",
     buttonTextColor: "#fff",
@@ -17,11 +18,12 @@ const lightTheme = {
   },
 }
 
+// Dark theme object
+
 const darkTheme = {
   mode: "dark",
   background: "#000",
   color: "#fff",
-  icon: "🥸",
   button: {
     buttonBgColor: "#fff",
     buttonTextColor: "#000",
@@ -33,7 +35,7 @@ const darkTheme = {
 }
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState(lightTheme)
+  const [theme, setTheme] = useState(darkTheme) // Set darkTheme as the initial value
 
   const toggleTheme = () => {
     const newTheme = theme === lightTheme ? darkTheme : lightTheme
