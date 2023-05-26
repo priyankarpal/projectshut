@@ -148,16 +148,6 @@ export default function AddYourProjectsGuide() {
           <span>
             <AiTwotoneFile />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
-            Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
-          </p>
-        </div>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <AiTwotoneFile />
-          </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
         <code className="block">pnpm i</code>
