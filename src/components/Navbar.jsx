@@ -2,7 +2,6 @@ import React, { useState, useContext } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { FaGithub } from "react-icons/fa"
 import "../CSS/index.css"
-import "./componentStyle/navbar.css"
 import LightModeIcon from "@mui/icons-material/LightMode"
 import DarkModeIcon from "@mui/icons-material/DarkMode"
 import SideMenu from "./SideMenu"
@@ -28,10 +27,6 @@ const Navbar = () => {
     {
       name: "Docs",
       path: "/docs",
-    },
-    {
-      name: "Contributors",
-      path: "/contributorspage",
     },
   ]
 
