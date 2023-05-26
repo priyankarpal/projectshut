@@ -879,12 +879,6 @@
         "title": "Weather App",
         "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
         "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
-      },
-       {
-        "link": "https://github.com/vishnu-mouli-102408/NewsApp",
-        "title": "News App",
-        "description": "This news application is a big interactive database that tells a news story. Think of it like you would any other piece of journalism.",
-        "tech": ["HTML", "CSS", "JavaScript", "News API", "Bootstrap", "React JS"]
       }
     ]
   },
@@ -1500,5 +1494,24 @@
       "tech": ["HTML", "CSS", "Javascript"]
     }
   ]
-}
+},
+ {
+    "github_username": "naveenvaratharaj",
+    "Social_media": {
+      "gitHub": "https://github.com/naveenvaratharaj",
+      "LinkedIn": "https://www.linkedin.com/in/naveen-varatharaj-123945210/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/NaveenVaratharaj/LiteraryFinds",
+        "title": "Literary Finds - Discover Literary Treasures",
+        "description": "A web application used to find various books with many information like Book Name, Author, Wiki Link and so on!",
+        "tech": ["HTML", "CSS", "JavaScript", "Fetch API", "JSON"]
+      }
+    ]
+  },
+  
 ]
