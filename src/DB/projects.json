@@ -1794,5 +1794,23 @@
         "tech": ["HTML", "CSS", "JavaScript", "React.js"]
       }
     ]
+  },
+  {
+    "github_username": "roshan798",
+    "Social_media": {
+      "gitHub": "https://github.com/roshan798",
+      "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/roshan798/Binary-Search-Tree-Visualizer",
+        "title": "Binary Search Tree Visualizer",
+        "description":"This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
+        "tech": ["Html", "Css","JavaScript","D3.js"]
+      }
+    ]
   }
 ]
