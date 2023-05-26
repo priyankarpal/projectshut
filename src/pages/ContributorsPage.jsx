@@ -8,7 +8,7 @@ const OWNER = "priyankarpal"
 const REPO = "ProjectsHut"
 
 async function fetchData() {
-  const data = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contributors?per_page=100`, {
+  const data = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contributors?per_page=300`, {
     headers: {
       Authorization: ` ${process.env.GITHUB_TOKEN}`,
     },
@@ -19,6 +19,7 @@ async function fetchData() {
 
 export async function loader() {
   const data = fetchData()
+  console.log(await data)
   return defer({ data: data })
 }
 
