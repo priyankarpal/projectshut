@@ -1498,6 +1498,43 @@
     ]
   },
   {
+    "github_username": "Princessayomide53",
+    "Social_media": {
+      "gitHub": "https://github.com/Princessayomide53",
+      "LinkedIn": "https://www.linkedin.com/in/princess-ayomide-ogunnaike-235b25211",
+      "Instagram": "https://www.instagram.com/thenextdoorchick",
+      "YouTube": "payomide53@gmail.com",
+      "Twitter": "https://twitter.com/Princy_koko"
+    },
+    "Projects": [
+      {
+        "link": "https://jadoo-blond.vercel.app/",
+        "title": "Travel Agency",
+        "description": "Jadoo is the Name, it's a travel agency website that can helps people with their traveling into another country and enable them book any flight of their choice ",
+        "tech": ["React js", "TailwindCSS", "Rapid API", "Redux", "Firebase"]
+      }
+    ]
+  },
+{
+  "github_username": "Swapnil-Singh-99",
+  "Social_media": {
+    "gitHub": "https://github.com/Swapnil-Singh-99",
+    "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
+      "title": "Rock Paper Scissors",
+      "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
+      "tech": ["HTML", "CSS", "Javascript"]
+    }
+  ]
+},
+ {
+
     "github_username": "Swapnil-Singh-99",
     "Social_media": {
       "gitHub": "https://github.com/Swapnil-Singh-99",
@@ -1635,6 +1672,72 @@
         "title": "Cryptospy",
         "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
         "tech": ["REACTJS", "SCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anirudhsalaria/Harrypotter",
+        "title": "HarryPotter Website",
+        "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
+        "tech": ["HTML5", "CSS3"]
+      }
+    ]
+  },
+  {
+    "github_username": "iamharshkr",
+    "Social_media": {
+      "gitHub": "https://github.com/iamharshkr/",
+      "LinkedIn": "https://www.linkedin.com/in/iamharshk/",
+      "Instagram": "https://instagram.com/iamharshk",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/iamharshk01"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/iamharshkr/thrifty-thumbs",
+        "title": "Thrifty Thumbs",
+        "description": "Thrifty Thumbs is a price comparison website that helps users to find the best deals on products from various online stores. With Thrifty Thumbs, users can compare prices of a product across different stores like Amazon, Flipkart, Reliance Digital, and Shopclues.",
+        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+      },
+      {
+        "link": "https://github.com/iamharshkr/apnastock",
+        "title": "Apna Stock",
+        "description": "You can use our tool for the analysis the stock and also you can predict the price of stock. We use some of the best indicators for the analysis of the stock, Eg: Simple Moving Average, Bollinger Bands, Stochastic Oscillator, Commodity Channel Index And RSI. By analyzing these indicators you can predict the movement of the stock.",
+        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+      }
+    ]
+  },
+  {
+    "github_username": "suravshrestha",
+    "Social_media": {
+      "gitHub": "https://github.com/suravshrestha",
+      "LinkedIn": "https://www.linkedin.com/in/surav-shrestha-222122231/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/suravshrestha/derma",
+        "title": "Derma",
+        "description": "An Artificial Intelligence application for predicting skin diseases.",
+        "tech": ["Node.js", "Express.js", "MongoDB", "React.js", "Python", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/suravshrestha/visualizeit",
+        "title": "VisualizeIT",
+        "description": "Interactive visualization tool for pathfinding, backtracking, and recursion algorithms.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js"]
       }
     ]
   }
