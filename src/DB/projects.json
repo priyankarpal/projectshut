@@ -919,6 +919,12 @@
         "title": "BotForge-Discord",
         "description": "A discord bot that does wonders ",
         "tech": ["DiscordJS", "Node.js"]
+      },
+      {
+        "link": "https://github.com/slayerrr12/Cloned-APPS",
+        "title": "Cloned-APPS",
+        "description": "clones i have created for learning purpose in my web dev journey",
+        "tech": ["HTML", "CSS", "Node.js", "Javascript"]
       }
     ]
   },
@@ -1470,7 +1476,25 @@
         "tech": ["React", "Node", "Express", "JavaScript", "CSS", "OpenAi API"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "Swapnil-Singh-99",
+  "Social_media": {
+    "gitHub": "https://github.com/Swapnil-Singh-99",
+    "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
+      "title": "Rock Paper Scissors",
+      "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
+      "tech": ["HTML", "CSS", "Javascript"]
+    }
+  ]
+}
 ]
 {
   "github_username": "Kumudhaart",
