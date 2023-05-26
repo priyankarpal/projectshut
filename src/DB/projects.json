@@ -1494,5 +1494,23 @@
       "tech": ["HTML", "CSS", "Javascript"]
     }
   ]
+},
+{
+  "github_username": "abhay-raj19",
+  "Social_media": {
+    "gitHub": "www.github.com/abhay-raj19",
+    "LinkedIn": "www.linkedin.com/in/abhay-raj19",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "www.twitter.com/abhayraj423"
+  },
+  "Projects": [
+    {
+      "link": "https://drum-kit-one-nu.vercel.app/",
+      "title": "Drum Kit",
+      "description": "A Simple Drum kit website ,used for playing diffrent drums sound using a website users can play by both using keyboard and by clicking on it.",
+      "tech": ["HTML", "JavaScript","CSS"]
+    }
+  ]
 }
 ]
