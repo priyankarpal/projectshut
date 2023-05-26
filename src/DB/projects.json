@@ -1510,7 +1510,7 @@
       "link": "https://github.com/Kumudhaart/Tindog",
       "title": "Tindog E-Commerece website",
       "description": "Tindog website is a E-Commerce Website for dog lovers.Tinndog website is user freindly and responsive",
-      "tech": ["HTML5", "CSS3","Javascript ES6","Bootstrap"]
-    },
+      "tech": ["HTML5", "CSS3","Javascript","Bootstrap"]
+    }
   ]
 }
