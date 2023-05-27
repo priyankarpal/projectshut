@@ -1,12 +1,48 @@
 [
   {
+    "github_username": "SasiVardhan247",
+    "Social_media": {
+      "gitHub": "https://github.com/SasiVardhan247",
+      "LinkedIn": "",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/SasiVardhan247/UserLocation",
+        "title": "User Location",
+        "description": "User Location WebApp is useful in many real-world cases to locate the nearest available surrounding people. It's useful to locate Hospitals in case of emergency and also all the nearest visiting places.",
+        "tech": ["Java", "Springboot", "gradle"]
+      }
+    ]
+  },
+  {
+    "github_username": "sumitkr2000",
+    "Social_media": {
+      "gitHub": "https://github.com/sumitkr2000",
+      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/sumitkr2000/yoga",
+        "title": "Yoga Website",
+        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      }
+    ]
+  },
+  {
     "github_username": "priyankarpal",
     "Social_media": {
       "gitHub": "https://github.com/priyankarpal",
-      "LinkedIn": "https://github.com/priyankarpal",
-      "Instagram": "https://github.com/priyankarpal",
-      "YouTube": "https://github.com/priyankarpal",
-      "Twitter": "https://github.com/priyankarpal"
+      "LinkedIn": "https://www.linkedin.com/in/priyankarpal/",
+      "Twitter": "https://twitter.com/priyankarpal",
+      "Instagram": "",
+      "YouTube": ""
     },
     "Projects": [
       {
@@ -37,7 +73,7 @@
         "link": "https://github.com/villAsh/v1lash.io",
         "title": "Personal Portfolio Website",
         "description": "This is my personal portfolio website made using ReactJs",
-        "tech": ["React", "Tailwind CSS", "framer-motion", "React Router"]
+        "tech": ["React", "Tailwind CSS", "framer-motion"]
       },
       {
         "link": "https://github.com/villAsh/Movie_app",
@@ -134,6 +170,12 @@
         "title": "Web Resources Hub",
         "description": " It serves as a comprehensive collection of frontend web resources, the project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
         "tech": ["React", "Tailwind CSS"]
+      },
+      {
+        "link": "https://github.com/jayk-gupta/Anu-portfolio",
+        "title": "Portfolio site",
+        "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
+        "tech": ["React", "Tailwind CSS"]
       }
     ]
   },
@@ -191,7 +233,6 @@
       }
     ]
   },
-
   {
     "github_username": "Soumya-Kushwaha",
     "Social_media": {
@@ -210,7 +251,6 @@
       }
     ]
   },
-
   {
     "github_username": "A10-g",
     "Social_media": {
@@ -243,20 +283,8 @@
         "link": "https://github.com/Alkaison/Alkaison.github.io",
         "title": "Alkaison Blog",
         "description": "I'll be sharing my knowledge on a variety of topics and concepts.",
-        "tech": ["HTML", "CSS", "JavaScript", "Ruby"]
-      }
-    ]
-  },
-  {
-    "github_username": "Alkaison",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
+        "tech": ["HTML", "CSS", "Javascript", "Ruby"]
+      },
       {
         "link": "https://github.com/Alkaison/Phonebook-Management-System",
         "title": "Phonebook Management System",
@@ -459,7 +487,7 @@
         "link": "https://github.com/himanshukrmr/multi-step-form",
         "title": "Multi Step Form",
         "description": "Designing a multi step form and implementing js functionality",
-        "tech": ["HTML", "SCSS", "JavaScript"]
+        "tech": ["HTML", "SCSS", "Javascript"]
       }
     ]
   },
@@ -572,24 +600,6 @@
     ]
   },
   {
-    "github_username": "jayk-gupta",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/jayk-gupta/Anu-portfolio",
-        "title": "Portfolio site",
-        "description": "Portfolio site made using html,css,Javascript,React and Tailwind css",
-        "tech": ["React", "Tailwind CSS"]
-      }
-    ]
-  },
-  {
     "github_username": "pranshu05",
     "Social_media": {
       "gitHub": "",
@@ -603,20 +613,8 @@
         "link": "https://github.com/pranshu05/pranshu05.vercel.app",
         "title": "React-Portfolio",
         "description": "My portfolio website made in react. https://pranshu05.vercel.app",
-        "tech": ["React", "BootStrap", "CSS"]
-      }
-    ]
-  },
-  {
-    "github_username": "pranshu05",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
+        "tech": ["React", "BootStrap"]
+      },
       {
         "link": "https://github.com/pranshu05/elpha",
         "title": "Elpha",
@@ -657,7 +655,7 @@
         "link": "https://github.com/ashishsurya/t3-flashcards-app",
         "title": "Flashcards App",
         "description": "Flashcards app which is used for storing deck of flashcards for storing question and answers for academic purpose ",
-        "tech": ["Next.js", "React", "PlanetScale", "TypeScript", "Tailwind CSS", "T3"]
+        "tech": ["Next.js", "React", "PlanetScale", "Typescript", "Tailwind CSS", "T3"]
       }
     ]
   },
@@ -785,19 +783,7 @@
         "title": "URL Shortener",
         "description": "simple replit database url shortner ti shorten your messy links",
         "tech": ["Node.js"]
-      }
-    ]
-  },
-  {
-    "github_username": "oyepriyansh",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
+      },
       {
         "link": "https://oyepriyansh.github.io/ToDoList",
         "title": "TO DO List",
@@ -820,7 +806,7 @@
         "link": "https://movie-trailer-app-lake.vercel.app/",
         "title": "Movie Trailer",
         "description": "The movie-trailer app is a web application that allows users to search and view trailers for their favorite movies. The application is developed using React and integrated with the TMD and YouTube APIs to fetch movie trailers. The application has a responsive design that adapts to different screen sizes and features a search bar and filter option to help users navigate through the content.",
-        "tech": ["React", "CSS", "JavaScript", "HTML", "TMD API", "Youtube API"]
+        "tech": ["React", "CSS", "Javascript", "HTML", "TMD API", "Youtube API"]
       }
     ]
   },
@@ -1074,7 +1060,6 @@
       }
     ]
   },
-
   {
     "github_username": "ayushlohmod",
     "Social_media": {
@@ -1107,7 +1092,7 @@
         "link": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension",
         "title": "Exchange Rate Converter Extension",
         "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
-        "tech": ["JavaScript", "CSS", "HTML", "Rapid API"]
+        "tech": ["Javascript", "CSS", "HTML", "Rapid API"]
       }
     ]
   },
@@ -1238,7 +1223,7 @@
       {
         "link": "https://youtube-clone-accodes21.vercel.app/",
         "title": "YouTube Clone",
-        "description": "A fully working clone of YouTube made using ReactJS, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
+        "description": "A fully working clone of YouTube made using React, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
         "tech": ["React.js", "Material UI", "React Router", "CSS", "Youtube API"]
       }
     ]
@@ -1279,7 +1264,6 @@
       }
     ]
   },
-
   {
     "github_username": "kunalkashyap-1",
     "Social_media": {
@@ -1298,7 +1282,6 @@
       }
     ]
   },
-
   {
     "github_username": "jibola2588",
     "Social_media": {
@@ -1534,24 +1517,6 @@
     ]
   },
   {
-    "github_username": "Swapnil-Singh-99",
-    "Social_media": {
-      "gitHub": "https://github.com/Swapnil-Singh-99",
-      "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
-        "title": "Rock Paper Scissors",
-        "description": "Rock Paper Scissors Game created using HTML, CSS, JavaScript",
-        "tech": ["HTML", "CSS", "Javascript"]
-      }
-    ]
-  },
-  {
     "github_username": "naveenvaratharaj",
     "Social_media": {
       "gitHub": "https://github.com/naveenvaratharaj",
@@ -1598,7 +1563,7 @@
         "link": "https://github.com/AgamK18/CrypTracker",
         "title": "CrypTracker",
         "description": "User can search for any cryptocurrency and see details about the same. The user can also follow latest news about the domain.",
-        "tech": ["ReactJS", "Tailwind CSS", "tsPartciles"]
+        "tech": ["React", "Tailwind CSS", "tsPartciles"]
       }
     ]
   },
@@ -1634,7 +1599,7 @@
         "link": "https://hack-codedynamos.vercel.app/home",
         "title": "Cosmic Cravings: A Food Ordering Web App",
         "description": "Developed a food ordering app designed on a Mars-based theme.",
-        "tech": ["ReactJS", "Tailwind CSS", "Firebase"]
+        "tech": ["React", "Tailwind CSS", "Firebase"]
       }
     ]
   },
@@ -1670,25 +1635,7 @@
         "link": "https://cryptospy.vercel.app/",
         "title": "Cryptospy",
         "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
-        "tech": ["REACTJS", "SCSS"]
-      }
-    ]
-  },
-  {
-    "github_username": "anirudhsalaria",
-    "Social_media": {
-      "gitHub": "https://github.com/anirudhsalaria",
-      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
-      "Instagram": "https://www.instagram.com/salariaanirudh",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/anirudhsalaria/Harrypotter",
-        "title": "HarryPotter Website",
-        "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
-        "tech": ["HTML5", "CSS3"]
+        "tech": ["React", "SCSS"]
       }
     ]
   },
@@ -1706,13 +1653,13 @@
         "link": "https://github.com/iamharshkr/thrifty-thumbs",
         "title": "Thrifty Thumbs",
         "description": "Thrifty Thumbs is a price comparison website that helps users to find the best deals on products from various online stores. With Thrifty Thumbs, users can compare prices of a product across different stores like Amazon, Flipkart, Reliance Digital, and Shopclues.",
-        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+        "tech": ["React", "Tailwind CSS", "Python", "DJANGO"]
       },
       {
         "link": "https://github.com/iamharshkr/apnastock",
         "title": "Apna Stock",
         "description": "You can use our tool for the analysis the stock and also you can predict the price of stock. We use some of the best indicators for the analysis of the stock, Eg: Simple Moving Average, Bollinger Bands, Stochastic Oscillator, Commodity Channel Index And RSI. By analyzing these indicators you can predict the movement of the stock.",
-        "tech": ["REACTJS", "Tailwind CSS", "Python", "DJANGO"]
+        "tech": ["React", "Tailwind CSS", "Python", "DJANGO"]
       }
     ]
   },
@@ -1741,6 +1688,24 @@
     ]
   },
   {
+    "github_username": "roshan798",
+    "Social_media": {
+      "gitHub": "https://github.com/roshan798",
+      "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
+      "Instagram": "",
+       "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/roshan798/Binary-Search-Tree-Visualizer",
+        "title": "Binary Search Tree Visualizer",
+        "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
+        "tech": ["Html", "Css", "JavaScript", "D3.js"]
+      }
+    ]
+  },
+  {
     "github_username": "saikiranreddy201",
     "Social_media": {
       "gitHub": "https://github.com/saikiranreddy201",
@@ -1749,13 +1714,13 @@
       "YouTube": "",
       "Twitter": ""
     },
-    "Projects": [
-      {
+     "Projects": [
+        {
         "link": "https://github.com/saikiranreddy201/web-crawler",
         "title": "web-crawler",
         "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like HTML, php except the backend code files to ensure safety!",
         "tech": ["Node.js", "Express.js"]
-      }
-    ]
+        }
+     ]
   }
 ]
