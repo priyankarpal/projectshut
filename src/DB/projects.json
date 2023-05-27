@@ -191,7 +191,7 @@
       }
     ]
   },
-  
+
   {
     "github_username": "Soumya-Kushwaha",
     "Social_media": {
@@ -210,7 +210,7 @@
       }
     ]
   },
-  
+
   {
     "github_username": "A10-g",
     "Social_media": {
@@ -1737,6 +1737,24 @@
         "title": "VisualizeIT",
         "description": "Interactive visualization tool for pathfinding, backtracking, and recursion algorithms.",
         "tech": ["HTML", "CSS", "JavaScript", "React.js"]
+      }
+    ]
+  },
+  {
+    "github_username": "saikiranreddy201",
+    "Social_media": {
+      "gitHub": "https://github.com/saikiranreddy201",
+      "LinkedIn": "https://www.linkedin.com/in/sai-kiran-reddy-7272b320a/",
+      "Instagram": "https://www.instagram.com/saikiranreddy.03/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/saikiranreddy201/web-crawler",
+        "title": "web-crawler",
+        "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like HTML, php except the backend code files to ensure safety!",
+        "tech": ["Node.js", "Express.js"]
       }
     ]
   }
