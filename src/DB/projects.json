@@ -329,21 +329,39 @@
       }
     ]
   },
-  {
+ {
     "github_username": "ujjawaltyagii",
     "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
+      "gitHub": "https://github.com/ujjawaltyagii",
+      "LinkedIn": "https://www.linkedin.com/in/ujjawal-tyagi-9943a722b/",
+      "Instagram": "https://www.instagram.com/ujjawal.tyagii",
       "YouTube": "",
-      "Twitter": ""
+      "Twitter": "https://twitter.com/ujjawal_tyagiii"
     },
     "Projects": [
+      {
+        "link": "https://github.com/ujjawaltyagii/Sober-Sense",
+        "title": "Sober-Sense",
+        "description": "An AI/ML solution to prevent drunk drive accidents using Face recognition & Speech Recognition.",
+        "tech": ["Python", "Javascript", "Bootstrap", "HTML"]
+      },
       {
         "link": "https://github.com/ujjawaltyagii/Razorpay-Clone",
         "title": "Razorpay Clone",
         "description": "Created Razorpay Clone which is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite.",
         "tech": ["HTML", "Tailwind CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/ImageClassification",
+        "title": "Image-Classifier",
+        "description": "Built an image classifier using Python, Tensorflow and Keras with Jupyter Notebook to classify sad and happy faces.",
+        "tech": ["Python", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/RoomRevamp",
+        "title": "Room Revamp",
+        "description": "A Virtual Interior Designer website where users can upload a photo of their room and customize it with different furniture and decor items.",
+        "tech": ["Tailwind CSS", "Javascript", "HTML"]
       }
     ]
   },
