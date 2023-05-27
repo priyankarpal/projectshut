@@ -1719,7 +1719,7 @@
           "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
           "title": "Shopping Cart JS",
           "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
-          "tech": ["HTML", "CSS", "JavaScript"]
+          "tech": ["HTML", "CSS", "Javascript"]
         }
       ]
   }
