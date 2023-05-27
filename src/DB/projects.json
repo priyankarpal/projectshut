@@ -1706,6 +1706,24 @@
     ]
   },
   {
+    "github_username": "Shivam-Katare",
+    "Social_media": {
+      "gitHub": "https://github.com/shivam-katare",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-katare/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Shivamkatare_27"
+    },
+    "Projects": [
+      {
+        "link": "https://gradient-wizard.vercel.app/",
+        "title": "Gradient Wizard",
+        "description": "GradientWizard is a web application that allows you to generate gradient colors using a simple and intuitive interface.With GradientWizard, you can easily create beautiful gradients by selecting colors manually or generating random gradients. Additionally, you can copy the CSS code for the generated gradient and use it in your projects.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
+  },
+  {
     "github_username": "saikiranreddy201",
     "Social_media": {
       "gitHub": "https://github.com/saikiranreddy201",
