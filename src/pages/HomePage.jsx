@@ -1,11 +1,12 @@
-import React, { useContext } from "react"
-import { Link } from "react-router-dom"
-import Banner from "../components/Banner"
-import { ThemeContext } from "../context/Theme"
-import images from "../DB/homepage-image.json"
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import Banner from '../components/Banner';
+import { ThemeContext } from '../context/Theme';
+import images from '../DB/homepage-image.json';
+
 
 const HomePage = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
 
   return (
     <section>
@@ -66,7 +67,7 @@ const HomePage = () => {
                 </div>
 
                 <Link
-                  to="ProjectsPage"
+                  to="/projects"
                   className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 "
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,
@@ -82,7 +83,7 @@ const HomePage = () => {
       </div>
       <Banner />
     </section>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
