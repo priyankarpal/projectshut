@@ -26,15 +26,15 @@ const ScrollToTop = () => {
     // Effect hook to add and remove event listeners on scroll
     window.addEventListener('scroll', toggleVisibility); // Add event listener to track scroll position
     return () => {
-      window.removeEventListener('scroll', toggleVisibility); // Remove event listener when component is unmounted
-    };
-  }, []);
+      window.removeEventListener("scroll", toggleVisibility) // Remove event listener when component is unmounted
+    }
+  }, [])
 
   return (
     <>
       <button
-        className={`fixed p-2 bg-purple-900 bg-opacity-90 rounded-full z-10 ${
-          isVisible ? ' bottom-4 right-4' : 'hidden'
+        className={`fixed p-2 bg-gray-400 bg-opacity-100 shadow-lg rounded-full z-20 ${
+          isVisible ? " bottom-4 right-4" : "hidden"
         }`}
         onClick={scrollToTop}
       >

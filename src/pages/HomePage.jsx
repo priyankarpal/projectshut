@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import { ThemeContext } from '../context/Theme';
 import images from '../DB/homepage-image.json';
 
+
 const HomePage = () => {
   const { theme } = useContext(ThemeContext);
 
