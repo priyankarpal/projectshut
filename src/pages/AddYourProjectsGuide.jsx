@@ -10,22 +10,20 @@ export default function AddYourProjectsGuide() {
         LinkedIn: "YOUR_LINKEDIN_ACCOUNT_LINK",
         Instagram: "YOUR_INSTAGRAM_ACCOUNT_LINK",
         YouTube: "YOUR_YOUTUBE_ACCOUNT_LINK",
-        Twitter: "YOUR_TWITTER_ACCOUNT_LINK",
+        Twitter: "YOUR_TWITTER_ACCOUNT_LINK"
       },
       Projects: [
         {
           link: "PROJECT_LINK",
           title: "PROJECT_NAME",
-          description:
-            "PROJECT_DESCRIPTION",
-          tech: ["tech1", "tech2"],
+          description: "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"]
         },
         {
           link: "PROJECT_LINK",
           title: "PROJECT_NAME",
-          description:
-            "PROJECT_DESCRIPTION",
-          tech: ["tech1", "tech2"],
+          description: "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"]
         }
       ]
   }`;
