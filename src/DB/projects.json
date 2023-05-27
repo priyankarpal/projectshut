@@ -1706,6 +1706,24 @@
     ]
   },
   {
+    "github_username": "shagunZ",
+    "Social_media": {
+      "gitHub": "https://github.com/shagunZ",
+      "LinkedIn": "https://www.linkedin.com/in/shagunmengi/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://moviey.netlify.app/",
+        "title": "MovieApp",
+        "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+        "tech": ["React js", "HTML", "Css", "JavaScript"]
+      }
+    ]
+  },
+  {
     "github_username": "Shivam-Katare",
     "Social_media": {
       "gitHub": "https://github.com/shivam-katare",
