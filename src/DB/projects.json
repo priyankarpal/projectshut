@@ -1722,6 +1722,24 @@
         "tech": ["React js", "HTML", "Css", "JavaScript"]
       }
     ]
+},
+{
+      "github_username": "WajeehaCodes",
+      "Social_media": {
+        "gitHub": "https://github.com/WajeehaCodes",
+        "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
+          "title": "Shopping Cart JS",
+          "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
+          "tech": ["HTML", "CSS", "Javascript"]
+        }
+      ]
   },
   {
   "github_username": "abhrajitray77",
@@ -1793,6 +1811,24 @@
         "tech": ["Node.js", "Express.js"]
         }
      ]
+  },
+   {
+    "github_username": "Google-ka-Dinosaur",
+    "Social_media": {
+      "gitHub": "https://github.com/Google-Ka-Dinosaur",
+      "LinkedIn": "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/DePay-Production",
+        "title": "DePay",
+        "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
+        "tech": ["NextJs", "Solidity","CSS"]
+      }
+    ]
   }
 ]
 
