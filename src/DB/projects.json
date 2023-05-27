@@ -1847,5 +1847,23 @@
         "tech": ["NextJs", "Solidity", "CSS"]
       }
     ]
+  },
+  {
+    "github_username": "Vidip-Ghosh",
+    "Social_media": {
+      "gitHub": "https://github.com/Vidip-Ghosh",
+      "LinkedIn": "https://www.linkedin.com/in/vidip-ghosh-9973b7213",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/GhoshVidip67772?t=yWjmzXsEfiddmeIH4ADx-g&s=09"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Vidip-Ghosh/QR-Code-Generator.git",
+        "title": "QR Code Generator",
+        "description": "An application which is able to generate a QR code of every website. URL of the website is provided as an input and its able to generate corresponding QR code for that website.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   }
 ]
