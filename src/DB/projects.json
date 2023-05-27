@@ -1705,4 +1705,24 @@
       }
     ]
   }
+  
+  {
+  "github_username": "TusharMinche",
+  "Social_media": {
+    "gitHub": "https://github.com/TusharMinche",
+    "LinkedIn": "https://www.linkedin.com/in/tushar-minche-0a9b51218/",
+    "Instagram": "https://www.instagram.com/tushar_minche/",
+    "Twitter": "https://twitter.com/MincheTushar"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/TusharMinche/AR-Watches",
+      "title": "AR Watches",
+      "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
+      "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
+    }
+  ]
+}
 ]
+
+
