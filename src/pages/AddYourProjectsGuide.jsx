@@ -1,15 +1,32 @@
-import { BiGitRepoForked } from "react-icons/bi"
-import { AiTwotoneFile } from "react-icons/ai"
-import { RiGitRepositoryCommitsFill } from "react-icons/ri"
+import { BiGitRepoForked } from 'react-icons/bi';
+import { AiTwotoneFile } from 'react-icons/ai';
+import { RiGitRepositoryCommitsFill } from 'react-icons/ri';
 
 export default function AddYourProjectsGuide() {
   const codeString = `{
-    "gh-username": "YOUR-GITHUB-USERNAME",
-    "link": "LINK-TO-GITHUB-OR-DEMO",
-    "title": "PROJECT-TITLE",
-    "description": "PROJECT-DESCRIPTION",
-    "tech": ["some tech 1", "some tech 2", "etc"]
-  }`
+      github_username: "YOUR_GITHUB_USERNAME",
+      Social_media: {
+        gitHub: "YOUR_GITHUB_ACCOUNT_LINK",
+        LinkedIn: "YOUR_LINKEDIN_ACCOUNT_LINK",
+        Instagram: "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        YouTube: "YOUR_YOUTUBE_ACCOUNT_LINK",
+        Twitter: "YOUR_TWITTER_ACCOUNT_LINK"
+      },
+      Projects: [
+        {
+          link: "PROJECT_LINK",
+          title: "PROJECT_NAME",
+          description: "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"]
+        },
+        {
+          link: "PROJECT_LINK",
+          title: "PROJECT_NAME",
+          description: "PROJECT_DESCRIPTION",
+          tech: ["tech1", "tech2"]
+        }
+      ]
+  }`;
 
   return (
     <section className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -54,8 +71,8 @@ export default function AddYourProjectsGuide() {
               <AiTwotoneFile />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              {" "}
-              Click on Go to file(I'm doing from{" "}
+              {' '}
+              Click on Go to file(I'm doing from{' '}
               <span className="bg-gray-700  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
@@ -74,7 +91,9 @@ export default function AddYourProjectsGuide() {
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block">{codeString}</code>
+          <code className="block">
+            <pre>{codeString}</pre>
+          </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
               <RiGitRepositoryCommitsFill />
@@ -104,7 +123,7 @@ export default function AddYourProjectsGuide() {
             <AiTwotoneFile />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             OR, If you want to run it locally then follow these steps
           </p>
         </div>
@@ -127,16 +146,6 @@ export default function AddYourProjectsGuide() {
           <span>
             <AiTwotoneFile />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
-            Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
-          </p>
-        </div>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <AiTwotoneFile />
-          </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
         <code className="block">pnpm i</code>
@@ -146,7 +155,7 @@ export default function AddYourProjectsGuide() {
             <AiTwotoneFile />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             Create a new branch using your `GitHub Username`
           </p>
         </div>
@@ -196,7 +205,7 @@ export default function AddYourProjectsGuide() {
             <RiGitRepositoryCommitsFill />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             If you encounter this error while commits
           </p>
         </div>
@@ -234,5 +243,5 @@ export default function AddYourProjectsGuide() {
         </div>
       </article>
     </section>
-  )
+  );
 }
