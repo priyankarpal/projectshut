@@ -1706,6 +1706,24 @@
     ]
   },
   {
+  "github_username": "abhrajitray77",
+  "Social_media": {
+    "gitHub": "https://github.com/abhrajitray77",
+    "LinkedIn": "https://www.linkedin.com/in/abhrajit-ray-b6a97721a/",
+    "Instagram": "",
+    "YouTube": "https://www.youtube.com/channel/UCbdxfTKNRcdcNALKwq_ZTqg",
+    "Twitter": "https://twitter.com/ray_abhrajit"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/abhrajitray77/reactjs-chrome-extension",
+      "title": "Gpt-3 X Web Clipper Chrome extension",
+      "description": "ReactJS Chrome Extension with GPT-3 integration and Webpage text clipping",
+      "tech": ["ReactJS", "TailwindCSS", "OpenAI API", "Typescript"]
+    }
+  ]
+},
+{
   "github_username": "TusharMinche",
   "Social_media": {
     "gitHub": "https://github.com/TusharMinche",
