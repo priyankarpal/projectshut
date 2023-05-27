@@ -1829,6 +1829,24 @@
         "tech": ["NextJs", "Solidity","CSS"]
       }
     ]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/Credit-Card-Fraud-Detection",
+        "title": "Credit-Card-Fraud-Detection",
+        "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
+        "tech": ["Python", "Jupyter Notebook"]
+      }
+    ]
   }
 ]
 
