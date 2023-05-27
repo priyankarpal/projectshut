@@ -1693,7 +1693,7 @@
       "gitHub": "https://github.com/roshan798",
       "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
       "Instagram": "",
-       "YouTube": "",
+      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1722,61 +1722,61 @@
         "tech": ["React js", "HTML", "Css", "JavaScript"]
       }
     ]
-},
-{
-      "github_username": "WajeehaCodes",
-      "Social_media": {
-        "gitHub": "https://github.com/WajeehaCodes",
-        "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
-        "Instagram": "",
-        "YouTube": "",
-        "Twitter": ""
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
-          "title": "Shopping Cart JS",
-          "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
-          "tech": ["HTML", "CSS", "Javascript"]
-        }
-      ]
   },
   {
-  "github_username": "abhrajitray77",
-  "Social_media": {
-    "gitHub": "https://github.com/abhrajitray77",
-    "LinkedIn": "https://www.linkedin.com/in/abhrajit-ray-b6a97721a/",
-    "Instagram": "",
-    "YouTube": "https://www.youtube.com/channel/UCbdxfTKNRcdcNALKwq_ZTqg",
-    "Twitter": "https://twitter.com/ray_abhrajit"
+    "github_username": "WajeehaCodes",
+    "Social_media": {
+      "gitHub": "https://github.com/WajeehaCodes",
+      "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
+        "title": "Shopping Cart JS",
+        "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/abhrajitray77/reactjs-chrome-extension",
-      "title": "Gpt-3 X Web Clipper Chrome extension",
-      "description": "ReactJS Chrome Extension with GPT-3 integration and Webpage text clipping",
-      "tech": ["ReactJS", "TailwindCSS", "OpenAI API", "Typescript"]
-    }
-  ]
-},
-{
-  "github_username": "TusharMinche",
-  "Social_media": {
-    "gitHub": "https://github.com/TusharMinche",
-    "LinkedIn": "https://www.linkedin.com/in/tushar-minche-0a9b51218/",
-    "Instagram": "https://www.instagram.com/tushar_minche/",
-    "Twitter": "https://twitter.com/MincheTushar"
+  {
+    "github_username": "abhrajitray77",
+    "Social_media": {
+      "gitHub": "https://github.com/abhrajitray77",
+      "LinkedIn": "https://www.linkedin.com/in/abhrajit-ray-b6a97721a/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/channel/UCbdxfTKNRcdcNALKwq_ZTqg",
+      "Twitter": "https://twitter.com/ray_abhrajit"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/abhrajitray77/reactjs-chrome-extension",
+        "title": "Gpt-3 X Web Clipper Chrome extension",
+        "description": "ReactJS Chrome Extension with GPT-3 integration and Webpage text clipping",
+        "tech": ["ReactJS", "TailwindCSS", "OpenAI API", "Typescript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/TusharMinche/AR-Watches",
-      "title": "AR Watches",
-      "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
-      "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
-    }
-  ]
-},
-{
+  {
+    "github_username": "TusharMinche",
+    "Social_media": {
+      "gitHub": "https://github.com/TusharMinche",
+      "LinkedIn": "https://www.linkedin.com/in/tushar-minche-0a9b51218/",
+      "Instagram": "https://www.instagram.com/tushar_minche/",
+      "Twitter": "https://twitter.com/MincheTushar"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/TusharMinche/AR-Watches",
+        "title": "AR Watches",
+        "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
+        "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
+      }
+    ]
+  },
+  {
     "github_username": "Shivam-Katare",
     "Social_media": {
       "gitHub": "https://github.com/shivam-katare",
@@ -1803,16 +1803,16 @@
       "YouTube": "",
       "Twitter": ""
     },
-     "Projects": [
-        {
+    "Projects": [
+      {
         "link": "https://github.com/saikiranreddy201/web-crawler",
         "title": "web-crawler",
         "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like HTML, php except the backend code files to ensure safety!",
         "tech": ["Node.js", "Express.js"]
-        }
-     ]
+      }
+    ]
   },
-   {
+  {
     "github_username": "Google-ka-Dinosaur",
     "Social_media": {
       "gitHub": "https://github.com/Google-Ka-Dinosaur",
@@ -1826,10 +1826,26 @@
         "link": "https://github.com/Google-Ka-Dinosaur/DePay-Production",
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
-        "tech": ["NextJs", "Solidity","CSS"]
+        "tech": ["NextJs", "Solidity", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Vidip-Ghosh",
+    "Social_media": {
+      "gitHub": "https://github.com/Vidip-Ghosh",
+      "LinkedIn": "https://www.linkedin.com/in/vidip-ghosh-9973b7213",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/GhoshVidip67772?t=yWjmzXsEfiddmeIH4ADx-g&s=09"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Vidip-Ghosh/QR-Code-Generator.git",
+        "title": "QR Code Generator",
+        "description": "An application which is able to generate a QR code of every website. URL of the website is provided as an input and its able to generate corresponding QR code for that website.",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   }
 ]
-
-
