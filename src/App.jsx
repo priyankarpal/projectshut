@@ -5,6 +5,7 @@ import { ThemeProvider } from './context/Theme';
 import { lazy, Suspense } from "react"
 import Loader from "./utils/Loader"
 
+
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
 const HomePage = lazy(() => import("./pages/HomePage"));
 const AddYourProjectsGuide = lazy(() => import("./pages/AddYourProjectsGuide"));
