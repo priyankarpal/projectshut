@@ -1693,7 +1693,7 @@
       "gitHub": "https://github.com/roshan798",
       "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
       "Instagram": "",
-      "YouTube": "",
+       "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1722,5 +1722,60 @@
       "tech": ["ReactJS", "TailwindCSS", "OpenAI API", "Typescript"]
     }
   ]
-}
+},
+{
+  "github_username": "TusharMinche",
+  "Social_media": {
+    "gitHub": "https://github.com/TusharMinche",
+    "LinkedIn": "https://www.linkedin.com/in/tushar-minche-0a9b51218/",
+    "Instagram": "https://www.instagram.com/tushar_minche/",
+    "Twitter": "https://twitter.com/MincheTushar"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/TusharMinche/AR-Watches",
+      "title": "AR Watches",
+      "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
+      "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
+    }
+  ]
+},
+{
+    "github_username": "Shivam-Katare",
+    "Social_media": {
+      "gitHub": "https://github.com/shivam-katare",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-katare/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Shivamkatare_27"
+    },
+    "Projects": [
+      {
+        "link": "https://gradient-wizard.vercel.app/",
+        "title": "Gradient Wizard",
+        "description": "GradientWizard is a web application that allows you to generate gradient colors using a simple and intuitive interface.With GradientWizard, you can easily create beautiful gradients by selecting colors manually or generating random gradients. Additionally, you can copy the CSS code for the generated gradient and use it in your projects.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "saikiranreddy201",
+    "Social_media": {
+      "gitHub": "https://github.com/saikiranreddy201",
+      "LinkedIn": "https://www.linkedin.com/in/sai-kiran-reddy-7272b320a/",
+      "Instagram": "https://www.instagram.com/saikiranreddy.03/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+     "Projects": [
+        {
+        "link": "https://github.com/saikiranreddy201/web-crawler",
+        "title": "web-crawler",
+        "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like HTML, php except the backend code files to ensure safety!",
+        "tech": ["Node.js", "Express.js"]
+        }
+     ]
+  }
 ]
+
+
