@@ -12,6 +12,9 @@ importers:
       '@fortawesome/react-fontawesome':
         specifier: ^0.2.0
         version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
+      '@headlessui/react':
+        specifier: ^1.7.14
+        version: 1.7.14(react-dom@18.2.0)(react@18.2.0)
       '@mui/icons-material':
         specifier: ^5.11.16
         version: 5.11.16(@mui/material@5.13.2)(@types/react@18.2.7)(react@18.2.0)
@@ -133,6 +136,7 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
+
   /@angular/animations@13.3.12(@angular/core@13.3.12):
     resolution:
       { integrity: sha512-dc2JDokKJuuNxzzZa9FvuQU71kYC/e0xCLjGxEgX48sGKwajHRGBuzYFb8EmvLeA24SshYGmrxN0vGG9GhLK6g== }
@@ -1044,6 +1048,19 @@ packages:
       '@fortawesome/fontawesome-svg-core': 6.4.0
       prop-types: 15.8.1
       react: 18.2.0
+    dev: false
+
+  /@headlessui/react@1.7.14(react-dom@18.2.0)(react@18.2.0):
+    resolution:
+      { integrity: sha512-znzdq9PG8rkwcu9oQ2FwIy0ZFtP9Z7ycS+BAqJ3R5EIqC/0bJGvhT7193rFf+45i9nnPsYvCQVW4V/bB9Xc+gA== }
+    engines: { node: '>=10' }
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /@humanwhocodes/config-array@0.11.8:
@@ -2505,6 +2522,11 @@ packages:
       { integrity: sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA== }
     dev: true
 
+  /client-only@0.0.1:
+    resolution:
+      { integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA== }
+    dev: false
+
   /cliui@8.0.1:
     resolution:
       { integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ== }
@@ -3674,6 +3696,7 @@ packages:
       { integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg== }
     engines: { node: '>=14' }
     hasBin: true
+    dev: false
 
   /iconv-lite@0.6.3:
     resolution:
