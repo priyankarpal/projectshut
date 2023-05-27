@@ -40,7 +40,7 @@ export default function ProjectList() {
           {/* Beack to projects link */}
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out">
             <span>{'<'}</span>
-            <Link to="/ProjectsPage" className="font-mono ml-2">
+            <Link to="/projects" className="font-mono ml-2">
               Back to Projects
             </Link>
           </div>
