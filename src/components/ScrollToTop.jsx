@@ -29,11 +29,11 @@ const ScrollToTop = () => {
       window.removeEventListener("scroll", toggleVisibility) // Remove event listener when component is unmounted
     }
   }, [])
-
+  // bg-gray-400
   return (
     <>
       <button
-        className={`fixed p-2 bg-gray-400 bg-opacity-25 rounded-full z-10 ${
+        className={`fixed p-2 bg-gray-400 bg-opacity-100 shadow-lg rounded-full z-20 ${
           isVisible ? " bottom-4 right-4" : "hidden"
         }`}
         onClick={scrollToTop}
