@@ -5,7 +5,7 @@ import Footer from './Footer';
 import { ThemeContext } from '../context/Theme';
 import ScrollToTop from './ScrollToTop';
 
-export default function Layout() {
+const Layout = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -25,4 +25,6 @@ export default function Layout() {
       </>
     </div>
   );
-}
+};
+
+export default Layout;
