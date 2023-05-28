@@ -1171,6 +1171,12 @@
         "title": "Weather Website",
         "description": "This website is of finding wheather of your location and as well as you can search any place.",
         "tech": ["Javascript", "CSS", "HTML", "Weather-api", "Tailwind CSS"]
+      },
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   },
