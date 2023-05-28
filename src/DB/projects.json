@@ -1153,6 +1153,12 @@
         "title": "Weather Website",
         "description": "This website is of finding wheather of your location and as well as you can search any place.",
         "tech": ["Javascript", "CSS", "HTML", "Weather-api", "Tailwind CSS"]
+      },
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   },
@@ -1881,24 +1887,6 @@
         "title": "Credit-Card-Fraud-Detection",
         "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
         "tech": ["Python", "Jupyter Notebook"]
-      }
-    ]
-  },
-  {
-    "github_username": "Niladri2003",
-    "Social_media": {
-      "gitHub": "https://github.com/Niladri2003",
-      "LinkedIn": "https://www.linkedin.com/in/niladriadak23/",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://eduhub-1tyq.vercel.app/",
-        "title": "Eduhub",
-        "description": "Baisc Landing page for Online ed-tech platforms",
-        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   }
