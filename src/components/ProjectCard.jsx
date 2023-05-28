@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 import { Link } from 'react-router-dom';
 
-function ProjectCard({ github_username, listOfProjects }) {
+const ProjectCard = ({ github_username, listOfProjects }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -57,6 +57,6 @@ function ProjectCard({ github_username, listOfProjects }) {
       </article>
     </>
   );
-}
+};
 
 export default ProjectCard;
