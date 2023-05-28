@@ -42,9 +42,4 @@ body:
       description: By submitting this issue, you agree to follow our Code of Conduct
       options:
         - label: I agree to follow this project's Code of Conduct
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Duplicate issue
-      options:
-        - label: I've searched the issues and this is not a duplicate
+          required: true
