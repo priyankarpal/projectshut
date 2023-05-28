@@ -1,14 +1,13 @@
-import React, { useContext } from "react"
-import { ThemeContext } from "../context/Theme"
-import ScrollToTop from "./ScrollToTop"
+import React, { useContext } from 'react';
+import { ThemeContext } from '../context/Theme';
 
-export default function Footer() {
-  const { theme } = useContext(ThemeContext)
-  const bgColor = theme.mode === "dark" ? theme.navbar.background : theme.background
+const Footer = () => {
+  const { theme } = useContext(ThemeContext);
+  const bgColor = theme.mode === 'dark' ? theme.navbar.background : theme.background;
 
   const getCurrentYear = () => {
-    return new Date().getFullYear()
-  }
+    return new Date().getFullYear();
+  };
 
   return (
     <footer aria-label="Site Footer" className="bg-white dark:bg-gray-900 glass" style={{ backgroundColor: bgColor }}>
@@ -23,14 +22,14 @@ export default function Footer() {
 
       <div
         className="bg-black flex justify-center items-center px-[7vw] sm:flex-row flex-col py-1 sm:py-2"
-        style={{ height: "79px" }}
+        style={{ height: '79px' }}
       >
         <div className="flex flex-col items-center">
           <a
             href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
             target="_blank"
             className="text-white flex items-center justify-center"
-            style={{ color: "white", textAlign: "center", marginBottom: "6px", marginTop: "6px" }}
+            style={{ color: 'white', textAlign: 'center', marginBottom: '6px', marginTop: '6px' }}
           >
             Under MIT License
           </a>
@@ -40,5 +39,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
+
+export default Footer;

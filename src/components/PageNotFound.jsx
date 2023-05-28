@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { ThemeContext } from "../context/Theme"
+import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { ThemeContext } from '../context/Theme';
 
 const PageNotFound = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
   return (
     <div
       className="min-h-screen flex flex-col justify-center items-center text-white bg-[#000513] p-5"
@@ -20,7 +20,7 @@ const PageNotFound = () => {
         Go to Home
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default PageNotFound
+export default PageNotFound;
