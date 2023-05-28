@@ -1,0 +1,12 @@
+
+level1:
+  - "src/DB/*"
+  - "contributing.md"
+  - "README.md"
+  - "SECURITY.md"
+level2:
+  - "src/components/*"
+  - "src/pages/*"
+  - "src/utils/*"
+ ⏳ Status:Wait for reviewers:
+  - "**/*"
