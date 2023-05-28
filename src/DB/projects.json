@@ -1883,5 +1883,23 @@
         "tech": ["Python", "Jupyter Notebook"]
       }
     ]
+  },
+  {
+    "github_username": "Niladri2003",
+    "Social_media": {
+      "gitHub": "https://github.com/Niladri2003",
+      "LinkedIn": "https://www.linkedin.com/in/niladriadak23/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
+      }
+    ]
   }
 ]
