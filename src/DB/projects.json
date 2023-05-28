@@ -1,5 +1,21 @@
 [
   {
+  "github_username": "Soumya2411",
+  "Social_media": {
+    "gitHub": "https://github.com/Soumya2411",
+    "LinkedIn": "Yhttps://www.linkedin.com/in/soumya-gupta-455401228/",
+    "Instagram": "https://www.instagram.com/soummmyaa/",
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Soumya2411/CodeLabs",
+      "title": "CodeLabs",
+      "description": "An app hor helping students to visualise programming concepts",
+      "tech": ["Node.js", "ReactJS"]
+    }
+  ]
+}
+  {
     "github_username": "SasiVardhan247",
     "Social_media": {
       "gitHub": "https://github.com/SasiVardhan247",
