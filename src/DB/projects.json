@@ -59,6 +59,24 @@
       }
     ]
   },
+    {
+    "github_username": "Hareesh108",
+    "Social_media": {
+      "gitHub": "https://github.com/Hareesh108,
+      "LinkedIn": "https://www.linkedin.com/in/hareeshbhittam",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hareesh108/NotesTaker",
+        "title": "Personal Taker",
+        "description": "This web based note taker application",
+        "tech": ["React", "HTML", "CSS", "JavaScript]
+      }
+    ]
+  },
   {
     "github_username": "villAsh",
     "Social_media": {
