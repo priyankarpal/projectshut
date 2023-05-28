@@ -14,6 +14,12 @@
         "title": "BMI Calculator",
         "description": "BMI Calculator is used to measure the Body Mass Index of a person. By measuring BMI, a person can know if he is underweight, normal or overweight.",
         "tech": ["HTML", "CSS", "Node.js", "React.js"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/yoga",
+        "title": "Yoga Website",
+        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
       }
     ]
   },
@@ -50,24 +56,6 @@
         "title": "Med.Ez(Medicine management system)",
         "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
         "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
-      }
-    ]
-  },
-  {
-    "github_username": "sumitkr2000",
-    "Social_media": {
-      "gitHub": "https://github.com/sumitkr2000",
-      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
-      "Instagram": "",
-      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/sumitkr2000/yoga",
-        "title": "Yoga Website",
-        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
-        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
       }
     ]
   },
