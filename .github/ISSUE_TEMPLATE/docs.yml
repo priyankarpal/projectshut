@@ -1,19 +1,14 @@
 name: 🔖 Documentation update
 description: Improve Documentation
 title: '[Docs]: '
-labels: ['📚 Documentation', '🚦status: awaiting triage', 'level1']
+labels: ['📄 aspect: text', '🚦status: awaiting triage']
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this documentation update template!
   - type: textarea
     id: improve-docs
     attributes:
       label: what's wrong in the documentation?
-      description: which things need to add?
-      placeholder: Add descriptions
-      value: 'We need to add '
+      description: which things do we need to add?
+      placeholder: Add description
     validations:
       required: true
   - type: textarea
@@ -22,7 +17,8 @@ body:
       label: Add screenshots
       description: Add screenshots to see the demo
       placeholder: Add screenshots
-      value: 'Add screenshots'
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -30,3 +26,5 @@ body:
       description: By submitting this issue, you agree to follow our Code of Conduct
       options:
         - label: I agree to follow this project's Code of Conduct
+          required: true
+
