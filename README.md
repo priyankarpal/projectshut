@@ -7,7 +7,7 @@
 
 ## 🤓 Why ProjectsHut ?
 
-- **[ProjectsHut](https://projectshut.vercel.app)** is an open source project that runs on the latest Web Technologies.
+- **[ProjectsHut](https://projectshut.vercel.app)** is an open source project that runs on the latest Web Technologies
 - The platform's code is freely available to the public, allowing developers from all over the world to contribute to its growth and improvement.
 - **[ProjectsHut](https://projectshut.vercel.app)** offers a friendly UI, making it easy to publish projects and share them with others.
 
