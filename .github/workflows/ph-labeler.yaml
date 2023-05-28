@@ -1,23 +1,12 @@
----
-name: "ProjectsHut Labeler"
-
+name: "Pull Request Labeler"
 on:
-  workflow_dispatch:
-  pull_request:
-    branches: ["main", "dev"]
-
-permissions:
-  checks: write
-  contents: read
-  pull-requests: write
+- pull_request_target
 
 jobs:
-  labeler:
-    name: Labeler
+  triage:
+    permissions:
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - name: Labeler
-        uses: actions/labeler@0776a679364a9a16110aac8d0f40f5e11009e327 # v4.0.4
-        with:
-          configuration-path: .github/labeler.yaml
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+    - uses: actions/labeler@v4
