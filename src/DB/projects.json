@@ -18,6 +18,24 @@
     ]
   },
   {
+    "github_username": "raj3000k",
+    "Social_media": {
+      "gitHub": "https://github.com/raj3000k",
+      "LinkedIn": "https://www.linkedin.com/in/raj-motwani-978143204/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/RAJMOTWANI16"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/raj3000k/Pharm",
+        "title": "Med.Ez(Medicine management system)",
+        "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
+        "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
+      }
+    ]
+  },
+  {
     "github_username": "sumitkr2000",
     "Social_media": {
       "gitHub": "https://github.com/sumitkr2000",
