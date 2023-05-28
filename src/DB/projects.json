@@ -1,5 +1,23 @@
 [
   {
+    "github_username": "sumitkr2000",
+    "Social_media": {
+      "gitHub": "https://github.com/sumitkr2000",
+      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/sumitkr2000/BMI-Calculator",
+        "title": "BMI Calculator",
+        "description": "BMI Calculator is used to measure the Body Mass Index of a person. By measuring BMI, a person can know if he is underweight, normal or overweight.",
+        "tech": ["HTML", "CSS", "Node.js", "React.js"]
+      }
+    ]
+  },
+  {
     "github_username": "SasiVardhan247",
     "Social_media": {
       "gitHub": "https://github.com/SasiVardhan247",
