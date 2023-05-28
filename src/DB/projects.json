@@ -1883,22 +1883,21 @@
         "tech": ["Python", "Jupyter Notebook"]
       }
     ]
-  }
-]
+  },
 {
-      github_username: "akshaya-hub",
-      Social_media: {
-        gitHub: "https://github.com/akshaya-hub",
-        LinkedIn: "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
-        Twitter: "https://twitter.com/AKSHAYA96187678"
+      "github_username": "akshaya-hub",
+      "Social_media": {
+      "gitHub": "https://github.com/akshaya-hub",
+      "LinkedIn": "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
+      "Twitter": "https://twitter.com/AKSHAYA96187678"
       },
-      Projects: [
+      "Projects": [
         {
-          link: "https://github.com/akshaya-hub/personality-prediction",
-          title: "Personality Analysis",
-          description: "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
-          tech: ["Python", "Machine Learning"]
-        },
-        
-      ]
-  }
+        "link": "https://github.com/akshaya-hub/personality-prediction",
+        "title": "Personality Analysis",
+        "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
+         "tech": ["Python", "Machine Learning"]
+      }
+    ]
+  },
+]
