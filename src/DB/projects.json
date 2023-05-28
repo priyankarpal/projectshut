@@ -72,7 +72,7 @@
       {
         "link": "https://github.com/Hareesh108/NotesTaker",
         "title": "Personal Taker",
-        "description": "This web based note taker application",
+        "description": "This web based note taker application made using reactjs",
         "tech": ["React", "HTML", "CSS", "JavaScript"]
       }
     ]
