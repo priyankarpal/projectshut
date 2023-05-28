@@ -72,7 +72,7 @@
       {
         "link": "https://github.com/Hareesh108/NotesTaker",
         "title": "Personal Taker",
-        "description": "This web based note taker application",
+        "description": "This web based note taker application made using reactjs",
         "tech": ["React", "HTML", "CSS", "JavaScript"]
       }
     ]
@@ -1171,6 +1171,12 @@
         "title": "Weather Website",
         "description": "This website is of finding wheather of your location and as well as you can search any place.",
         "tech": ["Javascript", "CSS", "HTML", "Weather-api", "Tailwind CSS"]
+      },
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   },
@@ -1899,6 +1905,24 @@
         "title": "Credit-Card-Fraud-Detection",
         "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
         "tech": ["Python", "Jupyter Notebook"]
+      }
+    ]
+  },
+   {
+     "github_username": "govardhan-26",
+     "Social_media": {
+       "gitHub": "https://github.com/govardhan-26",
+       "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+       "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+       "YouTube": "",
+       "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/govardhan-26/restaurant-website",
+        "title": "Restaurant Website",
+        "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
+        "tech": ["ReactJs", "CSS"]
       }
     ]
   }
