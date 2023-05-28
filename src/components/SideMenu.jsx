@@ -4,7 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import { ThemeContext } from '../context/Theme';
 
-export default function SideMenu(props) {
+const SideMenu = (props) => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -102,4 +102,6 @@ export default function SideMenu(props) {
       {/* </ul> */}
     </div>
   );
-}
+};
+
+export default SideMenu;

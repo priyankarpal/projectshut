@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Banner() {
+const Banner = () => {
   return (
     <>
       <div>
@@ -57,6 +57,6 @@ function Banner() {
       </div>
     </>
   );
-}
+};
 
 export default Banner;
