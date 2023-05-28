@@ -3,10 +3,6 @@ description: File a bug report
 title: '[Bug]: '
 labels: ['🛠 goal: fix', '🚦status: awaiting triage']
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: what-happened
     attributes:
@@ -23,10 +19,14 @@ body:
       description: Add screenshots to see the problems
       placeholder: Add screenshots
       value: 'Add screenshots'
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
+    validations:
+      required: true
       multiple: true
       options:
         - Firefox
