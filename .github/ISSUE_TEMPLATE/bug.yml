@@ -7,18 +7,14 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
       placeholder: Add descriptions
-      value: 'I found a BUG 🐞'
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
       label: Add screenshots
-      description: Add screenshots to see the problems
       placeholder: Add screenshots
-      value: 'Add screenshots'
     validations:
       required: true
   - type: dropdown
