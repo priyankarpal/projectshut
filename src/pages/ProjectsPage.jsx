@@ -15,6 +15,7 @@ const ProjectsPage = () => {
   const [selectedButton, setSelectedButton] = useState(null); // Store the index of the selected tech stack button
   const [selectedName, setSelectedName] = useState(''); // Store the value of the selected project name
   const [visibleProjects, setVisibleProjects] = useState(18); // Number of initially visible projects
+  const [hasMore, setHasMore] = useState(true); // Boolean to check if there are more projects to load
 
   useEffect(() => {
     // Fetching all projects from the JSON file and storing them in state
@@ -30,12 +31,12 @@ const ProjectsPage = () => {
     setAllProjects(allProjects);
     setFilteredProjects(allProjects);
     setCurrentItems(allProjects.slice(0, visibleProjects));
+    console.log(allProjects);
   }, []);
 
   const handleLoadMore = () => {
-    // Function to handle loading more projects
     setTimeout(() => {
-      setCurrentItems((prev) => [...prev, ...allProjects.slice(visibleProjects, visibleProjects + 18)]);
+      setCurrentItems((prev) => [...prev, ...filteredProjects.slice(visibleProjects, visibleProjects + 18)]);
       setVisibleProjects((prev) => prev + 18);
     }, 1500);
   };
@@ -57,7 +58,7 @@ const ProjectsPage = () => {
       setFilteredProjects(allProjects);
       setCurrentItems(allProjects.slice(0, visibleProjects));
     }
-  }, [selectedButton]);
+  }, [selectedButton, allProjects, visibleProjects]);
 
   const handleSearch = () => {
     // Function to handle project search by name and update filtered projects
