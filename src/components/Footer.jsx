@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 
-export default function Footer() {
+const Footer = () => {
   const { theme } = useContext(ThemeContext);
   const bgColor = theme.mode === 'dark' ? theme.navbar.background : theme.background;
 
@@ -40,4 +40,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
