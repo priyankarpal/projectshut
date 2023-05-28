@@ -1,9 +1,7 @@
----
 level1:
   - "src/DB/*"
 level2:
   - "src/components/*"
   - "src/pages/*"
   - "src/utils/*"
-level3:
-  - "**/*"
+
