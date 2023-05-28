@@ -12,11 +12,12 @@ const HomePage = () => {
       <div className="relative overflow-hidden">
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg">
-              <h1 className="font text-5xl font-bold  md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
+            <div className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
+              <h1 className="font text-5xl font-bold sm:text-[5vw] md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
                 Share your projects
               </h1>
-              <p className="mt-4 text-xl text-gray-400 tracking-wide">
+
+              <p className="mt-4 text-xl text-gray-400 tracking-wide ">
                 ProjectsHut is a platform where you can share your open source projects with the world.
               </p>
             </div>
