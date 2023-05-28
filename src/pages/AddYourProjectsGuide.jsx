@@ -2,7 +2,7 @@ import { BiGitRepoForked } from 'react-icons/bi';
 import { AiTwotoneFile } from 'react-icons/ai';
 import { RiGitRepositoryCommitsFill } from 'react-icons/ri';
 
-export default function AddYourProjectsGuide() {
+const AddYourProjectsGuide = () => {
   const codeString = `
     {
       "github_username": "YOUR_GITHUB_USERNAME",  
@@ -245,4 +245,6 @@ export default function AddYourProjectsGuide() {
       </article>
     </section>
   );
-}
+};
+
+export default AddYourProjectsGuide;

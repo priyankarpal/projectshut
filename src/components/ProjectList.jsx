@@ -7,7 +7,7 @@ import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react
 import { BsFillArrowUpRightCircleFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-export default function ProjectList() {
+const ProjectList = () => {
   const { theme } = useContext(ThemeContext);
   const { username } = useParams();
 
@@ -184,4 +184,5 @@ export default function ProjectList() {
       </div>
     </section>
   );
-}
+};
+export default ProjectList;
