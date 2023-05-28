@@ -1,11 +1,11 @@
-import React, { useContext } from "react"
-import { Link, NavLink } from "react-router-dom"
-import CloseIcon from "@mui/icons-material/Close"
-import IconButton from "@mui/material/IconButton"
-import { ThemeContext } from "../context/Theme"
+import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import CloseIcon from '@mui/icons-material/Close';
+import IconButton from '@mui/material/IconButton';
+import { ThemeContext } from '../context/Theme';
 
 export default function SideMenu(props) {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
   return (
     <div
       className=" h-screen flex flex-col "
@@ -36,7 +36,7 @@ export default function SideMenu(props) {
             className="h-10 mb-5 items-center rounded-lg  font-extrabold text-[2rem] "
             onClick={() => props.handleDrawerToggle()}
           >
-            {"Ph"} <span className="text-red-500">.</span>
+            {'Ph'} <span className="text-red-500">.</span>
           </Link>
         </div>
       </div>
@@ -47,72 +47,59 @@ export default function SideMenu(props) {
           <NavLink
             to="/"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+              theme.mode === 'light'
+                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
+                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
             }`}
             onClick={() => props.handleDrawerToggle()}
           >
-            {"Home"}
+            {'Home'}
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/ProjectsPage"
+            to="/projects"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+              theme.mode === 'light'
+                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
+                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
             }`}
             onClick={() => props.handleDrawerToggle()}
           >
-            {"Projects"}
+            {'Projects'}
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/ContributorsPage"
+            to="/docs"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+              theme.mode === 'light'
+                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
+                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
             }`}
             onClick={() => props.handleDrawerToggle()}
           >
-            {"Contributers"}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/AddYourProjectsGuide"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
-            }`}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {"Documentation"}
+            {'Documentation'}
           </NavLink>
         </li>
         <li>
           <a
             href="https://github.com/priyankarpal/ProjectsHut"
-            target={"_blank"}
-            rel={"noreferrer"}
+            target={'_blank'}
+            rel={'noreferrer'}
             className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === "light"
-                ? "hover:text-white hover:bg-black focus:text-white focus:bg-black"
-                : "hover:text-black hover:bg-white focus:text-black focus:bg-white"
+              theme.mode === 'light'
+                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
+                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
             }`}
             aria-label="Github"
           >
-            {"GitHub"}
+            {'GitHub'}
           </a>
         </li>
       </ul>
 
       {/* </ul> */}
     </div>
-  )
+  );
 }
