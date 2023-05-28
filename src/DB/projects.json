@@ -1829,6 +1829,24 @@
         "tech": ["NextJs", "Solidity","CSS"]
       }
     ]
+  },
+   {
+     "github_username": "govardhan-26",
+     "Social_media": {
+       "gitHub": "https://github.com/govardhan-26",
+       "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+       "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+       "YouTube": "",
+       "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/govardhan-26/restaurant-website",
+        "title": "Restaurant Website",
+        "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
   }
 ]
 
