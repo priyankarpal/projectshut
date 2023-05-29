@@ -1,18 +1,19 @@
 # What is ProjectsHut ?
 
-Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform. It provides a user-friendly interface for showcasing projects and fosters a collaborative community for creative minds. 
+Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform. It provides a user-friendly interface for showcasing projects and fosters a collaborative community for creative minds.
+
 > Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
 
 ![projectshut](https://user-images.githubusercontent.com/88102392/235369195-189ad8cd-31df-4099-8b99-3efac3056651.png)
 
-
 ## How to contribute ?
+
 > Here are some steps you can take to contribute to this project:
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
-- Follow the [Contribution Documents](/contributing.md). 
+- Follow the [Contribution Documents](/contributing.md).
 - Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
-- Remember to add a good commit message. You can see this blog for reference [How to write professional commits?](https://www.conventionalcommits.org/en/v1.0.0/) before commiting the changes. 
+- Remember to add a good commit message. You can see this blog for reference [How to write professional commits?](https://www.conventionalcommits.org/en/v1.0.0/) before commiting the changes.
 - Don't spam if you do it your PR/issue will be closed.
 
 ## Prerequisites
@@ -25,22 +26,21 @@ Projectshut is an open source web app that enables users to freely publish their
 ## Tech Stack Used
 
 > We're excited to share that our project leverages the power of React for the frontend, with the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive User Interface (UI).
-- [ReactJs](https://reactjs.org/) - React is a free and open-source front-end JavaScript library     
-- [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS is an open source CSS framework
 
+- [ReactJs](https://reactjs.org/) - React is a free and open-source front-end JavaScript library
+- [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS is an open source CSS framework
 
 ## Available Languages
 
-- [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)    
-- [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)  
-- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)       
-- [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)     
-- [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)  
-- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) 
-- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)     
-- [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)       
-- [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)   
-
+- [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+- [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
+- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
+- [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
+- [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
+- [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
+- [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French)
+- [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
+- [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)
 
 <h1 align=center> Project Admin </h1>
 <table align=center >
