@@ -20,6 +20,12 @@
         "title": "Yoga Website",
         "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
         "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/EditorJS",
+        "title": "Editor",
+        "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
+        "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
       }
     ]
   },
@@ -83,7 +89,7 @@
       }
     ]
   },
-    {
+  {
     "github_username": "Hareesh108",
     "Social_media": {
       "gitHub": "https://github.com/Hareesh108",
@@ -1932,30 +1938,30 @@
       }
     ]
   },
-{
-      "github_username": "akshaya-hub",
-      "Social_media": {
+  {
+    "github_username": "akshaya-hub",
+    "Social_media": {
       "gitHub": "https://github.com/akshaya-hub",
       "LinkedIn": "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
       "Twitter": "https://twitter.com/AKSHAYA96187678"
-      },
-      "Projects": [
-        {
+    },
+    "Projects": [
+      {
         "link": "https://github.com/akshaya-hub/personality-prediction",
         "title": "Personality Analysis",
         "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
-         "tech": ["Python", "Machine Learning"]
-        }
-        ]
-},
-   {
-     "github_username": "govardhan-26",
-     "Social_media": {
-       "gitHub": "https://github.com/govardhan-26",
-       "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
-       "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
-       "YouTube": "",
-       "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+        "tech": ["Python", "Machine Learning"]
+      }
+    ]
+  },
+  {
+    "github_username": "govardhan-26",
+    "Social_media": {
+      "gitHub": "https://github.com/govardhan-26",
+      "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+      "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
     },
     "Projects": [
       {
