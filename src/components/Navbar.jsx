@@ -72,7 +72,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-full z-10 top-0 w-100% fixed">
+    <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2 top-0 z-10 sticky">
       <div className="flex flex-row gap-4 justify-between w-full">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
