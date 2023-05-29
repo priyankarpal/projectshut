@@ -1,4 +1,4 @@
-# Follow these steps to contribute📈
+# Follow these steps to contribute
 
 **Understand the Project:**
 
@@ -28,7 +28,7 @@
 - If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual.
 - The individual will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
 
-# 😎 How to add your projects to ProjectsHut
+# How to add your projects to ProjectsHut
 
 #### 1. Fork this repository
 
