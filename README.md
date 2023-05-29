@@ -7,8 +7,7 @@ Projectshut is an open source web app that enables users to freely publish their
 
 
 ## How to contribute ?
-
-#### Here are some steps you can take to contribute to this project:
+> Here are some steps you can take to contribute to this project:
 
 - Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
 - Follow the [Contribution Documents](/contributing.md). 
