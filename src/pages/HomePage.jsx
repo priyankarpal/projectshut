@@ -29,7 +29,7 @@ const HomePage = () => {
                 >
                   <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 py-16">
                     <div className="flex flex-grow items-center space-x-6 lg:space-x-8">
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="grid ml-20 flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         {images.slice(0, 2).map((image, index) => (
                           <div key={index} className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
@@ -40,7 +40,7 @@ const HomePage = () => {
                           </div>
                         ))}
                       </div>
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-5">
+                      <div className="hidden grid flex-shrink-0 grid-cols-1 gap-y-6 sm:block lg:gap-y-5">
                         {images.slice(2, 5).map((image, index) => (
                           <div key={index} className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
