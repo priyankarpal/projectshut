@@ -1971,5 +1971,21 @@
         "tech": ["ReactJs", "CSS"]
       }
     ]
+  },
+  {
+    "github_username": "Rishav1707",
+    "Social_media": {
+      "gitHub": "https://github.com/Rishav1707",
+      "LinkedIn": "https://www.linkedin.com/in/rishavrtwt/",
+      "Twitter": "https://twitter.com/rishavrtwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Rishav1707/Todo-List-Component",
+        "title": "Todo List",
+        "description": "A Todo List is a digital tool designed to help users manage their tasks and stay organized. With this app, users can easily add tasks to their list, edit and update them, and delete tasks as needed.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
   }
 ]
