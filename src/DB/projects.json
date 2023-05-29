@@ -89,7 +89,7 @@
       }
     ]
   },
-    {
+  {
     "github_username": "Hareesh108",
     "Social_media": {
       "gitHub": "https://github.com/Hareesh108",
@@ -1938,36 +1938,52 @@
       }
     ]
   },
-{
-      "github_username": "akshaya-hub",
-      "Social_media": {
+  {
+    "github_username": "akshaya-hub",
+    "Social_media": {
       "gitHub": "https://github.com/akshaya-hub",
       "LinkedIn": "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
       "Twitter": "https://twitter.com/AKSHAYA96187678"
-      },
-      "Projects": [
-        {
+    },
+    "Projects": [
+      {
         "link": "https://github.com/akshaya-hub/personality-prediction",
         "title": "Personality Analysis",
         "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
-         "tech": ["Python", "Machine Learning"]
-        }
-        ]
-},
-   {
-     "github_username": "govardhan-26",
-     "Social_media": {
-       "gitHub": "https://github.com/govardhan-26",
-       "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
-       "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
-       "YouTube": "",
-       "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+        "tech": ["Python", "Machine Learning"]
+      }
+    ]
+  },
+  {
+    "github_username": "govardhan-26",
+    "Social_media": {
+      "gitHub": "https://github.com/govardhan-26",
+      "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+      "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
     },
     "Projects": [
       {
         "link": "https://github.com/govardhan-26/restaurant-website",
         "title": "Restaurant Website",
         "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Rishav1707",
+    "Social_media": {
+      "gitHub": "https://github.com/Rishav1707",
+      "LinkedIn": "https://www.linkedin.com/in/rishavrtwt/",
+      "Twitter": "https://twitter.com/rishavrtwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Rishav1707/Todo-List-Component",
+        "title": "Todo List",
+        "description": "A Todo List is a digital tool designed to help users manage their tasks and stay organized. With this app, users can easily add tasks to their list, edit and update them, and delete tasks as needed.",
         "tech": ["ReactJs", "CSS"]
       }
     ]
