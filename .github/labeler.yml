@@ -1,8 +1,4 @@
-level1:
+projects addition:
   - "src/DB/*"
-level2:
-  - "src/components/*"
-  - "src/pages/*"
-  - "src/utils/*"
 wait for reviewers:
   - "**/*"

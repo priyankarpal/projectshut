@@ -1,7 +1,7 @@
 name: 🌱 Project Addition
 description: Add a new project to the list
 title: 'data: project addition by '
-labels: ['🌱 chore: projects addition', '🚦status: awaiting triage']
+labels: ['projects addition', '🚦status: awaiting triage']
 body:
   - type: textarea
     id: project-add
