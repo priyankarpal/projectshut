@@ -55,6 +55,15 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 🌟 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
 
 
+<br>
+</td>
+</tr>
+</table>
+<div align=center>
+  <h2>This Project is part of</h2>
+  <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
+</div>
+
 ## ✨Authors
 [Priyankar Pal](https://github.com/priyankarpal) - Project Admin
 <a name="changelog"></a>
