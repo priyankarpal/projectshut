@@ -2041,5 +2041,24 @@
         "tech": ["Node.js", "Express js","MongoDB","HTML", "CSS3", "EJS"]
       }
     ]
+},
+  {
+  "github_username": "rajputsingh808",
+  "Social_media": {
+    "gitHub": "https://github.com/rajputsingh808",
+    "LinkedIn": "sonam-singh-30b689231",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "sonam-singh-30b689231",
+      "title": "Bookstore",
+      "description": "My bookstore website can issue different books and has multiple features.",
+      "tech": ["HTML", "CSS","JS"]
+    },
+   
+  ]
 }
 ]
