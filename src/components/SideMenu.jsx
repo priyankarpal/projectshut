@@ -4,7 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import { ThemeContext } from '../context/Theme';
 
-export default function SideMenu(props) {
+const SideMenu = (props) => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -58,7 +58,7 @@ export default function SideMenu(props) {
         </li>
         <li>
           <NavLink
-            to="/projectspage"
+            to="/projects"
             className={`block py-2 px-3 text-left font-bold rounded-md ${
               theme.mode === 'light'
                 ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
@@ -102,4 +102,6 @@ export default function SideMenu(props) {
       {/* </ul> */}
     </div>
   );
-}
+};
+
+export default SideMenu;

@@ -3,9 +3,11 @@ import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
-import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { FilterContext } from '@/context/FilterContext';
+import { searchProject } from '@/utils/searchProject';
+import { Button, TextField, Autocomplete, Icon, IconButton } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
 
 const paginatedArr = paginate(projects);
 
@@ -14,6 +16,9 @@ const ProjectsPage = () => {
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
+  // const [selectedButton, setSelectedButton] = useState(null);
+  const [projectsArr, setProjectsArr] = useState([]);
+  const [selectedName, setSelectedName] = useState('');
 
   // this useEffect is for when user click on pagination button then render only that page projects
 
@@ -24,11 +29,30 @@ const ProjectsPage = () => {
     page.prev = page.pageNo === 0 ? true : false;
     setPage({ ...page });
 
-    const data = paginatedArr[page.pageNo];
-    setItems(data);
+    //setting the projects as label and name for mui autocomplete
+    let arr = [];
+
+    let allProjects = projects;
+    for (let i = 0; i < allProjects.length; i++) {
+      let projectInAllProjects = allProjects[i].Projects;
+      arr.push({
+        label: projectInAllProjects[0].title,
+        author: allProjects[i].github_username,
+      });
+    }
+    setProjectsArr(arr);
+
+    //move the paginated item in a function to use multiple times
+    loadItems();
 
     window.scrollTo(0, 0); // this makes the page scroll to top on page state changes
   }, [page.pageNo]);
+
+  // function to set item for pagination
+  const loadItems = () => {
+    const data = paginatedArr[page.pageNo];
+    setItems(data);
+  };
 
   useEffect(() => {
     // If no technology options are selected, set items to the current page's data
@@ -69,6 +93,26 @@ const ProjectsPage = () => {
     setPage({ ...page });
   };
 
+  // to search a selected item
+  const handleSearch = () => {
+    if (selectedName.length > 0) {
+      let selectedArr = searchProject(projects, selectedName);
+      setItems(selectedArr);
+      setSelectedName('');
+    } else {
+      loadItems();
+    }
+  };
+
+  //to set the name of the project
+  const handleSetName = (newValue) => {
+    //if there is a value only then a name will be set in selectedName
+    if (newValue) {
+      setSelectedName(newValue.label);
+    } else {
+      setSelectedName('');
+    }
+  };
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
       <h1 className="text-[3.5rem] font-bold  text-center">
@@ -84,6 +128,26 @@ const ProjectsPage = () => {
           Check documentation <span aria-hidden="true">→</span>
         </Link>
       </p>
+
+      <p className="mt-3 text-[2rem] font-bold text-center mx-auto w-10/12">
+        Search Your <span className="text-primary">cool </span>Project
+      </p>
+      <div className="flex items-stretch my-7 mx-20">
+        {' '}
+        <Autocomplete
+          disablePortal
+          id="combo-box-demo"
+          fullWidth
+          className="hover:bg-slate-200 border-solid border-2 border-violet-500 rounded-xl  "
+          options={projectsArr}
+          value={selectedName}
+          onChange={(value, newValue) => handleSetName(newValue)}
+          renderInput={(params) => <TextField className="bg-white rounded-xl" {...params} />}
+        />
+        <button className="mx-5" onClick={() => handleSearch()}>
+          <SearchIcon />
+        </button>
+      </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
           <Button

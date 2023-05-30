@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 import { Link } from 'react-router-dom';
 
-function ProjectCard({ github_username, listOfProjects }) {
+const ProjectCard = ({ github_username, listOfProjects }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -18,7 +18,7 @@ function ProjectCard({ github_username, listOfProjects }) {
         <div className="flex justify-between items-center mb-3">
           <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">{listOfProjects[0]['title']}</h3>
           <img
-            src={`https://github.com/${github_username}.png`}
+            src={`https://images.weserv.nl/?output=webp&width=50px&url=https://github.com/${github_username}.png`}
             alt={`${github_username}'s github profile`}
             className="h-10 w-10 rounded-full"
           />
@@ -57,6 +57,6 @@ function ProjectCard({ github_username, listOfProjects }) {
       </article>
     </>
   );
-}
+};
 
 export default ProjectCard;
