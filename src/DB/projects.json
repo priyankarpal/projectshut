@@ -2041,6 +2041,21 @@
         "tech": ["Node.js", "Express js", "MongoDB", "HTML", "CSS3", "EJS"]
       }
     ]
+},
+  {
+  "github_username": "rajputsingh808",
+  "Social_media": {
+    "gitHub": "https://github.com/rajputsingh808",
+    "LinkedIn": "https://www.linkedin.com/in/sonam-singh-30b689231/"
+  },
+    "Projects":[
+     {
+      "link": "https://github.com/rajputsingh808/Tech_intern2k23",
+      "title": "Bookstore",
+      "description": "My bookstore website can issue different books and has multiple features.",
+      "tech": ["HTML", "CSS","Javascript"]
+    }
+    ]
 
 },
   {
@@ -2053,7 +2068,7 @@
     "Twitter": ""
   },
   "Projects": [
-    {
+  {
       "link": "https://github.com/KhushiVaiskyar/Usabilityhub",
       "title": "Usability Hub",
       "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
