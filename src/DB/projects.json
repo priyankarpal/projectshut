@@ -2041,5 +2041,24 @@
         "tech": ["Node.js", "Express js", "MongoDB", "HTML", "CSS3", "EJS"]
       }
     ]
+
+},
+  {
+  "github_username": "KhushiVaiskyar",
+  "Social_media": {
+    "gitHub": "https://github.com/KhushiVaiskyar",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-vaiskyar-953190235/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/KhushiVaiskyar/Usabilityhub",
+      "title": "Usability Hub",
+      "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
+      "tech": ["HTML", "CSS"]
+    }
+  ]
   }
 ]
