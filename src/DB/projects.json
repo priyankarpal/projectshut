@@ -1989,43 +1989,43 @@
     ]
   },
   {
-      "github_username": "Utkers-h",  
-      "Social_media": {
-        "gitHub": "https://github.com/Utkers-h",
-        "LinkedIn": "https://www.linkedin.com/in/utkersh-uppal-2840b0229/",
-        "Instagram": "",
-        "YouTube": "",
-        "Twitter": ""
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
-          "title": "Coffe and Wifi",
-          "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
-          "tech": ["Html", "CSS","Flask-WTF","Flask-Bootstrap"]
-        }
-      ]
+    "github_username": "Utkers-h",
+    "Social_media": {
+      "gitHub": "https://github.com/Utkers-h",
+      "LinkedIn": "https://www.linkedin.com/in/utkersh-uppal-2840b0229/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
+        "title": "Coffe and Wifi",
+        "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
+        "tech": ["Html", "CSS", "Flask-WTF", "Flask-Bootstrap"]
+      }
+    ]
   },
   {
-  "github_username": "Monishka8303",
-  "Social_media": {
-    "gitHub": "https://github.com/Monishka8303",
-    "LinkedIn": "https://www.linkedin.com/in/monishka-jaiswal-6aab71239/",
-    "Instagram": "https://www.instagram.com/monishka.8303/",
-    "YouTube": "",
-    "Twitter": ""
+    "github_username": "Monishka8303",
+    "Social_media": {
+      "gitHub": "https://github.com/Monishka8303",
+      "LinkedIn": "https://www.linkedin.com/in/monishka-jaiswal-6aab71239/",
+      "Instagram": "https://www.instagram.com/monishka.8303/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Monishka8303/Discord-Clone",
+        "title": "Discord Clone",
+        "description": "This project is a clone of the original website of Discord, which is fully responsive.",
+        "tech": ["HTML5", "TailwindCSS"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/Monishka8303/Discord-Clone",
-      "title": "Discord Clone",
-      "description": "This project is a clone of the original website of Discord, which is fully responsive.",
-      "tech": ["HTML5", "TailwindCSS"]
-    }
-  ]
-},
-{
-    "github_username": "prasanta10",  
+  {
+    "github_username": "prasanta10",
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
@@ -2038,7 +2038,7 @@
         "link": "https://github.com/prasanta10/Blog_wesbsite",
         "title": "Blog Website",
         "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
-        "tech": ["Node.js", "Express js","MongoDB","HTML", "CSS3", "EJS"]
+        "tech": ["Node.js", "Express js", "MongoDB", "HTML", "CSS3", "EJS"]
       }
     ]
 },
@@ -2059,5 +2059,40 @@
       "tech": ["HTML", "CSS", "Javascript"]
     } 
   ]
-}
+},
+
+  {
+  "github_username": "rajputsingh808",
+  "Social_media": {
+    "gitHub": "https://github.com/rajputsingh808",
+    "LinkedIn": "https://www.linkedin.com/in/sonam-singh-30b689231/"
+  },
+    "Projects":[
+     {
+      "link": "https://github.com/rajputsingh808/Tech_intern2k23",
+      "title": "Bookstore",
+      "description": "My bookstore website can issue different books and has multiple features.",
+      "tech": ["HTML", "CSS","Javascript"]
+    }
+    ]
+
+},
+  {
+  "github_username": "KhushiVaiskyar",
+  "Social_media": {
+    "gitHub": "https://github.com/KhushiVaiskyar",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-vaiskyar-953190235/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+  {
+      "link": "https://github.com/KhushiVaiskyar/Usabilityhub",
+      "title": "Usability Hub",
+      "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
+      "tech": ["HTML", "CSS"]
+    }
+  ]
+  }
 ]
