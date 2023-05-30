@@ -1441,6 +1441,12 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": ["Python", "OpenCV", "Keras", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/Deepanshu0703/google-keeper-clone",
+        "title": "Google Keeper Clone",
+        "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
+        "tech": ["ReactJs", "CSS"]
       }
     ]
   },
@@ -1997,7 +2003,7 @@
         "YouTube": "",
         "Twitter": ""
       },
-      "Projects": [
+      "projects": [
         {
           "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
           "title": "Coffe and Wifi",
@@ -2005,23 +2011,12 @@
           "tech": ["Html", "CSS","Flask-WTF","Flask-Bootstrap"]
         }
       ]
-  },
-  {
-    "github_username": "Deepanshu0703",
-    "Social_media": {
-      "gitHub": "https://github.com/Deepanshu0703",
-      "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/Deepanshu0703/google-keeper-clone",
-        "title": "Google Keeper Clone",
-        "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
-        "tech": ["ReactJs", "CSS"]
-      }
-    ]
   }
-]
+  ]
+ 
+
+     
+
+
+
+
