@@ -14,6 +14,8 @@ const ProjectList = () => {
   const [userObj, setObject] = useState({});
 
   useEffect(() => {
+    // make the scroll bar start from the top of the page
+    window.scrollTo(0, 0)
     // return object which has a simillar name as in URL , which can be get by useParams() hook.
     //  And being added into objForUser
 
