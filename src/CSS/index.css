@@ -96,15 +96,15 @@ body {
 
 /* For Navbar CSS   */
 
-input:checked + label svg.sun {
+input:checked+label svg.sun {
   fill: #7e7e7e;
 }
 
-input:checked + label svg.moon {
+input:checked+label svg.moon {
   fill: black;
 }
 
-@media screen and (max-width: 490px) {
+/* @media screen and (max-width: 490px) {
   .block {
     font-size: 13px;
   }
@@ -120,4 +120,4 @@ input:checked + label svg.moon {
   .block {
     font-size: 9px;
   }
-}
+} */
