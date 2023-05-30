@@ -36,7 +36,7 @@ Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web 
 
 - **Notifications**: Stay up-to-date with notifications about project updates, comments, and new collaborations.
 
--**Multiple Language Access**: The website is available for multiple languages including 한국인, Española,தமிழ்,German,Italiano,Japanese,French,हिंदी and Tagalog.
+- **Multiple Language Access**: The website is available for multiple languages including 한국인, Española,தமிழ்,German,Italiano,Japanese,French,हिंदी and Tagalog.
 
 
 ## 💻 Tech Stack 
