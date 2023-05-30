@@ -2005,5 +2005,23 @@
           "tech": ["Html", "CSS","Flask-WTF","Flask-Bootstrap"]
         }
       ]
-  }
+  },
+  {
+  "github_username": "Monishka8303",
+  "Social_media": {
+    "gitHub": "https://github.com/Monishka8303",
+    "LinkedIn": "https://www.linkedin.com/in/monishka-jaiswal-6aab71239/",
+    "Instagram": "https://www.instagram.com/monishka.8303/",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Monishka8303/Discord-Clone",
+      "title": "Discord Clone",
+      "description": "This project is a clone of the original website of Discord, which is fully responsive.",
+      "tech": ["HTML5", "TailwindCSS"]
+    }
+  ]
+}
 ]
