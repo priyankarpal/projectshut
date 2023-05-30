@@ -3,6 +3,7 @@ import { AiTwotoneFile } from 'react-icons/ai';
 import { RiGitRepositoryCommitsFill } from 'react-icons/ri';
 
 const AddYourProjectsGuide = () => {
+  window.scrollTo(0, 0);
   const codeString = `
     {
       "github_username": "YOUR_GITHUB_USERNAME",  

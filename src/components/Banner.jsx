@@ -28,7 +28,7 @@ const Banner = () => {
                 It's designed to provide a space for individuals to showcase their work and connect with a global
                 audience.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+              <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-4 lg:justify-start">
                 <a
                   href="https://github.com/priyankarpal/ProjectsHut/fork"
                   target={'_blank'}
@@ -45,9 +45,9 @@ const Banner = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8 dev-img-parent-class">
+            <div className="relative mt-16 h-80 lg:mt-8 dev-img-parent-class ">
               <img
-                className="absolute top-0 left-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 dev-img-class"
+                className="absolute top-0 left-0 w-[62rem] md:left-[-67px] md:w-[69rem] tab:top-[-11px] tab:w-[62rem] lg:top-[-41px] lg:left-[-49px] lg:w-[45rem] lg:h-[43rem] object-none object-center max-w-none rounded-md bg-white/5 ring-1 ring-white/10 dev-img-class"
                 src="https://user-images.githubusercontent.com/88102392/226265144-a0c0d838-2d94-42f4-aa70-afc74a074624.png"
                 alt="Developer"
               />
