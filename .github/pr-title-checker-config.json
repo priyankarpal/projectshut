@@ -1,0 +1,40 @@
+{
+  "LABEL": {
+    "name": "title-needs-formatting",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "prefixes": [
+      "Fix: ",
+      "Feat: ",
+      "Docs: ",
+      "Test: ",
+      "Chore: ",
+      "CI: ",
+      "Perf: ",
+      "Refactor: ",
+      "Revert: ",
+      "Style: ",
+      "Test: ",
+      "Data:",
+      "Fix(",
+      "Feat(",
+      "Docs(",
+      "Test(",
+      "Chore(",
+      "CI(",
+      "Perf(",
+      "Refactor(",
+      "Revert(",
+      "Style(",
+      "Test(",
+      "Data(",
+      "[Backport"
+    ]
+  },
+  "MESSAGES": {
+    "success": "All OK",
+    "failure": "Failing CI test",
+    "notice": ""
+  }
+}
