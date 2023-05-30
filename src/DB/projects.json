@@ -2041,5 +2041,23 @@
         "tech": ["Node.js", "Express js","MongoDB","HTML", "CSS3", "EJS"]
       }
     ]
+},
+{
+  "github_username": "SJ-Kumar",
+  "Social_media": {
+    "gitHub": "https://github.com/SJ-Kumar",
+    "LinkedIn": "https://www.linkedin.com/in/jayanth-kumar-91947b220/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Jayanth_2003"
+  },
+  "Projects": [
+    {
+      "link": "https://profile-git-main-sj-kumar.vercel.app/",
+      "title": "Chat Based Portfolio Page",
+      "description": "Developed a chat based portfolio page that displays education, skills, projects, and resume (pdf) version from repository based on the word user types in a dynamic chat window.",
+      "tech": ["HTML", "CSS", "Javascript"]
+    } 
+  ]
 }
 ]
