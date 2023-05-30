@@ -138,7 +138,7 @@ const ProjectsPage = () => {
       <p className="mt-3 text-[2rem] font-bold text-center mx-auto w-10/12">
         Search Your <span className="text-primary">cool </span>Project
       </p>
-      <div className="flex items-stretch my-7 mx-20">
+      <div className="flex items-stretch my-7 md:mx-20">
         {' '}
         <Autocomplete
           disablePortal
@@ -150,7 +150,7 @@ const ProjectsPage = () => {
           onChange={(value, newValue) => handleSetName(newValue)}
           renderInput={(params) => <TextField className="bg-white rounded-xl" {...params} />}
         />
-        <button className="mx-5" onClick={() => handleSearch()}>
+        <button className="mx-2 md:mx-5" onClick={() => handleSearch()}>
           <SearchIcon />
         </button>
       </div>
