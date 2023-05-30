@@ -133,6 +133,7 @@ const ProjectsPage = () => {
           type="text"
           id="combo-box-demo"
           className="hover:bg-slate-200 border-solid border-2 border-violet-500 rounded-xl p-2 w-full"
+          style={{ color: 'black', fontWeight: 'bold' }}
           onChange={handleChange}
           value={searchInput}
         />
