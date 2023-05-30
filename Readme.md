@@ -68,24 +68,18 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 
 ## ✨ Thank You for Your Contribution!
-<p align=center>
-<a href="https://github.com/Clueless-Community/fintech-api/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=priyankarpal/ProjectsHut-api" />
-</a></p>
 
 🙏 Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
 
 🌟 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
 
-✨ Once again, thank you for your contribution!
-
 
 ## ✨Authors
-[Priyankar Pal](https://github.com/priyankarpal) - Project Admin
+![Priyankar Pal](https://github.com/priyankarpal) - Project Admin
 <a name="changelog"></a>
-[Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
+![Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
 <a name="changelog"></a>
-[Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
+![Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
 <a name="changelog"></a>
 
 
