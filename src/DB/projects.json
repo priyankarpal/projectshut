@@ -2035,11 +2035,17 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/prasanta10/Blog_wesbsite",
+        "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
+        "title": "Coffe and Wifi",
+        "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
+        "tech": ["Html", "CSS", "Flask-WTF", "Flask-Bootstrap"]
+      },
+      {
+         "link": "https://github.com/prasanta10/Blog_wesbsite",
         "title": "Blog Website",
         "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
         "tech": ["Node.js", "Express js","MongoDB","HTML", "CSS3", "EJS"]
       }
     ]
-}
+  }
 ]
