@@ -104,7 +104,7 @@ input:checked + label svg.moon {
   fill: black;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 490px) {
   .block {
     font-size: 13px;
   }
