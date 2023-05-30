@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Banner() {
+const Banner = () => {
   return (
     <>
       <div>
@@ -28,7 +28,7 @@ function Banner() {
                 It's designed to provide a space for individuals to showcase their work and connect with a global
                 audience.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+              <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-4 lg:justify-start">
                 <a
                   href="https://github.com/priyankarpal/ProjectsHut/fork"
                   target={'_blank'}
@@ -57,6 +57,6 @@ function Banner() {
       </div>
     </>
   );
-}
+};
 
 export default Banner;

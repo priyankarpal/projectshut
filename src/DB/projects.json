@@ -1,5 +1,35 @@
 [
   {
+    "github_username": "sumitkr2000",
+    "Social_media": {
+      "gitHub": "https://github.com/sumitkr2000",
+      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/sumitkr2000/BMI-Calculator",
+        "title": "BMI Calculator",
+        "description": "BMI Calculator is used to measure the Body Mass Index of a person. By measuring BMI, a person can know if he is underweight, normal or overweight.",
+        "tech": ["HTML", "CSS", "Node.js", "React.js"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/yoga",
+        "title": "Yoga Website",
+        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/EditorJS",
+        "title": "Editor",
+        "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
+        "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
+      }
+    ]
+  },
+  {
     "github_username": "SasiVardhan247",
     "Social_media": {
       "gitHub": "https://github.com/SasiVardhan247",
@@ -18,20 +48,20 @@
     ]
   },
   {
-    "github_username": "sumitkr2000",
+    "github_username": "raj3000k",
     "Social_media": {
-      "gitHub": "https://github.com/sumitkr2000",
-      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "gitHub": "https://github.com/raj3000k",
+      "LinkedIn": "https://www.linkedin.com/in/raj-motwani-978143204/",
       "Instagram": "",
-      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
-      "Twitter": ""
+      "YouTube": "",
+      "Twitter": "https://twitter.com/RAJMOTWANI16"
     },
     "Projects": [
       {
-        "link": "https://github.com/sumitkr2000/yoga",
-        "title": "Yoga Website",
-        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
-        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+        "link": "https://github.com/raj3000k/Pharm",
+        "title": "Med.Ez(Medicine management system)",
+        "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
+        "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
       }
     ]
   },
@@ -56,6 +86,24 @@
         "title": "Suggest Us",
         "description": "A Application for doctors to get in touch with community of doctors .",
         "tech": ["React", "Express.js", "MUI", "Firebase", "Node.js"]
+      }
+    ]
+  },
+  {
+    "github_username": "Hareesh108",
+    "Social_media": {
+      "gitHub": "https://github.com/Hareesh108",
+      "LinkedIn": "https://www.linkedin.com/in/hareeshbhittam",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hareesh108/NotesTaker",
+        "title": "Personal Taker",
+        "description": "This web based note taker application made using reactjs",
+        "tech": ["React", "HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -1153,6 +1201,12 @@
         "title": "Weather Website",
         "description": "This website is of finding wheather of your location and as well as you can search any place.",
         "tech": ["Javascript", "CSS", "HTML", "Weather-api", "Tailwind CSS"]
+      },
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   },
@@ -1883,5 +1937,73 @@
         "tech": ["Python", "Jupyter Notebook"]
       }
     ]
+  },
+  {
+    "github_username": "akshaya-hub",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaya-hub",
+      "LinkedIn": "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
+      "Twitter": "https://twitter.com/AKSHAYA96187678"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaya-hub/personality-prediction",
+        "title": "Personality Analysis",
+        "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
+        "tech": ["Python", "Machine Learning"]
+      }
+    ]
+  },
+  {
+    "github_username": "govardhan-26",
+    "Social_media": {
+      "gitHub": "https://github.com/govardhan-26",
+      "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+      "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/govardhan-26/restaurant-website",
+        "title": "Restaurant Website",
+        "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Rishav1707",
+    "Social_media": {
+      "gitHub": "https://github.com/Rishav1707",
+      "LinkedIn": "https://www.linkedin.com/in/rishavrtwt/",
+      "Twitter": "https://twitter.com/rishavrtwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Rishav1707/Todo-List-Component",
+        "title": "Todo List",
+        "description": "A Todo List is a digital tool designed to help users manage their tasks and stay organized. With this app, users can easily add tasks to their list, edit and update them, and delete tasks as needed.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
+  },
+  {
+      "github_username": "Utkers-h",  
+      "Social_media": {
+        "gitHub": "https://github.com/Utkers-h",
+        "LinkedIn": "https://www.linkedin.com/in/utkersh-uppal-2840b0229/",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
+          "title": "Coffe and Wifi",
+          "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
+          "tech": ["Html", "CSS","Flask-WTF","Flask-Bootstrap"]
+        }
+      ]
   }
 ]
