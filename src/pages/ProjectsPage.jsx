@@ -5,8 +5,7 @@ import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { Link } from 'react-router-dom';
 import { searchProject } from '@/utils/searchProject';
-import { Button, TextField, Autocomplete, Icon, IconButton } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
+import { Button } from '@mui/material';
 
 const paginatedArr = paginate(projects);
 
@@ -15,8 +14,19 @@ const ProjectsPage = () => {
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
   const [selectedButton, setSelectedButton] = useState(null);
-  const [projectsArr, setProjectsArr] = useState([]);
-  const [selectedName, setSelectedName] = useState('');
+  const [searchInput, setSearchInput] = useState('');
+  const [disablePagination, setDisablePagination] = useState(false);
+
+  function handleChange(e) {
+    setSearchInput(e.target.value);
+    if (e.target.value != '') {
+      setDisablePagination(true);
+      setItems(searchProject(projects, e.target.value));
+    } else {
+      setDisablePagination(false);
+      loadItems();
+    }
+  }
 
   // this useEffect is for when user click on pagination button then render only that page projects
 
@@ -38,7 +48,7 @@ const ProjectsPage = () => {
         author: allProjects[i].github_username,
       });
     }
-    setProjectsArr(arr);
+    // setProjectsArr(arr);
 
     //move the paginated item in a function to use multiple times
     loadItems();
@@ -99,26 +109,6 @@ const ProjectsPage = () => {
     setPage({ ...page });
   };
 
-  // to search a selected item
-  const handleSearch = () => {
-    if (selectedName.length > 0) {
-      let selectedArr = searchProject(projects, selectedName);
-      setItems(selectedArr);
-      setSelectedName('');
-    } else {
-      loadItems();
-    }
-  };
-
-  //to set the name of the project
-  const handleSetName = (newValue) => {
-    //if there is a value only then a name will be set in selectedName
-    if (newValue) {
-      setSelectedName(newValue.label);
-    } else {
-      setSelectedName('');
-    }
-  };
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
       <h1 className="text-[3.5rem] font-bold  text-center">
@@ -135,24 +125,17 @@ const ProjectsPage = () => {
         </Link>
       </p>
 
-      <p className="mt-3 text-[2rem] font-bold text-center mx-auto w-10/12">
+      <div className="mt-3 text-[2rem] font-bold text-center mx-auto w-10/12">
         Search Your <span className="text-primary">cool </span>Project
-      </p>
+      </div>
       <div className="flex items-stretch my-7 mx-20">
-        {' '}
-        <Autocomplete
-          disablePortal
+        <input
+          type="text"
           id="combo-box-demo"
-          fullWidth
-          className="hover:bg-slate-200 border-solid border-2 border-violet-500 rounded-xl  "
-          options={projectsArr}
-          value={selectedName}
-          onChange={(value, newValue) => handleSetName(newValue)}
-          renderInput={(params) => <TextField className="bg-white rounded-xl" {...params} />}
+          className="hover:bg-slate-200 border-solid border-2 border-violet-500 rounded-xl p-2 w-full"
+          onChange={handleChange}
+          value={searchInput}
         />
-        <button className="mx-5" onClick={() => handleSearch()}>
-          <SearchIcon />
-        </button>
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
@@ -169,18 +152,22 @@ const ProjectsPage = () => {
 
       {/* As the number of cards may change, it is important to give a min-height to 'section' */}
       <section className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh] ">
-        {currentItems.map((item, i) => (
-          <ProjectCard
-            github_username={item['github_username']}
-            listOfProjects={item['Projects']}
-            socaialMedia={item['Social_media']}
-            key={i}
-          />
-        ))}
+        {currentItems.length > 0 ? (
+          currentItems.map((item, i) => (
+            <ProjectCard
+              github_username={item['github_username']}
+              listOfProjects={item['Projects']}
+              socaialMedia={item['Social_media']}
+              key={i}
+            />
+          ))
+        ) : (
+          <>No such project.</>
+        )}
       </section>
 
       {/* when user apply filter then show specific projects and hide prev and next page */}
-      {selectedButton === null && (
+      {selectedButton === null && !disablePagination && (
         <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
           <button
             type="button"
