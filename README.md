@@ -87,6 +87,18 @@ Projectshut is an open source web app that enables users to freely publish their
       </a>
       <br>
     </td>
+    <td align="center">
+      <a href="https://github.com/Vaiofficial">
+        <img alt="PVaibhav" src="https://avatars.githubusercontent.com/u/99762789?v=4" width="100px;">
+        <br>
+        <sub>
+          <b>
+               PVaibhav 
+          </b>
+        </sub>
+      </a>
+      <br>
+    </td>
   </tr>
 </table>
 <div align=center>
