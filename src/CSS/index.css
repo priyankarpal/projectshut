@@ -103,21 +103,3 @@ input:checked + label svg.sun {
 input:checked + label svg.moon {
   fill: black;
 }
-
-/* @media screen and (max-width: 490px) {
-  .block {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .block {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .block {
-    font-size: 9px;
-  }
-} */
