@@ -83,9 +83,9 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 ## ✨Authors
 [Priyankar Pal](https://github.com/priyankarpal) - Project Admin
 <a name="changelog"></a>
-[Hariket Sukeshkumar Sheth](https://github.com/priyankarpal) - Project Admin
+[Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
 <a name="changelog"></a>
-[Priyankar Pal](https://github.com/priyankarpal) - Project Admin
+[Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
 <a name="changelog"></a>
 
 
