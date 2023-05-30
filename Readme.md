@@ -34,7 +34,9 @@ Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web 
 
 - **Project Categorization**: Organize your projects into categories and tags for easy search and discovery. 
 
-- **Notifications**: Stay up-to-date with notifications about project updates, comments, and new collaborations
+- **Notifications**: Stay up-to-date with notifications about project updates, comments, and new collaborations.
+
+-**Multiple Language Access**: The website is available for multiple languages including 한국인, Española,தமிழ்,German,Italiano,Japanese,French,हिंदी and Tagalog.
 
 
 ## 💻 Tech Stack 
@@ -75,11 +77,13 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 
 ## ✨Authors
-![Priyankar Pal](https://github.com/priyankarpal) - Project Admin
+[Priyankar Pal](https://github.com/priyankarpal) - Project Admin
 <a name="changelog"></a>
-![Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
+
+[Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
 <a name="changelog"></a>
-![Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
+
+[Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
 <a name="changelog"></a>
 
 
