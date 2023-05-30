@@ -2023,5 +2023,23 @@
       "tech": ["HTML5", "TailwindCSS"]
     }
   ]
+},
+{
+    "github_username": "prasanta10",  
+    "Social_media": {
+      "gitHub": "https://github.com/prasanta10",
+      "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/prasanta10/Blog_wesbsite",
+        "title": "Blog Website",
+        "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
+        "tech": ["Node.js", "Express js","MongoDB","HTML", "CSS3", "EJS"]
+      }
+    ]
 }
 ]
