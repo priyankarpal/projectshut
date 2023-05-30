@@ -1,40 +1,30 @@
-# What is ProjectsHut ?
 
-Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform. It provides a user-friendly interface for showcasing projects and fosters a collaborative community for creative minds.
+<h1 align=center> ProjectsHut </h1>
 
-> Whether you're a seasoned professional or just starting out, It's a valuable resource for sharing your work and making connections in the tech community, with its [Open Source](https://opensource.guide) design.
+<p>
+Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating personalized user profiles. The primary goal of ProjectsHut is to cultivate a collaborative community of creative individuals, where ideas flourish and innovation thrives. Whether you're a developer, designer, or an enthusiastic project enthusiast, ProjectsHut offers the perfect platform to showcase your work and connect with like-minded individuals.  </p>
 
-![projectshut](https://user-images.githubusercontent.com/88102392/235369195-189ad8cd-31df-4099-8b99-3efac3056651.png)
+![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/84855cfb-73d0-4bef-ab3d-7d4dd568f22d)
+-----
+![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/1e7fa97f-1035-42f4-b585-98cb1980208e)
 
-## How to contribute ?
 
-> Here are some steps you can take to contribute to this project:
+## ✨ Features
 
-- Remember to read [Code Of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) before contributing.
-- Follow the [Contribution Documents](/contributing.md).
-- Create an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) to report bugs, and vulnerabilities or add a new feature.
-- Remember to add a good commit message. You can see this blog for reference [How to write professional commits?](https://www.conventionalcommits.org/en/v1.0.0/) before commiting the changes.
-- Don't spam if you do it your PR/issue will be closed.
+- **Open Source**: Projectshut itself is an open-source project, allowing developers to contribute, customize, and extend the platform according to their specific needs.
 
-## Prerequisites
+- **Collaboration Opportunities**: Connect with like-minded individuals, collaborate on projects, and exchange ideas
 
-> Make sure your system has the following software installed:
+- **Project Publication**: Easily publish your projects on Projectshut, providing a platform for others to discover and explore your work.
 
-- [NodeJS](https://nodejs.org/en) - Node.js® is an open-source, cross-platform JavaScript runtime environment
-- [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
+- **Project Categorization**: Organize your projects into categories and tags for easy search and discovery. 
 
-## Tech Stack Used
+- **Notifications**: Stay up-to-date with notifications about project updates, comments, and new collaborations.
 
-> We're excited to share that our project leverages the power of React for the frontend, with the stylish and versatile **Tailwind CSS** for an eye-catching and intuitive User Interface (UI).
-
-- [ReactJs](https://reactjs.org/) - React is a free and open-source front-end JavaScript library
-- [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS is an open source CSS framework
-
-## Available Languages
-
-- [한국인](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
-- [Española](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
-- [தமிழ்](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
+- **Multiple Language Access**: The website is available for multiple languages including - 
+- [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
+- [Spanish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
+- [Tamil](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
 - [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German)
 - [Italiano](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian)
 - [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese)
@@ -42,62 +32,49 @@ Projectshut is an open source web app that enables users to freely publish their
 - [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
 - [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)
 
-<h1 align=center> Project Admin </h1>
-<table align=center >
-  <tr>
-    <td align="center">
-      <a href="https://github.com/priyankarpal">
-        <img alt="priyankarpal" src="https://github.com/priyankarpal.png" width="100px;">
-        <br>
-        <sub>
-          <b>
-            Priyankar Pal
-          </b>
-        </sub>
-      </a>
-      <br>
-    </td> 
-  </tr>
-</table>
 
-<h1 align=center> Project Mentors </h1>
-<table align=center>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/hariketsheth">
-        <img alt="hariketsheth" src="https://github.com/hariketsheth.png" width="100px;">
-        <br>
-        <sub>
-          <b>
-              Hariket Sukeshkumar Sheth 
-          </b>
-        </sub>
-      </a>
-      <br>
-    </td>
-    <td align="center">
-      <a href="https://github.com/swapnilgarg7">
-        <img alt="swapnilgarg7" src="https://github.com/swapnilgarg7.png" width="100px;">
-        <br>
-        <sub>
-          <b>
-              Swapnil Garg 
-          </b>
-        </sub>
-      </a>
-      <br>
-    </td>
-  </tr>
+## 💻 Tech Stack 
+
+  ![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
+
+
+## ✨ Contributing Roadmap
+
+Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
+
+ - Go through the [CONTRIBUTING.md](https://github.com/poorvika11/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
+ - Do checkout the [project workflow](https://github.com/poorvika11/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) section.
+
+
+
+## ✨ Thank You for Your Contribution!
+
+🙏 Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
+
+🌟 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
+
+## ✨Authors
+[Priyankar Pal](https://github.com/priyankarpal) - Project Admin
+<a name="changelog"></a>
+
+[Hariket Sukeshkumar Sheth](https://github.com/hariketsheth) - Project Mentor
+<a name="changelog"></a>
+
+[Swapnil Garg](https://github.com/swapnilgarg7) - Project Mentor
+<a name="changelog"></a>
+
+<br>
+</td>
+</tr>
 </table>
 <div align=center>
   <h2>This Project is part of</h2>
   <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
 </div>
 
-# Show your support
+## ✨ License
 
-- Give a ⭐ if this project helped you.
+The project is licensed under the [MIT License](https://github.com/neelshah2409/Bot-Collection/blob/main/LICENSE).
 
-# License
-
-ProjectsHut is licensed under the [MIT License ](https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE)
+---
