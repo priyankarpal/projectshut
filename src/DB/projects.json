@@ -1441,7 +1441,13 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": ["Python", "OpenCV", "Keras", "Tensorflow"]
-      }
+      },
+       {
+        "link": "https://github.com/Deepanshu0703/google-keeper-clone",
+        "title": "Google Keeper Clone",
+        "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
+        "tech": ["ReactJs", "CSS"]
+      } 
     ]
   },
   {
