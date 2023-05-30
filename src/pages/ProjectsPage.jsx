@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { FilterContext } from '@/context/FilterContext';
 
 const paginatedArr = paginate(projects);
 
@@ -12,7 +13,7 @@ const ProjectsPage = () => {
   //used the json format to avoid code repeatation
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
-  const [selectedButton, setSelectedButton] = useState(null);
+  const { selectedOptions, handleOptionClick } = useContext(FilterContext);
 
   // this useEffect is for when user click on pagination button then render only that page projects
 
@@ -29,32 +30,24 @@ const ProjectsPage = () => {
     window.scrollTo(0, 0); // this makes the page scroll to top on page state changes
   }, [page.pageNo]);
 
-  // this useEffect is for when user clear the filter (double click) then render only that page projects
-
   useEffect(() => {
-    if (selectedButton === null) {
+    // If no technology options are selected, set items to the current page's data
+    if (selectedOptions.length === 0) {
       setItems(paginatedArr[page.pageNo]);
       return;
     }
-  }, [selectedButton]);
 
-  // this function will filter project based on selected technology and set the state of items
+    // Filter projects based on selected technology options
+    const currProjects = selectedOptions.flatMap((tech) =>
+      projects.filter((obj) => {
+        const arr = obj['Projects'][0].tech;
+        const regexPattern = new RegExp(tech, 'i');
+        return arr.some((e) => regexPattern.test(e));
+      }),
+    );
 
-  const handleQuery = (index) => {
-    setSelectedButton((prev) => (prev === index ? null : index));
-    const regexPattern = new RegExp(techStack[index], 'i');
-    let currProjects = [];
-    projects?.map((obj) => {
-      let arr = obj['Projects'][0].tech;
-      for (let i = 0; i < arr.length; i++) {
-        if (regexPattern.test(arr[i])) {
-          currProjects.push(obj);
-          break;
-        }
-      }
-    });
     setItems(currProjects);
-  };
+  }, [selectedOptions]);
 
   const prevPage = () => {
     if (page.pageNo - 1 < 0) {
@@ -95,11 +88,11 @@ const ProjectsPage = () => {
         {techStack.map((tech, index) => (
           <Button
             key={index}
-            onClick={() => handleQuery(index)}
-            variant={selectedButton === index ? 'contained' : 'outlined'}
+            onClick={() => handleOptionClick(tech)}
+            variant={selectedOptions.includes(tech) ? 'contained' : 'outlined'}
             className="bg-primary hover:bg-slate-200"
           >
-            <span className={selectedButton == index ? 'text-white' : 'text-primary'}> {tech.toLowerCase()}</span>
+            <span className={selectedOptions.includes(tech) ? 'text-white' : 'text-primary'}>{tech.toLowerCase()}</span>
           </Button>
         ))}
       </div>
@@ -117,7 +110,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* when user apply filter then show specific projects and hide prev and next page */}
-      {selectedButton === null && (
+      {selectedOptions?.length === 0 && (
         <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
           <button
             type="button"
