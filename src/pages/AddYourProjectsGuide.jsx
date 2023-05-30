@@ -94,7 +94,7 @@ const AddYourProjectsGuide = () => {
             </p>
           </div>
           <code className="block sm:text-base xs:text-sm text-xs ">
-            <pre className='overflow-x-auto'>{codeString}</pre>
+            <pre className="overflow-x-auto">{codeString}</pre>
           </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
