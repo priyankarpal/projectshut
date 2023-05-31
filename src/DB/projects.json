@@ -2099,5 +2099,23 @@
         "tech": ["HTML", "CSS"]
       }
     ]
+  },
+  {
+    "github_username": "pankajktech",
+    "Social_media": {
+      "gitHub": "https://github.com/pankajktech",
+      "LinkedIn": "https://www.linkedin.com/in/pankajktech/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/pankajktech1"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/pankajktech/FindYourJob",
+        "title": "Find Your Job",
+        "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
+        "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
+      }
+    ]
   }
 ]
