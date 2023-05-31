@@ -1441,7 +1441,13 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": ["Python", "OpenCV", "Keras", "Tensorflow"]
-      }
+      },
+       {
+        "link": "https://github.com/Deepanshu0703/google-keeper-clone",
+        "title": "Google Keeper Clone",
+        "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
+        "tech": ["ReactJs", "CSS"]
+      } 
     ]
   },
   {
@@ -2041,5 +2047,58 @@
         "tech": ["Node.js", "Express js", "MongoDB", "HTML", "CSS3", "EJS"]
       }
     ]
+},
+{
+  "github_username": "SJ-Kumar",
+  "Social_media": {
+    "gitHub": "https://github.com/SJ-Kumar",
+    "LinkedIn": "https://www.linkedin.com/in/jayanth-kumar-91947b220/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Jayanth_2003"
+  },
+  "Projects": [
+    {
+      "link": "https://profile-git-main-sj-kumar.vercel.app/",
+      "title": "Chat Based Portfolio Page",
+      "description": "Developed a chat based portfolio page that displays education, skills, projects, and resume (pdf) version from repository based on the word user types in a dynamic chat window.",
+      "tech": ["HTML", "CSS", "Javascript"]
+    } 
+  ]
+},
+
+  {
+  "github_username": "rajputsingh808",
+  "Social_media": {
+    "gitHub": "https://github.com/rajputsingh808",
+    "LinkedIn": "https://www.linkedin.com/in/sonam-singh-30b689231/"
+  },
+    "Projects":[
+     {
+      "link": "https://github.com/rajputsingh808/Tech_intern2k23",
+      "title": "Bookstore",
+      "description": "My bookstore website can issue different books and has multiple features.",
+      "tech": ["HTML", "CSS","Javascript"]
+    }
+    ]
+
+},
+  {
+  "github_username": "KhushiVaiskyar",
+  "Social_media": {
+    "gitHub": "https://github.com/KhushiVaiskyar",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-vaiskyar-953190235/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+  {
+      "link": "https://github.com/KhushiVaiskyar/Usabilityhub",
+      "title": "Usability Hub",
+      "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
+      "tech": ["HTML", "CSS"]
+    }
+  ]
   }
 ]
