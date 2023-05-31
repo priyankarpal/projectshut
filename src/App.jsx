@@ -5,6 +5,7 @@ import { ThemeProvider } from './context/Theme';
 import { lazy, Suspense } from 'react';
 import Loader from './utils/Loader';
 import { FilterProvider } from './context/FilterContext';
+import { ToastContainer } from 'react-toastify';
 
 const ProjectsPage = lazy(() => import('./pages/ProjectsPage'));
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -57,6 +58,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <RouterProvider router={router} />
+      <ToastContainer />
     </ThemeProvider>
   );
 };
