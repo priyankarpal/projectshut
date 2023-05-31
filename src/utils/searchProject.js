@@ -5,6 +5,7 @@ export const searchProject = (projects, name) => {
       for (const item of project.Projects) {
         if (item.title.toLowerCase().includes(name.toLowerCase())) {
           resultArr.push(project);
+          break;
         }
       }
     }
