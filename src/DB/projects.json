@@ -1905,6 +1905,12 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": ["NextJs", "Solidity", "CSS"]
+      },
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
+        "title": "Avax Gods",
+        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
+        "tech": ["ReactJs", "Solidity","Tailwind CSS"]
       }
     ]
   },
@@ -2115,24 +2121,6 @@
         "title": "Find Your Job",
         "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
-      }
-    ]
-  },
-  {
-    "github_username": "Google-ka-Dinosaur",
-    "Social_media": {
-      "gitHub": "https://github.com/Google-Ka-Dinosaur",
-      "LinkedIn": "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
-        "title": "Avax Gods",
-        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
-        "tech": ["ReactJs", "Solidity","Tailwind CSS"]
       }
     ]
   }
