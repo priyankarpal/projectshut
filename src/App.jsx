@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import { ThemeProvider } from './context/Theme';
 import { lazy, Suspense } from 'react';
 import Loader from './utils/Loader';
+import { FilterProvider } from './context/FilterContext';
 import { ToastContainer } from 'react-toastify';
 
 const ProjectsPage = lazy(() => import('./pages/ProjectsPage'));
@@ -25,9 +26,11 @@ const router = createBrowserRouter(
       <Route
         path="/projects"
         element={
-          <Suspense fallback={<Loader />}>
-            <ProjectsPage />
-          </Suspense>
+          <FilterProvider>
+            <Suspense fallback={<Loader />}>
+              <ProjectsPage />
+            </Suspense>
+          </FilterProvider>
         }
       />
       <Route
