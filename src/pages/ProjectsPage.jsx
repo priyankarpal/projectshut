@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { searchProject } from '@/utils/searchProject';
 import { Button } from '@mui/material';
 import { useSearchParams } from 'react-router-dom';
+import { FaSearch } from 'react-icons/fa';
 
 const paginatedArr = paginate(projects);
 
@@ -137,29 +138,16 @@ const ProjectsPage = () => {
 
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
-      <h1 className="text-[3.5rem] font-bold  text-center">
-        List of <span className="text-primary">cool </span>Projects
+      <h1 className="text-[2.5rem] font-bold text-center">
+        Search for <span className="text-primary">cool </span>Projects
       </h1>
-      <p className="mt-3 text-[1.2rem] text-center mx-auto w-10/12">
-        Want to add your projects?
-        <Link
-          to="/docs"
-          rel="noreferrer"
-          className="p-2 inline-block rounded-lg text-primary hover:underline focus:underline transition-all duration-300"
-        >
-          Check documentation <span aria-hidden="true">→</span>
-        </Link>
-      </p>
-
-      <div className="mt-3 text-[2rem] font-bold text-center mx-auto w-10/12">
-        Search Your <span className="text-primary">cool </span>Project
-      </div>
-      <div className="flex items-stretch my-7 mx-20">
+      <div className="flex items-center justify-center my-7 mx-20">
         <input
           type="text"
           id="combo-box-demo"
-          className="hover:bg-slate-200 border-solid border-2 border-violet-500 rounded-xl p-2 w-full"
-          style={{ color: 'black', fontWeight: 'bold' }}
+          placeholder="Thea Theme"
+          className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2"
+          style={{ color: 'black' }}
           onChange={handleChange}
           value={searchInput}
         />
