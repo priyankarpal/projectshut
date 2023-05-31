@@ -47,7 +47,7 @@ const ProjectList = () => {
             </Link>
           </div>
 
-          <div className="flex justify-center items-center mb-3 my-10 xsm:h-[40vh] md:h-[60vh]" style={{ margin: 0 }}>
+          <div className="flex justify-center items-center mb-3 my-10>
             <img
               src={`https://images.weserv.nl/?output=webp&width=200px&sharp=.5&url=https://github.com/${username}.png`}
               alt={`${username}'s github profile`}
