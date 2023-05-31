@@ -2132,7 +2132,7 @@
         "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
         "title": "Avax Gods",
         "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
-        "tech": ["ReactJs", "Solidity","CSS"]
+        "tech": ["ReactJs", "Solidity","Tailwind CSS"]
       }
     ]
   }
