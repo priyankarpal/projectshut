@@ -1,13 +1,11 @@
-
 <h1 align=center> ProjectsHut </h1>
 
 <p>
 Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating personalized user profiles. The primary goal of ProjectsHut is to cultivate a collaborative community of creative individuals, where ideas flourish and innovation thrives. Whether you're a developer, designer, or an enthusiastic project enthusiast, ProjectsHut offers the perfect platform to showcase your work and connect with like-minded individuals.  </p>
 
-![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/84855cfb-73d0-4bef-ab3d-7d4dd568f22d)
------
-![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/1e7fa97f-1035-42f4-b585-98cb1980208e)
+## ![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/84855cfb-73d0-4bef-ab3d-7d4dd568f22d)
 
+![projectshut](https://github.com/priyankarpal/ProjectsHut/assets/75174707/1e7fa97f-1035-42f4-b585-98cb1980208e)
 
 ## ✨ Features
 
@@ -17,11 +15,11 @@ Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web 
 
 - **Project Publication**: Easily publish your projects on Projectshut, providing a platform for others to discover and explore your work.
 
-- **Project Categorization**: Organize your projects into categories and tags for easy search and discovery. 
+- **Project Categorization**: Organize your projects into categories and tags for easy search and discovery.
 
 - **Notifications**: Stay up-to-date with notifications about project updates, comments, and new collaborations.
 
-- **Multiple Language Access**: The website is available for multiple languages including - 
+- **Multiple Language Access**: The website is available for multiple languages including -
 - [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean)
 - [Spanish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish)
 - [Tamil](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil)
@@ -32,21 +30,17 @@ Welcome to the ProjectsHut GitHub repository! ProjectsHut is an open-source web 
 - [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi)
 - [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog)
 
+## 💻 Tech Stack
 
-## 💻 Tech Stack 
-
-  ![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
-
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
 
 ## ✨ Contributing Roadmap
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
- - Go through the [CONTRIBUTING.md](https://github.com/poorvika11/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
- - Do checkout the [project workflow](https://github.com/poorvika11/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) section.
-
-
+- Go through the [CONTRIBUTING.md](https://github.com/poorvika11/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
+- Do checkout the [project workflow](https://github.com/poorvika11/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) section.
 
 ## ✨ Thank You for Your Contribution!
 
@@ -55,6 +49,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 🌟 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
 
 ## ✨Authors
+
 [Priyankar Pal](https://github.com/priyankarpal) - Project Admin
 <a name="changelog"></a>
 
