@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ github_username, listOfProjects }) => {
+const ProjectCard = ({ github_username, listOfProjects, filter }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -46,6 +46,7 @@ const ProjectCard = ({ github_username, listOfProjects }) => {
             <Link
               to={`/projects/${github_username.toLowerCase()}`}
               className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
+              state={{ filter: filter }}
             >
               More
               <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">

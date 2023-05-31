@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useContext } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
 import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
 const ProjectList = () => {
   const { theme } = useContext(ThemeContext);
   const { username } = useParams();
+  const data = useLocation();
+  const filter = data.state.filter;
 
   const [userObj, setObject] = useState({});
 
@@ -31,25 +33,24 @@ const ProjectList = () => {
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
-          className="w-full md:w-[36%] lg:max-w-[25%] xsm:h-[50vh] md:h-[60vh] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2"
+          className="w-full md:w-[36%] md:h-96 lg:max-w-[25%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
         >
-          {/* Beack to projects link */}
+          {/* Back to projects link */}
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out">
-            <span>{'<'}</span>
-            <Link to="/projects" className="font-mono ml-2">
-              Back to Projects
+            <Link to={`/projects${filter ? `?filters=${filter}` : ''}`} className="ml-2 block truncate">
+              {`< Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
           </div>
 
-          <div className="flex justify-center items-center mb-3 my-10 ">
+          <div className="flex justify-center items-center mb-3 my-10">
             <img
               src={`https://images.weserv.nl/?output=webp&width=200px&sharp=.5&url=https://github.com/${username}.png`}
               alt={`${username}'s github profile`}
-              className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg "
+              className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg"
             />
           </div>
           <div className="flex justify-center items-center mb-3 my-10 text-center">
