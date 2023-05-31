@@ -72,97 +72,99 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2 top-0 z-10 sticky">
-      <div className="flex flex-row gap-4 justify-between w-full">
-        {/* Logo for project Hut */}
-        <div className="item-navbar block md:hidden" id="dropdown-menu">
-          <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
-            <MenuIcon
-              style={{
-                color: navbar.color,
-              }}
-            />
-          </IconButton>
-        </div>
-        <div className="item-navbar" id="logo-ph">
-          <Link to="/" className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem]">
-            Ph <span className="text-red-500">.</span>
-          </Link>
-        </div>
-
-        {/* Main element of navbar */}
-        <div className="item-navbar hidden md:block" id="elements-of-navbar">
-          <ul className="flex items-center gap-5 text-[1rem]">{navLinkEls}</ul>
-        </div>
-
-        {/* GitHub icon and Dark/Light Mode Toggle */}
-        <div className="item-navbar flex items-center">
-          <div className="flex items-center gap-3">
-            <a
-              href="https://github.com/priyankarpal/ProjectsHut"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-              aria-label="Github"
-            >
-              <FaGithub />
-            </a>
-
-            <li className="md:flex flex-col-reverse  hidden">
-              <input
-                onChange={toggleTheme}
-                checked={light}
-                className="hidden w-0 h-0 checked:bg-[#ebebeb] transform:left-[78px] transform:translate-x-[-100%] transform:bg-gradient-to-b transform:from-white transform:to-white"
-                type="checkbox"
-                id="dark-mode-toggle"
+    <nav className="bg-inherit opacity-90 top-0 z-10 sticky ">
+      <div aria-label="Site Nav" className="mx-auto p-5 lg:w-1/2  ">
+        <div className="flex flex-row gap-4 justify-between w-full  ">
+          {/* Logo for project Hut */}
+          <div className="item-navbar block md:hidden" id="dropdown-menu">
+            <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
+              <MenuIcon
+                style={{
+                  color: navbar.color,
+                }}
               />
-              <label
-                className="w-[82px] h-[42px] relative block bg-[#242424] cursor-pointer rounded-full after:after-util  "
-                htmlFor="dark-mode-toggle"
+            </IconButton>
+          </div>
+          <div className="item-navbar" id="logo-ph">
+            <Link to="/" className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem]">
+              Ph <span className="text-red-500">.</span>
+            </Link>
+          </div>
+
+          {/* Main element of navbar */}
+          <div className="item-navbar hidden md:block" id="elements-of-navbar">
+            <ul className="flex items-center gap-5 text-[1rem]">{navLinkEls}</ul>
+          </div>
+
+          {/* GitHub icon and Dark/Light Mode Toggle */}
+          <div className="item-navbar flex items-center">
+            <div className="flex items-center gap-3">
+              <a
+                href="https://github.com/priyankarpal/ProjectsHut"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                aria-label="Github"
               >
-                <SunIcon className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px] fill-white transition-[0.3s] " />
-                <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-[#7e7e7e] transition-[0.3s]" />
-              </label>
-            </li>
-            {/*  To show the version number  */}
-            <div className="hidden md:block">
-              {latestRelease ? (
+                <FaGithub />
+              </a>
+
+              <li className="md:flex flex-col-reverse  hidden">
+                <input
+                  onChange={toggleTheme}
+                  checked={light}
+                  className="hidden w-0 h-0 checked:bg-[#ebebeb] transform:left-[78px] transform:translate-x-[-100%] transform:bg-gradient-to-b transform:from-white transform:to-white"
+                  type="checkbox"
+                  id="dark-mode-toggle"
+                />
+                <label
+                  className="w-[82px] h-[42px] relative block bg-[#242424] cursor-pointer rounded-full after:after-util  "
+                  htmlFor="dark-mode-toggle"
+                >
+                  <SunIcon className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px] fill-white transition-[0.3s] " />
+                  <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-[#7e7e7e] transition-[0.3s]" />
+                </label>
+              </li>
+              {/*  To show the version number  */}
+              <div className="hidden md:block">
+                {latestRelease ? (
+                  <div>
+                    <a href={latestRelease.html_url} target="_blank" rel="noreferrer">
+                      {latestRelease.tag_name}
+                    </a>
+                  </div>
+                ) : (
+                  <span>Loading...</span>
+                )}
+              </div>
+            </div>
+            <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
+              {theme.mode === 'light' ? (
                 <div>
-                  <a href={latestRelease.html_url} target="_blank" rel="noreferrer">
-                    {latestRelease.tag_name}
-                  </a>
+                  <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
                 </div>
               ) : (
-                <span>Loading...</span>
+                <div>
+                  <DarkModeIcon className="bg-[#242424] rounded-full p-1 " />
+                </div>
               )}
             </div>
           </div>
-          <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
-            {theme.mode === 'light' ? (
-              <div>
-                <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
-              </div>
-            ) : (
-              <div>
-                <DarkModeIcon className="bg-[#242424] rounded-full p-1 " />
-              </div>
-            )}
-          </div>
+          <Drawer
+            className="block md:hidden"
+            variant="temporary"
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true, // Better open performance on mobile.
+            }}
+            sx={{
+              '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '56%' },
+            }}
+          >
+            <SideMenu handleDrawerToggle={handleDrawerToggle} />
+          </Drawer>
         </div>
-        <Drawer
-          className="block md:hidden"
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
-          }}
-          sx={{
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '56%' },
-          }}
-        >
-          <SideMenu handleDrawerToggle={handleDrawerToggle} />
-        </Drawer>
       </div>
     </nav>
   );

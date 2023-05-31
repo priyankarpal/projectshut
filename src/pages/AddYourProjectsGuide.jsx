@@ -3,6 +3,7 @@ import { AiTwotoneFile } from 'react-icons/ai';
 import { RiGitRepositoryCommitsFill } from 'react-icons/ri';
 
 const AddYourProjectsGuide = () => {
+  window.scrollTo(0, 0);
   const codeString = `
     {
       "github_username": "YOUR_GITHUB_USERNAME",  
@@ -53,7 +54,7 @@ const AddYourProjectsGuide = () => {
         </svg>
       </div>
 
-      <article className="grid justify-center items-center max-w-5xl mx-auto ">
+      <article className="items-center max-w-5xl mx-auto ">
         <div className="  text-base leading-7 ">
           <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
           <div className="flex items-center gap-5">
@@ -74,7 +75,7 @@ const AddYourProjectsGuide = () => {
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {' '}
               Click on Go to file(I'm doing from{' '}
-              <span className="bg-gray-700  p-1 rounded-md">priyankarpal/projectshut</span> )
+              <span className="bg-purple-200  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
 
@@ -92,8 +93,8 @@ const AddYourProjectsGuide = () => {
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block">
-            <pre>{codeString}</pre>
+          <code className="block sm:text-base xs:text-sm text-xs ">
+            <pre className="overflow-x-auto">{codeString}</pre>
           </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
