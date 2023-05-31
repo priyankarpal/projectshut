@@ -2117,5 +2117,22 @@
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
       }
     ]
-  }
-]
+  },
+{
+  "github_username": "dhruvishavaghani",
+  "Social_media": {
+    "gitHub": "https://github.com/dhruvishavaghani",
+    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
+    "Instagram": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/dhruvishavaghani/NewsZilla",
+      "title": "NewsZilla",
+      "description": "NewsZilla is a live news website used to get live news of all categories.",
+      "tech": ["HTML", "CSS","React JS"]
+    }
+  ]
+},
