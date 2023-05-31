@@ -1,4 +1,4 @@
-name: "Author Assign"
+name: 'Author Assign'
 
 on:
   pull_request_target:
@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: toshimaru/auto-author-assign@v1.1.0
         with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'

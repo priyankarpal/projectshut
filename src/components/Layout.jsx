@@ -1,12 +1,12 @@
-import { useContext } from "react"
-import { Outlet } from "react-router-dom"
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import { ThemeContext } from "../context/Theme"
-import ScrollToTop from "./ScrollToTop"
+import { useContext } from 'react';
+import { Outlet } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import { ThemeContext } from '../context/Theme';
+import ScrollToTop from './ScrollToTop';
 
-export default function Layout() {
-  const { theme } = useContext(ThemeContext)
+const Layout = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <div
       className="text-white font-lato"
@@ -24,5 +24,7 @@ export default function Layout() {
         <Footer />
       </>
     </div>
-  )
-}
+  );
+};
+
+export default Layout;

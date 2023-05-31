@@ -1,22 +1,37 @@
-import React, { useContext } from "react"
-import { Link } from "react-router-dom"
-import Banner from "../components/Banner"
-import { ThemeContext } from "../context/Theme"
-import images from "../DB/homepage-image.json"
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import Banner from '../components/Banner';
+import { ThemeContext } from '../context/Theme';
+import images from '../DB/homepage-image.json';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const HomePage = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
+
+  const notify = () =>
+    toast('Want to add your project? Check out the docs!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined,
+      theme: 'light',
+    });
 
   return (
     <section>
       <div className="relative overflow-hidden">
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg">
-              <h1 className="font text-5xl font-bold  md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
+            <div className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
+              <h1 className="font text-5xl font-bold sm:text-[5vw] md:text-3xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
                 Share your projects
               </h1>
-              <p className="mt-4 text-xl text-gray-400 tracking-wide">
+
+              <p className="mt-4 text-xl text-gray-400 tracking-wide ">
                 ProjectsHut is a platform where you can share your open source projects with the world.
               </p>
             </div>
@@ -66,12 +81,13 @@ const HomePage = () => {
                 </div>
 
                 <Link
-                  to="ProjectsPage"
+                  to="/projects"
                   className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 "
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,
                     color: theme?.button?.buttonTextColor,
                   }}
+                  onClick={notify}
                 >
                   Browse Projects
                 </Link>
@@ -82,7 +98,7 @@ const HomePage = () => {
       </div>
       <Banner />
     </section>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

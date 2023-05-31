@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
 
 @tailwind base;
 
@@ -22,24 +22,30 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #000000;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #ffffff;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
   border-radius: 10px;
 }
+
 html {
   scrollbar-color: #ffffff #000000;
   scrollbar-width: auto;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
+
 body {
   background-color: #000513;
 }
+
 .glass {
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
@@ -52,6 +58,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -61,14 +68,17 @@ body {
   animation-name: fadeIn;
   animation-duration: 2s;
 }
+
 /* animated image */
 @keyframes floating {
   0% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(0, 8px);
   }
+
   100% {
     transform: translate(0, 0);
   }
@@ -80,5 +90,16 @@ body {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
+
 @tailwind components;
 @tailwind utilities;
+
+/* For Navbar CSS   */
+
+input:checked + label svg.sun {
+  fill: #7e7e7e;
+}
+
+input:checked + label svg.moon {
+  fill: black;
+}
