@@ -1905,6 +1905,12 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": ["NextJs", "Solidity", "CSS"]
+      },
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
+        "title": "Avax Gods",
+        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
+        "tech": ["ReactJs", "Solidity","Tailwind CSS"]
       }
     ]
   },
