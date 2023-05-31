@@ -2117,5 +2117,23 @@
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
       }
     ]
+  },
+  {
+    "github_username": "Google-ka-Dinosaur",
+    "Social_media": {
+      "gitHub": "https://github.com/Google-Ka-Dinosaur",
+      "LinkedIn": "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
+        "title": "Avax Gods",
+        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
+        "tech": ["ReactJs", "Solidity","CSS"]
+      }
+    ]
   }
 ]
