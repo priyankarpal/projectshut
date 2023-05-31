@@ -8,7 +8,7 @@ import { X } from 'react-feather';
 const SideMenu = (props) => {
   const { theme } = useContext(ThemeContext);
 
-  console.log(theme)
+  console.log(theme);
 
   return (
     <div
