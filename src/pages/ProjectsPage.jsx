@@ -22,7 +22,7 @@ const ProjectsPage = () => {
     setSearchInput(e.target.value);
     if (e.target.value != '') {
       setDisablePagination(true);
-      setItems(searchProject(projects, e.target.value));
+      setItems(searchProject(selectedOptions.length > 0 ? getFilteredProjects() : projects, e.target.value));
     } else {
       setDisablePagination(false);
       loadItems();
@@ -66,21 +66,28 @@ const ProjectsPage = () => {
   useEffect(() => {
     // If no technology options are selected, set items to the current page's data
     if (selectedOptions.length === 0) {
-      setItems(paginatedArr[page.pageNo]);
+      if (searchInput) {
+        setItems(searchProject(projects, searchInput));
+      } else {
+        setItems(paginatedArr[page.pageNo]);
+      }
       return;
     }
+    const currProjects = getFilteredProjects();
+    setItems(currProjects);
+  }, [selectedOptions]);
 
-    // Filter projects based on selected technology options
-    const currProjects = selectedOptions.flatMap((tech) =>
-      projects.filter((obj) => {
+  // Filter projects based on selected technology options
+  const getFilteredProjects = () => {
+    const _projects = searchInput ? currentItems : projects;
+    return selectedOptions.flatMap((tech) =>
+      _projects.filter((obj) => {
         const arr = obj['Projects'][0].tech;
         const regexPattern = new RegExp(tech, 'i');
         return arr.some((e) => regexPattern.test(e));
       }),
     );
-
-    setItems(currProjects);
-  }, [selectedOptions]);
+  };
 
   const prevPage = () => {
     if (page.pageNo - 1 < 0) {
