@@ -1,53 +1,61 @@
-import React, { useState, useEffect, useContext } from "react"
-import { Navbar, Footer } from "./components"
-import { ProjectsPage, HomePage, ContriButorsPage, AddYourProjectsGuide } from "./pages"
-import { Route, Routes, useLocation } from "react-router-dom"
-import SplashScreen from "./components/SplashScreen"
-import PageNotFound from "./components/PageNotFound"
-import ProjectList from "./components/ProjectList"
-import { ThemeContext } from "./context/Theme"
-import ScrollToTop from "./components/ScrollToTop"
+import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } from 'react-router-dom';
+import PageNotFound from './components/PageNotFound';
+import Layout from './components/Layout';
+import { ThemeProvider } from './context/Theme';
+import { lazy, Suspense } from 'react';
+import Loader from './utils/Loader';
 
-function App() {
-  const { theme } = useContext(ThemeContext)
-  const [isLoading, setIsLoading] = useState(true)
-  const location = useLocation()
+const ProjectsPage = lazy(() => import('./pages/ProjectsPage'));
+const HomePage = lazy(() => import('./pages/HomePage'));
+const AddYourProjectsGuide = lazy(() => import('./pages/AddYourProjectsGuide'));
+const ProjectList = lazy(() => import('./components/ProjectList'));
 
-  useEffect(() => {
-    setTimeout(() => setIsLoading(false), 1000)
-  }, [])
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route
+        index
+        element={
+          <Suspense fallback={<Loader />}>
+            <HomePage />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/projects"
+        element={
+          <Suspense fallback={<Loader />}>
+            <ProjectsPage />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/projects/:username"
+        element={
+          <Suspense fallback={<Loader />}>
+            <ProjectList />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/docs"
+        element={
+          <Suspense fallback={<Loader />}>
+            <AddYourProjectsGuide />
+          </Suspense>
+        }
+      />
+      <Route path="*" element={<PageNotFound />} />
+    </Route>,
+  ),
+);
 
-  const showSplashScreen = location.pathname === "/"
-
+const App = () => {
   return (
-    <div
-      className="text-white font-lato"
-      style={{
-        background: theme?.background,
-        color: theme?.color,
-        buttonBgColor: theme?.button?.buttonBgColor,
-        buttonColor: theme?.button?.buttonColor,
-      }}
-    >
-      {showSplashScreen && isLoading ? (
-        <SplashScreen />
-      ) : (
-        <>
-          <Navbar />
-          <ScrollToTop />
-          <Routes>
-            <Route path="/projects/:username" element={<ProjectList />} />
-            <Route path="/" element={<HomePage />} />
-            <Route path="/projectspage" element={<ProjectsPage />} />
-            <Route path="/contributorspage" element={<ContriButorsPage />} />
-            <Route path="/docs" element={<AddYourProjectsGuide />} />
-            <Route path="*" element={<PageNotFound />} />
-          </Routes>
-          <Footer />
-        </>
-      )}
-    </div>
-  )
-}
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  );
+};
 
-export default App
+export default App;
