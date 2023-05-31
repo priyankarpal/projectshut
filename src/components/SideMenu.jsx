@@ -95,8 +95,6 @@ const SideMenu = (props) => {
           </a>
         </li>
       </ul>
-
-      {/* </ul> */}
     </div>
   );
 };
