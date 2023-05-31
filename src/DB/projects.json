@@ -2122,17 +2122,17 @@
   "github_username": "dhruvishavaghani",
   "Social_media": {
     "gitHub": "https://github.com/dhruvishavaghani",
-    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-    "Instagram": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+    "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+    "Instagram": "",
     "YouTube": "",
     "Twitter": ""
   },
   "Projects": [
     {
-      "link": "https://github.com/dhruvishavaghani/NewsZilla",
-      "title": "NewsZilla",
-      "description": "NewsZilla is a live news website used to get live news of all categories.",
-      "tech": ["HTML", "CSS","React JS"]
+      "link": "https://github.com/dhruvishavaghani/Noted",
+      "title": "Noted",
+      "description": "Noted is a chrome extension to save the current tab or current URL qyuickly.",
+      "tech": ["HTML", "CSS", "JavaScript"]
     }
   ]
 },
