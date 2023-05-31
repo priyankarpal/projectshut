@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { Link } from 'react-router-dom';
+import { FilterContext } from '@/context/FilterContext';
 import { searchProject } from '@/utils/searchProject';
 import { Button } from '@mui/material';
-import { useSearchParams } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 
 const paginatedArr = paginate(projects);
@@ -15,18 +15,15 @@ const ProjectsPage = () => {
   //used the json format to avoid code repeatation
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
-  const [selectedButton, setSelectedButton] = useState(null);
   const [searchInput, setSearchInput] = useState('');
   const [disablePagination, setDisablePagination] = useState(false);
-  const [searchParams, setSearchParams] = useSearchParams();
-  const currentFilter = searchParams.get('filter');
+  const { selectedOptions, handleOptionClick } = useContext(FilterContext);
 
   function handleChange(e) {
     setSearchInput(e.target.value);
     if (e.target.value != '') {
-      console.log(e.target.value);
       setDisablePagination(true);
-      setItems(searchProject(currentFilter ? getFilteredProjects(currentFilter) : projects, e.target.value));
+      setItems(searchProject(selectedOptions.length > 0 ? getFilteredProjects() : projects, e.target.value));
     } else {
       setDisablePagination(false);
       loadItems();
@@ -63,57 +60,33 @@ const ProjectsPage = () => {
 
   // function to set item for pagination
   const loadItems = () => {
-    if (!currentFilter) {
-      const data = paginatedArr[page.pageNo];
-      setItems(data);
-    } else {
-      filterProjects(currentFilter);
-    }
+    const data = paginatedArr[page.pageNo];
+    setItems(data);
   };
-
-  // this useEffect is for when user clear the filter (double click) then render only that page projects
 
   useEffect(() => {
-    if (!currentFilter) {
-      setItems(paginatedArr[page.pageNo]);
-      return;
-    } else {
-      filterProjects(currentFilter);
-    }
-  }, [currentFilter]);
-
-  // this function will filter project based on selected technology and set the state of items
-
-  const handleFilterChange = (filter) => {
+    // Reset the search query
     setSearchInput('');
-    filter = filter.toLowerCase();
-    setSearchParams((prevParams) => {
-      if (prevParams.get('filter') == filter) {
-        delete prevParams.delete('filter');
-      } else {
-        prevParams.set('filter', filter);
-        filterProjects(filter);
-      }
-      return prevParams;
-    });
-  };
 
-  const getFilteredProjects = (filter) => {
-    const curProjects = [];
-    projects?.map((obj) => {
-      let arr = obj['Projects'][0].tech;
-      for (let i = 0; i < arr.length; i++) {
-        if (arr[i].trim().toLowerCase().includes(filter)) {
-          curProjects.push(obj);
-          break;
-        }
-      }
-    });
-    return curProjects;
-  };
+    // If no technology options are selected, set items to the current page's data
+    if (selectedOptions.length === 0) {
+      loadItems();
+      return;
+    }
+    const currProjects = getFilteredProjects();
+    setItems(currProjects);
+  }, [selectedOptions]);
 
-  const filterProjects = (filter) => {
-    setItems(getFilteredProjects(filter));
+  // Filter projects based on selected technology options
+  const getFilteredProjects = () => {
+    const filteredProjects = selectedOptions.flatMap((tech) =>
+      projects.filter((obj) => {
+        const arr = obj['Projects'][0].tech;
+        const regexPattern = new RegExp(tech, 'i');
+        return arr.some((e) => regexPattern.test(e));
+      }),
+    );
+    return [...new Set(filteredProjects)];
   };
 
   const prevPage = () => {
@@ -156,14 +129,11 @@ const ProjectsPage = () => {
         {techStack.map((tech, index) => (
           <Button
             key={index}
-            onClick={() => handleFilterChange(tech)}
-            variant={currentFilter == tech.toLowerCase() ? 'contained' : 'outlined'}
+            onClick={() => handleOptionClick(tech)}
+            variant={selectedOptions.includes(tech) ? 'contained' : 'outlined'}
             className="bg-primary hover:bg-slate-200"
           >
-            <span className={currentFilter == tech.toLowerCase() ? 'text-white' : 'text-primary'}>
-              {' '}
-              {tech.toLowerCase()}
-            </span>
+            <span className={selectedOptions.includes(tech) ? 'text-white' : 'text-primary'}>{tech.toLowerCase()}</span>
           </Button>
         ))}
       </div>
@@ -177,7 +147,7 @@ const ProjectsPage = () => {
               listOfProjects={item['Projects']}
               socaialMedia={item['Social_media']}
               key={i}
-              filter={currentFilter}
+              filter={selectedOptions?.join(',')}
             />
           ))
         ) : (
@@ -186,7 +156,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* when user apply filter then show specific projects and hide prev and next page */}
-      {selectedButton === null && !disablePagination && !currentFilter && (
+      {selectedOptions?.length === 0 && !disablePagination && (
         <div className=" py-5 flex gap-2 flex-wrap justify-center text-black ">
           <button
             type="button"
