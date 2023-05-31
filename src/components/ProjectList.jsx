@@ -42,8 +42,8 @@ const ProjectList = () => {
           {/* Beack to projects link */}
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out">
             <span>{'<'}</span>
-<Link to={`/projects${filter?`?filter=${filter}`:''}`} className="ml-2">{`Back to ${filter?filter.charAt(0).toUpperCase()+filter.slice(1):'All'} Projects`}
-
+            <Link to={`/projects${filter ? `?filter=${filter}` : ''}`} className="ml-2">
+              {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
           </div>
 
