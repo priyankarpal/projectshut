@@ -2038,7 +2038,7 @@
       "link": "https://github.com/Hypertext-Workaholics/bullseye-game",
       "title": "Bullseye Game",
       "description": "This project is a little and simple bullseye game written in html5, css3 and javascript.",
-      "tech": ["HTML5", "CSS" , "JavaScript"]
+      "tech": ["HTML", "CSS" , "Javascript"]
     }
   ]
 },
