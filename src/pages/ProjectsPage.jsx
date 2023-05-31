@@ -189,6 +189,7 @@ const ProjectsPage = () => {
               listOfProjects={item['Projects']}
               socaialMedia={item['Social_media']}
               key={i}
+              filter={currentFilter}
             />
           ))
         ) : (
