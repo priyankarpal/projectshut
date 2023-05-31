@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useContext } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
 import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
 const ProjectList = () => {
   const { theme } = useContext(ThemeContext);
   const { username } = useParams();
+  const data = useLocation();
+  const filter = data.state.filter;
 
   const [userObj, setObject] = useState({});
 
@@ -40,8 +42,8 @@ const ProjectList = () => {
           {/* Beack to projects link */}
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out">
             <span>{'<'}</span>
-            <Link to="/projects" className="font-mono ml-2">
-              Back to Projects
+            <Link to={`/projects${filter ? `?filter=${filter}` : ''}`} className="ml-2">
+              {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
           </div>
 
