@@ -33,7 +33,7 @@ const ProjectList = () => {
       {/* Left side profile section */}
       {Object.keys(userObj).length > 0 && (
         <div
-          className="w-full md:w-[36%] lg:max-w-[25%] xsm:h-[50vh] md:h-[60vh] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2"
+          className="w-full md:w-[36%] md:h-96 lg:max-w-[25%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
@@ -47,11 +47,11 @@ const ProjectList = () => {
             </Link>
           </div>
 
-          <div className="flex justify-center items-center mb-3 my-10 ">
+          <div className="flex justify-center items-center mb-3 my-10">
             <img
               src={`https://images.weserv.nl/?output=webp&width=200px&sharp=.5&url=https://github.com/${username}.png`}
               alt={`${username}'s github profile`}
-              className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg "
+              className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg"
             />
           </div>
           <div className="flex justify-center items-center mb-3 my-10 text-center">
