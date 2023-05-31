@@ -4,9 +4,9 @@ import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { Link } from 'react-router-dom';
+import { FilterContext } from '@/context/FilterContext';
 import { searchProject } from '@/utils/searchProject';
 import { Button } from '@mui/material';
-import { FilterContext } from '@/context/FilterContext';
 
 const paginatedArr = paginate(projects);
 
@@ -16,6 +16,7 @@ const ProjectsPage = () => {
   const [currentItems, setItems] = useState([]);
   const [searchInput, setSearchInput] = useState('');
   const [disablePagination, setDisablePagination] = useState(false);
+  const { selectedOptions, handleOptionClick } = useContext(FilterContext);
 
   function handleChange(e) {
     setSearchInput(e.target.value);
@@ -27,7 +28,6 @@ const ProjectsPage = () => {
       loadItems();
     }
   }
-  const { selectedOptions, handleOptionClick } = useContext(FilterContext);
 
   // this useEffect is for when user click on pagination button then render only that page projects
 
