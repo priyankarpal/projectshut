@@ -11,11 +11,18 @@
     "lint": "prettier --check .",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
-    "test": "vitest"
+    "test": "vitest",
+    "commit": "git-cz"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm run lint"
+      "pre-commit": "pnpm run lint && lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
   },
   "dependencies": {
@@ -38,12 +45,16 @@
     "workspace-name": "^0.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react-swc": "^3.3.1",
     "autoprefixer": "^10.4.14",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.41.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
