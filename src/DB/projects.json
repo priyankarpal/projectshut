@@ -2159,5 +2159,24 @@
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
       }
     ]
+  },
+
+  {
+    "github_username": "SJ-Kumar",
+    "Social_media": {
+      "gitHub": "https://github.com/SJ-Kumar",
+      "LinkedIn": "https://www.linkedin.com/in/jayanth-kumar-91947b220/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Jayanth_2003"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/SJ-Kumar/Sparks-Tasks",
+        "title": "Save Cinema Frontend Project with Payment Gateway Integration",
+        "description": "This project is focused on promoting and supporting the cinema industry. It aims to create a platform that engages cinema lovers and encourages them to contribute to the well-being of those involved in the film-making process. The webpage showcases information about the project and provides a donation form for users to contribute.",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
   }
 ]
