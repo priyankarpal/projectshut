@@ -10,7 +10,13 @@ const Footer = () => {
   };
 
   return (
-    <footer aria-label="Site Footer" className="bg-white dark:bg-gray-900 glass" style={{ backgroundColor: bgColor }}>
+    <footer
+      aria-label="Site Footer"
+      className={`bg-gray-300 dark:bg-gray-900 glass rounded-none ${
+        theme.mode === 'light' ? 'border-t-gray-300' : 'border-none'
+      }`}
+      style={{ backgroundColor: bgColor }}
+    >
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">open source is awesome 💜</h2>
