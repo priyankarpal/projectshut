@@ -2105,6 +2105,12 @@
         "title": "Chat Based Portfolio Page",
         "description": "Developed a chat based portfolio page that displays education, skills, projects, and resume (pdf) version from repository based on the word user types in a dynamic chat window.",
         "tech": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "link": "https://github.com/SJ-Kumar/Sparks-Tasks",
+        "title": "Save Cinema Frontend Project with Payment Gateway Integration",
+        "description": "This project is focused on promoting and supporting the cinema industry. It aims to create a platform that engages cinema lovers and encourages them to contribute to the well-being of those involved in the film-making process. The webpage showcases information about the project and provides a donation form for users to contribute.",
+        "tech": ["HTML", "CSS"]
       }
     ]
   },
@@ -2160,6 +2166,7 @@
       }
     ]
   },
+  
   {
     "github_username": "vk20july",
     "Social_media": {
