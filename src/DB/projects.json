@@ -2184,5 +2184,23 @@
         "tech": ["python"]
       }
     ]
+  },
+    {
+    "github_username": "Abhinavcode13",
+    "Social_media": {
+      "gitHub": "https://github.com/Abhinavcode13",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav131/",
+      "Instagram": "https://www.instagram.com/abhinavxkumar/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Abhinavxkumar13"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Abhinavcode13/Personal-Movie-Recommender-with-python",
+        "title": "Movie recommender system ",
+        "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
+        "tech": ["python","Machine learning"]
+      }
+    ]
   }
 ]
