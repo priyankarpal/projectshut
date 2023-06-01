@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
-import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle } from 'react-feather';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
 import { Link } from 'react-router-dom';
 
 const ProjectList = () => {
@@ -158,7 +158,7 @@ const ProjectList = () => {
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                       aria-label="Github"
                     >
-                      {/* <BsFillArrowUpRightCircleFill /> */}
+                      <ArrowUpCircle size={30} />
                     </a>
                   </span>
                 </div>
