@@ -19,7 +19,7 @@ const Navbar = () => {
     },
     {
       name: 'Projects',
-      path: '/projects',
+      path: '/projectspage',
     },
     {
       name: 'Docs',

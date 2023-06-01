@@ -42,7 +42,7 @@ const ProjectList = () => {
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
             <ArrowLeftCircle size={20} />
 
-            <Link to={`/projects${filter ? `?filter=${filter}` : ''}`} className="ml-2">
+            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="ml-2">
               {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
           </div>
