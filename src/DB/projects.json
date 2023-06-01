@@ -2159,5 +2159,23 @@
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
       }
     ]
+  },
+  {
+    "github_username": "vk20july",
+    "Social_media": {
+      "gitHub": "https://github.com/vk20july",
+      "LinkedIn": "https://www.linkedin.com/in/vivek-kumar-tiwari-876b00212",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vk20july/Slither",
+        "title": "Slither",
+        "description": "Legendary Nokia Snake Game which would take you back to the good old days.",
+        "tech": ["python"]
+      }
+    ]
   }
 ]
