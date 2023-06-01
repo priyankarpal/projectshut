@@ -79,59 +79,58 @@
 
 1. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ ಆದ್ಯತೆಯ ಫೋಲ್ಡರ್‌ಗೆ ಹೋಗಿ ಮತ್ತು ನಮ್ಮ ರೆಪೊಸಿಟರಿಯನ್ನು ಫೋರ್ಕ್ ಮಾಡಿದ ನಂತರ ಈ ಕೆಳಗಿನ ಆಜ್ಞೆಯನ್ನು ಅಂಟಿಸಿ (ನೀವು ssh ಸೆಟಪ್ ಹೊಂದಿಲ್ಲದಿದ್ದರೆ ಅದರಲ್ಲಿ ಒಂದನ್ನು ಮಾತ್ರ ನಂತರ HTTP ಆಜ್ಞೆಯೊಂದಿಗೆ ಹೋಗಿ)
 
-     - HTTP
-       `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
-     - SSH
-       `git clone git@github.com:<Your-USERNAME>/ProjectsHut.git`
+   - HTTP
+     `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
+   - SSH
+     `git clone git@github.com:<Your-USERNAME>/ProjectsHut.git`
 
 2. ಪ್ರಾಜೆಕ್ಟ್ ಫೋಲ್ಡರ್‌ಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ
 
-     ```
-     CD ProjectsHut
-     ```
+   ```
+   CD ProjectsHut
+   ```
 
 3. ಅವಲಂಬನೆಗಳನ್ನು ಸ್ಥಾಪಿಸಿ
 
-     ```
-     pnpm i
-     ```
+   ```
+   pnpm i
+   ```
 
 4. ಈಗ ಮುಂದೆ ಮಾಡಿ ಮತ್ತು ಹೊಸ ಶಾಖೆಯನ್ನು ರಚಿಸಿ ಮತ್ತು ಶಾಖೆಗೆ ಸರಿಸಿ
 
-     ```
-     git checkout -b fix-issue-<ISSUE-NUMBER>
-     ```
+   ```
+   git checkout -b fix-issue-<ISSUE-NUMBER>
+   ```
 
 5. ಸ್ಥಳೀಯವಾಗಿ ರನ್ ಮಾಡಿ
 
-     ```
-     pnpm dev
-     ```
+   ```
+   pnpm dev
+   ```
 
 6. ಎಲ್ಲಾ ಪರೀಕ್ಷಾ ಪ್ರಕರಣಗಳು ಉತ್ತೀರ್ಣರಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ
 
-     ```
-     pnpm test
-     ```
+   ```
+   pnpm test
+   ```
 
 7. ಮಾಡಿದ ನಂತರ ನೀವು ಈಗ ಈ ಬದಲಾವಣೆಗಳನ್ನು ತಳ್ಳಬಹುದು, ಅದನ್ನು ಮಾಡಲು ಈ ಕೆಳಗಿನ ಕಮಾಂಡ್ ಚೈನ್ ಅನ್ನು ಅನುಸರಿಸಿ
 
-     - `git Status` (ಬದಲಾದ ಫೈಲ್‌ಗಳನ್ನು ತೋರಿಸುತ್ತದೆ)
-     - `git add .` (ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ಸ್ಟೇಜಿಂಗ್ ಪ್ರದೇಶಕ್ಕೆ ಸೇರಿಸುತ್ತದೆ)
-     - `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
-     - > ಬದ್ಧತೆ ಮಾಡುವಾಗ ನೀವು ಈ ದೋಷವನ್ನು ಎದುರಿಸಿದರೆ
-       >
-       > ``` diff
-       > husky - pre-commit hook exited with code 1(error)
-       > ```
-       >
-       > ಈ ಆಜ್ಞೆಯನ್ನು ಬಳಸಿ
-       >
-       > ```diff
-       > pnpm format
-       > ```
-     - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
-     -`git push origin fix-issue-<ISSUE-NUMBER>`
+   - `git Status` (ಬದಲಾದ ಫೈಲ್‌ಗಳನ್ನು ತೋರಿಸುತ್ತದೆ)
+   - `git add .` (ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ಸ್ಟೇಜಿಂಗ್ ಪ್ರದೇಶಕ್ಕೆ ಸೇರಿಸುತ್ತದೆ)
+   - `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
+   - > ಬದ್ಧತೆ ಮಾಡುವಾಗ ನೀವು ಈ ದೋಷವನ್ನು ಎದುರಿಸಿದರೆ
+     >
+     > ```diff
+     > husky - pre-commit hook exited with code 1(error)
+     > ```
+     >
+     > ಈ ಆಜ್ಞೆಯನ್ನು ಬಳಸಿ
+     >
+     > ```diff
+     > pnpm format
+     > ```
+   - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git` -`git push origin fix-issue-<ISSUE-NUMBER>`
 
 8. ಇದರ ನಂತರ ನಿಮ್ಮ ಫೋರ್ಕ್ಡ್ ಗಿಟ್‌ಹಬ್ ರೆಪೊಸಿಟರಿಗೆ ಹೋಗಿ ಮತ್ತು `ಪುಲ್ ರಿಕ್ವೆಸ್ಟ್` ವಿಭಾಗಕ್ಕೆ ಹೋಗಿ. ಈಗ ನೀವು ** ವಿನಂತಿಯನ್ನು ಎಳೆಯಿರಿ** ಎಂದು ಹೇಳುವ ಪಾಪ್ ಅಪ್ ಅನ್ನು ನೋಡಲು ಸಾಧ್ಯವಾಗಬಹುದು. ಪಾಪ್ಅಪ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ವಿನಂತಿ ಪುಟವನ್ನು ಎಳೆಯಲು ನಿಮ್ಮನ್ನು ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತದೆ
 
@@ -145,7 +144,7 @@
 
 > ಸೂಚನೆ: ದಯವಿಟ್ಟು ಕೊಡುಗೆ ನೀಡುವಾಗ [ನಡತೆ ಸಂಹಿತೆ](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) ಅನುಸರಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
-## ಉಪಯುಕ್ತ ಕೊಂಡಿಗಳು  
+## ಉಪಯುಕ್ತ ಕೊಂಡಿಗಳು
 
 - [GitHub ಫೋರ್ಕಿಂಗ್ ಗೈಡ್](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - [GitHub ಪುಲ್ ವಿನಂತಿಗಳ ಮಾರ್ಗದರ್ಶಿ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
