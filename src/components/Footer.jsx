@@ -14,8 +14,8 @@ const Footer = () => {
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">open source is awesome 💜</h2>
-          <p className="max-w-sm mx-auto mt-4 text-gray-400">
-            ProjectsHut is an open-source project. Feel free to contribute and help us to make this project even better.
+          <p className={` max-w-sm mx-auto mt-4  ${theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400'}`}>
+            ProjectsHut is an open-source project. Feel free to contribute and help us to make this project better
           </p>
         </div>
       </div>
@@ -25,7 +25,11 @@ const Footer = () => {
         style={{ height: '79px' }}
       >
         <div className="flex flex-col items-center">
-          <p className="max-w-md mx-auto text-gray-400 text-center">
+          <p
+            className={`max-w-md mx-auto text-gray-400 text-center  ${
+              theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400'
+            }`}
+          >
             Copyright &copy; {getCurrentYear()} by ProjectsHut. Under{' '}
             <a
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
