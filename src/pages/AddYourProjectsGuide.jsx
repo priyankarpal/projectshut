@@ -1,6 +1,4 @@
-import { BiGitRepoForked } from 'react-icons/bi';
-import { AiTwotoneFile } from 'react-icons/ai';
-import { RiGitRepositoryCommitsFill } from 'react-icons/ri';
+import { GitBranch, FileText, UploadCloud } from 'react-feather';
 
 const AddYourProjectsGuide = () => {
   window.scrollTo(0, 0);
@@ -41,13 +39,13 @@ const AddYourProjectsGuide = () => {
           <defs>
             <pattern
               id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-              width={200}
-              height={200}
+              width={180}
+              height={180}
               x="50%"
               y={-1}
               patternUnits="userSpaceOnUse"
             >
-              <path d="M100 200V.5M.5 .5H200" fill="none" />
+              <path d="M100 180V.5M.5 .5H180" fill="none" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
@@ -59,7 +57,7 @@ const AddYourProjectsGuide = () => {
           <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
           <div className="flex items-center gap-5">
             <span>
-              <BiGitRepoForked />
+              <GitBranch size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Fork this repository</p>
           </div>
@@ -70,12 +68,12 @@ const AddYourProjectsGuide = () => {
           />
           <div className="mt-5 flex items-center gap-5">
             <span>
-              <AiTwotoneFile />
+              <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {' '}
               Click on Go to file(I'm doing from{' '}
-              <span className="bg-purple-200  p-1 rounded-md">priyankarpal/projectshut</span> )
+              <span className="bg-purple-180  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
 
@@ -87,7 +85,7 @@ const AddYourProjectsGuide = () => {
 
           <div className="mt-5 flex items-center gap-5">
             <span>
-              <AiTwotoneFile />
+              <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
@@ -98,7 +96,7 @@ const AddYourProjectsGuide = () => {
           </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
-              <RiGitRepositoryCommitsFill />
+              <UploadCloud size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
           </div>
@@ -109,7 +107,7 @@ const AddYourProjectsGuide = () => {
           />
           <div className="flex items-center gap-5 mt-5">
             <span>
-              <RiGitRepositoryCommitsFill />
+              <UploadCloud size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
           </div>
@@ -122,7 +120,7 @@ const AddYourProjectsGuide = () => {
         </div>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
             {' '}
@@ -132,21 +130,21 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
         </div>
         <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
         </div>
         <code className="block">cd ProjectsHut</code>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
@@ -154,7 +152,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
             {' '}
@@ -165,7 +163,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
         </div>
@@ -173,7 +171,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
         </div>
@@ -181,14 +179,14 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
         </div>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
         </div>
@@ -196,7 +194,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
@@ -204,7 +202,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
             {' '}
@@ -215,7 +213,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
         </div>
@@ -223,7 +221,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
         </div>
@@ -231,7 +229,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
         </div>
@@ -239,7 +237,7 @@ const AddYourProjectsGuide = () => {
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
         </div>
