@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import { ThemeContext } from '../context/Theme';
+
+import { X } from 'react-feather';
 
 const SideMenu = (props) => {
   const { theme } = useContext(ThemeContext);
@@ -60,7 +61,7 @@ const SideMenu = (props) => {
               color: theme.color,
             }}
           >
-            <CloseIcon className="" />
+            <X color={theme.mode === 'light' ? 'black' : 'white'} />
           </IconButton>
         </span>
         <div className="flex items-center ml-[25%]">
