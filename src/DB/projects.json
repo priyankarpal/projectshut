@@ -2220,5 +2220,24 @@
       "tech": ["HTML", "CSS","JavaScript"]
     }
   ]
+},
+{
+  "github_username": "Jranii",
+  "Social_media": {
+    "gitHub": "https://github.com/Jranii",
+    "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/JyotiRa94053552"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Jranii/My_Projects/tree/master/RazorpayClone",
+      "title": "Razorpay Clone",
+      "description": "It is a cloned frontend design of original Razorpay payment gateway.",
+      "tech": ["HTML", "Tailwind CSS"]
+    }
+  ]
 }
+  
 ]
