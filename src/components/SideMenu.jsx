@@ -22,22 +22,21 @@ const SideMenu = (props) => {
     },
   ];
 
-  const sideLinkEls = sideLinks.map((sideLink) => (
-    <li>
-      <NavLink
-        to={sideLink.path}
-        className={({ isActive }) =>
-          `inline-block py-2 px-3 m-2 text-center font-bold  rounded-md ${
-            theme.mode === 'light'
-              ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
-              : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
-          }`
-        }
-        onClick={() => props.handleDrawerToggle()}
-      >
-        {sideLink.name}
-      </NavLink>
-    </li>
+  const sideLinkEls = sideLinks.map((sideLink, i) => (
+    <NavLink
+      key={i}
+      to={sideLink.path}
+      className={({ isActive }) =>
+        `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${
+          theme.mode === 'light'
+            ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
+            : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
+        }`
+      }
+      onClick={() => props.handleDrawerToggle()}
+    >
+      {sideLink.name}
+    </NavLink>
   ));
 
   return (
