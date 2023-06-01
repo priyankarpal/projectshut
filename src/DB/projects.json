@@ -2199,32 +2199,44 @@
         "link": "https://github.com/Abhinavcode13/Personal-Movie-Recommender-with-python",
         "title": "Movie recommender system ",
         "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
-        "tech": ["python", "Machine learning"]
-      },
-      {
-        "link": "https://github.com/Abhinavcode13/Game-Of-Thrones-Personality-Matcher",
-        "title": "Game of thrones personality matcher",
-        "description": "This is a project based on data science and machine learning which used TSNE algorithm and the main aim of this project is to match the personality of the game of thrones characters and this app is hosted on streamlit framework in pycharm IDE",
-        "tech": ["python", "Machine learning", "Jupyter Notebook"]
+        "tech": ["python","Machine learning"]
       }
     ]
   },
-  {
-    "github_username": "dhruvishavaghani",
-    "Social_media": {
-      "gitHub": "https://github.com/dhruvishavaghani",
-      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/dhruvishavaghani/Noted",
-        "title": "Noted",
-        "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
-        "tech": ["HTML", "CSS", "JavaScript"]
-      }
-    ]
-  }
+{
+  "github_username": "dhruvishavaghani",
+  "Social_media": {
+    "gitHub": "https://github.com/dhruvishavaghani",
+    "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/dhruvishavaghani/Noted",
+      "title": "Noted",
+      "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
+      "tech": ["HTML", "CSS","JavaScript"]
+    }
+  ]
+},
+{
+  "github_username": "Jranii",
+  "Social_media": {
+    "gitHub": "https://github.com/Jranii",
+    "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/JyotiRa94053552"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Jranii/My_Projects/tree/master/RazorpayClone",
+      "title": "Razorpay Clone",
+      "description": "It is a cloned frontend design of original Razorpay payment gateway.",
+      "tech": ["HTML", "Tailwind CSS"]
+    }
+  ]
+}
 ]
