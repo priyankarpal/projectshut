@@ -11,18 +11,11 @@
     "lint": "prettier --check .",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
-    "test": "vitest",
-    "commit": "git-cz"
+    "test": "vitest"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm run lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
+      "pre-commit": "pnpm run lint"
     }
   },
   "dependencies": {
