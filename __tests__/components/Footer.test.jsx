@@ -19,7 +19,7 @@ describe('Footer', () => {
 
     /* built for collab elem */
     const headingElem = screen.getByRole('heading', {
-      name: /built for collaboration/i,
+      name: /open source is awesome 💜/i,
     });
     expect(headingElem).toBeInTheDocument();
 
@@ -41,7 +41,7 @@ describe('Footer', () => {
     */
     const linkElem = screen.getByRole('link');
     expect(linkElem).toBeInTheDocument();
-    expect(linkElem.textContent).toBe('Under MIT License');
+    expect(linkElem.textContent).toBe('MIT License');
     expect(linkElem).toBeEnabled();
     expect(linkElem).toHaveAttribute('target', '_blank');
     expect(linkElem).toHaveAttribute('href', 'https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE');

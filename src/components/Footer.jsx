@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
-import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   const { theme } = useContext(ThemeContext);

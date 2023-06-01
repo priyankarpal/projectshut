@@ -3,11 +3,10 @@ import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
-import { Link } from 'react-router-dom';
 import { FilterContext } from '@/context/FilterContext';
 import { searchProject } from '@/utils/searchProject';
 import { Button } from '@mui/material';
-import { FaSearch } from 'react-icons/fa';
+import { Search } from 'react-feather';
 
 const paginatedArr = paginate(projects);
 

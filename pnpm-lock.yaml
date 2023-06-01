@@ -19,9 +19,6 @@ importers:
       '@headlessui/react':
         specifier: ^1.7.14
         version: 1.7.14(react-dom@18.2.0)(react@18.2.0)
-      '@mui/icons-material':
-        specifier: ^5.11.16
-        version: 5.11.16(@mui/material@5.13.3)(@types/react@18.2.7)(react@18.2.0)
       '@mui/material':
         specifier: ^5.13.3
         version: 5.13.3(@emotion/react@11.11.0)(@emotion/styled@11.11.0)(@types/react@18.2.7)(react-dom@18.2.0)(react@18.2.0)
@@ -43,9 +40,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.9.0
-        version: 4.9.0(react@18.2.0)
+      react-feather:
+        specifier: ^2.0.10
+        version: 2.0.10(react@18.2.0)
       react-paginate:
         specifier: ^8.2.0
         version: 8.2.0(react@18.2.0)
@@ -1400,24 +1397,6 @@ packages:
   /@mui/core-downloads-tracker@5.13.3:
     resolution:
       { integrity: sha512-w4//nRIi9fiMow/MmhkForOezd8nc229EpSZZ5DzwpJNOmAXwypFTapOUVAGTUQiTJyeZXUNbQqYuUIrIs2nbg== }
-    dev: false
-
-  /@mui/icons-material@5.11.16(@mui/material@5.13.3)(@types/react@18.2.7)(react@18.2.0):
-    resolution:
-      { integrity: sha512-oKkx9z9Kwg40NtcIajF9uOXhxiyTZrrm9nmIJ4UjkU2IdHpd4QVLbCc/5hZN/y0C6qzi2Zlxyr9TGddQx2vx2A== }
-    engines: { node: '>=12.0.0' }
-    peerDependencies:
-      '@mui/material': ^5.0.0
-      '@types/react': ^17.0.0 || ^18.0.0
-      react: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.3
-      '@mui/material': 5.13.3(@emotion/react@11.11.0)(@emotion/styled@11.11.0)(@types/react@18.2.7)(react-dom@18.2.0)(react@18.2.0)
-      '@types/react': 18.2.7
-      react: 18.2.0
     dev: false
 
   /@mui/material@5.13.3(@emotion/react@11.11.0)(@emotion/styled@11.11.0)(@types/react@18.2.7)(react-dom@18.2.0)(react@18.2.0):
@@ -5287,12 +5266,13 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-icons@4.9.0(react@18.2.0):
+  /react-feather@2.0.10(react@18.2.0):
     resolution:
-      { integrity: sha512-ijUnFr//ycebOqujtqtV9PFS7JjhWg0QU6ykURVHuL4cbofvRCf3f6GMn9+fBktEFQOIVZnuAYLZdiyadRQRFg== }
+      { integrity: sha512-BLhukwJ+Z92Nmdcs+EMw6dy1Z/VLiJTzEQACDUEnWMClhYnFykJCGWQx+NmwP/qQHGX/5CzQ+TGi8ofg2+HzVQ== }
     peerDependencies:
-      react: '*'
+      react: '>=16.8.6'
     dependencies:
+      prop-types: 15.8.1
       react: 18.2.0
     dev: false
 
