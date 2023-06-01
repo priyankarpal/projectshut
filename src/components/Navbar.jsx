@@ -96,12 +96,12 @@ const Navbar = () => {
                 href="https://github.com/priyankarpal/ProjectsHut"
                 target="_blank"
                 rel="noreferrer"
-                className={`flex justify-center items-center hover:scale-110 transition-all duration-200 w-10 h-10 rounded-full bg-[#111] shadow-sm ${
+                className={`flex justify-center items-center hover:scale-110 transition-all duration-200 w-10 h-10 rounded-full  ${
                   theme.mode === 'light' ? 'shadow-slate-900' : 'shadow-slate-100'
                 } `}
                 aria-label="Github"
               >
-                <GitHub color="white" size={20} />
+                <GitHub size={20} />
               </a>
 
               <li className="md:flex flex-col-reverse  hidden">
