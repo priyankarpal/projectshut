@@ -2202,5 +2202,23 @@
         "tech": ["python","Machine learning"]
       }
     ]
+  },
+      {
+    "github_username": "Abhinavcode13",
+    "Social_media": {
+      "gitHub": "https://github.com/Abhinavcode13",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav131/",
+      "Instagram": "https://www.instagram.com/abhinavxkumar/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Abhinavxkumar13"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Abhinavcode13/Game-Of-Thrones-Personality-Matcher",
+        "title": "Game of thrones personality matcher",
+        "description": "This is a project based on data science and machine learning which used TSNE algorithm and the main aim of this project is to match the personality of the game of thrones characters and this app is hosted on streamlit framework in pycharm IDE",
+        "tech": ["python","Machine learning","Jupyter Notebook"]
+      }
+    ]
   }
 ]
