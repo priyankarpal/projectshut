@@ -1,5 +1,41 @@
 [
   {
+    "github_username": "dev-AshishRanjan",
+    "Social_media": {
+      "gitHub": "https://github.com/dev-AshishRanjan",
+      "LinkedIn": "https://www.linkedin.com/in/kumar-ashish-ranjan-6359b7233/",
+      "Instagram": "https://www.instagram.com/kr.ashishranjan/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dev-AshishRanjan/MovieApp",
+        "title": "PWA Movie App",
+        "description": "A progressive Movie App with live data feeds from TMDB with two themed Movie Description",
+        "tech": ["JavaScript", "React.js", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/Search-Home-Page",
+        "title": "ZORIN Search Page",
+        "description": "This is a wbesite is a modified version of ZORIN Browser Homepage. This website uses NeuMorphism with Light and Dark theme in System Mode. It also gives Weather Update",
+        "tech": ["NextJs", "TypeScript", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/anime-vue-web",
+        "title": "Anime Web",
+        "description": "This project is based on VueJs and uses scss as stylesheet. It uses the unique data passing between child and parent component. It uses REST API as data source to display images and GIFs related to your search with search customization.",
+        "tech": ["Vue js", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/Resume-Creator",
+        "title": "Resume Creator",
+        "description": "This project uses Basic HTML, CSS, JavaScript to create a basic Resume Creator, where you can create your resume and most important download the created Resume.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
     "github_username": "sumitkr2000",
     "Social_media": {
       "gitHub": "https://github.com/sumitkr2000",
@@ -1905,6 +1941,12 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": ["NextJs", "Solidity", "CSS"]
+      },
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
+        "title": "Avax Gods",
+        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
+        "tech": ["ReactJs", "Solidity", "Tailwind CSS"]
       }
     ]
   },
@@ -2134,6 +2176,24 @@
         "title": "Find Your Job",
         "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
         "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "vk20july",
+    "Social_media": {
+      "gitHub": "https://github.com/vk20july",
+      "LinkedIn": "https://www.linkedin.com/in/vivek-kumar-tiwari-876b00212",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vk20july/Slither",
+        "title": "Slither",
+        "description": "Legendary Nokia Snake Game which would take you back to the good old days.",
+        "tech": ["python"]
       }
     ]
   }

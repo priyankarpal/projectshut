@@ -3,8 +3,7 @@ import { useContext } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
-import { FaGithub, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
-import { BsFillArrowUpRightCircleFill } from 'react-icons/bs';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle } from 'react-feather';
 import { Link } from 'react-router-dom';
 
 const ProjectList = () => {
@@ -39,9 +38,10 @@ const ProjectList = () => {
             color: theme?.color,
           }}
         >
-          {/* Beack to projects link */}
-          <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out">
-            <span>{'<'}</span>
+          {/* Back to projects link */}
+          <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+            <ArrowLeftCircle size={20} />
+
             <Link to={`/projects${filter ? `?filter=${filter}` : ''}`} className="ml-2">
               {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
@@ -67,7 +67,7 @@ const ProjectList = () => {
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
-                  <FaGithub />
+                  <GitHub />
                 </a>
               </div>
             )}
@@ -80,7 +80,7 @@ const ProjectList = () => {
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
-                  <FaLinkedinIn />
+                  <Linkedin />
                 </a>
               </div>
             )}
@@ -93,7 +93,7 @@ const ProjectList = () => {
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
-                  <FaTwitter />
+                  <Twitter />
                 </a>
               </div>
             )}
@@ -106,7 +106,7 @@ const ProjectList = () => {
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
-                  <FaYoutube />
+                  <Youtube />
                 </a>
               </div>
             )}
@@ -119,7 +119,7 @@ const ProjectList = () => {
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                   aria-label="Github"
                 >
-                  <FaInstagram />
+                  <Instagram />
                 </a>
               </div>
             )}
@@ -158,7 +158,7 @@ const ProjectList = () => {
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                       aria-label="Github"
                     >
-                      <BsFillArrowUpRightCircleFill />
+                      {/* <BsFillArrowUpRightCircleFill /> */}
                     </a>
                   </span>
                 </div>
