@@ -26,7 +26,6 @@
     "@mui/material": "^5.13.3",
     "@mui/styled-engine-sc": "^5.12.0",
     "ci": "^2.2.0",
-    "husky": "^8.0.3",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-clamp-lines": "^3.0.3",

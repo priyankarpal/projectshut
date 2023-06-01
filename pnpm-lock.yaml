@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 importers:
   .:
@@ -24,9 +28,6 @@ importers:
       ci:
         specifier: ^2.2.0
         version: 2.2.0
-      husky:
-        specifier: ^8.0.3
-        version: 8.0.3
       process:
         specifier: ^0.11.10
         version: 0.11.10
@@ -94,6 +95,9 @@ importers:
       eslint-plugin-react:
         specifier: ^7.32.2
         version: 7.32.2(eslint@8.41.0)
+      husky:
+        specifier: ^8.0.3
+        version: 8.0.3
       jest:
         specifier: ^29.5.0
         version: 29.5.0
@@ -3679,7 +3683,7 @@ packages:
       { integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg== }
     engines: { node: '>=14' }
     hasBin: true
-    dev: false
+    dev: true
 
   /iconv-lite@0.6.3:
     resolution:
@@ -6428,7 +6432,3 @@ packages:
     dependencies:
       tslib: 2.5.2
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
