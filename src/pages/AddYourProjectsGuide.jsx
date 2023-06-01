@@ -1,5 +1,6 @@
 import { GitBranch, FileText, UploadCloud } from 'react-feather';
-
+// var CopyBlock = require('react-code-blocks')
+import { CodeBlock, CopyBlock, dracula, atomOneLight } from 'react-code-blocks';
 const AddYourProjectsGuide = () => {
   window.scrollTo(0, 0);
   const codeString = `
@@ -92,7 +93,8 @@ const AddYourProjectsGuide = () => {
             </p>
           </div>
           <code className="block sm:text-base xs:text-sm text-xs ">
-            <pre className="overflow-x-auto">{codeString}</pre>
+            <CopyBlock theme={dracula} text={codeString} language="javascript" />
+            {/* <pre className="overflow-x-auto">{codeString}</pre> */}
           </code>
           <div className="flex items-center gap-5 mt-5">
             <span>
@@ -134,21 +136,28 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
         </div>
-        <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code>
+        <CopyBlock
+          theme={dracula}
+          text="git clone https://github.com/[your-username]/ProjectsHut.git"
+          language="javasript"
+        />
+        {/* <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code> */}
         <div className="mt-5 flex items-center gap-5">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
         </div>
-        <code className="block">cd ProjectsHut</code>
+        <CopyBlock theme={dracula} text="cd ProjectsHut" language="javasript" />
+        {/* <code className="block"></code> */}
         <div className="mt-5 flex items-center gap-5">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
-        <code className="block">pnpm i</code>
+        <CopyBlock theme={dracula} text="pnpm i" language="javasript" />
+        {/* <code className="block">pnpm i</code> */}
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -159,7 +168,8 @@ const AddYourProjectsGuide = () => {
             Create a new branch using your `GitHub Username`
           </p>
         </div>
-        <code className="block">git checkout -b [name_of_your_new_branch]</code>
+        <CopyBlock theme={dracula} text="git checkout -b [name_of_your_new_branch]" language="javasript" />
+        {/* <code className="block"></code> */}
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -167,7 +177,8 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
         </div>
-        <code className="block">pnpm dev</code>
+        <CopyBlock theme={dracula} text="pnpm dev" language="javasript" />
+        {/* <code className="block">pnpm dev</code> */}
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -175,7 +186,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
         </div>
-        <code className="block">pnpm test</code>
+        <CopyBlock theme={dracula} text="pnpm test" language="javasript" />
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -190,7 +201,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
         </div>
-        <code className="block">git add .</code>
+        <CopyBlock theme={dracula} text="git add ." language="javasript" />
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -198,8 +209,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
-        <code className="block">git commit -m "Added [your-changes]"</code>
-
+        <CopyBlock theme={dracula} text='git commit -m "Added [your-changes]' language="javasript" />
         <div className="flex items-center gap-5 mt-5">
           <span>
             <UploadCloud size={18} />
@@ -209,15 +219,14 @@ const AddYourProjectsGuide = () => {
             If you encounter this error while commits
           </p>
         </div>
-        <code className="block">husky - pre-commit hook exited with code 1(error)</code>
-
+        <CopyBlock theme={dracula} text="husky - pre-commit hook exited with code 1(error)" language="javasript" />
         <div className="flex items-center gap-5 mt-5">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
         </div>
-        <code className="block">pnpm format</code>
+        <CopyBlock theme={dracula} text="pnpm format" language="javasript" />
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -225,7 +234,11 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
         </div>
-        <code className="block">git remote add upstream https://github.com/priyankarpal/ProjectsHut.git</code>
+        <CopyBlock
+          theme={dracula}
+          text="git remote add upstream https://github.com/priyankarpal/ProjectsHut.git"
+          language="javasript"
+        />
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -233,8 +246,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
         </div>
-        <code className="block">git push origin [Your-branch-name]</code>
-
+        <CopyBlock theme={dracula} text="git push origin [Your-branch-name]" language="javasript" />
         <div className="flex items-center gap-5 mt-5">
           <span>
             <UploadCloud size={18} />
