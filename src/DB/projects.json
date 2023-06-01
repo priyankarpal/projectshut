@@ -2203,7 +2203,7 @@
       }
     ]
   },
-      {
+  {
     "github_username": "Abhinavcode13",
     "Social_media": {
       "gitHub": "https://github.com/Abhinavcode13",
@@ -2220,5 +2220,24 @@
         "tech": ["python","Machine learning","Jupyter Notebook"]
       }
     ]
-  }
+  },
+{
+  "github_username": "dhruvishavaghani",
+  "Social_media": {
+    "gitHub": "https://github.com/dhruvishavaghani",
+    "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/dhruvishavaghani/Noted",
+      "title": "Noted",
+      "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
+      "tech": ["HTML", "CSS","JavaScript"]
+    }
+  ]
+}
+
 ]
