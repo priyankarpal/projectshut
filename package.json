@@ -16,7 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm run lint && lint-staged",
+      "pre-commit": "pnpm run lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
