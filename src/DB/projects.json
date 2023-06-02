@@ -2053,7 +2053,25 @@
       }
     ]
   },
-  {
+{
+    "github_username": "Hypertext-Workaholics",
+    "Social_media": {
+      "gitHub": "https://github.com/Hypertext-Workaholics",
+      "LinkedIn": "https://www.linkedin.com/in/shalini-singh-5b4646205/",
+      "Instagram": "https://www.instagram.com/writings__world_/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hypertext-Workaholics/bullseye-game",
+        "title": "Bullseye Game",
+        "description": "This project is a little and simple bullseye game written in html5, css3 and javascript.",
+        "tech": ["HTML", "CSS" , "Javascript"]
+      }
+    ]
+},
+{
     "github_username": "Utkers-h",
     "Social_media": {
       "gitHub": "https://github.com/Utkers-h",
@@ -2091,6 +2109,7 @@
   },
   {
     "github_username": "prasanta10",
+
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
