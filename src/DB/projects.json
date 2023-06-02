@@ -2238,5 +2238,23 @@
       "tech": ["HTML", "Tailwind CSS"]
     }
   ]
-}
+},
+{
+  "github_username": "OMKAR-KALEPU",
+  "Social_media": {
+    "gitHub": "https://github.com/OMKAR-KALEPU",
+    "LinkedIn": "https://www.linkedin.com/in/omkar-kalepu-7a6718219/",
+    "Instagram": "https://www.instagram.com/omkar.kalepu/",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Omkarstwt"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/OMKAR-KALEPU/event_keycode",
+      "title": "event-keycode",
+      "description": "This is a simple project using HTML, CSS and JavaScript that displays the keycodes when a key is pressed.",
+      "tech": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+  }
 ]
