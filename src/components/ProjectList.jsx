@@ -13,6 +13,8 @@ const ProjectList = () => {
   const filter = data.state.filter;
 
   const [userObj, setObject] = useState({});
+  const [user, setUser] = useState({});
+  const [initialLoading, setInitialLoading] = useState(true);
 
   useEffect(() => {
     // return object which has a simillar name as in URL , which can be get by useParams() hook.
@@ -25,39 +27,54 @@ const ProjectList = () => {
     });
 
     setObject(filterdObj[0]);
+    getData();
   }, []);
 
+  //to get the user data from github
+  const getData = async () => {
+    setInitialLoading(true);
+    const res = await fetch(`https://api.github.com/users/${username}`).then((res) => res.json());
+    if (res) {
+      setUser(res);
+      setInitialLoading(false);
+    }
+  };
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
+      {}
       {/* Left side profile section */}
-      {Object.keys(userObj).length > 0 && (
+      {!initialLoading && Object.keys(userObj).length > 0 && (
         <div
-          className="w-full md:w-[36%] md:h-96 lg:max-w-[25%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 "
+          className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-10 "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
         >
           {/* Back to projects link */}
-          <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
-            <ArrowLeftCircle size={20} />
-
-            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="ml-2">
-              {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+          <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center ">
+            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="flex items-stretch">
+              <ArrowLeftCircle size={20} className="mt-0.5" />
+              <span className="ml-2">{`Back to ${
+                filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'
+              } Projects`}</span>
             </Link>
           </div>
 
           <div className="flex justify-center items-center mb-3 my-10">
             <img
-              src={`https://images.weserv.nl/?output=webp&width=200px&sharp=.5&url=https://github.com/${username}.png`}
+              src={user && user.avatar_url}
               alt={`${username}'s github profile`}
               className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg"
             />
           </div>
-          <div className="flex justify-center items-center mb-3 my-10 text-center">
+          <div className="flex justify-center items-center mb-3 text-center">
             <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">@{username}</h3>
           </div>
-          <div className="flex flex-row xsm:mx-auto my-2 ">
+          <div className="justify-center items-center text-center py-5 ">
+            <p className="text-sm break-words">{user.bio}</p>
+          </div>
+          <div className="flex flex-row xsm:mx-auto my-2 mb-5">
             {userObj['Social_media']['gitHub'] !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
@@ -128,17 +145,20 @@ const ProjectList = () => {
       )}
 
       {/* Projects lists */}
-
-      <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md">
-        <div className="flex justify-start items-center mb-5 mt-1">
-          <h3 className="capitalize text-xl font-bold basis-full line-clamp-1 pl-1">Projects</h3>
-        </div>
-
+      <div
+        className={`space-y-12 lg:grid lg:gap-x-6 lg:space-y-0 ${
+          Object.keys(userObj).length > 0 && userObj['Projects'].length > 2
+            ? 'lg:grid-cols-3'
+            : Object.keys(userObj).length > 0 && userObj['Projects'].length > 1
+            ? 'lg:grid-cols-2'
+            : 'lg:grid-cols-1'
+        }`}
+      >
         {Object.keys(userObj).length > 0 &&
-          userObj['Projects'].map((project, index) => {
-            return (
+          userObj['Projects'].map((project, index) => (
+            <div key={index} className="group relative hover:scale-110 transition-all duration-300 ease-in-out">
               <div
-                className="w-100 my-1 p-4 shadow-lg mb-4"
+                className="w-100 my-1 p-4 shadow-lg mb-4 "
                 key={index}
                 style={{
                   borderRadius: '10px',
@@ -158,13 +178,13 @@ const ProjectList = () => {
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                       aria-label="Github"
                     >
-                      <ArrowUpCircle size={30} />
+                      <GitHub />
                     </a>
                   </span>
                 </div>
                 {/* Tech Stack section */}
-                <div className="flex flex-row items-center mt-2 gap-4">
-                  <div className="mr-6 md:mr-4">Tech-Stack : </div>
+                <div className="flex flex-row items-center mt-2 gap-4 ">
+                  {/* <div className="mr-6 md:mr-4">Tech-Stack : </div> */}
                   <div className="flex flex-wrap gap-2">
                     {project['tech'].map((tag, index) => {
                       return (
@@ -181,8 +201,8 @@ const ProjectList = () => {
                   </div>
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
       </div>
     </section>
   );
