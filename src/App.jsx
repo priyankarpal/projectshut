@@ -24,7 +24,7 @@ const router = createBrowserRouter(
         }
       />
       <Route
-        path="/projects"
+        path="/projectspage"
         element={
           <FilterProvider>
             <Suspense fallback={<Loader />}>

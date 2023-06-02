@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
-import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle } from 'react-feather';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
 import { Link } from 'react-router-dom';
 
 const ProjectList = () => {
@@ -42,7 +42,7 @@ const ProjectList = () => {
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
             <ArrowLeftCircle size={20} />
 
-            <Link to={`/projects${filter ? `?filter=${filter}` : ''}`} className="ml-2">
+            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="ml-2">
               {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
             </Link>
           </div>
@@ -158,7 +158,7 @@ const ProjectList = () => {
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                       aria-label="Github"
                     >
-                      {/* <BsFillArrowUpRightCircleFill /> */}
+                      <ArrowUpCircle size={30} />
                     </a>
                   </span>
                 </div>
