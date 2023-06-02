@@ -1,11 +1,45 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import { ThemeContext } from '../context/Theme';
 
+import { X } from 'react-feather';
+
 const SideMenu = (props) => {
   const { theme } = useContext(ThemeContext);
+
+  const sideLinks = [
+    {
+      name: 'Home',
+      path: '/',
+    },
+    {
+      name: 'Projects',
+      path: '/projects',
+    },
+    {
+      name: 'Documentation',
+      path: '/docs',
+    },
+  ];
+
+  const sideLinkEls = sideLinks.map((sideLink, i) => (
+    <NavLink
+      key={i}
+      to={sideLink.path}
+      className={({ isActive }) =>
+        `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${
+          theme.mode === 'light'
+            ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
+            : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
+        }`
+      }
+      onClick={() => props.handleDrawerToggle()}
+    >
+      {sideLink.name}
+    </NavLink>
+  ));
+
   return (
     <div
       className=" h-screen flex flex-col "
@@ -27,7 +61,7 @@ const SideMenu = (props) => {
               color: theme.color,
             }}
           >
-            <CloseIcon className="" />
+            <X color={theme.mode === 'light' ? 'black' : 'white'} />
           </IconButton>
         </span>
         <div className="flex items-center ml-[25%]">
@@ -43,54 +77,17 @@ const SideMenu = (props) => {
 
       {/*  SideBar navlinks section */}
       <ul className="block">
-        <li>
-          <NavLink
-            to="/"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === 'light'
-                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
-                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
-            }`}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {'Home'}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/projects"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === 'light'
-                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
-                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
-            }`}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {'Projects'}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/docs"
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
-              theme.mode === 'light'
-                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
-                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
-            }`}
-            onClick={() => props.handleDrawerToggle()}
-          >
-            {'Documentation'}
-          </NavLink>
-        </li>
+        {sideLinkEls}
+
         <li>
           <a
             href="https://github.com/priyankarpal/ProjectsHut"
             target={'_blank'}
             rel={'noreferrer'}
-            className={`block py-2 px-3 text-left font-bold rounded-md ${
+            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md ${
               theme.mode === 'light'
-                ? 'hover:text-white hover:bg-black focus:text-white focus:bg-black'
-                : 'hover:text-black hover:bg-white focus:text-black focus:bg-white'
+                ? 'hover:text-white hover:bg-black transition-all duration-200'
+                : 'hover:text-black hover:bg-white transition-all duration-200'
             }`}
             aria-label="Github"
           >
@@ -98,8 +95,6 @@ const SideMenu = (props) => {
           </a>
         </li>
       </ul>
-
-      {/* </ul> */}
     </div>
   );
 };

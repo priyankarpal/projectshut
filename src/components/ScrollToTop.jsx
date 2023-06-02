@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { AiOutlineArrowUp } from 'react-icons/ai';
+// import { AiOutlineArrowUp } from 'react-icons/ai';
+import { ArrowUp } from 'react-feather';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false); // State to track the visibility of the scroll-to-top button
@@ -38,7 +39,7 @@ const ScrollToTop = () => {
         }`}
         onClick={scrollToTop}
       >
-        <AiOutlineArrowUp size={25} />
+        <ArrowUp size={25} color="black" />
       </button>
     </>
   );
