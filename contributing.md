@@ -10,7 +10,7 @@
 
 **Assign an Issue Number:**
 
-- Assign the `#ISSUE_NUMBER` in the description of the PR request.
+- Assign the `#ISSUE_NUMBER` in the description of the PR request
 
 **Work on Your assigned issue first:**
 

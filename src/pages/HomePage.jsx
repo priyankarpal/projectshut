@@ -3,9 +3,23 @@ import { Link } from 'react-router-dom';
 import Banner from '../components/Banner';
 import { ThemeContext } from '../context/Theme';
 import images from '../DB/homepage-image.json';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const HomePage = () => {
   const { theme } = useContext(ThemeContext);
+
+  const notify = () =>
+    toast('Want to add your project? Check out the docs!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined,
+      theme: 'light',
+    });
 
   return (
     <section>
@@ -67,12 +81,13 @@ const HomePage = () => {
                 </div>
 
                 <Link
-                  to="/projects"
+                  to="/projectspage"
                   className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 "
                   style={{
                     backgroundColor: theme?.button?.buttonBgColor,
                     color: theme?.button?.buttonTextColor,
                   }}
+                  onClick={notify}
                 >
                   Browse Projects
                 </Link>

@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: File a bug report
-title: '[Bug]: '
+title: 'Bug: '
 labels: ['🛠 goal: fix', '🚦status: awaiting triage']
 body:
   - type: textarea
@@ -38,6 +38,5 @@ body:
           required: true
 
         - label: I'm a GSSoC'23 contributor
-          required: true
 
         - label: I want to work on this issue

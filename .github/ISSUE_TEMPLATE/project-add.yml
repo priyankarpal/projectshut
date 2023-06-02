@@ -1,6 +1,6 @@
 name: 🌱 Project Addition
 description: Add a new project to the list
-title: 'data: project addition by '
+title: 'Data: project addition by '
 labels: ['projects addition', '🚦status: awaiting triage']
 body:
   - type: textarea
@@ -18,6 +18,5 @@ body:
           required: true
 
         - label: I'm a GSSoC'23 contributor
-          required: true
 
         - label: I want to work on this issue
