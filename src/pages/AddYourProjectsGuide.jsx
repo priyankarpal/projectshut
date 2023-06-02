@@ -93,7 +93,7 @@ const AddYourProjectsGuide = () => {
             </p>
           </div>
           <code className="block sm:text-base xs:text-sm text-xs ">
-            {/* <CopyBlock theme={dracula} text={codeString} language="javascript" /> */}
+            <CopyBlock theme={dracula} text={codeString} language="javascript" />
             {/* <pre className="overflow-x-auto">{codeString}</pre> */}
           </code>
           <div className="flex items-center gap-5 mt-5">
