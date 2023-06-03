@@ -108,13 +108,7 @@ You should write the full Tech name: <br>
     pnpm dev
     ```
 
-6.  Make sure all the test cases pass
-
-    ```
-    pnpm test
-    ```
-
-7.  After done you can now push this changes, for doing that follow the following command chain
+6.  After done you can now push this changes, for doing that follow the following command chain
 
     - `git status` (Shows the changed files)
     - `git add .` (Will add all the files to staging area)
@@ -133,15 +127,15 @@ You should write the full Tech name: <br>
     - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
     - `git push origin fix-issue-<ISSUE-NUMBER>`
 
-8.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+7.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-9.  Now fill in the form template of the pull request and give the necessary description.
+8.  Now fill in the form template of the pull request and give the necessary description.
 
-10. Click on **Submit**
+9.  Click on **Submit**
 
-11. Hurray! You just made your first contribution to this project 🎉
+10. Hurray! You just made your first contribution to this project 🎉
 
-12. Wait for your pull request to be reviewed and merged.
+11. Wait for your pull request to be reviewed and merged.
 
 > NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
 

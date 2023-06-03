@@ -175,14 +175,6 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
-        </div>
-        <code className="block">pnpm test</code>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <FileText size={18} />
-          </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
         </div>
 
