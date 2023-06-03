@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import { GitBranch, FileText, UploadCloud } from 'react-feather';
+import React from 'react';
 
-const AddYourProjectsGuide = () => {
+function AddYourProjectsGuide() {
   window.scrollTo(0, 0);
   const codeString = `
     {
@@ -72,7 +74,7 @@ const AddYourProjectsGuide = () => {
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {' '}
-              Click on Go to file(I'm doing from{' '}
+              Click on Go to file(I&apos;m doing from{' '}
               <span className="bg-purple-180  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
@@ -198,7 +200,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
-        <code className="block">git commit -m "Added [your-changes]"</code>
+        <code className="block">git commit -m &quot;Added [your-changes]&quot;</code>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -244,6 +246,6 @@ const AddYourProjectsGuide = () => {
       </article>
     </section>
   );
-};
+}
 
 export default AddYourProjectsGuide;

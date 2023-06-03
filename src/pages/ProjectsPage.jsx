@@ -1,17 +1,22 @@
+/* eslint-disable function-paren-newline */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable indent */
+/* eslint-disable max-len */
+/* eslint-disable no-use-before-define */
 import React, { useContext, useEffect, useState } from 'react';
+import { Button } from '@mui/material';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
-import { FilterContext } from '@/context/FilterContext';
-import { searchProject } from '@/utils/searchProject';
-import { Button } from '@mui/material';
-import { Search } from 'react-feather';
+import { FilterContext } from '../context/FilterContext';
+import { searchProject } from '../utils/searchProject';
 
 const paginatedArr = paginate(projects);
 
-const ProjectsPage = () => {
-  //used the json format to avoid code repeatation
+function ProjectsPage() {
+  // used the json format to avoid code repeatation
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
   const [searchInput, setSearchInput] = useState('');
@@ -20,7 +25,7 @@ const ProjectsPage = () => {
 
   function handleChange(e) {
     setSearchInput(e.target.value);
-    if (e.target.value != '') {
+    if (e.target.value !== '') {
       setDisablePagination(true);
       setItems(searchProject(selectedOptions.length > 0 ? getFilteredProjects() : projects, e.target.value));
     } else {
@@ -32,18 +37,18 @@ const ProjectsPage = () => {
   // this useEffect is for when user click on pagination button then render only that page projects
 
   useEffect(() => {
-    //checks if the current page is the last page
-    page.next = page.pageNo === paginatedArr.length - 1 ? true : false;
-    //checks if the current page is the first page
-    page.prev = page.pageNo === 0 ? true : false;
+    // checks if the current page is the last page
+    page.next = page.pageNo === paginatedArr.length - 1;
+    // checks if the current page is the first page
+    page.prev = page.pageNo === 0;
     setPage({ ...page });
 
-    //setting the projects as label and name for mui autocomplete
-    let arr = [];
+    // setting the projects as label and name for mui autocomplete
+    const arr = [];
 
-    let allProjects = projects;
-    for (let i = 0; i < allProjects.length; i++) {
-      let projectInAllProjects = allProjects[i].Projects;
+    const allProjects = projects;
+    for (let i = 0; i < allProjects.length; i += projects.length) {
+      const projectInAllProjects = allProjects[i].Projects;
       arr.push({
         label: projectInAllProjects[0].title,
         author: allProjects[i].github_username,
@@ -51,7 +56,7 @@ const ProjectsPage = () => {
     }
     // setProjectsArr(arr);
 
-    //move the paginated item in a function to use multiple times
+    // move the paginated item in a function to use multiple times
     loadItems();
 
     window.scrollTo(0, 0); // this makes the page scroll to top on page state changes
@@ -80,7 +85,7 @@ const ProjectsPage = () => {
   const getFilteredProjects = () => {
     const filteredProjects = selectedOptions.flatMap((tech) =>
       projects.filter((obj) => {
-        const arr = obj['Projects'][0].tech;
+        const arr = obj.Projects[0].tech;
         const regexPattern = new RegExp(tech, 'i');
         return arr.some((e) => regexPattern.test(e));
       }),
@@ -94,7 +99,7 @@ const ProjectsPage = () => {
       setPage({ ...page });
       return;
     }
-    page.pageNo = page.pageNo - 1;
+    page.pageNo -= 1;
     setPage({ ...page });
   };
 
@@ -111,7 +116,8 @@ const ProjectsPage = () => {
   return (
     <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
       <h1 className="text-[2.5rem] font-bold text-center">
-        Search for <span className="text-primary">cool </span>Projects
+        Search for <span className="text-primary">cool </span>
+        Projects
       </h1>
       <div className="flex items-center justify-center my-7 mx-20">
         <input
@@ -127,7 +133,7 @@ const ProjectsPage = () => {
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
           <Button
-            key={index}
+            key={index.id}
             onClick={() => handleOptionClick(tech)}
             variant={selectedOptions.includes(tech) ? 'contained' : 'outlined'}
             className="bg-primary hover:bg-slate-200"
@@ -142,10 +148,10 @@ const ProjectsPage = () => {
         {currentItems.length > 0 ? (
           currentItems.map((item, i) => (
             <ProjectCard
-              github_username={item['github_username']}
-              listOfProjects={item['Projects']}
-              socaialMedia={item['Social_media']}
-              key={i}
+              github_username={item.github_username}
+              listOfProjects={item.Projects}
+              socaialMedia={item.Social_media}
+              key={i.id}
               filter={selectedOptions?.join(',')}
             />
           ))
@@ -160,31 +166,29 @@ const ProjectsPage = () => {
           <button
             type="button"
             className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
-              page.prev ? `disabled:cursor-not-allowed` : null
+              page.prev ? 'disabled:cursor-not-allowed' : null
             }`}
             disabled={page.prev}
             onClick={prevPage}
           >
             Prev
           </button>
-          {paginatedArr.map((ele, ind) => {
-            return (
-              <button
-                type="button"
-                className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
-                  page.pageNo === ind ? 'text-primary' : null
-                }`}
-                onClick={() => handleSetPage(ind)}
-                key={ind}
-              >
-                {ind + 1}
-              </button>
-            );
-          })}
+          {paginatedArr.map((ele, ind) => (
+            <button
+              type="button"
+              className={`bg-white px-3 py-1 hover:bg-slate-200 rounded-md ${
+                page.pageNo === ind ? 'text-primary' : null
+              }`}
+              onClick={() => handleSetPage(ind)}
+              key={ind.id}
+            >
+              {ind + 1}
+            </button>
+          ))}
           <button
             type="button"
             className={`bg-white px-3 py-1 rounded-md hover:bg-slate-200 ${
-              page.next ? `disabled:cursor-not-allowed` : null
+              page.next ? 'disabled:cursor-not-allowed' : null
             }`}
             disabled={page.next}
             onClick={nextPage}
@@ -195,6 +199,6 @@ const ProjectsPage = () => {
       )}
     </main>
   );
-};
+}
 
 export default ProjectsPage;
