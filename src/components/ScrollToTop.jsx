@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-// import { AiOutlineArrowUp } from 'react-icons/ai';
 import { ArrowUp } from 'react-feather';
 
-const ScrollToTop = () => {
-  const [isVisible, setIsVisible] = useState(false); // State to track the visibility of the scroll-to-top button
+function ScrollToTop() {
+  // State to track the visibility of the scroll-to-top button
+  const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     // Function to toggle the visibility of the button based on scroll position
@@ -32,17 +32,16 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <>
-      <button
-        className={`fixed p-2 bg-gray-400 bg-opacity-100 shadow-lg rounded-full z-20 ${
-          isVisible ? ' bottom-4 right-4' : 'hidden'
-        }`}
-        onClick={scrollToTop}
-      >
-        <ArrowUp size={25} color="black" />
-      </button>
-    </>
+    <button
+      type="button"
+      className={`fixed p-2 bg-gray-400 bg-opacity-100 shadow-lg rounded-full z-20 ${
+        isVisible ? ' bottom-4 right-4' : 'hidden'
+      }`}
+      onClick={scrollToTop}
+    >
+      <ArrowUp size={25} color="black" />
+    </button>
   );
-};
+}
 
 export default ScrollToTop;
