@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable max-len */
+/* eslint-disable react/jsx-no-constructed-context-values */
 import React, { createContext, useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 export const FilterContext = createContext();
 
-export const FilterProvider = ({ children }) => {
+export function FilterProvider({ children }) {
   const location = useLocation();
   const navigate = useNavigate();
   const queryParams = new URLSearchParams(location.search);
@@ -32,4 +35,4 @@ export const FilterProvider = ({ children }) => {
   };
 
   return <FilterContext.Provider value={{ selectedOptions, handleOptionClick }}>{children}</FilterContext.Provider>;
-};
+}
