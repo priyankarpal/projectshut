@@ -20,7 +20,7 @@ function SideMenu(props) {
     },
     {
       name: 'Projects',
-      path: '/projects',
+      path: '/projectspage',
     },
     {
       name: 'Documentation',
