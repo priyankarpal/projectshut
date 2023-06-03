@@ -21,12 +21,10 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.15",
     "@mui/material": "^5.13.3",
     "@mui/styled-engine-sc": "^5.12.0",
     "ci": "^2.2.0",
-    "process": "^0.11.10",
     "react": "^18.2.0",
     "react-clamp-lines": "^3.0.3",
     "react-dom": "^18.2.0",

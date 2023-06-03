@@ -13,9 +13,6 @@ importers:
       '@emotion/styled':
         specifier: ^11.11.0
         version: 11.11.0(@emotion/react@11.11.0)(@types/react@18.2.8)(react@18.2.0)
-      '@fortawesome/react-fontawesome':
-        specifier: ^0.2.0
-        version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
       '@headlessui/react':
         specifier: ^1.7.15
         version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
@@ -28,9 +25,6 @@ importers:
       ci:
         specifier: ^2.2.0
         version: 2.2.0
-      process:
-        specifier: ^0.11.10
-        version: 0.11.10
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -1236,34 +1230,6 @@ packages:
       { integrity: sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw== }
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     dev: true
-
-  /@fortawesome/fontawesome-common-types@6.4.0:
-    resolution:
-      { integrity: sha512-HNii132xfomg5QVZw0HwXXpN22s7VBHQBv9CeOu9tfJnhsWQNd2lmTNi8CSrnw5B+5YOmzu1UoPAyxaXsJ6RgQ== }
-    engines: { node: '>=6' }
-    requiresBuild: true
-    dev: false
-
-  /@fortawesome/fontawesome-svg-core@6.4.0:
-    resolution:
-      { integrity: sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw== }
-    engines: { node: '>=6' }
-    requiresBuild: true
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.0
-    dev: false
-
-  /@fortawesome/react-fontawesome@0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0):
-    resolution:
-      { integrity: sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw== }
-    peerDependencies:
-      '@fortawesome/fontawesome-svg-core': ~1 || ~6
-      react: '>=16.3'
-    dependencies:
-      '@fortawesome/fontawesome-svg-core': 6.4.0
-      prop-types: 15.8.1
-      react: 18.2.0
-    dev: false
 
   /@headlessui/react@1.7.15(react-dom@18.2.0)(react@18.2.0):
     resolution:
@@ -6257,12 +6223,6 @@ packages:
       ansi-styles: 5.2.0
       react-is: 18.2.0
     dev: true
-
-  /process@0.11.10:
-    resolution:
-      { integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A== }
-    engines: { node: '>= 0.6.0' }
-    dev: false
 
   /prompts@2.4.2:
     resolution:
