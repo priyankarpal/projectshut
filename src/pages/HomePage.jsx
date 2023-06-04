@@ -60,7 +60,7 @@ function HomePage() {
                 <div className="flex flex-grow items-center space-x-6 lg:space-x-8">
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     {images.slice(0, 2).map((image, index) => (
-                      <div key={index.id} className="h-48 w-32 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                      <div key={index.id} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                         <img
                           src={image.url}
                           alt={image.alt}
@@ -71,7 +71,7 @@ function HomePage() {
                   </div>
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-5">
                     {images.slice(2, 5).map((image, index) => (
-                      <div key={index.id} className="h-48 w-32 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                      <div key={index.id} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                         <img
                           src={image.url}
                           alt={image.alt}
@@ -82,7 +82,7 @@ function HomePage() {
                   </div>
                   <div className="hidden lg:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     {images.slice(5).map((image, i) => (
-                      <div key={i.id} className="h-48 w-32 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                      <div key={i.id} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                         <img
                           src={image.url}
                           alt={image.alt}
