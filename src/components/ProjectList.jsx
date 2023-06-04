@@ -3,9 +3,10 @@
 /* eslint-disable object-curly-newline */
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams, useLocation, Link } from 'react-router-dom';
-import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
+import Loader from '../utils/Loader';
 
 function ProjectList() {
   const { theme } = useContext(ThemeContext);
@@ -16,6 +17,16 @@ function ProjectList() {
   const [userObj, setObject] = useState({});
   const [user, setUser] = useState({});
   const [initialLoading, setInitialLoading] = useState(true);
+
+  // to get the user data from github
+  const getData = async () => {
+    setInitialLoading(true);
+    const res = await fetch(`https://api.github.com/users/${username}`).then((result) => result.json());
+    if (res) {
+      setUser(res);
+      setInitialLoading(false);
+    }
+  };
 
   useEffect(() => {
     // make the scroll bar start from the top of the page
@@ -34,18 +45,9 @@ function ProjectList() {
     getData();
   }, []);
 
-  //to get the user data from github
-  const getData = async () => {
-    setInitialLoading(true);
-    const res = await fetch(`https://api.github.com/users/${username}`).then((res) => res.json());
-    if (res) {
-      setUser(res);
-      setInitialLoading(false);
-    }
-  };
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
-      {}
+      {initialLoading && <Loader />}
       {/* Left side profile section */}
       {!initialLoading && Object.keys(userObj).length > 0 && (
         <div
@@ -56,11 +58,12 @@ function ProjectList() {
           }}
         >
           {/* Back to projects link */}
-          <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
-            <ArrowLeftCircle size={20} />
-
-            <Link to={`/projectspage${filter ? `?filters=${filter}` : ''}`} className="ml-2">
-              {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+          <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="flex items-stretch">
+              <ArrowLeftCircle size={20} className="mt-0.5" />
+              <span className="ml-2">
+                {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+              </span>
             </Link>
           </div>
 
@@ -74,7 +77,10 @@ function ProjectList() {
           <div className="flex justify-center items-center mb-3 text-center">
             <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">@{username}</h3>
           </div>
-          <div className="flex flex-row xsm:mx-auto my-2 ">
+          <div className="justify-center items-center text-center py-5 ">
+            <p className="text-sm break-words">{user.bio}</p>
+          </div>
+          <div className="flex flex-row xsm:mx-auto my-2 mb-5">
             {userObj.Social_media.gitHub !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
@@ -147,54 +153,61 @@ function ProjectList() {
       {/* Projects lists */}
       <div
         className={`space-y-12 lg:grid lg:gap-x-6 lg:space-y-0 ${
-          Object.keys(userObj).length > 0 && userObj['Projects'].length > 2
+          // eslint-disable-next-line no-nested-ternary
+          Object.keys(userObj).length > 0 && userObj.Projects.length > 2
             ? 'lg:grid-cols-3'
-            : Object.keys(userObj).length > 0 && userObj['Projects'].length > 1
-            ? 'lg:grid-cols-2'
-            : 'lg:grid-cols-1'
+            : Object.keys(userObj).length > 0 && userObj.Projects.length > 1
+            ? // eslint-disable-next-line indent
+              'lg:grid-cols-2'
+            : // eslint-disable-next-line indent
+              'lg:grid-cols-1'
         }`}
       >
-        {Object.keys(userObj).length > 0 &&
+        {!initialLoading &&
+          Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
-            <div
-              className="w-100 my-1 p-4 shadow-lg mb-4"
-              key={index.id}
-              style={{
-                borderRadius: '10px',
-                background: theme?.navbar?.background,
-                color: theme?.color,
-                minHeight: '100px',
-              }}
-            >
-              <div className=" border-b border-gray-600 p-4 relative">
-                <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
-                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
-                <span className="absolute top-0 right-2">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
-                    aria-label="Github"
-                  >
-                    <ArrowUpCircle size={30} />
-                  </a>
-                </span>
-              </div>
-              {/* Tech Stack section */}
-              <div className="flex flex-row items-center mt-2 gap-4">
-                <div className="mr-6 md:mr-4">Tech-Stack : </div>
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tag, i) => (
-                    <p
-                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase  ${
-                        theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
-                      }`}
-                      key={i.id}
+            // eslint-disable-next-line react/no-array-index-key
+            <div key={index} className="group relative hover:scale-110 transition-all duration-300 ease-in-out">
+              <div
+                className="w-100 my-1 p-4 shadow-lg mb-4"
+                key={index.id}
+                style={{
+                  borderRadius: '10px',
+                  background: theme?.navbar?.background,
+                  color: theme?.color,
+                  minHeight: '100px',
+                }}
+              >
+                <div className=" border-b border-gray-600 p-4 relative">
+                  <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
+                  <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
+                  <span className="absolute top-0 right-2">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
+                      aria-label="Github"
                     >
-                      {tag}
-                    </p>
-                  ))}
+                      <GitHub />
+                    </a>
+                  </span>
+                </div>
+                {/* Tech Stack section */}
+                <div className="flex flex-row items-center mt-4 gap-4 m-2">
+                  <div className="flex flex-wrap gap-2">
+                    {project.tech.map((tag, idx) => (
+                      <p
+                        className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase  ${
+                          theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
+                        }`}
+                        // eslint-disable-next-line react/no-array-index-key
+                        key={idx}
+                      >
+                        {tag}
+                      </p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
