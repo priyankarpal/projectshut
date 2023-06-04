@@ -45,6 +45,17 @@ function ProjectList() {
     getData();
   }, []);
 
+  const returnGridChoice = () => {
+    if (Object.keys(userObj).length > 0 && userObj.Projects.length > 2) {
+      return '3';
+    }
+    if (Object.keys(userObj).length > 0 && userObj.Projects.length > 1) {
+      return '2';
+    }
+
+    return '1';
+  };
+
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
       {initialLoading && <Loader />}
@@ -151,18 +162,7 @@ function ProjectList() {
       )}
 
       {/* Projects lists */}
-      <div
-        className={`space-y-12 lg:grid lg:gap-x-6 lg:space-y-0 ${
-          // eslint-disable-next-line no-nested-ternary
-          Object.keys(userObj).length > 0 && userObj.Projects.length > 2
-            ? 'lg:grid-cols-3'
-            : Object.keys(userObj).length > 0 && userObj.Projects.length > 1
-            ? // eslint-disable-next-line indent
-              'lg:grid-cols-2'
-            : // eslint-disable-next-line indent
-              'lg:grid-cols-1'
-        }`}
-      >
+      <div className={`space-y-12 lg:grid lg:gap-x-6 lg:space-y-0 lg:grid-cols-${returnGridChoice()}`}>
         {!initialLoading &&
           Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
