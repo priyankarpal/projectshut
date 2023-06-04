@@ -118,8 +118,6 @@ pnpm dev
 
 11. Wait for your pull request to be reviewed and merged.
 
-> NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
-
 ## Useful Links
 
 - [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
