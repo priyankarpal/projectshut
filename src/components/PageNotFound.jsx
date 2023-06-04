@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 
-const PageNotFound = () => {
+function PageNotFound() {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -21,6 +21,6 @@ const PageNotFound = () => {
       </Link>
     </div>
   );
-};
+}
 
 export default PageNotFound;

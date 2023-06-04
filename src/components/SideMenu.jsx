@@ -1,11 +1,16 @@
+/* eslint-disable react/jsx-curly-newline */
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable indent */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
+import { X } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 
-import { X } from 'react-feather';
-
-const SideMenu = (props) => {
+function SideMenu(props) {
   const { theme } = useContext(ThemeContext);
 
   const sideLinks = [
@@ -15,7 +20,7 @@ const SideMenu = (props) => {
     },
     {
       name: 'Projects',
-      path: '/projects',
+      path: '/projectspage',
     },
     {
       name: 'Documentation',
@@ -25,7 +30,7 @@ const SideMenu = (props) => {
 
   const sideLinkEls = sideLinks.map((sideLink, i) => (
     <NavLink
-      key={i}
+      key={i.id}
       to={sideLink.path}
       className={({ isActive }) =>
         `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${
@@ -70,7 +75,7 @@ const SideMenu = (props) => {
             className="h-10 mb-5 items-center rounded-lg  font-extrabold text-[2rem] "
             onClick={() => props.handleDrawerToggle()}
           >
-            {'Ph'} <span className="text-red-500">.</span>
+            Ph <span className="text-red-500">.</span>
           </Link>
         </div>
       </div>
@@ -82,8 +87,8 @@ const SideMenu = (props) => {
         <li>
           <a
             href="https://github.com/priyankarpal/ProjectsHut"
-            target={'_blank'}
-            rel={'noreferrer'}
+            target="_blank"
+            rel="noreferrer"
             className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md ${
               theme.mode === 'light'
                 ? 'hover:text-white hover:bg-black transition-all duration-200'
@@ -91,12 +96,12 @@ const SideMenu = (props) => {
             }`}
             aria-label="Github"
           >
-            {'GitHub'}
+            GitHub
           </a>
         </li>
       </ul>
     </div>
   );
-};
+}
 
 export default SideMenu;

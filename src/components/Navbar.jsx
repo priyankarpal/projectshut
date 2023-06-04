@@ -1,17 +1,19 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../CSS/index.css';
-import SideMenu from './SideMenu';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import { Sun, Moon, Menu, GitHub } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 
-import { Sun, Moon, Menu, GitHub } from 'react-feather';
+import SideMenu from './SideMenu';
 
-const Navbar = () => {
+function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const { navbar } = theme;
   const navLinks = [
     {
       name: 'Home',
@@ -47,24 +49,22 @@ const Navbar = () => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  let light = theme.mode === 'light';
-
-  const switchTrackColor = theme.mode === 'dark' ? '#9CA3AF' : undefined;
+  const light = theme.mode === 'light';
 
   //  GitHub API to show the version number
   const [latestRelease, setLatestRelease] = useState(null);
 
   useEffect(() => {
+    const Console = console;
     const fetchData = async () => {
       try {
         const response = await fetch('https://api.github.com/repos/priyankarpal/projectshut/releases/latest');
         const data = await response.json();
         setLatestRelease(data);
       } catch (error) {
-        console.log('Error fetching data:', error);
+        Console.error(error);
       }
     };
-
     fetchData();
   }, []);
 
@@ -75,7 +75,7 @@ const Navbar = () => {
           {/* Logo for project Hut */}
           <div className="item-navbar block md:hidden" id="dropdown-menu">
             <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
-              <Menu className={`w-7 h-7`} color={theme.mode === 'light' ? 'black' : 'white'} />
+              <Menu className="w-7 h-7" color={theme.mode === 'light' ? 'black' : 'white'} />
             </IconButton>
           </div>
           <div className="item-navbar" id="logo-ph">
@@ -160,6 +160,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

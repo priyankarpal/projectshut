@@ -1,5 +1,21 @@
 [
   {
+    "github_username": "Soumya2411",
+    "Social_media": {
+      "gitHub": "https://github.com/Soumya2411",
+      "LinkedIn": "Yhttps://www.linkedin.com/in/soumya-gupta-455401228/",
+      "Instagram": "https://www.instagram.com/soummmyaa/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Soumya2411/CodeLabs",
+        "title": "CodeLabs",
+        "description": "An app hor helping students to visualise programming concepts",
+        "tech": ["Node.js", "ReactJS"]
+      }
+    ]
+  },
+  {
     "github_username": "dev-AshishRanjan",
     "Social_media": {
       "gitHub": "https://github.com/dev-AshishRanjan",
@@ -35,6 +51,7 @@
       }
     ]
   },
+
   {
     "github_username": "sumitkr2000",
     "Social_media": {
@@ -98,6 +115,30 @@
         "title": "Med.Ez(Medicine management system)",
         "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
         "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
+      }
+    ]
+  },
+  {
+    "github_username": "Mukesh751",
+    "Social_media": {
+      "gitHub": "https://github.com/Mukesh751",
+      "LinkedIn": "https://www.linkedin.com/in/mukesh751/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Mukesh751/TetrisGame",
+        "title": "Tetris Game",
+        "description": "This project is a clone of 90s famous game Tetris",
+        "tech": ["JavaScript", "HTML5", "CSS", "ReactJS"]
+      },
+      {
+        "link": "https://github.com/Mukesh751/FruitNinja",
+        "title": "Fruit Ninja Game",
+        "description": "This project is a clone of 90s classic Fruit Ninja Game",
+        "tech": ["JavaScript", "HTML5", "CSS"]
       }
     ]
   },
@@ -873,22 +914,22 @@
   {
     "github_username": "oyepriyansh",
     "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
+      "gitHub": "https://oye.pages.dev/28rwld",
+      "LinkedIn": "https://oye.pages.dev/5ao29f",
+      "Instagram": "https://oye.pages.dev/q325qk",
+      "Twitter": "https://oye.pages.dev/t25jq0",
+      "YouTube": ""
     },
     "Projects": [
       {
-        "link": "https://github.com/oyepriyansh/url-shortener",
+        "link": "https://oye.pages.dev/erjkg5",
         "title": "URL Shortener",
-        "description": "simple replit database url shortner ti shorten your messy links",
+        "description": "simple replit database url shortner to shorten your messy links",
         "tech": ["Node.js"]
       },
       {
-        "link": "https://oyepriyansh.github.io/ToDoList",
-        "title": "TO DO List",
+        "link": "https://itxpp.github.io/todo",
+        "title": "ToDo List",
         "description": "A to do list web application which allow user to save tasks, even after closing browser",
         "tech": ["HTML", "CSS", "JavaScript"]
       }
@@ -2037,6 +2078,24 @@
     ]
   },
   {
+    "github_username": "Hypertext-Workaholics",
+    "Social_media": {
+      "gitHub": "https://github.com/Hypertext-Workaholics",
+      "LinkedIn": "https://www.linkedin.com/in/shalini-singh-5b4646205/",
+      "Instagram": "https://www.instagram.com/writings__world_/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hypertext-Workaholics/bullseye-game",
+        "title": "Bullseye Game",
+        "description": "This project is a little and simple bullseye game written in html5, css3 and javascript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
     "github_username": "Utkers-h",
     "Social_media": {
       "gitHub": "https://github.com/Utkers-h",
@@ -2074,6 +2133,7 @@
   },
   {
     "github_username": "prasanta10",
+
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
@@ -2199,44 +2259,62 @@
         "link": "https://github.com/Abhinavcode13/Personal-Movie-Recommender-with-python",
         "title": "Movie recommender system ",
         "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
-        "tech": ["python","Machine learning"]
+        "tech": ["python", "Machine learning"]
       }
     ]
   },
-{
-  "github_username": "dhruvishavaghani",
-  "Social_media": {
-    "gitHub": "https://github.com/dhruvishavaghani",
-    "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": ""
+  {
+    "github_username": "dhruvishavaghani",
+    "Social_media": {
+      "gitHub": "https://github.com/dhruvishavaghani",
+      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dhruvishavaghani/Noted",
+        "title": "Noted",
+        "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/dhruvishavaghani/Noted",
-      "title": "Noted",
-      "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
-      "tech": ["HTML", "CSS","JavaScript"]
-    }
-  ]
-},
-{
-  "github_username": "Jranii",
-  "Social_media": {
-    "gitHub": "https://github.com/Jranii",
-    "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/JyotiRa94053552"
+  {
+    "github_username": "OMKAR-KALEPU",
+    "Social_media": {
+      "gitHub": "https://github.com/OMKAR-KALEPU",
+      "LinkedIn": "https://www.linkedin.com/in/omkar-kalepu-7a6718219/",
+      "Instagram": "https://www.instagram.com/omkar.kalepu/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Omkarstwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/OMKAR-KALEPU/event_keycode",
+        "title": "event-keycode",
+        "description": "This is a simple project using HTML, CSS and JavaScript that displays the keycodes when a key is pressed.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/Jranii/My_Projects/tree/master/RazorpayClone",
-      "title": "Razorpay Clone",
-      "description": "It is a cloned frontend design of original Razorpay payment gateway.",
-      "tech": ["HTML", "Tailwind CSS"]
-    }
-  ]
-}
+  {
+    "github_username": "Jranii",
+    "Social_media": {
+      "gitHub": "https://github.com/Jranii",
+      "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/JyotiRa94053552"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Jranii/My_Projects/tree/master/RazorpayClone",
+        "title": "Razorpay Clone",
+        "description": "It is a cloned frontend design of original Razorpay payment gateway.",
+        "tech": ["HTML", "Tailwind CSS"]
+      }
+    ]
+  }
 ]

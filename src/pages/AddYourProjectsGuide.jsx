@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import { GitBranch, FileText, UploadCloud } from 'react-feather';
+import React from 'react';
 
-const AddYourProjectsGuide = () => {
+function AddYourProjectsGuide() {
   window.scrollTo(0, 0);
   const codeString = `
     {
@@ -33,7 +35,7 @@ const AddYourProjectsGuide = () => {
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
-          className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-700 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+          className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-500 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] opacity-20"
           aria-hidden="true"
         >
           <defs>
@@ -72,7 +74,7 @@ const AddYourProjectsGuide = () => {
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {' '}
-              Click on Go to file(I'm doing from{' '}
+              Click on Go to file(I&apos;m doing from{' '}
               <span className="bg-purple-180  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
@@ -173,14 +175,6 @@ const AddYourProjectsGuide = () => {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
-        </div>
-        <code className="block">pnpm test</code>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <FileText size={18} />
-          </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
         </div>
 
@@ -198,7 +192,7 @@ const AddYourProjectsGuide = () => {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
-        <code className="block">git commit -m "Added [your-changes]"</code>
+        <code className="block">git commit -m &quot;Added [your-changes]&quot;</code>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -244,6 +238,6 @@ const AddYourProjectsGuide = () => {
       </article>
     </section>
   );
-};
+}
 
 export default AddYourProjectsGuide;

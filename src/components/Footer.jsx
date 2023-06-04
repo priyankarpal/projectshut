@@ -1,13 +1,12 @@
+/* eslint-disable max-len */
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 
-const Footer = () => {
+function Footer() {
   const { theme } = useContext(ThemeContext);
   const bgColor = theme.mode === 'dark' ? theme.navbar.background : theme.background;
 
-  const getCurrentYear = () => {
-    return new Date().getFullYear();
-  };
+  const getCurrentYear = () => new Date().getFullYear();
 
   return (
     <footer
@@ -41,6 +40,7 @@ const Footer = () => {
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
               className="underline"
               target="_blank"
+              rel="noreferrer"
             >
               MIT License
             </a>
@@ -49,6 +49,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
