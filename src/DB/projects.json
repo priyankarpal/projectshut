@@ -1,5 +1,22 @@
 [
   {
+    "github_username": "Gurnav224",
+    "Social_media": {
+      "gitHub": "https://github.com/Gurnav224",
+      "LinkedIn": "https://www.linkedin.com/in/gurnav-chaudhary-55310a1a1/",
+      "Twitter": "https://twitter.com/GurnavChaudhary"
+    },
+    "Projects": [
+      {
+        "link": "https://checkbirthlucky.netlify.app/",
+        "title": "Is Your Birthday Lucky",
+        "description": "An App build with html css and Javascript. that calculate your Birthday is Lucky or Not",
+        "tech": ["Html", "Css","Javascript"]
+      }
+    ]
+  }
+  ,
+  {
     "github_username": "Soumya2411",
     "Social_media": {
       "gitHub": "https://github.com/Soumya2411",
@@ -115,6 +132,30 @@
         "title": "Med.Ez(Medicine management system)",
         "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
         "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
+      }
+    ]
+  },
+  {
+    "github_username": "Mukesh751",
+    "Social_media": {
+      "gitHub": "https://github.com/Mukesh751",
+      "LinkedIn": "https://www.linkedin.com/in/mukesh751/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Mukesh751/TetrisGame",
+        "title": "Tetris Game",
+        "description": "This project is a clone of 90s famous game Tetris",
+        "tech": ["JavaScript", "HTML5", "CSS", "ReactJS"]
+      },
+      {
+        "link": "https://github.com/Mukesh751/FruitNinja",
+        "title": "Fruit Ninja Game",
+        "description": "This project is a clone of 90s classic Fruit Ninja Game",
+        "tech": ["JavaScript", "HTML5", "CSS"]
       }
     ]
   },
