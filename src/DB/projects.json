@@ -2292,5 +2292,23 @@
         "tech": ["HTML", "Tailwind CSS"]
       }
     ]
+  },
+  {
+    "github_username": "roshan798",
+    "Social_media": {
+      "gitHub": "https://github.com/roshan798",
+      "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/roshan798/Sudoku",
+        "title": "Sudoku Game",
+        "description": "This is a Sudoku game website created using HTML, CSS, and JavaScript.",
+        "tech": ["Html", "Css", "JavaScript"]
+      }
+    ]
   }
 ]
