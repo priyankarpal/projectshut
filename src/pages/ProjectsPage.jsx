@@ -6,25 +6,33 @@
 /* eslint-disable no-use-before-define */
 import React, { useContext, useEffect, useState } from 'react';
 import { Button } from '@mui/material';
+import { useSearchParams } from 'react-router-dom';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { paginate } from '../utils/paginate';
 import { FilterContext } from '../context/FilterContext';
 import { searchProject } from '../utils/searchProject';
-
 const paginatedArr = paginate(projects);
 
 function ProjectsPage() {
   // used the json format to avoid code repeatation
   const [page, setPage] = useState({ pageNo: 0, prev: false, next: false });
   const [currentItems, setItems] = useState([]);
-  const [searchInput, setSearchInput] = useState('');
   const [disablePagination, setDisablePagination] = useState(false);
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchValue = searchParams.get('q') || '';
 
   function handleChange(e) {
-    setSearchInput(e.target.value);
+    setSearchParams((prevParams) => {
+      if (e.target.value !== '') {
+        prevParams.set('q', e.target.value);
+      } else {
+        prevParams.delete('q');
+      }
+      return prevParams;
+    });
     if (e.target.value !== '') {
       setDisablePagination(true);
       setItems(searchProject(selectedOptions.length > 0 ? getFilteredProjects() : projects, e.target.value));
@@ -70,7 +78,6 @@ function ProjectsPage() {
 
   useEffect(() => {
     // Reset the search query
-    setSearchInput('');
 
     // If no technology options are selected, set items to the current page's data
     if (selectedOptions.length === 0) {
@@ -127,7 +134,7 @@ function ProjectsPage() {
           className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2"
           style={{ color: 'black' }}
           onChange={handleChange}
-          value={searchInput}
+          value={searchValue}
         />
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
