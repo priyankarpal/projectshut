@@ -19,7 +19,7 @@ function HomePage() {
       pauseOnHover: true,
       draggable: false,
       progress: undefined,
-      theme: theme.mode,
+      theme: 'light',
     });
   };
 
@@ -29,7 +29,7 @@ function HomePage() {
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
-              <h1 className="text-2xl font-bold sm:text-[5vw] md:text-5xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
+              <h1 className="text-3xl font-bold sm:text-[5vw] md:text-5xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
                 Share your projects
               </h1>
 
@@ -80,7 +80,7 @@ function HomePage() {
                       </div>
                     ))}
                   </div>
-                  <div className="hidden lg:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div className="hidden xl:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     {images.slice(5).map((image, i) => (
                       <div key={i.id} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                         <img
