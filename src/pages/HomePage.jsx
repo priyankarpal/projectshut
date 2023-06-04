@@ -25,9 +25,9 @@ function HomePage() {
 
   return (
     <section>
-      <div className="relative overflow-hidden max-w-screen-xl mx-auto">
+      <div className="relative overflow-hidden">
         <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-          <div className="relative px-4 sm:static sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
               <h1 className="text-3xl font-bold sm:text-[5vw] md:text-5xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem] animated-text">
                 Share your projects
