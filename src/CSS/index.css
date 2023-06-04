@@ -91,6 +91,10 @@ body {
   animation-iteration-count: infinite;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 @tailwind components;
 @tailwind utilities;
 
