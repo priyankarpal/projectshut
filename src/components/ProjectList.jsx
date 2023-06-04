@@ -1,9 +1,12 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable linebreak-style */
 /* eslint-disable operator-linebreak */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable object-curly-newline */
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams, useLocation, Link } from 'react-router-dom';
-import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle } from 'react-feather';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
 import Loader from '../utils/Loader';
@@ -17,6 +20,7 @@ function ProjectList() {
   const [userObj, setObject] = useState({});
   const [user, setUser] = useState({});
   const [initialLoading, setInitialLoading] = useState(true);
+  // const [isOpenModal, setIsOpenModal] = useState(false);
 
   // to get the user data from github
   const getData = async () => {
@@ -45,20 +49,6 @@ function ProjectList() {
     getData();
   }, []);
 
-  // if projects array length>2 then will be shown in 3 grids,
-  // if projects array length>1 then will be
-  // shown in 2 grids else if stack format
-  const returnGridChoice = () => {
-    if (Object.keys(userObj).length > 0 && userObj.Projects.length > 2) {
-      return '3';
-    }
-    if (Object.keys(userObj).length > 0 && userObj.Projects.length > 1) {
-      return '2';
-    }
-
-    return '1';
-  };
-
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
       {initialLoading && <Loader />}
@@ -72,13 +62,23 @@ function ProjectList() {
           }}
         >
           {/* Back to projects link */}
-          <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
-            <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="flex items-stretch">
-              <ArrowLeftCircle size={20} className="mt-0.5" />
-              <span className="ml-2">
-                {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
-              </span>
-            </Link>
+          <div className="flex items-stretch">
+            <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+              <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="flex items-stretch">
+                <ArrowLeftCircle size={20} className="mt-0.5" />
+                <span className="ml-2">
+                  {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+                </span>
+              </Link>
+            </div>
+            <div className="mt-4 mb-2 ml-5 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+              <div className="flex items-stretch">
+                <span className="ml-2">
+                  {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+                </span>
+                <ArrowUpCircle size={20} className="mt-0.5" />
+              </div>
+            </div>
           </div>
 
           <div className="flex justify-center items-center mb-3 my-10">
@@ -165,52 +165,48 @@ function ProjectList() {
       )}
 
       {/* Projects lists */}
-      <div className={`space-y-12 lg:grid lg:gap-x-6 lg:space-y-0 lg:grid-cols-${returnGridChoice()}`}>
+      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
         {!initialLoading &&
           Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
-            // eslint-disable-next-line react/no-array-index-key
-            <div key={index} className="group relative hover:scale-110 transition-all duration-300 ease-in-out">
-              <div
-                className="w-100 my-1 p-4 shadow-lg mb-4"
-                key={index.id}
-                style={{
-                  borderRadius: '10px',
-                  background: theme?.navbar?.background,
-                  color: theme?.color,
-                  minHeight: '100px',
-                }}
-              >
-                <div className=" border-b border-gray-600 p-4 relative">
-                  <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
-                  <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
-                  <span className="absolute top-0 right-2">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
-                      aria-label="Github"
+            <div
+              className="w-100 my-1 p-4 mb-4 "
+              key={index.id}
+              style={{
+                borderRadius: '10px',
+                background: theme?.navbar?.background,
+                color: theme?.color,
+                minHeight: '100px',
+              }}
+            >
+              <div className=" border-b border-gray-600 p-4 relative">
+                <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
+                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
+                <span className="absolute top-0 right-2">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
+                    aria-label="Github"
+                  >
+                    <GitHub size={30} />
+                  </a>
+                </span>
+              </div>
+              {/* Tech Stack section */}
+              <div className="flex flex-row items-center mt-2 gap-4">
+                <div className="flex flex-wrap gap-2 m-3">
+                  {project.tech.map((tag, i) => (
+                    <p
+                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase m-2 ${
+                        theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
+                      }`}
+                      key={i.id}
                     >
-                      <GitHub />
-                    </a>
-                  </span>
-                </div>
-                {/* Tech Stack section */}
-                <div className="flex flex-row items-center mt-4 gap-4 m-2">
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tag, idx) => (
-                      <p
-                        className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase  ${
-                          theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
-                        }`}
-                        // eslint-disable-next-line react/no-array-index-key
-                        key={idx}
-                      >
-                        {tag}
-                      </p>
-                    ))}
-                  </div>
+                      {tag}
+                    </p>
+                  ))}
                 </div>
               </div>
             </div>
