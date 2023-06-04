@@ -2333,5 +2333,23 @@
         "tech": ["HTML", "Tailwind CSS"]
       }
     ]
-  }
+  },
+  {
+      "github_username": "BALASARVAN12",  
+      "Social_media": {
+        "gitHub": "https://github.com/BALASARVAN12",
+        "LinkedIn": "https://www.linkedin.com/in/bala-sarvan-vudathu-643b79227/",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": "https://twitter.com/BalaVudathu"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/BALASARVAN12/BUILDING-AN-EMAIL-CLIENT-USING-PYTHON",
+          "title": "Email client using Python",
+          "description": "It is appilication related to python These two methods provide different capabilities for sending emails. The first approach allows you to send a single email, while the second approach expands on that by reading email data from a CSV file and sending bulk emails.",
+          "tech": ["Python"]
+        }
+      ]
+  }  
 ]
