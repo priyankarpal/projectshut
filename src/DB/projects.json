@@ -119,6 +119,30 @@
     ]
   },
   {
+    "github_username": "Mukesh751",
+    "Social_media": {
+      "gitHub": "https://github.com/Mukesh751",
+      "LinkedIn": "https://www.linkedin.com/in/mukesh751/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Mukesh751/TetrisGame",
+        "title": "Tetris Game",
+        "description": "This project is a clone of 90s famous game Tetris",
+        "tech": ["JavaScript", "HTML5", "CSS", "ReactJS"]
+      },
+      {
+        "link": "https://github.com/Mukesh751/FruitNinja",
+        "title": "Fruit Ninja Game",
+        "description": "This project is a clone of 90s classic Fruit Ninja Game",
+        "tech": ["JavaScript", "HTML5", "CSS"]
+      }
+    ]
+  },
+  {
     "github_username": "priyankarpal",
     "Social_media": {
       "gitHub": "https://github.com/priyankarpal",
