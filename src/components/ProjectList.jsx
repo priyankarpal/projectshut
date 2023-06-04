@@ -45,6 +45,9 @@ function ProjectList() {
     getData();
   }, []);
 
+  // if projects array length>2 then will be shown in 3 grids,
+  // if projects array length>1 then will be
+  // shown in 2 grids else if stack format
   const returnGridChoice = () => {
     if (Object.keys(userObj).length > 0 && userObj.Projects.length > 2) {
       return '3';
