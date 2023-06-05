@@ -16,6 +16,30 @@
     ]
   },
   {
+    "github_username": "Saurav-Pant",
+    "Social_media": {
+      "gitHub": "https://github.com/Saurav-Pant",
+      "LinkedIn": "https://www.linkedin.com/in/saurav-pant-790065239/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Saurav-Pant/Blood-Donation-Project/",
+        "title": "Blood Donation Project",
+        "description": "This project is based on the concept of blood donation. It is a simple project that helps the user to donate blood and also helps the user to find the blood donor.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/Saurav-Pant/Expense-Tracker",
+        "title": "Expense Tracker",
+        "description": "This project is based on the concept of expense tracker. It is a simple project that helps the user to track their expenses.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      }
+    ]
+  },
+  {
     "github_username": "Soumya2411",
     "Social_media": {
       "gitHub": "https://github.com/Soumya2411",
@@ -1873,6 +1897,12 @@
         "title": "Binary Search Tree Visualizer",
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
+      },
+      {
+        "link": "https://github.com/roshan798/Sudoku",
+        "title": "Sudoku Game",
+        "description": "This is a Sudoku game website created using HTML, CSS, and JavaScript.",
+        "tech": ["Html", "Css", "JavaScript"]
       }
     ]
   },
