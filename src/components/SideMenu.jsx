@@ -30,7 +30,7 @@ function SideMenu(props) {
 
   const sideLinkEls = sideLinks.map((sideLink, i) => (
     <NavLink
-      key={i.id}
+      key={i}
       to={sideLink.path}
       className={({ isActive }) =>
         `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${

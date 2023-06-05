@@ -1,12 +1,10 @@
-export const searchProject = (projects, name) => {
+export const searchProject = (projects, title) => {
   let resultArr = [];
-  if (name.length > 0) {
+  if (title.length > 0) {
     for (const project of projects) {
-      for (const item of project.Projects) {
-        if (item.title.toLowerCase().includes(name.toLowerCase())) {
-          resultArr.push(project);
-          break;
-        }
+      if (project.title.toLowerCase().includes(title.toLowerCase())) {
+        resultArr.push(project);
+        break;
       }
     }
   }
