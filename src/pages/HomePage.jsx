@@ -8,6 +8,7 @@ import images from '../DB/homepage-image.json';
 import 'react-toastify/dist/ReactToastify.css';
 
 function HomePage() {
+  window.scrollTo(0, 0);
   const { theme } = useContext(ThemeContext);
 
   const notify = () => {
