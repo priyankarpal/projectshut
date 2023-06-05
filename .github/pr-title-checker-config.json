@@ -6,7 +6,7 @@
   "CHECKS": {
     "prefixes": [
       "fix: ",
-      "ffeat: ",
+      "feat: ",
       "docs: ",
       "test: ",
       "chore: ",
