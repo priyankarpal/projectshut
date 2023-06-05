@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import { GitBranch, FileText, UploadCloud } from 'react-feather';
 import React from 'react';
-
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco, dark, a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 function AddYourProjectsGuide() {
   window.scrollTo(0, 0);
   const codeString = `
@@ -93,9 +94,9 @@ function AddYourProjectsGuide() {
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block sm:text-base xs:text-sm text-xs ">
-            <pre className="overflow-x-auto">{codeString}</pre>
-          </code>
+          <SyntaxHighlighter language="json" style={a11yDark}>
+            {codeString}
+          </SyntaxHighlighter>
           <div className="flex items-center gap-5 mt-5">
             <span>
               <UploadCloud size={18} />
@@ -136,21 +137,27 @@ function AddYourProjectsGuide() {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
         </div>
-        <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git clone https://github.com/[your-username]/ProjectsHut.git
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
         </div>
-        <code className="block">cd ProjectsHut</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          cd ProjectsHut
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
-        <code className="block">pnpm i</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm i
+        </SyntaxHighlighter>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -161,15 +168,18 @@ function AddYourProjectsGuide() {
             Create a new branch using your `GitHub Username`
           </p>
         </div>
-        <code className="block">git checkout -b [name_of_your_new_branch]</code>
-
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git checkout -b [name_of_your_new_branch]
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
         </div>
-        <code className="block">pnpm dev</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm dev
+        </SyntaxHighlighter>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
@@ -184,15 +194,18 @@ function AddYourProjectsGuide() {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
         </div>
-        <code className="block">git add .</code>
-
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git add .
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
-        <code className="block">git commit -m &quot;Added [your-changes]&quot;</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git commit -m &quot;Added [your-changes]&quot;
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -203,7 +216,9 @@ function AddYourProjectsGuide() {
             If you encounter this error while commits
           </p>
         </div>
-        <code className="block">husky - pre-commit hook exited with code 1(error)</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          husky - pre-commit hook exited with code 1(error)
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -211,7 +226,9 @@ function AddYourProjectsGuide() {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
         </div>
-        <code className="block">pnpm format</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm format
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -219,7 +236,9 @@ function AddYourProjectsGuide() {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
         </div>
-        <code className="block">git remote add upstream https://github.com/priyankarpal/ProjectsHut.git</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
@@ -227,7 +246,9 @@ function AddYourProjectsGuide() {
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
         </div>
-        <code className="block">git push origin [Your-branch-name]</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git push origin [Your-branch-name]
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
