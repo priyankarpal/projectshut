@@ -55,10 +55,10 @@ function HomePage() {
 
             <div
               aria-hidden="true"
-              className="pointer-events-none lg:absolute lg:inset-y-0 mx-auto lg:w-full sm:max-w-8xl md:max-w-6xl"
+              className="pointer-events-auto lg:absolute lg:inset-y-0 mx-auto lg:w-full sm:max-w-8xl md:max-w-6xl"
             >
-              <div className="py-8 px-4 absolute transform xs:left-1/4 xsm:-translate-x-1/5 xs:-translate-x-1/4 sm:left-1/2 sm:top-0 sm:translate-x-0 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 ">
-                <div className="flex flex-grow items-center space-x-6 lg:space-x-8">
+              <div className="py-8 xsm:px-0 md:px-4 absolute transform left-2 xs:left-1/4 xsm:-translate-x-1/5 xs:-translate-x-1/4 sm:left-1/2 sm:top-0 sm:translate-x-0 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 ">
+                <div className="flex justify-center flex-grow items-center space-x-6 lg:space-x-8">
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     {images.slice(0, 2).map((image, index) => (
                       <div key={index.id} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
