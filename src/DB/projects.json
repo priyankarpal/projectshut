@@ -13,19 +13,19 @@
       "link": "https://man07har.github.io/",
       "title": "Portfolio_Website",
       "description": "",
-      "tech": ["React JS", "Tailwind CSS","CSS"]
+      "tech": ["ReactJS", "Tailwind CSS","CSS"]
     },
      {
       "link": "https://github.com/heroaks/parcurrus",
       "title": "Parcurrus",
       "description": "This app will help you solve a significant issue in busy cities. Finding a spot to park your cars during rush hours can be difficult. This app will show all the nearby parking spots according to GPS. What's even better? People with some parking space to spare at their place can post it on this app and earn some crypto for it.",
-      "tech": ["React JS", "Tailwind CSS","CSS"]
+      "tech": ["ReactJS", "TailwindCSS","CSS"]
     },
      {
       "link": "https://github.com/Man07har/Del",
       "title": "Del",
       "description": "A website design for the complaint pusposes and to showcase the products that a company has to offer",
-      "tech": ["React JS", "Tailwind CSS","CSS"]
+      "tech": ["ReactJS", "TailwindCSS","CSS"]
     }
 
   ]
