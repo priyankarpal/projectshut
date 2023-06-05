@@ -2,11 +2,12 @@
 /* eslint-disable react/prop-types */
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { ThemeContext } from '../context/Theme';
 import { ArrowRight } from 'react-feather';
+import { ThemeContext } from '../context/Theme';
 
 function ProjectCard({ project, filter }) {
   const { username, title, description, link } = project;
+
   const { theme } = useContext(ThemeContext);
 
   return (

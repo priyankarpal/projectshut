@@ -4,16 +4,17 @@
 /* eslint-disable indent */
 /* eslint-disable max-len */
 /* eslint-disable no-use-before-define */
+
 import React, { useContext, useEffect, useState } from 'react';
+import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearchParams } from 'react-router-dom';
 import { Button } from '@mui/material';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
 import { FilterContext } from '../context/FilterContext';
-import InfiniteScroll from 'react-infinite-scroll-component';
-import { searchProject } from '@/utils/searchProject';
-import ProjectLoading from '@/components/ProjectLoading';
+import { searchProject } from '../utils/searchProject';
+import ProjectLoading from '../components/ProjectLoading';
 
 function ProjectsPage() {
   const Projects = [];
@@ -25,13 +26,12 @@ function ProjectsPage() {
     });
   });
 
-  const [searchInput, setSearchInput] = useState('');
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
   const [limit, setLimit] = useState(15);
   const [visibleProjects, setVisibleProjects] = useState(Projects.slice(0, limit));
 
   function loadMoreProjects() {
-    if (searchInput !== '' || selectedOptions.length !== 0) {
+    if (selectedOptions.length !== 0) {
       setLimit(visibleProjects.length);
       return;
     }
@@ -118,8 +118,10 @@ function ProjectsPage() {
         {visibleProjects.length > 0 ? (
           <InfiniteScroll
             className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh] "
-            dataLength={visibleProjects.length} //This is important field to render the next data
-            next={loadMoreProjects}
+            dataLength={visibleProjects.length}
+            next={() => {
+              loadMoreProjects();
+            }}
             hasMore={visibleProjects.length < Projects.length}
             loader={
               selectedOptions.length === 0 ? (
@@ -136,10 +138,9 @@ function ProjectsPage() {
               </p>
             }
           >
-            {visibleProjects &&
-              visibleProjects.map((project) => (
-                <ProjectCard key={project.link} project={project} filter={selectedOptions?.join(',')} />
-              ))}
+            {visibleProjects.map((project) => (
+              <ProjectCard key={project.link} project={project} filter={selectedOptions?.join(',')} />
+            ))}
           </InfiniteScroll>
         ) : (
           <div className="flex justify-center items-center h-[50vh]">
