@@ -14,7 +14,31 @@
         "tech": ["Html", "Css","Javascript"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "Saurav-Pant",
+  "Social_media": {
+    "gitHub": "https://github.com/Saurav-Pant",
+    "LinkedIn": "https://www.linkedin.com/in/saurav-pant-790065239/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Saurav-Pant/Blood-Donation-Project/",
+      "title": "Blood Donation Project",
+      "description": "This project is based on the concept of blood donation. It is a simple project that helps the user to donate blood and also helps the user to find the blood donor.",
+      "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+    },
+    {
+      "link": "https://github.com/Saurav-Pant/Expense-Tracker",
+      "title": "Expense Tracker",
+      "description": "This project is based on the concept of expense tracker. It is a simple project that helps the user to track their expenses.",
+      "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+    }
+  ]
+}
   ,
   {
     "github_username": "Soumya2411",
