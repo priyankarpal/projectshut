@@ -2989,5 +2989,41 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "BALASARVAN12",
+    "Social_media": {
+      "gitHub": "https://github.com/BALASARVAN12",
+      "LinkedIn": "https://www.linkedin.com/in/bala-sarvan-vudathu-643b79227/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/BalaVudathu"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/BALASARVAN12/BUILDING-AN-EMAIL-CLIENT-USING-PYTHON",
+        "title": "Email Client Appilication using python",
+        "description": "There are two methods provide different capabilities for sending emails. The first approach allows you to send a single email, while the second approach expands on that by reading email data from a CSV file and sending bulk emails.",
+        "tech": ["python"]
+      }
+    ]
+  },
+  {
+      "github_username": "harshal2002",  
+      "Social_media": {
+        "gitHub": "https://github.com/harshal2002",
+        "LinkedIn": "https://www.linkedin.com/in/harshalsj",
+        "Instagram": "https://www.instagram.com/harshal_jadhav619/",
+        "YouTube": "",
+        "Twitter": "https://twitter.com/HarshalJadhav84"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/harshal2002/NetflixClone",
+          "title": "Netflix Clone",
+          "description": "It is a static frontend clone of official Netflix website",
+          "tech": ["HTML", "CSS"]
+        }
+      ]
   }
 ]
