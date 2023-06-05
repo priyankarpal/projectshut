@@ -1,8 +1,11 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable linebreak-style */
 /* eslint-disable operator-linebreak */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable object-curly-newline */
 import React, { useEffect, useState, useContext } from 'react';
-import { useParams, useLocation, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
@@ -10,9 +13,6 @@ import projects from '../DB/projects.json';
 function ProjectList() {
   const { theme } = useContext(ThemeContext);
   const { username } = useParams();
-  const data = useLocation();
-  const { filter } = data.state;
-
   const [userObj, setObject] = useState({});
 
   useEffect(() => {
@@ -46,8 +46,8 @@ function ProjectList() {
           <div className="m-4 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
             <ArrowLeftCircle size={20} />
 
-            <Link to={`/projectspage${filter ? `?filters=${filter}` : ''}`} className="ml-2">
-              {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
+            <Link to="/projectspage" className="ml-2">
+              Back to All Projects
             </Link>
           </div>
 
