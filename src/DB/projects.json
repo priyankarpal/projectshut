@@ -1,5 +1,23 @@
 [
   {
+    "github_username": "murtazajoo",
+    "Social_media": {
+      "gitHub": "https://github.com/murtazajoo",
+      "LinkedIn": "https://www.linkedin.com/in/murtaza-joo-b5346622b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/murtazajoo/Toaster-ui",
+        "title": "Toaster Ui",
+        "description": "Toaster-Ui is a lightweight JavaScript library that allows you to easily display toast messages in your web application.",
+        "tech": ["javascript", "css"]
+      }
+    ]
+  },
+  {
     "github_username": "Gurnav224",
     "Social_media": {
       "gitHub": "https://github.com/Gurnav224",
@@ -91,7 +109,6 @@
       }
     ]
   },
-
   {
     "github_username": "sumitkr2000",
     "Social_media": {
@@ -2179,7 +2196,6 @@
   },
   {
     "github_username": "prasanta10",
-
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
@@ -2220,7 +2236,6 @@
       }
     ]
   },
-
   {
     "github_username": "rajputsingh808",
     "Social_media": {
@@ -2272,7 +2287,6 @@
       }
     ]
   },
-
   {
     "github_username": "vk20july",
     "Social_media": {
