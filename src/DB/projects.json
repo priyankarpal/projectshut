@@ -1875,6 +1875,12 @@
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
       }
+      ,{
+        "link": "https://github.com/roshan798/Sudoku",
+        "title": "Sudoku Game",
+        "description": "This is a Sudoku game website created using HTML, CSS, and JavaScript.",
+        "tech": ["Html", "Css", "JavaScript"]
+      }
     ]
   },
   {
