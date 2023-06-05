@@ -29,11 +29,7 @@
         "link": "https://checkbirthlucky.netlify.app/",
         "title": "Is Your Birthday Lucky",
         "description": "An App build with html css and Javascript. that calculate your Birthday is Lucky or Not",
-        "tech": [
-          "Html",
-          "Css",
-          "Javascript"
-        ]
+        "tech": ["Html", "Css", "Javascript"]
       }
     ]
   },
