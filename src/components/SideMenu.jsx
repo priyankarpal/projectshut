@@ -33,9 +33,10 @@ function SideMenu(props) {
       key={i}
       to={sideLink.path}
       className={({ isActive }) =>
-        `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${theme.mode === 'light'
-          ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
-          : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
+        `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${
+          theme.mode === 'light'
+            ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
+            : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
         }`
       }
       onClick={() => props.handleDrawerToggle()}
@@ -88,10 +89,11 @@ function SideMenu(props) {
             href="https://github.com/priyankarpal/ProjectsHut"
             target="_blank"
             rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md ${theme.mode === 'light'
+            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md ${
+              theme.mode === 'light'
                 ? 'hover:text-white hover:bg-black transition-all duration-200'
                 : 'hover:text-black hover:bg-white transition-all duration-200'
-              }`}
+            }`}
             aria-label="Github"
           >
             GitHub

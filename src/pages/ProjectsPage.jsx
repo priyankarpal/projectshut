@@ -61,8 +61,6 @@ function ProjectsPage() {
     }
   }
 
-
-
   useEffect(() => {
     if (selectedOptions.length === 0) {
       setLimit(15);
@@ -116,7 +114,6 @@ function ProjectsPage() {
 
       {/* As the number of cards may change, it is important to give a min-height to 'section' */}
 
-
       <section>
         {visibleProjects.length > 0 ? (
           <InfiniteScroll
@@ -130,7 +127,6 @@ function ProjectsPage() {
                   <ProjectLoading />
                   <ProjectLoading />
                   <ProjectLoading />
-
                 </>
               ) : null
             }
@@ -151,8 +147,6 @@ function ProjectsPage() {
           </div>
         )}
       </section>
-
-
     </main>
   );
 }
