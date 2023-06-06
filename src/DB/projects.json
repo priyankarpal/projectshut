@@ -2412,5 +2412,23 @@
           "tech": ["HTML", "CSS"]
         }
       ]
-  }
+  },
+  {
+    "github_username": "kumar11jr",  
+    "Social_media": {
+      "gitHub": "https://github.com/kumar11jr",
+      "LinkedIn": "https://www.linkedin.com/in/prabhat-kumar-157435244/",
+      "Instagram": "https://www.instagram.com/kumar_11jr/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Kumar_18jr"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kumar11jr/nodejs-openai-image",
+        "title": "Dalle clone",
+        "description": "DALL·E is a neural network model developed by OpenAI. It stands for Distributed and Adversarial Learning of Latent Embeddings, and it is designed to generate images from textual descriptions",
+        "tech": ["HTML", "CSS","Node JS","javascript"]
+      }
+    ]
+}
 ]
