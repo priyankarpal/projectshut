@@ -1,12 +1,14 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable linebreak-style */
+/* eslint-disable react/button-has-type */
 /* eslint-disable operator-linebreak */
 /* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable linebreak-style */
 /* eslint-disable object-curly-newline */
 import React, { useEffect, useState, useContext } from 'react';
-import { useParams, useLocation, Link } from 'react-router-dom';
-import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, ArrowUpCircle } from 'react-feather';
+import { useParams, Link } from 'react-router-dom';
+import { GitHub, Twitter, Linkedin, Instagram, Youtube, ArrowLeftCircle, Copy, Share2, Check, X } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 import projects from '../DB/projects.json';
 import Loader from '../utils/Loader';
@@ -14,13 +16,12 @@ import Loader from '../utils/Loader';
 function ProjectList() {
   const { theme } = useContext(ThemeContext);
   const { username } = useParams();
-  const data = useLocation();
-  const { filter } = data.state;
 
   const [userObj, setObject] = useState({});
   const [user, setUser] = useState({});
   const [initialLoading, setInitialLoading] = useState(true);
-  // const [isOpenModal, setIsOpenModal] = useState(false);
+  const [isOpenModal, setIsOpenModal] = useState(false);
+  const [isCopied, setIsCopied] = useState(false);
 
   // to get the user data from github
   const getData = async () => {
@@ -49,6 +50,20 @@ function ProjectList() {
     getData();
   }, []);
 
+  const handleShareProfile = () => {
+    setIsOpenModal(true);
+  };
+
+  // to copy the link to the clipboard
+  const copyText = async () => {
+    await navigator.clipboard.writeText(window.location.href);
+    setIsCopied(true);
+  };
+
+  const handleModalClose = () => {
+    setIsOpenModal(!isOpenModal);
+  };
+
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
       {initialLoading && <Loader />}
@@ -60,24 +75,23 @@ function ProjectList() {
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
+          onClick={() => handleModalClose()}
         >
           {/* Back to projects link */}
           <div className="flex items-stretch">
             <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
-              <Link to={`/projectspage${filter ? `?filter=${filter}` : ''}`} className="flex items-stretch">
+              <Link to="/projectspage" className="flex items-stretch">
                 <ArrowLeftCircle size={20} className="mt-0.5" />
-                <span className="ml-2">
-                  {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
-                </span>
+                <span className="ml-2">Back to All Projects</span>
               </Link>
             </div>
-            <div className="mt-4 mb-2 ml-5 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
-              <div className="flex items-stretch">
-                <span className="ml-2">
-                  {`Back to ${filter ? filter.charAt(0).toUpperCase() + filter.slice(1) : 'All'} Projects`}
-                </span>
-                <ArrowUpCircle size={20} className="mt-0.5" />
-              </div>
+            <div
+              className="mt-4 mb-2 ml-40 hover:text-purple-500 transition-all duration-300 ease-in-out flex"
+              onClick={() => handleShareProfile()}
+            >
+              <span>
+                <Share2 size={20} className="mt-0.5" />
+              </span>
             </div>
           </div>
 
@@ -163,7 +177,6 @@ function ProjectList() {
           </div>
         </div>
       )}
-
       {/* Projects lists */}
       <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
         {!initialLoading &&
@@ -212,6 +225,53 @@ function ProjectList() {
             </div>
           ))}
       </div>
+      {isOpenModal && (
+        <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+          <div className="fixed  inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
+
+          <div className="fixed inset-0 z-10 overflow-y-auto ">
+            <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
+              <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 sm:w-full sm:max-w-lg ">
+                <div
+                  className="bg-white mb-12 px-4 pb-4 pt-5 sm:p-6 sm:pb-4  basis-full relative "
+                  style={{
+                    borderRadius: '10px',
+                    background: theme?.navbar?.background,
+                    color: theme?.color,
+                    minHeight: '150px',
+                  }}
+                >
+                  <div>
+                    {' '}
+                    <p className="text-center font-bold mt-2"> Share you Profile 🎉🎉🎉</p>
+                    <div className="md:w-10/12 ml-20 flex items-stretch mt-6">
+                      <input
+                        className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
+                        value={window.location.href}
+                        disabled
+                      />
+                      <button onClick={() => copyText()}>
+                        {isCopied ? (
+                          <div className="flex items-stretch ">
+                            <Check style={{ color: 'green', fontSize: '5rem' }} />
+                            <p className="text-green-800">Copied</p>
+                          </div>
+                        ) : (
+                          <Copy style={{ fontSize: '5rem' }} />
+                        )}
+                      </button>
+                    </div>
+                  </div>
+
+                  <button className="absolute top-5 right-7" onClick={() => setIsOpenModal(false)}>
+                    <X />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}{' '}
     </section>
   );
 }
