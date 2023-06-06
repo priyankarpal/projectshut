@@ -2396,21 +2396,21 @@
     ]
   },
   {
-      "github_username": "harshal2002",  
-      "Social_media": {
-        "gitHub": "https://github.com/harshal2002",
-        "LinkedIn": "https://www.linkedin.com/in/harshalsj",
-        "Instagram": "https://www.instagram.com/harshal_jadhav619/",
-        "YouTube": "",
-        "Twitter": "https://twitter.com/HarshalJadhav84"
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/harshal2002/NetflixClone",
-          "title": "Netflix Clone",
-          "description": "It is a static frontend clone of official Netflix website",
-          "tech": ["HTML", "CSS"]
-        }
-      ]
+    "github_username": "harshal2002",
+    "Social_media": {
+      "gitHub": "https://github.com/harshal2002",
+      "LinkedIn": "https://www.linkedin.com/in/harshalsj",
+      "Instagram": "https://www.instagram.com/harshal_jadhav619/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/HarshalJadhav84"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/harshal2002/NetflixClone",
+        "title": "Netflix Clone",
+        "description": "It is a static frontend clone of official Netflix website",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
   }
 ]
