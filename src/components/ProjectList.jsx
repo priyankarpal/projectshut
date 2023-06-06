@@ -243,7 +243,7 @@ function ProjectList() {
                 >
                   <div>
                     {' '}
-                    <p className="text-center font-bold mt-2"> Share you Profile 🎉🎉🎉</p>
+                    <p className="text-center font-bold mt-2"> Share Your Profile 🎉🎉🎉</p>
                     <div className="md:w-10/12 ml-20 flex items-stretch mt-6">
                       <input
                         className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "

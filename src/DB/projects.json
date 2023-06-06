@@ -1,5 +1,63 @@
 [
   {
+    "github_username": "murtazajoo",
+    "Social_media": {
+      "gitHub": "https://github.com/murtazajoo",
+      "LinkedIn": "https://www.linkedin.com/in/murtaza-joo-b5346622b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/murtazajoo/Toaster-ui",
+        "title": "Toaster Ui",
+        "description": "Toaster-Ui is a lightweight JavaScript library that allows you to easily display toast messages in your web application.",
+        "tech": ["javascript", "css"]
+      }
+    ]
+  },
+  {
+    "github_username": "Gurnav224",
+    "Social_media": {
+      "gitHub": "https://github.com/Gurnav224",
+      "LinkedIn": "https://www.linkedin.com/in/gurnav-chaudhary-55310a1a1/",
+      "Twitter": "https://twitter.com/GurnavChaudhary"
+    },
+    "Projects": [
+      {
+        "link": "https://checkbirthlucky.netlify.app/",
+        "title": "Is Your Birthday Lucky",
+        "description": "An App build with html css and Javascript. that calculate your Birthday is Lucky or Not",
+        "tech": ["Html", "Css", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Saurav-Pant",
+    "Social_media": {
+      "gitHub": "https://github.com/Saurav-Pant",
+      "LinkedIn": "https://www.linkedin.com/in/saurav-pant-790065239/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Saurav-Pant/Blood-Donation-Project/",
+        "title": "Blood Donation Project",
+        "description": "This project is based on the concept of blood donation. It is a simple project that helps the user to donate blood and also helps the user to find the blood donor.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/Saurav-Pant/Expense-Tracker",
+        "title": "Expense Tracker",
+        "description": "This project is based on the concept of expense tracker. It is a simple project that helps the user to track their expenses.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      }
+    ]
+  },
+  {
     "github_username": "Soumya2411",
     "Social_media": {
       "gitHub": "https://github.com/Soumya2411",
@@ -51,7 +109,6 @@
       }
     ]
   },
-
   {
     "github_username": "sumitkr2000",
     "Social_media": {
@@ -1857,6 +1914,12 @@
         "title": "Binary Search Tree Visualizer",
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
+      },
+      {
+        "link": "https://github.com/roshan798/Sudoku",
+        "title": "Sudoku Game",
+        "description": "This is a Sudoku game website created using HTML, CSS, and JavaScript.",
+        "tech": ["Html", "Css", "JavaScript"]
       }
     ]
   },
@@ -2133,7 +2196,6 @@
   },
   {
     "github_username": "prasanta10",
-
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
@@ -2174,7 +2236,6 @@
       }
     ]
   },
-
   {
     "github_username": "rajputsingh808",
     "Social_media": {
@@ -2226,7 +2287,6 @@
       }
     ]
   },
-
   {
     "github_username": "vk20july",
     "Social_media": {
@@ -2314,6 +2374,42 @@
         "title": "Razorpay Clone",
         "description": "It is a cloned frontend design of original Razorpay payment gateway.",
         "tech": ["HTML", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "BALASARVAN12",
+    "Social_media": {
+      "gitHub": "https://github.com/BALASARVAN12",
+      "LinkedIn": "https://www.linkedin.com/in/bala-sarvan-vudathu-643b79227/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/BalaVudathu"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/BALASARVAN12/BUILDING-AN-EMAIL-CLIENT-USING-PYTHON",
+        "title": "Email Client Appilication using python",
+        "description": "There are two methods provide different capabilities for sending emails. The first approach allows you to send a single email, while the second approach expands on that by reading email data from a CSV file and sending bulk emails.",
+        "tech": ["python"]
+      }
+    ]
+  },
+  {
+    "github_username": "harshal2002",
+    "Social_media": {
+      "gitHub": "https://github.com/harshal2002",
+      "LinkedIn": "https://www.linkedin.com/in/harshalsj",
+      "Instagram": "https://www.instagram.com/harshal_jadhav619/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/HarshalJadhav84"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/harshal2002/NetflixClone",
+        "title": "Netflix Clone",
+        "description": "It is a static frontend clone of official Netflix website",
+        "tech": ["HTML", "CSS"]
       }
     ]
   }
