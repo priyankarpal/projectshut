@@ -15,7 +15,7 @@ function HomePage() {
   const notify = () => {
     toast('Want to add your project? Check out the docs!', {
       position: 'top-right',
-      autoClose: 3000,
+      autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
