@@ -6,6 +6,7 @@ import { ArrowRight } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
 
 function ProjectCard({ project, filter }) {
+  // eslint-disable-next-line object-curly-newline
   const { username, title, description, link } = project;
 
   const { theme } = useContext(ThemeContext);
