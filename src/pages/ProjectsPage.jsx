@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable function-paren-newline */
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable react/jsx-one-expression-per-line */
