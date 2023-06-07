@@ -1,38 +1,35 @@
 [
   {
-    
- "github_username": "Man07har",
-  "Social_media": {
-    "gitHub": "https://github.com/man07har",
-    "LinkedIn": "https://www.linkedin.com/in/man07har/",
-    "Instagram": "https://www.instagram.com/man07har/",
-    "YouTube": "https://www.youtube.com/channel/UCkGSyImpI4T6Yg5-UQwjk3Q",
-    "Twitter": "https://twitter.com/Man07har"
+    "github_username": "Man07har",
+    "Social_media": {
+      "gitHub": "https://github.com/man07har",
+      "LinkedIn": "https://www.linkedin.com/in/man07har/",
+      "Instagram": "https://www.instagram.com/man07har/",
+      "YouTube": "https://www.youtube.com/channel/UCkGSyImpI4T6Yg5-UQwjk3Q",
+      "Twitter": "https://twitter.com/Man07har"
+    },
+    "Projects": [
+      {
+        "link": "https://man07har.github.io/",
+        "title": "Portfolio_Website",
+        "description": "",
+        "tech": ["ReactJS", "Tailwind CSS", "CSS"]
+      },
+      {
+        "link": "https://github.com/heroaks/parcurrus",
+        "title": "Parcurrus",
+        "description": "This app will help you solve a significant issue in busy cities. Finding a spot to park your cars during rush hours can be difficult. This app will show all the nearby parking spots according to GPS. What's even better? People with some parking space to spare at their place can post it on this app and earn some crypto for it.",
+        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+      },
+      {
+        "link": "https://github.com/Man07har/Del",
+        "title": "Del",
+        "description": "A website design for the complaint pusposes and to showcase the products that a company has to offer",
+        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+      }
+    ]
   },
-  "Projects": [
-   {
-      "link": "https://man07har.github.io/",
-      "title": "Portfolio_Website",
-      "description": "",
-      "tech": ["ReactJS", "Tailwind CSS","CSS"]
-    },
-     {
-      "link": "https://github.com/heroaks/parcurrus",
-      "title": "Parcurrus",
-      "description": "This app will help you solve a significant issue in busy cities. Finding a spot to park your cars during rush hours can be difficult. This app will show all the nearby parking spots according to GPS. What's even better? People with some parking space to spare at their place can post it on this app and earn some crypto for it.",
-      "tech": ["ReactJS", "TailwindCSS","CSS"]
-    },
-     {
-      "link": "https://github.com/Man07har/Del",
-      "title": "Del",
-      "description": "A website design for the complaint pusposes and to showcase the products that a company has to offer",
-      "tech": ["ReactJS", "TailwindCSS","CSS"]
-    }
-
-  ]
-},
   {
-   
     "github_username": "murtazajoo",
     "Social_media": {
       "gitHub": "https://github.com/murtazajoo",
@@ -2429,25 +2426,25 @@
     ]
   },
   {
-      "github_username": "harshal2002",  
-      "Social_media": {
-        "gitHub": "https://github.com/harshal2002",
-        "LinkedIn": "https://www.linkedin.com/in/harshalsj",
-        "Instagram": "https://www.instagram.com/harshal_jadhav619/",
-        "YouTube": "",
-        "Twitter": "https://twitter.com/HarshalJadhav84"
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/harshal2002/NetflixClone",
-          "title": "Netflix Clone",
-          "description": "It is a static frontend clone of official Netflix website",
-          "tech": ["HTML", "CSS"]
-        }
-      ]
+    "github_username": "harshal2002",
+    "Social_media": {
+      "gitHub": "https://github.com/harshal2002",
+      "LinkedIn": "https://www.linkedin.com/in/harshalsj",
+      "Instagram": "https://www.instagram.com/harshal_jadhav619/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/HarshalJadhav84"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/harshal2002/NetflixClone",
+        "title": "Netflix Clone",
+        "description": "It is a static frontend clone of official Netflix website",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
   },
   {
-    "github_username": "kumar11jr",  
+    "github_username": "kumar11jr",
     "Social_media": {
       "gitHub": "https://github.com/kumar11jr",
       "LinkedIn": "https://www.linkedin.com/in/prabhat-kumar-157435244/",
@@ -2460,7 +2457,7 @@
         "link": "https://github.com/kumar11jr/nodejs-openai-image",
         "title": "Dalle clone",
         "description": "DALL·E is a neural network model developed by OpenAI. It stands for Distributed and Adversarial Learning of Latent Embeddings, and it is designed to generate images from textual descriptions",
-        "tech": ["HTML", "CSS","Node JS","javascript"]
+        "tech": ["HTML", "CSS", "Node JS", "javascript"]
       }
     ]
   }
