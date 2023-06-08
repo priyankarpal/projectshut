@@ -1,34 +1,6 @@
-# Follow these steps to contribute📈
+# Follow these steps to contribute
 
-**Understand the Project:**
-
-- Familiarize yourself with the project's objectives, architecture, and existing codebase. This will enable you to make informed contributions that align with the project's goals.
-
-**Choose an Issue/Create an issue:**
-
-- Create an issue or work on the existing issue if you're assigned. Also, if you're in `GSSOC'23`, please add `"I'm in GSSOC'23"` so that we can add the `GSSOC'23` label on that particular issue/PR.
-
-**Assign an Issue Number:**
-
-- Assign the `#ISSUE_NUMBER` in the description of the PR request.
-
-**Work on Your assigned issue first:**
-
-- We kindly request that you prioritize working on your assigned issue at this time. It is highly recommended that you begin by creating an issue before proceeding to create a pull request.
-- By doing so, you can outline the problem or task at hand and facilitate a smoother workflow.
-- Once the issue is established, please proceed to implement the necessary changes, address any bugs, or incorporate new features to effectively resolve the selected issue/task.
-
-**Commit Your Changes:**
-
-- Once you have made significant progress or completed your contribution, commit your changes with a descriptive commit message.
-- It is advisable to make frequent, small commits to make the review process more manageable. Please check [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-## DO NOT SPAM !!! ⚠
-
-- If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual.
-- The individual will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
-
-# 😎 How to add your projects to ProjectsHut
+## How to add your projects to ProjectsHut
 
 #### 1. Fork this repository
 
@@ -67,89 +39,84 @@
 }
 ```
 
-You should write the full Tech name: <br>
-**👎 Bad Tech Names:** js, JS, react, reactjs, css <br>
-**👍 Good Tech Names:** Javascript, ReactJS, CSS
+> **Important**: You should write the full Tech name
+
+- > **👎 Bad Tech Names:** js, JS, react, reactjs, css <br>
+- > **👍 Good Tech Names:** Javascript, ReactJS, CSS
 
 #### 4. Commit all changes.
 
-- Add a commit like this for only projects addition `data: project addition by [your-githubuser-name] #issue_number`
+- Add a commit like this for only projects addition `chore: project addition by [your-githubuser-name] #issue_number`
 
-> ### Alternatively, if you prefer to run the project locally, follow these steps:
+> ## **Note** Alternatively, if you prefer to run the project locally, follow these steps:
 
 1.  Go to preferred folder in your computer and paste the following command after forking our repository (Only one of it if you don't have ssh setup then go with HTTP command)
 
-    - HTTP
-      `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
-    - SSH
-      `git clone git@github.com:<YOUR-USERNAME>/ProjectsHut.git`
+```
+git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git
+```
 
 2.  Navigate to the project folder
 
-    ```
-    cd ProjectsHut
-    ```
+```
+cd ProjectsHut
+```
 
-3.  Rename the `.env.example` file to `.env`, and add your Github Token. Refer this [Link](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) for creating Github Token.
+3.  Install dependencies
 
-    ```shell
-    GITHUB_TOKEN='ADD-YOUR-GITHUB-TOKEN-HERE'
-    ```
+```bash
+pnpm i
+```
 
-4.  Install dependencies
+> **Note**: If you don't have pnpm installed in your system then run this command `npm i -g pnpm`
 
-    ```
-    pnpm i
-    ```
+4.  Now do ahead and create a new branch and move to the branch
 
-5.  Now do ahead and create a new branch and move to the branch
+```bash
+git checkout -b fix-issue-<ISSUE-NUMBER>
+```
 
-    ```
-    git checkout -b fix-issue-<ISSUE-NUMBER>
-    ```
+> **Note**: Replace `<ISSUE-NUMBER>` with the issue number you are working on
 
-6.  Run in local
+5.  Run in local
 
-    ```
-    pnpm dev
-    ```
+```bash
+pnpm dev
+```
 
-7.  Make sure all the test cases pass
+> Add new features or fix bugs according to your issue number
 
-    ```
-    pnpm test
-    ```
+6.  After done you can now push this changes, for doing that follow the following command chain
 
-8.  After done you can now push this changes, for doing that follow the following command chain
+- `git status -s` (Shows the changed files)
+- `git add --all` (Will add all the files to staging area)
+- `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
 
-    - `git status` (Shows the changed files)
-    - `git add .` (Will add all the files to staging area)
-    - `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
-    - > If you encounter this error while commits
-      >
-      > ```diff
-      > husky - pre-commit hook exited with code 1(error)
-      > ```
-      >
-      > use this command
-      >
-      > ```diff
-      > pnpm format
-      > ```
-    - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
-    - `git push origin fix-issue-<ISSUE-NUMBER>`
+  > **Note**: Replace `<EXPLAIN-YOUR_CHANGES>` with the changes you have made. Also, follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
+  > If you encounter this error while commits
+  >
+  > ```diff
+  > husky - pre-commit hook exited with code 1(error)
+  > ```
+  >
+  > use this command
+  >
+  > ```diff
+  > pnpm format
+  > ```
 
-9.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+- `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
+- `git push origin fix-issue-<ISSUE-NUMBER>`
 
-10. Now fill in the form template of the pull request and give the necessary description.
+7.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-11. Click on **Submit**
+8.  Now fill in the form template of the pull request and give the necessary description.
 
-12. Hurray! You just made your first contribution to this project 🎉
+9.  Click on **Submit**
 
-13. Wait for your pull request to be reviewed and merged.
+10. Hurray! You just made your first contribution to this project 🎉
 
-> NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
+11. Wait for your pull request to be reviewed and merged.
 
 ## Useful Links
 
@@ -157,3 +124,4 @@ You should write the full Tech name: <br>
 - [GitHub Pull Requests Guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - [GitHub Issues Guide](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 - [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
