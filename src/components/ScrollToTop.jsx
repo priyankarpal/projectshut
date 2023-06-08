@@ -36,7 +36,7 @@ function ScrollToTop() {
       type="button"
       className={`fixed p-2 bg-gray-400 bg-opacity-100 shadow-lg rounded-full z-20 ${
         isVisible ? ' bottom-4 right-4' : 'hidden'
-      } hover:h-12 hover:w-12 hover:px-3
+      } hover:h-12 hover:w-12
       hover:from-indigo-500
       hover:via-purple-700
       hover:bg-gradient-to-r`}
