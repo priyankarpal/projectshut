@@ -1611,6 +1611,12 @@
         "title": "Google Keeper Clone",
         "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
         "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/Deepanshu0703/dragAndDrop",
+        "title": "Drag and Drop",
+        "description": "This is a drag and drop app made using HTML,CSS and Javascript. You can drag and drop the boxes to change their position.",
+        "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
   },

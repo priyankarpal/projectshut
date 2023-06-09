@@ -39,8 +39,6 @@ function ScrollToTop() {
       } hover:from-indigo-500
       hover:via-purple-700
       hover:bg-gradient-to-r`}
-      
-
       onClick={scrollToTop}
     >
       <ArrowUp size={25} color="black" />
