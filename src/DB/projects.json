@@ -2460,5 +2460,23 @@
         "tech": ["HTML", "CSS", "Node JS", "javascript"]
       }
     ]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/pinax",
+        "title": "Pinax",
+        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
+        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
+      }
+    ]
   }
 ]
