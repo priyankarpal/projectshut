@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 /* eslint-disable linebreak-style */
 /* eslint-disable camelcase */
 /* eslint-disable react/prop-types */
