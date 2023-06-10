@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // tailwind.config.js
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -6,7 +7,8 @@ module.exports = {
       xsm: '240px',
       xs: '400px',
       sm: '640px',
-      md: '770px',
+      md: '760px',
+      tab: '840px',
       lg: '1024px',
       xl: '1280px',
     },
@@ -32,7 +34,7 @@ module.exports = {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function myUtilities({ addUtilities }) {
       addUtilities(
         {
           '.after-util': {
@@ -52,18 +54,15 @@ module.exports = {
         ['responsive'],
       );
     },
-    function ({ addVariant, e }) {
+    function addCheckedVariant({ addVariant, e }) {
       addVariant('checked', ({ modifySelectors, separator }) => {
-        modifySelectors(({ className }) => {
-          return `.${e(`checked${separator}${className}`)}:checked + label`;
-        });
+        modifySelectors(({ className }) => `.${e(`checked${separator}${className}`)}:checked + label`);
       });
     },
-    function ({ addVariant, e }) {
+
+    function myFunction({ addVariant, e }) {
       addVariant('transform', ({ modifySelectors, separator }) => {
-        modifySelectors(({ className }) => {
-          return `.${e(`transform${separator}${className}`)}:checked + label::after`;
-        });
+        modifySelectors(({ className }) => `.${e(`transform${separator}${className}`)}:checked + label::after`);
       });
     },
   ],

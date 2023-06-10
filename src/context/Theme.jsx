@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
+/* eslint-disable react/prop-types */
 import React, { createContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext('light');
@@ -34,7 +36,7 @@ const darkTheme = {
   },
 };
 
-const ThemeProvider = ({ children }) => {
+function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(darkTheme); // Set darkTheme as the initial value
 
   const toggleTheme = () => {
@@ -52,6 +54,6 @@ const ThemeProvider = ({ children }) => {
   }, []);
 
   return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
-};
+}
 
 export { ThemeProvider, ThemeContext };

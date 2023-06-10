@@ -1,5 +1,193 @@
 [
   {
+    "github_username": "jiggy9",
+    "Social_media": {
+      "gitHub": "https://github.com/Jiggy9",
+      "LinkedIn": "https://www.linkedin.com/in/jigar-prajapati-246102249/",
+      "Instagram": "https://www.instagram.com/jigar_prajapati_999/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Jiggy_999"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Jiggy9/flutter-voice-assistant-app",
+        "title": "Voice Assistant App",
+        "description": "It is a Flutter voice assistant application where you can ask for any answer and it'll help through voice and text.",
+        "tech": ["Flutter", "Dart"]
+      }
+    ]
+  },
+  {
+    "github_username": "Man07har",
+    "Social_media": {
+      "gitHub": "https://github.com/man07har",
+      "LinkedIn": "https://www.linkedin.com/in/man07har/",
+      "Instagram": "https://www.instagram.com/man07har/",
+      "YouTube": "https://www.youtube.com/channel/UCkGSyImpI4T6Yg5-UQwjk3Q",
+      "Twitter": "https://twitter.com/Man07har"
+    },
+    "Projects": [
+      {
+        "link": "https://man07har.github.io/",
+        "title": "Portfolio_Website",
+        "description": "",
+        "tech": ["ReactJS", "Tailwind CSS", "CSS"]
+      },
+      {
+        "link": "https://github.com/heroaks/parcurrus",
+        "title": "Parcurrus",
+        "description": "This app will help you solve a significant issue in busy cities. Finding a spot to park your cars during rush hours can be difficult. This app will show all the nearby parking spots according to GPS. What's even better? People with some parking space to spare at their place can post it on this app and earn some crypto for it.",
+        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+      },
+      {
+        "link": "https://github.com/Man07har/Del",
+        "title": "Del",
+        "description": "A website design for the complaint pusposes and to showcase the products that a company has to offer",
+        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "murtazajoo",
+    "Social_media": {
+      "gitHub": "https://github.com/murtazajoo",
+      "LinkedIn": "https://www.linkedin.com/in/murtaza-joo-b5346622b/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/murtazajoo/Toaster-ui",
+        "title": "Toaster Ui",
+        "description": "Toaster-Ui is a lightweight JavaScript library that allows you to easily display toast messages in your web application.",
+        "tech": ["javascript", "css"]
+      }
+    ]
+  },
+  {
+    "github_username": "Gurnav224",
+    "Social_media": {
+      "gitHub": "https://github.com/Gurnav224",
+      "LinkedIn": "https://www.linkedin.com/in/gurnav-chaudhary-55310a1a1/",
+      "Twitter": "https://twitter.com/GurnavChaudhary"
+    },
+    "Projects": [
+      {
+        "link": "https://checkbirthlucky.netlify.app/",
+        "title": "Is Your Birthday Lucky",
+        "description": "An App build with html css and Javascript. that calculate your Birthday is Lucky or Not",
+        "tech": ["Html", "Css", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Saurav-Pant",
+    "Social_media": {
+      "gitHub": "https://github.com/Saurav-Pant",
+      "LinkedIn": "https://www.linkedin.com/in/saurav-pant-790065239/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Saurav-Pant/Blood-Donation-Project/",
+        "title": "Blood Donation Project",
+        "description": "This project is based on the concept of blood donation. It is a simple project that helps the user to donate blood and also helps the user to find the blood donor.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/Saurav-Pant/Expense-Tracker",
+        "title": "Expense Tracker",
+        "description": "This project is based on the concept of expense tracker. It is a simple project that helps the user to track their expenses.",
+        "tech": ["ReactJS", "ExpressJS", "MongoDB"]
+      }
+    ]
+  },
+  {
+    "github_username": "Soumya2411",
+    "Social_media": {
+      "gitHub": "https://github.com/Soumya2411",
+      "LinkedIn": "Yhttps://www.linkedin.com/in/soumya-gupta-455401228/",
+      "Instagram": "https://www.instagram.com/soummmyaa/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Soumya2411/CodeLabs",
+        "title": "CodeLabs",
+        "description": "An app hor helping students to visualise programming concepts",
+        "tech": ["Node.js", "ReactJS"]
+      }
+    ]
+  },
+  {
+    "github_username": "dev-AshishRanjan",
+    "Social_media": {
+      "gitHub": "https://github.com/dev-AshishRanjan",
+      "LinkedIn": "https://www.linkedin.com/in/kumar-ashish-ranjan-6359b7233/",
+      "Instagram": "https://www.instagram.com/kr.ashishranjan/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dev-AshishRanjan/MovieApp",
+        "title": "PWA Movie App",
+        "description": "A progressive Movie App with live data feeds from TMDB with two themed Movie Description",
+        "tech": ["JavaScript", "React.js", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/Search-Home-Page",
+        "title": "ZORIN Search Page",
+        "description": "This is a wbesite is a modified version of ZORIN Browser Homepage. This website uses NeuMorphism with Light and Dark theme in System Mode. It also gives Weather Update",
+        "tech": ["NextJs", "TypeScript", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/anime-vue-web",
+        "title": "Anime Web",
+        "description": "This project is based on VueJs and uses scss as stylesheet. It uses the unique data passing between child and parent component. It uses REST API as data source to display images and GIFs related to your search with search customization.",
+        "tech": ["Vue js", "scss"]
+      },
+      {
+        "link": "https://github.com/dev-AshishRanjan/Resume-Creator",
+        "title": "Resume Creator",
+        "description": "This project uses Basic HTML, CSS, JavaScript to create a basic Resume Creator, where you can create your resume and most important download the created Resume.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "sumitkr2000",
+    "Social_media": {
+      "gitHub": "https://github.com/sumitkr2000",
+      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/sumitkr2000/BMI-Calculator",
+        "title": "BMI Calculator",
+        "description": "BMI Calculator is used to measure the Body Mass Index of a person. By measuring BMI, a person can know if he is underweight, normal or overweight.",
+        "tech": ["HTML", "CSS", "Node.js", "React.js"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/yoga",
+        "title": "Yoga Website",
+        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
+        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/EditorJS",
+        "title": "Editor",
+        "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
+        "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
+      }
+    ]
+  },
+  {
     "github_username": "SasiVardhan247",
     "Social_media": {
       "gitHub": "https://github.com/SasiVardhan247",
@@ -18,20 +206,44 @@
     ]
   },
   {
-    "github_username": "sumitkr2000",
+    "github_username": "raj3000k",
     "Social_media": {
-      "gitHub": "https://github.com/sumitkr2000",
-      "LinkedIn": "https://www.linkedin.com/in/sumit-kumar-rai-b59290233/",
+      "gitHub": "https://github.com/raj3000k",
+      "LinkedIn": "https://www.linkedin.com/in/raj-motwani-978143204/",
       "Instagram": "",
-      "YouTube": "https://www.youtube.com/@sumitkumarrai1999/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/RAJMOTWANI16"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/raj3000k/Pharm",
+        "title": "Med.Ez(Medicine management system)",
+        "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
+        "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
+      }
+    ]
+  },
+  {
+    "github_username": "Mukesh751",
+    "Social_media": {
+      "gitHub": "https://github.com/Mukesh751",
+      "LinkedIn": "https://www.linkedin.com/in/mukesh751/",
+      "Instagram": "",
+      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
       {
-        "link": "https://github.com/sumitkr2000/yoga",
-        "title": "Yoga Website",
-        "description": "This is a wbesite where an user can reigister or youga classes. The user has to fulfill all the eligibility criteria to register for yoga classes.",
-        "tech": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+        "link": "https://github.com/Mukesh751/TetrisGame",
+        "title": "Tetris Game",
+        "description": "This project is a clone of 90s famous game Tetris",
+        "tech": ["JavaScript", "HTML5", "CSS", "ReactJS"]
+      },
+      {
+        "link": "https://github.com/Mukesh751/FruitNinja",
+        "title": "Fruit Ninja Game",
+        "description": "This project is a clone of 90s classic Fruit Ninja Game",
+        "tech": ["JavaScript", "HTML5", "CSS"]
       }
     ]
   },
@@ -56,6 +268,24 @@
         "title": "Suggest Us",
         "description": "A Application for doctors to get in touch with community of doctors .",
         "tech": ["React", "Express.js", "MUI", "Firebase", "Node.js"]
+      }
+    ]
+  },
+  {
+    "github_username": "Hareesh108",
+    "Social_media": {
+      "gitHub": "https://github.com/Hareesh108",
+      "LinkedIn": "https://www.linkedin.com/in/hareeshbhittam",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hareesh108/NotesTaker",
+        "title": "Personal Taker",
+        "description": "This web based note taker application made using reactjs",
+        "tech": ["React", "HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -332,18 +562,36 @@
   {
     "github_username": "ujjawaltyagii",
     "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
+      "gitHub": "https://github.com/ujjawaltyagii",
+      "LinkedIn": "https://www.linkedin.com/in/ujjawal-tyagi-9943a722b/",
+      "Instagram": "https://www.instagram.com/ujjawal.tyagii",
       "YouTube": "",
-      "Twitter": ""
+      "Twitter": "https://twitter.com/ujjawal_tyagiii"
     },
     "Projects": [
+      {
+        "link": "https://github.com/ujjawaltyagii/Sober-Sense",
+        "title": "Sober-Sense",
+        "description": "An AI/ML solution to prevent drunk drive accidents using Face recognition & Speech Recognition.",
+        "tech": ["Python", "Javascript", "Bootstrap", "HTML"]
+      },
       {
         "link": "https://github.com/ujjawaltyagii/Razorpay-Clone",
         "title": "Razorpay Clone",
         "description": "Created Razorpay Clone which is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite.",
         "tech": ["HTML", "Tailwind CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/ImageClassification",
+        "title": "Image-Classifier",
+        "description": "Built an image classifier using Python, Tensorflow and Keras with Jupyter Notebook to classify sad and happy faces.",
+        "tech": ["Python", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/ujjawaltyagii/RoomRevamp",
+        "title": "Room Revamp",
+        "description": "A Virtual Interior Designer website where users can upload a photo of their room and customize it with different furniture and decor items.",
+        "tech": ["Tailwind CSS", "Javascript", "HTML"]
       }
     ]
   },
@@ -771,22 +1019,22 @@
   {
     "github_username": "oyepriyansh",
     "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
+      "gitHub": "https://oye.pages.dev/28rwld",
+      "LinkedIn": "https://oye.pages.dev/5ao29f",
+      "Instagram": "https://oye.pages.dev/q325qk",
+      "Twitter": "https://oye.pages.dev/t25jq0",
+      "YouTube": ""
     },
     "Projects": [
       {
-        "link": "https://github.com/oyepriyansh/url-shortener",
+        "link": "https://oye.pages.dev/erjkg5",
         "title": "URL Shortener",
-        "description": "simple replit database url shortner ti shorten your messy links",
+        "description": "simple replit database url shortner to shorten your messy links",
         "tech": ["Node.js"]
       },
       {
-        "link": "https://oyepriyansh.github.io/ToDoList",
-        "title": "TO DO List",
+        "link": "https://itxpp.github.io/todo",
+        "title": "ToDo List",
         "description": "A to do list web application which allow user to save tasks, even after closing browser",
         "tech": ["HTML", "CSS", "JavaScript"]
       }
@@ -1135,6 +1383,12 @@
         "title": "Weather Website",
         "description": "This website is of finding wheather of your location and as well as you can search any place.",
         "tech": ["Javascript", "CSS", "HTML", "Weather-api", "Tailwind CSS"]
+      },
+      {
+        "link": "https://eduhub-1tyq.vercel.app/",
+        "title": "Eduhub",
+        "description": "Baisc Landing page for Online ed-tech platforms",
+        "tech": ["Javascript", "CSS", "HTML", "Tailwind CSS"]
       }
     ]
   },
@@ -1369,6 +1623,18 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": ["Python", "OpenCV", "Keras", "Tensorflow"]
+      },
+      {
+        "link": "https://github.com/Deepanshu0703/google-keeper-clone",
+        "title": "Google Keeper Clone",
+        "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
+        "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/Deepanshu0703/dragAndDrop",
+        "title": "Drag and Drop",
+        "description": "This is a drag and drop app made using HTML,CSS and Javascript. You can drag and drop the boxes to change their position.",
+        "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
   },
@@ -1702,6 +1968,83 @@
         "title": "Binary Search Tree Visualizer",
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["Html", "Css", "JavaScript", "D3.js"]
+      },
+      {
+        "link": "https://github.com/roshan798/Sudoku",
+        "title": "Sudoku Game",
+        "description": "This is a Sudoku game website created using HTML, CSS, and JavaScript.",
+        "tech": ["Html", "Css", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "shagunZ",
+    "Social_media": {
+      "gitHub": "https://github.com/shagunZ",
+      "LinkedIn": "https://www.linkedin.com/in/shagunmengi/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://moviey.netlify.app/",
+        "title": "MovieApp",
+        "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+        "tech": ["React js", "HTML", "Css", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "WajeehaCodes",
+    "Social_media": {
+      "gitHub": "https://github.com/WajeehaCodes",
+      "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/WajeehaCodes/Shopping-Cart-JS",
+        "title": "Shopping Cart JS",
+        "description": "The JavaScript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "abhrajitray77",
+    "Social_media": {
+      "gitHub": "https://github.com/abhrajitray77",
+      "LinkedIn": "https://www.linkedin.com/in/abhrajit-ray-b6a97721a/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/channel/UCbdxfTKNRcdcNALKwq_ZTqg",
+      "Twitter": "https://twitter.com/ray_abhrajit"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/abhrajitray77/reactjs-chrome-extension",
+        "title": "Gpt-3 X Web Clipper Chrome extension",
+        "description": "ReactJS Chrome Extension with GPT-3 integration and Webpage text clipping",
+        "tech": ["ReactJS", "TailwindCSS", "OpenAI API", "Typescript"]
+      }
+    ]
+  },
+  {
+    "github_username": "TusharMinche",
+    "Social_media": {
+      "gitHub": "https://github.com/TusharMinche",
+      "LinkedIn": "https://www.linkedin.com/in/tushar-minche-0a9b51218/",
+      "Instagram": "https://www.instagram.com/tushar_minche/",
+      "Twitter": "https://twitter.com/MincheTushar"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/TusharMinche/AR-Watches",
+        "title": "AR Watches",
+        "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
+        "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
       }
     ]
   },
@@ -1724,16 +2067,479 @@
     ]
   },
   {
+
     "github_username": "shagunZ",
     "Social_media": {
       "gitHub": "https://github.com/shagunZ",
       "LinkedIn": "https://www.linkedin.com/in/shagunmengi/",
       "Instagram": "",
       "YouTube": "",
+
+    "github_username": "saikiranreddy201",
+    "Social_media": {
+      "gitHub": "https://github.com/saikiranreddy201",
+      "LinkedIn": "https://www.linkedin.com/in/sai-kiran-reddy-7272b320a/",
+      "Instagram": "https://www.instagram.com/saikiranreddy.03/",
+      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
       {
+        "link": "https://github.com/saikiranreddy201/web-crawler",
+        "title": "web-crawler",
+        "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like HTML, php except the backend code files to ensure safety!",
+        "tech": ["Node.js", "Express.js"]
+      }
+    ]
+  },
+  {
+    "github_username": "Google-ka-Dinosaur",
+    "Social_media": {
+      "gitHub": "https://github.com/Google-Ka-Dinosaur",
+      "LinkedIn": "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/DePay-Production",
+        "title": "DePay",
+        "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
+        "tech": ["NextJs", "Solidity", "CSS"]
+      },
+      {
+        "link": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
+        "title": "Avax Gods",
+        "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
+        "tech": ["ReactJs", "Solidity", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Vidip-Ghosh",
+    "Social_media": {
+      "gitHub": "https://github.com/Vidip-Ghosh",
+      "LinkedIn": "https://www.linkedin.com/in/vidip-ghosh-9973b7213",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/GhoshVidip67772?t=yWjmzXsEfiddmeIH4ADx-g&s=09"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Vidip-Ghosh/QR-Code-Generator.git",
+        "title": "QR Code Generator",
+        "description": "An application which is able to generate a QR code of every website. URL of the website is provided as an input and its able to generate corresponding QR code for that website.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/Credit-Card-Fraud-Detection",
+        "title": "Credit-Card-Fraud-Detection",
+        "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
+        "tech": ["Python", "Jupyter Notebook"]
+      }
+    ]
+  },
+  {
+    "github_username": "akshaya-hub",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaya-hub",
+      "LinkedIn": "https://www.linkedin.com/in/akshaya-madhuri-adireddy-028019213/",
+      "Twitter": "https://twitter.com/AKSHAYA96187678"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaya-hub/personality-prediction",
+        "title": "Personality Analysis",
+        "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
+        "tech": ["Python", "Machine Learning"]
+      }
+    ]
+  },
+  {
+    "github_username": "govardhan-26",
+    "Social_media": {
+      "gitHub": "https://github.com/govardhan-26",
+      "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
+      "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/govardhan-26/restaurant-website",
+        "title": "Restaurant Website",
+        "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Rishav1707",
+    "Social_media": {
+      "gitHub": "https://github.com/Rishav1707",
+      "LinkedIn": "https://www.linkedin.com/in/rishavrtwt/",
+      "Twitter": "https://twitter.com/rishavrtwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Rishav1707/Todo-List-Component",
+        "title": "Todo List",
+        "description": "A Todo List is a digital tool designed to help users manage their tasks and stay organized. With this app, users can easily add tasks to their list, edit and update them, and delete tasks as needed.",
+        "tech": ["ReactJs", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Hypertext-Workaholics",
+    "Social_media": {
+      "gitHub": "https://github.com/Hypertext-Workaholics",
+      "LinkedIn": "https://www.linkedin.com/in/shalini-singh-5b4646205/",
+      "Instagram": "https://www.instagram.com/writings__world_/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hypertext-Workaholics/bullseye-game",
+        "title": "Bullseye Game",
+        "description": "This project is a little and simple bullseye game written in html5, css3 and javascript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Utkers-h",
+    "Social_media": {
+      "gitHub": "https://github.com/Utkers-h",
+      "LinkedIn": "https://www.linkedin.com/in/utkersh-uppal-2840b0229/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Utkers-h/Coffe_and_Wifi",
+        "title": "Coffe and Wifi",
+        "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
+        "tech": ["Html", "CSS", "Flask-WTF", "Flask-Bootstrap"]
+      }
+    ]
+  },
+  {
+    "github_username": "Monishka8303",
+    "Social_media": {
+      "gitHub": "https://github.com/Monishka8303",
+      "LinkedIn": "https://www.linkedin.com/in/monishka-jaiswal-6aab71239/",
+      "Instagram": "https://www.instagram.com/monishka.8303/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Monishka8303/Discord-Clone",
+        "title": "Discord Clone",
+        "description": "This project is a clone of the original website of Discord, which is fully responsive.",
+        "tech": ["HTML5", "TailwindCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "prasanta10",
+    "Social_media": {
+      "gitHub": "https://github.com/prasanta10",
+      "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/prasanta10/Blog_wesbsite",
+        "title": "Blog Website",
+        "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
+        "tech": ["Node.js", "Express js", "MongoDB", "HTML", "CSS3", "EJS"]
+      }
+    ]
+  },
+  {
+    "github_username": "SJ-Kumar",
+    "Social_media": {
+      "gitHub": "https://github.com/SJ-Kumar",
+      "LinkedIn": "https://www.linkedin.com/in/jayanth-kumar-91947b220/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Jayanth_2003"
+    },
+    "Projects": [
+      {
+        "link": "https://profile-git-main-sj-kumar.vercel.app/",
+        "title": "Chat Based Portfolio Page",
+        "description": "Developed a chat based portfolio page that displays education, skills, projects, and resume (pdf) version from repository based on the word user types in a dynamic chat window.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "link": "https://github.com/SJ-Kumar/Sparks-Tasks",
+        "title": "Save Cinema Frontend Project with Payment Gateway Integration",
+        "description": "This project is focused on promoting and supporting the cinema industry. It aims to create a platform that engages cinema lovers and encourages them to contribute to the well-being of those involved in the film-making process. The webpage showcases information about the project and provides a donation form for users to contribute.",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "rajputsingh808",
+    "Social_media": {
+      "gitHub": "https://github.com/rajputsingh808",
+      "LinkedIn": "https://www.linkedin.com/in/sonam-singh-30b689231/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/rajputsingh808/Tech_intern2k23",
+        "title": "Bookstore",
+        "description": "My bookstore website can issue different books and has multiple features.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "KhushiVaiskyar",
+    "Social_media": {
+      "gitHub": "https://github.com/KhushiVaiskyar",
+      "LinkedIn": "https://www.linkedin.com/in/khushi-vaiskyar-953190235/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/KhushiVaiskyar/Usabilityhub",
+        "title": "Usability Hub",
+        "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "pankajktech",
+    "Social_media": {
+      "gitHub": "https://github.com/pankajktech",
+      "LinkedIn": "https://www.linkedin.com/in/pankajktech/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/pankajktech1"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/pankajktech/FindYourJob",
+        "title": "Find Your Job",
+        "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
+        "tech": ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "vk20july",
+    "Social_media": {
+      "gitHub": "https://github.com/vk20july",
+      "LinkedIn": "https://www.linkedin.com/in/vivek-kumar-tiwari-876b00212",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vk20july/Slither",
+        "title": "Slither",
+        "description": "Legendary Nokia Snake Game which would take you back to the good old days.",
+        "tech": ["python"]
+      }
+    ]
+  },
+  {
+    "github_username": "Abhinavcode13",
+    "Social_media": {
+      "gitHub": "https://github.com/Abhinavcode13",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav131/",
+      "Instagram": "https://www.instagram.com/abhinavxkumar/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Abhinavxkumar13"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Abhinavcode13/Personal-Movie-Recommender-with-python",
+        "title": "Movie recommender system ",
+        "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
+        "tech": ["python", "Machine learning"]
+      }
+    ]
+  },
+  {
+    "github_username": "dhruvishavaghani",
+    "Social_media": {
+      "gitHub": "https://github.com/dhruvishavaghani",
+      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dhruvishavaghani/Noted",
+        "title": "Noted",
+        "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "OMKAR-KALEPU",
+    "Social_media": {
+      "gitHub": "https://github.com/OMKAR-KALEPU",
+      "LinkedIn": "https://www.linkedin.com/in/omkar-kalepu-7a6718219/",
+      "Instagram": "https://www.instagram.com/omkar.kalepu/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Omkarstwt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/OMKAR-KALEPU/event_keycode",
+        "title": "event-keycode",
+        "description": "This is a simple project using HTML, CSS and JavaScript that displays the keycodes when a key is pressed.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Jranii",
+    "Social_media": {
+      "gitHub": "https://github.com/Jranii",
+      "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/JyotiRa94053552"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Jranii/My_Projects/tree/master/RazorpayClone",
+        "title": "Razorpay Clone",
+        "description": "It is a cloned frontend design of original Razorpay payment gateway.",
+        "tech": ["HTML", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "BALASARVAN12",
+    "Social_media": {
+      "gitHub": "https://github.com/BALASARVAN12",
+      "LinkedIn": "https://www.linkedin.com/in/bala-sarvan-vudathu-643b79227/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/BalaVudathu"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/BALASARVAN12/BUILDING-AN-EMAIL-CLIENT-USING-PYTHON",
+        "title": "Email Client Appilication using python",
+        "description": "There are two methods provide different capabilities for sending emails. The first approach allows you to send a single email, while the second approach expands on that by reading email data from a CSV file and sending bulk emails.",
+        "tech": ["python"]
+      }
+    ]
+  },
+  {
+    "github_username": "harshal2002",
+    "Social_media": {
+      "gitHub": "https://github.com/harshal2002",
+      "LinkedIn": "https://www.linkedin.com/in/harshalsj",
+      "Instagram": "https://www.instagram.com/harshal_jadhav619/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/HarshalJadhav84"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/harshal2002/NetflixClone",
+        "title": "Netflix Clone",
+        "description": "It is a static frontend clone of official Netflix website",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "kumar11jr",
+    "Social_media": {
+      "gitHub": "https://github.com/kumar11jr",
+      "LinkedIn": "https://www.linkedin.com/in/prabhat-kumar-157435244/",
+      "Instagram": "https://www.instagram.com/kumar_11jr/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Kumar_18jr"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kumar11jr/nodejs-openai-image",
+        "title": "Dalle clone",
+        "description": "DALL·E is a neural network model developed by OpenAI. It stands for Distributed and Adversarial Learning of Latent Embeddings, and it is designed to generate images from textual descriptions",
+        "tech": ["HTML", "CSS", "Node JS", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/pinax",
+        "title": "Pinax",
+        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
+        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
+      }
+    ]
+  }, 
+    { "github_username": "Roshnijeewani3457",
+    "Social_media": {
+      "gitHub": "https://github.com/Roshnijeewani3457",
+      "LinkedIn": "https://www.linkedin.com/in/roshni-jeewani-ab951621b/",
+      "Instagram": "https://www.instagram.com/r_jeewani8/",
+       "Twitter": "https://twitter.com/rjeewani555"
+  },
+ "Projects": [
+      {
+        "link": "https://github.com/Roshnijeewani3457/Fitness_Center_GLAMFIT",
+        "title": "Fitness Center",
+        "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+   ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+
         "link": "https://reactscorekeeper.netlify.app",
         "title": "Score Keeper",
         "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.",
@@ -1742,3 +2548,13 @@
     ]
   }
 ]
+
+        "link": "https://github.com/anirudhsalaria/TextGo",
+        "title": "TextGo",
+        "description": "Using TextGo you can perform multiple operations on your text.",
+        "tech": ["React JS","HTML5", "CSS3","BootStrap","JavaScript"]
+      }
+    ]
+  }  
+  ]
+
