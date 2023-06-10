@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 importers:
   .:
@@ -3707,7 +3711,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001497
-      electron-to-chromium: 1.4.425
+      electron-to-chromium: 1.4.426
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
 
@@ -4397,9 +4401,9 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /electron-to-chromium@1.4.425:
+  /electron-to-chromium@1.4.426:
     resolution:
-      { integrity: sha512-wv1NufHxu11zfDbY4fglYQApMswleE9FL/DSeyOyauVXDZ+Kco96JK/tPfBUaDqfRarYp2WH2hJ/5UnVywp9Jg== }
+      { integrity: sha512-dWuNH+XUT9hdFHASfMpcZGW5kUyJvllumJkXaXiswuCkoaFIFI89aykBPuHEi1YUWQGRCqvIO0BUdmeFJ4W4Ww== }
 
   /emittery@0.13.1:
     resolution:
@@ -8742,7 +8746,3 @@ packages:
     dependencies:
       tslib: 2.5.3
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
