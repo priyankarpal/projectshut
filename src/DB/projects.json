@@ -1,5 +1,23 @@
 [
   {
+    "github_username": "jiggy9",
+    "Social_media": {
+      "gitHub": "https://github.com/Jiggy9",
+      "LinkedIn": "https://www.linkedin.com/in/jigar-prajapati-246102249/",
+      "Instagram": "https://www.instagram.com/jigar_prajapati_999/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Jiggy_999"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Jiggy9/flutter-voice-assistant-app",
+        "title": "Voice Assistant App",
+        "description": "It is a Flutter voice assistant application where you can ask for any answer and it'll help through voice and text.",
+        "tech": ["Flutter", "Dart"]
+      }
+    ]
+  },
+  {
     "github_username": "Man07har",
     "Social_media": {
       "gitHub": "https://github.com/man07har",
@@ -1611,6 +1629,12 @@
         "title": "Google Keeper Clone",
         "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
         "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/Deepanshu0703/dragAndDrop",
+        "title": "Drag and Drop",
+        "description": "This is a drag and drop app made using HTML,CSS and Javascript. You can drag and drop the boxes to change their position.",
+        "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
   },
@@ -2460,5 +2484,57 @@
         "tech": ["HTML", "CSS", "Node JS", "javascript"]
       }
     ]
-  }
-]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/pinax",
+        "title": "Pinax",
+        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
+        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
+      }
+    ]
+  }, 
+    { "github_username": "Roshnijeewani3457",
+    "Social_media": {
+      "gitHub": "https://github.com/Roshnijeewani3457",
+      "LinkedIn": "https://www.linkedin.com/in/roshni-jeewani-ab951621b/",
+      "Instagram": "https://www.instagram.com/r_jeewani8/",
+       "Twitter": "https://twitter.com/rjeewani555"
+  },
+ "Projects": [
+      {
+        "link": "https://github.com/Roshnijeewani3457/Fitness_Center_GLAMFIT",
+        "title": "Fitness Center",
+        "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+   ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anirudhsalaria/TextGo",
+        "title": "TextGo",
+        "description": "Using TextGo you can perform multiple operations on your text.",
+        "tech": ["React JS","HTML5", "CSS3","BootStrap","JavaScript"]
+      }
+    ]
+  }  
+  ]

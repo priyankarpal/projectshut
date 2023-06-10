@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-wrap-multilines */
 /* eslint-disable linebreak-style */
 /* eslint-disable function-paren-newline */
 /* eslint-disable implicit-arrow-linebreak */
@@ -16,6 +17,7 @@ import techStack from '../utils/techStack';
 import { FilterContext } from '../context/FilterContext';
 import { searchProject } from '../utils/searchProject';
 import ProjectLoading from '../components/ProjectLoading';
+import { shuffleProjects } from '../utils/paginate';
 
 function ProjectsPage() {
   const Projects = [];
@@ -30,7 +32,7 @@ function ProjectsPage() {
 
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
   const [limit, setLimit] = useState(15);
-  const [visibleProjects, setVisibleProjects] = useState(Projects.slice(0, limit));
+  const [visibleProjects, setVisibleProjects] = useState(shuffleProjects(Projects).slice(0, limit));
 
   function loadMoreProjects() {
     if (selectedOptions.length !== 0) {
@@ -39,6 +41,7 @@ function ProjectsPage() {
     }
     setTimeout(() => {
       setLimit(limit + 15);
+
       setVisibleProjects(Projects.slice(0, limit + 15));
     }, 1200);
   }

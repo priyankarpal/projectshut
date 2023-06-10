@@ -60,10 +60,6 @@ function ProjectList() {
     setIsCopied(true);
   };
 
-  const handleModalClose = () => {
-    setIsOpenModal(!isOpenModal);
-  };
-
   return (
     <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
       {initialLoading && <Loader />}
@@ -75,7 +71,6 @@ function ProjectList() {
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
-          onClick={() => handleModalClose()}
         >
           {/* Back to projects link */}
           <div className="flex items-stretch">
@@ -86,7 +81,7 @@ function ProjectList() {
               </Link>
             </div>
             <div
-              className="mt-4 mb-2 ml-40 hover:text-purple-500 transition-all duration-300 ease-in-out flex"
+              className="mt-4 mb-2 ml-40 hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
               onClick={() => handleShareProfile()}
             >
               <span>
