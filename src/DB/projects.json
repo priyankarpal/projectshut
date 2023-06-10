@@ -2518,5 +2518,23 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
    ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anirudhsalaria/TextGo",
+        "title": "TextGo",
+        "description": "Using TextGo you can perform multiple operations on your text.",
+        "tech": ["React JS","HTML5", "CSS3","BootStrap","JavaScript"]
+      }
+    ]
   }  
   ]
