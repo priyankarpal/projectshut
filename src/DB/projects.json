@@ -2502,5 +2502,21 @@
         "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
       }
     ]
-  }
-]
+  }, 
+    { "github_username": "Roshnijeewani3457",
+    "Social_media": {
+      "gitHub": "https://github.com/Roshnijeewani3457",
+      "LinkedIn": "https://www.linkedin.com/in/roshni-jeewani-ab951621b/",
+      "Instagram": "https://www.instagram.com/r_jeewani8/",
+       "Twitter": "https://twitter.com/rjeewani555"
+  },
+ "Projects": [
+      {
+        "link": "https://github.com/Roshnijeewani3457/Fitness_Center_GLAMFIT",
+        "title": "Fitness Center",
+        "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+   ]
+  }  
+  ]
