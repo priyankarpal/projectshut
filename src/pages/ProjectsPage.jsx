@@ -96,7 +96,6 @@ function ProjectsPage() {
       </h1>
       <div className="flex items-center justify-center my-7 mx-20">
         <input
-          ref={inputRef}
           type="text"
           id="combo-box-demo"
           placeholder="Thea Theme"
@@ -104,6 +103,7 @@ function ProjectsPage() {
           style={{ color: 'black' }}
           onChange={handleChange}
           value={searchValue}
+          ref={inputRef}
         />
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
