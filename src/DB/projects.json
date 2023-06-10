@@ -2484,5 +2484,23 @@
         "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
       }
     ]
+  },
+  {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "https://github.com/vaibhav-xt",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@vaibhav-xt",
+      "Twitter": "https://twitter.com/vaibhav_txt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "title": "Certificate Generator",
+        "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
+        "tech": ["HTML", "CSS", "JavaScript", "html2canva"]
+      }
+    ]
   }
 ]
