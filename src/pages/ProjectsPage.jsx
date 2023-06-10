@@ -6,7 +6,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-use-before-define */
 
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, useRef } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearchParams } from 'react-router-dom';
 import { Button } from '@mui/material';
@@ -19,6 +19,7 @@ import ProjectLoading from '../components/ProjectLoading';
 
 function ProjectsPage() {
   const Projects = [];
+  const inputRef = useRef();
 
   projects.forEach((project) => {
     const username = project.github_username;
@@ -63,6 +64,10 @@ function ProjectsPage() {
   }
 
   useEffect(() => {
+    inputRef.current.focus();
+  }, []);
+
+  useEffect(() => {
     if (selectedOptions.length === 0) {
       setLimit(15);
       setVisibleProjects(Projects.slice(0, 15));
@@ -91,10 +96,11 @@ function ProjectsPage() {
       </h1>
       <div className="flex items-center justify-center my-7 mx-20">
         <input
+          ref={inputRef}
           type="text"
           id="combo-box-demo"
           placeholder="Thea Theme"
-          className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 "
+          className="custom hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent"
           style={{ color: 'black' }}
           onChange={handleChange}
           value={searchValue}
