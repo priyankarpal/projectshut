@@ -2555,5 +2555,24 @@
         "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
       }
     ]
-  }
+  },  
+  {
+    "github_username": "shagunZ",
+    "Social_media": {
+      "gitHub": "https://github.com/shagunZ",
+      "LinkedIn": "https://www.linkedin.com/in/shagunmengi",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/shagunZ/React-scoregame",
+        "title": "Score Keeper",
+        "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
+        "tech": ["ReactJS","JavaScript"]
+      }
+    ]
+  }  
 ]
+
