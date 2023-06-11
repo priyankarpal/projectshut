@@ -173,7 +173,7 @@ function ProjectList() {
         </div>
       )}
       {/* Projects lists */}
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
+      <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md ">
         {!initialLoading &&
           Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
@@ -189,7 +189,7 @@ function ProjectList() {
             >
               <div className=" border-b border-gray-600 p-4 relative">
                 <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
-                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
+                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">{project.description}</p>
                 <span className="absolute top-0 right-2">
                   <a
                     href={project.link}
@@ -203,7 +203,7 @@ function ProjectList() {
                 </span>
               </div>
               {/* Tech Stack section */}
-              <div className="flex flex-row items-center my-4 gap-4">
+              <div className="flex flex-row items-center m-4 gap-4">
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tag, i) => (
                     <p
