@@ -2555,7 +2555,38 @@
         "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
       }
     ]
+  },
+  {
+    "github_username": "HartzFrequency",
+    "Social_media": {
+      "gitHub": "https://github.com/HartzFrequency",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-shrivastava-95a524224/",
+      "Instagram": "https://www.instagram.com/harsh.shrivastava5/",
+      "YouTube": "",
+      "Twitter": ""
   },  
+    "Projects": [
+      {
+        "link": "https://github.com/HartzFrequency/Unified-Travelling-and-Transport-System",
+        "title": "Unified Travelling and Transport System",
+        "description": "The Unified Travelling and Transport System is a project aimed at developing a unified platform for all transportation-related activities. The platform provides features such as route planning, real-time tracking, fare estimation, and payment options for different modes of transport.",
+        "tech": ["python"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Movie_Rental_And_Buying_System",
+        "title": "Movie Rental and Buying System",
+        "description": "This project is a movie rental and buying system implemented in Cpp. The system allows users to browse catalog of movies, rent and buy movies, manage their rentals and purchases, and store user data using file handling.",
+        "tech": ["CPP"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Wave",
+        "title": "Wave: Discord Bot",
+        "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
+        "tech": ["python", "Discord API"]
+      }
+    ]
+  },
+  
   {
     "github_username": "shagunZ",
     "Social_media": {
@@ -2565,6 +2596,7 @@
       "YouTube": "",
       "Twitter": ""
     },
+  
     "Projects": [
       {
         "link": "https://github.com/shagunZ/React-scoregame",
@@ -2573,6 +2605,6 @@
         "tech": ["ReactJS","JavaScript"]
       }
     ]
-  }  
+  }
 ]
 
