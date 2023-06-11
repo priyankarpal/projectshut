@@ -66,22 +66,22 @@ function ProjectList() {
       {/* Left side profile section */}
       {!initialLoading && Object.keys(userObj).length > 0 && (
         <div
-          className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-10 "
+          className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
         >
           {/* Back to projects link */}
-          <div className="flex items-stretch">
-            <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+          <div className="flex items-center justify-between my-4">
+            <div className="hover:text-purple-500 transition-all duration-300 ease-in-out flex-grow flex gap-2 items-center">
               <Link to="/projectspage" className="flex items-stretch">
                 <ArrowLeftCircle size={20} className="mt-0.5" />
                 <span className="ml-2">Back to All Projects</span>
               </Link>
             </div>
             <div
-              className="mt-4 mb-2 ml-40 hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
+              className="hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
               onClick={() => handleShareProfile()}
             >
               <span>
@@ -103,7 +103,7 @@ function ProjectList() {
           <div className="justify-center items-center text-center py-5 ">
             <p className="text-sm break-words">{user.bio}</p>
           </div>
-          <div className="flex flex-row xsm:mx-auto my-2 mb-5">
+          <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
             {userObj.Social_media.gitHub !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
@@ -203,11 +203,11 @@ function ProjectList() {
                 </span>
               </div>
               {/* Tech Stack section */}
-              <div className="flex flex-row items-center mt-2 gap-4">
-                <div className="flex flex-wrap gap-2 m-3">
+              <div className="flex flex-row items-center my-4 gap-4">
+                <div className="flex flex-wrap gap-2">
                   {project.tech.map((tag, i) => (
                     <p
-                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase m-2 ${
+                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase mr-2 ${
                         theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
                       }`}
                       key={i.id}
@@ -238,8 +238,8 @@ function ProjectList() {
                 >
                   <div>
                     {' '}
-                    <p className="text-center font-bold mt-2"> Share Your Profile 🎉🎉🎉</p>
-                    <div className="md:w-10/12 ml-20 flex items-stretch mt-6">
+                    <p className="text-center font-bold mt-2 mb-6"> Share Your Profile 🎉🎉🎉</p>
+                    <div className="flex justify-center">
                       <input
                         className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
                         value={window.location.href}
