@@ -66,22 +66,22 @@ function ProjectList() {
       {/* Left side profile section */}
       {!initialLoading && Object.keys(userObj).length > 0 && (
         <div
-          className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-10 "
+          className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 "
           style={{
             background: theme?.navbar?.background,
             color: theme?.color,
           }}
         >
           {/* Back to projects link */}
-          <div className="flex items-stretch">
-            <div className="mt-4 mb-2 hover:text-purple-500 transition-all duration-300 ease-in-out flex gap-2 items-center">
+          <div className="flex items-center justify-between my-4">
+            <div className="hover:text-purple-500 transition-all duration-300 ease-in-out flex-grow flex gap-2 items-center">
               <Link to="/projectspage" className="flex items-stretch">
                 <ArrowLeftCircle size={20} className="mt-0.5" />
                 <span className="ml-2">Back to All Projects</span>
               </Link>
             </div>
             <div
-              className="mt-4 mb-2 ml-40 hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
+              className="hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
               onClick={() => handleShareProfile()}
             >
               <span>
@@ -103,7 +103,7 @@ function ProjectList() {
           <div className="justify-center items-center text-center py-5 ">
             <p className="text-sm break-words">{user.bio}</p>
           </div>
-          <div className="flex flex-row xsm:mx-auto my-2 mb-5">
+          <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
             {userObj.Social_media.gitHub !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
@@ -173,7 +173,7 @@ function ProjectList() {
         </div>
       )}
       {/* Projects lists */}
-      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
+      <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md ">
         {!initialLoading &&
           Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
@@ -189,7 +189,7 @@ function ProjectList() {
             >
               <div className=" border-b border-gray-600 p-4 relative">
                 <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
-                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
+                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">{project.description}</p>
                 <span className="absolute top-0 right-2">
                   <a
                     href={project.link}
@@ -203,11 +203,11 @@ function ProjectList() {
                 </span>
               </div>
               {/* Tech Stack section */}
-              <div className="flex flex-row items-center mt-2 gap-4">
-                <div className="flex flex-wrap gap-2 m-3">
+              <div className="flex flex-row items-center m-4 gap-4">
+                <div className="flex flex-wrap gap-2">
                   {project.tech.map((tag, i) => (
                     <p
-                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase m-2 ${
+                      className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase mr-2 ${
                         theme.mode === 'dark' ? 'text-black bg-white' : 'text-white bg-black'
                       }`}
                       key={i.id}
@@ -222,13 +222,13 @@ function ProjectList() {
       </div>
       {isOpenModal && (
         <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-          <div className="fixed  inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
+          <div className="fixed inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
 
-          <div className="fixed inset-0 z-10 overflow-y-auto ">
-            <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
-              <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 sm:w-full sm:max-w-lg ">
+          <div className="fixed inset-0 z-10 overflow-y-auto">
+            <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0 ">
+              <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 w-full sm:max-w-lg ">
                 <div
-                  className="bg-white mb-12 px-4 pb-4 pt-5 sm:p-6 sm:pb-4  basis-full relative "
+                  className="bg-white px-4 py-4 md:p-6 relative "
                   style={{
                     borderRadius: '10px',
                     background: theme?.navbar?.background,
@@ -236,26 +236,23 @@ function ProjectList() {
                     minHeight: '150px',
                   }}
                 >
-                  <div>
-                    {' '}
-                    <p className="text-center font-bold mt-2"> Share Your Profile 🎉🎉🎉</p>
-                    <div className="md:w-10/12 ml-20 flex items-stretch mt-6">
-                      <input
-                        className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
-                        value={window.location.href}
-                        disabled
-                      />
-                      <button onClick={() => copyText()}>
-                        {isCopied ? (
-                          <div className="flex items-stretch ">
-                            <Check style={{ color: 'green', fontSize: '5rem' }} />
-                            <p className="text-green-800">Copied</p>
-                          </div>
-                        ) : (
-                          <Copy style={{ fontSize: '5rem' }} />
-                        )}
-                      </button>
-                    </div>
+                  <p className="text-center font-bold mt-2 mb-4"> Share Your Profile 🎉🎉🎉</p>
+                  <div className="flex justify-center w-full">
+                    <input
+                      className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
+                      value={window.location.href}
+                      disabled
+                    />
+                    <button onClick={() => copyText()}>
+                      {isCopied ? (
+                        <div className="flex items-stretch ">
+                          <Check style={{ color: 'green', fontSize: '5rem' }} />
+                          <p className="text-green-800">Copied</p>
+                        </div>
+                      ) : (
+                        <Copy style={{ fontSize: '5rem' }} />
+                      )}
+                    </button>
                   </div>
 
                   <button className="absolute top-5 right-7" onClick={() => setIsOpenModal(false)}>
