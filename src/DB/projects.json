@@ -2502,22 +2502,41 @@
         "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
       }
     ]
-  }, 
-    { "github_username": "Roshnijeewani3457",
+  },
+  {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "https://github.com/vaibhav-xt",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@vaibhav-xt",
+      "Twitter": "https://twitter.com/vaibhav_txt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "title": "Certificate Generator",
+        "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
+        "tech": ["HTML", "CSS", "JavaScript", "html2canva"]
+      }
+    ]
+  },
+  {
+    "github_username": "Roshnijeewani3457",
     "Social_media": {
       "gitHub": "https://github.com/Roshnijeewani3457",
       "LinkedIn": "https://www.linkedin.com/in/roshni-jeewani-ab951621b/",
       "Instagram": "https://www.instagram.com/r_jeewani8/",
-       "Twitter": "https://twitter.com/rjeewani555"
-  },
- "Projects": [
+      "Twitter": "https://twitter.com/rjeewani555"
+    },
+    "Projects": [
       {
         "link": "https://github.com/Roshnijeewani3457/Fitness_Center_GLAMFIT",
         "title": "Fitness Center",
         "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
         "tech": ["HTML", "CSS", "Javascript"]
       }
-   ]
+    ]
   },
   {
     "github_username": "anirudhsalaria",
@@ -2533,7 +2552,7 @@
         "link": "https://github.com/anirudhsalaria/TextGo",
         "title": "TextGo",
         "description": "Using TextGo you can perform multiple operations on your text.",
-        "tech": ["React JS","HTML5", "CSS3","BootStrap","JavaScript"]
+        "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
       }
     ]
   },  
@@ -2555,4 +2574,5 @@
       }
     ]
   }  
-  ]
+]
+
