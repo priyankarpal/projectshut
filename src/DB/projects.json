@@ -2666,6 +2666,25 @@
     }
   ]
 },
+ 
+  {
+  "github_username": "siddarthdayala",
+  "Social_media": {
+    "gitHub": "https://github.com/siddarthdayala",
+    "LinkedIn": "https://www.linkedin.com/in/siddarth-dayala-35b962225/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/siddarthdayala/Encipher-Decipher",
+      "title": "Encipher | Decipher",
+      "description": "A simple encryption/decryption website which allows users to encrypt/decrypt messages using three different cryptographic ciphers along with a key",
+      "tech": ["HTML", "CSS", "JavaScript", "Responsive CSS"]
+    }
+    ]
+    },
   {
   "github_username": "Atharvashirsh",
   "Social_media": {
