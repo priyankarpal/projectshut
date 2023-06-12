@@ -1,5 +1,23 @@
 [
   {
+    "github_username": "Ajay-Dhangar",
+    "Social_media": {
+      "gitHub": "https://github.com/Ajay-Dhangar",
+      "LinkedIn": "https://www.linkedin.com/in/ajay-dhangar/",
+      "Instagram": "https://www.instagram.com/_ajay.dhangar/",
+      "YouTube": "https://www.youtube.com/@Ajay-Dhangar",
+      "Twitter": "https://twitter.com/AJAYDHA27250016"
+    },
+    "Projects": [
+      {
+        "link": "https://javascript-mastery.github.io/javascript-mastery/Projects/github-api/",
+        "title": "GitHub User Profile",
+        "description": "https://github.com/JavaScript-Mastery/javascript-mastery/blob/main/Projects/github-api/README.md",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
+  },
+  {
     "github_username": "jiggy9",
     "Social_media": {
       "gitHub": "https://github.com/Jiggy9",
@@ -184,6 +202,12 @@
         "title": "Editor",
         "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
         "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/NeuralMind",
+        "title": "NeuralMind",
+        "description": "User can add product description and the AI model will learn about it. Later it can be used by customers and clients to know about product.",
+        "tech": ["HTML", "CSS", "NodeJS", "ReactJS"]
       }
     ]
   },
@@ -2504,6 +2528,24 @@
     ]
   },
   {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "https://github.com/vaibhav-xt",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@vaibhav-xt",
+      "Twitter": "https://twitter.com/vaibhav_txt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "title": "Certificate Generator",
+        "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
+        "tech": ["HTML", "CSS", "JavaScript", "html2canva"]
+      }
+    ]
+  },
+  {
     "github_username": "Roshnijeewani3457",
     "Social_media": {
       "gitHub": "https://github.com/Roshnijeewani3457",
@@ -2535,6 +2577,129 @@
         "title": "TextGo",
         "description": "Using TextGo you can perform multiple operations on your text.",
         "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "HartzFrequency",
+    "Social_media": {
+      "gitHub": "https://github.com/HartzFrequency",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-shrivastava-95a524224/",
+      "Instagram": "https://www.instagram.com/harsh.shrivastava5/",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/HartzFrequency/Unified-Travelling-and-Transport-System",
+        "title": "Unified Travelling and Transport System",
+        "description": "The Unified Travelling and Transport System is a project aimed at developing a unified platform for all transportation-related activities. The platform provides features such as route planning, real-time tracking, fare estimation, and payment options for different modes of transport.",
+        "tech": ["python"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Movie_Rental_And_Buying_System",
+        "title": "Movie Rental and Buying System",
+        "description": "This project is a movie rental and buying system implemented in Cpp. The system allows users to browse catalog of movies, rent and buy movies, manage their rentals and purchases, and store user data using file handling.",
+        "tech": ["CPP"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Wave",
+        "title": "Wave: Discord Bot",
+        "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
+        "tech": ["python", "Discord API"]
+      }
+    ]
+  },
+
+  {
+    "github_username": "shagunZ",
+    "Social_media": {
+      "gitHub": "https://github.com/shagunZ",
+      "LinkedIn": "https://www.linkedin.com/in/shagunmengi",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+
+    "Projects": [
+      {
+        "link": "https://github.com/shagunZ/React-scoregame",
+        "title": "Score Keeper",
+        "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
+        "tech": ["ReactJS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "swethapaleti",
+    "Social_media": {
+      "gitHub": "https://github.com/swethapaleti",
+      "LinkedIn": "https://www.linkedin.com/in/swethapaleti",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/swethapaleti/jobby-app",
+        "title": "Jobby App",
+        "description": "A job portal built using React.JS and with mobile-first responsive design. This project provides various filters for filtering a large set of jobs fetched from an API. This project also uses JWT for authentication.",
+        "tech": ["ReactJS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/weather-app",
+        "title": "Weather App",
+        "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
+        "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+      }
+    ]
+  },
+
+  {
+    "github_username": "siddarthdayala",
+    "Social_media": {
+      "gitHub": "https://github.com/siddarthdayala",
+      "LinkedIn": "https://www.linkedin.com/in/siddarth-dayala-35b962225/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/siddarthdayala/Encipher-Decipher",
+        "title": "Encipher | Decipher",
+        "description": "A simple encryption/decryption website which allows users to encrypt/decrypt messages using three different cryptographic ciphers along with a key",
+        "tech": ["HTML", "CSS", "JavaScript", "Responsive CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Atharvashirsh",
+    "Social_media": {
+      "gitHub": "https://github.com/Atharvashirsh",
+      "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/atharva_tiwary"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/Weather-App",
+        "title": "Weather App",
+        "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
+        "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
       }
     ]
   }
