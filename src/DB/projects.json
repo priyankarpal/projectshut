@@ -2641,7 +2641,24 @@
         "tech": ["ReactJS","JavaScript"]
       }
     ]
-  }
-
+  },
+  {
+  "github_username": "coderhersh",
+  "Social_media": {
+    "gitHub": "https://github.com/coderhersh",
+    "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Hersch_dev"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/coderhersh/weather-app",
+      "title": "Weather App",
+      "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
+      "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+    }
+  ]
+}
 ]
 
