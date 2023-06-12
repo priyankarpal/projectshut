@@ -202,6 +202,12 @@
         "title": "Editor",
         "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
         "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/NeuralMind",
+        "title": "NeuralMind",
+        "description": "User can add product description and the AI model will learn about it. Later it can be used by customers and clients to know about product.",
+        "tech": ["HTML", "CSS", "NodeJS", "ReactJS"]
       }
     ]
   },
