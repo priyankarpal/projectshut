@@ -10,7 +10,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearchParams } from 'react-router-dom';
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
@@ -105,14 +105,16 @@ function ProjectsPage() {
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
-          <Button
+          <button
+            type="button"
             key={index.id}
             onClick={() => handleOptionClick(tech)}
-            variant={selectedOptions.includes(tech) ? 'contained' : 'outlined'}
-            className="bg-primary hover:bg-slate-200"
+            className={`${
+              selectedOptions.includes(tech) ? 'bg-primary text-white' : 'border border-primary text-white'
+            } rounded-sm p-2`}
           >
-            <span className={selectedOptions.includes(tech) ? 'text-white' : 'text-primary'}>{tech.toLowerCase()}</span>
-          </Button>
+            <span>{tech.toLowerCase()}</span>
+          </button>
         ))}
       </div>
 
