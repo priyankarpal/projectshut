@@ -1,11 +1,14 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import { GitBranch, FileText, UploadCloud } from 'react-feather';
-import React from 'react';
+import React, { useEffect } from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 function AddYourProjectsGuide() {
-  window.scrollTo(0, 0);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const codeString = `
     {
       "github_username": "YOUR_GITHUB_USERNAME",  
@@ -31,6 +34,24 @@ function AddYourProjectsGuide() {
         }
       ]
   }`;
+
+  const copyCode = (e) => {
+    const code = e.nativeEvent.srcElement.parentElement.nextElementSibling.innerText;
+    const copyFlag = e.nativeEvent.srcElement;
+
+    navigator.clipboard
+      .writeText(code)
+      .then(() => {
+        console.log('Code copied successfully!');
+        copyFlag.innerText = 'copied!';
+      })
+      .catch((error) => {
+        console.error('Error copying code:', error);
+      });
+    setTimeout(() => {
+      copyFlag.innerText = 'copy';
+    }, 3000);
+  };
 
   return (
     <section className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -70,7 +91,7 @@ function AddYourProjectsGuide() {
             alt="Fork the repo"
             className="mt-5"
           />
-          <div className="mt-5 flex items-center gap-5">
+          <div className="mt-5 flex items-center gap-5 relative">
             <span>
               <FileText size={18} />
             </span>
@@ -87,7 +108,7 @@ function AddYourProjectsGuide() {
             className="mt-5"
           />
 
-          <div className="mt-5 flex items-center gap-5">
+          <div className="mt-5 flex items-center gap-5 relative">
             <span>
               <FileText size={18} />
             </span>
@@ -98,7 +119,7 @@ function AddYourProjectsGuide() {
           <SyntaxHighlighter language="json" style={a11yDark}>
             {codeString}
           </SyntaxHighlighter>
-          <div className="flex items-center gap-5 mt-5">
+          <div className="flex items-center gap-5 mt-5 relative">
             <span>
               <UploadCloud size={18} />
             </span>
@@ -109,7 +130,7 @@ function AddYourProjectsGuide() {
             alt="add professional commits like this"
             className="mt-5"
           />
-          <div className="flex items-center gap-5 mt-5">
+          <div className="flex items-center gap-5 mt-5 relative">
             <span>
               <UploadCloud size={18} />
             </span>
@@ -122,7 +143,7 @@ function AddYourProjectsGuide() {
             className="mt-5"
           />
         </div>
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
@@ -132,35 +153,44 @@ function AddYourProjectsGuide() {
           </p>
         </div>
 
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git clone https://github.com/[your-username]/ProjectsHut.git
         </SyntaxHighlighter>
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           cd ProjectsHut
         </SyntaxHighlighter>
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           pnpm i
         </SyntaxHighlighter>
 
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
@@ -168,47 +198,59 @@ function AddYourProjectsGuide() {
             {' '}
             Create a new branch using your `GitHub Username`
           </p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git checkout -b [name_of_your_new_branch]
         </SyntaxHighlighter>
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           pnpm dev
         </SyntaxHighlighter>
 
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
         </div>
 
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git add .
         </SyntaxHighlighter>
-        <div className="mt-5 flex items-center gap-5">
+        <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git commit -m &quot;Added [your-changes]&quot;
         </SyntaxHighlighter>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
@@ -216,42 +258,54 @@ function AddYourProjectsGuide() {
             {' '}
             If you encounter this error while commits
           </p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           husky - pre-commit hook exited with code 1(error)
         </SyntaxHighlighter>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           pnpm format
         </SyntaxHighlighter>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
         </SyntaxHighlighter>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
+          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            copy
+          </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
           git push origin [Your-branch-name]
         </SyntaxHighlighter>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>

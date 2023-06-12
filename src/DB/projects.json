@@ -1,22 +1,22 @@
 [
   {
-  "github_username": "Ajay-Dhangar",
-  "Social_media": {
-    "gitHub": "https://github.com/Ajay-Dhangar",
-    "LinkedIn": "https://www.linkedin.com/in/ajay-dhangar/",
-    "Instagram": "https://www.instagram.com/_ajay.dhangar/",
-    "YouTube": "https://www.youtube.com/@Ajay-Dhangar",
-    "Twitter": "https://twitter.com/AJAYDHA27250016"
+    "github_username": "Ajay-Dhangar",
+    "Social_media": {
+      "gitHub": "https://github.com/Ajay-Dhangar",
+      "LinkedIn": "https://www.linkedin.com/in/ajay-dhangar/",
+      "Instagram": "https://www.instagram.com/_ajay.dhangar/",
+      "YouTube": "https://www.youtube.com/@Ajay-Dhangar",
+      "Twitter": "https://twitter.com/AJAYDHA27250016"
+    },
+    "Projects": [
+      {
+        "link": "https://javascript-mastery.github.io/javascript-mastery/Projects/github-api/",
+        "title": "GitHub User Profile",
+        "description": "https://github.com/JavaScript-Mastery/javascript-mastery/blob/main/Projects/github-api/README.md",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://javascript-mastery.github.io/javascript-mastery/Projects/github-api/",
-      "title": "GitHub User Profile",
-      "description": "https://github.com/JavaScript-Mastery/javascript-mastery/blob/main/Projects/github-api/README.md",
-      "tech": ["HTML5", "CSS3", "JavaScript"]
-    }    
-  ]
-},  
   {
     "github_username": "jiggy9",
     "Social_media": {
@@ -2582,7 +2582,7 @@
       "Instagram": "https://www.instagram.com/harsh.shrivastava5/",
       "YouTube": "",
       "Twitter": ""
-  },  
+    },
     "Projects": [
       {
         "link": "https://github.com/HartzFrequency/Unified-Travelling-and-Transport-System",
@@ -2604,7 +2604,7 @@
       }
     ]
   },
-  
+
   {
     "github_username": "shagunZ",
     "Social_media": {
@@ -2614,13 +2614,13 @@
       "YouTube": "",
       "Twitter": ""
     },
-  
+
     "Projects": [
       {
         "link": "https://github.com/shagunZ/React-scoregame",
         "title": "Score Keeper",
         "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
-        "tech": ["ReactJS","JavaScript"]
+        "tech": ["ReactJS", "JavaScript"]
       }
     ]
   },
@@ -2638,27 +2638,26 @@
         "link": "https://github.com/swethapaleti/jobby-app",
         "title": "Jobby App",
         "description": "A job portal built using React.JS and with mobile-first responsive design. This project provides various filters for filtering a large set of jobs fetched from an API. This project also uses JWT for authentication.",
-        "tech": ["ReactJS","JavaScript"]
+        "tech": ["ReactJS", "JavaScript"]
       }
     ]
   },
   {
-  "github_username": "coderhersh",
-  "Social_media": {
-    "gitHub": "https://github.com/coderhersh",
-    "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
-    "Instagram": "",
-    "YouTube": "",
-    "Twitter": "https://twitter.com/Hersch_dev"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/coderhersh/weather-app",
-      "title": "Weather App",
-      "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
-      "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
-    }
-  ]
-}
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/weather-app",
+        "title": "Weather App",
+        "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
+        "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+      }
+    ]
+  }
 ]
-
