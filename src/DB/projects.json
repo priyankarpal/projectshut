@@ -2665,6 +2665,24 @@
       "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
     }
   ]
+},
+  {
+  "github_username": "Atharvashirsh",
+  "Social_media": {
+    "gitHub": "https://github.com/Atharvashirsh",
+    "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/atharva_tiwary"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Atharvashirsh/Weather-App",
+      "title": "Weather App",
+      "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
+      "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
+    }
+  ]
 }
 ]
 
