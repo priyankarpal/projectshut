@@ -1,22 +1,12 @@
-export const paginate = (projects) => {
-  let shuffledProjects = shuffleProjects(projects);
-
-  const itemsPerPage = 9;
-
-  const pages = Math.ceil(shuffledProjects.length / itemsPerPage);
-
-  const newProjects = Array.from({ length: pages }, (item, index) => {
-    let start = itemsPerPage * index;
-
-    return shuffledProjects.slice(start, start + itemsPerPage);
-  });
-
-  return newProjects;
-};
-
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-plusplus */
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable no-use-before-define */
+/* eslint-disable prefer-const */
+/* eslint-disable spaced-comment */
 //used Fisher–Yates Shuffle to avoid the expensive array operations
 
-const shuffleProjects = (project) => {
+export const shuffleProjects = (project) => {
   let i = project.length;
 
   let j = 0;

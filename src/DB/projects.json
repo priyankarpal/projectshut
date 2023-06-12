@@ -1,5 +1,41 @@
 [
   {
+  "github_username": "Ajay-Dhangar",
+  "Social_media": {
+    "gitHub": "https://github.com/Ajay-Dhangar",
+    "LinkedIn": "https://www.linkedin.com/in/ajay-dhangar/",
+    "Instagram": "https://www.instagram.com/_ajay.dhangar/",
+    "YouTube": "https://www.youtube.com/@Ajay-Dhangar",
+    "Twitter": "https://twitter.com/AJAYDHA27250016"
+  },
+  "Projects": [
+    {
+      "link": "https://javascript-mastery.github.io/javascript-mastery/Projects/github-api/",
+      "title": "GitHub User Profile",
+      "description": "https://github.com/JavaScript-Mastery/javascript-mastery/blob/main/Projects/github-api/README.md",
+      "tech": ["HTML5", "CSS3", "JavaScript"]
+    }    
+  ]
+},  
+  {
+    "github_username": "jiggy9",
+    "Social_media": {
+      "gitHub": "https://github.com/Jiggy9",
+      "LinkedIn": "https://www.linkedin.com/in/jigar-prajapati-246102249/",
+      "Instagram": "https://www.instagram.com/jigar_prajapati_999/",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Jiggy_999"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Jiggy9/flutter-voice-assistant-app",
+        "title": "Voice Assistant App",
+        "description": "It is a Flutter voice assistant application where you can ask for any answer and it'll help through voice and text.",
+        "tech": ["Flutter", "Dart"]
+      }
+    ]
+  },
+  {
     "github_username": "Man07har",
     "Social_media": {
       "gitHub": "https://github.com/man07har",
@@ -2466,5 +2502,163 @@
         "tech": ["HTML", "CSS", "Node JS", "javascript"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "coderhersh",
+    "Social_media": {
+      "gitHub": "https://github.com/coderhersh",
+      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/Hersch_dev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/coderhersh/pinax",
+        "title": "Pinax",
+        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
+        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
+      }
+    ]
+  },
+  {
+    "github_username": "vaibhav-xt",
+    "Social_media": {
+      "gitHub": "https://github.com/vaibhav-xt",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "Instagram": "",
+      "YouTube": "https://www.youtube.com/@vaibhav-xt",
+      "Twitter": "https://twitter.com/vaibhav_txt"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "title": "Certificate Generator",
+        "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
+        "tech": ["HTML", "CSS", "JavaScript", "html2canva"]
+      }
+    ]
+  },
+  {
+    "github_username": "Roshnijeewani3457",
+    "Social_media": {
+      "gitHub": "https://github.com/Roshnijeewani3457",
+      "LinkedIn": "https://www.linkedin.com/in/roshni-jeewani-ab951621b/",
+      "Instagram": "https://www.instagram.com/r_jeewani8/",
+      "Twitter": "https://twitter.com/rjeewani555"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Roshnijeewani3457/Fitness_Center_GLAMFIT",
+        "title": "Fitness Center",
+        "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "anirudhsalaria",
+    "Social_media": {
+      "gitHub": "https://github.com/anirudhsalaria",
+      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
+      "Instagram": "https://www.instagram.com/salariaanirudh",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anirudhsalaria/TextGo",
+        "title": "TextGo",
+        "description": "Using TextGo you can perform multiple operations on your text.",
+        "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "HartzFrequency",
+    "Social_media": {
+      "gitHub": "https://github.com/HartzFrequency",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-shrivastava-95a524224/",
+      "Instagram": "https://www.instagram.com/harsh.shrivastava5/",
+      "YouTube": "",
+      "Twitter": ""
+  },  
+    "Projects": [
+      {
+        "link": "https://github.com/HartzFrequency/Unified-Travelling-and-Transport-System",
+        "title": "Unified Travelling and Transport System",
+        "description": "The Unified Travelling and Transport System is a project aimed at developing a unified platform for all transportation-related activities. The platform provides features such as route planning, real-time tracking, fare estimation, and payment options for different modes of transport.",
+        "tech": ["python"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Movie_Rental_And_Buying_System",
+        "title": "Movie Rental and Buying System",
+        "description": "This project is a movie rental and buying system implemented in Cpp. The system allows users to browse catalog of movies, rent and buy movies, manage their rentals and purchases, and store user data using file handling.",
+        "tech": ["CPP"]
+      },
+      {
+        "link": "https://github.com/HartzFrequency/Wave",
+        "title": "Wave: Discord Bot",
+        "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
+        "tech": ["python", "Discord API"]
+      }
+    ]
+  },
+  
+  {
+    "github_username": "shagunZ",
+    "Social_media": {
+      "gitHub": "https://github.com/shagunZ",
+      "LinkedIn": "https://www.linkedin.com/in/shagunmengi",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+  
+    "Projects": [
+      {
+        "link": "https://github.com/shagunZ/React-scoregame",
+        "title": "Score Keeper",
+        "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
+        "tech": ["ReactJS","JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "swethapaleti",
+    "Social_media": {
+      "gitHub": "https://github.com/swethapaleti",
+      "LinkedIn": "https://www.linkedin.com/in/swethapaleti",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/swethapaleti/jobby-app",
+        "title": "Jobby App",
+        "description": "A job portal built using React.JS and with mobile-first responsive design. This project provides various filters for filtering a large set of jobs fetched from an API. This project also uses JWT for authentication.",
+        "tech": ["ReactJS","JavaScript"]
+      }
+    ]
+  },
+  {
+  "github_username": "coderhersh",
+  "Social_media": {
+    "gitHub": "https://github.com/coderhersh",
+    "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": "https://twitter.com/Hersch_dev"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/coderhersh/weather-app",
+      "title": "Weather App",
+      "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
+      "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+    }
+  ]
+}
 ]
+
