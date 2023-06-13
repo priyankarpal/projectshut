@@ -7,7 +7,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-use-before-define */
 
-import React, { useContext, useEffect, useState, useRef } from 'react';
+import React, { useContext, useEffect, useState} from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearchParams } from 'react-router-dom';
 // import { Button } from '@mui/material';
@@ -18,10 +18,12 @@ import { FilterContext } from '../context/FilterContext';
 import { searchProject } from '../utils/searchProject';
 import ProjectLoading from '../components/ProjectLoading';
 import { shuffleProjects } from '../utils/paginate';
+import {ThemeContext} from '../context/Theme';
 
 function ProjectsPage() {
   const Projects = [];
-  const inputRef = useRef();
+  const { theme } = useContext(ThemeContext);
+ 
 
   projects.forEach((project) => {
     const username = project.github_username;
@@ -67,10 +69,6 @@ function ProjectsPage() {
   }
 
   useEffect(() => {
-    inputRef.current.focus();
-  }, []);
-
-  useEffect(() => {
     if (selectedOptions.length === 0) {
       setLimit(15);
       setVisibleProjects(Projects.slice(0, 15));
@@ -102,11 +100,9 @@ function ProjectsPage() {
           type="text"
           id="combo-box-demo"
           placeholder="Thea Theme"
-          className="custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent"
-          style={{ color: 'black' }}
+          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${ theme.mode === 'light' ? 'text-black' : 'text-white'}`}
           onChange={handleChange}
           value={searchValue}
-          ref={inputRef}
         />
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
