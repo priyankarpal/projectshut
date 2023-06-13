@@ -23,7 +23,7 @@ import { ThemeContext } from '../context/Theme';
 function ProjectsPage() {
   const Projects = [];
   const { theme } = useContext(ThemeContext);
-
+  
   projects.forEach((project) => {
     const username = project.github_username;
     project.Projects.forEach((proj) => {
@@ -112,9 +112,10 @@ function ProjectsPage() {
             type="button"
             key={index.id}
             onClick={() => handleOptionClick(tech)}
-            className={`${
-              selectedOptions.includes(tech) ? 'bg-primary text-white' : 'border border-primary text-white'
-            } rounded-sm p-2`}
+            className={`${selectedOptions.includes(tech) ? 'bg-primary' : 'border border-primary'} rounded-sm p-2`}
+            style={{
+              color: theme?.color,
+            }}
           >
             <span>{tech.toLowerCase()}</span>
           </button>
