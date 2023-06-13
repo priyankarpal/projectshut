@@ -202,6 +202,12 @@
         "title": "Editor",
         "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
         "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/NeuralMind",
+        "title": "NeuralMind",
+        "description": "User can add product description and the AI model will learn about it. Later it can be used by customers and clients to know about product.",
+        "tech": ["HTML", "CSS", "NodeJS", "ReactJS"]
       }
     ]
   },
@@ -2657,6 +2663,42 @@
         "title": "Weather App",
         "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "siddarthdayala",
+    "Social_media": {
+      "gitHub": "https://github.com/siddarthdayala",
+      "LinkedIn": "https://www.linkedin.com/in/siddarth-dayala-35b962225/",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/siddarthdayala/Encipher-Decipher",
+        "title": "Encipher | Decipher",
+        "description": "A simple encryption/decryption website which allows users to encrypt/decrypt messages using three different cryptographic ciphers along with a key",
+        "tech": ["HTML", "CSS", "JavaScript", "Responsive CSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "Atharvashirsh",
+    "Social_media": {
+      "gitHub": "https://github.com/Atharvashirsh",
+      "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/atharva_tiwary"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/Weather-App",
+        "title": "Weather App",
+        "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
+        "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
       }
     ]
   }
