@@ -91,6 +91,10 @@ body {
   animation-iteration-count: infinite;
 }
 
+input.custom {
+  caret-color: purple;
+}
+
 @tailwind components;
 @tailwind utilities;
 

@@ -23,6 +23,7 @@ import { ThemeContext } from '../context/Theme';
 function ProjectsPage() {
   const Projects = [];
   const { theme } = useContext(ThemeContext);
+  
   projects.forEach((project) => {
     const username = project.github_username;
     project.Projects.forEach((proj) => {
@@ -98,8 +99,9 @@ function ProjectsPage() {
           type="text"
           id="combo-box-demo"
           placeholder="Thea Theme"
-          className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2"
-          style={{ color: 'black' }}
+          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${
+            theme.mode === 'light' ? 'text-black' : 'text-white'
+          }`}
           onChange={handleChange}
           value={searchValue}
         />
