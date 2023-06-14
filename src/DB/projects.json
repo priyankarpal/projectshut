@@ -2199,6 +2199,12 @@
         "title": "Restaurant Website",
         "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
         "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git",
+        "title": "Disney+ Hotstar Clone",
+        "description": "A Web application that replicates the features of the popular streaming platform, Disney+ Hotstar.",
+        "tech": ["ReactJs", "CSS", "Firebase"]
       }
     ]
   },
