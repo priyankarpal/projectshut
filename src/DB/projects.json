@@ -1,5 +1,46 @@
 [
   {
+      "github_username": "Parmesh119",  
+      "Social_media": {
+        "gitHub": "https://github.com/Parmesh119",
+        "LinkedIn": "https://www.linkedin.com/in/parmesh-bhatt-277971221/",
+        "Instagram": "https://www.instagram.com/prmes_.119/?igshid=ZDdkNTZiNTM%3D",
+        "Twitter": "https://twitter.com/Parmesh_119"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
+          "title": "Medical Chatbot using Google Cloud",
+          "description": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies. The big cities have many facilities but small village people cannot go to big cities and afford the cost. With the use of these ChatBots, if they have small smartphones they can easily get the solution.",
+          "tech": ["Dialogflow", "Google Cloud"]
+        },
+        {
+          "link": "https://github.com/Parmesh119/CityTrack",
+          "title": "The CityTrack",
+          "description": "This website works in a simple way. First of all, every person has to register themselves. After that, they can see the services, and also after that, they can easily file a complaint to the specific government body. In the common citizen section, they can easily fill out the complaint form.",
+          "tech": ["React.js", "PHP"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/TextUtils",
+          "title": "TextUtils",
+          "description": "React Application",
+          "tech": ["React.js", "JS"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/CodeClause_GitHub_Explorer",
+          "title": "GitHub Explorer",
+          "description": "This is the application where if the user wants to know the details of another user's GitHub account then they can just have to enter the username of the other user.",
+          "tech": ["Git and GitHub", "JS"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
+          "title": "Advance Clock",
+          "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
+          "tech": ["UI/UX", "JS"]
+        }
+      ]
+  },
+  {
     "github_username": "Ajay-Dhangar",
     "Social_media": {
       "gitHub": "https://github.com/Ajay-Dhangar",
