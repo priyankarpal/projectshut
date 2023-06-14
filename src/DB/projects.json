@@ -2199,6 +2199,12 @@
         "title": "Restaurant Website",
         "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
         "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git",
+        "title": "Disney+ Hotstar Clone",
+        "description": "A Web application that replicates the features of the popular streaming platform, Disney+ Hotstar.",
+        "tech": ["ReactJs", "CSS", "Firebase"]
       }
     ]
   },
@@ -2700,6 +2706,24 @@
         "title": "Weather App",
         "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
         "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
+      }
+    ]
+  },
+  {
+    "github_username": "dhruvishavaghani",
+    "Social_media": {
+      "gitHub": "https://github.com/dhruvishavaghani",
+      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dhruvishavaghani/NewsZilla",
+        "title": "NewsZilla",
+        "description": "NewsZilla is a live news website with all categories of news.",
+        "tech": ["HTML", "CSS", "ReactJs"]
       }
     ]
   }
