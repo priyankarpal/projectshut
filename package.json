@@ -21,9 +21,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@headlessui/react": "^1.7.15",
-    "@mui/material": "^5.13.5",
-    "@mui/styled-engine-sc": "^5.12.0",
     "ci": "^2.2.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -31,7 +28,6 @@
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
     "react-infinite-scroll-component": "^6.1.0",
-    "react-paginate": "^8.2.0",
     "react-router-dom": "^6.12.1",
     "react-syntax-highlighter": "^15.5.0",
     "react-toastify": "^9.1.3",
