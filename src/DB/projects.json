@@ -2338,5 +2338,21 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
+  },
+    {
+    "github_username": "aparna03dubey",
+    "Social_media": {
+      "gitHub": "https://github.com/aparna03dubey",
+      "LinkedIn": "https://www.linkedin.com/in/aparna-dubey-941887225/",
+     
+    },
+    "Projects": [
+      {
+        "link": "https://aparna03dubey.github.io/Water-Tracker.github.io/",
+        "title": "Water-Tracker",
+        "description": "A web application that counts the daily water intake of an indivisual.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
   }
 ]
