@@ -2322,5 +2322,23 @@
         "tech": ["HTML", "CSS", "MySQL", "PHP"]
       }
     ]
+  },
+  {
+      "github_username": "killerraj369",  
+      "Social_media": {
+        "gitHub": "https://github.com/killerraj369",
+        "LinkedIn": "https://www.linkedin.com/in/vaibhav-raj-229967218/",
+        "Instagram": "",
+        "YouTube": "",
+        "Twitter": ""
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/killerraj369/CodeHelper",
+          "title": "CodeHelper Discord Bot",
+          "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
+          "tech": ["Node.js", "Express.js","Discord.js","RapidApi"]
+        },
+      ]
   }
 ]
