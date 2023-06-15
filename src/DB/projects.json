@@ -1,44 +1,44 @@
 [
   {
-      "github_username": "Parmesh119",  
-      "Social_media": {
-        "gitHub": "https://github.com/Parmesh119",
-        "LinkedIn": "https://www.linkedin.com/in/parmesh-bhatt-277971221/",
-        "Instagram": "https://www.instagram.com/prmes_.119/?igshid=ZDdkNTZiNTM%3D",
-        "Twitter": "https://twitter.com/Parmesh_119"
+    "github_username": "Parmesh119",
+    "Social_media": {
+      "gitHub": "https://github.com/Parmesh119",
+      "LinkedIn": "https://www.linkedin.com/in/parmesh-bhatt-277971221/",
+      "Instagram": "https://www.instagram.com/prmes_.119/?igshid=ZDdkNTZiNTM%3D",
+      "Twitter": "https://twitter.com/Parmesh_119"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
+        "title": "Medical Chatbot using Google Cloud",
+        "description": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies. The big cities have many facilities but small village people cannot go to big cities and afford the cost. With the use of these ChatBots, if they have small smartphones they can easily get the solution.",
+        "tech": ["Dialogflow", "Google Cloud"]
       },
-      "Projects": [
-        {
-          "link": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
-          "title": "Medical Chatbot using Google Cloud",
-          "description": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies. The big cities have many facilities but small village people cannot go to big cities and afford the cost. With the use of these ChatBots, if they have small smartphones they can easily get the solution.",
-          "tech": ["Dialogflow", "Google Cloud"]
-        },
-        {
-          "link": "https://github.com/Parmesh119/CityTrack",
-          "title": "The CityTrack",
-          "description": "This website works in a simple way. First of all, every person has to register themselves. After that, they can see the services, and also after that, they can easily file a complaint to the specific government body. In the common citizen section, they can easily fill out the complaint form.",
-          "tech": ["React.js", "PHP"]
-        },
-	{
-          "link": "https://github.com/Parmesh119/TextUtils",
-          "title": "TextUtils",
-          "description": "React Application",
-          "tech": ["React.js", "JavaScript"]
-        },
-	{
-          "link": "https://github.com/Parmesh119/CodeClause_GitHub_Explorer",
-          "title": "GitHub Explorer",
-          "description": "This is the application where if the user wants to know the details of another user's GitHub account then they can just have to enter the username of the other user.",
-          "tech": ["JavaScript"]
-        },
-	{
-          "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
-          "title": "Advance Clock",
-          "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
-          "tech": ["JavaScript"]
-        }
-      ]
+      {
+        "link": "https://github.com/Parmesh119/CityTrack",
+        "title": "The CityTrack",
+        "description": "This website works in a simple way. First of all, every person has to register themselves. After that, they can see the services, and also after that, they can easily file a complaint to the specific government body. In the common citizen section, they can easily fill out the complaint form.",
+        "tech": ["React.js", "PHP"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/TextUtils",
+        "title": "TextUtils",
+        "description": "React Application",
+        "tech": ["React.js", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/CodeClause_GitHub_Explorer",
+        "title": "GitHub Explorer",
+        "description": "This is the application where if the user wants to know the details of another user's GitHub account then they can just have to enter the username of the other user.",
+        "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
+        "title": "Advance Clock",
+        "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
+        "tech": ["JavaScript"]
+      }
+    ]
   },
   {
     "github_username": "Ajay-Dhangar",
@@ -64,7 +64,6 @@
       "gitHub": "https://github.com/Jiggy9",
       "LinkedIn": "https://www.linkedin.com/in/jigar-prajapati-246102249/",
       "Instagram": "https://www.instagram.com/jigar_prajapati_999/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Jiggy_999"
     },
     "Projects": [
@@ -90,19 +89,13 @@
         "link": "https://man07har.github.io/",
         "title": "Portfolio_Website",
         "description": "",
-        "tech": ["ReactJS", "Tailwind CSS", "CSS"]
-      },
-      {
-        "link": "https://github.com/heroaks/parcurrus",
-        "title": "Parcurrus",
-        "description": "This app will help you solve a significant issue in busy cities. Finding a spot to park your cars during rush hours can be difficult. This app will show all the nearby parking spots according to GPS. What's even better? People with some parking space to spare at their place can post it on this app and earn some crypto for it.",
-        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+        "tech": ["ReactJS", "Tailwind CSS"]
       },
       {
         "link": "https://github.com/Man07har/Del",
         "title": "Del",
         "description": "A website design for the complaint pusposes and to showcase the products that a company has to offer",
-        "tech": ["ReactJS", "TailwindCSS", "CSS"]
+        "tech": ["ReactJS", "TailwindCSS"]
       }
     ]
   },
@@ -111,8 +104,6 @@
     "Social_media": {
       "gitHub": "https://github.com/murtazajoo",
       "LinkedIn": "https://www.linkedin.com/in/murtaza-joo-b5346622b/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -145,8 +136,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Saurav-Pant",
       "LinkedIn": "https://www.linkedin.com/in/saurav-pant-790065239/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -186,7 +175,6 @@
       "gitHub": "https://github.com/dev-AshishRanjan",
       "LinkedIn": "https://www.linkedin.com/in/kumar-ashish-ranjan-6359b7233/",
       "Instagram": "https://www.instagram.com/kr.ashishranjan/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -255,11 +243,7 @@
   {
     "github_username": "SasiVardhan247",
     "Social_media": {
-      "gitHub": "https://github.com/SasiVardhan247",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
+      "gitHub": "https://github.com/SasiVardhan247"
     },
     "Projects": [
       {
@@ -275,8 +259,6 @@
     "Social_media": {
       "gitHub": "https://github.com/raj3000k",
       "LinkedIn": "https://www.linkedin.com/in/raj-motwani-978143204/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/RAJMOTWANI16"
     },
     "Projects": [
@@ -284,7 +266,7 @@
         "link": "https://github.com/raj3000k/Pharm",
         "title": "Med.Ez(Medicine management system)",
         "description": "This project some basic functionality that shop owner can add medicine and see all history for buying products This is a pharmacy management System, it helps the users to ADD, REMOVE and Modify the medicine details",
-        "tech": ["JavaScript", "HTML5", "CSS", "Mysql"]
+        "tech": ["JavaScript", "HTML", "CSS", "Mysql"]
       }
     ]
   },
@@ -293,8 +275,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Mukesh751",
       "LinkedIn": "https://www.linkedin.com/in/mukesh751/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -302,13 +282,13 @@
         "link": "https://github.com/Mukesh751/TetrisGame",
         "title": "Tetris Game",
         "description": "This project is a clone of 90s famous game Tetris",
-        "tech": ["JavaScript", "HTML5", "CSS", "ReactJS"]
+        "tech": ["JavaScript", "HTML", "CSS", "ReactJS"]
       },
       {
         "link": "https://github.com/Mukesh751/FruitNinja",
         "title": "Fruit Ninja Game",
         "description": "This project is a clone of 90s classic Fruit Ninja Game",
-        "tech": ["JavaScript", "HTML5", "CSS"]
+        "tech": ["JavaScript", "HTML", "CSS"]
       }
     ]
   },
@@ -317,9 +297,7 @@
     "Social_media": {
       "gitHub": "https://github.com/priyankarpal",
       "LinkedIn": "https://www.linkedin.com/in/priyankarpal/",
-      "Twitter": "https://twitter.com/priyankarpal",
-      "Instagram": "",
-      "YouTube": ""
+      "Twitter": "https://twitter.com/priyankarpal"
     },
     "Projects": [
       {
@@ -327,12 +305,6 @@
         "title": "Thea Theme",
         "description": "Thea theme is a visually stunning color theme for the popular code editor, Visual Studio Code",
         "tech": ["YoCode"]
-      },
-      {
-        "link": "https://github.com/SuggestUs/web-ui",
-        "title": "Suggest Us",
-        "description": "A Application for doctors to get in touch with community of doctors .",
-        "tech": ["React", "Express.js", "MUI", "Firebase", "Node.js"]
       }
     ]
   },
@@ -340,10 +312,7 @@
     "github_username": "Hareesh108",
     "Social_media": {
       "gitHub": "https://github.com/Hareesh108",
-      "LinkedIn": "https://www.linkedin.com/in/hareeshbhittam",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
+      "LinkedIn": "https://www.linkedin.com/in/hareeshbhittam"
     },
     "Projects": [
       {
@@ -359,8 +328,6 @@
     "Social_media": {
       "gitHub": "https://github.com/villAsh",
       "LinkedIn": "https://www.linkedin.com/in/vilas-chauvhan-4609391aa/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -374,19 +341,12 @@
         "link": "https://github.com/villAsh/Movie_app",
         "title": "Movie App",
         "description": "This is a Movie App which is based on netflix UI, User can search for specific movies and tv shows and add or remove them to watchlist.",
-        "tech": ["React", "Tailwind CSS", "Redux Toolkit", "React Router", "Skeleton"]
+        "tech": ["React", "TailwindCSS", "Redux "]
       }
     ]
   },
   {
     "github_username": "abhidadhaniya23",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://gigaresources.xyz/",
@@ -401,8 +361,6 @@
     "Social_media": {
       "gitHub": "https://github.com/urz-ahmed",
       "LinkedIn": "https://www.linkedin.com/in/urooj-ahmad/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -434,13 +392,6 @@
   },
   {
     "github_username": "Swpn0neel",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Swpn0neel/swapnoneel-portfolio",
@@ -454,9 +405,6 @@
     "github_username": "jayk-gupta",
     "Social_media": {
       "gitHub": "https://github.com/jayk-gupta",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/jayk_gupta"
     },
     "Projects": [
@@ -480,7 +428,6 @@
       "gitHub": "https://github.com/Arunjagan12",
       "LinkedIn": "https://www.linkedin.com/in/j-arun-b5827b229/",
       "Instagram": "https://www.instagram.com/arun.jegan.12/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -488,19 +435,12 @@
         "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
         "title": "3d portfolio",
         "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
-        "tech": ["React", "Three", "Tailwind CSS", "framer-motion"]
+        "tech": ["React", "Three.js", "Tailwind CSS", "framer-motion"]
       }
     ]
   },
   {
     "github_username": "ManishBisht777",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/ManishBisht777/courseify",
@@ -512,13 +452,6 @@
   },
   {
     "github_username": "Snach13",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Snach13/CleanArchitectureNoteApplication",
@@ -533,8 +466,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Soumya-Kushwaha",
       "LinkedIn": "https://www.linkedin.com/in/kushwaha-soumya",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -548,13 +479,6 @@
   },
   {
     "github_username": "A10-g",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/A10-g/TipCalculator",
@@ -566,13 +490,6 @@
   },
   {
     "github_username": "Alkaison",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Alkaison/Alkaison.github.io",
@@ -593,8 +510,6 @@
     "Social_media": {
       "gitHub": "https://github.com/jfmartinz",
       "LinkedIn": "https://www.linkedin.com/feed/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/jfmartinz"
     },
     "Projects": [
@@ -608,13 +523,6 @@
   },
   {
     "github_username": "JasonDsouza212",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/JasonDsouza212/free-hit",
@@ -630,7 +538,6 @@
       "gitHub": "https://github.com/ujjawaltyagii",
       "LinkedIn": "https://www.linkedin.com/in/ujjawal-tyagi-9943a722b/",
       "Instagram": "https://www.instagram.com/ujjawal.tyagii",
-      "YouTube": "",
       "Twitter": "https://twitter.com/ujjawal_tyagiii"
     },
     "Projects": [
@@ -662,13 +569,6 @@
   },
   {
     "github_username": "Vijaykv5",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Vijaykv5/Drum-Kit",
@@ -680,13 +580,6 @@
   },
   {
     "github_username": "Shiva-Sai-ssb",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Shiva-Sai-ssb/QR-Code-Generator",
@@ -698,13 +591,6 @@
   },
   {
     "github_username": "himanshu1221",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/himanshu1221/linkfree_clone",
@@ -716,13 +602,6 @@
   },
   {
     "github_username": "JoseVale99",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/JoseVale99/loginPyQt5",
@@ -734,13 +613,6 @@
   },
   {
     "github_username": "GyanPrakashKumar",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
@@ -752,13 +624,6 @@
   },
   {
     "github_username": "T-Regx",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/t-regx/T-Regx",
@@ -770,13 +635,6 @@
   },
   {
     "github_username": "RotrixLOL",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/RotrixLOL/filmpire",
@@ -788,13 +646,6 @@
   },
   {
     "github_username": "himanshukrmr",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/himanshukrmr/multi-step-form",
@@ -806,13 +657,6 @@
   },
   {
     "github_username": "onur-celik",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/onur-celik/invester",
@@ -824,13 +668,6 @@
   },
   {
     "github_username": "ozanbatuhankurucu",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/ozanbatuhankurucu/magic-quadrant",
@@ -842,13 +679,6 @@
   },
   {
     "github_username": "nayanrdeveloper",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/nayanrdeveloper/DeDoctor_web3_Ur_hackthon_2.0.",
@@ -860,13 +690,6 @@
   },
   {
     "github_username": "Deveesh-Shetty",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Deveesh-Shetty/Chromatico",
@@ -878,13 +701,6 @@
   },
   {
     "github_username": "Jatan88",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Jatan88/JobSpot",
@@ -896,13 +712,6 @@
   },
   {
     "github_username": "SurajPratap10",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/SurajPratap10/TrailBlaze",
@@ -914,37 +723,23 @@
   },
   {
     "github_username": "pranshu05",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/pranshu05/pranshu05.vercel.app",
         "title": "React-Portfolio",
-        "description": "My portfolio website made in react. https://pranshu05.vercel.app",
+        "description": "My portfolio website made in react.",
         "tech": ["React", "BootStrap"]
       },
       {
         "link": "https://github.com/pranshu05/elpha",
         "title": "Elpha",
-        "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier. https://dsc.gg/elpha",
+        "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier",
         "tech": ["Node.js", "DiscordJS", "MongoDB"]
       }
     ]
   },
   {
     "github_username": "Ahtaxam",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://guileless-sorbet-8d48c5.netlify.app/",
@@ -956,13 +751,6 @@
   },
   {
     "github_username": "ashishsurya",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/ashishsurya/t3-flashcards-app",
@@ -974,13 +762,6 @@
   },
   {
     "github_username": "Stroller15",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/Stroller15/Digitalmedia",
@@ -992,13 +773,6 @@
   },
   {
     "github_username": "shyamtawli",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/shyamtawli/devFind",
@@ -1010,13 +784,6 @@
   },
   {
     "github_username": "sagar1621",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/sagar1621/Golds-Gym",
@@ -1028,13 +795,6 @@
   },
   {
     "github_username": "parma1111",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/parma1111/Domino-website-clone",
@@ -1046,13 +806,6 @@
   },
   {
     "github_username": "rupali-codes",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://github.com/rupali-codes/LinksHub",
@@ -1064,13 +817,6 @@
   },
   {
     "github_username": "Blaize15",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "gh-username": "Blaize15",
@@ -1107,13 +853,6 @@
   },
   {
     "github_username": "goketech",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
     "Projects": [
       {
         "link": "https://movie-trailer-app-lake.vercel.app/",
@@ -1142,13 +881,9 @@
     ]
   },
   {
-    "github_username": " sonustar",
+    "github_username": "sonustar",
     "Social_media": {
-      "gitHub": "github.com/sonustar",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
+      "gitHub": "github.com/sonustar"
     },
     "Projects": [
       {
@@ -1164,8 +899,6 @@
     "Social_media": {
       "gitHub": "https://github.com/sshiwangi",
       "LinkedIn": "https://www.linkedin.com/in/shiwangi-kumari-5b0b3b1b7/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/sshiwangi770"
     },
     "Projects": [
@@ -1183,7 +916,6 @@
       "gitHub": "https://github.com/vishnu-mouli-102408",
       "LinkedIn": "https://www.linkedin.com/in/ganivada-mouli/",
       "Instagram": "https://instagram.com/vishnu.mouli",
-      "YouTube": "",
       "Twitter": "https://twitter.com/iamVishnuMouli"
     },
     "Projects": [
@@ -1198,24 +930,6 @@
         "title": "Weather App",
         "description": "Your go-to weather app for real-time forecasts, personalized updates, and seamless planning.",
         "tech": ["HTML", "CSS", "JavaScript", "Weather API", "Bootstrap"]
-      }
-    ]
-  },
-  {
-    "github_username": "vaibhav-xt",
-    "Social_media": {
-      "gitHub": "",
-      "LinkedIn": "",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://vaibhav-maurya.netlify.app/",
-        "title": "Portfolio site",
-        "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
-        "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
   },
@@ -1253,7 +967,6 @@
       "gitHub": "https://github.com/itsme-shivamkumar",
       "LinkedIn": "https://www.linkedin.com/in/shivam-kumar-9575a7227/",
       "Instagram": "https://www.instagram.com/sherlock_shivam/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1271,7 +984,6 @@
       "gitHub": "https://github.com/Atharva-3000",
       "LinkedIn": "https://www.linkedin.com/in/atharva-deshmukh-b0479522a/",
       "Instagram": "https://www.instagram.com/atharva_xoxo/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Powxu_XD"
     },
     "Projects": [
@@ -1295,7 +1007,6 @@
       "gitHub": "https://github.com/abhinav-m22/",
       "LinkedIn": "https://www.linkedin.com/in/abhinav-mahajan-b805b022a/",
       "Instagram": "https://www.instagram.com/abhi_m_22/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/abhinav_m22"
     },
     "Projects": [
@@ -1319,7 +1030,6 @@
       "gitHub": "https://github.com/akkshayTandon",
       "LinkedIn": "https://www.linkedin.com/in/akkshaytandon/",
       "Instagram": "https://www.instagram.com/tandonakkshay/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/AkkshayTandon"
     },
     "Projects": [
@@ -1343,7 +1053,6 @@
       "gitHub": "https://github.com/akshaykamath45",
       "LinkedIn": "https://www.linkedin.com/in/akshaykamath45/",
       "Instagram": "https://www.instagram.com/akshaykamath45/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/akshaykamath_45"
     },
     "Projects": [
@@ -1360,8 +1069,6 @@
     "Social_media": {
       "gitHub": "https://github.com/vaishalidewangan786",
       "LinkedIn": "https://www.linkedin.com/in/vaishali-dewangan-2060721a5/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1379,7 +1086,6 @@
       "gitHub": "https://github.com/ayushlohmod",
       "LinkedIn": "https://www.linkedin.com/in/ayush-lohmod-22411a139/",
       "Instagram": "https://www.instagram.com/ayushlohmod/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/ayushlohmod"
     },
     "Projects": [
@@ -1396,8 +1102,6 @@
     "Social_media": {
       "gitHub": "https://github.com/crocmons/Exchange-Rate-Converter-Chrome-Extension.git",
       "LinkedIn": "https://www.linkedin.com/in/ilma-salsabil/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1414,8 +1118,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Ks103",
       "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1438,8 +1140,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Niladri2003",
       "LinkedIn": "https://www.linkedin.com/in/niladriadak23/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1462,8 +1162,6 @@
     "Social_media": {
       "gitHub": "https://github.com/narayan2111",
       "LinkedIn": "https://www.linkedin.com/in/narayan2111",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Narayan80194026"
     },
     "Projects": [
@@ -1480,8 +1178,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Sriparno08",
       "LinkedIn": "https://www.linkedin.com/in/sriparnoroy/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Sriparno08"
     },
     "Projects": [
@@ -1499,7 +1195,6 @@
       "gitHub": "https://github.com/Sanchitbajaj02",
       "LinkedIn": "https://www.linkedin.com/in/sanchitbajaj02",
       "Instagram": "https://www.instagram.com/sbajaj_02",
-      "YouTube": "",
       "Twitter": "https://twitter.com/solitrix02"
     },
     "Projects": [
@@ -1517,7 +1212,6 @@
       "gitHub": "https://github.com/KawishAli6578",
       "LinkedIn": "https://www.linkedin.com/in/kawish-ali-771b90227/",
       "Instagram": "https://www.instagram.com/kawish_ali14/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/KawishAli55"
     },
     "Projects": [
@@ -1534,8 +1228,6 @@
     "Social_media": {
       "gitHub": "https://github.com/accodes21",
       "LinkedIn": "https://www.linkedin.com/in/aarya-chopkar-581aa2228",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/ChopkarAarya"
     },
     "Projects": [
@@ -1570,8 +1262,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Hardikaz",
       "LinkedIn": "https://www.linkedin.com/in/hardik-sharma-52ab7823b/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Hardik_Sharma4"
     },
     "Projects": [
@@ -1588,8 +1278,6 @@
     "Social_media": {
       "gitHub": "https://github.com/kunalkashyap-1",
       "LinkedIn": "https://www.linkedin.com/in/kunal-kashyap-a0798222b/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/kunal_code"
     },
     "Projects": [
@@ -1624,8 +1312,6 @@
     "Social_media": {
       "gitHub": "https://github.com/BaibhavTiwari",
       "LinkedIn": "https://www.linkedin.com/in/baibhavtiwari/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/BaibhavTiwari11"
     },
     "Projects": [
@@ -1642,8 +1328,6 @@
     "Social_media": {
       "gitHub": "https://github.com/buildwithaman",
       "LinkedIn": "https://www.linkedin.com/in/aman-kumar-856b61237/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Amankmr559"
     },
     "Projects": [
@@ -1660,8 +1344,6 @@
     "Social_media": {
       "gitHub": "https://github.com/coder12git",
       "LinkedIn": "https://www.linkedin.com/in/suruchi-kumari-5b3445230/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Suruchi18591098"
     },
     "Projects": [
@@ -1678,8 +1360,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Deepanshu0703",
       "LinkedIn": "https://www.linkedin.com/in/deepanshu-kumar-403200254",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1709,7 +1389,6 @@
       "gitHub": "https://github.com/sangdeepganvir",
       "LinkedIn": "https://www.linkedin.com/in/sanghdeep-ganvir-b2016a173/",
       "Instagram": "https://instagram.com/sanghdeep.jnv?igshid=OTk0YzhjMDVlZA==",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1726,8 +1405,6 @@
     "Social_media": {
       "gitHub": "https://github.com/anamika7153",
       "LinkedIn": "https://www.linkedin.com/in/anamika-yadav-24a369191/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1744,8 +1421,6 @@
     "Social_media": {
       "gitHub": "https://github.com/ShreyaDhiman24",
       "LinkedIn": "https://www.linkedin.com/in/shreya-dhiman-25a753247/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/ShreyaDhiman17"
     },
     "Projects": [
@@ -1762,8 +1437,6 @@
     "Social_media": {
       "gitHub": "https://github.com/neekamhrzn",
       "LinkedIn": "https://www.linkedin.com/in/neeka-maharjan-507974215/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1780,8 +1453,6 @@
     "Social_media": {
       "gitHub": "https://github.com/iriteshmishra",
       "LinkedIn": "https://www.linkedin.com/in/riteshmishra2/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/iriteshmishraa"
     },
     "Projects": [
@@ -1798,8 +1469,6 @@
     "Social_media": {
       "gitHub": "https://github.com/komalioruganti",
       "LinkedIn": "https://www.linkedin.com/in/komali-oruganti-01b6b021b/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1834,8 +1503,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Swapnil-Singh-99",
       "LinkedIn": "https://www.linkedin.com/in/swapnilsingh99",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1852,8 +1519,6 @@
     "Social_media": {
       "gitHub": "https://github.com/naveenvaratharaj",
       "LinkedIn": "https://www.linkedin.com/in/naveen-varatharaj-123945210/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1870,8 +1535,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Kumudhaart",
       "LinkedIn": "https://www.linkedin.com/in/kumudha-m-9aa95020a/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -1903,8 +1566,6 @@
     "Social_media": {
       "gitHub": "www.github.com/abhay-raj19",
       "LinkedIn": "www.linkedin.com/in/abhay-raj19",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "www.twitter.com/abhayraj423"
     },
     "Projects": [
@@ -1921,8 +1582,6 @@
     "Social_media": {
       "gitHub": "https://github.com/poojaramnaney",
       "LinkedIn": "https://www.linkedin.com/in/pooja-ramnaney/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/pooja_ramnaney"
     },
     "Projects": [
@@ -1935,30 +1594,10 @@
     ]
   },
   {
-    "github_username": "anirudhsalaria",
-    "Social_media": {
-      "gitHub": "https://github.com/anirudhsalaria",
-      "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
-      "Instagram": "https://www.instagram.com/salariaanirudh",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/anirudhsalaria/Harrypotter",
-        "title": "HarryPotter Website",
-        "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
-        "tech": ["HTML5", "CSS3"]
-      }
-    ]
-  },
-  {
     "github_username": "manojsai1",
     "Social_media": {
       "gitHub": "https://github.com/manojsai1/",
       "LinkedIn": "https://www.linkedin.com/in/manojsai1/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Offlinite"
     },
     "Projects": [
@@ -1976,7 +1615,6 @@
       "gitHub": "https://github.com/iamharshkr/",
       "LinkedIn": "https://www.linkedin.com/in/iamharshk/",
       "Instagram": "https://instagram.com/iamharshk",
-      "YouTube": "",
       "Twitter": "https://twitter.com/iamharshk01"
     },
     "Projects": [
@@ -1990,7 +1628,7 @@
         "link": "https://github.com/iamharshkr/apnastock",
         "title": "Apna Stock",
         "description": "You can use our tool for the analysis the stock and also you can predict the price of stock. We use some of the best indicators for the analysis of the stock, Eg: Simple Moving Average, Bollinger Bands, Stochastic Oscillator, Commodity Channel Index And RSI. By analyzing these indicators you can predict the movement of the stock.",
-        "tech": ["React", "Tailwind CSS", "Python", "DJANGO"]
+        "tech": ["React", "Tailwind CSS", "Python", "django"]
       }
     ]
   },
@@ -1999,8 +1637,6 @@
     "Social_media": {
       "gitHub": "https://github.com/suravshrestha",
       "LinkedIn": "https://www.linkedin.com/in/surav-shrestha-222122231/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2023,8 +1659,6 @@
     "Social_media": {
       "gitHub": "https://github.com/roshan798",
       "LinkedIn": "https://www.linkedin.com/in/roshan-kumar7989/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2043,30 +1677,10 @@
     ]
   },
   {
-    "github_username": "shagunZ",
-    "Social_media": {
-      "gitHub": "https://github.com/shagunZ",
-      "LinkedIn": "https://www.linkedin.com/in/shagunmengi/",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://moviey.netlify.app/",
-        "title": "MovieApp",
-        "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-        "tech": ["React js", "HTML", "Css", "JavaScript"]
-      }
-    ]
-  },
-  {
     "github_username": "WajeehaCodes",
     "Social_media": {
       "gitHub": "https://github.com/WajeehaCodes",
       "LinkedIn": "https://www.linkedin.com/in/wajeeha-fatima-450102212",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2118,8 +1732,6 @@
     "Social_media": {
       "gitHub": "https://github.com/shivam-katare",
       "LinkedIn": "https://www.linkedin.com/in/shivam-katare/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Shivamkatare_27"
     },
     "Projects": [
@@ -2137,7 +1749,6 @@
       "gitHub": "https://github.com/saikiranreddy201",
       "LinkedIn": "https://www.linkedin.com/in/sai-kiran-reddy-7272b320a/",
       "Instagram": "https://www.instagram.com/saikiranreddy.03/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2154,8 +1765,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Google-Ka-Dinosaur",
       "LinkedIn": "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2178,8 +1787,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Vidip-Ghosh",
       "LinkedIn": "https://www.linkedin.com/in/vidip-ghosh-9973b7213",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/GhoshVidip67772?t=yWjmzXsEfiddmeIH4ADx-g&s=09"
     },
     "Projects": [
@@ -2188,24 +1795,6 @@
         "title": "QR Code Generator",
         "description": "An application which is able to generate a QR code of every website. URL of the website is provided as an input and its able to generate corresponding QR code for that website.",
         "tech": ["HTML", "CSS", "JavaScript"]
-      }
-    ]
-  },
-  {
-    "github_username": "coderhersh",
-    "Social_media": {
-      "gitHub": "https://github.com/coderhersh",
-      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": "https://twitter.com/Hersch_dev"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/coderhersh/Credit-Card-Fraud-Detection",
-        "title": "Credit-Card-Fraud-Detection",
-        "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
-        "tech": ["Python", "Jupyter Notebook"]
       }
     ]
   },
@@ -2231,7 +1820,6 @@
       "gitHub": "https://github.com/govardhan-26",
       "LinkedIn": "https://www.linkedin.com/in/govardhan-rao-naidu-babbadi-23964b238/",
       "Instagram": "https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Govardh46990525?t=jOwsqHCYCTUL3WEyjPW3zg&s=08"
     },
     "Projects": [
@@ -2271,7 +1859,6 @@
       "gitHub": "https://github.com/Hypertext-Workaholics",
       "LinkedIn": "https://www.linkedin.com/in/shalini-singh-5b4646205/",
       "Instagram": "https://www.instagram.com/writings__world_/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2288,8 +1875,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Utkers-h",
       "LinkedIn": "https://www.linkedin.com/in/utkersh-uppal-2840b0229/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2307,7 +1892,6 @@
       "gitHub": "https://github.com/Monishka8303",
       "LinkedIn": "https://www.linkedin.com/in/monishka-jaiswal-6aab71239/",
       "Instagram": "https://www.instagram.com/monishka.8303/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2324,8 +1908,6 @@
     "Social_media": {
       "gitHub": "https://github.com/prasanta10",
       "LinkedIn": "https://www.linkedin.com/in/prasanta-chettri/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2342,8 +1924,6 @@
     "Social_media": {
       "gitHub": "https://github.com/SJ-Kumar",
       "LinkedIn": "https://www.linkedin.com/in/jayanth-kumar-91947b220/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Jayanth_2003"
     },
     "Projects": [
@@ -2381,8 +1961,6 @@
     "Social_media": {
       "gitHub": "https://github.com/KhushiVaiskyar",
       "LinkedIn": "https://www.linkedin.com/in/khushi-vaiskyar-953190235/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2399,8 +1977,6 @@
     "Social_media": {
       "gitHub": "https://github.com/pankajktech",
       "LinkedIn": "https://www.linkedin.com/in/pankajktech/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/pankajktech1"
     },
     "Projects": [
@@ -2417,8 +1993,6 @@
     "Social_media": {
       "gitHub": "https://github.com/vk20july",
       "LinkedIn": "https://www.linkedin.com/in/vivek-kumar-tiwari-876b00212",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2436,7 +2010,6 @@
       "gitHub": "https://github.com/Abhinavcode13",
       "LinkedIn": "https://www.linkedin.com/in/abhinav131/",
       "Instagram": "https://www.instagram.com/abhinavxkumar/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Abhinavxkumar13"
     },
     "Projects": [
@@ -2453,8 +2026,6 @@
     "Social_media": {
       "gitHub": "https://github.com/dhruvishavaghani",
       "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2463,6 +2034,12 @@
         "title": "Noted",
         "description": "Noted is a Chrome extension built using HTML, CSS, and JavaScript to quickly save the current tab or URL with preferable keywords.",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/dhruvishavaghani/NewsZilla",
+        "title": "NewsZilla",
+        "description": "NewsZilla is a live news website with all categories of news.",
+        "tech": ["HTML", "CSS", "ReactJs"]
       }
     ]
   },
@@ -2472,7 +2049,6 @@
       "gitHub": "https://github.com/OMKAR-KALEPU",
       "LinkedIn": "https://www.linkedin.com/in/omkar-kalepu-7a6718219/",
       "Instagram": "https://www.instagram.com/omkar.kalepu/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Omkarstwt"
     },
     "Projects": [
@@ -2489,8 +2065,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Jranii",
       "LinkedIn": "https://www.linkedin.com/in/jyoti-rani-662633205",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/JyotiRa94053552"
     },
     "Projects": [
@@ -2507,8 +2081,6 @@
     "Social_media": {
       "gitHub": "https://github.com/BALASARVAN12",
       "LinkedIn": "https://www.linkedin.com/in/bala-sarvan-vudathu-643b79227/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/BalaVudathu"
     },
     "Projects": [
@@ -2526,7 +2098,6 @@
       "gitHub": "https://github.com/harshal2002",
       "LinkedIn": "https://www.linkedin.com/in/harshalsj",
       "Instagram": "https://www.instagram.com/harshal_jadhav619/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/HarshalJadhav84"
     },
     "Projects": [
@@ -2544,7 +2115,6 @@
       "gitHub": "https://github.com/kumar11jr",
       "LinkedIn": "https://www.linkedin.com/in/prabhat-kumar-157435244/",
       "Instagram": "https://www.instagram.com/kumar_11jr/",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Kumar_18jr"
     },
     "Projects": [
@@ -2553,24 +2123,6 @@
         "title": "Dalle clone",
         "description": "DALL·E is a neural network model developed by OpenAI. It stands for Distributed and Adversarial Learning of Latent Embeddings, and it is designed to generate images from textual descriptions",
         "tech": ["HTML", "CSS", "Node JS", "javascript"]
-      }
-    ]
-  },
-  {
-    "github_username": "coderhersh",
-    "Social_media": {
-      "gitHub": "https://github.com/coderhersh",
-      "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": "https://twitter.com/Hersch_dev"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/coderhersh/pinax",
-        "title": "Pinax",
-        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
-        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
       }
     ]
   },
@@ -2589,6 +2141,12 @@
         "title": "Certificate Generator",
         "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
         "tech": ["HTML", "CSS", "JavaScript", "html2canva"]
+      },
+      {
+        "link": "https://vaibhav-maurya.netlify.app/",
+        "title": "Portfolio site",
+        "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
+        "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
   },
@@ -2615,7 +2173,6 @@
       "gitHub": "https://github.com/anirudhsalaria",
       "LinkedIn": "https://www.linkedin.com/in/anirudh-salaria-0953b1247",
       "Instagram": "https://www.instagram.com/salariaanirudh",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2624,6 +2181,12 @@
         "title": "TextGo",
         "description": "Using TextGo you can perform multiple operations on your text.",
         "tech": ["React JS", "HTML5", "CSS3", "BootStrap", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/anirudhsalaria/Harrypotter",
+        "title": "HarryPotter Website",
+        "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
+        "tech": ["HTML5", "CSS3"]
       }
     ]
   },
@@ -2633,7 +2196,6 @@
       "gitHub": "https://github.com/HartzFrequency",
       "LinkedIn": "https://www.linkedin.com/in/harsh-shrivastava-95a524224/",
       "Instagram": "https://www.instagram.com/harsh.shrivastava5/",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2657,23 +2219,25 @@
       }
     ]
   },
-
   {
     "github_username": "shagunZ",
     "Social_media": {
       "gitHub": "https://github.com/shagunZ",
       "LinkedIn": "https://www.linkedin.com/in/shagunmengi",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
-
     "Projects": [
       {
         "link": "https://github.com/shagunZ/React-scoregame",
         "title": "Score Keeper",
         "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
         "tech": ["ReactJS", "JavaScript"]
+      },
+      {
+        "link": "https://moviey.netlify.app/",
+        "title": "MovieApp",
+        "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+        "tech": ["React js", "HTML", "Css", "JavaScript"]
       }
     ]
   },
@@ -2682,8 +2246,6 @@
     "Social_media": {
       "gitHub": "https://github.com/swethapaleti",
       "LinkedIn": "https://www.linkedin.com/in/swethapaleti",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2700,8 +2262,6 @@
     "Social_media": {
       "gitHub": "https://github.com/coderhersh",
       "LinkedIn": "https://www.linkedin.com/in/harshdeep-sde/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/Hersch_dev"
     },
     "Projects": [
@@ -2710,17 +2270,26 @@
         "title": "Weather App",
         "description": "Weather web app made with React JS and Tailwind CSS which fetches API from OpenWeatherMap based on the location entered in the search box.",
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS"]
+      },
+      {
+        "link": "https://github.com/coderhersh/pinax",
+        "title": "Pinax",
+        "description": "Pinax is a landing page made in Angular and Tailwind CSS.",
+        "tech": ["HTML", "Tailwind CSS", "Node JS", "TypeScript", "Angular"]
+      },
+      {
+        "link": "https://github.com/coderhersh/Credit-Card-Fraud-Detection",
+        "title": "Credit-Card-Fraud-Detection",
+        "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
+        "tech": ["Python", "Jupyter Notebook"]
       }
     ]
   },
-
   {
     "github_username": "siddarthdayala",
     "Social_media": {
       "gitHub": "https://github.com/siddarthdayala",
       "LinkedIn": "https://www.linkedin.com/in/siddarth-dayala-35b962225/",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": ""
     },
     "Projects": [
@@ -2728,7 +2297,7 @@
         "link": "https://github.com/siddarthdayala/Encipher-Decipher",
         "title": "Encipher | Decipher",
         "description": "A simple encryption/decryption website which allows users to encrypt/decrypt messages using three different cryptographic ciphers along with a key",
-        "tech": ["HTML", "CSS", "JavaScript", "Responsive CSS"]
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -2737,8 +2306,6 @@
     "Social_media": {
       "gitHub": "https://github.com/Atharvashirsh",
       "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
-      "Instagram": "",
-      "YouTube": "",
       "Twitter": "https://twitter.com/atharva_tiwary"
     },
     "Projects": [
@@ -2747,37 +2314,7 @@
         "title": "Weather App",
         "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
         "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
-      }
-    ]
-  },
-  {
-    "github_username": "dhruvishavaghani",
-    "Social_media": {
-      "gitHub": "https://github.com/dhruvishavaghani",
-      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/dhruvishavaghani/NewsZilla",
-        "title": "NewsZilla",
-        "description": "NewsZilla is a live news website with all categories of news.",
-        "tech": ["HTML", "CSS", "ReactJs"]
-      }
-    ]
-  },
-  {
-    "github_username": "Atharvashirsh",
-    "Social_media": {
-      "gitHub": "https://github.com/Atharvashirsh",
-      "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
-      "Instagram": "",
-      "YouTube": "",
-      "Twitter": "https://twitter.com/atharva_tiwary"
-    },
-    "Projects": [
+      },
       {
         "link": "https://github.com/Atharvashirsh/To-Do-List",
         "title": "To Do List App",
