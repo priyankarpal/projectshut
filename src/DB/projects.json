@@ -1,5 +1,46 @@
 [
   {
+      "github_username": "Parmesh119",  
+      "Social_media": {
+        "gitHub": "https://github.com/Parmesh119",
+        "LinkedIn": "https://www.linkedin.com/in/parmesh-bhatt-277971221/",
+        "Instagram": "https://www.instagram.com/prmes_.119/?igshid=ZDdkNTZiNTM%3D",
+        "Twitter": "https://twitter.com/Parmesh_119"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
+          "title": "Medical Chatbot using Google Cloud",
+          "description": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies. The big cities have many facilities but small village people cannot go to big cities and afford the cost. With the use of these ChatBots, if they have small smartphones they can easily get the solution.",
+          "tech": ["Dialogflow", "Google Cloud"]
+        },
+        {
+          "link": "https://github.com/Parmesh119/CityTrack",
+          "title": "The CityTrack",
+          "description": "This website works in a simple way. First of all, every person has to register themselves. After that, they can see the services, and also after that, they can easily file a complaint to the specific government body. In the common citizen section, they can easily fill out the complaint form.",
+          "tech": ["React.js", "PHP"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/TextUtils",
+          "title": "TextUtils",
+          "description": "React Application",
+          "tech": ["React.js", "JavaScript"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/CodeClause_GitHub_Explorer",
+          "title": "GitHub Explorer",
+          "description": "This is the application where if the user wants to know the details of another user's GitHub account then they can just have to enter the username of the other user.",
+          "tech": ["JavaScript"]
+        },
+	{
+          "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
+          "title": "Advance Clock",
+          "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
+          "tech": ["JavaScript"]
+        }
+      ]
+  },
+  {
     "github_username": "Ajay-Dhangar",
     "Social_media": {
       "gitHub": "https://github.com/Ajay-Dhangar",
@@ -2199,6 +2240,12 @@
         "title": "Restaurant Website",
         "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
         "tech": ["ReactJs", "CSS"]
+      },
+      {
+        "link": "https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git",
+        "title": "Disney+ Hotstar Clone",
+        "description": "A Web application that replicates the features of the popular streaming platform, Disney+ Hotstar.",
+        "tech": ["ReactJs", "CSS", "Firebase"]
       }
     ]
   },
@@ -2699,6 +2746,42 @@
         "title": "Weather App",
         "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
         "tech": ["HTML", "CSS", "Javascript", "ExpressJS"]
+      }
+    ]
+  },
+  {
+    "github_username": "dhruvishavaghani",
+    "Social_media": {
+      "gitHub": "https://github.com/dhruvishavaghani",
+      "LinkedIn": "http://linkdin-www.linkedin.com/in/dhruvisha-vaghani-0b97b3232",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": ""
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/dhruvishavaghani/NewsZilla",
+        "title": "NewsZilla",
+        "description": "NewsZilla is a live news website with all categories of news.",
+        "tech": ["HTML", "CSS", "ReactJs"]
+      }
+    ]
+  },
+  {
+    "github_username": "Atharvashirsh",
+    "Social_media": {
+      "gitHub": "https://github.com/Atharvashirsh",
+      "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/atharva_tiwary"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/To-Do-List",
+        "title": "To Do List App",
+        "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
+        "tech": ["HTML", "CSS", "MySQL", "PHP"]
       }
     ]
   }

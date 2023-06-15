@@ -23,7 +23,7 @@ import { ThemeContext } from '../context/Theme';
 function ProjectsPage() {
   const Projects = [];
   const { theme } = useContext(ThemeContext);
-  
+
   projects.forEach((project) => {
     const username = project.github_username;
     project.Projects.forEach((proj) => {
