@@ -2726,5 +2726,23 @@
         "tech": ["HTML", "CSS", "ReactJs"]
       }
     ]
+  },
+  {
+    "github_username": "Atharvashirsh",
+    "Social_media": {
+      "gitHub": "https://github.com/Atharvashirsh",
+      "LinkedIn": "https://www.linkedin.com/in/atharvashirsh",
+      "Instagram": "",
+      "YouTube": "",
+      "Twitter": "https://twitter.com/atharva_tiwary"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/To-Do-List",
+        "title": "To Do List App",
+        "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
+        "tech": ["HTML", "CSS", "MySQL", "PHP"]
+      }
+    ]
   }
 ]
