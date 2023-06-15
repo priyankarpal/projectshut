@@ -2322,5 +2322,21 @@
         "tech": ["HTML", "CSS", "MySQL", "PHP"]
       }
     ]
+  },
+    {
+    "github_username": "Soumyajit2825",
+    "Social_media": {
+      "gitHub": "https://github.com/Soumyajit2825",
+      "LinkedIn": "https://www.linkedin.com/in/soumyajit-mondal2825",
+      "Twitter": "https://twitter.com/Soumyajit200328"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/Weather-App",
+        "title": "MESSI MANIA",
+        "description": "A simple fan made web-page of LIONEL MESSI",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
   }
 ]
