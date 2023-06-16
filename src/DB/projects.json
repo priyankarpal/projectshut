@@ -2353,5 +2353,20 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
+  },
+  {
+      "github_username": "Prashu-01",  
+      "Social_media": {
+        "gitHub": "https://github.com/Prashu-01",
+        "LinkedIn": "https://www.linkedin.com/in/prashu-verma-517890227/"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/Prashu-01/WeatherApp",
+          "title": "Weather Website",
+          "description": "A clean and user friendly weather app that can show real time weather. Simply write your city name and search it!",
+          "tech": ["HTML", "CSS","JavaScript"]
+        }
+      ]
   }
 ]
