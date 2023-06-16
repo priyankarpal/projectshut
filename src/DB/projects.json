@@ -2375,5 +2375,21 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
+  },
+  {
+    "github_username": "kirtiraj22",
+    "Social_media": {
+      "gitHub": "https://github.com/kirtiraj22",
+      "LinkedIn": "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
+      "Twitter": "https://twitter.com/kirtirajthakor"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kirtiraj22/shopzy",
+        "title": "shopzy ecommerce",
+        "description": "It is the frontend part of an ecommerce website called Shopzy.",
+        "tech": ["ReactJS", "TailwindCSS"]
+      }
+    ]
   }
 ]
