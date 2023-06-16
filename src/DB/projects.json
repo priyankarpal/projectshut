@@ -2375,5 +2375,21 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
+  },
+  {
+    "github_username": "debsouryadatta",
+    "Social_media": {
+      "gitHub": "https://github.com/debsouryadatta",
+      "LinkedIn": "https://www.linkedin.com/in/debsourya-datta-177909225/",
+      "Twitter": "https://twitter.com/debsourya005"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/debsouryadatta/souryax-streaming",
+        "title": "Souryax Streaming App",
+        "description": "Interface of a movie streaming app and also search for option for your favorite movies.",
+        "tech": ["React", "Tailwind CSS", "Firebase"]
+      }
+    ]
   }
 ]
