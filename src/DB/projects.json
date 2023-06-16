@@ -2403,11 +2403,12 @@
       {
         "link": "https://github.com/debsouryadatta/souryax-streaming",
         "title": "Souryax Streaming App",
-        "description": "Interface of a movie streaming app and also search for option for your favorite movies.",
+        "description": "Interface of a movie streaming app and also search for an option for your favourite movies.",
         "tech": ["React", "Tailwind CSS", "Firebase"]
        }
 ]
 },
+  {
     "github_username": "kirtiraj22",
     "Social_media": {
       "gitHub": "https://github.com/kirtiraj22",
@@ -2417,8 +2418,8 @@
     "Projects": [
       {
         "link": "https://github.com/kirtiraj22/shopzy",
-        "title": "shopzy ecommerce",
-        "description": "It is the frontend part of an ecommerce website called Shopzy.",
+        "title": "shopzy e-commerce",
+        "description": "It is the frontend part of an e-commerce website called Shopzy.",
         "tech": ["ReactJS", "TailwindCSS"]
       }
     ]
