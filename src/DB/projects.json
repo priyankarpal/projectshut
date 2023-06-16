@@ -2320,6 +2320,12 @@
         "title": "To Do List App",
         "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
         "tech": ["HTML", "CSS", "MySQL", "PHP"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Dinosaur-Game",
+        "title": "Chrome Dinosaur Game",
+        "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
+        "tech": ["Python"]
       }
     ]
   },
@@ -2359,8 +2365,6 @@
   "Social_media": {
     "gitHub": "https://github.com/codewithavantika",
     "LinkedIn": "https://www.linkedin.com/in/avantika-pandey-2759941ab",
-    "Instagram": "",
-    "YouTube": "",
     "Twitter": "https://twitter.com/avantika_0001"
   },
   "Projects": [
@@ -2371,5 +2375,37 @@
       "tech": ["Flask", "Python"]
     }
   ]
-}  
+} ,
+  {
+    "github_username": "AmanSingh6574",
+    "Social_media": {
+      "gitHub": "https://github.com/AmanSingh6574",
+      "LinkedIn": "https://www.linkedin.com/in/aman-singh-aa6073247/",
+      "Twitter": "https://twitter.com/AMAN43589925"
+    },
+    "Projects": [
+      {
+        "link": "https://steady-llama-8085e6.netlify.app/",
+        "title": "TIC-TAK-TOE Game",
+        "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "kirtiraj22",
+    "Social_media": {
+      "gitHub": "https://github.com/kirtiraj22",
+      "LinkedIn": "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
+      "Twitter": "https://twitter.com/kirtirajthakor"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kirtiraj22/shopzy",
+        "title": "shopzy ecommerce",
+        "description": "It is the frontend part of an ecommerce website called Shopzy.",
+        "tech": ["ReactJS", "TailwindCSS"]
+      }
+    ]
+  }
 ]
