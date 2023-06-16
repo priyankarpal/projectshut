@@ -2360,6 +2360,22 @@
       }
     ]
   },
+{
+  "github_username": "codewithavantika",
+  "Social_media": {
+    "gitHub": "https://github.com/codewithavantika",
+    "LinkedIn": "https://www.linkedin.com/in/avantika-pandey-2759941ab",
+    "Twitter": "https://twitter.com/avantika_0001"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/codewithavantika/miniURL",
+      "title": "miniURL-URL Shortener",
+      "description": "Flask web app to shorten long URLs",
+      "tech": ["Flask", "Python"]
+    }
+  ]
+} ,
   {
     "github_username": "AmanSingh6574",
     "Social_media": {
