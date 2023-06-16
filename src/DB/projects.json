@@ -2353,5 +2353,21 @@
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
+  },
+  {
+    "github_username": "AmanSingh6574",
+    "Social_media": {
+      "gitHub": "https://github.com/AmanSingh6574",
+      "LinkedIn": "https://www.linkedin.com/in/aman-singh-aa6073247/",
+      "Twitter": "https://twitter.com/AMAN43589925"
+    },
+    "Projects": [
+      {
+        "link": "https://steady-llama-8085e6.netlify.app/",
+        "title": "TIC-TAK-TOE Game",
+        "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
   }
 ]
