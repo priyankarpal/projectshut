@@ -115,6 +115,9 @@ function AddYourProjectsGuide() {
             <p className="text-base font-semibold leading-7 text-indigo-600">
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
+            <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+              copy
+            </p>
           </div>
           <SyntaxHighlighter language="json" style={a11yDark}>
             {codeString}
