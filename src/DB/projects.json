@@ -2320,6 +2320,12 @@
         "title": "To Do List App",
         "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
         "tech": ["HTML", "CSS", "MySQL", "PHP"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Dinosaur-Game",
+        "title": "Chrome Dinosaur Game",
+        "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
+        "tech": ["Python"]
       }
     ]
   },
