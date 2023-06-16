@@ -1,46 +1,67 @@
-import { BiGitRepoForked } from "react-icons/bi"
-import { AiTwotoneFile } from "react-icons/ai"
-import { RiGitRepositoryCommitsFill } from "react-icons/ri"
+/* eslint-disable react/jsx-one-expression-per-line */
+import { GitBranch, FileText, UploadCloud } from 'react-feather';
+import React from 'react';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-export default function AddYourProjectsGuide() {
-  const codeString = `{
-    "gh-username": "YOUR-GITHUB-USERNAME",
-    "link": "LINK-TO-GITHUB-OR-DEMO",
-    "title": "PROJECT-TITLE",
-    "description": "PROJECT-DESCRIPTION",
-    "tech": ["some tech 1", "some tech 2", "etc"]
-  }`
+function AddYourProjectsGuide() {
+  window.scrollTo(0, 0);
+  const codeString = `
+    {
+      "github_username": "YOUR_GITHUB_USERNAME",  
+      "Social_media": {
+        "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
+        "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
+        "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+        "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+      },
+      "Projects": [
+        {
+          "link": "PROJECT_LINK",
+          "title": "PROJECT_NAME",
+          "description": "PROJECT_DESCRIPTION",
+          "tech": ["tech1", "tech2"]
+        },
+        {
+          "link": "PROJECT_LINK",
+          "title": "PROJECT_NAME",
+          "description": "PROJECT_DESCRIPTION",
+          "tech": ["tech1", "tech2"]
+        }
+      ]
+  }`;
 
   return (
     <section className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       {/* For Grid Background  */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
-          className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-700 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+          className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-500 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] opacity-20"
           aria-hidden="true"
         >
           <defs>
             <pattern
               id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-              width={200}
-              height={200}
+              width={180}
+              height={180}
               x="50%"
               y={-1}
               patternUnits="userSpaceOnUse"
             >
-              <path d="M100 200V.5M.5 .5H200" fill="none" />
+              <path d="M100 180V.5M.5 .5H180" fill="none" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
         </svg>
       </div>
 
-      <article className="grid justify-center items-center max-w-5xl mx-auto ">
+      <article className="items-center max-w-5xl mx-auto ">
         <div className="  text-base leading-7 ">
           <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
           <div className="flex items-center gap-5">
             <span>
-              <BiGitRepoForked />
+              <GitBranch size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Fork this repository</p>
           </div>
@@ -51,12 +72,12 @@ export default function AddYourProjectsGuide() {
           />
           <div className="mt-5 flex items-center gap-5">
             <span>
-              <AiTwotoneFile />
+              <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              {" "}
-              Click on Go to file(I'm doing from{" "}
-              <span className="bg-gray-700  p-1 rounded-md">priyankarpal/projectshut</span> )
+              {' '}
+              Click on Go to file(I&apos;m doing from{' '}
+              <span className="bg-purple-180  p-1 rounded-md">priyankarpal/projectshut</span> )
             </p>
           </div>
 
@@ -68,16 +89,18 @@ export default function AddYourProjectsGuide() {
 
           <div className="mt-5 flex items-center gap-5">
             <span>
-              <AiTwotoneFile />
+              <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
           </div>
-          <code className="block">{codeString}</code>
+          <SyntaxHighlighter language="json" style={a11yDark}>
+            {codeString}
+          </SyntaxHighlighter>
           <div className="flex items-center gap-5 mt-5">
             <span>
-              <RiGitRepositoryCommitsFill />
+              <UploadCloud size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
           </div>
@@ -88,7 +111,7 @@ export default function AddYourProjectsGuide() {
           />
           <div className="flex items-center gap-5 mt-5">
             <span>
-              <RiGitRepositoryCommitsFill />
+              <UploadCloud size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
           </div>
@@ -101,138 +124,142 @@ export default function AddYourProjectsGuide() {
         </div>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             OR, If you want to run it locally then follow these steps
           </p>
         </div>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
         </div>
-        <code className="block">git clone https://github.com/[your-username]/ProjectsHut.git</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git clone https://github.com/[your-username]/ProjectsHut.git
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
         </div>
-        <code className="block">cd ProjectsHut</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          cd ProjectsHut
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
-          </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
-            Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
-          </p>
-        </div>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
         </div>
-        <code className="block">pnpm i</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm i
+        </SyntaxHighlighter>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             Create a new branch using your `GitHub Username`
           </p>
         </div>
-        <code className="block">git checkout -b [name_of_your_new_branch]</code>
-
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git checkout -b [name_of_your_new_branch]
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
         </div>
-        <code className="block">pnpm dev</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm dev
+        </SyntaxHighlighter>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <AiTwotoneFile />
-          </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Make sure all the test cases pass</p>
-        </div>
-        <code className="block">pnpm test</code>
-
-        <div className="mt-5 flex items-center gap-5">
-          <span>
-            <AiTwotoneFile />
+            <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
         </div>
 
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
         </div>
-        <code className="block">git add .</code>
-
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git add .
+        </SyntaxHighlighter>
         <div className="mt-5 flex items-center gap-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
         </div>
-        <code className="block">git commit -m "Added [your-changes]"</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git commit -m &quot;Added [your-changes]&quot;
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {" "}
+            {' '}
             If you encounter this error while commits
           </p>
         </div>
-        <code className="block">husky - pre-commit hook exited with code 1(error)</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          husky - pre-commit hook exited with code 1(error)
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
         </div>
-        <code className="block">pnpm format</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          pnpm format
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
         </div>
-        <code className="block">git remote add upstream https://github.com/priyankarpal/ProjectsHut.git</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
         </div>
-        <code className="block">git push origin [Your-branch-name]</code>
+        <SyntaxHighlighter language="nginx" style={a11yDark}>
+          git push origin [Your-branch-name]
+        </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5">
           <span>
-            <RiGitRepositoryCommitsFill />
+            <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
         </div>
       </article>
     </section>
-  )
+  );
 }
+
+export default AddYourProjectsGuide;
