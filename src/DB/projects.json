@@ -2320,6 +2320,91 @@
         "title": "To Do List App",
         "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
         "tech": ["HTML", "CSS", "MySQL", "PHP"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Dinosaur-Game",
+        "title": "Chrome Dinosaur Game",
+        "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
+        "tech": ["Python"]
+      }
+    ]
+  },
+    {
+    "github_username": "Soumyajit2825",
+    "Social_media": {
+      "gitHub": "https://github.com/Soumyajit2825",
+      "LinkedIn": "https://www.linkedin.com/in/soumyajit-mondal2825",
+      "Twitter": "https://twitter.com/Soumyajit200328"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Atharvashirsh/Weather-App",
+        "title": "MESSI MANIA",
+        "description": "A simple fan made web-page of LIONEL MESSI",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+    {
+    "github_username": "aparna03dubey",
+    "Social_media": {
+      "gitHub": "https://github.com/aparna03dubey",
+      "LinkedIn": "https://www.linkedin.com/in/aparna-dubey-941887225/"
+    },
+    "Projects": [
+      {
+        "link": "https://aparna03dubey.github.io/Water-Tracker.github.io/",
+        "title": "Water-Tracker",
+        "description": "A web application that counts the daily water intake of an indivisual.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+{
+  "github_username": "codewithavantika",
+  "Social_media": {
+    "gitHub": "https://github.com/codewithavantika",
+    "LinkedIn": "https://www.linkedin.com/in/avantika-pandey-2759941ab",
+    "Twitter": "https://twitter.com/avantika_0001"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/codewithavantika/miniURL",
+      "title": "miniURL-URL Shortener",
+      "description": "Flask web app to shorten long URLs",
+      "tech": ["Flask", "Python"]
+    }
+  ]
+} ,
+  {
+    "github_username": "AmanSingh6574",
+    "Social_media": {
+      "gitHub": "https://github.com/AmanSingh6574",
+      "LinkedIn": "https://www.linkedin.com/in/aman-singh-aa6073247/",
+      "Twitter": "https://twitter.com/AMAN43589925"
+    },
+    "Projects": [
+      {
+        "link": "https://steady-llama-8085e6.netlify.app/",
+        "title": "TIC-TAK-TOE Game",
+        "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "kirtiraj22",
+    "Social_media": {
+      "gitHub": "https://github.com/kirtiraj22",
+      "LinkedIn": "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
+      "Twitter": "https://twitter.com/kirtirajthakor"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kirtiraj22/shopzy",
+        "title": "shopzy ecommerce",
+        "description": "It is the frontend part of an ecommerce website called Shopzy.",
+        "tech": ["ReactJS", "TailwindCSS"]
       }
     ]
   },
