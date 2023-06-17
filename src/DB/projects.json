@@ -2438,5 +2438,20 @@
           "tech": ["HTML", "CSS","JavaScript"]
         }
       ]
+  },
+ {
+      "github_username": "mohitparmar1",  
+      "Social_media": {
+        "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
+        "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
+        "Twitter": "https://twitter.com/mohitparmar1_"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/mohitparmar1/Leads-Tracker",
+          "title": "Leads Tracker",
+          "description": "its a tracker that track our important tabs",
+          "tech": ["html", "css","javascript"]
+        },  
+      ]
   }
-]
