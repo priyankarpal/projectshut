@@ -2438,5 +2438,20 @@
           "tech": ["HTML", "CSS","JavaScript"]
         }
       ]
+  },
+  {
+      "github_username": "Ajay84sia",  
+      "Social_media": {
+        "gitHub": "https://github.com/Ajay84sia",
+        "LinkedIn": "https://www.linkedin.com/in/ajay-84sia/"
+      },
+      "Projects": [
+        {
+          "link": "https://weatheralertapp.netlify.app/",
+          "title": "Weather Website",
+          "description": "A weather Website that can show real-time weather. Check weather for your city .",
+          "tech": ["HTML", "CSS", "JavaScript"]
+        }
+      ]
   }
 ]
