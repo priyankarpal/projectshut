@@ -2451,6 +2451,30 @@
           "title": "CodeHelper Discord Bot",
           "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
           "tech": ["Node.js", "Express.js","Discord.js","RapidApi"]
+}
+]
+  },
+  
+{
+      "github_username": "Judge-Paul",  
+      "Social_media": {
+        "gitHub": "https://github.com/Judge-Paul",
+        "Instagram": "https://www.instagram.com/paulogebe",
+        "Twitter": "https://twitter.com/paulogebe"
+      },
+      "Projects": [
+        {
+          "link": "https://nft-market-jadge.vercel.app",
+          "title": "NFT Marketplace",
+          "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
+          "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
+        },
+        {
+          "link": "https://jobwrite.vercel.app",
+          "title": "JobWriteAI",
+          "description": "JobWriteAI allows you to generate cover letters instantly, just paste the job description fill out skills to avoid and you'll have a cover letter in seconds.",
+          "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
+
         }
       ]
   }
