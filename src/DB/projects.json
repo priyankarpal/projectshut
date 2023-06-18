@@ -2452,6 +2452,7 @@
           "title": "Leads Tracker",
           "description": "its a tracker that track our important tabs",
           "tech": ["html", "css","javascript"]
-        },  
+        }
       ]
   }
+]
