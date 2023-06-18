@@ -2409,6 +2409,21 @@
     ]
   },
   {
+      "github_username": "Prashu-01",  
+      "Social_media": {
+        "gitHub": "https://github.com/Prashu-01",
+        "LinkedIn": "https://www.linkedin.com/in/prashu-verma-517890227/"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/Prashu-01/WeatherApp",
+          "title": "Weather Website",
+          "description": "A weather website that can show realtime weather. Simply search for your city name.",
+          "tech": ["HTML", "CSS","JavaScript"]
+        }
+      ]
+  },
+  {
       "github_username": "killerraj369",  
       "Social_media": {
         "gitHub": "https://github.com/killerraj369",
