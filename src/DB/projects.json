@@ -2449,7 +2449,13 @@
         {
           "link": "https://weatheralertapp.netlify.app/",
           "title": "Weather Website",
-          "description": "A weather Website that can show real-time weather. Check weather for your city .",
+          "description": "A weather Website that can show real-time weather. Check weather for your city.",
+          "tech": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "link": "https://ajay84sia.github.io/Musify.github.io/",
+          "title": "Music Player",
+          "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
           "tech": ["HTML", "CSS", "JavaScript"]
         }
       ]
