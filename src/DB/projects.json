@@ -2329,7 +2329,7 @@
       }
     ]
   },
-    {
+  {
     "github_username": "Soumyajit2825",
     "Social_media": {
       "gitHub": "https://github.com/Soumyajit2825",
@@ -2345,7 +2345,7 @@
       }
     ]
   },
-    {
+  {
     "github_username": "aparna03dubey",
     "Social_media": {
       "gitHub": "https://github.com/aparna03dubey",
@@ -2360,22 +2360,22 @@
       }
     ]
   },
-{
-  "github_username": "codewithavantika",
-  "Social_media": {
-    "gitHub": "https://github.com/codewithavantika",
-    "LinkedIn": "https://www.linkedin.com/in/avantika-pandey-2759941ab",
-    "Twitter": "https://twitter.com/avantika_0001"
+  {
+    "github_username": "codewithavantika",
+    "Social_media": {
+      "gitHub": "https://github.com/codewithavantika",
+      "LinkedIn": "https://www.linkedin.com/in/avantika-pandey-2759941ab",
+      "Twitter": "https://twitter.com/avantika_0001"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/codewithavantika/miniURL",
+        "title": "miniURL-URL Shortener",
+        "description": "Flask web app to shorten long URLs",
+        "tech": ["Flask", "Python"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/codewithavantika/miniURL",
-      "title": "miniURL-URL Shortener",
-      "description": "Flask web app to shorten long URLs",
-      "tech": ["Flask", "Python"]
-    }
-  ]
-} ,
   {
     "github_username": "AmanSingh6574",
     "Social_media": {
@@ -2393,6 +2393,22 @@
     ]
   },
   {
+    "github_username": "debsouryadatta",
+    "Social_media": {
+      "gitHub": "https://github.com/debsouryadatta",
+      "LinkedIn": "https://www.linkedin.com/in/debsourya-datta-177909225/",
+      "Twitter": "https://twitter.com/debsourya005"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/debsouryadatta/souryax-streaming",
+        "title": "Souryax Streaming App",
+        "description": "Interface of a movie streaming app and also search for an option for your favourite movies.",
+        "tech": ["React", "Tailwind CSS", "Firebase"]
+      }
+    ]
+  },
+  {
     "github_username": "kirtiraj22",
     "Social_media": {
       "gitHub": "https://github.com/kirtiraj22",
@@ -2402,8 +2418,8 @@
     "Projects": [
       {
         "link": "https://github.com/kirtiraj22/shopzy",
-        "title": "shopzy ecommerce",
-        "description": "It is the frontend part of an ecommerce website called Shopzy.",
+        "title": "shopzy e-commerce",
+        "description": "It is the frontend part of an e-commerce website called Shopzy.",
         "tech": ["ReactJS", "TailwindCSS"]
       }
     ]
