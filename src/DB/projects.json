@@ -2450,7 +2450,7 @@
         {
           "link": "https://nft-market-jadge.vercel.app",
           "title": "NFT Marketplace",
-          "description": "Introducing "NFT Marketplace," your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
+          "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
           "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
         },
         {
