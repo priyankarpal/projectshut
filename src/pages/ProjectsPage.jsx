@@ -10,7 +10,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearchParams } from 'react-router-dom';
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
@@ -18,9 +18,11 @@ import { FilterContext } from '../context/FilterContext';
 import { searchProject } from '../utils/searchProject';
 import ProjectLoading from '../components/ProjectLoading';
 import { shuffleProjects } from '../utils/paginate';
+import { ThemeContext } from '../context/Theme';
 
 function ProjectsPage() {
   const Projects = [];
+  const { theme } = useContext(ThemeContext);
 
   projects.forEach((project) => {
     const username = project.github_username;
@@ -97,22 +99,26 @@ function ProjectsPage() {
           type="text"
           id="combo-box-demo"
           placeholder="Thea Theme"
-          className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2"
-          style={{ color: 'black' }}
+          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${
+            theme.mode === 'light' ? 'text-black' : 'text-white'
+          }`}
           onChange={handleChange}
           value={searchValue}
         />
       </div>
       <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
         {techStack.map((tech, index) => (
-          <Button
+          <button
+            type="button"
             key={index.id}
             onClick={() => handleOptionClick(tech)}
-            variant={selectedOptions.includes(tech) ? 'contained' : 'outlined'}
-            className="bg-primary hover:bg-slate-200"
+            className={`${selectedOptions.includes(tech) ? 'bg-primary' : 'border border-primary'} rounded-sm p-2`}
+            style={{
+              color: theme?.color,
+            }}
           >
-            <span className={selectedOptions.includes(tech) ? 'text-white' : 'text-primary'}>{tech.toLowerCase()}</span>
-          </Button>
+            <span>{tech.toLowerCase()}</span>
+          </button>
         ))}
       </div>
 
