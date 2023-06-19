@@ -2457,6 +2457,18 @@
           "title": "Music Player",
           "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
           "tech": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "link": "https://ajay84sia.github.io/Sticky-Notes-App/",
+          "title": "Sticky Notes App",
+          "description": "A user-friendly sticky notes app that enables users to create, edit, and delete virtual sticky notes for convenient task management.",
+          "tech": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "link": "https://buy-digital.netlify.app/",
+          "title": "Reliance Digital Clone",
+          "description": "Buy Digital is a clone of an e-commerce website Reliance Digital which sells all electronic products at the best possible price.",
+          "tech": ["HTML", "CSS", "JavaScript"]
         }
 ]
 },
