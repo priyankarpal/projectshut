@@ -104,10 +104,10 @@ function ProjectList() {
             <p className="text-sm break-words">{user.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            {userObj.Social_media.gitHub !== '' && (
+            {userObj?.Social_media?.gitHub && userObj?.Social_media?.gitHub !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
-                  href={userObj.Social_media.gitHub}
+                  href={userObj?.Social_media?.gitHub}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
@@ -117,53 +117,53 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj.Social_media.LinkedIn !== '' && (
+            {userObj?.Social_media?.LinkedIn && userObj?.Social_media?.LinkedIn !== '' && (
               <div className="mx-4">
                 <a
                   href={userObj.Social_media.LinkedIn}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Linkedin"
                 >
                   <Linkedin />
                 </a>
               </div>
             )}
-            {userObj.Social_media.Twitter !== '' && (
+            {userObj?.Social_media?.Twitter && userObj?.Social_media?.Twitter !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.Twitter}
+                  href={userObj?.Social_media?.Twitter}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Twitter"
                 >
                   <Twitter />
                 </a>
               </div>
             )}
-            {userObj.Social_media.YouTube !== '' && (
+            {userObj?.Social_media?.YouTube && userObj?.Social_media?.YouTube !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.YouTube}
+                  href={userObj?.Social_media?.YouTube}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Youtube"
                 >
                   <Youtube />
                 </a>
               </div>
             )}
-            {userObj.Social_media.Instagram !== '' && (
+            {userObj?.Social_media?.Instagram && userObj?.Social_media?.Instagram !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.Instagram}
+                  href={userObj?.Social_media?.Instagram}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Instagram"
                 >
                   <Instagram />
                 </a>
