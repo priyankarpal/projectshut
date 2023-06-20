@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 /* eslint-disable linebreak-style */
 /* eslint-disable object-curly-newline */
 /* eslint-disable linebreak-style */
@@ -13,6 +14,7 @@
 import React, { useContext, useEffect, useState, Fragment } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Dialog, Transition } from '@headlessui/react';
+import { Filter } from 'react-feather';
 import { ProjectCard } from '../components';
 import projects from '../DB/projects.json';
 import techStack from '../utils/techStack';
@@ -161,21 +163,7 @@ function ProjectsPage() {
             ) : (
               <div className="mt-1">
                 {' '}
-                <i size="18" color="#9C9C9C">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="#9C9C9C"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 20 20"
-                    aria-labelledby="icon-svg-title- icon-svg-desc-"
-                    role="img"
-                    className="sc-rbbb40-0 iwHbVQ"
-                  >
-                    <title>filter</title>
-                    <path d="M2.14 6.42h7.26c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h2.96c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001h-2.94c-0.341-1.226-1.447-2.11-2.76-2.11s-2.419 0.885-2.755 2.090l-0.005 0.020h-7.26c-0.343 0.059-0.6 0.355-0.6 0.71s0.257 0.651 0.596 0.709l0.004 0.001zM12.16 4.28c0.776 0.011 1.4 0.643 1.4 1.42 0 0.784-0.636 1.42-1.42 1.42-0.777 0-1.409-0.624-1.42-1.399l-0-0.001c-0-0.006-0-0.013-0-0.020 0-0.784 0.636-1.42 1.42-1.42 0.007 0 0.014 0 0.021 0l-0.001-0zM17.86 13.58h-7.24c-0.328-1.245-1.443-2.148-2.77-2.148s-2.442 0.903-2.766 2.128l-0.004 0.020h-2.94c-0.036-0.006-0.077-0.010-0.12-0.010-0.398 0-0.72 0.322-0.72 0.72s0.322 0.72 0.72 0.72c0.042 0 0.084-0.004 0.124-0.011l-0.004 0.001h2.96c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h7.26c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001zM7.84 15.72c-0.776-0.011-1.4-0.643-1.4-1.42 0-0.784 0.636-1.42 1.42-1.42 0.777 0 1.409 0.624 1.42 1.399l0 0.001c0 0.006 0 0.013 0 0.020 0 0.784-0.636 1.42-1.42 1.42-0.007 0-0.014-0-0.021-0l0.001 0z" />
-                  </svg>
-                </i>
+                <Filter size={20} />
               </div>
             )}
           </div>
@@ -185,6 +173,7 @@ function ProjectsPage() {
         </button>
       </div>
 
+      {/* pop up code */}
       <Transition appear show={openFilter} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={() => setOpenFilter(false)}>
           <Transition.Child
@@ -200,7 +189,7 @@ function ProjectsPage() {
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center ">
+            <div className="flex h-[30rem] items-center justify-center p-4 text-center">
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-300"
@@ -216,40 +205,37 @@ function ProjectsPage() {
                     color: 'black',
                   }}
                 >
-                  <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                    Filter Option
-                  </Dialog.Title>
-                  <div className="">
-                    <div className="flex items-center justify-center my-7 mx-20">
-                      <input
-                        type="text"
-                        id="combo-box-demo"
-                        placeholder="search by author name"
-                        className="hover:bg-slate-200 border-solid border-2 outline-none border-primary rounded-md p-2 "
-                        style={{ color: 'black' }}
-                        onChange={(e) => handleOptionClick('author', e.target.value)}
-                        value={selectedOptions.author}
-                      />
-                    </div>
-                    <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
-                      {techStack.map((tech, index) => (
-                        <button
-                          type="button"
-                          key={index.id}
-                          onClick={() => handleOptionClick('tech-stack', tech)}
-                          className={`${
-                            selectedOptions.techStack && selectedOptions.techStack.includes(tech)
-                              ? 'bg-primary'
-                              : 'border border-primary'
-                          } rounded-sm p-2`}
-                          style={{
-                            color: 'black',
-                          }}
-                        >
-                          <span>{tech.toLowerCase()}</span>
-                        </button>
-                      ))}
-                    </div>
+                  {/*  search by author name */}
+                  <div className="flex items-center justify-center my-7 mx-20">
+                    <input
+                      type="text"
+                      id="combo-box-demo"
+                      placeholder="search by author name"
+                      className="border-solid border-2 outline-none border-primary rounded-md p-2"
+                      style={{ color: 'black' }}
+                      onChange={(e) => handleOptionClick('author', e.target.value)}
+                      value={selectedOptions.author}
+                    />
+                  </div>
+                  {/* tech stacks buttons */}
+                  <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
+                    {techStack.map((tech, index) => (
+                      <button
+                        type="button"
+                        key={index.id}
+                        onClick={() => handleOptionClick('tech-stack', tech)}
+                        className={`${
+                          selectedOptions.techStack && selectedOptions.techStack.includes(tech)
+                            ? 'bg-primary'
+                            : 'border border-primary'
+                        } rounded-sm p-2`}
+                        style={{
+                          color: 'black',
+                        }}
+                      >
+                        <span>{tech.toLowerCase()}</span>
+                      </button>
+                    ))}
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
