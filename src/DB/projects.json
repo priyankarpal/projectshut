@@ -1,5 +1,24 @@
 [
   {
+      "github_username": "PatilHarshh",  
+      "Social_media": {
+        "gitHub": "https://github.com/PatilHarshh",
+        "LinkedIn": "https://www.linkedin.com/in/harsh-patil-1005061b4/",
+        "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+        "Twitter": "https://twitter.com/Harsh94569157"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/PatilHarshh/videocall.github.io",
+          "title": "Video Call Web App",
+          "description": "This is the Video Calling Application made using WebRTC, Features of the site is secure peer to peer connection with Secure code Generation",
+          "tech": ["Javascript", "HTML","CSS"]
+        }  
+      ]
+  },
+
+  {
     "github_username": "Parmesh119",
     "Social_media": {
       "gitHub": "https://github.com/Parmesh119",
