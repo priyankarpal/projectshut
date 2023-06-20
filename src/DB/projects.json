@@ -2530,10 +2530,25 @@
     },
     "Projects": [
       {
+
+        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
+        "title": "Dungeon_Crawler",
+        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
+        "tech": ["React JS", "JavaScript","CSS"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
+        "title": "LinkedIn_Clone",
+        "description": "It is a clone of LinkedIn website.",
+        "tech": ["React JS", "Firebase"]
+      },
+      
+      {
         "link": "https://github.com/killerraj369/CodeHelper",
         "title": "CodeHelper Discord Bot",
         "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
         "tech": ["Node.js", "Express.js", "Discord.js", "RapidApi"]
+
       }
     ]
   },
