@@ -2529,5 +2529,20 @@
 
         }
       ]
+  },
+  {
+    "github_username": "Killer2OP",
+    "Social_media": {
+      "gitHub": "https://github.com/Killer2OP",
+      "LinkedIn": "https://www.linkedin.com/in/pro09/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
+        "title": "Dungeon_Crawler",
+        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
+        "tech": ["React JS", "JavaScript","CSS"]
+      }
+    ]
   }
 ]
