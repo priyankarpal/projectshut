@@ -2574,5 +2574,21 @@
         "tech": ["HTML", "CSS"]
       }
     ]
+},
+    "github_username": "swarajzz",
+    "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "Yhttps://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
+  },
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    },
+  ]
 }
 ]
