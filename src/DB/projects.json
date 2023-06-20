@@ -2404,9 +2404,15 @@
     },
     "Projects": [
       {
-        "link": "https://steady-llama-8085e6.netlify.app/",
+        "link": "https://github.com/AmanSingh6574/tic-tac-toe-game",
         "title": "TIC-TAK-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "link": "https://github.com/AmanSingh6574/Random-Gif-Generator",
+        "title": "Random Gif Generator",
+        "description": "Generates Random Gif using the Gif API plus user can enter the Gif required to be generated ",
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
