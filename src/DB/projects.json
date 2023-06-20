@@ -2554,6 +2554,12 @@
         "title": "Dungeon_Crawler",
         "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
         "tech": ["React JS", "JavaScript","CSS"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
+        "title": "LinkedIn_Clone",
+        "description": "It is a clone of LinkedIn website.",
+        "tech": ["React JS", "Firebase"]
       }
     ]
   },
