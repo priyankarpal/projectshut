@@ -1,24 +1,5 @@
 [
   {
-      "github_username": "PatilHarshh",  
-      "Social_media": {
-        "gitHub": "https://github.com/PatilHarshh",
-        "LinkedIn": "https://www.linkedin.com/in/harsh-patil-1005061b4/",
-        "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-        "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
-        "Twitter": "https://twitter.com/Harsh94569157"
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/PatilHarshh/videocall.github.io",
-          "title": "Video Call Web App",
-          "description": "This is the Video Calling Application made using WebRTC, Features of the site is secure peer to peer connection with Secure code Generation",
-          "tech": ["Javascript", "HTML","CSS"]
-        }  
-      ]
-  },
-
-  {
     "github_username": "Parmesh119",
     "Social_media": {
       "gitHub": "https://github.com/Parmesh119",
@@ -2345,12 +2326,6 @@
         "title": "Chrome Dinosaur Game",
         "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
         "tech": ["Python"]
-      },
-      {
-        "link": "https://github.com/Atharvashirsh/User-Database-Management-System",
-        "title": "User Database Management",
-        "description": "A User Database Management System is a project built with MongoDB, Express.js, and Node.js that allows you to manage user data efficiently",
-        "tech": ["EJS", "MongoDB", "Mongoose", "ExpressJS"]
       }
     ]
   },
@@ -2410,15 +2385,9 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/AmanSingh6574/tic-tac-toe-game",
+        "link": "https://steady-llama-8085e6.netlify.app/",
         "title": "TIC-TAK-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
-        "tech": ["HTML", "CSS", "Javascript"]
-      },
-      {
-        "link": "https://github.com/AmanSingh6574/Random-Gif-Generator",
-        "title": "Random Gif Generator",
-        "description": "Generates Random Gif using the Gif API plus user can enter the Gif required to be generated ",
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
@@ -2456,123 +2425,89 @@
     ]
   },
   {
-      "github_username": "Prashu-01",  
-      "Social_media": {
-        "gitHub": "https://github.com/Prashu-01",
-        "LinkedIn": "https://www.linkedin.com/in/prashu-verma-517890227/"
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/Prashu-01/WeatherApp",
-          "title": "Weather Website",
-          "description": "A weather website that can show realtime weather. Simply search for your city name.",
-          "tech": ["HTML", "CSS","JavaScript"]
-        }
-      ]
+    "github_username": "Prashu-01",
+    "Social_media": {
+      "gitHub": "https://github.com/Prashu-01",
+      "LinkedIn": "https://www.linkedin.com/in/prashu-verma-517890227/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Prashu-01/WeatherApp",
+        "title": "Weather Website",
+        "description": "A weather website that can show realtime weather. Simply search for your city name.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
   {
-      "github_username": "Ajay84sia",  
-      "Social_media": {
-        "gitHub": "https://github.com/Ajay84sia",
-        "LinkedIn": "https://www.linkedin.com/in/ajay-84sia/"
+    "github_username": "Ajay84sia",
+    "Social_media": {
+      "gitHub": "https://github.com/Ajay84sia",
+      "LinkedIn": "https://www.linkedin.com/in/ajay-84sia/"
+    },
+    "Projects": [
+      {
+        "link": "https://weatheralertapp.netlify.app/",
+        "title": "Weather Website",
+        "description": "A weather Website that can show real-time weather. Check weather for your city.",
+        "tech": ["HTML", "CSS", "JavaScript"]
       },
-      "Projects": [
-        {
-          "link": "https://weatheralertapp.netlify.app/",
-          "title": "Weather Website",
-          "description": "A weather Website that can show real-time weather. Check weather for your city.",
-          "tech": ["HTML", "CSS", "JavaScript"]
-        },
-        {
-          "link": "https://ajay84sia.github.io/Musify.github.io/",
-          "title": "Music Player",
-          "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
-          "tech": ["HTML", "CSS", "JavaScript"]
-        },
-        {
-          "link": "https://ajay84sia.github.io/Sticky-Notes-App/",
-          "title": "Sticky Notes App",
-          "description": "A user-friendly sticky notes app that enables users to create, edit, and delete virtual sticky notes for convenient task management.",
-          "tech": ["HTML", "CSS", "JavaScript"]
-        },
-        {
-          "link": "https://buy-digital.netlify.app/",
-          "title": "Reliance Digital Clone",
-          "description": "Buy Digital is a clone of an e-commerce website Reliance Digital which sells all electronic products at the best possible price.",
-          "tech": ["HTML", "CSS", "JavaScript"]
-        }
-]
-},
-{
-      "github_username": "killerraj369",  
-      "Social_media": {
-        "gitHub": "https://github.com/killerraj369",
-        "LinkedIn": "https://www.linkedin.com/in/vaibhav-raj-229967218/"
+      {
+        "link": "https://ajay84sia.github.io/Musify.github.io/",
+        "title": "Music Player",
+        "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
+        "tech": ["HTML", "CSS", "JavaScript"]
       },
-      "Projects": [
-        {
-          "link": "https://github.com/killerraj369/CodeHelper",
-          "title": "CodeHelper Discord Bot",
-          "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
-          "tech": ["Node.js", "Express.js","Discord.js","RapidApi"]
-}
-]
+      {
+        "link": "https://ajay84sia.github.io/Sticky-Notes-App/",
+        "title": "Sticky Notes App",
+        "description": "A user-friendly sticky notes app that enables users to create, edit, and delete virtual sticky notes for convenient task management.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://buy-digital.netlify.app/",
+        "title": "Reliance Digital Clone",
+        "description": "Buy Digital is a clone of an e-commerce website Reliance Digital which sells all electronic products at the best possible price.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
-  
-{
-      "github_username": "Judge-Paul",  
-      "Social_media": {
-        "gitHub": "https://github.com/Judge-Paul",
-        "Instagram": "https://www.instagram.com/paulogebe",
-        "Twitter": "https://twitter.com/paulogebe"
-      },
-      "Projects": [
-        {
-          "link": "https://nft-market-jadge.vercel.app",
-          "title": "NFT Marketplace",
-          "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
-          "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
-        },
-        {
-          "link": "https://jobwrite.vercel.app",
-          "title": "JobWriteAI",
-          "description": "JobWriteAI allows you to generate cover letters instantly, just paste the job description fill out skills to avoid and you'll have a cover letter in seconds.",
-          "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
+  {
+    "github_username": "killerraj369",
+    "Social_media": {
+      "gitHub": "https://github.com/killerraj369",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhav-raj-229967218/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/killerraj369/CodeHelper",
+        "title": "CodeHelper Discord Bot",
+        "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
+        "tech": ["Node.js", "Express.js", "Discord.js", "RapidApi"]
+      }
+    ]
+  },
 
-        }
-      ]
-  },
   {
-    "github_username": "Killer2OP",
+    "github_username": "Judge-Paul",
     "Social_media": {
-      "gitHub": "https://github.com/Killer2OP",
-      "LinkedIn": "https://www.linkedin.com/in/pro09/"
+      "gitHub": "https://github.com/Judge-Paul",
+      "Instagram": "https://www.instagram.com/paulogebe",
+      "Twitter": "https://twitter.com/paulogebe"
     },
     "Projects": [
       {
-        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
-        "title": "Dungeon_Crawler",
-        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
-        "tech": ["React JS", "JavaScript","CSS"]
-      }
-    ]
-  },
-  {
-    "github_username": "Naina047",  
-    "Social_media": {
-      "gitHub": "https://github.com/Naina047",
-      "LinkedIn": "https://www.linkedin.com/in/naina-choudhary-24264b229",
-      "Instagram": "https://instagram.com/_.naina._04?igshid=MzNlNGNkZWQ4Mg==",
-      "YouTube": "/",
-      "Twitter": "https://twitter.com/naina__04?t=r-i8_aN-yWcm36ZOogIkoQ&s=09"
-    },
-    "Projects": [
+        "link": "https://nft-market-jadge.vercel.app",
+        "title": "NFT Marketplace",
+        "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
+        "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
+      },
       {
-        "link": "https://github.com/Naina047/nainachoudhary.github.io/",
-        "title": "PORTFOLIO FORMAT",
-        "description": "This is a portfolio format using mainly HTML CSS and a bit of JS.",
-        "tech": ["HTML", "CSS"]
+        "link": "https://jobwrite.vercel.app",
+        "title": "JobWriteAI",
+        "description": "JobWriteAI allows you to generate cover letters instantly, just paste the job description fill out skills to avoid and you'll have a cover letter in seconds.",
+        "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
       }
     ]
-}
+  }
 ]
