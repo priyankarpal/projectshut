@@ -2351,6 +2351,12 @@
         "title": "User Database Management",
         "description": "A User Database Management System is a project built with MongoDB, Express.js, and Node.js that allows you to manage user data efficiently",
         "tech": ["EJS", "MongoDB", "Mongoose", "ExpressJS"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Flutter-Quiz-App",
+        "title": "Quiz App",
+        "description": "A simple Quiz App made in Flutter",
+        "tech": ["Flutter", "Dart"]
       }
     ]
   },
