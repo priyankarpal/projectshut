@@ -2535,5 +2535,26 @@
 
         }
       ]
-  }
+  },
+
+  {
+    "github_username": "Naina047",  
+    "Social_media": {
+      "gitHub": "https://github.com/Naina047",
+      "LinkedIn": "https://www.linkedin.com/in/naina-choudhary-24264b229",
+      "Instagram": "https://instagram.com/_.naina._04?igshid=MzNlNGNkZWQ4Mg==",
+      "YouTube": "/",
+      "Twitter": "https://twitter.com/naina__04?t=r-i8_aN-yWcm36ZOogIkoQ&s=09"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Naina047/nainachoudhary.github.io/",
+        "title": "PORTFOLIO FORMAT",
+        "description": "This is a portfolio format using mainly HTML CSS and a bit of JS.",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
+}
+
+
 ]
