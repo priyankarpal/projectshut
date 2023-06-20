@@ -10,7 +10,7 @@
   },
   "Projects": [
     {
-      "link": "https://5h0ov.github.io/Coffee-Machine-Animation/",
+      "link": "https://github.com/5h0ov/Coffee-Machine-Animation",
       "title": "Animated Coffee Machine",
       "description": "This is an Animated Coffee Machine built using HTML, CSS and a little bit of Javascript.",
       "tech": ["HTML", "CSS", "Javascript"]
