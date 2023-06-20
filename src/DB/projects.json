@@ -2572,5 +2572,22 @@
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "YOUR_GITHUB_USERNAME",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
+  },
+  "Projects": [
+    {
+      "link": "https://meme-generator-six-zeta.vercel.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    },
+  ]
+}
 ]
