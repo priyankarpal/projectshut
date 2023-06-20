@@ -2404,9 +2404,15 @@
     },
     "Projects": [
       {
-        "link": "https://steady-llama-8085e6.netlify.app/",
+        "link": "https://github.com/AmanSingh6574/tic-tac-toe-game",
         "title": "TIC-TAK-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "link": "https://github.com/AmanSingh6574/Random-Gif-Generator",
+        "title": "Random Gif Generator",
+        "description": "Generates Random Gif using the Gif API plus user can enter the Gif required to be generated ",
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
@@ -2544,5 +2550,23 @@
         "tech": ["React JS", "JavaScript","CSS"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "Naina047",  
+    "Social_media": {
+      "gitHub": "https://github.com/Naina047",
+      "LinkedIn": "https://www.linkedin.com/in/naina-choudhary-24264b229",
+      "Instagram": "https://instagram.com/_.naina._04?igshid=MzNlNGNkZWQ4Mg==",
+      "YouTube": "/",
+      "Twitter": "https://twitter.com/naina__04?t=r-i8_aN-yWcm36ZOogIkoQ&s=09"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Naina047/nainachoudhary.github.io/",
+        "title": "PORTFOLIO FORMAT",
+        "description": "This is a portfolio format using mainly HTML CSS and a bit of JS.",
+        "tech": ["HTML", "CSS"]
+      }
+    ]
+}
 ]
