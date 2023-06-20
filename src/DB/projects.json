@@ -1,5 +1,43 @@
 [
   {
+    "github_username": "5h0ov",
+    "Social_media": {
+      "gitHub": "https://github.com/5h0ov",
+      "LinkedIn": "https://www.linkedin.com/in/shuvadipta-das-915b28216/",
+      "Instagram": "https://www.instagram.com/its_shuvadipta/",
+      "YouTube": "https://www.youtube.com/channel/UCYWgCjYT8_05-rLq0Xmbm-Q",
+      "Twitter": "https://twitter.com/5h0ovie"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/5h0ov/Coffee-Machine-Animation",
+        "title": "Animated Coffee Machine",
+        "description": "This is an Animated Coffee Machine built using HTML, CSS and a little bit of Javascript.",
+        "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+
+  {
+    "github_username": "PatilHarshh",
+    "Social_media": {
+      "gitHub": "https://github.com/PatilHarshh",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-patil-1005061b4/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "https://twitter.com/Harsh94569157"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/PatilHarshh/videocall.github.io",
+        "title": "Video Call Web App",
+        "description": "This is the Video Calling Application made using WebRTC, Features of the site is secure peer to peer connection with Secure code Generation",
+        "tech": ["Javascript", "HTML", "CSS"]
+      }
+    ]
+  },
+
+  {
     "github_username": "Parmesh119",
     "Social_media": {
       "gitHub": "https://github.com/Parmesh119",
@@ -830,10 +868,10 @@
   {
     "github_username": "oyepriyansh",
     "Social_media": {
-      "gitHub": "https://oye.pages.dev/28rwld",
-      "LinkedIn": "https://oye.pages.dev/5ao29f",
-      "Instagram": "https://oye.pages.dev/q325qk",
-      "Twitter": "https://oye.pages.dev/t25jq0",
+      "gitHub": "https://github.com/oyepriyansh",
+      "LinkedIn": "https://linkedin.com/in/oyepriyansh",
+      "Instagram": "https://instagram.com/oyepriyansh",
+      "Twitter": "https://twitter.com/oyepriyansh",
       "YouTube": ""
     },
     "Projects": [
@@ -2326,6 +2364,18 @@
         "title": "Chrome Dinosaur Game",
         "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
         "tech": ["Python"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/User-Database-Management-System",
+        "title": "User Database Management",
+        "description": "A User Database Management System is a project built with MongoDB, Express.js, and Node.js that allows you to manage user data efficiently",
+        "tech": ["EJS", "MongoDB", "Mongoose", "ExpressJS"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Flutter-Quiz-App",
+        "title": "Quiz App",
+        "description": "A simple Quiz App made in Flutter",
+        "tech": ["Flutter", "Dart"]
       }
     ]
   },
@@ -2457,6 +2507,18 @@
         "title": "Music Player",
         "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://ajay84sia.github.io/Sticky-Notes-App/",
+        "title": "Sticky Notes App",
+        "description": "A user-friendly sticky notes app that enables users to create, edit, and delete virtual sticky notes for convenient task management.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://buy-digital.netlify.app/",
+        "title": "Reliance Digital Clone",
+        "description": "Buy Digital is a clone of an e-commerce website Reliance Digital which sells all electronic products at the best possible price.",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -2467,6 +2529,19 @@
       "LinkedIn": "https://www.linkedin.com/in/vaibhav-raj-229967218/"
     },
     "Projects": [
+      {
+        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
+        "title": "Dungeon_Crawler",
+        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
+        "tech": ["React JS", "JavaScript", "CSS"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
+        "title": "LinkedIn_Clone",
+        "description": "It is a clone of LinkedIn website.",
+        "tech": ["React JS", "Firebase"]
+      },
+
       {
         "link": "https://github.com/killerraj369/CodeHelper",
         "title": "CodeHelper Discord Bot",
