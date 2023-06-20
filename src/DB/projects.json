@@ -1,5 +1,24 @@
 [
   {
+    "github_username": "5h0ov",
+  "Social_media": {
+    "gitHub": "https://github.com/5h0ov",
+    "LinkedIn": "https://www.linkedin.com/in/shuvadipta-das-915b28216/",
+    "Instagram": "https://www.instagram.com/its_shuvadipta/",
+    "YouTube": "https://www.youtube.com/channel/UCYWgCjYT8_05-rLq0Xmbm-Q",
+    "Twitter": "https://twitter.com/5h0ovie"
+  },
+  "Projects": [
+    {
+      "link": "https://5h0ov.github.io/Coffee-Machine-Animation/",
+      "title": "Animated Coffee Machine",
+      "description": "This is an Animated Coffee Machine built using HTML, CSS and a little bit of Javascript.",
+      "tech": ["HTML", "CSS", "Javascript"]
+    }    
+  ]
+},
+  
+  {
       "github_username": "PatilHarshh",  
       "Social_media": {
         "gitHub": "https://github.com/PatilHarshh",
