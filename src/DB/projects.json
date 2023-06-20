@@ -2345,12 +2345,6 @@
         "title": "Chrome Dinosaur Game",
         "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
         "tech": ["Python"]
-      },
-      {
-        "link": "https://github.com/Atharvashirsh/User-Database-Management-System",
-        "title": "User Database Management",
-        "description": "A User Database Management System is a project built with MongoDB, Express.js, and Node.js that allows you to manage user data efficiently",
-        "tech": ["EJS", "MongoDB", "Mongoose", "ExpressJS"]
       }
     ]
   },
@@ -2410,15 +2404,9 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/AmanSingh6574/tic-tac-toe-game",
+        "link": "https://steady-llama-8085e6.netlify.app/",
         "title": "TIC-TAK-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
-        "tech": ["HTML", "CSS", "Javascript"]
-      },
-      {
-        "link": "https://github.com/AmanSingh6574/Random-Gif-Generator",
-        "title": "Random Gif Generator",
-        "description": "Generates Random Gif using the Gif API plus user can enter the Gif required to be generated ",
         "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
@@ -2543,36 +2531,20 @@
       ]
   },
   {
-    "github_username": "Killer2OP",
-    "Social_media": {
-      "gitHub": "https://github.com/Killer2OP",
-      "LinkedIn": "https://www.linkedin.com/in/pro09/"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
-        "title": "Dungeon_Crawler",
-        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
-        "tech": ["React JS", "JavaScript","CSS"]
-      }
-    ]
+  "github_username": "swarajzz",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
   },
-  {
-    "github_username": "Naina047",  
-    "Social_media": {
-      "gitHub": "https://github.com/Naina047",
-      "LinkedIn": "https://www.linkedin.com/in/naina-choudhary-24264b229",
-      "Instagram": "https://instagram.com/_.naina._04?igshid=MzNlNGNkZWQ4Mg==",
-      "YouTube": "/",
-      "Twitter": "https://twitter.com/naina__04?t=r-i8_aN-yWcm36ZOogIkoQ&s=09"
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
     },
-    "Projects": [
-      {
-        "link": "https://github.com/Naina047/nainachoudhary.github.io/",
-        "title": "PORTFOLIO FORMAT",
-        "description": "This is a portfolio format using mainly HTML CSS and a bit of JS.",
-        "tech": ["HTML", "CSS"]
-      }
-    ]
+  ]
 }
 ]
