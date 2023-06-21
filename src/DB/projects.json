@@ -2577,7 +2577,23 @@
         "title": "NFT Marketplace",
         "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
         "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
+      }
+    ]
+  },
+ {
+      "github_username": "mohitparmar1",  
+      "Social_media": {
+        "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
+        "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
+        "Twitter": "https://twitter.com/mohitparmar1_"
       },
+      "Projects": [
+        {
+          "link": "https://github.com/mohitparmar1/Leads-Tracker",
+          "title": "Leads Tracker",
+          "description": "its a tracker that track our important tabs",
+          "tech": ["html", "css","javascript"]
+        },
       {
         "link": "https://jobwrite.vercel.app",
         "title": "JobWriteAI",
