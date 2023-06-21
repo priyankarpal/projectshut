@@ -1,28 +1,15 @@
-/* eslint-disable indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable object-curly-newline */
-/* eslint-disable linebreak-style */
-/* eslint-disable react/jsx-wrap-multilines */
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable linebreak-style */
-/* eslint-disable operator-linebreak */
-/* eslint-disable no-use-before-define */
-/* eslint-disable function-paren-newline */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable linebreak-style */
-import React, { useContext, useEffect, useState, Fragment } from 'react';
-import InfiniteScroll from 'react-infinite-scroll-component';
-import { Dialog, Transition } from '@headlessui/react';
-import { Filter } from 'react-feather';
-import { ProjectCard } from '../components';
-import projects from '../DB/projects.json';
-import techStack from '../utils/techStack';
-import { FilterContext } from '../context/FilterContext';
-import { searchProject } from '../utils/searchProject';
-import ProjectLoading from '../components/ProjectLoading';
-import { shuffleProjects } from '../utils/paginate';
-import { ThemeContext } from '../context/Theme';
+import React, { useContext, useEffect, useState, Fragment } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
+import { Dialog, Transition } from "@headlessui/react";
+import { Filter } from "react-feather";
+import { ProjectCard } from "../components";
+import projects from "../DB/projects.json";
+import techStack from "../utils/techStack";
+import { FilterContext } from "../context/FilterContext";
+import { searchProject } from "../utils/searchProject";
+import ProjectLoading from "../components/ProjectLoading";
+import { shuffleProjects } from "../utils/paginate";
+import { ThemeContext } from "../context/Theme";
 
 function ProjectsPage() {
   const Projects = [];
@@ -37,7 +24,9 @@ function ProjectsPage() {
 
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
   const [limit, setLimit] = useState(15);
-  const [visibleProjects, setVisibleProjects] = useState(shuffleProjects(Projects).slice(0, limit));
+  const [visibleProjects, setVisibleProjects] = useState(
+    shuffleProjects(Projects).slice(0, limit)
+  );
   const [openFilter, setOpenFilter] = useState(false);
   const [filterCount, setFilterCount] = useState(0);
 
@@ -100,27 +89,35 @@ function ProjectsPage() {
       filteredProjects = selectedOptions.techStack.flatMap((tech) =>
         Projects.filter((obj) => {
           const arr = obj.tech;
-          const regexPattern = new RegExp(tech, 'i');
+          const regexPattern = new RegExp(tech, "i");
           return arr.some((e) => regexPattern.test(e));
-        }),
+        })
       );
     }
 
     // filter projects based on author names
     if (selectedOptions.author) {
-      filteredProjects = searchProject(filteredProjects, selectedOptions.author, 'author');
+      filteredProjects = searchProject(
+        filteredProjects,
+        selectedOptions.author,
+        "author"
+      );
     }
 
     // filter projects based on project names
     if (selectedOptions.project) {
-      filteredProjects = searchProject(filteredProjects, selectedOptions.project, 'project');
+      filteredProjects = searchProject(
+        filteredProjects,
+        selectedOptions.project,
+        "project"
+      );
     }
     return [...new Set(filteredProjects)];
   };
 
   // to clear all filters
   const handleClear = () => {
-    handleOptionClick('clear', '');
+    handleOptionClick("clear", "");
     getProjects();
   };
   return (
@@ -135,14 +132,14 @@ function ProjectsPage() {
           id="combo-box-demo"
           placeholder="search by project name"
           className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${
-            theme.mode === 'light' ? 'text-black' : 'text-white'
+            theme.mode === "light" ? "text-black" : "text-white"
           }`}
-          onChange={(e) => handleOptionClick('project', e.target.value)}
+          onChange={(e) => handleOptionClick("project", e.target.value)}
           value={selectedOptions.project}
         />
       </div>
       <div className="flex item-stretch">
-        {' '}
+        {" "}
         <button
           className="border border-primary rounded-sm p-3 flex item-stretch"
           style={{
@@ -150,32 +147,39 @@ function ProjectsPage() {
           }}
           onClick={() => setOpenFilter(!openFilter)}
         >
-          Filter{' '}
+          Filter{" "}
           <div
             className="ml-2"
             style={{
               color: theme?.color,
             }}
           >
-            {' '}
+            {" "}
             {filterCount > 0 ? (
               <div className="bg-primary rounded-sm px-3">{filterCount}</div>
             ) : (
               <div className="mt-1">
-                {' '}
+                {" "}
                 <Filter size={20} />
               </div>
             )}
           </div>
         </button>
-        <button className="border border-primary rounded-sm p-3 mx-2" onClick={() => handleClear()}>
+        <button
+          className="border border-primary rounded-sm p-3 mx-2"
+          onClick={() => handleClear()}
+        >
           Clear
         </button>
       </div>
 
       {/* pop up code */}
       <Transition appear show={openFilter} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={() => setOpenFilter(false)}>
+        <Dialog
+          as="div"
+          className="relative z-10"
+          onClose={() => setOpenFilter(false)}
+        >
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -202,7 +206,7 @@ function ProjectsPage() {
                 <Dialog.Panel
                   className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all"
                   style={{
-                    color: 'black',
+                    color: "black",
                   }}
                 >
                   {/*  search by author name */}
@@ -212,8 +216,10 @@ function ProjectsPage() {
                       id="combo-box-demo"
                       placeholder="search by author name"
                       className="border-solid border-2 outline-none border-primary rounded-md p-2"
-                      style={{ color: 'black' }}
-                      onChange={(e) => handleOptionClick('author', e.target.value)}
+                      style={{ color: "black" }}
+                      onChange={(e) =>
+                        handleOptionClick("author", e.target.value)
+                      }
                       value={selectedOptions.author}
                     />
                   </div>
@@ -223,14 +229,15 @@ function ProjectsPage() {
                       <button
                         type="button"
                         key={index.id}
-                        onClick={() => handleOptionClick('tech-stack', tech)}
+                        onClick={() => handleOptionClick("tech-stack", tech)}
                         className={`${
-                          selectedOptions.techStack && selectedOptions.techStack.includes(tech)
-                            ? 'bg-primary'
-                            : 'border border-primary'
+                          selectedOptions.techStack &&
+                          selectedOptions.techStack.includes(tech)
+                            ? "bg-primary"
+                            : "border border-primary"
                         } rounded-sm p-2`}
                         style={{
-                          color: 'black',
+                          color: "black",
                         }}
                       >
                         <span>{tech.toLowerCase()}</span>
@@ -263,7 +270,7 @@ function ProjectsPage() {
               </>
             }
             endMessage={
-              <p style={{ textAlign: 'center' }} className="py-5">
+              <p style={{ textAlign: "center" }} className="py-5">
                 <b>Yay! You have seen it all</b>
               </p>
             }
@@ -272,13 +279,18 @@ function ProjectsPage() {
               <ProjectCard
                 key={project.link}
                 project={project}
-                filter={selectedOptions.techStack && selectedOptions.techStack?.join(',')}
+                filter={
+                  selectedOptions.techStack &&
+                  selectedOptions.techStack?.join(",")
+                }
               />
             ))}
           </InfiniteScroll>
         ) : (
           <div className="flex justify-center items-center h-[50vh]">
-            <h1 className="text-2xl font-bold text-center">No Projects Found</h1>
+            <h1 className="text-2xl font-bold text-center">
+              No Projects Found
+            </h1>
           </div>
         )}
       </section>

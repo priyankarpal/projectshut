@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-import { GitBranch, FileText, UploadCloud } from 'react-feather';
-import React, { useEffect } from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { GitBranch, FileText, UploadCloud } from "react-feather";
+import React, { useEffect } from "react";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function AddYourProjectsGuide() {
   useEffect(() => {
@@ -36,20 +36,21 @@ function AddYourProjectsGuide() {
   }`;
 
   const copyCode = (e) => {
-    const code = e.nativeEvent.srcElement.parentElement.nextElementSibling.innerText;
+    const code =
+      e.nativeEvent.srcElement.parentElement.nextElementSibling.innerText;
     const copyFlag = e.nativeEvent.srcElement;
 
     navigator.clipboard
       .writeText(code)
       .then(() => {
-        console.log('Code copied successfully!');
-        copyFlag.innerText = 'copied!';
+        console.log("Code copied successfully!");
+        copyFlag.innerText = "copied!";
       })
       .catch((error) => {
-        console.error('Error copying code:', error);
+        console.error("Error copying code:", error);
       });
     setTimeout(() => {
-      copyFlag.innerText = 'copy';
+      copyFlag.innerText = "copy";
     }, 3000);
   };
 
@@ -73,18 +74,28 @@ function AddYourProjectsGuide() {
               <path d="M100 180V.5M.5 .5H180" fill="none" />
             </pattern>
           </defs>
-          <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+          <rect
+            width="100%"
+            height="100%"
+            strokeWidth={0}
+            fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+          />
         </svg>
       </div>
 
       <article className="items-center max-w-5xl mx-auto ">
         <div className="  text-base leading-7 ">
-          <p className="mb-5 text-xl font-bold tracking-tight  ">Follow these steps to add your projects</p>
+          <p className="mb-5 text-xl font-bold tracking-tight  ">
+            Follow these steps to add your projects
+          </p>
           <div className="flex items-center gap-5">
             <span>
               <GitBranch size={18} />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Fork this repository</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600">
+              {" "}
+              Fork this repository
+            </p>
           </div>
           <img
             src="https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png"
@@ -96,9 +107,12 @@ function AddYourProjectsGuide() {
               <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              {' '}
-              Click on Go to file(I&apos;m doing from{' '}
-              <span className="bg-purple-180  p-1 rounded-md">priyankarpal/projectshut</span> )
+              {" "}
+              Click on Go to file(I&apos;m doing from{" "}
+              <span className="bg-purple-180  p-1 rounded-md">
+                priyankarpal/projectshut
+              </span>{" "}
+              )
             </p>
           </div>
 
@@ -113,9 +127,13 @@ function AddYourProjectsGuide() {
               <FileText size={18} />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
-              Add following code to end of <span className=" p-1 rounded-md ">src/DB/projects.json</span>
+              Add following code to end of{" "}
+              <span className=" p-1 rounded-md ">src/DB/projects.json</span>
             </p>
-            <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+            <p
+              onClick={(e) => copyCode(e)}
+              className="absolute right-2 cursor-pointer"
+            >
               copy
             </p>
           </div>
@@ -126,7 +144,10 @@ function AddYourProjectsGuide() {
             <span>
               <UploadCloud size={18} />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600">
+              {" "}
+              Commit your changes
+            </p>
           </div>
           <img
             src="https://user-images.githubusercontent.com/88102392/232192543-5fcc2711-7693-4dba-8993-75e3528b8530.png"
@@ -137,7 +158,10 @@ function AddYourProjectsGuide() {
             <span>
               <UploadCloud size={18} />
             </span>
-            <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
+            <p className="text-base font-semibold leading-7 text-indigo-600">
+              {" "}
+              Create Pull Request & wait for merge
+            </p>
           </div>
           <span>Fill up the description</span>
           <img
@@ -151,7 +175,7 @@ function AddYourProjectsGuide() {
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {' '}
+            {" "}
             OR, If you want to run it locally then follow these steps
           </p>
         </div>
@@ -160,8 +184,13 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600">Clone this repository</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            Clone this repository
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -172,8 +201,14 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Navigate to the project folder</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Navigate to the project folder
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -184,8 +219,14 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> install dependencies</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            install dependencies
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -198,10 +239,13 @@ function AddYourProjectsGuide() {
             <FileText size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {' '}
+            {" "}
             Create a new branch using your `GitHub Username`
           </p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -212,8 +256,14 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Run in local</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Run in local
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -225,15 +275,24 @@ function AddYourProjectsGuide() {
           <span>
             <FileText size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Do Changes in Project you want.</p>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Do Changes in Project you want.
+          </p>
         </div>
 
         <div className="mt-5 flex items-center gap-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Add your changes.</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Add your changes.
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -244,8 +303,14 @@ function AddYourProjectsGuide() {
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Commit your changes</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Commit your changes
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -258,10 +323,13 @@ function AddYourProjectsGuide() {
             <UploadCloud size={18} />
           </span>
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            {' '}
+            {" "}
             If you encounter this error while commits
           </p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -273,8 +341,14 @@ function AddYourProjectsGuide() {
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Then run this command</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Then run this command
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -286,21 +360,34 @@ function AddYourProjectsGuide() {
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Set upstream command</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Set upstream command
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
         <SyntaxHighlighter language="nginx" style={a11yDark}>
-          git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
+          git remote add upstream
+          https://github.com/priyankarpal/ProjectsHut.git
         </SyntaxHighlighter>
 
         <div className="flex items-center gap-5 mt-5 relative">
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Push your changes</p>
-          <p onClick={(e) => copyCode(e)} className="absolute right-2 cursor-pointer">
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Push your changes
+          </p>
+          <p
+            onClick={(e) => copyCode(e)}
+            className="absolute right-2 cursor-pointer"
+          >
             copy
           </p>
         </div>
@@ -312,7 +399,10 @@ function AddYourProjectsGuide() {
           <span>
             <UploadCloud size={18} />
           </span>
-          <p className="text-base font-semibold leading-7 text-indigo-600"> Create Pull Request & wait for merge</p>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
+            {" "}
+            Create Pull Request & wait for merge
+          </p>
         </div>
       </article>
     </section>
