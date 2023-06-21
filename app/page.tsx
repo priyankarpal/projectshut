@@ -1,30 +1,28 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable max-len */
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { toast } from 'react-toastify';
-import Banner from '../components/Banner';
-import { ThemeContext } from '../context/Theme';
-import images from '../DB/homepage-image.json';
-import 'react-toastify/dist/ReactToastify.css';
+import Image from "next/image";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import Banner from "../components/Banner";
+import { ThemeContext } from "../context/Theme";
+import images from "../DB/homepage-image.json";
+import "react-toastify/dist/ReactToastify.css";
 
-function HomePage() {
+export default function HomePage() {
   window.scrollTo(0, 0);
   const { theme } = useContext(ThemeContext);
 
   const notify = () => {
-    toast('Want to add your project? Check out the docs!', {
-      position: 'top-right',
+    toast("Want to add your project? Check out the docs!", {
+      position: "top-right",
       autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
       progress: undefined,
-      theme: 'light',
+      theme: "light",
     });
   };
-
   return (
     <section>
       <div className="relative overflow-hidden">
@@ -36,7 +34,8 @@ function HomePage() {
               </h1>
 
               <p className="mt-4 text-xl text-gray-400 tracking-wide ">
-                ProjectsHut is a platform where you can share your open source projects with the world.
+                ProjectsHut is a platform where you can share your open source
+                projects with the world.
               </p>
 
               <div className="mt-14">
@@ -57,7 +56,10 @@ function HomePage() {
               <div className="flex justify-center flex-grow items-center space-x-6 lg:space-x-8">
                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                   {images.slice(0, 2).map((image, index) => (
-                    <div key={index} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                    <div
+                      key={index}
+                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                    >
                       <img
                         src={image.url}
                         alt={image.alt}
@@ -68,7 +70,10 @@ function HomePage() {
                 </div>
                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-5">
                   {images.slice(2, 5).map((image, index) => (
-                    <div key={index} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                    <div
+                      key={index}
+                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                    >
                       <img
                         src={image.url}
                         alt={image.alt}
@@ -79,7 +84,10 @@ function HomePage() {
                 </div>
                 <div className="hidden xl:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                   {images.slice(5).map((image, i) => (
-                    <div key={i} className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
+                    <div
+                      key={i}
+                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                    >
                       <img
                         src={image.url}
                         alt={image.alt}
@@ -97,5 +105,3 @@ function HomePage() {
     </section>
   );
 }
-
-export default HomePage;

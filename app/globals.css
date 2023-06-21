@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
 
 @tailwind base;
 
@@ -39,7 +39,7 @@
 html {
   scrollbar-color: #ffffff #000000;
   scrollbar-width: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
