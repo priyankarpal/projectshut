@@ -222,9 +222,8 @@ function ProjectList() {
       </div>
       {isOpenModal && (
         <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-          <div className="fixed  inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
-
-          <div className="fixed inset-0 z-10 overflow-y-auto ">
+          <div className="fixed inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
+          <div className="fixed inset-0 z-10 overflow-y-auto">
             <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
               <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 sm:w-full sm:max-w-lg ">
                 <div
@@ -236,26 +235,23 @@ function ProjectList() {
                     minHeight: '150px',
                   }}
                 >
-                  <div>
-                    {' '}
-                    <p className="text-center font-bold mt-2 mb-6"> Share Your Profile 🎉🎉🎉</p>
-                    <div className="flex justify-center">
-                      <input
-                        className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
-                        value={window.location.href}
-                        disabled
-                      />
-                      <button onClick={() => copyText()}>
-                        {isCopied ? (
-                          <div className="flex items-stretch ">
-                            <Check style={{ color: 'green', fontSize: '5rem' }} />
-                            <p className="text-green-800">Copied</p>
-                          </div>
-                        ) : (
-                          <Copy style={{ fontSize: '5rem' }} />
-                        )}
-                      </button>
-                    </div>
+                  <p className="text-center font-bold mt-2 mb-6"> Share Your Profile 🎉🎉🎉</p>
+                  <div className="flex justify-center">
+                    <input
+                      className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
+                      value={window.location.href}
+                      disabled
+                    />
+                    <button onClick={() => copyText()}>
+                      {isCopied ? (
+                        <div className="flex items-stretch">
+                          <Check style={{ color: 'green', fontSize: '5rem' }} />{' '}
+                          <p className="text-green-800">Copied</p>
+                        </div>
+                      ) : (
+                        <Copy style={{ fontSize: '5rem' }} />
+                      )}
+                    </button>
                   </div>
 
                   <button className="absolute top-5 right-7" onClick={() => setIsOpenModal(false)}>
