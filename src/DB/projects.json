@@ -2395,6 +2395,12 @@
         "title": "Quiz App",
         "description": "A simple Quiz App made in Flutter",
         "tech": ["Flutter", "Dart"]
+      },
+      {
+        "link": "https://github.com/Atharvashirsh/Xylophone-App",
+        "title": "Xylophone App",
+        "description": "A simple Xylophone App made in Flutter that plays tunes",
+        "tech": ["Flutter", "Dart"]
       }
     ]
   },
