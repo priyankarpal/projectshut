@@ -1,9 +1,4 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable padded-blocks */
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable prefer-const */
-/* eslint-disable import/prefer-default-export */
-export const searchProject = (projects, title, type) => {
+export const searchProject = (projects: any, title: string, type: string) => {
   let resultArr = [];
   if (title.length > 0) {
     for (const project of projects) {

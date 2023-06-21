@@ -1,11 +1,3 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-plusplus */
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-use-before-define */
-/* eslint-disable prefer-const */
-/* eslint-disable spaced-comment */
-//used Fisher–Yates Shuffle to avoid the expensive array operations
-
 export const shuffleProjects = (project) => {
   let i = project.length;
 

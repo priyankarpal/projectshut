@@ -1,16 +1,11 @@
-import Image from "next/image";
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { toast } from "react-toastify";
 import Banner from "../components/Banner";
-import { ThemeContext } from "../context/Theme";
 import images from "../DB/homepage-image.json";
 import "react-toastify/dist/ReactToastify.css";
+import Image from "next/image";
 
 export default function HomePage() {
-  window.scrollTo(0, 0);
-  const { theme } = useContext(ThemeContext);
-
   const notify = () => {
     toast("Want to add your project? Check out the docs!", {
       position: "top-right",
@@ -40,12 +35,8 @@ export default function HomePage() {
 
               <div className="mt-14">
                 <Link
-                  to="/projectspage"
+                  href="/projectspage"
                   className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 "
-                  style={{
-                    backgroundColor: theme?.button?.buttonBgColor,
-                    color: theme?.button?.buttonTextColor,
-                  }}
                   onClick={notify}
                 >
                   Browse Projects
@@ -60,7 +51,7 @@ export default function HomePage() {
                       key={index}
                       className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
-                      <img
+                      <Image
                         src={image.url}
                         alt={image.alt}
                         className="floating-image h-full w-full object-cover object-center"
@@ -74,7 +65,7 @@ export default function HomePage() {
                       key={index}
                       className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
-                      <img
+                      <Image
                         src={image.url}
                         alt={image.alt}
                         className="floating-image h-full w-full object-cover object-center"
@@ -88,7 +79,7 @@ export default function HomePage() {
                       key={i}
                       className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
-                      <img
+                      <Image
                         src={image.url}
                         alt={image.alt}
                         className="floating-image h-full w-full object-cover object-center"

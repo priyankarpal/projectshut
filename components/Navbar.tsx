@@ -1,31 +1,28 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useState, useContext, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import '../CSS/index.css';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import { Sun, Moon, Menu, GitHub } from 'react-feather';
-import { ThemeContext } from '../context/Theme';
+import React, { useState, useContext, useEffect } from "react";
+import "../CSS/index.css";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import { Sun, Moon, Menu, GitHub } from "react-feather";
+import { ThemeContext } from "../context/Theme";
+import Link from "next/link";
 
-import SideMenu from './SideMenu';
+import SideMenu from "./SideMenu";
 
 function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
   const navLinks = [
     {
-      name: 'Home',
-      path: '/',
+      name: "Home",
+      path: "/",
     },
     {
-      name: 'Projects',
-      path: '/projectspage',
+      name: "Projects",
+      path: "/projectspage",
     },
     {
-      name: 'Docs',
-      path: '/docs',
+      name: "Docs",
+      path: "/docs",
     },
   ];
 
@@ -35,9 +32,13 @@ function Navbar() {
         to={navLink.path}
         className={({ isActive }) =>
           `inline-block py-2 px-3 text-center font-bold  rounded-md ${
-            theme.mode === 'light'
-              ? `hover:text-white hover:bg-black transiton-all duration-200 ${isActive && 'text-white bg-black'}`
-              : `hover:text-black hover:bg-white transiton-all duration-200 ${isActive && 'text-black bg-white'}`
+            theme.mode === "light"
+              ? `hover:text-white hover:bg-black transiton-all duration-200 ${
+                  isActive && "text-white bg-black"
+                }`
+              : `hover:text-black hover:bg-white transiton-all duration-200 ${
+                  isActive && "text-black bg-white"
+                }`
           }`
         }
       >
@@ -49,7 +50,7 @@ function Navbar() {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  const light = theme.mode === 'light';
+  const light = theme.mode === "light";
 
   //  GitHub API to show the version number
   const [latestRelease, setLatestRelease] = useState(null);
@@ -58,7 +59,9 @@ function Navbar() {
     const Console = console;
     const fetchData = async () => {
       try {
-        const response = await fetch('https://api.github.com/repos/priyankarpal/projectshut/releases/latest');
+        const response = await fetch(
+          "https://api.github.com/repos/priyankarpal/projectshut/releases/latest"
+        );
         const data = await response.json();
         setLatestRelease(data);
       } catch (error) {
@@ -74,19 +77,31 @@ function Navbar() {
         <div className="flex flex-row gap-4 justify-between w-full  ">
           {/* Logo for project Hut */}
           <div className="item-navbar block md:hidden" id="dropdown-menu">
-            <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
-              <Menu className="w-7 h-7" color={theme.mode === 'light' ? 'black' : 'white'} />
+            <IconButton
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+            >
+              <Menu
+                className="w-7 h-7"
+                color={theme.mode === "light" ? "black" : "white"}
+              />
             </IconButton>
           </div>
           <div className="item-navbar" id="logo-ph">
-            <Link to="/" className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem]">
+            <Link
+              href="/"
+              className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem]"
+            >
               Ph <span className="text-red-500">.</span>
             </Link>
           </div>
 
           {/* Main element of navbar */}
           <div className="item-navbar hidden md:block" id="elements-of-navbar">
-            <ul className="flex items-center gap-5 text-[1rem]">{navLinkEls}</ul>
+            <ul className="flex items-center gap-5 text-[1rem]">
+              {navLinkEls}
+            </ul>
           </div>
 
           {/* GitHub icon and Dark/Light Mode Toggle */}
@@ -97,7 +112,9 @@ function Navbar() {
                 target="_blank"
                 rel="noreferrer"
                 className={`flex justify-center items-center hover:scale-110 transition-all duration-200 w-10 h-10 rounded-full  ${
-                  theme.mode === 'light' ? 'shadow-slate-900' : 'shadow-slate-100'
+                  theme.mode === "light"
+                    ? "shadow-slate-900"
+                    : "shadow-slate-100"
                 } `}
                 aria-label="Github"
               >
@@ -124,7 +141,11 @@ function Navbar() {
               <div className="hidden md:block">
                 {latestRelease ? (
                   <div>
-                    <a href={latestRelease.html_url} target="_blank" rel="noreferrer">
+                    <a
+                      href={latestRelease.html_url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       {latestRelease.tag_name}
                     </a>
                   </div>
@@ -133,8 +154,11 @@ function Navbar() {
                 )}
               </div>
             </div>
-            <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
-              {theme.mode === 'light' ? (
+            <div
+              className="md:hidden lg:hidden ml-2 flex items-center"
+              onClick={toggleTheme}
+            >
+              {theme.mode === "light" ? (
                 <Sun className="sun w-8 h-8 z-20  fill-black transition-[0.3s] " />
               ) : (
                 <Moon className="moon w-7 h-7 z-20  fill-white transition-[0.3s]" />
@@ -151,7 +175,7 @@ function Navbar() {
               keepMounted: true, // Better open performance on mobile.
             }}
             sx={{
-              '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '60%' },
+              "& .MuiDrawer-paper": { boxSizing: "border-box", width: "60%" },
             }}
           >
             <SideMenu handleDrawerToggle={handleDrawerToggle} />
