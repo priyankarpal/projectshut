@@ -206,12 +206,12 @@ function ProjectsPage() {
                   }}
                 >
                   {/*  search by author name */}
-                  <div className="flex items-center justify-center my-7 mx-20">
+                  <div className="flex items-center justify-center my-8 mx-2">
                     <input
                       type="text"
                       id="combo-box-demo"
                       placeholder="search by author name"
-                      className="border-solid border-2 outline-none border-primary rounded-md p-2"
+                      className="border-solid border-2 outline-none border-primary rounded-md p-2 w-3/4"
                       style={{ color: 'black' }}
                       onChange={(e) => handleOptionClick('author', e.target.value)}
                       value={selectedOptions.author}
