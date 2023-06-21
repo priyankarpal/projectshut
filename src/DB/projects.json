@@ -2577,15 +2577,8 @@
         "title": "NFT Marketplace",
         "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
         "tech": ["ReactJS", "JavaScript", "Firebase", "Tailwind CSS"]
-      },
-      "Projects": [
-        {
-          "link": "https://github.com/Prashu-01/WeatherApp",
-          "title": "Weather Website",
-          "description": "A weather website that can show realtime weather. Simply search for your city name.",
-          "tech": ["HTML", "CSS","JavaScript"]
-        }
-      ]
+      }
+    ]
   },
  {
       "github_username": "mohitparmar1",  
