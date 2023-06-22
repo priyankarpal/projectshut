@@ -1,5 +1,4 @@
 [
-  
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -36,10 +35,10 @@
         "tech": ["Javascript", "HTML", "CSS"]
       },
       {
-          "link": "https://github.com/PatilHarshh/Unit-Converter",
-          "title": "Unit-Converter",
-          "description": "This is the Unit Converter Project Basic Logic of Javascript and Begineer Friendly Project",
-          "tech": ["Javascript", "HTML","CSS"]
+        "link": "https://github.com/PatilHarshh/Unit-Converter",
+        "title": "Unit-Converter",
+        "description": "This is the Unit Converter Project Basic Logic of Javascript and Begineer Friendly Project",
+        "tech": ["Javascript", "HTML", "CSS"]
       }
     ]
   },
@@ -2580,20 +2579,20 @@
       }
     ]
   },
- {
-      "github_username": "mohitparmar1",  
-      "Social_media": {
-        "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
-        "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
-        "Twitter": "https://twitter.com/mohitparmar1_"
+  {
+    "github_username": "mohitparmar1",
+    "Social_media": {
+      "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
+      "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
+      "Twitter": "https://twitter.com/mohitparmar1_"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/mohitparmar1/Leads-Tracker",
+        "title": "Leads Tracker",
+        "description": "its a tracker that track our important tabs",
+        "tech": ["html", "css", "javascript"]
       },
-      "Projects": [
-        {
-          "link": "https://github.com/mohitparmar1/Leads-Tracker",
-          "title": "Leads Tracker",
-          "description": "its a tracker that track our important tabs",
-          "tech": ["html", "css","javascript"]
-        },
       {
         "link": "https://jobwrite.vercel.app",
         "title": "JobWriteAI",
@@ -2601,7 +2600,7 @@
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
       }
     ]
-  } , 
+  },
   {
     "github_username": "raghav1482",
     "Social_media": {
@@ -2615,6 +2614,23 @@
         "title": "TEXT UTILS",
         "description": "It is a React based text managing app which provide various function to process upon a text , like text copy , remove extra spaces , convert ot binnary etc.",
         "tech": ["ReactJS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "swarajzz",
+    "Social_media": {
+      "gitHub": "https://github.com/swarajzz",
+      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+      "Instagram": "https://www.instagram.com/mister_sudo007/",
+      "Twitter": "https://twitter.com/Swarajzzz"
+    },
+    "Projects": [
+      {
+        "link": "https://meme-generator-swaraj.netlify.app/",
+        "title": "Meme Generator",
+        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
       }
     ]
   }
