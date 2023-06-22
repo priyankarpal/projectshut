@@ -1,22 +1,12 @@
-import React, { useContext } from "react";
 import Link from "next/link";
 import { ArrowRight } from "react-feather";
-import { ThemeContext } from "../context/Theme";
 import Image from "next/image";
 
 function ProjectCard({ project, filter }) {
   const { username, title, description, link } = project;
 
-  const { theme } = useContext(ThemeContext);
-
   return (
-    <article
-      className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]"
-      style={{
-        background: theme?.navbar?.background,
-        color: theme?.color,
-      }}
-    >
+    <article className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]">
       <div className="flex justify-between items-center mb-3">
         <h3 className="capitalize text-lg/5 font-bold basis-full line-clamp-1 ">
           {title}

@@ -1,17 +1,8 @@
 import Link from "next/link";
-import React, { useContext } from "react";
-import { ThemeContext } from "../context/Theme";
 
 function PageNotFound() {
-  const { theme } = useContext(ThemeContext);
   return (
-    <div
-      className="min-h-screen flex flex-col justify-center items-center text-white bg-[#000513] p-5"
-      style={{
-        background: theme.background,
-        color: theme.color,
-      }}
-    >
+    <div className="min-h-screen flex flex-col justify-center items-center text-white bg-[#000513] p-5">
       <h1 className="text-6xl font-bold mb-8 animate-bounce">
         404 - Page Not Found
       </h1>

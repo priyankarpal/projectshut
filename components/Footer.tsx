@@ -1,31 +1,19 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "../context/Theme";
 
 function Footer() {
-  const { theme } = useContext(ThemeContext);
-  const bgColor =
-    theme.mode === "dark" ? theme.navbar.background : theme.background;
-
   const getCurrentYear = () => new Date().getFullYear();
 
   return (
     <footer
       aria-label="Site Footer"
-      className={`bg-gray-300 dark:bg-gray-900 glass rounded-none ${
-        theme.mode === "light" ? "border-t-gray-300" : "border-none"
-      }`}
-      style={{ backgroundColor: bgColor }}
+      className={`bg-gray-300 dark:bg-gray-900 glass rounded-none`}
     >
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">
+          <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4 text-white">
             open source is awesome 💜
           </h2>
-          <p
-            className={` max-w-sm mx-auto mt-4  ${
-              theme.mode === "light" ? "text-gray-700" : "text-gray-400"
-            }`}
-          >
+          <p className={` max-w-sm mx-auto mt-4 text-white `}>
             ProjectsHut is an open-source project. Feel free to contribute and
             help us to make this project better
           </p>
@@ -37,11 +25,7 @@ function Footer() {
         style={{ height: "79px" }}
       >
         <div className="flex flex-col items-center">
-          <p
-            className={`max-w-md mx-auto text-gray-400 text-center  ${
-              theme.mode === "light" ? "text-gray-700" : "text-gray-400"
-            }`}
-          >
+          <p className={`max-w-md mx-auto text-gray-400 text-center`}>
             Copyright &copy; {getCurrentYear()} by ProjectsHut. Under{" "}
             <a
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"

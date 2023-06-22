@@ -1,31 +1,22 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable react/jsx-curly-newline */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable indent */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
-import React, { useContext } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import IconButton from '@mui/material/IconButton';
-import { X } from 'react-feather';
-import { ThemeContext } from '../context/Theme';
+import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
+import IconButton from "@mui/material/IconButton";
+import { X } from "react-feather";
+import Link from "next/link";
 
-function SideMenu(props) {
-  const { theme } = useContext(ThemeContext);
-
+function SideMenu(props: { handleDrawerToggle: () => void }) {
   const sideLinks = [
     {
-      name: 'Home',
-      path: '/',
+      name: "Home",
+      path: "/",
     },
     {
-      name: 'Projects',
-      path: '/projectspage',
+      name: "Projects",
+      path: "/projectspage",
     },
     {
-      name: 'Documentation',
-      path: '/docs',
+      name: "Documentation",
+      path: "/docs",
     },
   ];
 
@@ -34,11 +25,7 @@ function SideMenu(props) {
       key={i}
       to={sideLink.path}
       className={({ isActive }) =>
-        `flex py-2 px-3 m-2 text-center font-bold  rounded-md ${
-          theme.mode === 'light'
-            ? `hover:text-white hover:bg-black transition-all duration-200 ${isActive && 'text-white bg-black'}`
-            : `hover:text-black hover:bg-white transition-all duration-200 ${isActive && 'text-black bg-white'}`
-        }`
+        `flex py-2 px-3 m-2 text-center font-bold  rounded-md`
       }
       onClick={() => props.handleDrawerToggle()}
     >
@@ -47,14 +34,7 @@ function SideMenu(props) {
   ));
 
   return (
-    <div
-      className=" h-screen flex flex-col "
-      id="elements-of-sidebar"
-      style={{
-        background: theme?.background,
-        color: theme?.color,
-      }}
-    >
+    <div className=" h-screen flex flex-col " id="elements-of-sidebar">
       {/*  Logo & Close icon section */}
       <div className="flex mt-4 mb-8 border-b border-gray-400">
         <span className="ml-[5%] my-1">
@@ -63,16 +43,13 @@ function SideMenu(props) {
             edge="start"
             onClick={() => props.handleDrawerToggle()}
             className="text-black"
-            style={{
-              color: theme.color,
-            }}
           >
-            <X color={theme.mode === 'light' ? 'black' : 'white'} />
+            <X />
           </IconButton>
         </span>
         <div className="flex items-center ml-[25%]">
           <Link
-            to="/"
+            href="/"
             className="h-10 mb-5 items-center rounded-lg  font-extrabold text-[2rem] "
             onClick={() => props.handleDrawerToggle()}
           >
@@ -90,11 +67,7 @@ function SideMenu(props) {
             href="https://github.com/priyankarpal/ProjectsHut"
             target="_blank"
             rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md ${
-              theme.mode === 'light'
-                ? 'hover:text-white hover:bg-black transition-all duration-200'
-                : 'hover:text-black hover:bg-white transition-all duration-200'
-            }`}
+            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`}
             aria-label="Github"
           >
             GitHub
