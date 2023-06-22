@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -23,7 +23,7 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0
       material:
-        specifier: link:@mui/material
+        specifier: '@mui/material'
         version: link:@mui/material
       prop-types:
         specifier: ^15.8.1
