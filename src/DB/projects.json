@@ -2696,9 +2696,9 @@
   },
   "Projects": [
     {
-      "link": "https://github.com/mswat5/Amazon_web-scrapper",
-      "title": "Amazon_Web-scrapper",
-      "description": "Hello,In this project we have beautiful soap library of python for web scrapping of reviews on amazon",
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
       "tech": ["Python", "Beautiful Soup"]
     }
   ]
