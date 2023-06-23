@@ -2644,9 +2644,15 @@
       },
       {
         "link": "https://imtiyaz-portfolio.vercel.app",
-        "title": "Portfolio Templet",
+        "title": "Portfolio Template",
         "description": "It's a portfolio templet with functionality.",
         "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://meme-imtiyaz.vercel.app/",
+        "title": "Meme Generator",
+        "description": "It is a Meme Generator who fetch data from the `Reddit` using API",
+        "tech": ["API", "HTML5", "CSS3", "JavaScript"]
       }
     ]
   }
