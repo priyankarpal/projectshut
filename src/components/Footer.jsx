@@ -16,7 +16,7 @@ function Footer() {
       }`}
       style={{ backgroundColor: bgColor }}
     >
-      <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+      <div className="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">open source is awesome 💜</h2>
           <p className={` max-w-sm mx-auto mt-4  ${theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400'}`}>
@@ -24,7 +24,13 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className={` max-w-sm mx-auto onClick={Contact} ${theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400 text-center hover:underline cursor-pointer'}`}>Contact</div>
+      <div
+        className={`  mx-auto  ${
+          theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400 text-center hover:underline cursor-pointer'
+        }`}
+      >
+        <p>Contact</p>
+      </div>
 
       <div
         className="flex justify-center items-center px-[7vw] sm:flex-row flex-col py-1 sm:py-2"
@@ -38,8 +44,7 @@ function Footer() {
           >
             Copyright &copy;
             {getCurrentYear()}
-            by ProjectsHut. Under
-            {' '}
+            by ProjectsHut. Under{' '}
             <a
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
               className="underline"
