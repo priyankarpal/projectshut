@@ -2667,6 +2667,24 @@
       }
     ]
 },
+  {
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Pyhton"]
+    },
+  ]
+}
 {
   "github_username": "mandliyarajendra11",
   "Social_media": {
