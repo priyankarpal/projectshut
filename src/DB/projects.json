@@ -2617,5 +2617,23 @@
         "tech": ["ReactJS", "JavaScript"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "mandliyarajendra11",
+  "Social_media": {
+    "gitHub": "https://github.com/mandliyarajendra11",
+    "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
+    "Instagram": "https://www.instagram.com/rajendramandliya11/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mandliyarajendra11/pet-store",
+      "title": "Pet Store",
+      "description": "pet store is a e-commerce website for adopting pets",
+      "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
+    }
+  ]
+}
 ]
