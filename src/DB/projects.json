@@ -2684,5 +2684,21 @@
       "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
     }
   ]
+},
+  {
+  "github_username": "mohitparmar1",
+  "Social_media": {
+    "gitHub": "https://github.com/mohitparmar1",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/mohitparmar1_"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mohitparmar1/Followers-Animation",
+      "title": "Followers Animation",
+      "description": "its a followers increasing animation ",
+      "tech": ["Html","Css","javascript"]
+    }
+  ]
 }
 ]
