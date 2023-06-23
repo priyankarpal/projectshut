@@ -1,5 +1,4 @@
-/* eslint-disable react/jsx-one-expression-per-line */
-import { GitBranch, FileText, UploadCloud } from "react-feather";
+import { GitBranch, FileText, UploadCloud, Image } from "react-feather";
 import React, { useEffect } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -97,10 +96,11 @@ function AddYourProjectsGuide() {
               Fork this repository
             </p>
           </div>
-          <img
+          <Image
             src="https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png"
             alt="Fork the repo"
             className="mt-5"
+
           />
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
@@ -116,7 +116,7 @@ function AddYourProjectsGuide() {
             </p>
           </div>
 
-          <img
+          <Image
             src="https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png"
             alt="Fork the repo"
             className="mt-5"
@@ -149,7 +149,7 @@ function AddYourProjectsGuide() {
               Commit your changes
             </p>
           </div>
-          <img
+          <Image
             src="https://user-images.githubusercontent.com/88102392/232192543-5fcc2711-7693-4dba-8993-75e3528b8530.png"
             alt="add professional commits like this"
             className="mt-5"
@@ -164,7 +164,7 @@ function AddYourProjectsGuide() {
             </p>
           </div>
           <span>Fill up the description</span>
-          <img
+          <Image
             src="https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png"
             alt="add professional commits like this"
             className="mt-5"

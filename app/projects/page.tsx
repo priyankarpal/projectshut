@@ -1,19 +1,19 @@
+"use client"
+
 import React, { useContext, useEffect, useState, Fragment } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Dialog, Transition } from "@headlessui/react";
 import { Filter } from "react-feather";
-import { ProjectCard } from "../components";
-import projects from "../DB/projects.json";
-import techStack from "../utils/techStack";
-import { FilterContext } from "../context/FilterContext";
-import { searchProject } from "../utils/searchProject";
-import ProjectLoading from "../components/ProjectLoading";
-import { shuffleProjects } from "../utils/paginate";
-import { ThemeContext } from "../context/Theme";
+import techStack from "../../utils/techStack";
+import { FilterContext } from "../../context/FilterContext";
+import { searchProject } from "../../utils/searchProject";
+import ProjectLoading from "../../components/ProjectLoading";
+import { shuffleProjects } from "../../utils/paginate";
+import ProjectCard from "../../components/ProjectCard";
+import projects from "../../DB/projects.json";
 
 function ProjectsPage() {
-  const Projects = [];
-  const { theme } = useContext(ThemeContext);
+  const Projects: { username: string; link: string; title: string; description: string; tech: string[]; }[] = [];
 
   projects.forEach((project) => {
     const username = project.github_username;
@@ -22,7 +22,7 @@ function ProjectsPage() {
     });
   });
 
-  const { selectedOptions, handleOptionClick } = useContext(FilterContext);
+  const { selectedOptions, handleOptionClick } = useContext(FilterContext); 
   const [limit, setLimit] = useState(15);
   const [visibleProjects, setVisibleProjects] = useState(
     shuffleProjects(Projects).slice(0, limit)
@@ -86,7 +86,7 @@ function ProjectsPage() {
 
     // filter projects based on tech stack
     if (selectedOptions.techStack && selectedOptions.techStack.length > 0) {
-      filteredProjects = selectedOptions.techStack.flatMap((tech) =>
+      filteredProjects = selectedOptions.techStack.flatMap((tech: string | RegExp) =>
         Projects.filter((obj) => {
           const arr = obj.tech;
           const regexPattern = new RegExp(tech, "i");
@@ -131,9 +131,7 @@ function ProjectsPage() {
           type="text"
           id="combo-box-demo"
           placeholder="search by project name"
-          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${
-            theme.mode === "light" ? "text-black" : "text-white"
-          }`}
+          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent text-center`}
           onChange={(e) => handleOptionClick("project", e.target.value)}
           value={selectedOptions.project}
         />
@@ -142,17 +140,12 @@ function ProjectsPage() {
         {" "}
         <button
           className="border border-primary rounded-sm p-3 flex item-stretch"
-          style={{
-            color: theme?.color,
-          }}
           onClick={() => setOpenFilter(!openFilter)}
         >
           Filter{" "}
           <div
             className="ml-2"
-            style={{
-              color: theme?.color,
-            }}
+
           >
             {" "}
             {filterCount > 0 ? (
@@ -275,7 +268,7 @@ function ProjectsPage() {
               </p>
             }
           >
-            {visibleProjects.map((project) => (
+            {visibleProjects.map((project: { link: React.Key | null | undefined; }) => (
               <ProjectCard
                 key={project.link}
                 project={project}

@@ -21,8 +21,8 @@ export default function HomePage() {
   };
   return (
     <>
-      {/* <Navbar /> */}
       <section>
+      {/* <Navbar /> */}
         <div className="relative overflow-hidden">
           <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function HomePage() {
 
                 <div className="mt-14">
                   <Link
-                    href="/projectspage"
+                    href="/projects"
                     className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 bg-white "
                     onClick={notify}
                     type="button"
