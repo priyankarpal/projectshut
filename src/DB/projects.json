@@ -2649,5 +2649,40 @@
         "tech": ["HTML5", "CSS3", "JavaScript"]
       }
     ]
-  }
+  },
+{
+    "github_username": "swarajzz",
+    "Social_media": {
+      "gitHub": "https://github.com/swarajzz",
+      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+      "Instagram": "https://www.instagram.com/mister_sudo007/",
+      "Twitter": "https://twitter.com/Swarajzzz"
+    },
+    "Projects": [
+      {
+        "link": "https://meme-generator-swaraj.netlify.app/",
+        "title": "Meme Generator",
+        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+      }
+    ]
+},
+{
+  "github_username": "mandliyarajendra11",
+  "Social_media": {
+    "gitHub": "https://github.com/mandliyarajendra11",
+    "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
+    "Instagram": "https://www.instagram.com/rajendramandliya11/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mandliyarajendra11/pet-store",
+      "title": "Pet Store",
+      "description": "pet store is a e-commerce website for adopting pets",
+      "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
+    }
+  ]
+}
 ]
