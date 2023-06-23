@@ -1,5 +1,4 @@
 [
-  
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -36,10 +35,10 @@
         "tech": ["Javascript", "HTML", "CSS"]
       },
       {
-          "link": "https://github.com/PatilHarshh/Unit-Converter",
-          "title": "Unit-Converter",
-          "description": "This is the Unit Converter Project Basic Logic of Javascript and Begineer Friendly Project",
-          "tech": ["Javascript", "HTML","CSS"]
+        "link": "https://github.com/PatilHarshh/Unit-Converter",
+        "title": "Unit-Converter",
+        "description": "This is the Unit Converter Project Basic Logic of Javascript and Begineer Friendly Project",
+        "tech": ["Javascript", "HTML", "CSS"]
       }
     ]
   },
@@ -2580,20 +2579,20 @@
       }
     ]
   },
- {
-      "github_username": "mohitparmar1",  
-      "Social_media": {
-        "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
-        "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
-        "Twitter": "https://twitter.com/mohitparmar1_"
+  {
+    "github_username": "mohitparmar1",
+    "Social_media": {
+      "gitHub": "https://github.com/mohitparmar1/Leads-Tracker",
+      "LinkedIn": "https://www.linkedin.com/in/mohit-parmar-144456223",
+      "Twitter": "https://twitter.com/mohitparmar1_"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/mohitparmar1/Leads-Tracker",
+        "title": "Leads Tracker",
+        "description": "its a tracker that track our important tabs",
+        "tech": ["html", "css", "javascript"]
       },
-      "Projects": [
-        {
-          "link": "https://github.com/mohitparmar1/Leads-Tracker",
-          "title": "Leads Tracker",
-          "description": "its a tracker that track our important tabs",
-          "tech": ["html", "css","javascript"]
-        },
       {
         "link": "https://jobwrite.vercel.app",
         "title": "JobWriteAI",
@@ -2601,7 +2600,7 @@
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
       }
     ]
-  } , 
+  },
   {
     "github_username": "raghav1482",
     "Social_media": {
@@ -2619,6 +2618,39 @@
     ]
   },
   {
+    "github_username": "SyedImtiyaz-1",
+    "Social_media": {
+      "gitHub": "https://github.com/SyedImtiyaz-1",
+      "LinkedIn": "https://www.linkedin.com/in/imtiyaz-sde"
+    },
+    "Projects": [
+      {
+        "link": "https://ourcodeshop.vercel.app",
+        "title": "The Code Shop",
+        "description": "It is a E-Commerce Website for the Buyers and the sellers and this provides various functionality.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://talent-in.vercel.app",
+        "title": "TalentIn",
+        "description": "It is a Recruiting website for the Students and the working professionals.",
+        "tech": ["HTML5", "CSS3", "Bootstrap v5", "JavaScript"]
+      },
+      {
+        "link": "https://netflix-dupe.vercel.app",
+        "title": "Netflix Replica",
+        "description": "It's a Clone of a Famous OTT Platform 'Netflix'.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://imtiyaz-portfolio.vercel.app",
+        "title": "Portfolio Templet",
+        "description": "It's a portfolio templet with functionality.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
+  },
+{
     "github_username": "swarajzz",
     "Social_media": {
       "gitHub": "https://github.com/swarajzz",
