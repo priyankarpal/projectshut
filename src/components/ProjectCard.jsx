@@ -14,7 +14,7 @@ function ProjectCard({ project, filter }) {
 
   return (
     <article
-      className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]"
+      className="flex flex-col border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]"
       style={{
         background: theme?.navbar?.background,
         color: theme?.color,
@@ -29,35 +29,37 @@ function ProjectCard({ project, filter }) {
         />
       </div>
 
-      <p className="mb-2 line-clamp-2">{description}</p>
+      <div className="flex flex-col justify-between h-full">
+        <p className="mb-2 line-clamp-2">{description}</p>
 
-      <div className="flex flex-row justify-between">
-        {/*  GitHub Link Button */}
-        <div>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
-          >
-            GitHub Link
-            <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
-              <ArrowRight size={15} />
-            </span>
-          </a>
-        </div>
-        <div>
-          {/* for user profile card page button  */}
-          <Link
-            to={`/projects/${username.toLowerCase()}`}
-            className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
-            state={{ filter }}
-          >
-            More
-            <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
-              <ArrowRight size={15} />
-            </span>
-          </Link>
+        <div className="flex flex-row justify-between">
+          {/*  GitHub Link Button */}
+          <div>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
+            >
+              GitHub Link
+              <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
+                <ArrowRight size={15} />
+              </span>
+            </a>
+          </div>
+          <div>
+            {/* for user profile card page button  */}
+            <Link
+              to={`/projects/${username.toLowerCase()}`}
+              className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem]"
+              state={{ filter }}
+            >
+              More
+              <span className="group-hover:translate-x-1 duration-300 block" aria-hidden="true">
+                <ArrowRight size={15} />
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     </article>
