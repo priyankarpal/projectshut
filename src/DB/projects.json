@@ -2765,7 +2765,7 @@
       "title": "Web_Scrapper-News",
       "description": "Hello! This Project is related to scrapping news from online articles",
       "tech": ["Python", "Beautiful Soup"]
-    },
+    }
   ]
 },
   {
