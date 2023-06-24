@@ -1,5 +1,24 @@
 [
   {
+    "github_username": "sabhisharma-ise",
+    "Social_media": {
+      "gitHub": "https://github.com/sabhisharma-ise",
+      "LinkedIn": "https://www.linkedin.com/in/sabhisharma",
+      "Instagram": "https://www.instagram.com/sabhisharma_/",
+      "YouTube": "https://www.youtube.com/channel/UCHUxaYv1yg6DfzcAURRSbCQ",
+      "Twitter": "https://twitter.com/SabhiSharma4"
+  },
+    "Projects": [
+      {
+        "link": "https://github.com/sabhisharma-ise/Simon-Game",
+        "title": "Simon-Game",
+        "description": "Simon is an game of short-term memory skill",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+},
+  
+  {
     "github_username": "5h0ov",
     "Social_media": {
       "gitHub": "https://github.com/5h0ov",
