@@ -18,6 +18,25 @@
     ]
   },
 
+   {
+    "github_username": "junaid-arif-24",
+    "Social_media": {
+      "gitHub": "https://github.com/junaid-arif-24",
+      "LinkedIn": " https://www.linkedin.com/in/mohd-junaid-24sep2000",
+      "Instagram": "https://www.instagram.com/junaid_arif24/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/JunaidArif24"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/junaid-arif-24/MyOnlineMeal.git",
+        "title": "MyOnlineMeal",
+        "description": "This is an Online Food Ordering Website that enables users to order food from the comfort of their home.",
+        "tech": ["HTML", "CSS", "Javascript", "ReactJs", "Context API"]
+      }
+    ]
+  },
+
   {
     "github_username": "PatilHarshh",
     "Social_media": {
@@ -2657,21 +2676,45 @@
     ]
   },
 {
-    "github_username": "swarajzz",
-    "Social_media": {
-      "gitHub": "https://github.com/swarajzz",
-      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
-      "Instagram": "https://www.instagram.com/mister_sudo007/",
-      "Twitter": "https://twitter.com/Swarajzzz"
+  "github_username": "swarajzz",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
+  },
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
     },
-    "Projects": [
-      {
-        "link": "https://meme-generator-swaraj.netlify.app/",
-        "title": "Meme Generator",
-        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
-        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-      }
-    ]
+    {
+      "link": "https://github.com/swarajzz/Advice-generator",
+      "title": "Advice Generator",
+      "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    }
+  ]
+},
+  {
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Python"]
+    }
+  ]
 },
 {
   "github_username": "mandliyarajendra11",
@@ -2704,6 +2747,24 @@
       "title": "Personal Portfolio Using Three.js",
       "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
       "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
+    }
+    ]
+},
+  {
+  "github_username": "mswat5",
+  "Social_media": {
+    "gitHub": "https://github.com/mswat5",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/itSwatantra"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
+      "tech": ["Python", "Beautiful Soup"]
     }
   ]
 }
