@@ -34,9 +34,7 @@ function Footer() {
               theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400'
             }`}
           >
-            Copyright &copy;
-            {getCurrentYear()}
-            by ProjectsHut. Under{' '}
+            Copyright &copy; {getCurrentYear()} by ProjectsHut. Under{' '}
             <a
               href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
               className="underline"
