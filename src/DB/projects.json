@@ -18,6 +18,25 @@
     ]
   },
 
+   {
+    "github_username": "junaid-arif-24",
+    "Social_media": {
+      "gitHub": "https://github.com/junaid-arif-24",
+      "LinkedIn": " https://www.linkedin.com/in/mohd-junaid-24sep2000",
+      "Instagram": "https://www.instagram.com/junaid_arif24/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/JunaidArif24"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/junaid-arif-24/MyOnlineMeal.git",
+        "title": "MyOnlineMeal",
+        "description": "This is an Online Food Ordering Website that enables users to order food from the comfort of their home.",
+        "tech": ["HTML", "CSS", "Javascript", "ReactJs", "Context API"]
+      }
+    ]
+  },
+
   {
     "github_username": "PatilHarshh",
     "Social_media": {
@@ -80,6 +99,12 @@
         "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
         "title": "Advance Clock",
         "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
+        "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/CodeAlpha_Temperature_Converter",
+        "title": "temperature converter",
+        "description": "This is the application for to convert the temperature from one unit to another unit.",
         "tech": ["JavaScript"]
       }
     ]
@@ -2670,6 +2695,24 @@
       "title": "Advice Generator",
       "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
       "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    }
+  ]
+},
+  {
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Python"]
     }
   ]
 },
