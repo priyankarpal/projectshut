@@ -18,6 +18,25 @@
     ]
   },
 
+   {
+    "github_username": "junaid-arif-24",
+    "Social_media": {
+      "gitHub": "https://github.com/junaid-arif-24",
+      "LinkedIn": " https://www.linkedin.com/in/mohd-junaid-24sep2000",
+      "Instagram": "https://www.instagram.com/junaid_arif24/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/JunaidArif24"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/junaid-arif-24/MyOnlineMeal.git",
+        "title": "MyOnlineMeal",
+        "description": "This is an Online Food Ordering Website that enables users to order food from the comfort of their home.",
+        "tech": ["HTML", "CSS", "Javascript", "ReactJs", "Context API"]
+      }
+    ]
+  },
+
   {
     "github_username": "PatilHarshh",
     "Social_media": {
