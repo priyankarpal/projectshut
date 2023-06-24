@@ -16,7 +16,7 @@ function Footer() {
       }`}
       style={{ backgroundColor: bgColor }}
     >
-      <div className="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+      <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4">open source is awesome 💜</h2>
           <p className={` max-w-sm mx-auto mt-4  ${theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400'}`}>
