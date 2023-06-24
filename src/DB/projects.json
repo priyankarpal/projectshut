@@ -2733,5 +2733,23 @@
       "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
     }
   ]
+},
+  {
+  "github_username": "mswat5",
+  "Social_media": {
+    "gitHub": "https://github.com/mswat5",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/itSwatantra"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
+      "tech": ["Python", "Beautiful Soup"]
+    }
+  ]
 }
 ]
