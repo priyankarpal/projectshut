@@ -25,14 +25,6 @@ function Footer() {
         </div>
       </div>
       <div
-        className={`  mx-auto  ${
-          theme.mode === 'light' ? 'text-gray-700' : 'text-gray-400 text-center hover:underline cursor-pointer'
-        }`}
-      >
-        <p>Contact</p>
-      </div>
-
-      <div
         className="flex justify-center items-center px-[7vw] sm:flex-row flex-col py-1 sm:py-2"
         style={{ height: '79px' }}
       >
