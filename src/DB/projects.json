@@ -2705,6 +2705,12 @@
         "title": "LinkedIn_Clone",
         "description": "It is a clone of LinkedIn website.",
         "tech": ["React JS", "Firebase"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/Stock-Price-Prediction",
+        "title": "Stock-Price-Prediction",
+        "description": "Stock price prediction using Machine Learning.",
+        "tech": ["Python"]
       }
     ]
   },
