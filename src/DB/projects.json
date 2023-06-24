@@ -81,6 +81,12 @@
         "title": "Advance Clock",
         "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
         "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/CodeAlpha_Temperature_Converter",
+        "title": "temperature converter",
+        "description": "This is the application for to convert the temperature from one unit to another unit.",
+        "tech": ["JavaScript"]
       }
     ]
   },
