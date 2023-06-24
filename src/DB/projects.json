@@ -2647,6 +2647,12 @@
         "title": "Portfolio Templet",
         "description": "It's a portfolio templet with functionality.",
         "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://preciousitservices.vercel.app",
+        "title": "IT Services Web-App",
+        "description": "This website is based on the Projects which is held during the final year of students.",
+        "tech": ["HTML5", "CSS3", "JavaScript, JQuery"]
       }
     ]
   },
