@@ -2676,21 +2676,27 @@
     ]
   },
 {
-    "github_username": "swarajzz",
-    "Social_media": {
-      "gitHub": "https://github.com/swarajzz",
-      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
-      "Instagram": "https://www.instagram.com/mister_sudo007/",
-      "Twitter": "https://twitter.com/Swarajzzz"
+  "github_username": "swarajzz",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
+  },
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
     },
-    "Projects": [
-      {
-        "link": "https://meme-generator-swaraj.netlify.app/",
-        "title": "Meme Generator",
-        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
-        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-      }
-    ]
+    {
+      "link": "https://github.com/swarajzz/Advice-generator",
+      "title": "Advice Generator",
+      "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    }
+  ]
 },
   {
   "github_username": "srujana-16",
