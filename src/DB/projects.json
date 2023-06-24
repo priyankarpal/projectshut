@@ -2734,6 +2734,22 @@
     }
   ]
 },
+{
+  "github_username": "kartikjoshi267",
+  "Social_media": {
+    "gitHub": "https://github.com/kartikjoshi267",
+    "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
+    "Twitter": "https://twitter.com/KartikJ74422563"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/kartikjoshi267/portfolio",
+      "title": "Personal Portfolio Using Three.js",
+      "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
+    }
+    ]
+},
   {
   "github_username": "mswat5",
   "Social_media": {
