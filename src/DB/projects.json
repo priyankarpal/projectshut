@@ -2765,6 +2765,24 @@
       "title": "Web_Scrapper-News",
       "description": "Hello! This Project is related to scrapping news from online articles",
       "tech": ["Python", "Beautiful Soup"]
+    },
+  ]
+},
+  {
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
     }
   ]
 }
