@@ -13,12 +13,6 @@ The main aim of ProjectsHut is to foster a collaborative community of creative i
 
 ![ph](https://github.com/priyankarpal/ProjectsHut/assets/88102392/6d99804f-14df-420b-9a4d-486953d59b11)
 
-## 🗣️ Translation
-
-> **Note**: All documentation are available in multiple languages. You can find them in the [translations](/translations/) folder.
-
-| [French](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/French) | [German](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/German) | [हिंदी](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Hindi) | [Italian](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Italian) | [Japanese](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Japanese) | [Kannada](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Kannada) | [Korean](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Korean) | [Malayalam](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Malayalam) | [Russian](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Russian) | [Spanish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Spanish) | [Tagalog](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tagalog) | [Tamil](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Tamil) | [Turkish](https://github.com/priyankarpal/ProjectsHut/tree/main/translations/Turkish)
-
 ## 💻 Tech Stack
 
 - [Reactjs](https://react.dev) - Reactjs is a JavaScript library for building user interfaces.

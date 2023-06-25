@@ -1,5 +1,24 @@
 [
   {
+    "github_username": "sabhisharma-ise",
+    "Social_media": {
+      "gitHub": "https://github.com/sabhisharma-ise",
+      "LinkedIn": "https://www.linkedin.com/in/sabhisharma",
+      "Instagram": "https://www.instagram.com/sabhisharma_/",
+      "YouTube": "https://www.youtube.com/channel/UCHUxaYv1yg6DfzcAURRSbCQ",
+      "Twitter": "https://twitter.com/SabhiSharma4"
+  },
+    "Projects": [
+      {
+        "link": "https://github.com/sabhisharma-ise/Simon-Game",
+        "title": "Simon-Game",
+        "description": "Simon is an game of short-term memory skill",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+},
+  
+  {
     "github_username": "5h0ov",
     "Social_media": {
       "gitHub": "https://github.com/5h0ov",
@@ -14,6 +33,25 @@
         "title": "Animated Coffee Machine",
         "description": "This is an Animated Coffee Machine built using HTML, CSS and a little bit of Javascript.",
         "tech": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+
+   {
+    "github_username": "junaid-arif-24",
+    "Social_media": {
+      "gitHub": "https://github.com/junaid-arif-24",
+      "LinkedIn": " https://www.linkedin.com/in/mohd-junaid-24sep2000",
+      "Instagram": "https://www.instagram.com/junaid_arif24/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/JunaidArif24"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/junaid-arif-24/MyOnlineMeal.git",
+        "title": "MyOnlineMeal",
+        "description": "This is an Online Food Ordering Website that enables users to order food from the comfort of their home.",
+        "tech": ["HTML", "CSS", "Javascript", "ReactJs", "Context API"]
       }
     ]
   },
@@ -80,6 +118,12 @@
         "link": "https://github.com/Parmesh119/Analog-Arm-Clock",
         "title": "Advance Clock",
         "description": "This is the real-time dynamic clock that I created using the JS and DOM manipulation and using responsive design and CSS part.",
+        "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/CodeAlpha_Temperature_Converter",
+        "title": "temperature converter",
+        "description": "This is the application for to convert the temperature from one unit to another unit.",
         "tech": ["JavaScript"]
       }
     ]
@@ -947,7 +991,7 @@
     },
     "Projects": [
       {
-        "link": "react-quiz-six-steel.vercel.app/",
+        "link": "https://react-quiz-six-steel.vercel.app/",
         "title": "React-Quiz",
         "description": "React Quiz is a user-friendly WebApp that presents a set of four answer choices for each question. By selecting the appropriate option, users can swiftly evaluate their performance and receive a calculated score based on the number of correct answers.",
         "tech": ["React"]
@@ -2542,19 +2586,6 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
-        "title": "Dungeon_Crawler",
-        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
-        "tech": ["React JS", "JavaScript", "CSS"]
-      },
-      {
-        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
-        "title": "LinkedIn_Clone",
-        "description": "It is a clone of LinkedIn website.",
-        "tech": ["React JS", "Firebase"]
-      },
-
-      {
         "link": "https://github.com/killerraj369/CodeHelper",
         "title": "CodeHelper Discord Bot",
         "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
@@ -2592,7 +2623,16 @@
         "title": "Leads Tracker",
         "description": "its a tracker that track our important tabs",
         "tech": ["html", "css", "javascript"]
-      },
+      }
+      "Projects": [
+    {
+      "link": "https://github.com/mohitparmar1/Followers-Animation",
+      "title": "Followers Animation",
+      "description": "its a followers increasing animation ",
+      "tech": ["Html","Css","javascript"]
+    }
+    ]
+    },
       {
         "link": "https://jobwrite.vercel.app",
         "title": "JobWriteAI",
@@ -2650,22 +2690,73 @@
       }
     ]
   },
-{
-    "github_username": "swarajzz",
+  {
+    "github_username": "Killer2OP",
     "Social_media": {
-      "gitHub": "https://github.com/swarajzz",
-      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
-      "Instagram": "https://www.instagram.com/mister_sudo007/",
-      "Twitter": "https://twitter.com/Swarajzzz"
+      "gitHub": "https://github.com/Killer2OP",
+      "LinkedIn": "https://www.linkedin.com/in/pro09/"
     },
     "Projects": [
       {
-        "link": "https://meme-generator-swaraj.netlify.app/",
-        "title": "Meme Generator",
-        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
-        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
+        "title": "Dungeon_Crawler",
+        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
+        "tech": ["React JS", "JavaScript", "CSS"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
+        "title": "LinkedIn_Clone",
+        "description": "It is a clone of LinkedIn website.",
+        "tech": ["React JS", "Firebase"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/Stock-Price-Prediction",
+        "title": "Stock-Price-Prediction",
+        "description": "Stock price prediction using Machine Learning.",
+        "tech": ["Python"]
       }
     ]
+  },
+{
+  "github_username": "swarajzz",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
+  },
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    },
+    {
+      "link": "https://github.com/swarajzz/Advice-generator",
+      "title": "Advice Generator",
+      "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    }
+  ]
+},
+  {
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Python"]
+    }
+  ]
 },
 {
   "github_username": "mandliyarajendra11",
@@ -2685,19 +2776,73 @@
     }
   ]
 },
-  {
-  "github_username": "mohitparmar1",
+{
+  "github_username": "kartikjoshi267",
   "Social_media": {
-    "gitHub": "https://github.com/mohitparmar1",
-    "YouTube": "#",
-    "Twitter": "https://twitter.com/mohitparmar1_"
+    "gitHub": "https://github.com/kartikjoshi267",
+    "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
+    "Twitter": "https://twitter.com/KartikJ74422563"
   },
   "Projects": [
     {
-      "link": "https://github.com/mohitparmar1/Followers-Animation",
-      "title": "Followers Animation",
-      "description": "its a followers increasing animation ",
-      "tech": ["Html","Css","javascript"]
+      "link": "https://github.com/kartikjoshi267/portfolio",
+      "title": "Personal Portfolio Using Three.js",
+      "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
+    }
+    ]
+},
+  {
+  "github_username": "mswat5",
+  "Social_media": {
+    "gitHub": "https://github.com/mswat5",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/itSwatantra"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
+      "tech": ["Python", "Beautiful Soup"]
+    }
+  ]
+},
+  {
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
+},
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
     }
   ]
 }
