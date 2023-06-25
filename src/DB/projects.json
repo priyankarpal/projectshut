@@ -2690,6 +2690,12 @@
         "title": "IT Services Web-App",
         "description": "This website is based on the Projects which is held during the final year of students.",
         "tech": ["HTML5", "CSS3", "JavaScript, JQuery"]
+      },
+      {
+       "link": "https://github.com/SyedImtiyaz-1/Java",
+        "title": "Java DSA Project",
+        "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
+        "tech": ["Java, DSA"]
       }
     ]
   },
@@ -2846,6 +2852,31 @@
       "title": "Navbar using Pure React",
       "description": "Basic Navbar using React and no JSX",
       "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
+  "github_username": "Hemant2335",
+  "Social_media": {
+    "gitHub": "https://github.com/Hemant2335",
+    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishant85292675"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Hemant2335/ONE-WATCH",
+      "title": "ONEWATCH",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    },
+    {
+      "link": "https://github.com/Hemant2335/ONE-BUY",
+      "title": "ONEBUY",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
+
     }
   ]
 }
