@@ -2770,6 +2770,12 @@
       "title": "Calculator",
       "description": "calculator is a basic calculation app for arithmetic operation",
       "tech": ["Html","Css","React js","Redux"]
+    },
+    {
+      "link": "https://github.com/mandliyarajendra11/OASIS-internship/tree/main/temperature-converter-main",
+      "title": "Temperature-converter app",
+      "description": "temperature converter is used to convert temperature kelvin , Fahrenheit,Celsius",
+      "tech": ["Html","Css","javascript"]
     }
   ]
 },
