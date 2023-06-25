@@ -2586,19 +2586,6 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
-        "title": "Dungeon_Crawler",
-        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
-        "tech": ["React JS", "JavaScript", "CSS"]
-      },
-      {
-        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
-        "title": "LinkedIn_Clone",
-        "description": "It is a clone of LinkedIn website.",
-        "tech": ["React JS", "Firebase"]
-      },
-
-      {
         "link": "https://github.com/killerraj369/CodeHelper",
         "title": "CodeHelper Discord Bot",
         "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, C++, Python, Java, JavaScript, Golang, C# etc.",
@@ -2691,6 +2678,33 @@
         "title": "Portfolio Templet",
         "description": "It's a portfolio templet with functionality.",
         "tech": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Killer2OP",
+    "Social_media": {
+      "gitHub": "https://github.com/Killer2OP",
+      "LinkedIn": "https://www.linkedin.com/in/pro09/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Killer2OP/Dungeon_Crawler",
+        "title": "Dungeon_Crawler",
+        "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
+        "tech": ["React JS", "JavaScript", "CSS"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/LinkedIn_Clone",
+        "title": "LinkedIn_Clone",
+        "description": "It is a clone of LinkedIn website.",
+        "tech": ["React JS", "Firebase"]
+      },
+      {
+        "link": "https://github.com/Killer2OP/Stock-Price-Prediction",
+        "title": "Stock-Price-Prediction",
+        "description": "Stock price prediction using Machine Learning.",
+        "tech": ["Python"]
       }
     ]
   },
@@ -2802,6 +2816,24 @@
       "title": "Random Quote Generator",
       "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
       "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
+},
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
     }
   ]
 }
