@@ -2767,5 +2767,23 @@
       "tech": ["Python", "Beautiful Soup"]
     }
   ]
+},
+{
+  "github_username": "panditshivammishra",
+  "Social_media": {
+    "gitHub": "https://github.com/panditshivammishra",
+    "LinkedIn": "https://www.linkedin.com/in/shivam-mishra-42226522b/",
+    "Instagram": "",
+    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+    "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+  },
+  "Projects": [
+    {
+      "link": "https://panditshivammishra.github.io/firstgame.github.io/",
+      "title": "My guess Game",
+      "description": "It's a random number guess game",
+      "tech": ["HTML", "CSS","Javascript"]
+    }
+  ]
 }
 ]
