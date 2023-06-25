@@ -2818,5 +2818,23 @@
       "tech": ["HTML", "CSS", "JavaScript", "API"]
     }
   ]
+},
+  {
+  "github_username": "Prajwal0225",
+  "Social_media": {
+    "gitHub": "https://github.com/Prajwal0225",
+    "LinkedIn": "https://www.linkedin.com/in/prajwalsomalkar/",
+    "Instagram": "https://www.instagram.com/prajwal_somalkar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Prajwal__02"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Prajwal0225/My-Favorite-SuperHero",
+      "title": "My-Favorite-SuperHero",
+      "description": "Find images of your favorite superhero by typing ⌨️ their name into the search bar.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
 }
 ]
