@@ -2684,6 +2684,12 @@
         "title": "IT Services Web-App",
         "description": "This website is based on the Projects which is held during the final year of students.",
         "tech": ["HTML5", "CSS3", "JavaScript, JQuery"]
+      },
+      {
+       "link": "https://github.com/SyedImtiyaz-1/Java",
+        "title": "Java DSA Project",
+        "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
+        "tech": ["Java, DSA"]
       }
     ]
   },
