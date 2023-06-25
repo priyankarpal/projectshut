@@ -2820,6 +2820,24 @@
   ]
 },
 {
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
   "github_username": "Hemant2335",
   "Social_media": {
     "gitHub": "https://github.com/Hemant2335",
