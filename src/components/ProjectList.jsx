@@ -104,10 +104,10 @@ function ProjectList() {
             <p className="text-sm break-words">{user.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            {userObj.Social_media.gitHub !== '' && (
+            {userObj?.Social_media?.gitHub && userObj?.Social_media?.gitHub !== '' && (
               <div className="mx-5 xsm:mx-2">
                 <a
-                  href={userObj.Social_media.gitHub}
+                  href={userObj?.Social_media?.gitHub}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
@@ -117,53 +117,53 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj.Social_media.LinkedIn !== '' && (
+            {userObj?.Social_media?.LinkedIn && userObj?.Social_media?.LinkedIn !== '' && (
               <div className="mx-4">
                 <a
                   href={userObj.Social_media.LinkedIn}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Linkedin"
                 >
                   <Linkedin />
                 </a>
               </div>
             )}
-            {userObj.Social_media.Twitter !== '' && (
+            {userObj?.Social_media?.Twitter && userObj?.Social_media?.Twitter !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.Twitter}
+                  href={userObj?.Social_media?.Twitter}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Twitter"
                 >
                   <Twitter />
                 </a>
               </div>
             )}
-            {userObj.Social_media.YouTube !== '' && (
+            {userObj?.Social_media?.YouTube && userObj?.Social_media?.YouTube !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.YouTube}
+                  href={userObj?.Social_media?.YouTube}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Youtube"
                 >
                   <Youtube />
                 </a>
               </div>
             )}
-            {userObj.Social_media.Instagram !== '' && (
+            {userObj?.Social_media?.Instagram && userObj?.Social_media?.Instagram !== '' && (
               <div className="mx-4">
                 <a
-                  href={userObj.Social_media.Instagram}
+                  href={userObj?.Social_media?.Instagram}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Github"
+                  aria-label="Instagram"
                 >
                   <Instagram />
                 </a>
@@ -173,7 +173,7 @@ function ProjectList() {
         </div>
       )}
       {/* Projects lists */}
-      <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md ">
+      <div className="w-full md:w-3/4 mx-2 flex flex-col rounded-md ">
         {!initialLoading &&
           Object.keys(userObj).length > 0 &&
           userObj.Projects.map((project, index) => (
@@ -189,7 +189,7 @@ function ProjectList() {
             >
               <div className=" border-b border-gray-600 p-4 relative">
                 <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">{project.title}</p>
-                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">{project.description}</p>
+                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-2 mx-4">{project.description}</p>
                 <span className="absolute top-0 right-2">
                   <a
                     href={project.link}
@@ -203,7 +203,7 @@ function ProjectList() {
                 </span>
               </div>
               {/* Tech Stack section */}
-              <div className="flex flex-row items-center m-4 gap-4">
+              <div className="flex flex-row items-center my-4 gap-4">
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tag, i) => (
                     <p
@@ -223,12 +223,11 @@ function ProjectList() {
       {isOpenModal && (
         <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
           <div className="fixed inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
-
           <div className="fixed inset-0 z-10 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0 ">
-              <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 w-full sm:max-w-lg ">
+            <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
+              <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 sm:w-full sm:max-w-lg ">
                 <div
-                  className="bg-white px-4 py-4 md:p-6 relative "
+                  className="bg-white mb-12 px-4 pb-4 pt-5 sm:p-6 sm:pb-4  basis-full relative "
                   style={{
                     borderRadius: '10px',
                     background: theme?.navbar?.background,
@@ -236,8 +235,8 @@ function ProjectList() {
                     minHeight: '150px',
                   }}
                 >
-                  <p className="text-center font-bold mt-2 mb-4"> Share Your Profile 🎉🎉🎉</p>
-                  <div className="flex justify-center w-full">
+                  <p className="text-center font-bold mt-2 mb-6"> Share Your Profile 🎉🎉🎉</p>
+                  <div className="flex justify-center">
                     <input
                       className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
                       value={window.location.href}
@@ -245,8 +244,8 @@ function ProjectList() {
                     />
                     <button onClick={() => copyText()}>
                       {isCopied ? (
-                        <div className="flex items-stretch ">
-                          <Check style={{ color: 'green', fontSize: '5rem' }} />
+                        <div className="flex items-stretch">
+                          <Check style={{ color: 'green', fontSize: '5rem' }} />{' '}
                           <p className="text-green-800">Copied</p>
                         </div>
                       ) : (
