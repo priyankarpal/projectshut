@@ -2690,6 +2690,12 @@
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
         "tech": ["Java, DSA"]
+      },
+      {
+       "link": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
+        "title": "Telegram Bot",
+        "description": "This is a .py script to Automate the Telegram using the Bot with the {'/'} commands.",
+        "tech": ["Python"]
       }
     ]
   },
