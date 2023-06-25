@@ -8,9 +8,9 @@ function AddYourProjectsGuide() {
   window.scrollTo(0, 0);
   const codeString = `
     {
-      "github_username": "YOUR_GITHUB_USERNAME",  
+      "github_username": "Shahil093",  
       "Social_media": {
-        "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
+        "gitHub": "https://github.com/Shahil093",
         "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
         "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
         "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
@@ -18,16 +18,16 @@ function AddYourProjectsGuide() {
       },
       "Projects": [
         {
-          "link": "PROJECT_LINK",
-          "title": "PROJECT_NAME",
-          "description": "PROJECT_DESCRIPTION",
-          "tech": ["tech1", "tech2"]
+          "link": "https://github.com/Shahil093/Exercise-Web",
+          "title": "Exercise-Web /  https://exercise-web-d3408.web.app/ ",
+          "description": "This Is A Exercise App",
+          "tech": ["Reactjs", "HTM/CSS & BootStrapp"]
         },
         {
-          "link": "PROJECT_LINK",
-          "title": "PROJECT_NAME",
-          "description": "PROJECT_DESCRIPTION",
-          "tech": ["tech1", "tech2"]
+          "link": "https://github.com/Shahil093/Text-Utils",
+          "title": "Text-Utils / https://text-utils-website.web.app/ ",
+          "description": "This Is A Text-Utils App",
+          "tech": ["Reactjs", "HTM/CSS & BootStrapp"]
         }
       ]
   }`;
