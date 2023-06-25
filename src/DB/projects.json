@@ -2852,6 +2852,12 @@
       "title": "ONEWATCH",
       "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
       "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    },
+    {
+      "link": "https://github.com/Hemant2335/ONE-BUY",
+      "title": "ONEBUY",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
     }
   ]
 }
