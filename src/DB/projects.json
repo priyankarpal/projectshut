@@ -2829,6 +2829,12 @@
       "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
       "tech": ["HTML", "CSS", "JavaScript", "API"]
     }
+    {
+      "link": "https://github.com/devWonderkind/LogoFinder",
+      "title": "Logo Finder",
+      "description": "It's a logo-finding website. Here you can website URL and find the logo and download the logo.",
+      "tech": ["HTML", "CSS", "JavaScript"]
+    }
   ]
 },
 {
