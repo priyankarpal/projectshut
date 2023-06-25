@@ -17,6 +17,48 @@
       }
     ]
 },
+{
+  "github_username": "Harshu467",
+  "Social_media": {
+    "gitHub": "https://github.com/Harshu467",
+    "LinkedIn": "https://www.linkedin.com/in/harsh-upadhye-b0269a213/",
+    "Instagram": "https://www.instagram.com/harshup_28/",
+    "YouTube": "https://www.youtube.com/@harshupadhye410",
+    "Twitter": "https://twitter.com/28_harshupadhye"
+},
+  "Projects": [
+    {
+      "link": "https://github.com/Harshu467/Amazon_Smart_watch",
+      "title": "Amazon Smart Watch",
+      "description": "Amazon Smart Watch Website with features of Heart-Rate and Live Time with different colors available.",
+      "tech": ["HTML", "CSS", "JavaScript","React JS"]
+    },
+    {
+      "link": "https://github.com/Harshu467/Healthy-Me",
+      "title": "Healthy-Me",
+      "description": "The Future of Fitness is at your place. Get your Body in shape. We do the hard work and you do all heavy lifting. Its Time to own the session",
+      "tech": ["HTML", "CSS", "JavaScript","BootStrap"]
+    },
+    {
+      "link": "https://github.com/Harshu467/EcoM",
+      "title": "E-Com",
+      "description": "Ecomerce website where user can view various products.",
+      "tech": ["HTML", "CSS", "JavaScript","BootStrap","React JS"]
+    },
+    {
+      "link": "https://github.com/Harshu467/GYM",
+      "title": "GYM",
+      "description": "Responsive Gym Website.",
+      "tech": ["HTML", "CSS", "JavaScript","BootStrap","React JS"]
+    },
+    {
+      "link": "https://github.com/Harshu467/CryptoCurrency",
+      "title": "CryptoCurrency",
+      "description": "A CryptoCurrency React web App which gives information of all cryptocurrency coins.",
+      "tech": ["HTML", "CSS", "JavaScript","BootStrap","React JS","useContext","API","Vercel"]
+    }
+  ]
+},
   
   {
     "github_username": "5h0ov",
