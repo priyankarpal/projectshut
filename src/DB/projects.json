@@ -2764,6 +2764,12 @@
       "title": "Pet Store",
       "description": "pet store is a e-commerce website for adopting pets",
       "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
+    },
+    {
+      "link": "https://github.com/mandliyarajendra11/calculator",
+      "title": "Calculator",
+      "description": "calculator is a basic calculation app for arithmetic operation",
+      "tech": ["Html","Css","React js","Redux"]
     }
   ]
 },
