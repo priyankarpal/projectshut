@@ -1,20 +1,19 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { FaGithub } from 'react-icons/fa';
 import '../CSS/index.css';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import SideMenu from './SideMenu';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import { Sun, Moon, Menu, GitHub } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
-import { MoonIcon, SunIcon } from '../assets/svgIcons';
 
-const Navbar = () => {
+import SideMenu from './SideMenu';
+
+function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const { navbar } = theme;
   const navLinks = [
     {
       name: 'Home',
@@ -22,7 +21,7 @@ const Navbar = () => {
     },
     {
       name: 'Projects',
-      path: '/projects',
+      path: '/projectspage',
     },
     {
       name: 'Docs',
@@ -50,24 +49,22 @@ const Navbar = () => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  let light = theme.mode === 'light';
-
-  const switchTrackColor = theme.mode === 'dark' ? '#9CA3AF' : undefined;
+  const light = theme.mode === 'light';
 
   //  GitHub API to show the version number
   const [latestRelease, setLatestRelease] = useState(null);
 
   useEffect(() => {
+    const Console = console;
     const fetchData = async () => {
       try {
         const response = await fetch('https://api.github.com/repos/priyankarpal/projectshut/releases/latest');
         const data = await response.json();
         setLatestRelease(data);
       } catch (error) {
-        console.log('Error fetching data:', error);
+        Console.error(error);
       }
     };
-
     fetchData();
   }, []);
 
@@ -78,11 +75,7 @@ const Navbar = () => {
           {/* Logo for project Hut */}
           <div className="item-navbar block md:hidden" id="dropdown-menu">
             <IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle}>
-              <MenuIcon
-                style={{
-                  color: navbar.color,
-                }}
-              />
+              <Menu className="w-7 h-7" color={theme.mode === 'light' ? 'black' : 'white'} />
             </IconButton>
           </div>
           <div className="item-navbar" id="logo-ph">
@@ -103,10 +96,12 @@ const Navbar = () => {
                 href="https://github.com/priyankarpal/ProjectsHut"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 items-center rounded-lg font-extrabold text-[1.3rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                className={`flex justify-center items-center hover:scale-110 transition-all duration-200 w-10 h-10 rounded-full  ${
+                  theme.mode === 'light' ? 'shadow-slate-900' : 'shadow-slate-100'
+                } `}
                 aria-label="Github"
               >
-                <FaGithub />
+                <GitHub size={20} />
               </a>
 
               <li className="md:flex flex-col-reverse  hidden">
@@ -121,8 +116,8 @@ const Navbar = () => {
                   className="w-[82px] h-[42px] relative block bg-[#242424] cursor-pointer rounded-full after:after-util  "
                   htmlFor="dark-mode-toggle"
                 >
-                  <SunIcon className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px] fill-white transition-[0.3s] " />
-                  <MoonIcon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[37px] fill-[#7e7e7e] transition-[0.3s]" />
+                  <Sun className="sun absolute w-[50px] h-[20px] top-[10px] z-20 left-[36px]  transition-[0.3s] " />
+                  <Moon className="moon absolute w-[50px] h-[20px] top-[10px] z-20 left-[-4px]  transition-[0.3s]" />
                 </label>
               </li>
               {/*  To show the version number  */}
@@ -140,16 +135,13 @@ const Navbar = () => {
             </div>
             <div className="md:hidden lg:hidden ml-2 flex items-center" onClick={toggleTheme}>
               {theme.mode === 'light' ? (
-                <div>
-                  <LightModeIcon className="bg-[#ebebeb] rounded-full p-1" />
-                </div>
+                <Sun className="sun w-8 h-8 z-20  fill-black transition-[0.3s] " />
               ) : (
-                <div>
-                  <DarkModeIcon className="bg-[#242424] rounded-full p-1 " />
-                </div>
+                <Moon className="moon w-7 h-7 z-20  fill-white transition-[0.3s]" />
               )}
             </div>
           </div>
+
           <Drawer
             className="block md:hidden"
             variant="temporary"
@@ -159,7 +151,7 @@ const Navbar = () => {
               keepMounted: true, // Better open performance on mobile.
             }}
             sx={{
-              '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '56%' },
+              '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '60%' },
             }}
           >
             <SideMenu handleDrawerToggle={handleDrawerToggle} />
@@ -168,6 +160,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
