@@ -1109,6 +1109,12 @@
         "title": "YouTube Bookmark Chrome Extension",
         "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
         "tech": ["JavaScript", "DOM", "HTML", "CSS"]
+      },
+      {
+        "link": "https://github.com/abhinav-m22/spotify-clone-2.0",
+        "title": "Spotify Clone 2.0",
+        "description": "A music player web app using ReactJS, Tailwind CSS and RapidAPI. A fully responsive music player website with various features like 'Lyrics', 'Top Charts', 'Popular Music Around You', 'Search via Artists', Artists' information, and many more.",
+        "tech": ["ReactJS", "Tailwind CSS", "Rapid API", "NodeJS"]
       }
     ]
   },
