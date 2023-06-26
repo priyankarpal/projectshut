@@ -2885,7 +2885,7 @@
   },
   "Projects": [
     {
-      "link": "https://bhartinagpure.github.io/Cryptocurrency/",
+      "link": "https://github.com/BhartiNagpure/Cryptocurrency",
       "title": "Cryptocurrency",
       "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
       "tech": ["HTML", "MATERIALUI" , "REACT" , "CSS","COINGECKOAPI", "JAVASCRIPT"]
