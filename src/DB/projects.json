@@ -2795,7 +2795,7 @@
     },
     {
       "link": "https://github.com/kartikjoshi267/letsnote",
-      "title": "A note-taking application built on MERN stack",
+      "title": "LetsNote",
       "description": "This is a note-taking web application that is ReactJs Based",
       "tech": ["Express","MongoDB", "Node.js","ReactJs","Bootstrap"]
     }
