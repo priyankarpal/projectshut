@@ -144,7 +144,7 @@ function ProjectsPage() {
       <div className="flex item-stretch">
         {' '}
         <button
-          className="border border-primary rounded-sm p-3 flex item-stretch"
+          className={`border border-primary rounded-sm p-3 flex item-stretch ${theme.mode === 'text-black'} hoverable`}
           style={{
             color: theme?.color,
           }}
@@ -168,7 +168,10 @@ function ProjectsPage() {
             )}
           </div>
         </button>
-        <button className="border border-primary rounded-sm p-3 mx-2" onClick={() => handleClear()}>
+        <button
+          className={`border border-primary rounded-sm p-3 mx-2 ${theme.mode === 'text-black'} hoverable`}
+          onClick={() => handleClear()}
+        >
           Clear
         </button>
       </div>

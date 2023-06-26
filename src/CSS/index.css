@@ -94,6 +94,34 @@ body {
 input.custom {
   caret-color: purple;
 }
+/* issue 1388 from here */
+button.hoverable {
+  caret-color: purple;
+  background: linear-gradient(45deg, #ff0000, #ff00ff, #318af0, #1b75b1, #5d3d99, #441261, #ff00ff);
+  background-size: 400% 400%;
+  animation: animateStripes 5s linear infinite;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.hoverable:hover {
+  caret-color: purple;
+  border: 2px solid #f056c9;
+  box-shadow: 0 0 15px purple;
+  transform: translateY(-3px);
+  background: #7b4c97;
+}
+/* until here */
+@keyframes animateStripes {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
 
 @tailwind components;
 @tailwind utilities;
