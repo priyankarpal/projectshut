@@ -2877,26 +2877,16 @@
 
 
 {
-  "github_username": "YOUR_GITHUB_USERNAME",
+  "github_username": "royadaneshi",
   "Social_media": {
-    "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
-    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-    "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
-    "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+    "gitHub": "https://github.com/royadaneshi/"
   },
   "Projects": [
     {
-      "link": "PROJECT_LINK",
-      "title": "PROJECT_NAME",
-      "description": "PROJECT_DESCRIPTION",
-      "tech": ["tech1", "tech2"]
-    },
-    {
-      "link": "PROJECT_LINK",
-      "title": "PROJECT_NAME",
-      "description": "PROJECT_DESCRIPTION",
-      "tech": ["tech1", "tech2"]
+      "link": "https://github.com/royadaneshi/webHW1.git",
+      "title": "HW1",
+      "description": "A project with golang",
+      "tech": ["go", "mongodb"]
     }
   ]
 }
