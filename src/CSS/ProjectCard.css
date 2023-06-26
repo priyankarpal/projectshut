@@ -1,0 +1,5 @@
+.hoverClass:hover {
+  transform: translateY(3px);
+  border: 2px solid #f056c9;
+  box-shadow: 0 0 5px purple;
+}

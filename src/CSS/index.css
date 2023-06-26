@@ -95,6 +95,12 @@ input.custom {
   caret-color: purple;
 }
 
+input.custom:hover {
+  caret-color: purple;
+  border: 2px solid #f056c9;
+  box-shadow: 0 0 15px purple;
+}
+
 @tailwind components;
 @tailwind utilities;
 

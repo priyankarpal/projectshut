@@ -7,7 +7,7 @@
       "Instagram": "https://www.instagram.com/sabhisharma_/",
       "YouTube": "https://www.youtube.com/channel/UCHUxaYv1yg6DfzcAURRSbCQ",
       "Twitter": "https://twitter.com/SabhiSharma4"
-  },
+    },
     "Projects": [
       {
         "link": "https://github.com/sabhisharma-ise/Simon-Game",
@@ -16,8 +16,8 @@
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
-},
-  
+  },
+
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -37,7 +37,7 @@
     ]
   },
 
-   {
+  {
     "github_username": "junaid-arif-24",
     "Social_media": {
       "gitHub": "https://github.com/junaid-arif-24",
@@ -2680,13 +2680,13 @@
         "tech": ["HTML5", "CSS3", "JavaScript"]
       },
       {
-       "link": "https://github.com/SyedImtiyaz-1/Precious-IT-Services",
+        "link": "https://github.com/SyedImtiyaz-1/Precious-IT-Services",
         "title": "IT Services Web-App",
         "description": "This website is based on the Projects which is held during the final year of students.",
         "tech": ["HTML5", "CSS3", "JavaScript, JQuery"]
       },
       {
-       "link": "https://github.com/SyedImtiyaz-1/Java",
+        "link": "https://github.com/SyedImtiyaz-1/Java",
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
         "tech": ["Java, DSA"]
@@ -2720,174 +2720,172 @@
       }
     ]
   },
-{
-  "github_username": "swarajzz",
-  "Social_media": {
-    "gitHub": "https://github.com/swarajzz",
-    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
-    "Instagram": "https://www.instagram.com/mister_sudo007/",
-    "Twitter": "https://twitter.com/Swarajzzz"
-  },
-  "Projects": [
-    {
-      "link": "https://meme-generator-swaraj.netlify.app/",
-      "title": "Meme Generator",
-      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
-      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-    },
-    {
-      "link": "https://github.com/swarajzz/Advice-generator",
-      "title": "Advice Generator",
-      "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
-      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-    }
-  ]
-},
   {
-  "github_username": "srujana-16",
-  "Social_media": {
-    "gitHub": "https://github.com/srujana-16",
-    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
-    "Instagram": "#",
-    "YouTube": "#",
-    "Twitter": "#"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
-      "title": "Terminal games in python",
-      "description": "This repository contains terminal games in Python.",
-      "tech": ["Python"]
-    }
-  ]
-},
-{
-  "github_username": "mandliyarajendra11",
-  "Social_media": {
-    "gitHub": "https://github.com/mandliyarajendra11",
-    "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
-    "Instagram": "https://www.instagram.com/rajendramandliya11/",
-    "YouTube": "#",
-    "Twitter": "#"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/mandliyarajendra11/pet-store",
-      "title": "Pet Store",
-      "description": "pet store is a e-commerce website for adopting pets",
-      "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
-    }
-  ]
-},
-{
-  "github_username": "kartikjoshi267",
-  "Social_media": {
-    "gitHub": "https://github.com/kartikjoshi267",
-    "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
-    "Twitter": "https://twitter.com/KartikJ74422563"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/kartikjoshi267/portfolio",
-      "title": "Personal Portfolio Using Three.js",
-      "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
-      "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
-    }
+    "github_username": "swarajzz",
+    "Social_media": {
+      "gitHub": "https://github.com/swarajzz",
+      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+      "Instagram": "https://www.instagram.com/mister_sudo007/",
+      "Twitter": "https://twitter.com/Swarajzzz"
+    },
+    "Projects": [
+      {
+        "link": "https://meme-generator-swaraj.netlify.app/",
+        "title": "Meme Generator",
+        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+      },
+      {
+        "link": "https://github.com/swarajzz/Advice-generator",
+        "title": "Advice Generator",
+        "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
+        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+      }
     ]
-},
+  },
   {
-  "github_username": "mswat5",
-  "Social_media": {
-    "gitHub": "https://github.com/mswat5",
-    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
-    "Instagram": "#",
-    "YouTube": "#",
-    "Twitter": "https://twitter.com/itSwatantra"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/mswat5/Webscraper_news",
-      "title": "Web_Scrapper-News",
-      "description": "Hello! This Project is related to scrapping news from online articles",
-      "tech": ["Python", "Beautiful Soup"]
-    }
-  ]
-},
-  {
-  "github_username": "devWonderkind",
-  "Social_media": {
-    "gitHub": "https://github.com/devWonderkind",
-    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
-    "Instagram": "#",
-    "YouTube": "#",
-    "Twitter": "https://twitter.com/devWonderkind"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
-      "title": "Random Quote Generator",
-      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
-      "tech": ["HTML", "CSS", "JavaScript", "API"]
-    }
-  ]
-},
-{
-  "github_username": "MisterMickey",
-  "Social_media": {
-    "gitHub": "https://github.com/MisterMickey",
-    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
-    "Instagram": "#",
-    "YouTube": "#",
-    "Twitter": "#"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
-      "title": "Navbar using Pure React",
-      "description": "Basic Navbar using React and no JSX",
-      "tech": ["HTML", "Javascript"]
-    }
-  ]
-},
-{
-  "github_username": "Hemant2335",
-  "Social_media": {
-    "gitHub": "https://github.com/Hemant2335",
-    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
-    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
-    "YouTube": "#",
-    "Twitter": "https://twitter.com/Nishant85292675"
-  },
-  "Projects": [
-    {
-      "link": "https://github.com/Hemant2335/ONE-WATCH",
-      "title": "ONEWATCH",
-      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    "github_username": "srujana-16",
+    "Social_media": {
+      "gitHub": "https://github.com/srujana-16",
+      "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "#"
     },
-    {
-      "link": "https://github.com/Hemant2335/ONE-BUY",
-      "title": "ONEBUY",
-      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
-
-    }
-  ]
-}
-
-
-{
-  "github_username": "royadaneshi",
-  "Social_media": {
-    "gitHub": "https://github.com/royadaneshi/"
+    "Projects": [
+      {
+        "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+        "title": "Terminal games in python",
+        "description": "This repository contains terminal games in Python.",
+        "tech": ["Python"]
+      }
+    ]
   },
-  "Projects": [
-    {
-      "link": "https://github.com/royadaneshi/webHW1.git",
-      "title": "HW1",
-      "description": "A project with golang",
-      "tech": ["go", "mongodb"]
-    }
-  ]
-}
+  {
+    "github_username": "mandliyarajendra11",
+    "Social_media": {
+      "gitHub": "https://github.com/mandliyarajendra11",
+      "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
+      "Instagram": "https://www.instagram.com/rajendramandliya11/",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/mandliyarajendra11/pet-store",
+        "title": "Pet Store",
+        "description": "pet store is a e-commerce website for adopting pets",
+        "tech": ["Html", "Css", "React js", "Styled component", "Context Api", "Email js Api"]
+      }
+    ]
+  },
+  {
+    "github_username": "kartikjoshi267",
+    "Social_media": {
+      "gitHub": "https://github.com/kartikjoshi267",
+      "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
+      "Twitter": "https://twitter.com/KartikJ74422563"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/kartikjoshi267/portfolio",
+        "title": "Personal Portfolio Using Three.js",
+        "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
+        "tech": ["Express", "MongoDB", "Node.js", "ReactJs", "Three.js", "TailwindCSS"]
+      }
+    ]
+  },
+  {
+    "github_username": "mswat5",
+    "Social_media": {
+      "gitHub": "https://github.com/mswat5",
+      "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/itSwatantra"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/mswat5/Webscraper_news",
+        "title": "Web_Scrapper-News",
+        "description": "Hello! This Project is related to scrapping news from online articles",
+        "tech": ["Python", "Beautiful Soup"]
+      }
+    ]
+  },
+  {
+    "github_username": "devWonderkind",
+    "Social_media": {
+      "gitHub": "https://github.com/devWonderkind",
+      "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/devWonderkind"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+        "title": "Random Quote Generator",
+        "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+        "tech": ["HTML", "CSS", "JavaScript", "API"]
+      }
+    ]
+  },
+  {
+    "github_username": "MisterMickey",
+    "Social_media": {
+      "gitHub": "https://github.com/MisterMickey",
+      "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+        "title": "Navbar using Pure React",
+        "description": "Basic Navbar using React and no JSX",
+        "tech": ["HTML", "Javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "Hemant2335",
+    "Social_media": {
+      "gitHub": "https://github.com/Hemant2335",
+      "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+      "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/Nishant85292675"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Hemant2335/ONE-WATCH",
+        "title": "ONEWATCH",
+        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+        "tech": ["HTML", "TAILWIND", "REACT", "RAPIDAPI", "JAVASCRIPT"]
+      },
+      {
+        "link": "https://github.com/Hemant2335/ONE-BUY",
+        "title": "ONEBUY",
+        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+        "tech": ["HTML", "TAILWIND", "NEXT.js", "STRAPI", "STRIPE", "JAVASCRIPT"]
+      }
+    ]
+  },
+
+  {
+    "github_username": "royadaneshi",
+    "Social_media": {
+      "gitHub": "https://github.com/royadaneshi/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/royadaneshi/webHW1.git",
+        "title": "HW1",
+        "description": "A project with golang",
+        "tech": ["go", "mongodb"]
+      }
+    ]
+  }
 ]

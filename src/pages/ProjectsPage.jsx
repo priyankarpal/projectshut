@@ -136,7 +136,7 @@ function ProjectsPage() {
           placeholder="search by project name"
           className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent ${
             theme.mode === 'light' ? 'text-black' : 'text-white'
-          }`}
+          } hoverable`}
           onChange={(e) => handleOptionClick('project', e.target.value)}
           value={selectedOptions.project}
         />

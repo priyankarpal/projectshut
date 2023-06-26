@@ -6,6 +6,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'react-feather';
 import { ThemeContext } from '../context/Theme';
+import '../CSS/ProjectCard.css';
 
 function ProjectCard({ project, filter }) {
   const { username, title, description, link } = project;
@@ -14,7 +15,9 @@ function ProjectCard({ project, filter }) {
 
   return (
     <article
-      className="flex flex-col border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]"
+      className={`flex flex-col border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0 border-gray-700 shadow-slate-700/[.7] ${
+        theme.mode === 'light' ? 'text-black' : 'text-white'
+      } hoverClass`}
       style={{
         background: theme?.navbar?.background,
         color: theme?.color,
