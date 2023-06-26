@@ -13,11 +13,13 @@
         "link": "https://github.com/sabhisharma-ise/Simon-Game",
         "title": "Simon-Game",
         "description": "Simon is an game of short-term memory skill",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ]
+        "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/sabhisharma-ise/Quiz-Game",
+        "title": "Quiz-Game",
+        "description": "A JavaScript-based Quiz for fun",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -3628,9 +3630,19 @@
         "link": "https://github.com/SyedImtiyaz-1/Java",
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
-        "tech": [
-          "Java, DSA"
-        ]
+        "tech": ["Java, DSA"]
+      },
+      {
+       "link": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
+        "title": "Telegram Bot",
+        "description": "This is a .py script to Automate the Telegram using the Bot with the {'/'} commands.",
+        "tech": ["Python"]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/mini-Projects",
+        "title": "JavaScript Practice Projects",
+        "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
+        "tech": ["JavaScript, CSS, HTML, API's"]
       }
     ]
   },
@@ -3704,71 +3716,61 @@
     ]
   },
   {
-    "github_username": "srujana-16",
-    "Social_media": {
-      "gitHub": "https://github.com/srujana-16",
-      "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
-        "title": "Terminal games in python",
-        "description": "This repository contains terminal games in Python.",
-        "tech": [
-          "Python"
-        ]
-      }
-    ]
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
   },
-  {
-    "github_username": "mandliyarajendra11",
-    "Social_media": {
-      "gitHub": "https://github.com/mandliyarajendra11",
-      "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
-      "Instagram": "https://www.instagram.com/rajendramandliya11/",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/mandliyarajendra11/pet-store",
-        "title": "Pet Store",
-        "description": "pet store is a e-commerce website for adopting pets",
-        "tech": [
-          "Html",
-          "Css",
-          "React js",
-          "Styled component",
-          "Context Api",
-          "Email js Api"
-        ]
-      }
-    ]
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Python"]
+    }
+  ]
+},
+{
+  "github_username": "mandliyarajendra11",
+  "Social_media": {
+    "gitHub": "https://github.com/mandliyarajendra11",
+    "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
+    "Instagram": "https://www.instagram.com/rajendramandliya11/",
+    "YouTube": "#",
+    "Twitter": "#"
   },
-  {
-    "github_username": "kartikjoshi267",
-    "Social_media": {
-      "gitHub": "https://github.com/kartikjoshi267",
-      "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
-      "Twitter": "https://twitter.com/KartikJ74422563"
+  "Projects": [
+    {
+      "link": "https://github.com/mandliyarajendra11/pet-store",
+      "title": "Pet Store",
+      "description": "pet store is a e-commerce website for adopting pets",
+      "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
+    }
+  ]
+},
+{
+  "github_username": "kartikjoshi267",
+  "Social_media": {
+    "gitHub": "https://github.com/kartikjoshi267",
+    "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
+    "Twitter": "https://twitter.com/KartikJ74422563"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/kartikjoshi267/portfolio",
+      "title": "Personal Portfolio Using Three.js",
+      "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
     },
-    "Projects": [
-      {
-        "link": "https://github.com/kartikjoshi267/portfolio",
-        "title": "Personal Portfolio Using Three.js",
-        "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
-        "tech": [
-          "Express",
-          "MongoDB",
-          "Node.js",
-          "ReactJs",
-          "Three.js",
-          "TailwindCSS"
-        ]
-      }
+    {
+      "link": "https://github.com/kartikjoshi267/letsnote",
+      "title": "LetsNote",
+      "description": "This is a note-taking web application that is ReactJs Based",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Bootstrap"]
+    }
     ]
   },
   {
@@ -3793,84 +3795,82 @@
     ]
   },
   {
-    "github_username": "devWonderkind",
-    "Social_media": {
-      "gitHub": "https://github.com/devWonderkind",
-      "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "https://twitter.com/devWonderkind"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/devWonderkind/Random-Quote-Generator",
-        "title": "Random Quote Generator",
-        "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "API"
-        ]
-      }
-    ]
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
   },
-  {
-    "github_username": "MisterMickey",
-    "Social_media": {
-      "gitHub": "https://github.com/MisterMickey",
-      "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
-        "title": "Navbar using Pure React",
-        "description": "Basic Navbar using React and no JSX",
-        "tech": [
-          "HTML",
-          "Javascript"
-        ]
-      }
-    ]
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
+},
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
   },
-  {
-    "github_username": "Hemant2335",
-    "Social_media": {
-      "gitHub": "https://github.com/Hemant2335",
-      "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
-      "Instagram": "https://www.instagram.com/_nishant1_kumar/",
-      "YouTube": "#",
-      "Twitter": "https://twitter.com/Nishant85292675"
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
+  "github_username": "Hemant2335",
+  "Social_media": {
+    "gitHub": "https://github.com/Hemant2335",
+    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishant85292675"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Hemant2335/ONE-WATCH",
+      "title": "ONEWATCH",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
     },
-    "Projects": [
-      {
-        "link": "https://github.com/Hemant2335/ONE-WATCH",
-        "title": "ONEWATCH",
-        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-        "tech": [
-          "HTML",
-          "TAILWIND",
-          "REACT",
-          "RAPIDAPI",
-          "JAVASCRIPT"
-        ]
-      },
-      {
-        "link": "https://github.com/Hemant2335/ONE-BUY",
-        "title": "ONEBUY",
-        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-        "tech": [
-          "HTML",
-          "TAILWIND",
-          "NEXT.js",
-          "STRAPI",
-          "STRIPE",
-          "JAVASCRIPT"
-        ]
-      }
-    ]
-  }
+    {
+      "link": "https://github.com/Hemant2335/ONE-BUY",
+      "title": "ONEBUY",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
+
+    }
+  ]
+},
+  {
+  "github_username": "BhartiNagpure",
+  "Social_media": {
+    "gitHub": "https://github.com/BhartiNagpure",
+    "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
+    "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/BhartiNagpure/Cryptocurrency",
+      "title": "Cryptocurrency",
+      "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
+      "tech": ["HTML", "MATERIALUI" , "REACT" , "CSS","COINGECKOAPI", "JAVASCRIPT"]
+    }
+  ]
+}
 ]
