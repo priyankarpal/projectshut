@@ -17,6 +17,24 @@
       }
     ]
 },
+{
+  "github_username": "Durgesh4993",
+  "Social_media": {
+    "gitHub": "https://github.com/Durgesh4993",
+    "LinkedIn": "https://www.linkedin.com/in/durgeshkumar4993/",
+    "Instagram": "https://www.instagram.com/durgesh_4993/",
+    "YouTube": "https://www.youtube.com/channel/UCRFVEkJLCknREaO40evl1uQ",
+    "Twitter": "https://twitter.com/durgesh4993"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Durgesh4993/Microsoft-Clone",
+      "title": "Microsoft-Clone",
+      "description": "It is a clone of Microsoft's Home Page",
+      "tech": ["HTML", "CSS","JavaScript"]
+    }
+  ]
+},
   
   {
     "github_username": "5h0ov",
