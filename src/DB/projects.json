@@ -2804,6 +2804,12 @@
       "title": "Personal Portfolio Using Three.js",
       "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
       "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
+    },
+    {
+      "link": "https://github.com/kartikjoshi267/letsnote",
+      "title": "LetsNote",
+      "description": "This is a note-taking web application that is ReactJs Based",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Bootstrap"]
     }
     ]
 },
