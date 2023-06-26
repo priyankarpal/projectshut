@@ -22,7 +22,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.15",
-    "@mui/material": "^5.13.5",
+    "@mui/material": "^5.13.6",
     "ci": "^2.2.0",
     "material": "@mui/material",
     "prop-types": "^15.8.1",
