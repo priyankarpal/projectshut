@@ -2702,6 +2702,12 @@
         "title": "JavaScript Practice Projects",
         "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
         "tech": ["JavaScript, CSS, HTML, API's"]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/calculator-",
+        "title": "This is a  Beginner Friendly Project for Students.",
+        "description": "JavaScript practice project for the ones who want to learn JavaScript and this projects are beginner friendly.",
+        "tech": ["JavaScript, CSS, HTML"]
       }
     ]
   },
