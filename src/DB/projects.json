@@ -14,6 +14,12 @@
         "title": "Simon-Game",
         "description": "Simon is an game of short-term memory skill",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/sabhisharma-ise/Quiz-Game",
+        "title": "Quiz-Game",
+        "description": "A JavaScript-based Quiz for fun",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
 },
@@ -2883,6 +2889,24 @@
       "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
       "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
 
+    }
+  ]
+},
+  {
+  "github_username": "BhartiNagpure",
+  "Social_media": {
+    "gitHub": "https://github.com/BhartiNagpure",
+    "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
+    "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/BhartiNagpure/Cryptocurrency",
+      "title": "Cryptocurrency",
+      "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
+      "tech": ["HTML", "MATERIALUI" , "REACT" , "CSS","COINGECKOAPI", "JAVASCRIPT"]
     }
   ]
 }
