@@ -14,6 +14,12 @@
         "title": "Simon-Game",
         "description": "Simon is an game of short-term memory skill",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/sabhisharma-ise/Quiz-Game",
+        "title": "Quiz-Game",
+        "description": "A JavaScript-based Quiz for fun",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
 },
