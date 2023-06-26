@@ -14,6 +14,12 @@
         "title": "Simon-Game",
         "description": "Simon is an game of short-term memory skill",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/sabhisharma-ise/Quiz-Game",
+        "title": "Quiz-Game",
+        "description": "A JavaScript-based Quiz for fun",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
 },
@@ -2690,6 +2696,12 @@
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
         "tech": ["Java, DSA"]
+      },
+      {
+       "link": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
+        "title": "Telegram Bot",
+        "description": "This is a .py script to Automate the Telegram using the Bot with the {'/'} commands.",
+        "tech": ["Python"]
       }
     ]
   },
