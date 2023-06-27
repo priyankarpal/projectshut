@@ -23,7 +23,6 @@
       }
     ]
   },
-
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -42,7 +41,6 @@
       }
     ]
   },
-
   {
     "github_username": "junaid-arif-24",
     "Social_media": {
@@ -61,7 +59,6 @@
       }
     ]
   },
-
   {
     "github_username": "PatilHarshh",
     "Social_media": {
@@ -86,7 +83,6 @@
       }
     ]
   },
-
   {
     "github_username": "Parmesh119",
     "Social_media": {
@@ -2599,7 +2595,6 @@
       }
     ]
   },
-
   {
     "github_username": "Judge-Paul",
     "Social_media": {
@@ -2677,7 +2672,7 @@
         "link": "https://talent-in.vercel.app",
         "title": "TalentIn",
         "description": "It is a Recruiting website for the Students and the working professionals.",
-        "tech": ["HTML5", "CSS3", "Bootstrap v5", "JavaScript"]
+        "tech": ["HTML5", "CSS3", "Bootstrap", "JavaScript"]
       },
       {
         "link": "https://netflix-dupe.vercel.app",
@@ -2695,13 +2690,13 @@
         "link": "https://github.com/SyedImtiyaz-1/Precious-IT-Services",
         "title": "IT Services Web-App",
         "description": "This website is based on the Projects which is held during the final year of students.",
-        "tech": ["HTML5", "CSS3", "JavaScript, JQuery"]
+        "tech": ["HTML5", "CSS3", "JavaScript", "JQuery"]
       },
       {
         "link": "https://github.com/SyedImtiyaz-1/Java",
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
-        "tech": ["Java, DSA"]
+        "tech": ["Java"]
       },
       {
         "link": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
