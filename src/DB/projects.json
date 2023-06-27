@@ -2664,7 +2664,7 @@
     "github_username": "SyedImtiyaz-1",
     "Social_media": {
       "gitHub": "https://github.com/SyedImtiyaz-1",
-      "LinkedIn": "https://www.linkedin.com/in/imtiyaz-sde"
+      "LinkedIn": "https://www.linkedin.com/in/imtiyaz-sde",
     },
     "Projects": [
       {
@@ -2713,6 +2713,7 @@
         "link": "https://github.com/SyedImtiyaz-1/mini-Projects",
         "title": "JavaScript Practice Projects",
         "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
+        "tech": ["HTML5", "CSS3", "JavaScript"]
       },
       {
         "link": "https://github.com/SyedImtiyaz-1/calculator-",
