@@ -2788,6 +2788,12 @@
       "title": "Terminal games in python",
       "description": "This repository contains terminal games in Python.",
       "tech": ["Python"]
+    }, 
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games",
+      "title": "Multi Stack Games",
+      "description": "This repository contains games built using different tech stacks: web development with HTML, CSS, and JavaScript, and terminal games in Python.",
+      "tech": ["HTML", "Javascript", "CSS", "Python"]
     }
   ]
 },
