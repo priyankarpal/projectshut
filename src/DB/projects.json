@@ -137,7 +137,7 @@
         "title": "iChat_app",
         "description": "This is the encrypted chat_application that is only accessible to those only who have writes to access it. No other can add or edit it.",
         "tech": ["React.js", "JavaScript"]
-      },
+      }
     ]
   },
   {
