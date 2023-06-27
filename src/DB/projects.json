@@ -336,7 +336,7 @@
         "link": "https://github.com/sumitkr2000/Shades",
         "title": "Shades",
         "description": "This is a business website where users with the help of lots of unique blocks, can easily build a page without coding and quickly.",
-        "tech": ["HTML", "CSS", Bootstrap]
+        "tech": ["HTML", "CSS", "Bootstrap"]
       }
     ]
   },
