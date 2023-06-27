@@ -2912,7 +2912,12 @@
       "title": "ONEBUY",
       "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
       "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
-
+    },
+    {
+      "link": "https://github.com/Hemant2335/JBI-NEWS-APP",
+      "title": "JBI-NEWS-APP",
+      "description": "This is simply a news app which keeps you updated with the latest news and not only the latest but the most relevant one ",
+      "tech": ["HTML", "TAILWIND" , "REACT" ,"JAVASCRIPT"]
     }
   ]
 },
