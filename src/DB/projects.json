@@ -2713,13 +2713,7 @@
         "link": "https://github.com/SyedImtiyaz-1/mini-Projects",
         "title": "JavaScript Practice Projects",
         "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
-        "tech": ["HTML5", "CSS3", "JavaScript"]
-      },
-      {
-        "link": "https://github.com/SyedImtiyaz-1/calculator-",
-        "title": "This is a  Beginner Friendly Project for Students.",
-        "description": "JavaScript practice project for the ones who want to learn JavaScript and this projects are beginner friendly.",
-        "tech": ["JavaScript", "CSS", "HTML"]
+        "tech": ["JavaScript, CSS, HTML, API's"]
       }
     ]
   },
@@ -2788,12 +2782,6 @@
       "title": "Terminal games in python",
       "description": "This repository contains terminal games in Python.",
       "tech": ["Python"]
-    }, 
-    {
-      "link": "https://github.com/srujana-16/Multi-Stack-Games",
-      "title": "Multi Stack Games",
-      "description": "This repository contains games built using different tech stacks: web development with HTML, CSS, and JavaScript, and terminal games in Python.",
-      "tech": ["HTML", "Javascript", "CSS", "Python"]
     }
   ]
 },
@@ -2975,24 +2963,5 @@
       "tech": ["React JS","Bootstrap v5"]
     }    
   ]
-},
-{
-"github_username": "Avdhesh-Varshney",
-"Social_media": {
-  "gitHub": "https://github.com/Avdhesh-Varshney",
-  "LinkedIn": "https://www.linkedin.com/in/avdhesh-varshney-5314a4233/",
-  "Instagram": "https://www.instagram.com/_._avdhesh_._/",
-  "YouTube": "#",
-  "Twitter": "https://twitter.com/__Avdhesh__"
-},
-"Projects": [
-  {
-    "link": "https://github.com/Avdhesh-Varshney/Bingo-Game",
-    "title": "Bingo Game",
-    "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
-    "tech": ["JAVASCRIPT", "CSS", "HTML"]
-  }
-}
-]
 }
 ]
