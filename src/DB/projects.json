@@ -2713,7 +2713,13 @@
         "link": "https://github.com/SyedImtiyaz-1/mini-Projects",
         "title": "JavaScript Practice Projects",
         "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
-        "tech": ["JavaScript, CSS, HTML, API's"]
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/calculator-",
+        "title": "This is a  Beginner Friendly Project for Students.",
+        "description": "JavaScript practice project for the ones who want to learn JavaScript and this projects are beginner friendly.",
+        "tech": ["JavaScript", "CSS", "HTML"]
       }
     ]
   },
@@ -2782,6 +2788,12 @@
       "title": "Terminal games in python",
       "description": "This repository contains terminal games in Python.",
       "tech": ["Python"]
+    }, 
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games",
+      "title": "Multi Stack Games",
+      "description": "This repository contains games built using different tech stacks: web development with HTML, CSS, and JavaScript, and terminal games in Python.",
+      "tech": ["HTML", "Javascript", "CSS", "Python"]
     }
   ]
 },
@@ -2980,6 +2992,7 @@
     "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
   }
+}
 ]
 }
 ]
