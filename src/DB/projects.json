@@ -2635,6 +2635,12 @@
         "title": "JobWriteAI",
         "description": "JobWriteAI allows you to generate cover letters instantly, just paste the job description fill out skills to avoid and you'll have a cover letter in seconds.",
         "tech": ["ReactJS", "JavaScript", "Tailwind CSS", "GPT-3"]
+      },
+      {
+        "link": "https://github.com/mohitparmar1/Followers-Animation/tree/master",
+        "title": "Followers Animation",
+        "description": "its animation that shows followers are increasing",
+        "tech": ["HTML", "JavaScript", "CSS"]
       }
     ]
   },
@@ -2914,6 +2920,48 @@
       "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
       "tech": ["HTML", "MATERIALUI" , "REACT" , "CSS","COINGECKOAPI", "JAVASCRIPT"]
     }
+  ]
+},
+{
+  "github_username": "Akash-Tandale001",
+  "Social_media": {
+    "gitHub": "https://github.com/Akash-Tandale001",
+    "LinkedIn": "https://www.linkedin.com/in/akash-tandale-ab7b3120a/",
+    "Instagram": "https://www.instagram.com/akash_tandale.11/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/AkashTandale6"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Akash-Tandale001/Health-Manegment-System",
+      "title": "Health-Manegment-System",
+      "description": "Build a hospital management system with an MVC design pattern that provides 6 different facilities for users to book, claim and inquire about various services. Reviewed under Admin dashboard with all CRUD operations under secured access control.",
+      "tech": ["Spring Boot MVC","Spring Security","Spring JPA","Thymleaf","AWS Mysql (RDS)","Java Mail Services", "Docker","Kubernetes"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/CryptoQuest-website",
+      "title": "CryptoQuest",
+      "description": "Developed a Crypto tracking web application, that provides over 2000+ crypto coin details with a graphical representation of each crypto coin trend history over the last year, month, or day and can view pricing in various currencies.",
+      "tech": ["React JS","Redux Toolkit","Material UI","ChartJs"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/E-Commerce-Site",
+      "title": "Medcare",
+      "description": "Analyzed and developed an E-commerce application with 1000+ products in different categories such as Entertainment, Mobile, Laptops,etc. With payment feature integrated through Stripe payment.",
+      "tech": ["React JS","Redux Toolkit","Material UI","ChartJs","Tailwind CSS","STRIPE"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/TodoList",
+      "title": "TodoList",
+      "description": "Created simple todo list app",
+      "tech": ["React JS","Bootstrap v5"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/NewsHash",
+      "title": "NewsHash",
+      "description": "NewsHash is simple,fast,userfriendly website to fetch updated news from verious domain such as Entertainment,Spots,Technology etc...",
+      "tech": ["React JS","Bootstrap v5"]
+    }    
   ]
 },
 {
