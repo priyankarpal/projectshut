@@ -2713,7 +2713,13 @@
         "link": "https://github.com/SyedImtiyaz-1/mini-Projects",
         "title": "JavaScript Practice Projects",
         "description": "JavaScript practice projects for the ones who want to learn JavaScript and this projects are beginner friendly.",
-        "tech": ["JavaScript, CSS, HTML, API's"]
+        "tech": ["HTML5", "CSS3", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/calculator-",
+        "title": "This is a  Beginner Friendly Project for Students.",
+        "description": "JavaScript practice project for the ones who want to learn JavaScript and this projects are beginner friendly.",
+        "tech": ["JavaScript", "CSS", "HTML"]
       }
     ]
   },
@@ -2744,183 +2750,251 @@
       }
     ]
   },
-  {
-    "github_username": "swarajzz",
-    "Social_media": {
-      "gitHub": "https://github.com/swarajzz",
-      "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
-      "Instagram": "https://www.instagram.com/mister_sudo007/",
-      "Twitter": "https://twitter.com/Swarajzzz"
-    },
-    "Projects": [
-      {
-        "link": "https://meme-generator-swaraj.netlify.app/",
-        "title": "Meme Generator",
-        "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
-        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-      },
-      {
-        "link": "https://github.com/swarajzz/Advice-generator",
-        "title": "Advice Generator",
-        "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
-        "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
-      }
-    ]
+{
+  "github_username": "swarajzz",
+  "Social_media": {
+    "gitHub": "https://github.com/swarajzz",
+    "LinkedIn": "https://www.linkedin.com/in/swaraj-sharma-b4a8511b8/",
+    "Instagram": "https://www.instagram.com/mister_sudo007/",
+    "Twitter": "https://twitter.com/Swarajzzz"
   },
-  {
-    "github_username": "srujana-16",
-    "Social_media": {
-      "gitHub": "https://github.com/srujana-16",
-      "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "#"
+  "Projects": [
+    {
+      "link": "https://meme-generator-swaraj.netlify.app/",
+      "title": "Meme Generator",
+      "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
     },
-    "Projects": [
-      {
-        "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
-        "title": "Terminal games in python",
-        "description": "This repository contains terminal games in Python.",
-        "tech": ["Python"]
-      }
-    ]
-  },
+    {
+      "link": "https://github.com/swarajzz/Advice-generator",
+      "title": "Advice Generator",
+      "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
+      "tech": ["ReactJS", "JavaScript", "CSS", "HTML"]
+    }
+  ]
+},
   {
-    "github_username": "mandliyarajendra11",
-    "Social_media": {
-      "gitHub": "https://github.com/mandliyarajendra11",
-      "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
-      "Instagram": "https://www.instagram.com/rajendramandliya11/",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/mandliyarajendra11/pet-store",
-        "title": "Pet Store",
-        "description": "pet store is a e-commerce website for adopting pets",
-        "tech": ["Html", "Css", "React js", "Styled component", "Context Api", "Email js Api"]
-      }
-    ]
+  "github_username": "srujana-16",
+  "Social_media": {
+    "gitHub": "https://github.com/srujana-16",
+    "LinkedIn": "https://www.linkedin.com/in/srujana-vanka/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
   },
+  "Projects": [
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games/tree/main/terminal_games",
+      "title": "Terminal games in python",
+      "description": "This repository contains terminal games in Python.",
+      "tech": ["Python"]
+    }, 
+    {
+      "link": "https://github.com/srujana-16/Multi-Stack-Games",
+      "title": "Multi Stack Games",
+      "description": "This repository contains games built using different tech stacks: web development with HTML, CSS, and JavaScript, and terminal games in Python.",
+      "tech": ["HTML", "Javascript", "CSS", "Python"]
+    }
+  ]
+},
+{
+  "github_username": "mandliyarajendra11",
+  "Social_media": {
+    "gitHub": "https://github.com/mandliyarajendra11",
+    "LinkedIn": "https://www.linkedin.com/in/mandliyarajendra11/",
+    "Instagram": "https://www.instagram.com/rajendramandliya11/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mandliyarajendra11/pet-store",
+      "title": "Pet Store",
+      "description": "pet store is a e-commerce website for adopting pets",
+      "tech": ["Html","Css","React js", "Styled component","Context Api","Email js Api"]
+    }
+  ]
+},
+{
+  "github_username": "kartikjoshi267",
+  "Social_media": {
+    "gitHub": "https://github.com/kartikjoshi267",
+    "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
+    "Twitter": "https://twitter.com/KartikJ74422563"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/kartikjoshi267/portfolio",
+      "title": "Personal Portfolio Using Three.js",
+      "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Three.js","TailwindCSS"]
+    },
+    {
+      "link": "https://github.com/kartikjoshi267/letsnote",
+      "title": "LetsNote",
+      "description": "This is a note-taking web application that is ReactJs Based",
+      "tech": ["Express","MongoDB", "Node.js","ReactJs","Bootstrap"]
+    }
+    ]
+},
   {
-    "github_username": "kartikjoshi267",
-    "Social_media": {
-      "gitHub": "https://github.com/kartikjoshi267",
-      "LinkedIn": "https://www.linkedin.com/in/kartik-joshi-364b59225/",
-      "Twitter": "https://twitter.com/KartikJ74422563"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/kartikjoshi267/portfolio",
-        "title": "Personal Portfolio Using Three.js",
-        "description": "This is my personal portfolio website made using ThreeJs and Vite + ReactJs",
-        "tech": ["Express", "MongoDB", "Node.js", "ReactJs", "Three.js", "TailwindCSS"]
-      },
-      {
-        "link": "https://github.com/kartikjoshi267/letsnote",
-        "title": "LetsNote",
-        "description": "This is a note-taking web application that is ReactJs Based",
-        "tech": ["Express", "MongoDB", "Node.js", "ReactJs", "Bootstrap"]
-      }
-    ]
+  "github_username": "mswat5",
+  "Social_media": {
+    "gitHub": "https://github.com/mswat5",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/itSwatantra"
   },
+  "Projects": [
+    {
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
+      "tech": ["Python", "Beautiful Soup"]
+    }
+  ]
+},
   {
-    "github_username": "mswat5",
-    "Social_media": {
-      "gitHub": "https://github.com/mswat5",
-      "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "https://twitter.com/itSwatantra"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/mswat5/Webscraper_news",
-        "title": "Web_Scrapper-News",
-        "description": "Hello! This Project is related to scrapping news from online articles",
-        "tech": ["Python", "Beautiful Soup"]
-      }
-    ]
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
   },
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
+},
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
+  "github_username": "Hemant2335",
+  "Social_media": {
+    "gitHub": "https://github.com/Hemant2335",
+    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishant85292675"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Hemant2335/ONE-WATCH",
+      "title": "ONEWATCH",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    },
+    {
+      "link": "https://github.com/Hemant2335/ONE-BUY",
+      "title": "ONEBUY",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
+
+    }
+  ]
+},
   {
-    "github_username": "devWonderkind",
-    "Social_media": {
-      "gitHub": "https://github.com/devWonderkind",
-      "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "https://twitter.com/devWonderkind"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/devWonderkind/Random-Quote-Generator",
-        "title": "Random Quote Generator",
-        "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
-        "tech": ["HTML", "CSS", "JavaScript", "API"]
-      }
-    ]
+  "github_username": "BhartiNagpure",
+  "Social_media": {
+    "gitHub": "https://github.com/BhartiNagpure",
+    "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
+    "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
+    "YouTube": "#",
+    "Twitter": "#"
   },
+  "Projects": [
+    {
+      "link": "https://github.com/BhartiNagpure/Cryptocurrency",
+      "title": "Cryptocurrency",
+      "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
+      "tech": ["HTML", "MATERIALUI" , "REACT" , "CSS","COINGECKOAPI", "JAVASCRIPT"]
+    }
+  ]
+},
+{
+  "github_username": "Akash-Tandale001",
+  "Social_media": {
+    "gitHub": "https://github.com/Akash-Tandale001",
+    "LinkedIn": "https://www.linkedin.com/in/akash-tandale-ab7b3120a/",
+    "Instagram": "https://www.instagram.com/akash_tandale.11/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/AkashTandale6"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Akash-Tandale001/Health-Manegment-System",
+      "title": "Health-Manegment-System",
+      "description": "Build a hospital management system with an MVC design pattern that provides 6 different facilities for users to book, claim and inquire about various services. Reviewed under Admin dashboard with all CRUD operations under secured access control.",
+      "tech": ["Spring Boot MVC","Spring Security","Spring JPA","Thymleaf","AWS Mysql (RDS)","Java Mail Services", "Docker","Kubernetes"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/CryptoQuest-website",
+      "title": "CryptoQuest",
+      "description": "Developed a Crypto tracking web application, that provides over 2000+ crypto coin details with a graphical representation of each crypto coin trend history over the last year, month, or day and can view pricing in various currencies.",
+      "tech": ["React JS","Redux Toolkit","Material UI","ChartJs"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/E-Commerce-Site",
+      "title": "Medcare",
+      "description": "Analyzed and developed an E-commerce application with 1000+ products in different categories such as Entertainment, Mobile, Laptops,etc. With payment feature integrated through Stripe payment.",
+      "tech": ["React JS","Redux Toolkit","Material UI","ChartJs","Tailwind CSS","STRIPE"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/TodoList",
+      "title": "TodoList",
+      "description": "Created simple todo list app",
+      "tech": ["React JS","Bootstrap v5"]
+    },
+    {
+      "link": "https://github.com/Akash-Tandale001/NewsHash",
+      "title": "NewsHash",
+      "description": "NewsHash is simple,fast,userfriendly website to fetch updated news from verious domain such as Entertainment,Spots,Technology etc...",
+      "tech": ["React JS","Bootstrap v5"]
+    }    
+  ]
+},
+{
+"github_username": "Avdhesh-Varshney",
+"Social_media": {
+  "gitHub": "https://github.com/Avdhesh-Varshney",
+  "LinkedIn": "https://www.linkedin.com/in/avdhesh-varshney-5314a4233/",
+  "Instagram": "https://www.instagram.com/_._avdhesh_._/",
+  "YouTube": "#",
+  "Twitter": "https://twitter.com/__Avdhesh__"
+},
+"Projects": [
   {
-    "github_username": "MisterMickey",
-    "Social_media": {
-      "gitHub": "https://github.com/MisterMickey",
-      "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
-      "Instagram": "#",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
-        "title": "Navbar using Pure React",
-        "description": "Basic Navbar using React and no JSX",
-        "tech": ["HTML", "Javascript"]
-      }
-    ]
-  },
-  {
-    "github_username": "Hemant2335",
-    "Social_media": {
-      "gitHub": "https://github.com/Hemant2335",
-      "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
-      "Instagram": "https://www.instagram.com/_nishant1_kumar/",
-      "YouTube": "#",
-      "Twitter": "https://twitter.com/Nishant85292675"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/Hemant2335/ONE-WATCH",
-        "title": "ONEWATCH",
-        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-        "tech": ["HTML", "TAILWIND", "REACT", "RAPIDAPI", "JAVASCRIPT"]
-      },
-      {
-        "link": "https://github.com/Hemant2335/ONE-BUY",
-        "title": "ONEBUY",
-        "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
-        "tech": ["HTML", "TAILWIND", "NEXT.js", "STRAPI", "STRIPE", "JAVASCRIPT"]
-      }
-    ]
-  },
-  {
-    "github_username": "BhartiNagpure",
-    "Social_media": {
-      "gitHub": "https://github.com/BhartiNagpure",
-      "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
-      "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
-      "YouTube": "#",
-      "Twitter": "#"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/BhartiNagpure/Cryptocurrency",
-        "title": "Cryptocurrency",
-        "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
-        "tech": ["HTML", "MATERIALUI", "REACT", "CSS", "COINGECKOAPI", "JAVASCRIPT"]
-      }
-    ]
-  },
+    "link": "https://github.com/Avdhesh-Varshney/Bingo-Game",
+    "title": "Bingo Game",
+    "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
+    "tech": ["JAVASCRIPT", "CSS", "HTML"]
+
+  }
+]
+},
   {
     "github_username": "vivekrawat21",
     "Social_media": {
