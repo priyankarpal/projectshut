@@ -2701,7 +2701,7 @@
        "link": "https://github.com/SyedImtiyaz-1/Java",
         "title": "Java DSA Project",
         "description": "Playlist in Java{DSA} for better understanding of Data Structures.",
-        "tech": ["Java, DSA"]
+        "tech": ["Java", "DSA"]
       },
       {
        "link": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
@@ -2720,6 +2720,12 @@
         "title": "This is a  Beginner Friendly Project for Students.",
         "description": "JavaScript practice project for the ones who want to learn JavaScript and this projects are beginner friendly.",
         "tech": ["JavaScript", "CSS", "HTML"]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/ChatGPT-Replica",
+        "title": "Chat-GPT Clone",
+        "description": "Here is ChatGPT Clone which uses RapidAPI to fetch the data from the openAI ChatGPT.",
+        "tech": ["JavaScript", "CSS", "HTML", "RapidAPI", "Bootstrap v5"]
       }
     ]
   },
