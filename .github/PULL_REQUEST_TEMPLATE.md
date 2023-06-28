@@ -10,8 +10,10 @@
 
 <!-- Add screenshots to show the changes you made. -->
 
-## Checklist for projects addition 
+## Checklist for projects addition
+
  <!-- ignore these checkbox if you're not adding any projects -->
+
 - [ ] My project has contribution guidelines.
 - [ ] My project has a Code of Conduct.
 - [ ] My project has a README file.
