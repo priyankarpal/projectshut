@@ -3008,5 +3008,22 @@
         "tech": ["JAVASCRIPT", "CSS", "HTML"]
       }
     ]
-  }
+  },
+  {
+      "github_username": "harshit1142",  
+      "Social_media": {
+        "gitHub": "https://github.com/harshit1142",
+        "LinkedIn": "https://www.linkedin.com/in/harshit-pandey-312b78245/",
+        "Instagram": "#",
+        "YouTube": "#",
+        "Twitter": "#"
+      },
+      "Projects": [
+        {
+          "link": "https://harshit1142.github.io/Insight/",
+          "title": "Insight Movie",
+          "description": "A Movie Rated Website having a collection of movies across the world. Through this website you will able to get Movies / Webseries various information like year of release,director,cast,plot and rating given at different genuine website.",
+          "tech": ["JAVASCRIPT", "CSS","HTML"]
+        }
+      ]
 ]
