@@ -3021,7 +3021,7 @@
     "Projects": [
       {
         "link": "https://harshit1142.github.io/Insight/",
-        "title": "Insight Movie Site",
+        "title": "Insight",
         "description": "A Movie Rated Website having a collection of movies across the world. Through this website you will able to get Movies / Webseries various information like year of release,director,cast,plot and rating given at different genuine website.",
         "tech": ["JAVASCRIPT", "CSS","HTML"]
       }
