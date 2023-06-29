@@ -1,27 +1,27 @@
-import React, { useContext } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import { ThemeContext } from "../context/Theme";
-import ScrollToTop from "./ScrollToTop";
+import React, { useContext } from 'react'
+import Navbar from './Navbar'
+import Footer from './Footer'
+// import { ThemeContext } from "../context/Theme";
+import ScrollToTop from './ScrollToTop'
 
 function Layout() {
-  const { theme } = useContext(ThemeContext);
+  // const { theme } = useContext(ThemeContext);
   return (
     <div
-      className="text-white font-lato"
-      style={{
-        background: theme?.background,
-        color: theme?.color,
-        buttonBgColor: theme?.button?.buttonBgColor,
-        buttonColor: theme?.button?.buttonColor,
-      }}
+      className='text-white font-lato'
+      // style={{
+      //   background: theme?.background,
+      //   color: theme?.color,
+      //   buttonBgColor: theme?.button?.buttonBgColor,
+      //   buttonColor: theme?.button?.buttonColor,
+      // }}
     >
       <Navbar />
       <ScrollToTop />
-      <Outlet />
+      {/* <Outlet /> */}
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Layout;
+export default Layout

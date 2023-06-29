@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import { X } from "react-feather";
 import Link from "next/link";
@@ -20,18 +20,18 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
     },
   ];
 
-  const sideLinkEls = sideLinks.map((sideLink, i) => (
-    <NavLink
-      key={i}
-      to={sideLink.path}
-      className={({ isActive }) =>
-        `flex py-2 px-3 m-2 text-center font-bold  rounded-md`
-      }
-      onClick={() => props.handleDrawerToggle()}
-    >
-      {sideLink.name}
-    </NavLink>
-  ));
+  // const sideLinkEls = sideLinks.map((sideLink, i) => (
+  //   <NavLink
+  //     key={i}
+  //     to={sideLink.path}
+  //     className={({ isActive }) =>
+  //       `flex py-2 px-3 m-2 text-center font-bold  rounded-md`
+  //     }
+  //     onClick={() => props.handleDrawerToggle()}
+  //   >
+  //     {sideLink.name}
+  //   </NavLink>
+  // ));
 
   return (
     <div className=" h-screen flex flex-col " id="elements-of-sidebar">
@@ -60,7 +60,7 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
 
       {/*  SideBar navlinks section */}
       <ul className="block">
-        {sideLinkEls}
+        {/* {sideLinkEls} */}
 
         <li>
           <a

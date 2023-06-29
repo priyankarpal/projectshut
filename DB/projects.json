@@ -472,7 +472,7 @@
       {
         "link": "https://github.com/Arunjagan12/Portfolio-website-v2",
         "title": "3d portfolio",
-        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc..This website is built using react and consists of various 3d-models that is built using three.",
+        "description": " A portfolio of Arun showcasing his skills, previous works, projects,etc.This website is built using react and consists of various 3d-models that is built using three.",
         "tech": ["React", "Three.js", "Tailwind CSS", "framer-motion"]
       }
     ]
@@ -794,7 +794,14 @@
         "link": "https://github.com/ashishsurya/t3-flashcards-app",
         "title": "Flashcards App",
         "description": "Flashcards app which is used for storing deck of flashcards for storing question and answers for academic purpose ",
-        "tech": ["Next.js", "React", "PlanetScale", "Typescript", "Tailwind CSS", "T3"]
+        "tech": [
+          "Next.js",
+          "React",
+          "PlanetScale",
+          "Typescript",
+          "Tailwind CSS",
+          "T3"
+        ]
       }
     ]
   },
@@ -961,7 +968,14 @@
         "link": "https://github.com/vishnu-mouli-102408/spotify-clone",
         "title": "Spotify Clone",
         "description": "Spotify-Clone is a web application that mimics the functionality of the popular music streaming platform, Spotify. Users can create an account, search for music by artist, album or track, create playlists, and listen to music.",
-        "tech": ["HTML", "CSS", "JavaScript", "Vite", "Spotify API", "Tailwind CSS"]
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vite",
+          "Spotify API",
+          "Tailwind CSS"
+        ]
       },
       {
         "link": "https://weather-app-102408.netlify.app/",
@@ -1012,7 +1026,14 @@
         "link": "https://github.com/itsme-shivamkumar/desume",
         "title": "Desume | Resume Builder For Developers",
         "description": "Desume Editor is a React-based web app that allows developers to edit their resumes with ease. With Desume Editor, developers can create or modify resumes with HTML and CSS directly in the app.",
-        "tech": ["React", "Firebase", "JavaScript", "CSS", "HTML", "framer-motion"]
+        "tech": [
+          "React",
+          "Firebase",
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "framer-motion"
+        ]
       }
     ]
   },
@@ -1098,7 +1119,14 @@
         "link": "https://github.com/akshaykamath45/Google-Clone",
         "title": "Google Clone",
         "description": "This is a Google Clone application built with React JS, featuring a home page, search component, and search results page. It utilizes React JS, Material UI, React Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. Firebase is used for authentication and backend functionalities.",
-        "tech": ["React", "MUI", "React Router", "Context API", "Google Custom Search API", "Firebase"]
+        "tech": [
+          "React",
+          "MUI",
+          "React Router",
+          "Context API",
+          "Google Custom Search API",
+          "Firebase"
+        ]
       }
     ]
   },
@@ -1273,7 +1301,13 @@
         "link": "https://youtube-clone-accodes21.vercel.app/",
         "title": "YouTube Clone",
         "description": "A fully working clone of YouTube made using React, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
-        "tech": ["React.js", "Material UI", "React Router", "CSS", "Youtube API"]
+        "tech": [
+          "React.js",
+          "Material UI",
+          "React Router",
+          "CSS",
+          "Youtube API"
+        ]
       }
     ]
   },
@@ -1682,7 +1716,14 @@
         "link": "https://github.com/suravshrestha/derma",
         "title": "Derma",
         "description": "An Artificial Intelligence application for predicting skin diseases.",
-        "tech": ["Node.js", "Express.js", "MongoDB", "React.js", "Python", "Tensorflow"]
+        "tech": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React.js",
+          "Python",
+          "Tensorflow"
+        ]
       },
       {
         "link": "https://github.com/suravshrestha/visualizeit",
@@ -1761,7 +1802,15 @@
         "link": "https://github.com/TusharMinche/AR-Watches",
         "title": "AR Watches",
         "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
-        "tech": ["Android Studio", "Java", "Unity", "Vuforia", "C#", "Firebase", "XML"]
+        "tech": [
+          "Android Studio",
+          "Java",
+          "Unity",
+          "Vuforia",
+          "C#",
+          "Firebase",
+          "XML"
+        ]
       }
     ]
   },
