@@ -20,17 +20,15 @@ body:
         - label: I'm a GSSoC'23 contributor
 
         - label: I want to work on this issue
-        
+
         - label: My project has contribution guidelines
           required: true
-        
+
         - label: My project has a Code of conduct
           required: true
-          
+
         - label: My project has README
           required: true
-        
+
         - label: My project has a License
           required: true
-                
-          
