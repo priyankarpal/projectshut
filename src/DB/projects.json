@@ -2890,7 +2890,8 @@
       "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
       "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
 
-
+    }
+  ]
   },
   {
     "github_username": "mandliyarajendra11",
