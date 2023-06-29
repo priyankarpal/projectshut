@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <>
       <section>
-      {/* <Navbar /> */}
+      <Navbar />
         <div className="relative overflow-hidden">
           <div className="pt-16 pb-custom sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">

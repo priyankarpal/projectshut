@@ -1,5 +1,5 @@
-import ProjectsPage from './ProjectsPage';
-import HomePage from './HomePage';
-import AddYourProjectsGuide from './AddYourProjectsGuide';
+import ProjectsPage from './projects/page'
+import HomePage from './page'
+import AddYourProjectsGuide from './docs/page'
 
-export { ProjectsPage, HomePage, AddYourProjectsGuide };
+export { ProjectsPage, HomePage, AddYourProjectsGuide }

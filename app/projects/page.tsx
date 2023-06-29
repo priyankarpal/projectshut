@@ -1,36 +1,44 @@
-"use client"
+import { NextPage } from 'next'
+import React, { useContext, useEffect, useState, Fragment } from 'react'
+import InfiniteScroll from 'react-infinite-scroll-component'
+import { Dialog, Transition } from '@headlessui/react'
+import { Filter } from 'react-feather'
+import techStack from '../../utils/techStack'
+import { FilterContext, FilterContextType } from '../../context/FilterContext'
+import { searchProject } from '../../utils/searchProject'
+import ProjectLoading from '../../components/ProjectLoading'
+import { shuffleProjects } from '../../utils/paginate'
+import ProjectCard from '../../components/ProjectCard'
+import projects from '../../DB/projects.json'
 
-import React, { useContext, useEffect, useState, Fragment } from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
-import { Dialog, Transition } from "@headlessui/react";
-import { Filter } from "react-feather";
-import techStack from "../../utils/techStack";
-import { FilterContext } from "../../context/FilterContext";
-import { searchProject } from "../../utils/searchProject";
-import ProjectLoading from "../../components/ProjectLoading";
-import { shuffleProjects } from "../../utils/paginate";
-import ProjectCard from "../../components/ProjectCard";
-import projects from "../../DB/projects.json";
+interface NewProjectsType {
+  username: string
+  link: string
+  title: string
+  description: string
+  tech: string[]
+}
 
-function ProjectsPage() {
-  const Projects: { username: string; link: string; title: string; description: string; tech: string[]; }[] = [];
+const ProjectsPage: NextPage = () => {
+  const Projects: NewProjectsType[] = []
 
   projects.forEach((project) => {
-    const username = project.github_username;
+    const username = project.github_username
     project.Projects.forEach((proj) => {
-      Projects.push({ ...proj, username });
-    });
-  });
+      Projects.push({ ...proj, username })
+    })
+  })
 
-  const { selectedOptions, handleOptionClick } = useContext(FilterContext); 
-  const [limit, setLimit] = useState(15);
+  const { selectedOptions, handleOptionClick } =
+    useContext<FilterContextType>(FilterContext)
+
+  const [limit, setLimit] = useState(15)
   const [visibleProjects, setVisibleProjects] = useState(
     shuffleProjects(Projects).slice(0, limit)
-  );
-  const [openFilter, setOpenFilter] = useState(false);
-  const [filterCount, setFilterCount] = useState(0);
+  )
+  const [openFilter, setOpenFilter] = useState(false)
+  const [filterCount, setFilterCount] = useState(0)
 
-  // for loadmore projects
   function loadMoreProjects() {
     if (
       selectedOptions.techStack &&
@@ -38,199 +46,189 @@ function ProjectsPage() {
       selectedOptions.author.length > 0 &&
       selectedOptions.project.length > 0
     ) {
-      setLimit(visibleProjects.length);
-      return;
+      setLimit(visibleProjects.length)
+      return
     }
     setTimeout(() => {
-      setLimit(limit + 15);
-
-      setVisibleProjects(Projects.slice(0, limit + 15));
-    }, 1200);
+      setLimit(limit + 15)
+      setVisibleProjects(Projects.slice(0, limit + 15))
+    }, 1200)
   }
 
   useEffect(() => {
-    // to count all the filters
-    let count = 0;
+    let count = 0
     if (selectedOptions.author && selectedOptions.author.length > 0) {
-      count += 1;
+      count += 1
     }
-    count += selectedOptions.techStack && selectedOptions.techStack.length;
-    setFilterCount(count);
-  }, [selectedOptions]);
+    count += selectedOptions.techStack && selectedOptions.techStack.length
+    setFilterCount(count)
+  }, [selectedOptions])
 
   const getProjects = () => {
-    // if no filter is chosen then first 15 projects will shown
     if (
       selectedOptions.techStack &&
       selectedOptions.techStack.length === 0 &&
       !selectedOptions.author &&
       !selectedOptions.project
     ) {
-      setLimit(15);
-      setVisibleProjects(Projects.slice(0, 15));
-      return;
+      setLimit(15)
+      setVisibleProjects(Projects.slice(0, 15))
+      return
     }
 
-    // get all the filtered projects based on respective logic
-    const currProjects = getFilteredProjects();
-    setVisibleProjects(currProjects);
-  };
+    const currProjects = getFilteredProjects()
+    setVisibleProjects(currProjects)
+  }
 
   useEffect(() => {
-    // get all the projects when an option is selected
-    getProjects();
-  }, [selectedOptions]);
+    getProjects()
+  }, [selectedOptions])
 
   const getFilteredProjects = () => {
-    let filteredProjects = Projects;
+    let filteredProjects = Projects
 
-    // filter projects based on tech stack
     if (selectedOptions.techStack && selectedOptions.techStack.length > 0) {
-      filteredProjects = selectedOptions.techStack.flatMap((tech: string | RegExp) =>
-        Projects.filter((obj) => {
-          const arr = obj.tech;
-          const regexPattern = new RegExp(tech, "i");
-          return arr.some((e) => regexPattern.test(e));
-        })
-      );
+      filteredProjects = selectedOptions.techStack.flatMap(
+        (tech: string | RegExp) =>
+          Projects.filter((obj) => {
+            const arr = obj.tech
+            const regexPattern = new RegExp(tech, 'i')
+            return Array.isArray(arr) && arr.some((e) => regexPattern.test(e))
+          })
+      )
     }
 
-    // filter projects based on author names
     if (selectedOptions.author) {
       filteredProjects = searchProject(
         filteredProjects,
         selectedOptions.author,
-        "author"
-      );
+        'author'
+      )
     }
 
-    // filter projects based on project names
     if (selectedOptions.project) {
       filteredProjects = searchProject(
         filteredProjects,
         selectedOptions.project,
-        "project"
-      );
+        'project'
+      )
     }
-    return [...new Set(filteredProjects)];
-  };
 
-  // to clear all filters
+    return [...new Set(filteredProjects)]
+  }
+
   const handleClear = () => {
-    handleOptionClick("clear", "");
-    getProjects();
-  };
+    if (handleOptionClick) {
+      handleOptionClick('clear', '')
+      getProjects()
+    }
+  }
+
   return (
-    <main className=" my-8  max-w-6xl w-11/12 mx-auto sm:my-10 ">
-      <h1 className="text-[2.5rem] font-bold text-center">
-        Search for <span className="text-primary">cool </span>
-        Projects
+    <main className='my-8 max-w-6xl w-11/12 mx-auto sm:my-10'>
+      <h1 className='text-[2.5rem] font-bold text-center text-white'>
+        Search for <span className='text-primary'>cool </span> Projects
       </h1>
-      <div className="flex items-center justify-center my-7 mx-20">
+      <div className='flex items-center justify-center my-7 mx-20'>
         <input
-          type="text"
-          id="combo-box-demo"
-          placeholder="search by project name"
+          type='text'
+          id='combo-box-demo'
+          placeholder='Search by project name'
           className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent text-center`}
-          onChange={(e) => handleOptionClick("project", e.target.value)}
+          onChange={(e) => {
+            handleOptionClick && handleOptionClick('project', e.target.value)
+          }}
           value={selectedOptions.project}
         />
       </div>
-      <div className="flex item-stretch">
-        {" "}
+      <div className='flex items-stretch'>
         <button
-          className="border border-primary rounded-sm p-3 flex item-stretch"
+          className='border border-primary rounded-sm p-3 flex items-stretch text-white'
           onClick={() => setOpenFilter(!openFilter)}
         >
-          Filter{" "}
-          <div
-            className="ml-2"
-
-          >
-            {" "}
+          Filter{' '}
+          <div className='ml-2'>
             {filterCount > 0 ? (
-              <div className="bg-primary rounded-sm px-3">{filterCount}</div>
+              <div className='bg-primary rounded-sm px-3 text-white'>
+                {filterCount}
+              </div>
             ) : (
-              <div className="mt-1">
-                {" "}
+              <div className='mt-1'>
                 <Filter size={20} />
               </div>
             )}
           </div>
         </button>
         <button
-          className="border border-primary rounded-sm p-3 mx-2"
+          className='border border-primary rounded-sm p-3 mx-2 text-white'
           onClick={() => handleClear()}
         >
           Clear
         </button>
       </div>
 
-      {/* pop up code */}
       <Transition appear show={openFilter} as={Fragment}>
         <Dialog
-          as="div"
-          className="relative z-10"
+          as='div'
+          className='relative z-10'
           onClose={() => setOpenFilter(false)}
         >
           <Transition.Child
             as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
+            enter='ease-out duration-300'
+            enterFrom='opacity-0'
+            enterTo='opacity-100'
+            leave='ease-in duration-200'
+            leaveFrom='opacity-100'
+            leaveTo='opacity-0'
           >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className='fixed inset-0 bg-black bg-opacity-25' />
           </Transition.Child>
 
-          <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex h-[30rem] items-center justify-center p-4 text-center">
+          <div className='fixed inset-0 overflow-y-auto'>
+            <div className='flex h-[30rem] items-center justify-center p-4 text-center'>
               <Transition.Child
                 as={Fragment}
-                enter="ease-out duration-300"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
+                enter='ease-out duration-300'
+                enterFrom='opacity-0 scale-95'
+                enterTo='opacity-100 scale-100'
+                leave='ease-in duration-200'
+                leaveFrom='opacity-100 scale-100'
+                leaveTo='opacity-0 scale-95'
               >
                 <Dialog.Panel
-                  className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all"
+                  className='w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'
                   style={{
-                    color: "black",
+                    color: 'black',
                   }}
                 >
-                  {/*  search by author name */}
-                  <div className="flex items-center justify-center my-7 mx-20">
+                  <div className='flex items-center justify-center my-7 mx-20'>
                     <input
-                      type="text"
-                      id="combo-box-demo"
-                      placeholder="search by author name"
-                      className="border-solid border-2 outline-none border-primary rounded-md p-2"
-                      style={{ color: "black" }}
+                      type='text'
+                      id='combo-box-demo'
+                      placeholder='Search by author name'
+                      className='border-solid border-2 outline-none border-primary rounded-md p-2'
+                      style={{ color: 'black' }}
                       onChange={(e) =>
-                        handleOptionClick("author", e.target.value)
+                        handleOptionClick('author', e.target.value)
                       }
                       value={selectedOptions.author}
                     />
                   </div>
-                  {/* tech stacks buttons */}
-                  <div className="flex flex-wrap justify-start md:justify-center m-4 gap-2 ">
+                  <div className='flex flex-wrap justify-start md:justify-center m-4 gap-2'>
                     {techStack.map((tech, index) => (
                       <button
-                        type="button"
-                        key={index.id}
-                        onClick={() => handleOptionClick("tech-stack", tech)}
+                        type='button'
+                        key={index}
+                        onClick={() => handleOptionClick('techStack', tech)}
                         className={`${
                           selectedOptions.techStack &&
                           selectedOptions.techStack.includes(tech)
-                            ? "bg-primary"
-                            : "border border-primary"
+                            ? 'bg-primary'
+                            : 'border border-primary'
                         } rounded-sm p-2`}
                         style={{
-                          color: "black",
+                          color: 'black',
                         }}
                       >
                         <span>{tech.toLowerCase()}</span>
@@ -244,16 +242,12 @@ function ProjectsPage() {
         </Dialog>
       </Transition>
 
-      {/* As the number of cards may change, it is important to give a min-height to 'section' */}
-
       <section>
         {visibleProjects.length > 0 ? (
           <InfiniteScroll
-            className="my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh] "
+            className='my-7 min-h-[34vh] sm:grid sm:grid-cols-2 sm:auto-rows-min sm:gap-x-2 sm:gap-y-4 sm:justify-items-center sm:items-center sm:min-h-[37vh] md:gap-x-3 md:min-h-[50vh] lg:grid-cols-3 lg:min-h-[60vh] xl:min-h-[70vh]'
             dataLength={visibleProjects.length}
-            next={() => {
-              loadMoreProjects();
-            }}
+            next={loadMoreProjects}
             hasMore={visibleProjects.length < Projects.length}
             loader={
               <>
@@ -263,32 +257,32 @@ function ProjectsPage() {
               </>
             }
             endMessage={
-              <p style={{ textAlign: "center" }} className="py-5">
+              <p style={{ textAlign: 'center' }} className='py-5'>
                 <b>Yay! You have seen it all</b>
               </p>
             }
           >
-            {visibleProjects.map((project: { link: React.Key | null | undefined; }) => (
+            {visibleProjects.map((project: NewProjectsType, index: number) => (
               <ProjectCard
-                key={project.link}
+                key={index}
                 project={project}
                 filter={
                   selectedOptions.techStack &&
-                  selectedOptions.techStack?.join(",")
+                  selectedOptions.techStack.join(',')
                 }
               />
             ))}
           </InfiniteScroll>
         ) : (
-          <div className="flex justify-center items-center h-[50vh]">
-            <h1 className="text-2xl font-bold text-center">
+          <div className='flex justify-center items-center h-[50vh]'>
+            <h1 className='text-2xl font-bold text-center'>
               No Projects Found
             </h1>
           </div>
         )}
       </section>
     </main>
-  );
+  )
 }
 
-export default ProjectsPage;
+export default ProjectsPage
