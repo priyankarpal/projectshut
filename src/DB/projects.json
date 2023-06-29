@@ -2518,6 +2518,12 @@
         "title": "TIC-TAK-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript.",
         "tech": ["HTML", "CSS", "Javascript"]
+      },
+       {
+      "link": "https://github.com/AmanSingh6574/Password-Generator",
+      "title": "Password Generator",
+      "description": "About Generate the password automatically according to the given conditions such as include uppercase, lowercase letters, no of password required, etc. It also checks for the strength of the password generated and indicates it with geen and red colors",
+      "tech": ["HTML", "CSS", "Javascript"]
       }
     ]
   },
