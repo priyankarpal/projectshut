@@ -23,6 +23,7 @@
       }
     ]
   },
+
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -41,6 +42,8 @@
       }
     ]
   },
+
+
   {
     "github_username": "junaid-arif-24",
     "Social_media": {
@@ -2813,6 +2816,12 @@
       "title": "Calculator",
       "description": "calculator is a basic calculation app for arithmetic operation",
       "tech": ["Html","Css","React js","Redux"]
+    },
+    {
+      "link": "https://github.com/mandliyarajendra11/temperature-converter",
+      "title": "Temperature-converter app",
+      "description": "temperature converter is used to convert temperature kelvin , Fahrenheit,Celsius",
+      "tech": ["Html","Css","javascript"]
     }
     ]
   },
@@ -3054,6 +3063,25 @@
         "description": "A CryptoCurrency React web App which gives information of all cryptocurrency coins.",
         "tech": ["HTML","CSS","JavaScript","BootStrap","React JS","useContext","API","Vercel"]
       }
+      ]
+  },
+  {
+    "github_username": "vivekrawat21",
+    "Social_media": {
+      "gitHub": "https://github.com/vivekrawat21",
+      "LinkedIn": "https://www.linkedin.com/in/vivek-rawat-1a4745215/",
+      "Instagram": "https://www.instagram.com/vivek__rwt/",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/vivekrawat21/PokemonCard",
+        "title": "Pokemon Card",
+        "description": "In this web app you can see the stats of different Pokemons like their abilities and their HP etc.",
+        "tech": ["React", "JavaScript", "CSS", "Tailwind CSS"]
+      }
     ]
   }
 ]
+
