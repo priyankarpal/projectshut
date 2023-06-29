@@ -2794,6 +2794,104 @@
         "tech": ["HTML", "Javascript", "CSS", "Python"]
       }
     ]
+
+},
+  {
+  "github_username": "mswat5",
+  "Social_media": {
+    "gitHub": "https://github.com/mswat5",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/itSwatantra"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/mswat5/Webscraper_news",
+      "title": "Web_Scrapper-News",
+      "description": "Hello! This Project is related to scrapping news from online articles",
+      "tech": ["Python", "Beautiful Soup"]
+    }
+  ]
+},
+  {
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+  ]
+},
+  {
+  "github_username": "Prajwal0225",
+  "Social_media": {
+    "gitHub": "https://github.com/Prajwal0225",
+    "LinkedIn": "https://www.linkedin.com/in/prajwalsomalkar/",
+    "Instagram": "https://www.instagram.com/prajwal_somalkar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Prajwal__02"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Prajwal0225/My-Favorite-SuperHero",
+      "title": "My-Favorite-SuperHero",
+      "description": "Find images of your favorite superhero by typing ⌨️ their name into the search bar.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    }
+    ]
+  },
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
+  "github_username": "Hemant2335",
+  "Social_media": {
+    "gitHub": "https://github.com/Hemant2335",
+    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishant85292675"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Hemant2335/ONE-WATCH",
+      "title": "ONEWATCH",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    },
+    {
+      "link": "https://github.com/Hemant2335/ONE-BUY",
+      "title": "ONEBUY",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "NEXT.js" , "STRAPI" ,"STRIPE", "JAVASCRIPT"]
+
+    }
+  ]
   },
   {
     "github_username": "mandliyarajendra11",
