@@ -2945,6 +2945,66 @@
     ]
   },
   {
+  "github_username": "devWonderkind",
+  "Social_media": {
+    "gitHub": "https://github.com/devWonderkind",
+    "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/devWonderkind"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/devWonderkind/Random-Quote-Generator",
+      "title": "Random Quote Generator",
+      "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
+      "tech": ["HTML", "CSS", "JavaScript", "API"]
+    },
+    {
+      "link": "https://github.com/devWonderkind/Find-Logo",
+      "title": "Logo Finder",
+      "description": "It's a logo-finding website. Here you can website URL and find the logo and download the logo.",
+      "tech": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+},
+{
+  "github_username": "MisterMickey",
+  "Social_media": {
+    "gitHub": "https://github.com/MisterMickey",
+    "LinkedIn": "https://www.linkedin.com/in/krishnaakamistermickey/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/MisterMickey/Navbar-using-Pure-React-Project1",
+      "title": "Navbar using Pure React",
+      "description": "Basic Navbar using React and no JSX",
+      "tech": ["HTML", "Javascript"]
+    }
+  ]
+},
+{
+  "github_username": "Hemant2335",
+  "Social_media": {
+    "gitHub": "https://github.com/Hemant2335",
+    "LinkedIn": "https://www.linkedin.com/in/nishant-kumar-b198b822b/",
+    "Instagram": "https://www.instagram.com/_nishant1_kumar/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishant85292675"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Hemant2335/ONE-WATCH",
+      "title": "ONEWATCH",
+      "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
+      "tech": ["HTML", "TAILWIND" , "REACT" , "RAPIDAPI", "JAVASCRIPT"]
+    }
+    ]
+},
+  {
     "github_username": "mswat5",
     "Social_media": {
       "gitHub": "https://github.com/mswat5",
@@ -2952,6 +3012,7 @@
       "Instagram": "#",
       "YouTube": "#",
       "Twitter": "https://twitter.com/itSwatantra"
+
     },
     "Projects": [
       {
@@ -3181,4 +3242,3 @@
     ]
   }
 ]
-
