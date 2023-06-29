@@ -328,14 +328,20 @@
       {
         "link": "https://github.com/sumitkr2000/EditorJS",
         "title": "Editor",
-        "description": "This project is based on EditorJS. Here an user can edit text on the go and save it in the database. User gets a wide variety of option to edit and save documents.",
+        "description": "This project is based on EditorJS. A user can edit text on the go and save it in the database. The user gets a wide variety of options to edit and save documents.",
         "tech": ["HTML", "SCSS", "JavaScript", "EditorJS"]
       },
       {
         "link": "https://github.com/sumitkr2000/NeuralMind",
         "title": "NeuralMind",
-        "description": "User can add product description and the AI model will learn about it. Later it can be used by customers and clients to know about product.",
+        "description": "User can add product description and the AI model will learn about it. Later it can be used by customers and clients to know about the product.",
         "tech": ["HTML", "CSS", "NodeJS", "ReactJS"]
+      },
+      {
+        "link": "https://github.com/sumitkr2000/Shades",
+        "title": "Shades",
+        "description": "This is a business website where users with the help of lots of unique blocks, can easily build a page without coding and quickly.",
+        "tech": ["HTML", "CSS", "Bootstrap"]
       }
     ]
   },
