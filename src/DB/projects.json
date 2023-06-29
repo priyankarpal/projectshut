@@ -2862,7 +2862,7 @@
       "title": "Random Quote Generator",
       "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
       "tech": ["HTML", "CSS", "JavaScript", "API"]
-    }
+    },
     {
       "link": "https://github.com/devWonderkind/Find-Logo",
       "title": "Logo Finder",
