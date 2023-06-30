@@ -3289,6 +3289,23 @@
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
   }
 ]
+},
+  {
+  "github_username": "Krutikajichkar",
+  "Social_media": {
+    "gitHub": "https://github.com/krutikajichkar",
+    "LinkedIn": "Linkedin : https://www.linkedin.com/in/krutika-jichkar",
+    "Instagram": "https://www.instagram.com/jichkarkrutika26/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/krutikajichkar/Movie-app.github.io.git",
+      "title": "Entertainment Hub",
+      "description": "This is an Entertainment platform made by fetching IMDB API where you can search trending movies,series,shows,etc provided by the genres",
+      "tech": ["ReactJS","HTML","CSS","Material UI","IMDB API"]
+    }
+  ]
 }
 ]
-
