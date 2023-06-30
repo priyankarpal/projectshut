@@ -1059,6 +1059,12 @@
       "title": "Portfolio site",
       "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
       "tech": "[Html,Css,Js]"
+    },
+    {
+      "link": "",
+      "title": "Educational Site",
+      "description": "This is the educational website, one can practice their skills and there are many resources also available which can help to crack GATE.",
+      "tech": "[Html,Css,Js]"
     }
   ]
 },
