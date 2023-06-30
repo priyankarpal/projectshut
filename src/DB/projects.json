@@ -3289,8 +3289,7 @@
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
   }
 ]
-},
-  {
+},{
   "github_username": "Krutikajichkar",
   "Social_media": {
     "gitHub": "https://github.com/krutikajichkar",
@@ -3305,6 +3304,24 @@
       "title": "Entertainment Hub",
       "description": "This is an Entertainment platform made by fetching IMDB API where you can search trending movies,series,shows,etc provided by the genres",
       "tech": ["ReactJS","HTML","CSS","Material UI","IMDB API"]
+    }
+  ]
+},
+  {
+  "github_username": "PrernaSingh01",
+  "Social_media": {
+    "gitHub": "https://github.com/PrernaSingh01",
+    "LinkedIn": "https://www.linkedin.com/in/prernasingh4/",
+    "Instagram": "https://www.instagram.com/code_prerna/",
+    "YouTube": "https://www.youtube.com/channel/UCdZNMncvogqij1b4-J6hqEw",
+    "Twitter": "https://twitter.com/i_prernasingh"
+  },
+  "Projects": [
+    {
+      "link": "https://prernasingh01.github.io/Todo_App/",
+      "title": "Todo_App",
+      "description": "A straightforward Todo app built with HTML, CSS, and JavaScript.  Todo_App allows users to create, complete, and delete tasks effortlessly. The app features a clean and responsive design, ensuring a seamless experience across devices.",
+      "tech": ["HTML","CSS","JAVASCRIPT"]
     }
   ]
 }
