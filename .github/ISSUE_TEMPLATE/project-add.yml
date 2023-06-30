@@ -1,21 +1,34 @@
 name: 🌱 Project Addition
 description: Add a new project to the list
-title: "data: project addition by "
-labels: ["🌱 chore: projects addition", "👍  status: approved", "gssoc23"]
+title: 'chore: project addition by '
+labels: ['projects addition', '🚦status: awaiting triage', 'good first issue']
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this translate documentation update template!
   - type: textarea
     id: project-add
     attributes:
       label: Add a new project to the list
-      value: " I want to add a new project to the list "
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our Code of Conduct
+      label: 'Record'
       options:
         - label: I agree to follow this project's Code of Conduct
+          required: true
+
+        - label: I'm a GSSoC'23 contributor
+
+        - label: I want to work on this issue
+
+        - label: My project has contribution guidelines
+          required: true
+
+        - label: My project has a Code of conduct
+          required: true
+
+        - label: My project has README
+          required: true
+
+        - label: My project has a License
+          required: true

@@ -1,40 +1,16 @@
-# Follow these steps to contribute📈
+# Follow these steps to contribute
 
-**Understand the Project:**
+## How to add your projects to ProjectsHut
 
-Familiarize yourself with the project's objectives, architecture, and existing codebase. This will enable you to make informed contributions that align with the project's goals.
-
-**Choose an Issue/Create an issue:**
-
-Create an issue or work on the existing issue if you're assigned. Also, if you're in `GSSOC'23`, please add `"I'm in GSSOC'23"` so that we can add the `GSSOC'23` label on that particular issue/PR.
-
-**Assign an Issue Number:**
-
-Assign the `#ISSUE_NUMBER` in the description of the PR request.
-
-**Work on Your assigned issue first:**
-
-We kindly request that you prioritize working on your assigned issue at this time. It is highly recommended that you begin by creating an issue before proceeding to create a pull request. By doing so, you can outline the problem or task at hand and facilitate a smoother workflow. Once the issue is established, please proceed to implement the necessary changes, address any bugs, or incorporate new features to effectively resolve the selected issue/task.
-
-**Commit Your Changes:**
-
-Once you have made significant progress or completed your contribution, commit your changes with a descriptive commit message. It is advisable to make frequent, small commits to make the review process more manageable. Please check [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-## DO NOT SPAM !!! ⚠
-
-If the manatainer or owner finds any blank issue or any kind of unethical behaviour from a certain individual, that particular person will labeled as `SPAM` and will be prohibited from any kind of contribution or participation in future in this project.
-
-# 😎 How to add your projects to ProjectsHut
-
-1. Fork this repository
+#### 1. Fork this repository
 
 ![ Fork this repository](https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png)
 
-2. Click on `Go to file`
+#### 2. Click on `Go to file`
 
 ![Go to file](https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png)
 
-3. Add following code to end of `src/DB/projects.json`
+#### 3. Add following code to end of `src/DB/projects.json`
 
 ```json
 {
@@ -51,24 +27,34 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
       "link": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
-      "tech": "[tech1,tech2]"
+      "tech": ["tech1", "tech2"]
+    },
+    {
+      "link": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": ["tech1", "tech2"]
     }
   ]
 }
 ```
 
-4. Commit all changes.
+> **Important**: You should write the full Tech name
 
-- Add a commit like this for only projects addition `data: project addition by [your-githubuser-name] #issue_number`
+- > **👎 Bad Tech Names:** js, JS, react, reactjs, css <br>
+- > **👍 Good Tech Names:** Javascript, ReactJS, CSS
 
-> ### Alternatively, if you prefer to run the project locally, follow these steps:
+#### 4. Commit all changes.
 
-1.  Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
+- Add a commit like this for only projects addition `chore: project addition by [your-githubuser-name] #issue_number`
 
-- HTTP
-  `git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git`
-- SSH
-  `git clone git@github.com:<YOUR-USERNAME>/ProjectsHut.git`
+> ## **Note** Alternatively, if you prefer to run the project locally, follow these steps:
+
+1.  Go to preferred folder in your computer and paste the following command after forking our repository (Only one of it if you don't have ssh setup then go with HTTP command)
+
+```
+git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git
+```
 
 2.  Navigate to the project folder
 
@@ -76,62 +62,61 @@ If the manatainer or owner finds any blank issue or any kind of unethical behavi
 cd ProjectsHut
 ```
 
-3. Rename `.env.example` to `.env` & add your `GitHub Personal Access Token` in `.env` file
+3.  Install dependencies
 
-4. Install dependencies
-
-```
+```bash
 pnpm i
 ```
 
-5.  Now do ahead and create a new branch and move to the branch
+> **Note**: If you don't have pnpm installed in your system then run this command `npm i -g pnpm`
 
-```
+4.  Now do ahead and create a new branch and move to the branch
+
+```bash
 git checkout -b fix-issue-<ISSUE-NUMBER>
 ```
 
-6.  Run in local
+> **Note**: Replace `<ISSUE-NUMBER>` with the issue number you are working on
 
-```
+5.  Run in local
+
+```bash
 pnpm dev
 ```
 
-7. Make sure all the test cases pass
+> Add new features or fix bugs according to your issue number
 
-```
-pnpm test
-```
+6.  After done you can now push this changes, for doing that follow the following command chain
 
-8. After done you can now push this changes, for doing that follow the following command chain
+- `git status -s` (Shows the changed files)
+- `git add --all` (Will add all the files to staging area)
+- `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
 
-   - `git status` (Shows the changed files)
-   - `git add .` (Will add all the files to staging area)
-   - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
-   - > If you encounter this error while commits
-     >
-     > ```diff
-     > husky - pre-commit hook exited with code 1(error)
-     > ```
-     >
-     > use this command
-     >
-     > ```diff
-     > pnpm format
-     > ```
-   - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
-   - `git push origin fix-issue-<ISSUE-NUMBER>`
+  > **Note**: Replace `<EXPLAIN-YOUR_CHANGES>` with the changes you have made. Also, follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
+  > If you encounter this error while commits
+  >
+  > ```diff
+  > husky - pre-commit hook exited with code 1(error)
+  > ```
+  >
+  > use this command
+  >
+  > ```diff
+  > pnpm format
+  > ```
 
-9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+- `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
+- `git push origin fix-issue-<ISSUE-NUMBER>`
 
-10. Now fill in the form template of the pull request and give necessary description.
+7.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-11. Click on **Submit**
+8.  Now fill in the form template of the pull request and give the necessary description.
 
-12. Hurrey! You just did your contribution to this project 🎉
+9.  Click on **Submit**
 
-13. Wait for your pull request to be reviewed and merged.
+10. Hurray! You just made your first contribution to this project 🎉
 
-> NOTE: Please make sure to follow the [Code of conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md) while contributing.
+11. Wait for your pull request to be reviewed and merged.
 
 ## Useful Links
 
@@ -139,3 +124,4 @@ pnpm test
 - [GitHub Pull Requests Guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - [GitHub Issues Guide](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 - [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
