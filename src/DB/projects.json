@@ -3271,7 +3271,26 @@
         "tech": ["React", "JavaScript", "CSS", "Tailwind CSS"]
       }
     ]
+  },
+  {
+      "github_username": "harshit1142",  
+      "Social_media": {
+        "gitHub": "https://github.com/harshit1142",
+        "LinkedIn": "https://www.linkedin.com/in/harshit-pandey-312b78245/",
+        "Instagram": "#",
+        "YouTube": "#",
+        "Twitter": "#"
+      },
+      "Projects": [
+        {
+          "link": "https://harshit1142.github.io/Insight/",
+          "title": "Insight",
+          "description": "A Simple Movie Rated Database Site",
+          "tech": ["JAVASCRIPT", "CSS"]
+        }
+      ]
   }
+
 ]
 
 
