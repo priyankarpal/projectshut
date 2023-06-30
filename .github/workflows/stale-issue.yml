@@ -1,0 +1,33 @@
+name: 'Close Stale Issues & PRs'
+on:
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/stale@v4.1.1
+        with:
+          # stale issue labels
+          stale-issue-label: 'no-issue-activity'
+          exempt-issue-labels: 'work-in-progress'
+          # stale pr lables
+          stale-pr-label: 'no-pr-activity'
+          exempt-pr-labels: 'work-in-progress'
+          # issue close & warning days
+          days-before-issue-stale: 3
+          days-before-issue-close: 1
+          # pr close & warning days
+          days-before-pr-stale: 3
+          days-before-pr-close: 1
+          # stale issue messages
+          stale-issue-message: >
+            This issue has been automatically marked as stale because it has been open for few days
+            with no activity. It will be closed in next 1 days if no further activity occurs.
+          close-issue-message: >
+            This issue has been closed because it has not received any activity in the last few days
+            since being marked as 'stale'
+          # pr issue messages
+          stale-pr-message: 'This PR is stale because it has been open few days with no activity. Please give us an updates or this will be closed in 1 days.'
+          close-pr-message: 'This PR was closed because it has been stalled for few days with no activity.'
