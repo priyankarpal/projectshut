@@ -3235,6 +3235,12 @@
         "title": "Bingo Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
         "tech": ["JAVASCRIPT", "CSS", "HTML"]
+      },
+      {
+        "link": "https://github.com/Avdhesh-Varshney/Dots-And-Boxes-Game",
+        "title": "Dots and Boxes Game",
+        "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
+        "tech": ["HTML", "CSS", "JAVASCRIPT"]
       }
     ]
   },
