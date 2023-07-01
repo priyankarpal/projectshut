@@ -3290,6 +3290,24 @@
   }
 ]
 },
+{
+  "github_username": "Pro-18",
+  "Social_media": {
+    "gitHub": "https://github.com/pro-18",
+    "LinkedIn": "https://www.linkedin.com/in/pragati-deshmukh-56080a222/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Pro-18/News_app",
+      "title": "News App",
+      "description": "News App is a inshort clone by using Api, In this App I use a Gui with help of tkinter library",
+      "tech": ["Python"]
+    }
+  ]
+  },
   {
   "github_username": "Krutikajichkar",
   "Social_media": {
