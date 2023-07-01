@@ -3338,5 +3338,24 @@
       "tech": ["ReactJS","HTML","CSS","Material UI","IMDB API"]
     }
   ]
+},
+
+{
+  "github_username": "abrehan2",
+  "Social_media": {
+    "gitHub": "https://github.com/abrehan2",
+    "LinkedIn": "https://www.linkedin.com/feed/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/abrehan2/Todo-list",
+      "title": "To-do list",
+      "description": "The project is a to-do list that lists your submitted tasks and allows you to delete them once the tasks are completed",
+      "tech": ["React.js", "Bootstrap"]
+    }   
+  ]
 }
 ]
