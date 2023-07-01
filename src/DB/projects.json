@@ -3382,4 +3382,23 @@
     }   
   ]
 }
+,
+{
+  "github_username": "panditshivammishra",
+  "Social_media": {
+    "gitHub": "https://github.com/panditshivammishra",
+    "LinkedIn": "https://www.linkedin.com/in/shivam-mishra-42226522b/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/panditshivammishra/Mytextutil",
+      "title": "TEXT UTILS",
+      "description": "Hllo! it's my react app that works with text",
+      "tech": ["ReactJS","HTML","CSS"]
+    }
+  ]
+}
 ]
