@@ -3235,6 +3235,12 @@
         "title": "Bingo Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
         "tech": ["JAVASCRIPT", "CSS", "HTML"]
+      },
+      {
+        "link": "https://github.com/Avdhesh-Varshney/Dots-And-Boxes-Game",
+        "title": "Dots and Boxes Game",
+        "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
+        "tech": ["HTML", "CSS", "JAVASCRIPT"]
       }
     ]
   },
@@ -3321,6 +3327,24 @@
   }
 ]
 },
+{
+  "github_username": "Pro-18",
+  "Social_media": {
+    "gitHub": "https://github.com/Pro-18",
+    "LinkedIn": "https://www.linkedin.com/in/harsh-pandey-501903223/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Pro-18/News_app",
+      "title": "News App",
+      "description": "This is a basic clone of Inshort that makes use of the Api key.",
+      "tech": ["PYTHON"]
+    }
+  ]
+  },
   {
   "github_username": "Krutikajichkar",
   "Social_media": {
@@ -3337,6 +3361,25 @@
       "description": "This is an Entertainment platform made by fetching IMDB API where you can search trending movies,series,shows,etc provided by the genres",
       "tech": ["ReactJS","HTML","CSS","Material UI","IMDB API"]
     }
+  ]
+},
+
+{
+  "github_username": "abrehan2",
+  "Social_media": {
+    "gitHub": "https://github.com/abrehan2",
+    "LinkedIn": "https://www.linkedin.com/feed/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/abrehan2/Todo-list",
+      "title": "To-do list",
+      "description": "The project is a to-do list that lists your submitted tasks and allows you to delete them once the tasks are completed",
+      "tech": ["React.js", "Bootstrap"]
+    }   
   ]
 }
 ,
