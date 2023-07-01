@@ -108,6 +108,12 @@
         "title": "Tourist Website",
         "description": "This is the Frontend project, with beautiful animations and responsive",
         "tech": ["Javascript", "HTML", "CSS", "scss"]
+      },
+      {
+        "link": "https://github.com/PatilHarshh/Netflix-Clone",
+        "title": "Netflix Clone (FireBase)",
+        "description": "This is the Frontend project, with TMDB api used to fetch the movies ",
+        "tech": ["Javascript", "HTML", "CSS", "FireBase" ,"TMDB"]
       }
     ]
   },
