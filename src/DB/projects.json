@@ -3327,6 +3327,24 @@
   }
 ]
 },
+{
+  "github_username": "Pro-18",
+  "Social_media": {
+    "gitHub": "https://github.com/Pro-18",
+    "LinkedIn": "https://www.linkedin.com/in/harsh-pandey-501903223/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Pro-18/News_app",
+      "title": "News App",
+      "description": "This is a basic clone of Inshort that makes use of the Api key.",
+      "tech": ["PYTHON"]
+    }
+  ]
+  },
   {
   "github_username": "Krutikajichkar",
   "Social_media": {
