@@ -3400,5 +3400,23 @@
       "tech": ["ReactJS","HTML","CSS"]
     }
   ]
+}, 
+  {
+"github_username": "whiteknight16",
+"Social_media": {
+  "gitHub": "https://github.com/whiteknight16",
+  "LinkedIn": "https://www.linkedin.com/in/harsh-pandey-501903223/",
+  "Instagram": "#",
+  "YouTube": "#",
+  "Twitter": "#"
+},
+"Projects": [
+  {
+    "link": "https://github.com/whiteknight16/Cookie-Clicker/tree/main",
+    "title": "Cookie Clicker Bot",
+    "description": "A bot that can play the classic cookie clicker game",
+    "tech": ["Python"]
+  }
+]
 }
 ]
