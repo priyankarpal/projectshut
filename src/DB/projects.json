@@ -25,6 +25,25 @@
   },
 
   {
+  "github_username": "vinaysingh-chaudhary",
+  "Social_media": {
+    "gitHub": "https://github.com/vinaysingh-chaudhary",
+    "LinkedIn": "https://www.linkedin.com/in/vinay-chaudhary-70a633244/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Viisactive"
+  },
+  "Projects": [
+    {
+      "link": "https://lightful-universe-vinay.netlify.app/",
+      "title": "Lightful-universe",
+      "description": "You can see interesting pictures of our galaxy, I've used Nasa's POD API to source the pictures of the Universe, and I've used ReactJs and Tailwind to build this project",
+      "tech": ["REACTJS", "TAILWINDCSS", "NASA'S POD API"]
+    }
+  ]
+},
+  
+  {
     "github_username": "5h0ov",
     "Social_media": {
       "gitHub": "https://github.com/5h0ov",
