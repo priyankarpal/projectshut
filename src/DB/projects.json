@@ -23,7 +23,30 @@
       }
     ]
   },
-
+  {
+        "github_username": "adity2911",  
+        "Social_media": {
+        "gitHub": "https://github.com/adity2911",
+        "LinkedIn": "https://www.linkedin.com/in/aditya-tulsiyan-585b50111/",
+        "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+        "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+        },
+        "Projects": [
+          {
+          "link": "https://github.com/adity2911/SpaceShips",
+          "title": "SpaceShips",
+          "description": "A MERN stack web page that lets you see the data of NASA's official plans to send spaceships to space.",
+          "tech": ["React", "MongoDB","ExpressJS","JavaScript"]
+          },
+          {
+          "link": "https://github.com/adity2911/CatchUp",
+          "title": "CatchUp",
+          "description": "Video Calling Android App ",
+          "tech": ["MongDB", "Kotlin"]
+          }
+        ]
+  },
   {
   "github_username": "vinaysingh-chaudhary",
   "Social_media": {
