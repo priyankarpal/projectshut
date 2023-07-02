@@ -3492,6 +3492,12 @@
       "title": "NEWSLETTER",
       "description": "Hey ! Here is the newsletter project, you can use it!",
       "tech": ["HTML","CSS","JavaScript","Express.js","Node.js"]
+    },
+    {
+      "link": "https://github.com/AdityaLahane-2003/Simon-Game",
+      "title": "SIMON GAME",
+      "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
+      "tech": ["JavaScript","HTML","CSS"]
     }
   ]
 }
