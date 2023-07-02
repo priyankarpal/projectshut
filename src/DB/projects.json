@@ -3476,5 +3476,23 @@
       "tech": ["ReactJS","HTML","CSS"]
     }
   ]
+},
+  {
+  "github_username": "AdityaLahane-2003",
+  "Social_media": {
+    "gitHub": "https://github.com/AdityaLahane-2003",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-lahane-772919242/",
+    "Instagram": "https://www.instagram.com/adi_lahane_/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Adi_Lahane_"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/AdityaLahane-2003/Newsletter",
+      "title": "NEWSLETTER",
+      "description": "Hey ! Here is the newsletter project, you can use it!",
+      "tech": ["HTML","CSS","JavaScript","Express.js","Node.js"]
+    }
+  ]
 }
 ]
