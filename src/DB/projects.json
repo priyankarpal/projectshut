@@ -3341,6 +3341,12 @@
     "title": "Caesar Cipher",
     "description": "An encryptor decryptor app based on ancient Caesar and cipher technique",
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
+  },
+  {
+    "link": "https://github.com/whiteknight16/Cookie-Clicker/tree/main",
+    "title": "Cookie Clicker Bot",
+    "description": "A bot that can play the classic cookie clicker game",
+    "tech": ["Python"]
   }
 ]
 },
