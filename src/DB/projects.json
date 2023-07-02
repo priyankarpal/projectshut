@@ -1255,28 +1255,7 @@
       }
     ]
   },
-  {
-    "github_username": "Ks103",
-    "Social_media": {
-      "gitHub": "https://github.com/Ks103",
-      "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
-      "Twitter": ""
-    },
-    "Projects": [
-      {
-        "link": "https://github-usernamefind.netlify.app/",
-        "title": "Github-user-info",
-        "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
-        "tech": ["Javascript", "CSS", "HTML", "React", "Tailwind CSS"]
-      },
-      {
-        "link": "https://khushitech.netlify.app/",
-        "title": "Portfolio site",
-        "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
-        "tech": ["HTML", "CSS", "JavaScript"]
-      }
-    ]
-  },
+  
   {
     "github_username": "Niladri2003",
     "Social_media": {
@@ -1299,6 +1278,38 @@
       }
     ]
   },
+{
+  "github_username": "Ks103",
+  "Social_media": {
+    "gitHub": "https://github.com/Ks103",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-shroff-70b049211/",
+    "Instagram": "",
+    "YouTube": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Ks103/githubfinder",
+      "title": "Github-user-info",
+      "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
+        "tech": ["Javascript", "Css", "Html", "React","Tailwind CSS"]
+
+        
+    },
+    {
+      "link": "https://github.com/Ks103/PortFolio",
+      "title": "Portfolio site",
+      "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
+      "tech": ["Html","Css","Js"]
+    },
+    {
+      "link": "https://github.com/Ks103/CommuniCore",
+      "title": "Educational Website",
+      "description": "This is the educational website, one can practice their skills and there are many resources also available which can help to crack GATE.",
+      "tech": ["Html","Css","Js"]
+    }
+  ]
+},
   {
     "github_username": "narayan2111",
     "Social_media": {
