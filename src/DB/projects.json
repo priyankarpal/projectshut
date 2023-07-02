@@ -114,6 +114,12 @@
         "title": "Netflix Clone (FireBase)",
         "description": "This is the Frontend project, with TMDB api used to fetch the movies ",
         "tech": ["Javascript", "HTML", "CSS", "FireBase" ,"TMDB"]
+      },
+      {
+        "link": "https://github.com/PatilHarshh/Dance-website",
+        "title": "Dance Website",
+        "description": "This is the Frontend project, with Express and nodejs  ",
+        "tech": ["Javascript", "HTML", "CSS", "Express" ,"Nodejs"]
       }
     ]
   },
