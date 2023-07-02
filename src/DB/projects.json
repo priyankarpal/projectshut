@@ -196,6 +196,12 @@
         "title": "iChat_app",
         "description": "This is the encrypted chat_application that is only accessible to those only who have writes to access it. No other can add or edit it.",
         "tech": ["React.js", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/Rock_Paper_Seesor-using-JS-DOM_Manipulation/tree/master",
+        "title": "Advance Rock_Paper_Seesor Game",
+        "description": "This is the project that contains HTML, CSS and JS code and this is the advance Rock_Paper_Seesor game using DOM_Manipulation.",
+        "tech": ["JavaScript"]
       }
     ]
   },
@@ -3364,6 +3370,12 @@
     "title": "Caesar Cipher",
     "description": "An encryptor decryptor app based on ancient Caesar and cipher technique",
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
+  },
+  {
+    "link": "https://github.com/whiteknight16/Cookie-Clicker/tree/main",
+    "title": "Cookie Clicker Bot",
+    "description": "A bot that can play the classic cookie clicker game",
+    "tech": ["Python"]
   }
 ]
 },
