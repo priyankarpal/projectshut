@@ -3352,6 +3352,24 @@
   ]
   },
   {
+  "github_username": "smty2018",
+  "Social_media": {
+    "gitHub": "https://github.com/smty2018",
+    "LinkedIn": "#",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/smty2018/Digital-Clock",
+      "title": "Digital Clock(Time Zone)",
+      "description": "Digital clock with time zone selection and GUI design.",
+      "tech": ["PYTHON"]
+    }
+  ]
+  },
+  {
   "github_username": "Krutikajichkar",
   "Social_media": {
     "gitHub": "https://github.com/krutikajichkar",
