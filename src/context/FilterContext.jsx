@@ -1,37 +1,64 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 /* eslint-disable max-len */
 /* eslint-disable react/jsx-no-constructed-context-values */
 import React, { createContext, useState, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export const FilterContext = createContext();
 
 export function FilterProvider({ children }) {
-  const location = useLocation();
   const navigate = useNavigate();
-  const queryParams = new URLSearchParams(location.search);
-  const existingFilters = queryParams.get('filters')?.split(',');
-
-  const [selectedOptions, setSelectedOptions] = useState(existingFilters || []);
-
+  const [selectedOptions, setSelectedOptions] = useState({ author: '', project: '', techStack: [] });
   useEffect(() => {
+    // set url based on option selection
     const updatedParams = new URLSearchParams();
-    const techStackNames = selectedOptions?.join(',');
-    updatedParams.append('filters', techStackNames);
+    let techStackNames;
+    let authorName;
+    let projectName;
+    if (selectedOptions.techStack.length > 0) {
+      techStackNames = selectedOptions.techStack?.join(',');
+      updatedParams.append('filters', techStackNames);
+    }
+    if (selectedOptions.author.length > 0) {
+      authorName = selectedOptions.author;
+      updatedParams.append('author', authorName);
+    }
+    if (selectedOptions.project.length > 0) {
+      projectName = selectedOptions.project;
+      updatedParams.append('project', projectName);
+    }
+
     const decodedParams = decodeURIComponent(updatedParams);
-    navigate({ search: techStackNames ? decodedParams : null });
+
+    navigate({ search: techStackNames || authorName || projectName ? decodedParams : null });
   }, [selectedOptions]);
 
-  const handleOptionClick = (option) => {
-    const isSelected = selectedOptions.includes(option);
-
-    if (isSelected) {
-      const updatedOptions = selectedOptions.filter((selected) => selected !== option);
-      setSelectedOptions(updatedOptions);
-    } else {
-      const updatedOptions = [...selectedOptions, option];
-      setSelectedOptions(updatedOptions);
+  const handleOptionClick = (type, option) => {
+    // assigning value based on types, eg: author/project/tech-stack
+    if (type === 'author') {
+      selectedOptions.author = option;
     }
+    if (type === 'project') {
+      selectedOptions.project = option;
+    }
+    if (type === 'tech-stack' && selectedOptions.techStack) {
+      const isSelected = selectedOptions.techStack.includes(option);
+      if (isSelected) {
+        const updatedOptions = selectedOptions.techStack.filter((selected) => selected !== option);
+        selectedOptions.techStack = updatedOptions;
+      } else {
+        selectedOptions.techStack.push(option);
+      }
+    }
+
+    // to clear all selected options
+    if (type === 'clear') {
+      selectedOptions.techStack = [];
+      selectedOptions.author = '';
+      selectedOptions.project = '';
+    }
+    setSelectedOptions({ ...selectedOptions });
   };
 
   return <FilterContext.Provider value={{ selectedOptions, handleOptionClick }}>{children}</FilterContext.Provider>;
