@@ -3435,5 +3435,24 @@
       "tech": ["ReactJS","HTML","CSS"]
     }
   ]
+},
+  {
+  "github_username": "prachisingh1008",
+  "Social_media": {
+    "gitHub": "https://github.com/prachisingh1008",
+    "LinkedIn": "https://www.linkedin.com/in/prachi-s-12845a212/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/prachisingh1008"
+  },
+  "Projects": [
+    {
+      "link": "https://prachisingh1008.github.io/weather-/",
+      "title": "Weather - Forecast",
+      "description": "This project is used to show current weather conditions of the location entered by the user along with map of that location",
+      "tech": ["html", "css","javascript"]
+    }
+  
+  ]
 }
 ]
