@@ -14,16 +14,38 @@ import {
   Share2,
   Check,
   X,
-  Image,
 } from 'react-feather'
 import projects from '../../../DB/projects.json'
 import Loader from '../../../utils/Loader'
+import Image from 'next/image'
+interface userType {
+  bio?: string
+}
+
+interface userObjType {
+  github_username: string
+  Social_media?: socialMediaType
+  Projects: projectsType[]
+}
+
+interface socialMediaType {
+  gitHub?: string
+  LinkedIn?: string
+  Twitter?: string
+  Instagram?: string
+  YouTube?: string
+}
+interface projectsType {
+  link: string
+  title: string
+  description: string
+  tech: string[]
+}
 
 function ProjectList() {
   const params = useParams()
-console.log("username: ",params)
-  const [userObj, setObject] = useState({})
-  const [user, setUser] = useState({})
+  const [userObj, setObject] = useState<userObjType | undefined>()
+  const [user, setUser] = useState<userType | undefined>()
   const [initialLoading, setInitialLoading] = useState(true)
   const [isOpenModal, setIsOpenModal] = useState(false)
   const [isCopied, setIsCopied] = useState(false)
@@ -31,9 +53,9 @@ console.log("username: ",params)
   // to get the user data from github
   const getData = async () => {
     setInitialLoading(true)
-    const res = await fetch(`https://api.github.com/users/${params?.username}`).then(
-      (result) => result.json()
-    )
+    const res = await fetch(
+      `https://api.github.com/users/${params?.username}`
+    ).then((result) => result.json())
     if (res) {
       setUser(res)
       setInitialLoading(false)
@@ -52,8 +74,9 @@ console.log("username: ",params)
       }
       return null
     })
-
-    setObject(filterdObj[0])
+    if (filterdObj[0]) {
+      setObject(filterdObj[0])
+    }
     getData()
   }, [])
 
@@ -71,7 +94,7 @@ console.log("username: ",params)
     <section className='flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8'>
       {initialLoading && <Loader />}
       {/* Left side profile section */}
-      {!initialLoading && Object.keys(userObj).length > 0 && (
+      {!initialLoading && userObj && Object.keys(userObj).length > 0 && (
         <div className=' w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 text-white'>
           {/* Back to projects link */}
           <div className='flex items-center justify-between my-4'>
@@ -93,7 +116,7 @@ console.log("username: ",params)
 
           <div className='flex justify-center items-center mb-3 my-10'>
             <Image
-              src={user && user.avatar_url}
+              src={`https://images.weserv.nl/?output=webp&width=50px&url=https://github.com/${params?.username}.png`}
               alt={`${params?.username}'s github profile`}
               className='w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg'
               width={100}
@@ -106,13 +129,13 @@ console.log("username: ",params)
             </h3>
           </div>
           <div className='justify-center items-center text-center py-5 '>
-            <p className='text-sm break-words'>{user.bio}</p>
+            <p className='text-sm break-words'>{user?.bio}</p>
           </div>
           <div className='flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5'>
-            {userObj.Social_media.gitHub !== '' && (
+            {userObj.Social_media?.gitHub !== '' && (
               <div className='mx-5 xsm:mx-2'>
                 <a
-                  href={userObj.Social_media.gitHub}
+                  href={userObj.Social_media?.gitHub}
                   target='_blank'
                   rel='noreferrer'
                   className='inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500'
@@ -122,10 +145,10 @@ console.log("username: ",params)
                 </a>
               </div>
             )}
-            {userObj.Social_media.LinkedIn !== '' && (
+            {userObj.Social_media?.LinkedIn !== '' && (
               <div className='mx-4'>
                 <a
-                  href={userObj.Social_media.LinkedIn}
+                  href={userObj.Social_media?.LinkedIn}
                   target='_blank'
                   rel='noreferrer'
                   className='inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500'
@@ -135,10 +158,10 @@ console.log("username: ",params)
                 </a>
               </div>
             )}
-            {userObj.Social_media.Twitter !== '' && (
+            {userObj.Social_media?.Twitter !== '' && (
               <div className='mx-4'>
                 <a
-                  href={userObj.Social_media.Twitter}
+                  href={userObj.Social_media?.Twitter}
                   target='_blank'
                   rel='noreferrer'
                   className='inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500'
@@ -148,10 +171,10 @@ console.log("username: ",params)
                 </a>
               </div>
             )}
-            {userObj.Social_media.YouTube !== '' && (
+            {userObj.Social_media?.YouTube !== '' && (
               <div className='mx-4'>
                 <a
-                  href={userObj.Social_media.YouTube}
+                  href={userObj.Social_media?.YouTube}
                   target='_blank'
                   rel='noreferrer'
                   className='inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500'
@@ -161,10 +184,10 @@ console.log("username: ",params)
                 </a>
               </div>
             )}
-            {userObj.Social_media.Instagram !== '' && (
+            {userObj.Social_media?.Instagram !== '' && (
               <div className='mx-4'>
                 <a
-                  href={userObj.Social_media.Instagram}
+                  href={userObj.Social_media?.Instagram}
                   target='_blank'
                   rel='noreferrer'
                   className='inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500'
@@ -180,11 +203,12 @@ console.log("username: ",params)
       {/* Projects lists */}
       <div className='w-full md:w-3/4 md:mx-2 flex flex-col rounded-md '>
         {!initialLoading &&
+          userObj &&
           Object.keys(userObj).length > 0 &&
-          userObj.Projects.map((project, index) => (
+          userObj?.Projects.map((project, index) => (
             <div
               className='w-100 my-1 p-4 mb-4 text-white '
-              key={index.id}
+              key={index}
               style={{
                 borderRadius: '10px',
                 // background: theme?.navbar?.background,
@@ -211,13 +235,13 @@ console.log("username: ",params)
                   </a>
                 </span>
               </div>
-        {/* Tech Stack section */}
-        <div className='flex flex-row items-center m-4 gap-4'>
+              {/* Tech Stack section */}
+              <div className='flex flex-row items-center m-4 gap-4'>
                 <div className='flex flex-wrap gap-2'>
                   {project.tech.map((tag, i) => (
                     <p
                       className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase mr-2 `}
-                      key={i.id}
+                      key={i}
                     >
                       {tag}
                     </p>
