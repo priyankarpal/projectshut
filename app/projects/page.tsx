@@ -13,6 +13,7 @@ import ProjectCard from '../../components/ProjectCard'
 import projects from '../../DB/projects.json'
 import { useRouter } from 'next/navigation'
 
+
 interface NewProjectsType {
   username: string
   link: string
@@ -36,17 +37,17 @@ const ProjectsPage: NextPage = () => {
       Projects.push({ ...proj, username })
     })
   })
-
   // const { selectedOptions, handleOptionClick } =
   //   useContext<FilterContextType>(FilterContext)
 
+  const { selectedOptions, handleOptionClick } =
+    useContext<FilterContextType>(FilterContext)
   const [limit, setLimit] = useState(15)
   const [visibleProjects, setVisibleProjects] = useState(
     shuffleProjects(Projects).slice(0, limit)
   )
   const [openFilter, setOpenFilter] = useState(false)
   const [filterCount, setFilterCount] = useState(0)
-
   const router = useRouter()
   const [selectedOptions, setSelectedOptions] = useState<SelectedOptions>({
     author: '',
