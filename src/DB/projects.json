@@ -3216,7 +3216,7 @@
       "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
       "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
       "YouTube": "#",
-      "Twitter": "#"
+      "Twitter": "https://twitter.com/bhartinagp27830"
     },
     "Projects": [
       {
@@ -3224,6 +3224,12 @@
         "title": "Cryptocurrency",
         "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
         "tech": ["HTML", "MATERIALUI", "REACT", "CSS", "COINGECKOAPI", "JAVASCRIPT"]
+      },
+       {
+        "link": "https://github.com/BhartiNagpure/restaurant_website.git",
+        "title": "Restaurant-website",
+        "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc",
+        "tech": ["HTML", "REACTJS", "CSS"]
       }
     ]
   },
