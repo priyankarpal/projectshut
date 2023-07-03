@@ -54,8 +54,8 @@ importers:
         specifier: ^9.1.3
         version: 9.1.3(react-dom@18.2.0)(react@18.2.0)
       styled-components:
-        specifier: 6.0.1
-        version: 6.0.1(react-dom@18.2.0)(react@18.2.0)
+        specifier: 6.0.2
+        version: 6.0.2(react-dom@18.2.0)(react@18.2.0)
       workspace-name:
         specifier: ^0.0.0
         version: 0.0.0
@@ -7166,8 +7166,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@6.0.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-6VAlf5A9KZJOnX54becRCLnBFSfeqP+q3raTCdPDPFg4HOy7MNlnWFqAq3sHlQVDdZh5jcsDwK06vTU3NMO6yQ==}
+  /styled-components@6.0.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-CRWTuYme0W4zVqzXpODByyocgVbBpRoXmaEgPGb67dvweV1igp7Ik4Z5C9e83wZ2l2hPg/XKV7cjuNxhRlC7Mg==}
     engines: {node: '>= 16'}
     peerDependencies:
       babel-plugin-styled-components: '>= 2'
