@@ -2868,4 +2868,20 @@
     }
   ]
 }
+   {
+      "github_username": "BhartiNagpure",  
+      "Social_media": {
+        "gitHub": "https://github.com/BhartiNagpure",
+        "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
+        "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
+        "YouTube": "#",
+        "Twitter": "https://twitter.com/bhartinagp27830"
+      },
+      "Projects": [
+        {
+          "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+          "title": "Qoute-Generator",
+          "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+          "tech": ["HTML", "CSS", "JAVASCRIPT"]
+        },
 ]
