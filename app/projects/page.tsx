@@ -1,3 +1,4 @@
+'use client'
 import { NextPage } from 'next'
 import React, { useContext, useEffect, useState, Fragment } from 'react'
 import InfiniteScroll from 'react-infinite-scroll-component'
@@ -10,6 +11,7 @@ import ProjectLoading from '../../components/ProjectLoading'
 import { shuffleProjects } from '../../utils/paginate'
 import ProjectCard from '../../components/ProjectCard'
 import projects from '../../DB/projects.json'
+import { useRouter } from 'next/navigation'
 
 interface NewProjectsType {
   username: string
@@ -17,6 +19,12 @@ interface NewProjectsType {
   title: string
   description: string
   tech: string[]
+}
+
+interface SelectedOptions {
+  author: string
+  project: string
+  techStack: string[]
 }
 
 const ProjectsPage: NextPage = () => {
@@ -29,8 +37,8 @@ const ProjectsPage: NextPage = () => {
     })
   })
 
-  const { selectedOptions, handleOptionClick } =
-    useContext<FilterContextType>(FilterContext)
+  // const { selectedOptions, handleOptionClick } =
+  //   useContext<FilterContextType>(FilterContext)
 
   const [limit, setLimit] = useState(15)
   const [visibleProjects, setVisibleProjects] = useState(
@@ -38,6 +46,75 @@ const ProjectsPage: NextPage = () => {
   )
   const [openFilter, setOpenFilter] = useState(false)
   const [filterCount, setFilterCount] = useState(0)
+
+  const router = useRouter()
+  const [selectedOptions, setSelectedOptions] = useState<SelectedOptions>({
+    author: '',
+    project: '',
+    techStack: [],
+  })
+  // useEffect(() => {
+  //   // Load the selected options from JSON or any other data source
+  //   const savedOptions  // Replace with your own implementation
+  //   setSelectedOptions(savedOptions)
+  // }, [])
+  useEffect(() => {
+    // Set URL based on option selection
+    const updatedParams = new URLSearchParams()
+    let techStackNames: string = ''
+    let authorName: string = ''
+    let projectName: string = ''
+
+    if (selectedOptions.techStack.length > 0) {
+      techStackNames = selectedOptions.techStack.join(',')
+      updatedParams.append('filters', techStackNames)
+    }
+
+    if (selectedOptions.author.length > 0) {
+      authorName = selectedOptions.author
+      updatedParams.append('author', authorName)
+    }
+
+    if (selectedOptions.project.length > 0) {
+      projectName = selectedOptions.project
+      updatedParams.append('project', projectName)
+    }
+
+    const fullPath = `${window.location.pathname}?${updatedParams}`
+
+    router.push(fullPath)
+  }, [selectedOptions, router])
+
+  const handleOptionClick = (type: string, option: string) => {
+    const updatedOptions: SelectedOptions = { ...selectedOptions }
+
+    // Assign value based on types, e.g., author/project/tech-stack
+    if (type === 'author') {
+      updatedOptions.author = option
+    }
+    if (type === 'project') {
+      updatedOptions.project = option
+    }
+    if (type === 'techStack' && updatedOptions.techStack) {
+      const isSelected = updatedOptions.techStack.includes(option)
+      if (isSelected) {
+        updatedOptions.techStack = updatedOptions.techStack.filter(
+          (selected) => selected !== option
+        )
+      } else {
+        updatedOptions.techStack.push(option)
+      }
+    }
+    console.log('after updated options: ', updatedOptions)
+    // To clear all selected options
+    if (type === 'clear') {
+      updatedOptions.techStack = []
+      updatedOptions.author = ''
+      updatedOptions.project = ''
+    }
+
+    setSelectedOptions(updatedOptions)
+  }
 
   function loadMoreProjects() {
     if (
@@ -134,7 +211,7 @@ const ProjectsPage: NextPage = () => {
           type='text'
           id='combo-box-demo'
           placeholder='Search by project name'
-          className={`custom border-solid border-2 outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent text-center`}
+          className={`custom border-solid border-2 text-white outline-none border-primary rounded-md p-2 md:w-1/2 bg-transparent text-center`}
           onChange={(e) => {
             handleOptionClick && handleOptionClick('project', e.target.value)
           }}
