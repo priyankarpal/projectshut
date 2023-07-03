@@ -41,6 +41,7 @@ function ProjectsPage() {
   const [visibleProjects, setVisibleProjects] = useState([]);
   const [openFilter, setOpenFilter] = useState(false);
   const [filterCount, setFilterCount] = useState(0);
+  const [searchData,setSearchData] = useState([]);
 
   // for loadmore projects
   function loadMoreProjects() {
@@ -86,7 +87,8 @@ function ProjectsPage() {
 
     // get all the filtered projects based on respective logic
     const currProjects = getFilteredProjects();
-    setVisibleProjects(currProjects);
+    setSearchData(currProjects)
+    // setVisibleProjects(currProjects);
   };
 
   useEffect(() => {
@@ -248,6 +250,7 @@ function ProjectsPage() {
 
       {/* As the number of cards may change, it is important to give a min-height to 'section' */}
 
+
       <section>
         {visibleProjects.length > 0 ? (
           <InfiniteScroll
@@ -270,12 +273,14 @@ function ProjectsPage() {
               </p>
             }
           >
-            {visibleProjects && visibleProjects.map((project) => (
+            {(searchData =="" ? visibleProjects:searchData).map((project) => (
+              
               <ProjectCard
                 key={project.link}
                 project={project}
                 filter={selectedOptions.techStack && selectedOptions.techStack?.join(',')}
               />
+              
             ))}
           </InfiniteScroll>
         ) : (
