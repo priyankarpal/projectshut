@@ -24,6 +24,24 @@
     ]
   },
   {
+    "github_username": "Kritika0804",
+    "Social_media": {
+      "gitHub": "https://github.com/Kritika0804",
+      "LinkedIn": "https://www.linkedin.com/in/kritika-choudhary-ba00ab213/",
+      "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+      "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+      "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Kritika0804/news-website-react",
+        "title": "News Website",
+        "description": "It is a news website",
+        "tech": ["ReactJS", "Tailwind CSS"]
+      }
+    ]
+  },
+  {
         "github_username": "adity2911",  
         "Social_media": {
         "gitHub": "https://github.com/adity2911",
