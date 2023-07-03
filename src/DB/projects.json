@@ -3525,5 +3525,24 @@
       }
      
     ]
+  },
+   {
+    "github_username": "prachisingh1008",
+    "Social_media": {
+      "gitHub": "https://github.com/prachisingh1008",
+      "LinkedIn": "https://www.linkedin.com/in/prachi-s-12845a212/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/prachisingh1008"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/prachisingh1008/Motivational-code-extension.git",
+        "title": "Motivational quote",
+        "description": "It displays page with a visually engaging background image of nature and displaying motivational quotes. This helps to create a more pleasant and inspiring environment for users when they open a new tab.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+     
+    ]
   }
 ]
