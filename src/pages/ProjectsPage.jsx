@@ -37,7 +37,8 @@ function ProjectsPage() {
 
   const { selectedOptions, handleOptionClick } = useContext(FilterContext);
   const [limit, setLimit] = useState(15);
-  const [visibleProjects, setVisibleProjects] = useState(shuffleProjects(Projects).slice(0, limit));
+  // const [visibleProjects, setVisibleProjects] = useState(shuffleProjects(Projects).slice(0, limit));
+  const [visibleProjects, setVisibleProjects] = useState([]);
   const [openFilter, setOpenFilter] = useState(false);
   const [filterCount, setFilterCount] = useState(0);
 
@@ -78,6 +79,7 @@ function ProjectsPage() {
       !selectedOptions.project
     ) {
       setLimit(15);
+      //we can use this also setVisibleProjects(shuffleProjects(Projects).slice(0, limit));
       setVisibleProjects(Projects.slice(0, 15));
       return;
     }
@@ -268,7 +270,7 @@ function ProjectsPage() {
               </p>
             }
           >
-            {visibleProjects.map((project) => (
+            {visibleProjects && visibleProjects.map((project) => (
               <ProjectCard
                 key={project.link}
                 project={project}
