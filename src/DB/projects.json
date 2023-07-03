@@ -3216,7 +3216,7 @@
       "LinkedIn": "https://www.linkedin.com/in/nagpurebharti",
       "Instagram": "https://instagram.com/bhartinagpure2409?igshid=MzNlNGNkZWQ4Mg==",
       "YouTube": "#",
-      "Twitter": "#"
+      "Twitter": "https://twitter.com/bhartinagp27830"
     },
     "Projects": [
       {
@@ -3224,7 +3224,13 @@
         "title": "Cryptocurrency",
         "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
         "tech": ["HTML", "MATERIALUI", "REACT", "CSS", "COINGECKOAPI", "JAVASCRIPT"]
-      }
+      },
+      {
+          "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+          "title": "Qoute-Generator",
+          "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+          "tech": ["HTML", "CSS", "JAVASCRIPT"]
+        }
     ]
   },
   {
