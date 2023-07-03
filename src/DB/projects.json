@@ -2893,6 +2893,12 @@
         "title": "Multi Stack Games",
         "description": "This repository contains games built using different tech stacks: web development with HTML, CSS, and JavaScript, and terminal games in Python.",
         "tech": ["HTML", "Javascript", "CSS", "Python"]
+      }, 
+      {
+        "link": "https://github.com/srujana-16/Automatic-obstacle-detection-car-with-color-sensor",
+        "title": "Automatic Obstacle Detection Car with Colour sensor",
+        "description": "In this project, an automatic obstacle detecting car was made. The car uses ultrasonic sensors to detect obstacles and avoid them. A color sensor is used to start and stop the car. An algorithm for the navigation of the car was created and implemented on the Arduino.",
+        "tech": ["C++", "Arduino IDE"]
       }
     ]
 
@@ -3500,5 +3506,24 @@
       "tech": ["JavaScript","HTML","CSS"]
     }
   ]
-}
+},
+  {
+    "github_username": "prachisingh1008",
+    "Social_media": {
+      "gitHub": "https://github.com/prachisingh1008",
+      "LinkedIn": "https://www.linkedin.com/in/prachi-s-12845a212/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/prachisingh1008"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/prachisingh1008/weather-.git",
+        "title": "Weather Report",
+        "description": "This project is used to show current weather conditions of the location entered by the user along with map of that location",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+     
+    ]
+  }
 ]
