@@ -23,7 +23,30 @@
       }
     ]
   },
-
+  {
+        "github_username": "adity2911",  
+        "Social_media": {
+        "gitHub": "https://github.com/adity2911",
+        "LinkedIn": "https://www.linkedin.com/in/aditya-tulsiyan-585b50111/",
+        "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
+        "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
+        "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
+        },
+        "Projects": [
+          {
+          "link": "https://github.com/adity2911/SpaceShips",
+          "title": "SpaceShips",
+          "description": "A MERN stack web page that lets you see the data of NASA's official plans to send spaceships to space.",
+          "tech": ["React", "MongoDB","ExpressJS","JavaScript"]
+          },
+          {
+          "link": "https://github.com/adity2911/CatchUp",
+          "title": "CatchUp",
+          "description": "Video Calling Android App ",
+          "tech": ["MongDB", "Kotlin"]
+          }
+        ]
+  },
   {
   "github_username": "vinaysingh-chaudhary",
   "Social_media": {
@@ -173,6 +196,12 @@
         "title": "iChat_app",
         "description": "This is the encrypted chat_application that is only accessible to those only who have writes to access it. No other can add or edit it.",
         "tech": ["React.js", "JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/Rock_Paper_Seesor-using-JS-DOM_Manipulation/tree/master",
+        "title": "Advance Rock_Paper_Seesor Game",
+        "description": "This is the project that contains HTML, CSS and JS code and this is the advance Rock_Paper_Seesor game using DOM_Manipulation.",
+        "tech": ["JavaScript"]
       }
     ]
   },
@@ -2919,6 +2948,12 @@
       "title": "My-Favorite-SuperHero",
       "description": "Find images of your favorite superhero by typing ⌨️ their name into the search bar.",
       "tech": ["HTML", "CSS", "JavaScript", "API"]
+    },
+    {
+      "link": "https://github.com/Prajwal0225/Amazon-Clone",
+      "title": "Amazon Clone",
+      "description": "Amazon clone with card functionality using strip",
+      "tech": ["HTML", "CSS", "JavaScript", "React", "Firebase"]
     }
     ]
   },
@@ -3341,6 +3376,12 @@
     "title": "Caesar Cipher",
     "description": "An encryptor decryptor app based on ancient Caesar and cipher technique",
     "tech": ["JAVASCRIPT", "CSS", "HTML"]
+  },
+  {
+    "link": "https://github.com/whiteknight16/Cookie-Clicker/tree/main",
+    "title": "Cookie Clicker Bot",
+    "description": "A bot that can play the classic cookie clicker game",
+    "tech": ["Python"]
   }
 ]
 },
@@ -3433,6 +3474,30 @@
       "title": "TEXT UTILS",
       "description": "Hllo! it's my react app that works with text",
       "tech": ["ReactJS","HTML","CSS"]
+    }
+  ]
+},
+  {
+  "github_username": "AdityaLahane-2003",
+  "Social_media": {
+    "gitHub": "https://github.com/AdityaLahane-2003",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-lahane-772919242/",
+    "Instagram": "https://www.instagram.com/adi_lahane_/",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Adi_Lahane_"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/AdityaLahane-2003/Newsletter",
+      "title": "NEWSLETTER",
+      "description": "Hey ! Here is the newsletter project, you can use it!",
+      "tech": ["HTML","CSS","JavaScript","Express.js","Node.js"]
+    },
+    {
+      "link": "https://github.com/AdityaLahane-2003/Simon-Game",
+      "title": "SIMON GAME",
+      "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
+      "tech": ["JavaScript","HTML","CSS"]
     }
   ]
 }
