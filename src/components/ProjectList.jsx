@@ -104,7 +104,7 @@ function ProjectList() {
             <p className="text-sm break-words">{user.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            {userObj?.Social_media?.gitHub && userObj?.Social_media?.gitHub !== '' && (
+            {userObj?.Social_media?.gitHub && userObj.Social_media.gitHub !== '' && userObj.Social_media.gitHub !== "YOUR_GITHUB_ACCOUNT_LINK" && (
               <div className="mx-5 xsm:mx-2">
                 <a
                   href={userObj?.Social_media?.gitHub}
@@ -117,7 +117,7 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj?.Social_media?.LinkedIn && userObj?.Social_media?.LinkedIn !== '' && (
+            {userObj?.Social_media?.LinkedIn && userObj?.Social_media?.LinkedIn !== '' && userObj.Social_media.LinkedIn !== "YOUR_LINKEDIN_ACCOUNT_LINK" && (
               <div className="mx-4">
                 <a
                   href={userObj.Social_media.LinkedIn}
@@ -130,7 +130,7 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj?.Social_media?.Twitter && userObj?.Social_media?.Twitter !== '' && (
+            {userObj?.Social_media?.Twitter && userObj?.Social_media?.Twitter !== '' && userObj.Social_media?.Twitter !== "YOUR_TWITTER_ACCOUNT_LINK" && (
               <div className="mx-4">
                 <a
                   href={userObj?.Social_media?.Twitter}
@@ -143,7 +143,7 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj?.Social_media?.YouTube && userObj?.Social_media?.YouTube !== '' && (
+            {userObj?.Social_media?.YouTube && userObj?.Social_media?.YouTube !== '' && userObj.Social_media.YouTube !== "YOUR_YOUTUBE_ACCOUNT_LINK" && (
               <div className="mx-4">
                 <a
                   href={userObj?.Social_media?.YouTube}
@@ -156,7 +156,7 @@ function ProjectList() {
                 </a>
               </div>
             )}
-            {userObj?.Social_media?.Instagram && userObj?.Social_media?.Instagram !== '' && (
+            {userObj?.Social_media?.Instagram && userObj?.Social_media?.Instagram !== '' && userObj.Social_media.Instagram !== "YOUR_INSTAFRAM_ACCOUNT_LINK" && (
               <div className="mx-4">
                 <a
                   href={userObj?.Social_media?.Instagram}
