@@ -36,7 +36,7 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
     >
       {/*  Logo & Close icon section */}
       <div className="flex mt-4 mb-8 border-b ">
-        <span className="ml-[5%] my-1">
+        <span className="ml-[5%] my-1 text-white">
           <IconButton
             aria-label="close drawer"
             edge="start"
@@ -65,7 +65,7 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
             href="https://github.com/priyankarpal/ProjectsHut"
             target="_blank"
             rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`}
+            className={`block py-2 px-3 w-fit m-2 text-left  rounded-md`}
             aria-label="Github"
           >
             GitHub
