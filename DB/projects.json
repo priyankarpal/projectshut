@@ -3610,6 +3610,12 @@
         "title": "Weather Report",
         "description": "This project is used to show current weather conditions of the location entered by the user along with map of that location",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+       {
+        "link": "https://github.com/prachisingh1008/Donation-Carnival-payment-gateway-integration-.git",
+        "title": "Donation Carnival",
+        "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
   }
