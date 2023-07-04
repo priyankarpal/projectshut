@@ -1,4 +1,4 @@
 projects addition:
-  - 'src/DB/*'
+  - 'DB/*'
 wait for reviewers:
   - '**/*'
