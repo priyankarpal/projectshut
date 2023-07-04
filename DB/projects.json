@@ -3005,6 +3005,12 @@
         "title": "Amazon Clone",
         "description": "Amazon clone with card functionality using strip",
         "tech": ["HTML", "CSS", "JavaScript", "React", "Firebase"]
+      },
+      {
+        "link": "https://github.com/Prajwal0225/Tesla-clone",
+        "title": "Tesla Clone",
+        "description": "Tesla website clone with animation",
+        "tech": ["HTML", "CSS", "JavaScript", "React"]
       }
     ]
   },
