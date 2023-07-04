@@ -1626,6 +1626,12 @@
         "title": "ProjektHouse",
         "description": "ProjektHouse is a Web Application for managing final year team data and associated project files. The application enables teams to create an account, log in, and manage their project details and files.",
         "tech": ["MongoDB", "React", "Node", "Express"]
+      },
+      {
+        "link": "https://github.com/anamika7153/my-portfolio",
+        "title": "Portfolio",
+        "description": "This is a portfolio website made using React, and Javascript. It contains my projects and experience.",
+        "tech": ["Javascript", "SCSS", "React", "Sanity"]
       }
     ]
   },
@@ -3005,6 +3011,12 @@
         "title": "Amazon Clone",
         "description": "Amazon clone with card functionality using strip",
         "tech": ["HTML", "CSS", "JavaScript", "React", "Firebase"]
+      },
+      {
+        "link": "https://github.com/Prajwal0225/Tesla-clone",
+        "title": "Tesla Clone",
+        "description": "Tesla website clone with animation",
+        "tech": ["HTML", "CSS", "JavaScript", "React"]
       }
     ]
   },
@@ -3609,6 +3621,12 @@
         "link": "https://github.com/prachisingh1008/weather-.git",
         "title": "Weather Report",
         "description": "This project is used to show current weather conditions of the location entered by the user along with map of that location",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      },
+       {
+        "link": "https://github.com/prachisingh1008/Donation-Carnival-payment-gateway-integration-.git",
+        "title": "Donation Carnival",
+        "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
