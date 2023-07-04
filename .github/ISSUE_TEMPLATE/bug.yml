@@ -1,0 +1,42 @@
+name: 🐞 Bug Report
+description: File a bug report
+title: 'Bug: '
+labels: ['🛠 goal: fix', '🚦status: awaiting triage']
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Add descriptions
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add screenshots
+      placeholder: Add screenshots
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Brave
+        - Other
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Record'
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+
+        - label: I'm a GSSoC'23 contributor
+
+        - label: I want to work on this issue
