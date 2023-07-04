@@ -1626,6 +1626,12 @@
         "title": "ProjektHouse",
         "description": "ProjektHouse is a Web Application for managing final year team data and associated project files. The application enables teams to create an account, log in, and manage their project details and files.",
         "tech": ["MongoDB", "React", "Node", "Express"]
+      },
+      {
+        "link": "https://github.com/anamika7153/my-portfolio",
+        "title": "Portfolio",
+        "description": "This is a portfolio website made using React, and Javascript. It contains my projects and experience.",
+        "tech": ["Javascript", "SCSS", "React", "Sanity"]
       }
     ]
   },
