@@ -3612,5 +3612,23 @@
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "anamika7153",
+  "Social_media": {
+    "gitHub": "https://github.com/anamika7153",
+      "LinkedIn": "https://www.linkedin.com/in/anamika-yadav-24a369191/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/anamika7153/my-portfolio",
+      "title": "Portfolio",
+      "description": "This is a portfolio website made using React, and Javascript. It contains my projects and experience.",
+      "tech": ["Javascript", "SCSS", "React", "Sanity"]
+    }
+  ]
+}
 ]
