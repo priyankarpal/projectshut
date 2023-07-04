@@ -20,8 +20,8 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
   ];
 
   const linksComponent = sideLinks.map((link, index) => (
-    <li>
-      <Link href={link.path} key={index} rel="noreferrer" className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`} aria-label="Github">
+    <li key={index}>
+      <Link href={link.path} rel="noreferrer" className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`} aria-label="Github">
           {link.name}
       </Link>
     </li>
