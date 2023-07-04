@@ -3612,5 +3612,23 @@
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     ]
+  },
+   {
+    "github_username": "prachisingh1008",
+    "Social_media": {
+      "gitHub": "https://github.com/prachisingh1008",
+      "LinkedIn": "https://www.linkedin.com/in/prachi-s-12845a212/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/prachisingh1008"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/prachisingh1008/Donation-Carnival-payment-gateway-integration-.git",
+        "title": "Donation Carnival",
+        "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   }
 ]
