@@ -13,8 +13,8 @@ export default function HomePage() {
           <div className="pt-16 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
               <section className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
-                <p className="text-3xl font-bold sm:text-[5vw] md:text-5xl md:leading-[3rem] lg:text-[4rem] lg:leading-[5rem]  text-white">
-                  Share your projects
+                <p className="text-3xl font-bold sm:text-[5vw] md:text-5xl lg:leading-[5.5rem] lg:text-[5rem] text-white">
+                  Learn. Build. Share.
                 </p>
 
                 <p className="mt-4 text-xl text-gray-400 tracking-wide ">
@@ -25,7 +25,7 @@ export default function HomePage() {
                 <div className="mt-14">
                   <Link
                     href="/projects"
-                    className="inline-block rounded-md border border-transparent py-3 px-5 text-center font-semibold shadow-md transition duration-300 ease-in-out cursor-pointer focus:outline-none hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0 bg-white "
+                    className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 ease-in duration-200 text-white hover:text-gray-900 "
                     type="button"
                   >
                     Browse Projects
