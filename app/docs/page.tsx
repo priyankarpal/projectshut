@@ -94,7 +94,7 @@ function AddYourProjectsGuide() {
             </p>
             <div className="flex items-center gap-5">
               <span>
-                <GitBranch size={18} color="white" color="white"/>
+                <GitBranch size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 {" "}
