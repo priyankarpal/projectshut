@@ -3396,6 +3396,12 @@
         "title": "Dots and Boxes Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
         "tech": ["HTML", "CSS", "JAVASCRIPT"]
+      },
+      {
+        "link": "https://github.com/Avdhesh-Varshney/Number-To-Words-Convertor",
+        "title": "Number To Words Convertor",
+        "description": "This project can convert the entered number into international system of numbering instantly.",
+        "tech": ["HTML", "CSS", "JAVASCRIPT"]
       }
     ]
   },
