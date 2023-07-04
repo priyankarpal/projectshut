@@ -3396,6 +3396,12 @@
         "title": "Dots and Boxes Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn JavaScript as this project is a beginner-friendly.",
         "tech": ["HTML", "CSS", "JAVASCRIPT"]
+      },
+      {
+        "link": "https://github.com/Avdhesh-Varshney/Number-To-Words-Convertor",
+        "title": "Number To Words Convertor",
+        "description": "This project can convert the entered number into international system of numbering instantly.",
+        "tech": ["HTML", "CSS", "JAVASCRIPT"]
       }
     ]
   },
@@ -3628,7 +3634,14 @@
         "title": "Donation Carnival",
         "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+       {
+        "link": "https://github.com/prachisingh1008/Motivational-code-extension.git",
+        "title": "Motivational Quote",
+        "description": "It displays a new page with a visually engaging background image of nature and displaying motivational quotes. This helps to create a more pleasant and inspiring environment for users when they open a new tab.",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
+      
     ]
   }
 ]

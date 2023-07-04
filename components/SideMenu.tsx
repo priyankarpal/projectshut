@@ -19,6 +19,16 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
     },
   ];
 
+  const linksComponent = sideLinks.map((link, index) => (
+    <li key={index}>
+      <Link href={link.path} rel="noreferrer" className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`} aria-label="Github">
+          {link.name}
+      </Link>
+    </li>
+    )
+  )
+
+
   return (
     <div
       className=" h-screen flex flex-col bg-secondary text-white "
@@ -48,27 +58,8 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
       </div>
 
       {/*  SideBar navlinks section */}
-      <ul className="block">    
-        <li>
-          <Link
-            href="/projects"
-            rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left  rounded-md`}
-            aria-label="Github"
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/docs"
-            rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left  rounded-md`}
-            aria-label="Github"
-          >
-            Docs
-          </Link>
-        </li>
+      <ul className="block">
+        {linksComponent}
         <li>
           <a
             href="https://github.com/priyankarpal/ProjectsHut"
