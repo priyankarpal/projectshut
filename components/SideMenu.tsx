@@ -6,28 +6,31 @@ import Link from "next/link";
 function SideMenu(props: { handleDrawerToggle: () => void }) {
   const sideLinks = [
     {
-      name: "Home",
-      path: "/",
+      name: "Docs",
+      path: "/docs",
     },
     {
       name: "Projects",
-      path: "/projectspage",
+      path: "/projects",
     },
     {
-      name: "Documentation",
-      path: "/docs",
+      name: "GitHub",
+      path: "https://github.com/priyankarpal/ProjectsHut",
     },
   ];
 
   const linksComponent = sideLinks.map((link, index) => (
     <li key={index}>
-      <Link href={link.path} rel="noreferrer" className={`block py-2 px-3 w-fit m-2 text-left font-bold rounded-md`} aria-label="Github">
-          {link.name}
+      <Link
+        href={link.path}
+        rel="noreferrer"
+        className={`block py-2 px-3 w-fit m-2 text-left rounded-md`}
+        aria-label="Github"
+      >
+        {link.name}
       </Link>
     </li>
-    )
-  )
-
+  ));
 
   return (
     <div
@@ -58,23 +61,9 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
       </div>
 
       {/*  SideBar navlinks section */}
-      <ul className="block">
-        {linksComponent}
-        <li>
-          <a
-            href="https://github.com/priyankarpal/ProjectsHut"
-            target="_blank"
-            rel="noreferrer"
-            className={`block py-2 px-3 w-fit m-2 text-left  rounded-md`}
-            aria-label="Github"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
+      <ul className="block">{linksComponent}</ul>
     </div>
   );
 }
-
 
 export default SideMenu;
