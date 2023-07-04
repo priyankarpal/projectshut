@@ -3628,7 +3628,14 @@
         "title": "Donation Carnival",
         "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
         "tech": ["HTML", "CSS", "JavaScript"]
+      },
+       {
+        "link": "https://github.com/prachisingh1008/Motivational-code-extension.git",
+        "title": "Motivational Quote",
+        "description": "It displays a new page with a visually engaging background image of nature and displaying motivational quotes. This helps to create a more pleasant and inspiring environment for users when they open a new tab.",
+        "tech": ["HTML", "CSS", "JavaScript"]
       }
+      
     ]
   }
 ]
