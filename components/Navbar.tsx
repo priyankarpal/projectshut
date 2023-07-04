@@ -60,7 +60,7 @@ const Navbar: NextPage = () => {
               <li key={navLink.path}>
                 <Link
                   href={navLink.path}
-                  className={`inline-block py-2 px-3 text-center text-white font-bold hover:text-primary rounded-lg`}
+                  className={`inline-block py-2 px-3 text-center text-white  hover:text-primary rounded-lg`}
                 >
                   {navLink.name}
                 </Link>
