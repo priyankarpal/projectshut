@@ -50,6 +50,8 @@ const ProjectsPage: NextPage = () => {
     techStack: [],
   });
 
+  const [searchitem, setSearchItem] = useState<any>([]);
+
   useEffect(() => {
     // Set URL based on option selection
     const updatedParams = new URLSearchParams();
@@ -79,7 +81,6 @@ const ProjectsPage: NextPage = () => {
 
   const handleOptionClick = (type: string, option: string) => {
     const updatedOptions: SelectedOptions = { ...selectedOptions };
-
     // Assign value based on types, e.g., author/project/tech-stack
     if (type === "author") {
       updatedOptions.author = option;
@@ -97,7 +98,6 @@ const ProjectsPage: NextPage = () => {
         updatedOptions.techStack.push(option);
       }
     }
-    console.log("after updated options: ", updatedOptions);
     // To clear all selected options
     if (type === "clear") {
       updatedOptions.techStack = [];
@@ -109,19 +109,21 @@ const ProjectsPage: NextPage = () => {
   };
 
   function loadMoreProjects() {
-    if (
-      selectedOptions.techStack &&
-      selectedOptions.techStack.length !== 0 &&
-      selectedOptions.author.length > 0 &&
-      selectedOptions.project.length > 0
-    ) {
-      setLimit(visibleProjects.length);
-      return;
+    if (searchitem.length == 0) {
+      if (
+        selectedOptions.techStack &&
+        selectedOptions.techStack.length !== 0 &&
+        selectedOptions.author.length > 0 &&
+        selectedOptions.project.length > 0
+      ) {
+        setLimit(visibleProjects.length);
+        return;
+      }
+      setTimeout(() => {
+        setLimit(limit + 15);
+        setVisibleProjects(Projects.slice(0, limit + 15));
+      }, 1200);
     }
-    setTimeout(() => {
-      setLimit(limit + 15);
-      setVisibleProjects(Projects.slice(0, limit + 15));
-    }, 1200);
   }
 
   useEffect(() => {
@@ -133,7 +135,14 @@ const ProjectsPage: NextPage = () => {
     setFilterCount(count);
   }, [selectedOptions]);
 
-  const getProjects = () => {
+  const getProjects = (selectedOptions?: any) => {
+    const currProjects = getFilteredProjects(selectedOptions);
+    setVisibleProjects(currProjects);
+    if (selectedOptions.project.length !== 0) {
+      setSearchItem(currProjects);
+    } else {
+      setSearchItem([]);
+    }
     if (
       selectedOptions.techStack &&
       selectedOptions.techStack.length === 0 &&
@@ -144,17 +153,14 @@ const ProjectsPage: NextPage = () => {
       setVisibleProjects(Projects.slice(0, 15));
       return;
     }
-
-    const currProjects = getFilteredProjects();
-    setVisibleProjects(currProjects);
   };
 
   useEffect(() => {
-    getProjects();
+    getProjects(selectedOptions);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedOptions]);
 
-  const getFilteredProjects = () => {
+  const getFilteredProjects = (selectedOptions?: any) => {
     let filteredProjects = Projects;
 
     if (selectedOptions.techStack && selectedOptions.techStack.length > 0) {
@@ -167,7 +173,6 @@ const ProjectsPage: NextPage = () => {
           })
       );
     }
-
     if (selectedOptions.author) {
       filteredProjects = searchProject(
         filteredProjects,
@@ -193,7 +198,6 @@ const ProjectsPage: NextPage = () => {
       getProjects();
     }
   };
-
   return (
     <>
       <Navbar />
@@ -334,7 +338,7 @@ const ProjectsPage: NextPage = () => {
                 </p>
               }
             >
-              {visibleProjects.map(
+              {(searchitem.length == 0 ? visibleProjects : searchitem).map(
                 (project: NewProjectsType, index: number) => (
                   <ProjectCard
                     key={index}
