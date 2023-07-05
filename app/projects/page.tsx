@@ -153,8 +153,6 @@ const ProjectsPage: NextPage = () => {
       setVisibleProjects(Projects.slice(0, 15));
       return;
     }
-    // const currProjects = getFilteredProjects();
-    // setVisibleProjects(currProjects);
   };
 
   useEffect(() => {
