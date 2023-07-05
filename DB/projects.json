@@ -201,6 +201,12 @@
         "title": "Advance Rock_Paper_Seesor Game",
         "description": "This is the project that contains HTML, CSS and JS code and this is the advance Rock_Paper_Seesor game using DOM_Manipulation.",
         "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/Student-DataBase-Management-System",
+        "title": "Student Database Management System",
+        "description": "In this project, I used C++ and OOPs concept and small DataBase to store the data of all students.",
+        "tech": ["C++"]
       }
     ]
   },
