@@ -142,6 +142,12 @@
         "title": "Dance Website",
         "description": "This is the Frontend project, with Express and nodejs  ",
         "tech": ["Javascript", "HTML", "CSS", "Express", "Nodejs"]
+      },
+      {
+        "link": "https://github.com/PatilHarshh/Nexter",
+        "title": "Nexter",
+        "description": "This is the Frontend project, Business website , House renting Website  ",
+        "tech": ["Javascript", "HTML", "CSS", "Nodejs"]
       }
     ]
   },
@@ -201,6 +207,12 @@
         "title": "Advance Rock_Paper_Seesor Game",
         "description": "This is the project that contains HTML, CSS and JS code and this is the advance Rock_Paper_Seesor game using DOM_Manipulation.",
         "tech": ["JavaScript"]
+      },
+      {
+        "link": "https://github.com/Parmesh119/Student-DataBase-Management-System",
+        "title": "Student Database Management System",
+        "description": "In this project, I used C++ and OOPs concept and small DataBase to store the data of all students.",
+        "tech": ["C++"]
       }
     ]
   },
@@ -3138,6 +3150,12 @@
         "title": "LetsNote",
         "description": "This is a note-taking web application that is ReactJs Based",
         "tech": ["Express", "MongoDB", "Node.js", "ReactJs", "Bootstrap"]
+      },
+      {
+        "link": "https://github.com/kartikjoshi267/Netflix-Landing-Page-Clone",
+        "title": "Netflix Landing Page Clone",
+        "description": "This is a Netflix Landing Page Clone",
+        "tech": ["HTML", "CSS"]
       }
     ]
   },
@@ -3531,6 +3549,12 @@
         "title": "Digital Clock(Time Zone)",
         "description": "Digital clock with time zone selection and GUI design.",
         "tech": ["PYTHON"]
+      },
+      {
+        "link": "https://github.com/smty2018/Countdown-Timer",
+        "title": "Countdown Timer",
+        "description": "Customisable Countdown Timer with real time updates ",
+        "tech": ["PYTHON"]
       }
     ]
   },
@@ -3655,7 +3679,7 @@
   },
   "Projects": [
     {
-      "link": "https://illaf.github.io/The-Cat-Store/",
+      "link": "https://github.com/Illaf/The-Cat-Store/",
       "title": "The-Cat-Store",
       "description": "A colorful snd cute website for purchasing and donating cats",
       "tech": ["HTML","CSS"]

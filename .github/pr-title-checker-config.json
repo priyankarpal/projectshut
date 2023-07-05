@@ -25,9 +25,7 @@
       "refactor(",
       "revert(",
       "style(",
-      "test(",
-      "data(",
-      "[Backport"
+      "test("
     ]
   },
   "MESSAGES": {
