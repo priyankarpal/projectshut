@@ -3531,6 +3531,12 @@
         "title": "Digital Clock(Time Zone)",
         "description": "Digital clock with time zone selection and GUI design.",
         "tech": ["PYTHON"]
+      },
+      {
+        "link": "https://github.com/smty2018/Countdown-Timer",
+        "title": "Countdown Timer",
+        "description": "Customisable Countdown Timer with real time updates ",
+        "tech": ["PYTHON"]
       }
     ]
   },
