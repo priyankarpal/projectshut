@@ -94,7 +94,7 @@ function AddYourProjectsGuide() {
             </p>
             <div className="flex items-center gap-5">
               <span>
-                <GitBranch size={18} />
+                <GitBranch size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 {" "}
@@ -111,7 +111,7 @@ function AddYourProjectsGuide() {
             />
             <div className="mt-5 flex items-center gap-5 relative">
               <span>
-                <FileText size={18} />
+                <FileText size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 {" "}
@@ -133,7 +133,7 @@ function AddYourProjectsGuide() {
 
             <div className="mt-5 flex items-center gap-5 relative">
               <span>
-                <FileText size={18} />
+                <FileText size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 Add following code to end of{" "}
@@ -151,7 +151,7 @@ function AddYourProjectsGuide() {
             </SyntaxHighlighter>
             <div className="flex items-center gap-5 mt-5 relative">
               <span>
-                <UploadCloud size={18} />
+                <UploadCloud size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 {" "}
@@ -167,7 +167,7 @@ function AddYourProjectsGuide() {
             />
             <div className="flex items-center gap-5 mt-5 relative">
               <span>
-                <UploadCloud size={18} />
+                <UploadCloud size={18} color="white" />
               </span>
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 {" "}
@@ -185,7 +185,7 @@ function AddYourProjectsGuide() {
           </div>
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -195,7 +195,7 @@ function AddYourProjectsGuide() {
 
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               Clone this repository
@@ -212,7 +212,7 @@ function AddYourProjectsGuide() {
           </SyntaxHighlighter>
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -230,7 +230,7 @@ function AddYourProjectsGuide() {
           </SyntaxHighlighter>
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -249,7 +249,7 @@ function AddYourProjectsGuide() {
 
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -267,7 +267,7 @@ function AddYourProjectsGuide() {
           </SyntaxHighlighter>
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -286,7 +286,7 @@ function AddYourProjectsGuide() {
 
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <FileText size={18} />
+              <FileText size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -296,7 +296,7 @@ function AddYourProjectsGuide() {
 
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -314,7 +314,7 @@ function AddYourProjectsGuide() {
           </SyntaxHighlighter>
           <div className="mt-5 flex items-center gap-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -333,7 +333,7 @@ function AddYourProjectsGuide() {
 
           <div className="flex items-center gap-5 mt-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -352,7 +352,7 @@ function AddYourProjectsGuide() {
 
           <div className="flex items-center gap-5 mt-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -371,7 +371,7 @@ function AddYourProjectsGuide() {
 
           <div className="flex items-center gap-5 mt-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -391,7 +391,7 @@ function AddYourProjectsGuide() {
 
           <div className="flex items-center gap-5 mt-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
@@ -410,7 +410,7 @@ function AddYourProjectsGuide() {
 
           <div className="flex items-center gap-5 mt-5 relative">
             <span>
-              <UploadCloud size={18} />
+              <UploadCloud size={18} color="white" />
             </span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
               {" "}
