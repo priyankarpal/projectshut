@@ -3144,6 +3144,12 @@
         "title": "LetsNote",
         "description": "This is a note-taking web application that is ReactJs Based",
         "tech": ["Express", "MongoDB", "Node.js", "ReactJs", "Bootstrap"]
+      },
+      {
+        "link": "https://github.com/kartikjoshi267/Netflix-Landing-Page-Clone",
+        "title": "Netflix Landing Page Clone",
+        "description": "This is a Netflix Landing Page Clone",
+        "tech": ["HTML", "CSS"]
       }
     ]
   },
