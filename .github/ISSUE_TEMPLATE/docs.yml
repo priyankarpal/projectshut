@@ -1,12 +1,12 @@
 name: 🔖 Documentation update
 description: Improve Documentation
 title: 'Docs:'
-labels: ['📄 aspect: text', '🚦status: awaiting triage']
+labels: ['📄 aspect: text', '🚦status: awaiting triage', '✨ goal: improvement', 'good first issue, '🟨 priority: medium']
 body:
   - type: textarea
     id: improve-docs
     attributes:
-      label: what's wrong in the documentation?
+      label: what's wrong with the documentation?
       description: which things do we need to add?
       placeholder: Add description
     validations:
