@@ -1,7 +1,7 @@
 name: 🔖 Documentation update
 description: Improve Documentation
 title: 'Docs:'
-labels: ['📄 aspect: text', '🚦status: awaiting triage', '✨ goal: improvement', 'good first issue, '🟨 priority: medium']
+labels: ['📄 aspect: text', '🚦status: awaiting triage', '✨ goal: improvement', 'good first issue', '🟨 priority: medium']
 body:
   - type: textarea
     id: improve-docs
