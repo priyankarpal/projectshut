@@ -122,16 +122,6 @@ const option2Steps = [
   },
   {
     icon: <UploadCloud size={18} color="white" />,
-    text: "If you encounter this error while commits",
-    code: "husky - pre-commit hook exited with code 1(error)"
-  },
-  {
-    icon: <UploadCloud size={18} color="white" />,
-    text: "Then run this command",
-    code: "pnpm format"
-  },
-  {
-    icon: <UploadCloud size={18} color="white" />,
     text: "Set upstream command",
     code: "git remote add upstream https://github.com/priyankarpal/ProjectsHut.git"
   },
