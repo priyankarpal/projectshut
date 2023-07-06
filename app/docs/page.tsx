@@ -140,11 +140,14 @@ const option2Steps = [
 
 function Step({ icon, text, code, image }: StepProps): JSX.Element {
   const copyCode = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
-    navigator.clipboard.writeText(code).then(() => {
-      e.currentTarget.innerText = "Copied!";
-    });
+    const button = e.currentTarget as HTMLButtonElement;
+    const initialText = button.innerText;
+
+    navigator.clipboard.writeText(code);
+    button.innerText = "Copied!";
+
     setTimeout(() => {
-      e.currentTarget.innerText = "Copy";
+      button.innerText = initialText;
     }, 3000);
   };
 
