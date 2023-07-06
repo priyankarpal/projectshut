@@ -3685,5 +3685,29 @@
       "tech": ["HTML","CSS"]
     }
   ]
+},
+{
+  "github_username": "hritikd3",
+  "Social_media": {
+    "gitHub": "https://github.com/hritikd3",
+    "LinkedIn": "https://www.linkedin.com/in/hritikd3",
+    "Instagram": "#",
+    "YouTube": "https://www.youtube.com/watch?v=zHReFuFUI34&pp=ygUSZHVhbCByZW1peCBtaW5kc2Ri",
+    "Twitter": "https://twitter.com/UnrevealRich"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/hritikd3/cocktaildb",
+      "title": "CocktailDB",
+      "description": "CocktailDB is a web application that allows users to explore a vast collection of cocktails, along with their prices, ingredients, and details",
+      "tech": ["React JS", "Rapid API","CSS3"]
+    },
+    {
+      "link": "https://github.com/hritikd3/job-update-reactNative-app",
+      "title": "job-update-reactNative-app",
+      "description": "JobPilot is a cross-platform job update app built using React-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
+      "tech": ["React Native", "Expo","CSS3"]
+    }
+  ]
 }
 ]
