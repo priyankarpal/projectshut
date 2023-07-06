@@ -1,6 +1,6 @@
 name: ✨ Feature Request
 description: Suggest a feature request
-title: 'Feat:'
+title: 'feat:'
 labels: ['⭐ goal: addition', '🚦status: awaiting triage']
 body:
   - type: textarea
