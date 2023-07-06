@@ -3675,6 +3675,24 @@
     ]
   },
   {
+  "github_username": "SurajPratap10",
+  "Social_media": {
+    "gitHub": "https://github.com/SurajPratap10",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-pratap-948a92225/",
+    "Instagram": "https://www.instagram.com/aridoshikazu_1/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/SurajPratap10/CoinMeter_Project6",
+      "title": "CoinMeter",
+      "description": "CoinMeter is a completely responsive and functional real-time Cryptocurrency data fetching app. This app gives you the facility to analyze the top cryptocurrencies across the world and see their real-time market cap and exchanges with the help of a properly designed historical chart for each coin with a clean UI experience. It also has a trending section where the last 24 hours profitable coins are shown.",
+      "tech":  ["React JS", "Chart JS", "Material UI", "Context API"]
+    }
+  ]
+},
+  {
   "github_username": "Illaf",
   "Social_media": {
     "gitHub": "https://github.com/Illaf",
