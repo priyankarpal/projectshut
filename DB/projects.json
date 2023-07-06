@@ -3669,22 +3669,21 @@
     ]
   },
   {
-  "github_username": "Dimple-Choudhary",
+  "github_username": "Illaf",
   "Social_media": {
-    "gitHub": "https://github.com/Dimple-Choudhary",
-    "LinkedIn": "https://www.linkedin.com/in/dimple-choudhary--/",
+    "gitHub": "https://github.com/Illaf",
+    "LinkedIn": "https://www.linkedin.com/in/elaf-shafeeq-764420243",
     "Instagram": "#",
     "YouTube": "#",
-    "Twitter": "https://twitter.com/Dimple09_dev"
+    "Twitter": "#"
   },
   "Projects": [
     {
-      "link": "https://github.com/Dimple-Choudhary/headphone-product-landing-page",
-      "title": "headphone-product-landing-page",
-      "description": "The project is a product landing page designed for an e-commerce website focused on headphones.",
-      "tech": ["HTML", "CSS", "JavaScript"]
+      "link": "https://github.com/Illaf/The-Cat-Store/",
+      "title": "The-Cat-Store",
+      "description": "A colorful snd cute website for purchasing and donating cats",
+      "tech": ["HTML","CSS"]
     }
   ]
 }
-  
 ]
