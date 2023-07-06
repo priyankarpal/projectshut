@@ -138,7 +138,7 @@ const ProjectsPage: NextPage = () => {
   const getProjects = (selectedOptions?: any) => {
     const currProjects = getFilteredProjects(selectedOptions);
     setVisibleProjects(currProjects);
-    if (selectedOptions.project.length !== 0) {
+    if (selectedOptions.project.length !== 0 || selectedOptions.techStack.length !== 0) {
       setSearchItem(currProjects);
     } else {
       setSearchItem([]);
