@@ -3752,5 +3752,23 @@
     }
     
   ]
-}
+},
+{
+  "github_username": "Siddhant-Patil0203",  
+  "Social_media": {
+    "gitHub": "https://github.com/Siddhant-Patil0203",
+    "LinkedIn": "https://www.linkedin.com/in/sidd0203",
+    "Instagram": "https://www.instagram.com/sidd.0203",
+    "YouTube": "https://www.youtube.com/@sidd0203",
+    "Twitter": "https://twitter.com/Sidd0203"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/UBA-GCOEN/StichHub",
+      "title": "StichHub",
+      "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
+      "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
+    }
+    ]
+  }
 ]
