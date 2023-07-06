@@ -20,9 +20,9 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
   return (
     <section className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]">
       <div className="flex justify-between items-center mb-3">
-        <div className="capitalize text-lg/5 font-bold basis-full line-clamp-1 text-white ">
+        <h1 className="normal-case text-lg/5 font-bold basis-full line-clamp-1 text-white ">
           {title}
-        </div>
+        </h1>
         <Image
           src={`https://github.com/${username}.png`}
           alt={`${username}'s github profile`}
@@ -31,43 +31,37 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
           height={50}
         />
       </div>
-
       <p className="mb-2 line-clamp-2 text-white">{description}</p>
-
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between gap-5">
         {/*  GitHub Link Button */}
-        <div>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white border border-gray-700  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem] "
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className=" px-4 items-center group flex gap-2 justify-center text-center text-white border w-1/2 border-gray-700  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
+        >
+          GitHub
+          <span
+            className="group-hover:translate-x-1 duration-300 block"
+            aria-hidden="true"
           >
-            GitHub Link
-            <span
-              className="group-hover:translate-x-1 duration-300 block"
-              aria-hidden="true"
-            >
-              <ArrowRight size={15} />
-            </span>
-          </a>
-        </div>
-        <div>
-          {/* for user profile card page button  */}
-          <Link
-            href={`/projects/${username.toLowerCase()}`}
-            className="w-full px-4 items-center group flex gap-2 justify-center text-center text-white border border-gray-700  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem] "
-            // state={{ filter }}
+            <ArrowRight size={15} />
+          </span>
+        </a>
+        {/* for user profile card page button  */}
+        <Link
+          href={`/projects/${username.toLowerCase()}`}
+          className="w-1/2  px-4 items-center group flex gap-2 justify-center text-center text-white border border-gray-700  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem] "
+          // state={{ filter }}
+        >
+          More
+          <span
+            className="group-hover:translate-x-1 duration-300 block"
+            aria-hidden="true"
           >
-            More
-            <span
-              className="group-hover:translate-x-1 duration-300 block"
-              aria-hidden="true"
-            >
-              <ArrowRight size={15} />
-            </span>
-          </Link>
-        </div>
+            <ArrowRight size={15} />
+          </span>
+        </Link>
       </div>
     </section>
   );
