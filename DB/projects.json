@@ -3669,6 +3669,24 @@
     ]
   },
   {
+    "github_username": "Pro-18",
+    "Social_media": {
+      "gitHub": "https://github.com/Pro-18",
+      "LinkedIn": "https://www.linkedin.com/in/pragati-deshmukh-56080a222/",
+      "Instagram": "#",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Pro-18/wallpaper_viewer",
+        "title": "Wallpaper_Viewer",
+        "description": "The Python Wallpaper_Viewer project is that allows users to view their collection of wallpapers using a GUI built with the Tkinter library",
+        "tech": ["Python"]
+      }
+    ]
+  },
+  {
   "github_username": "Illaf",
   "Social_media": {
     "gitHub": "https://github.com/Illaf",
