@@ -3029,6 +3029,12 @@
         "title": "Tesla Clone",
         "description": "Tesla website clone with animation",
         "tech": ["HTML", "CSS", "JavaScript", "React"]
+      },
+      {
+        "link": "https://github.com/Prajwal0225/Booking_Application",
+        "title": "Airbnb Clone",
+        "description": "Airbnb clone with add accommodation and booking system",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
       }
     ]
   },
