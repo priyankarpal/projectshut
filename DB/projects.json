@@ -3733,5 +3733,24 @@
       "tech": ["React Native", "Expo","CSS3"]
     }
   ]
+},
+  {
+  "github_username": "Nishitbaria",
+  "Social_media": {
+    "gitHub": "https://github.com/Nishitbaria",
+    "LinkedIn": "https://www.linkedin.com/in/nishitbaria/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishitbaria1"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Nishitbaria/Laughhub",
+      "title": "Laughhub",
+      "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
+      "tech": ["React JS", "Nodejs"]
+    }
+    
+  ]
 }
 ]
