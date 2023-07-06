@@ -138,12 +138,20 @@ const ProjectsPage: NextPage = () => {
   const getProjects = (selectedOptions?: any) => {
     const currProjects = getFilteredProjects(selectedOptions);
     setVisibleProjects(currProjects);
-    if (selectedOptions.project.length !== 0 || selectedOptions.techStack.length !== 0) {
+    if (
+      (selectedOptions &&
+        selectedOptions.project &&
+        selectedOptions.project.length !== 0) ||
+      (selectedOptions &&
+        selectedOptions.techStack &&
+        selectedOptions.techStack.length !== 0)
+    ) {
       setSearchItem(currProjects);
     } else {
       setSearchItem([]);
     }
     if (
+      selectedOptions &&
       selectedOptions.techStack &&
       selectedOptions.techStack.length === 0 &&
       !selectedOptions.author &&
@@ -163,7 +171,11 @@ const ProjectsPage: NextPage = () => {
   const getFilteredProjects = (selectedOptions?: any) => {
     let filteredProjects = Projects;
 
-    if (selectedOptions.techStack && selectedOptions.techStack.length > 0) {
+    if (
+      selectedOptions &&
+      selectedOptions.techStack &&
+      selectedOptions.techStack.length > 0
+    ) {
       filteredProjects = selectedOptions.techStack.flatMap(
         (tech: string | RegExp) =>
           Projects.filter((obj) => {
@@ -173,7 +185,7 @@ const ProjectsPage: NextPage = () => {
           })
       );
     }
-    if (selectedOptions.author) {
+    if (selectedOptions && selectedOptions.author) {
       filteredProjects = searchProject(
         filteredProjects,
         selectedOptions.author,
@@ -181,7 +193,7 @@ const ProjectsPage: NextPage = () => {
       );
     }
 
-    if (selectedOptions.project) {
+    if (selectedOptions && selectedOptions.project) {
       filteredProjects = searchProject(
         filteredProjects,
         selectedOptions.project,
