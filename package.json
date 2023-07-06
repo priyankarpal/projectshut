@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.15",
     "@mui/material": "^5.13.7",
-    "@types/node": "20.3.3",
+    "@types/node": "20.4.0",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
