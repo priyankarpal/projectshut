@@ -1,6 +1,6 @@
 name: 🔖 Documentation update
 description: Improve Documentation
-title: 'Docs:'
+title: 'docs:'
 labels: ['📄 aspect: text', '🚦status: awaiting triage', '✨ goal: improvement', 'good first issue', '🟨 priority: medium']
 body:
   - type: textarea

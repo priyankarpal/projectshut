@@ -3675,6 +3675,24 @@
     ]
   },
   {
+  "github_username": "SurajPratap10",
+  "Social_media": {
+    "gitHub": "https://github.com/SurajPratap10",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-pratap-948a92225/",
+    "Instagram": "https://www.instagram.com/aridoshikazu_1/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/SurajPratap10/CoinMeter_Project6",
+      "title": "CoinMeter",
+      "description": "CoinMeter is a completely responsive and functional real-time Cryptocurrency data fetching app. This app gives you the facility to analyze the top cryptocurrencies across the world and see their real-time market cap and exchanges with the help of a properly designed historical chart for each coin with a clean UI experience. It also has a trending section where the last 24 hours profitable coins are shown.",
+      "tech":  ["React JS", "Chart JS", "Material UI", "Context API"]
+    }
+  ]
+},
+  {
   "github_username": "Illaf",
   "Social_media": {
     "gitHub": "https://github.com/Illaf",
@@ -3714,6 +3732,25 @@
       "description": "JobPilot is a cross-platform job update app built using React-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
       "tech": ["React Native", "Expo","CSS3"]
     }
+  ]
+},
+  {
+  "github_username": "Nishitbaria",
+  "Social_media": {
+    "gitHub": "https://github.com/Nishitbaria",
+    "LinkedIn": "https://www.linkedin.com/in/nishitbaria/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishitbaria1"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Nishitbaria/Laughhub",
+      "title": "Laughhub",
+      "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
+      "tech": ["React JS", "Nodejs"]
+    }
+    
   ]
 }
 ]
