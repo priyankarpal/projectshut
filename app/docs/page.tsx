@@ -1,9 +1,10 @@
 "use client";
 import { GitBranch, FileText, UploadCloud } from "react-feather";
-import { useEffect, ReactNode } from "react";
+import { useEffect, ReactNode, useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { Navbar, Footer } from "@/components";
+import Image from "next/image";
 
 type StepProps = {
   icon: ReactNode;
@@ -77,7 +78,7 @@ const option1Steps = [
 const option2Steps = [
   {
     icon: <FileText size={18} color="white" />,
-    text: "OR, If you want to run it locally then follow these steps",
+    text: "If you want to run it locally then follow these steps",
     code: ""
   },
   {
@@ -139,11 +140,14 @@ const option2Steps = [
 
 function Step({ icon, text, code, image }: StepProps): JSX.Element {
   const copyCode = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
-    navigator.clipboard.writeText(code).then(() => {
-      e.currentTarget.innerText = "Copied!";
-    });
+    const button = e.currentTarget as HTMLButtonElement;
+    const initialText = button.innerText;
+
+    navigator.clipboard.writeText(code);
+    button.innerText = "Copied!";
+
     setTimeout(() => {
-      e.currentTarget.innerText = "Copy";
+      button.innerText = initialText;
     }, 3000);
   };
 
@@ -161,7 +165,7 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
             <div className="flex items-end justify-end">
               <button
                 onClick={copyCode}
-                className="cursor-pointer text-indigo-600 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="cursor-pointer text-indigo-600"
               >
                 Copy
               </button>
@@ -171,32 +175,29 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
       </div>
       {code && (
         <div className="mt-2">
-          <SyntaxHighlighter language="nginx" style={a11yDark}>
+          <SyntaxHighlighter language="nginx" style={anOldHope}>
             {code}
           </SyntaxHighlighter>
         </div>
       )}
-      {image && <img src={image} alt={text} className="mt-2" />}
+      {image && <Image src={image} alt={text} className="mt-2" width={10000} height={600} />}
     </div>
   );
 }
 
-function AddYourProjectsGuide(): any {
+function AddYourProjectsGuide(): JSX.Element {
+  const [selectedOption, setSelectedOption] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const option2Render = option2Steps.map((step, index) => (
-    <Step
-      key={index}
-      icon={step.icon}
-      text={step.text}
-      code={step.code}
-    />
-  ));
+  let selectOption = (option: number) => {
+    setSelectedOption(option);
+  };
 
-  const option1Render = option1Steps.map((step, index) => (
+  const renderSteps = selectedOption === 0 ? option1Steps : option2Steps;
+  const stepsRender = renderSteps.map((step: any, index: number) => (
     <Step
       key={index}
       icon={step.icon}
@@ -235,12 +236,27 @@ function AddYourProjectsGuide(): any {
             />
           </svg>
         </div>
+        <div className="flex justify-center mt-10">
+          <button
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 0 ? "bg-indigo-600 text-white" : "border border-gray-700 text-gray-300"
+              }`}
+            onClick={() => selectOption(0)}
+          >
+            Add Projects Directly From GitHub
+          </button>
+          <button
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 1 ? "bg-indigo-600 text-white" : "border border-gray-700 text-gray-300"
+              }`}
+            onClick={() => selectOption(1)}
+          >
+            Set Up Projects Locally
+          </button>
+        </div>
         <article className="items-center max-w-5xl mx-auto">
           <p className="mb-5 text-xl font-bold tracking-tight text-red-500">
             Follow the following steps to add your projects to ProjectsHut:
           </p>
-          <div className="option1">{option1Render}</div>
-          <div className="option2">{option2Render}</div>
+          <div className="option">{stepsRender}</div>
         </article>
       </section>
       <Footer />
