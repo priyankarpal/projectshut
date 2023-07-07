@@ -28,15 +28,21 @@ interface SelectedOptions {
 }
 
 interface UserProjectType {
-  projectName: String
-  username: String
-  image: String
-  description: String
-  projectUrl: String
-  language: String[]
+  username: string
+  link: string
+  title: string
+  description: string
+  tech:string[]
+  // projectName: String
+  // username: String
+  // image: String
+  // link: string
+  // description: String
+  // projectUrl: String
+  // language: String[]
 }
 
-const ProjectsPage: NextPage<UserProjectType> = () => {
+const ProjectsPage: NextPage = () => {
 
   const [limit, setLimit] = useState(15)
 
