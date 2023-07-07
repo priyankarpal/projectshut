@@ -33,7 +33,7 @@ const Navbar: NextPage = () => {
 
   return (
     <nav className="bg-black top-0 z-10 sticky">
-      <div className="flex justify-between md:justify-around p-5 w-full ">
+      <div className="flex justify-between p-5 w-full px-24 ">
         {/* Logo for project Hut */}
         <div className="item-navbar block md:hidden" id="dropdown-menu">
           <IconButton
@@ -45,16 +45,24 @@ const Navbar: NextPage = () => {
           </IconButton>
         </div>
         <div className="item-navbar" id="logo-ph">
-          <Link
+          {/* <Link
             href="/"
             className="inline-flex h-10 items-center text-white rounded-lg font-extrabold text-[2rem]"
           >
             Ph <span className="text-primary">.</span>
-          </Link>
+          </Link> */}
+          <img src="https://github.com/priyankarpal/ProjectsHut/assets/98682478/42af3365-b388-423c-a220-6df45fc492b2"
+          style={{
+            width: "230px",
+            height: "50px",
+            margin: "5px",
+            // marginLeft: "50px",
+          }}
+          />
         </div>
 
         {/* Main element of navbar */}
-        <div className="item-navbar hidden md:block" id="elements-of-navbar">
+        <div className="item-navbar mt-auto mb-auto hidden md:block" id="elements-of-navbar">
           <ul className="flex items-center gap-5 text-[1rem]">
             {navLinks.map((navLink) => (
               <li key={navLink.path}>
