@@ -3338,6 +3338,16 @@
           "COINGECKOAPI",
           "JAVASCRIPT"
         ]
+      },
+       {
+        "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+        "title": "Qoute-Generator",
+        "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JAVASCRIPT"
+        ]
       }
     ]
   },
