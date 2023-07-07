@@ -3338,6 +3338,17 @@
           "COINGECKOAPI",
           "JAVASCRIPT"
         ]
+      },
+       {
+        "link": "https://github.com/BhartiNagpure/restaurant-website.git",
+        "title": "Restaurant-website",
+        "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc.",
+        "tech": [
+          "HTML",
+          "REACT",
+          "CSS",
+          "JAVASCRIPT"
+        ]
       }
     ]
   },
