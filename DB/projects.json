@@ -3802,5 +3802,23 @@
       "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
     }
     ]
-  }
+  },
+  {
+    "github_username": "PriyansuMaurya",  
+    "Social_media": {
+      "gitHub": "https://github.com/PriyansuMaurya",
+      "LinkedIn": "https://www.linkedin.com/in/priyanshu-maurya/",
+      "Instagram": "https://www.instagram.com/knownpriyanshu/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/PrianshuMaurya"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/PriyansuMaurya/AI-Fusion",
+        "title": "AI Fusion",
+        "description": "AI Fusion is one place for all your AI needs. It serves as your ultimate destination for streamlined access to a curated collection of powerful AI tools and prompts. With direct links to a variety of resources, our website eliminates hassle and empowers you to effortlessly enhance your productivity.",
+        "tech": ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"]
+      }
+      ]
+    }
 ]
