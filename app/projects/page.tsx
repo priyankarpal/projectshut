@@ -3,7 +3,8 @@ import { NextPage } from "next";
 import React, { useEffect, useState, Fragment } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Dialog, Transition } from "@headlessui/react";
-import { Filter } from "react-feather";
+import { BsFilter } from "react-icons/bs";
+import { MdClear } from "react-icons/md";
 import techStack from "../../utils/techStack";
 import { searchProject } from "../../utils/searchProject";
 import ProjectLoading from "../../components/ProjectLoading";
@@ -222,7 +223,7 @@ const ProjectsPage: NextPage = () => {
             type="text"
             id="combo-box-demo"
             placeholder="Search by project name"
-            className={`border-2 text-white outline-none border-primary rounded-md p-2  bg-transparent `}
+            className={`border-2 text-white outline-none duration-200  border-gray-700 hover:border-primary rounded-md p-2  bg-transparent `}
             onChange={(e) => {
               handleOptionClick && handleOptionClick("project", e.target.value);
             }}
@@ -231,7 +232,7 @@ const ProjectsPage: NextPage = () => {
         </div>
         <div className="flex items-stretch">
           <button
-            className="border border-primary rounded-sm p-3 flex items-stretch text-white"
+            className="border border-gray-600 hover:border-gray-500 rounded-md p-2 flex items-stretch text-white"
             onClick={() => setOpenFilter(!openFilter)}
           >
             Filter{" "}
@@ -242,16 +243,16 @@ const ProjectsPage: NextPage = () => {
                 </div>
               ) : (
                 <div className="mt-1">
-                  <Filter size={20} />
+                  <BsFilter />
                 </div>
               )}
             </div>
           </button>
           <button
-            className="border border-primary rounded-sm p-3 mx-2 text-white"
+            className=" rounded-md border  border-gray-600 hover:border-gray-500 p-2 mx-2 text-white"
             onClick={() => handleClear()}
           >
-            Clear
+            <MdClear />
           </button>
         </div>
 
