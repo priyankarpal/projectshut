@@ -3029,6 +3029,12 @@
         "title": "Tesla Clone",
         "description": "Tesla website clone with animation",
         "tech": ["HTML", "CSS", "JavaScript", "React"]
+      },
+      {
+        "link": "https://github.com/Prajwal0225/Booking_Application",
+        "title": "Airbnb Clone",
+        "description": "Airbnb clone with add accommodation and booking system",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
       }
     ]
   },
@@ -3332,6 +3338,26 @@
           "COINGECKOAPI",
           "JAVASCRIPT"
         ]
+      },
+      {
+        "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+        "title": "Qoute-Generator",
+        "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+        "tech": [
+          "HTML",
+           "CSS",
+          "JAVASCRIPT"
+          ]
+       },
+      { 
+        "link": "https://github.com/BhartiNagpure/restaurant-website.git",
+        "title": "Restaurant-website",
+        "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc.",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JAVASCRIPT"
+        ]
       }
     ]
   },
@@ -3513,6 +3539,12 @@
         "title": "Cookie Clicker Bot",
         "description": "A bot that can play the classic cookie clicker game",
         "tech": ["Python"]
+      },
+       {
+        "link": "https://github.com/whiteknight16/AudioBook/tree/main",
+        "title": "Audio Book",
+        "description": "Give a pdf and the bot can read it out for you",
+        "tech": ["Python"]
       }
     ]
   },
@@ -3634,6 +3666,12 @@
         "title": "SIMON GAME",
         "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
         "tech": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "link": "https://github.com/AdityaLahane-2003/NightCanteen",
+        "title": "NIGHT CANTEEN MANAGEMENT",
+        "description": "Hello ! Here is a Full Stack Web App.A responsive Web app where one can order food online, having Admin Panel with access to add & delete menu items!",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
       }
     ]
   },
@@ -3669,6 +3707,24 @@
     ]
   },
   {
+  "github_username": "SurajPratap10",
+  "Social_media": {
+    "gitHub": "https://github.com/SurajPratap10",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-pratap-948a92225/",
+    "Instagram": "https://www.instagram.com/aridoshikazu_1/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/SurajPratap10/CoinMeter_Project6",
+      "title": "CoinMeter",
+      "description": "CoinMeter is a completely responsive and functional real-time Cryptocurrency data fetching app. This app gives you the facility to analyze the top cryptocurrencies across the world and see their real-time market cap and exchanges with the help of a properly designed historical chart for each coin with a clean UI experience. It also has a trending section where the last 24 hours profitable coins are shown.",
+      "tech":  ["React JS", "Chart JS", "Material UI", "Context API"]
+    }
+  ]
+},
+  {
   "github_username": "Illaf",
   "Social_media": {
     "gitHub": "https://github.com/Illaf",
@@ -3685,5 +3741,66 @@
       "tech": ["HTML","CSS"]
     }
   ]
-}
+},
+{
+  "github_username": "hritikd3",
+  "Social_media": {
+    "gitHub": "https://github.com/hritikd3",
+    "LinkedIn": "https://www.linkedin.com/in/hritikd3",
+    "Instagram": "#",
+    "YouTube": "https://www.youtube.com/watch?v=zHReFuFUI34&pp=ygUSZHVhbCByZW1peCBtaW5kc2Ri",
+    "Twitter": "https://twitter.com/UnrevealRich"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/hritikd3/cocktaildb",
+      "title": "CocktailDB",
+      "description": "CocktailDB is a web application that allows users to explore a vast collection of cocktails, along with their prices, ingredients, and details",
+      "tech": ["React JS", "Rapid API","CSS3"]
+    },
+    {
+      "link": "https://github.com/hritikd3/job-update-reactNative-app",
+      "title": "job-update-reactNative-app",
+      "description": "JobPilot is a cross-platform job update app built using React-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
+      "tech": ["React Native", "Expo","CSS3"]
+    }
+  ]
+},
+  {
+  "github_username": "Nishitbaria",
+  "Social_media": {
+    "gitHub": "https://github.com/Nishitbaria",
+    "LinkedIn": "https://www.linkedin.com/in/nishitbaria/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishitbaria1"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Nishitbaria/Laughhub",
+      "title": "Laughhub",
+      "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
+      "tech": ["React JS", "Nodejs"]
+    }
+    
+  ]
+},
+{
+  "github_username": "Siddhant-Patil0203",  
+  "Social_media": {
+    "gitHub": "https://github.com/Siddhant-Patil0203",
+    "LinkedIn": "https://www.linkedin.com/in/sidd0203",
+    "Instagram": "https://www.instagram.com/sidd.0203",
+    "YouTube": "https://www.youtube.com/@sidd0203",
+    "Twitter": "https://twitter.com/Sidd0203"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/UBA-GCOEN/StichHub",
+      "title": "StichHub",
+      "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
+      "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
+    }
+    ]
+  }
 ]

@@ -11,7 +11,7 @@ The main aim of ProjectsHut is to foster a collaborative community of creative i
 
 </p>
 
-![ph](https://github.com/priyankarpal/ProjectsHut/assets/88102392/6d99804f-14df-420b-9a4d-486953d59b11)
+![ph](https://github.com/priyankarpal/ProjectsHut/assets/88102392/e71396f9-92c6-4664-b7e4-4275cb902e65)
 
 ## 💻 Tech Stack
 
@@ -28,7 +28,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 > **Warning**: Please do not spam the repository with unnecessary PRs. Make sure to follow the project's [code of conduct](/CODE_OF_CONDUCT.md).
 
 - Go through the [CONTRIBUTING.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
-- Do checkout the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
+- Do check out the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
 
 ## 🤝 Our Contributors
 
