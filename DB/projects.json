@@ -3338,6 +3338,26 @@
           "COINGECKOAPI",
           "JAVASCRIPT"
         ]
+      },
+      {
+        "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+        "title": "Qoute-Generator",
+        "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+        "tech": [
+          "HTML",
+           "CSS",
+          "JAVASCRIPT"
+          ]
+       },
+      { 
+        "link": "https://github.com/BhartiNagpure/restaurant-website.git",
+        "title": "Restaurant-website",
+        "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc.",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JAVASCRIPT"
+        ]
       }
     ]
   },
@@ -3758,5 +3778,23 @@
     }
     
   ]
-}
+},
+{
+  "github_username": "Siddhant-Patil0203",  
+  "Social_media": {
+    "gitHub": "https://github.com/Siddhant-Patil0203",
+    "LinkedIn": "https://www.linkedin.com/in/sidd0203",
+    "Instagram": "https://www.instagram.com/sidd.0203",
+    "YouTube": "https://www.youtube.com/@sidd0203",
+    "Twitter": "https://twitter.com/Sidd0203"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/UBA-GCOEN/StichHub",
+      "title": "StichHub",
+      "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
+      "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
+    }
+    ]
+  }
 ]
