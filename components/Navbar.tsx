@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import { NextPage } from "next";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import { Menu } from "react-feather";
 import Link from "next/link";
 import SideMenu from "./SideMenu";
+import { usePathname } from "next/navigation";
+
 
 const Navbar: NextPage = () => {
+  const activePath = usePathname();
   const [mobileOpen, setMobileOpen] = useState<boolean>();
   const navLinks = [
     {
@@ -31,7 +34,9 @@ const Navbar: NextPage = () => {
     setMobileOpen(!mobileOpen);
   };
 
+
   return (
+    <Suspense>
     <nav className="bg-black top-0 z-10 sticky">
       <div className="flex justify-between md:justify-around p-5 w-full ">
         {/* Logo for project Hut */}
@@ -60,10 +65,10 @@ const Navbar: NextPage = () => {
               <li key={navLink.path}>
                 <Link
                   href={navLink.path}
-                  className={`inline-block py-2 px-3 text-center text-white  hover:text-primary rounded-lg`}
+                  className={activePath === navLink.path ? 'inline-block py-2 px-3 text-center text-primary  hover:text-primary rounded-lg' :  'inline-block py-2 px-3 text-center text-white  hover:text-primary rounded-lg'}
                 >
                   {navLink.name}
-                </Link>
+            </Link>
               </li>
             ))}
           </ul>
@@ -85,6 +90,7 @@ const Navbar: NextPage = () => {
         </Drawer>
       </div>
     </nav>
+    </Suspense>
   );
 };
 
