@@ -365,7 +365,7 @@ const ProjectsPage: NextPage = () => {
             </InfiniteScroll>
           ) : (
             <div className="flex justify-center items-center h-[50vh]">
-              <h1 className="text-2xl font-bold text-center">
+              <h1 className="text-2xl font-bold text-center text-white ">
                 No Projects Found
               </h1>
             </div>
