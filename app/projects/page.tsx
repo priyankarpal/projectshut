@@ -12,6 +12,7 @@ import ProjectCard from "../../components/ProjectCard";
 import projects from "../../DB/projects.json";
 import { useRouter } from "next/navigation";
 import { Footer, Navbar } from "@/components";
+import { FaSortAlphaDown } from "react-icons/fa";
 
 interface NewProjectsType {
   username: string;
@@ -51,6 +52,8 @@ const ProjectsPage: NextPage = () => {
   });
 
   const [searchitem, setSearchItem] = useState<any>([]);
+
+  const [sortClose, setSortClose] = useState<boolean>(true);
 
   useEffect(() => {
     // Set URL based on option selection
@@ -204,6 +207,34 @@ const ProjectsPage: NextPage = () => {
     return [...new Set(filteredProjects)];
   };
 
+  const sortProjects = (type: string, order: string) => {
+    if (type === "name"){
+      if (order === "asc"){
+        Projects.sort((a: NewProjectsType, b: NewProjectsType) => {
+          return a.title.localeCompare(b.title);
+        });
+      } else {
+        Projects.sort((a: NewProjectsType, b: NewProjectsType) => {
+          return b.title.localeCompare(a.title);
+        });
+      }
+    } else if (type === "author"){
+      if (order === "asc"){
+        Projects.sort((a: NewProjectsType, b: NewProjectsType) => {
+          return a.username.localeCompare(b.username);
+        });
+      } else {
+        Projects.sort((a: NewProjectsType, b: NewProjectsType) => {
+          return b.username.localeCompare(a.username);
+        });
+      }
+    }
+
+    setSortClose(true);
+    getProjects(null);
+    return Projects;
+  };
+
   const handleClear = () => {
     if (handleOptionClick) {
       handleOptionClick("clear", "");
@@ -230,6 +261,54 @@ const ProjectsPage: NextPage = () => {
           />
         </div>
         <div className="flex items-stretch">
+          <div className="relative">
+            <button
+              className="border border-primary rounded-sm p-3 flex items-stretch text-white mr-2"
+              onClick={(e) => setSortClose(!sortClose)}
+            >
+              Sort{" "}
+              <div className="ml-2 ">
+                <div className="mt-1">
+                      <FaSortAlphaDown size={20} />
+                </div>
+              </div>
+            </button>
+            {
+              sortClose ? null : (
+                <>
+                  <div className="absolute left-16">
+                    <div className="w-0 h-0 border-l-[10px] border-r-[10px] border-transparent border-b-[10px] border-b-primary"></div>
+                    <ul className="bg-black border-primary text-white border-2 w-36 text-center">
+                      <li
+                        className="border-b-2 p-2 border-primary cursor-pointer"
+                        onClick={(e) => sortProjects("name", "asc")}
+                        >
+                        A to Z by name
+                      </li>
+                      <li
+                        className="border-b-2 p-2 border-primary cursor-pointer"
+                        onClick={(e) => sortProjects("name", "desc")}
+                        >
+                        Z to A by name
+                      </li>
+                      <li
+                        className="border-b-2 p-2 border-primary cursor-pointer"
+                        onClick={(e) => sortProjects("author", "asc")}
+                        >
+                        A to Z by author
+                      </li>
+                      <li
+                        className="p-2 border-primary cursor-pointer"
+                        onClick={(e) => sortProjects("author", "desc")}
+                      >
+                        Z to A by author
+                      </li>
+                    </ul>
+                  </div>
+                </>
+              )
+            }
+          </div>
           <button
             className="border border-primary rounded-sm p-3 flex items-stretch text-white"
             onClick={() => setOpenFilter(!openFilter)}
