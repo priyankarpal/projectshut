@@ -3539,6 +3539,12 @@
         "title": "Cookie Clicker Bot",
         "description": "A bot that can play the classic cookie clicker game",
         "tech": ["Python"]
+      },
+       {
+        "link": "https://github.com/whiteknight16/AudioBook/tree/main",
+        "title": "Audio Book",
+        "description": "Give a pdf and the bot can read it out for you",
+        "tech": ["Python"]
       }
     ]
   },
