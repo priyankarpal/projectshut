@@ -223,7 +223,7 @@ const ProjectsPage: NextPage = () => {
             type="text"
             id="combo-box-demo"
             placeholder="Search by project name"
-            className={`border-2 text-white outline-none border-primary rounded-md p-2  bg-transparent `}
+            className={`border-2 text-white outline-none duration-200  border-gray-700 hover:border-primary rounded-md p-2  bg-transparent `}
             onChange={(e) => {
               handleOptionClick && handleOptionClick("project", e.target.value);
             }}
