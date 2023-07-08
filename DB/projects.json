@@ -3660,6 +3660,12 @@
         "title": "SIMON GAME",
         "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
         "tech": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "link": "https://github.com/AdityaLahane-2003/NightCanteen",
+        "title": "NIGHT CANTEEN MANAGEMENT",
+        "description": "Hello ! Here is a Full Stack Web App.A responsive Web app where one can order food online, having Admin Panel with access to add & delete menu items!",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
       }
     ]
   },
