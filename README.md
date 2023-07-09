@@ -36,7 +36,6 @@ Thank you for your interest in contributing to our project! We appreciate any co
 
 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
 
-
 ## ✨ Authors(only for GSSoC'23)
 
 [Priyankar Pal](https://github.com/priyankarpal) - Project Admin
