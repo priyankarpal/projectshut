@@ -1,5 +1,5 @@
 "use client";
-import { GitBranch, FileText, UploadCloud } from "react-feather";
+import { GitBranch, FileText, UploadCloud, Clipboard, CheckCircle } from "react-feather";
 import { useEffect, ReactNode, useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -139,15 +139,12 @@ const option2Steps = [
 ];
 
 function Step({ icon, text, code, image }: StepProps): JSX.Element {
+  const [copyCodeButton, setcopyCodeButton] = useState(true)
   const copyCode = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
-    const button = e.currentTarget as HTMLButtonElement;
-    const initialText = button.innerText;
-
+    setcopyCodeButton(false)
     navigator.clipboard.writeText(code);
-    button.innerText = "Copied!";
-
     setTimeout(() => {
-      button.innerText = initialText;
+      setcopyCodeButton(true)
     }, 3000);
   };
 
@@ -167,7 +164,8 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
                 onClick={copyCode}
                 className="cursor-pointer text-indigo-600"
               >
-                Copy
+                {copyCodeButton && <Clipboard size='18' color="white"/>}
+                {!copyCodeButton && <CheckCircle size='18' color="green"/>}
               </button>
             </div>
           )}
