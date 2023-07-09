@@ -31,7 +31,9 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
           height={50}
         />
       </div>
-      <p className="mb-2 line-clamp-2 text-white">{description}</p>
+      <div className="h-14">
+        <p className="mb-2 line-clamp-2 text-white">{description}</p>
+      </div>
       <div className="flex flex-row justify-between gap-5">
         {/*  GitHub Link Button */}
         <a
