@@ -3814,19 +3814,19 @@
   },
   "Projects": [
     {
-      "link": "https://www.surajgoswami.me/",
+      "link": "https://github.com/SurajG20/Portfolio-Website",
       "title": "Portfolio Website",
       "description": "My Personal Portfolio made in React and TailwindCss deployed on Vercel",
       "tech": ["React JS", "Tailwind CSS"]
     },
     {
-      "link": "https://cinemato-two.vercel.app/",
+      "link": "https://github.com/SurajG20/Cinemato",
       "title": "Movie App",
       "description": "A Movie app made in React using TMDB api deployed on Vercel",
       "tech": ["React JS", "Sass"]
     },
     {
-      "link": "https://surajg20.github.io/Weather-App/",
+      "link": "https://github.com/SurajG20/Weather-App",
       "title": "Weather App",
       "description": "Weather app made in React using OpenWeather Api and GeoDbApi for city suggestions",
       "tech": ["React JS", "CSS"]
