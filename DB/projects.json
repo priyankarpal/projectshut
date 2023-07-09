@@ -3802,6 +3802,37 @@
       "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
     }
     ]
+  }, 
+  {
+  "github_username": "SurajG20",
+  "Social_media": {
+    "gitHub": "https://github.com/SurajG20",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-goswami01",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/SurajG20/Portfolio-Website",
+      "title": "Portfolio Website",
+      "description": "My Personal Portfolio made in React and TailwindCss deployed on Vercel",
+      "tech": ["React JS", "Tailwind CSS"]
+    },
+    {
+      "link": "https://github.com/SurajG20/Cinemato",
+      "title": "Movie App",
+      "description": "A Movie app made in React using TMDB api deployed on Vercel",
+      "tech": ["React JS", "Sass"]
+    },
+    {
+      "link": "https://github.com/SurajG20/Weather-App",
+      "title": "Weather App",
+      "description": "Weather app made in React using OpenWeather Api and GeoDbApi for city suggestions",
+      "tech": ["React JS", "CSS"]
+    }
+  ]
+
   },
   {
     "github_username": "PriyansuMaurya",  
