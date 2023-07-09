@@ -3338,6 +3338,26 @@
           "COINGECKOAPI",
           "JAVASCRIPT"
         ]
+      },
+      {
+        "link": "https://github.com/BhartiNagpure/Qoute-Generator.git",
+        "title": "Qoute-Generator",
+        "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
+        "tech": [
+          "HTML",
+           "CSS",
+          "JAVASCRIPT"
+          ]
+       },
+      { 
+        "link": "https://github.com/BhartiNagpure/restaurant-website.git",
+        "title": "Restaurant-website",
+        "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc.",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JAVASCRIPT"
+        ]
       }
     ]
   },
@@ -3519,6 +3539,12 @@
         "title": "Cookie Clicker Bot",
         "description": "A bot that can play the classic cookie clicker game",
         "tech": ["Python"]
+      },
+       {
+        "link": "https://github.com/whiteknight16/AudioBook/tree/main",
+        "title": "Audio Book",
+        "description": "Give a pdf and the bot can read it out for you",
+        "tech": ["Python"]
       }
     ]
   },
@@ -3640,6 +3666,12 @@
         "title": "SIMON GAME",
         "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
         "tech": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "link": "https://github.com/AdityaLahane-2003/NightCanteen",
+        "title": "NIGHT CANTEEN MANAGEMENT",
+        "description": "Hello ! Here is a Full Stack Web App.A responsive Web app where one can order food online, having Admin Panel with access to add & delete menu items!",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
       }
     ]
   },
@@ -3770,5 +3802,73 @@
       "tech": ["HTML", "CSS", "JAVASCRIPT"]
     }
   ]
-  }
+  },
+
+{
+  "github_username": "Siddhant-Patil0203",  
+  "Social_media": {
+    "gitHub": "https://github.com/Siddhant-Patil0203",
+    "LinkedIn": "https://www.linkedin.com/in/sidd0203",
+    "Instagram": "https://www.instagram.com/sidd.0203",
+    "YouTube": "https://www.youtube.com/@sidd0203",
+    "Twitter": "https://twitter.com/Sidd0203"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/UBA-GCOEN/StichHub",
+      "title": "StichHub",
+      "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
+      "tech": ["MERN", "AR", "Threejs", "TailwindCSS"]
+    }
+    ]
+  }, 
+  {
+  "github_username": "SurajG20",
+  "Social_media": {
+    "gitHub": "https://github.com/SurajG20",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-goswami01",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/SurajG20/Portfolio-Website",
+      "title": "Portfolio Website",
+      "description": "My Personal Portfolio made in React and TailwindCss deployed on Vercel",
+      "tech": ["React JS", "Tailwind CSS"]
+    },
+    {
+      "link": "https://github.com/SurajG20/Cinemato",
+      "title": "Movie App",
+      "description": "A Movie app made in React using TMDB api deployed on Vercel",
+      "tech": ["React JS", "Sass"]
+    },
+    {
+      "link": "https://github.com/SurajG20/Weather-App",
+      "title": "Weather App",
+      "description": "Weather app made in React using OpenWeather Api and GeoDbApi for city suggestions",
+      "tech": ["React JS", "CSS"]
+    }
+  ]
+
+  },
+  {
+    "github_username": "PriyansuMaurya",  
+    "Social_media": {
+      "gitHub": "https://github.com/PriyansuMaurya",
+      "LinkedIn": "https://www.linkedin.com/in/priyanshu-maurya/",
+      "Instagram": "https://www.instagram.com/knownpriyanshu/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/PrianshuMaurya"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/PriyansuMaurya/AI-Fusion",
+        "title": "AI Fusion",
+        "description": "AI Fusion is one place for all your AI needs. It serves as your ultimate destination for streamlined access to a curated collection of powerful AI tools and prompts. With direct links to a variety of resources, our website eliminates hassle and empowers you to effortlessly enhance your productivity.",
+        "tech": ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"]
+      }
+      ]
+    }
 ]

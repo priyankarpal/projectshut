@@ -1,4 +1,4 @@
-export const shuffleProjects = (project:any) => {
+export const shuffleProjects = (project: any) => {
   let i = project.length;
 
   let j = 0;

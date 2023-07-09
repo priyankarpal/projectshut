@@ -36,7 +36,6 @@ Thank you for your interest in contributing to our project! We appreciate any co
 
 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
 
-
 ## ✨ Authors(only for GSSoC'23)
 
 [Priyankar Pal](https://github.com/priyankarpal) - Project Admin
@@ -54,7 +53,8 @@ We value the time and effort you put into contributing, and we look forward to r
 </table>
 <div align=center>
   <h2>This Project is part of</h2>
-  <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
+  <img alt="GSSoC" src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png#gh-light-mode-only" width=87%>
+  <img alt="GSSoC" src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only"/>
 </div>
 
 ## ©️ License
