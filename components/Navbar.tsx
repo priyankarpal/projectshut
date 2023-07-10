@@ -1,3 +1,4 @@
+'use client'
 import React, { Suspense, useState } from "react";
 import { NextPage } from "next";
 import Drawer from "@mui/material/Drawer";
