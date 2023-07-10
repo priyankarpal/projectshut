@@ -1,21 +1,11 @@
-export const shuffleProjects = (project: any) => {
-  let i = project.length;
-
-  let j = 0;
-
-  let temp;
+export const shuffleProjects = (projects: any) => {
+  let i = projects.length;
 
   while (i--) {
-    j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(Math.random() * (i + 1));
 
-    // swap randomly chosen element with current element
-
-    temp = project[i];
-
-    project[i] = project[j];
-
-    project[j] = temp;
+    [projects[i], projects[j]] = [projects[j], projects[i]];
   }
 
-  return project;
+  return projects;
 };
