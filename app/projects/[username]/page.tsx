@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import Footer from "@/components/Footer";
 import {
   FaGithub,
   FaInstagram,
@@ -303,7 +302,6 @@ function ProjectList() {
           </div>
         )}{" "}
       </section>
-      <Footer />
     </>
   );
 }

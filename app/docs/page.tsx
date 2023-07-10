@@ -2,7 +2,7 @@
 import { useEffect, ReactNode, useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import { Navbar, Footer } from "@/components";
+import { Navbar } from "@/components";
 import Image from "next/image";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { BsCheck2Circle } from "react-icons/bs";
@@ -254,21 +254,19 @@ function AddYourProjectsGuide(): JSX.Element {
         </div>
         <div className="flex justify-center mt-10">
           <button
-            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${
-              selectedOption === 0
-                ? "bg-indigo-600 text-white"
-                : "border border-gray-700 text-gray-300"
-            }`}
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 0
+              ? "bg-indigo-600 text-white"
+              : "border border-gray-700 text-gray-300"
+              }`}
             onClick={() => selectOption(0)}
           >
             Add Projects Directly From GitHub
           </button>
           <button
-            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${
-              selectedOption === 1
-                ? "bg-indigo-600 text-white"
-                : "border border-gray-700 text-gray-300"
-            }`}
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 1
+              ? "bg-indigo-600 text-white"
+              : "border border-gray-700 text-gray-300"
+              }`}
             onClick={() => selectOption(1)}
           >
             Set Up Projects Locally
@@ -281,7 +279,6 @@ function AddYourProjectsGuide(): JSX.Element {
           <div className="option">{stepsRender}</div>
         </article>
       </section>
-      <Footer />
     </>
   );
 }

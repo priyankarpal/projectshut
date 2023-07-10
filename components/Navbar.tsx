@@ -1,15 +1,10 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense } from "react";
 import { NextPage } from "next";
-import Drawer from "@mui/material/Drawer";
-import IconButton from "@mui/material/IconButton";
-import { CgMenuGridO } from "react-icons/cg";
 import Link from "next/link";
-import SideMenu from "./SideMenu";
 import { usePathname } from "next/navigation";
 
 const Navbar: NextPage = () => {
   const activePath = usePathname();
-  const [mobileOpen, setMobileOpen] = useState<boolean>();
   const navLinks = [
     {
       name: "Home",
@@ -29,24 +24,11 @@ const Navbar: NextPage = () => {
     },
   ];
 
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
-
   return (
     <Suspense>
       <nav className="bg-black top-0 z-10 sticky">
         <div className="flex justify-between md:justify-around p-5 w-full ">
           {/* Logo for project Hut */}
-          <div className="item-navbar block md:hidden" id="dropdown-menu">
-            <IconButton
-              aria-label="open drawer"
-              edge="start"
-              onClick={handleDrawerToggle}
-            >
-              <CgMenuGridO className="w-7 h-7 text-white" />
-            </IconButton>
-          </div>
           <div className="item-navbar" id="logo-ph">
             <Link
               href="/"
@@ -75,21 +57,6 @@ const Navbar: NextPage = () => {
               ))}
             </ul>
           </div>
-
-          <Drawer
-            className="block md:hidden"
-            variant="temporary"
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
-            }}
-            sx={{
-              "& .MuiDrawer-paper": { boxSizing: "border-box", width: "60%" },
-            }}
-          >
-            <SideMenu handleDrawerToggle={handleDrawerToggle} />
-          </Drawer>
         </div>
       </nav>
     </Suspense>
