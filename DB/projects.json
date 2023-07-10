@@ -3791,6 +3791,25 @@
     
   ]
 },
+  {
+  "github_username": "PrernaSingh01",
+  "Social_media": {
+    "GitHub": "https://github.com/PrernaSingh01",
+    "LinkedIn": "https://www.linkedin.com/in/prernasingh4/",
+    "Instagram": "https://www.instagram.com/code_prerna/",
+    "YouTube": "https://www.youtube.com/channel/UCdZNMncvogqij1b4-J6hqEw",
+    "Twitter": "https://twitter.com/i_prernasingh"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/PrernaSingh01/Todo_App",
+      "title": "Todo_App",
+      "description": "A straightforward Todo_App built with HTML, CSS, and JavaScript. It allows users to create tasks, and delete tasks. The app features a clean and responsive design, ensuring a seamless experience across devices.",
+      "tech": ["HTML", "CSS", "JAVASCRIPT"]
+    }
+  ]
+  },
+
 {
   "github_username": "Siddhant-Patil0203",  
   "Social_media": {
