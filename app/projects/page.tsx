@@ -12,7 +12,7 @@ import { shuffleProjects } from "../../utils/paginate";
 import ProjectCard from "../../components/ProjectCard";
 import projects from "../../DB/projects.json";
 import { useRouter } from "next/navigation";
-import { Footer, Navbar } from "@/components";
+import { Navbar } from "@/components";
 
 interface NewProjectsType {
   username: string;
@@ -363,7 +363,6 @@ const ProjectsPage: NextPage = () => {
           )}
         </div>
       </section>
-      <Footer />
     </>
   );
 };
