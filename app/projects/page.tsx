@@ -206,9 +206,9 @@ const ProjectsPage: NextPage = () => {
   };
 
   const handleClear = () => {
-    if (handleOptionClick) {
+    if (selectedOptions.author !=="" ||  selectedOptions.project !=="" || selectedOptions.techStack.length != 0) {
       handleOptionClick("clear", "");
-      getProjects();
+      // getProjects();
     }
   };
   return (

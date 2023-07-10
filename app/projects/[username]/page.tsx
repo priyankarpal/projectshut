@@ -4,17 +4,18 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import Footer from "@/components/Footer";
 import {
-  GitHub,
-  Twitter,
-  Linkedin,
-  Instagram,
-  Youtube,
-  ArrowLeftCircle,
-  Copy,
-  Share2,
-  Check,
-  X,
-} from "react-feather";
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+import { MdArrowBackIosNew } from "react-icons/md";
+import { FiShare2 } from "react-icons/fi";
+import { BsCheck2Circle } from "react-icons/bs";
+import { MdOutlineContentCopy } from "react-icons/md";
+import { IoClose } from "react-icons/io5";
+
 import projects from "../../../DB/projects.json";
 import Image from "next/image";
 import { Navbar } from "@/components";
@@ -100,19 +101,19 @@ function ProjectList() {
           <div className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 text-white border border-gray-800">
             {/* Back to projects link */}
             <div className="flex items-center justify-between my-4">
-              <div className="hover:text-purple-500 transition-all duration-300 ease-in-out flex-grow flex gap-2 items-center">
-                <Link href="/projects" className="flex items-stretch">
-                  <ArrowLeftCircle size={20} className="mt-0.5" />
-                  <span className="ml-2">Back to All Projects</span>
-                </Link>
+              <div>
+                <div className="hover:text-purple-500 transition-all duration-300 ease-in-out flex-grow flex gap-2  items-center">
+                  <Link href="/projects" className="flex items-stretch">
+                    <MdArrowBackIosNew className="mt-0.5 text-[1.5rem]" />
+                  </Link>
+                </div>
               </div>
+              {/* share button */}
               <div
-                className="hover:text-purple-500 transition-all duration-300 ease-in-out flex cursor-pointer"
+                className="hover:text-purple-500 transition-all duration-500 ease-in-out flex cursor-pointer"
                 onClick={() => handleShareProfile()}
               >
-                <span>
-                  <Share2 size={20} className="mt-0.5" />
-                </span>
+                <FiShare2 className="text-[1.5rem]" />
               </div>
             </div>
 
@@ -143,7 +144,7 @@ function ProjectList() {
                     className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
-                    <GitHub />
+                    <FaGithub />
                   </a>
                 </div>
               )}
@@ -156,7 +157,7 @@ function ProjectList() {
                     className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
-                    <Linkedin />
+                    <FaLinkedin />
                   </a>
                 </div>
               )}
@@ -169,7 +170,7 @@ function ProjectList() {
                     className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
-                    <Twitter />
+                    <FaTwitter />
                   </a>
                 </div>
               )}
@@ -182,7 +183,7 @@ function ProjectList() {
                     className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
-                    <Youtube />
+                    <FaYoutube />
                   </a>
                 </div>
               )}
@@ -195,7 +196,7 @@ function ProjectList() {
                     className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
-                    <Instagram />
+                    <FaInstagram />
                   </a>
                 </div>
               )}
@@ -231,7 +232,7 @@ function ProjectList() {
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500 "
                       aria-label="Github"
                     >
-                      <GitHub size={30} />
+                      <FaGithub size={30} />
                     </a>
                   </span>
                 </div>
@@ -263,36 +264,37 @@ function ProjectList() {
             <div className="fixed inset-0 z-10 overflow-y-auto">
               <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0 ">
                 <div className="relative transform overflow-hidden rounded-lg  transition-all sm:my-8 w-full sm:max-w-lg ">
-                  <div className="bg-white px-4 py-4 md:p-6 relative ">
-                    <p className="text-center font-bold mt-2 mb-4">
+                  <div className="bg-gray-200 border px-4 py-4 md:p-6 relative ">
+                    <p className="text-center text-xl font-bold mt-2 mb-4">
                       {" "}
-                      Share Your Profile 🎉🎉🎉
+                      Share Your Profile 🎉
                     </p>
                     <div className="flex justify-center w-full">
                       <input
-                        className="h-full w-3/4 rounded-[7px] border border-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-blue-gray-200 "
+                        className="w-3/4 border bg-transparent  rounded-md p-2 "
                         value={window.location.href}
                         disabled
                       />
                       <button onClick={() => copyText()}>
                         {isCopied ? (
                           <div className="flex items-stretch ">
-                            <Check
-                              style={{ color: "green", fontSize: "5rem" }}
+                            <BsCheck2Circle
+                              style={{ color: "green", fontSize: "1.5rem" }}
                             />
-                            <p className="text-green-800">Copied</p>
                           </div>
                         ) : (
-                          <Copy style={{ fontSize: "5rem" }} />
+                          <MdOutlineContentCopy
+                            style={{ fontSize: "1.5rem" }}
+                          />
                         )}
                       </button>
                     </div>
 
                     <button
-                      className="absolute top-5 right-7"
+                      className="absolute top-5 right-7 duration-500"
                       onClick={() => setIsOpenModal(false)}
                     >
-                      <X />
+                      <IoClose />
                     </button>
                   </div>
                 </div>
