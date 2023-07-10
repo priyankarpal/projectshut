@@ -1,1 +1,11 @@
-export default ['REACT', 'Node.js', 'CSS', 'HTML', 'Next.js', 'JavaScript', 'Python'];
+const techStack = [
+  "reactjs",
+  "nodejs",
+  "nextjs",
+  "javaScript",
+  "python",
+  "mongodb",
+  "typescript",
+];
+
+export default techStack;
