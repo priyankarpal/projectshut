@@ -3901,5 +3901,29 @@
         "tech": ["nextjs", "tailwindcss", "Vercel", "typescript"]
       }
     ]
-  }
+  },
+  {
+  "github_username": "Bilal1204",
+  "Social_media": {
+    "gitHub": "https://github.com/Bilal1204",
+    "LinkedIn": "https://www.linkedin.com/in/bilalshaikh04/",
+    "Instagram": "https://www.instagram.com/_bilalshaikh_1204/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Bilal1204/Expense-Tracker",
+      "title": "Expense Tracker",
+      "description": "Track you daily transactions in 3 categories namely Savings, Expenses, Investment",
+      "tech": ["reactjs", "mongodb"]
+    },
+    {
+      "link": "https://github.com/Bilal1204/linker",
+      "title": "Linker",
+      "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
+      "tech": ["reactjs", "mongodb"]
+    }
+  ]
+}
 ]
