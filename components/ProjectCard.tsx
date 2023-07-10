@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Link from "next/link";
-import { ArrowRight } from "react-feather";
+import { BsArrowRightShort } from "react-icons/bs";
 import Image from "next/image";
 
 interface ProjectType {
@@ -18,7 +18,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
   const { username, title, description, link } = project;
 
   return (
-    <section className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 shadow-slate-700/[.7]">
+    <section className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 hover:border-primary duration-200 shadow-slate-700/[.7]">
       <div className="flex justify-between items-center mb-3">
         <h1 className="normal-case text-lg/5 font-bold basis-full line-clamp-1 text-white ">
           {title}
@@ -31,7 +31,9 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
           height={50}
         />
       </div>
-      <p className="mb-2 line-clamp-2 text-white">{description}</p>
+      <div className="h-14">
+        <p className="mb-2 line-clamp-2 text-white">{description}</p>
+      </div>
       <div className="flex flex-row justify-between gap-5">
         {/*  GitHub Link Button */}
         <a
@@ -45,7 +47,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
             className="group-hover:translate-x-1 duration-300 block"
             aria-hidden="true"
           >
-            <ArrowRight size={15} />
+            <BsArrowRightShort size={15} />
           </span>
         </a>
         {/* for user profile card page button  */}
@@ -59,7 +61,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
             className="group-hover:translate-x-1 duration-300 block"
             aria-hidden="true"
           >
-            <ArrowRight size={15} />
+            <BsArrowRightShort size={15} />
           </span>
         </Link>
       </div>

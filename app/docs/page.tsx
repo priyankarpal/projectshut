@@ -1,9 +1,12 @@
 "use client";
-import { GitBranch, FileText, UploadCloud } from "react-feather";
-import { useEffect, ReactNode } from "react";
+import { useEffect, ReactNode, useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { Navbar, Footer } from "@/components";
+import Image from "next/image";
+import { MdOutlineContentCopy } from "react-icons/md";
+import { BsCheck2Circle } from "react-icons/bs";
+import { PiArrowFatLineRightFill } from "react-icons/pi";
 
 type StepProps = {
   icon: ReactNode;
@@ -39,111 +42,117 @@ const codeString = `{
 
 const option1Steps = [
   {
-    icon: <GitBranch size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Fork this repository",
     code: "",
-    image: "https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png"
+    image:
+      "https://user-images.githubusercontent.com/88102392/226444075-7d7d28b5-8d88-459a-bb82-38a3f64aaf28.png",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Click on Go to file (I'm doing from priyankarpal/projectshut)",
     code: "",
-    image: "https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png"
+    image:
+      "https://user-images.githubusercontent.com/88102392/226444608-12a2abb9-436c-4843-8893-49029cb4c033.png",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Add following code to end of src/DB/projects.json",
-    code: codeString
+    code: codeString,
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Commit your changes",
     code: "",
-    image: "https://user-images.githubusercontent.com/88102392/232192543-5fcc2711-7693-4dba-8993-75e3528b8530.png"
+    image:
+      "https://user-images.githubusercontent.com/88102392/232192543-5fcc2711-7693-4dba-8993-75e3528b8530.png",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Fill up the description",
     code: "",
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Create Pull Request & wait for merge",
     code: "",
-    image: "https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png"
-  }
+    image:
+      "https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png",
+  },
 ];
 
 const option2Steps = [
   {
-    icon: <FileText size={18} color="white" />,
-    text: "OR, If you want to run it locally then follow these steps",
-    code: ""
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
+    text: "If you want to run it locally then follow these steps",
+    code: "",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Clone this repository",
-    code: "git clone https://github.com/[your-username]/ProjectsHut.git"
+    code: "git clone https://github.com/[your-username]/ProjectsHut.git",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Navigate to the project folder",
-    code: "cd ProjectsHut"
+    code: "cd ProjectsHut",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "install dependencies",
-    code: "pnpm i"
+    code: "pnpm i",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Create a new branch using your `GitHub Username`",
-    code: "git checkout -b [name_of_your_new_branch]"
+    code: "git checkout -b [name_of_your_new_branch]",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Run the project",
-    code: "pnpm dev"
+    code: "pnpm dev",
   },
   {
-    icon: <FileText size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Do Changes in Project you want.",
-    code: ""
+    code: "",
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Add your changes",
-    code: "git add ."
+    code: "git add .",
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Commit your changes",
-    code: 'git commit -m "Added [your-changes]"'
+    code: 'git commit -m "Added [your-changes]"',
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Set upstream command",
-    code: "git remote add upstream https://github.com/priyankarpal/ProjectsHut.git"
+    code: "git remote add upstream https://github.com/priyankarpal/ProjectsHut.git",
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Push your changes",
-    code: "git push origin [name_of_your_branch]"
+    code: "git push origin [name_of_your_branch]",
   },
   {
-    icon: <UploadCloud size={18} color="white" />,
+    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Create Pull Request & wait for merge",
-    code: ""
-  }
+    code: "",
+  },
 ];
 
 function Step({ icon, text, code, image }: StepProps): JSX.Element {
-  const copyCode = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
-    navigator.clipboard.writeText(code).then(() => {
-      e.currentTarget.innerText = "Copied!";
-    });
+  const [copyCodeButton, setcopyCodeButton] = useState(true);
+  const copyCode = (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ): void => {
+    setcopyCodeButton(false);
+    navigator.clipboard.writeText(code);
     setTimeout(() => {
-      e.currentTarget.innerText = "Copy";
+      setcopyCodeButton(true);
     }, 3000);
   };
 
@@ -161,9 +170,12 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
             <div className="flex items-end justify-end">
               <button
                 onClick={copyCode}
-                className="cursor-pointer text-indigo-600 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="cursor-pointer text-indigo-600"
               >
-                Copy
+                {copyCodeButton && (
+                  <MdOutlineContentCopy size="18" color="white" />
+                )}
+                {!copyCodeButton && <BsCheck2Circle size="18" color="green" />}
               </button>
             </div>
           )}
@@ -171,32 +183,37 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
       </div>
       {code && (
         <div className="mt-2">
-          <SyntaxHighlighter language="nginx" style={a11yDark}>
+          <SyntaxHighlighter language="nginx" style={anOldHope}>
             {code}
           </SyntaxHighlighter>
         </div>
       )}
-      {image && <img src={image} alt={text} className="mt-2" />}
+      {image && (
+        <Image
+          src={image}
+          alt={text}
+          className="mt-2"
+          width={10000}
+          height={600}
+        />
+      )}
     </div>
   );
 }
 
-function AddYourProjectsGuide(): any {
+function AddYourProjectsGuide(): JSX.Element {
+  const [selectedOption, setSelectedOption] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const option2Render = option2Steps.map((step, index) => (
-    <Step
-      key={index}
-      icon={step.icon}
-      text={step.text}
-      code={step.code}
-    />
-  ));
+  let selectOption = (option: number) => {
+    setSelectedOption(option);
+  };
 
-  const option1Render = option1Steps.map((step, index) => (
+  const renderSteps = selectedOption === 0 ? option1Steps : option2Steps;
+  const stepsRender = renderSteps.map((step: any, index: number) => (
     <Step
       key={index}
       icon={step.icon}
@@ -235,12 +252,33 @@ function AddYourProjectsGuide(): any {
             />
           </svg>
         </div>
+        <div className="flex justify-center mt-10">
+          <button
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${
+              selectedOption === 0
+                ? "bg-indigo-600 text-white"
+                : "border border-gray-700 text-gray-300"
+            }`}
+            onClick={() => selectOption(0)}
+          >
+            Add Projects Directly From GitHub
+          </button>
+          <button
+            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${
+              selectedOption === 1
+                ? "bg-indigo-600 text-white"
+                : "border border-gray-700 text-gray-300"
+            }`}
+            onClick={() => selectOption(1)}
+          >
+            Set Up Projects Locally
+          </button>
+        </div>
         <article className="items-center max-w-5xl mx-auto">
           <p className="mb-5 text-xl font-bold tracking-tight text-red-500">
             Follow the following steps to add your projects to ProjectsHut:
           </p>
-          <div className="option1">{option1Render}</div>
-          <div className="option2">{option2Render}</div>
+          <div className="option">{stepsRender}</div>
         </article>
       </section>
       <Footer />

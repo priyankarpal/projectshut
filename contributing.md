@@ -39,10 +39,7 @@
 }
 ```
 
-> **Important**: You should write the full Tech name
-
-- > **👎 Bad Tech Names:** js, JS, react, reactjs, css <br>
-- > **👍 Good Tech Names:** Javascript, ReactJS, CSS
+> **Important**: Tech Stacks name should be in lowercase and should be separated by comma (e.g. `["reactjs", "nodejs"]`)
 
 #### 4. Commit all changes.
 

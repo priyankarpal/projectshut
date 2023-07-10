@@ -3,7 +3,8 @@ import { NextPage } from "next";
 import React, { useEffect, useState, Fragment } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Dialog, Transition } from "@headlessui/react";
-import { Filter } from "react-feather";
+import { BsFilter } from "react-icons/bs";
+import { MdClear } from "react-icons/md";
 import techStack from "../../utils/techStack";
 import { searchProject } from "../../utils/searchProject";
 import ProjectLoading from "../../components/ProjectLoading";
@@ -37,10 +38,12 @@ const ProjectsPage: NextPage = () => {
     });
   });
 
-  const [limit, setLimit] = useState(15);
+  const [limit, setLimit] = useState(10);
+
   const [visibleProjects, setVisibleProjects] = useState(
     shuffleProjects(Projects).slice(0, limit)
   );
+
   const [openFilter, setOpenFilter] = useState(false);
   const [filterCount, setFilterCount] = useState(0);
   const router = useRouter();
@@ -55,101 +58,85 @@ const ProjectsPage: NextPage = () => {
   useEffect(() => {
     // Set URL based on option selection
     const updatedParams = new URLSearchParams();
-    let techStackNames: string = "";
-    let authorName: string = "";
-    let projectName: string = "";
+    const techStackNames =
+      selectedOptions.techStack.length > 0
+        ? selectedOptions.techStack.join(",")
+        : "";
+    const authorName =
+      selectedOptions.author.length > 0 ? selectedOptions.author : "";
+    const projectName =
+      selectedOptions.project.length > 0 ? selectedOptions.project : "";
 
-    if (selectedOptions.techStack.length > 0) {
-      techStackNames = selectedOptions.techStack.join(",");
-      updatedParams.append("filters", techStackNames);
-    }
-
-    if (selectedOptions.author.length > 0) {
-      authorName = selectedOptions.author;
-      updatedParams.append("author", authorName);
-    }
-
-    if (selectedOptions.project.length > 0) {
-      projectName = selectedOptions.project;
-      updatedParams.append("project", projectName);
-    }
+    techStackNames && updatedParams.append("filters", techStackNames);
+    authorName && updatedParams.append("author", authorName);
+    projectName && updatedParams.append("project", projectName);
 
     const fullPath = `${window.location.pathname}?${updatedParams}`;
 
     router.push(fullPath);
   }, [selectedOptions, router]);
 
+
+
   const handleOptionClick = (type: string, option: string) => {
     const updatedOptions: SelectedOptions = { ...selectedOptions };
+
     // Assign value based on types, e.g., author/project/tech-stack
-    if (type === "author") {
-      updatedOptions.author = option;
-    }
-    if (type === "project") {
-      updatedOptions.project = option;
-    }
+    updatedOptions.author = type === "author" ? option : updatedOptions.author;
+    updatedOptions.project =
+      type === "project" ? option : updatedOptions.project;
+
     if (type === "techStack" && updatedOptions.techStack) {
       const isSelected = updatedOptions.techStack.includes(option);
-      if (isSelected) {
-        updatedOptions.techStack = updatedOptions.techStack.filter(
-          (selected) => selected !== option
-        );
-      } else {
-        updatedOptions.techStack.push(option);
-      }
+      updatedOptions.techStack = isSelected
+        ? updatedOptions.techStack.filter((selected) => selected !== option)
+        : [...updatedOptions.techStack, option];
     }
+
     // To clear all selected options
-    if (type === "clear") {
-      updatedOptions.techStack = [];
-      updatedOptions.author = "";
-      updatedOptions.project = "";
-    }
+    updatedOptions.techStack = type === "clear" ? [] : updatedOptions.techStack;
+    updatedOptions.author = type === "clear" ? "" : updatedOptions.author;
+    updatedOptions.project = type === "clear" ? "" : updatedOptions.project;
 
     setSelectedOptions(updatedOptions);
   };
 
-  function loadMoreProjects() {
-    if (searchitem.length == 0) {
-      if (
-        selectedOptions.techStack &&
+
+  //  to load more projects
+
+  const loadMoreProjects = () => {
+    searchitem.length === 0
+      ? selectedOptions.techStack &&
         selectedOptions.techStack.length !== 0 &&
         selectedOptions.author.length > 0 &&
         selectedOptions.project.length > 0
-      ) {
-        setLimit(visibleProjects.length);
-        return;
-      }
-      setTimeout(() => {
-        setLimit(limit + 15);
-        setVisibleProjects(Projects.slice(0, limit + 15));
-      }, 1200);
-    }
-  }
+        ? (setLimit(visibleProjects.length), undefined)
+        : setTimeout(() => {
+          setLimit(limit + 15);
+          setVisibleProjects(Projects.slice(0, limit + 10));
+        }, 1200)
+      : undefined;
+  };
 
   useEffect(() => {
-    let count = 0;
-    if (selectedOptions.author && selectedOptions.author.length > 0) {
-      count += 1;
-    }
-    count += selectedOptions.techStack && selectedOptions.techStack.length;
-    setFilterCount(count);
+    let count = (selectedOptions.author && selectedOptions.author.length > 0) ? 1 : 0; // Check if selectedOptions.author exists and has a length greater than 0, increment count by 1 if true
+    count += selectedOptions.techStack && selectedOptions.techStack.length ? selectedOptions.techStack.length : 0; // Check if selectedOptions.techStack exists and has a length greater than 0, add its length to count if true
+    setFilterCount(count); // Update the filter count with the calculated value
   }, [selectedOptions]);
+
 
   const getProjects = (selectedOptions?: any) => {
     const currProjects = getFilteredProjects(selectedOptions);
     setVisibleProjects(currProjects);
-    if (
+
+    setSearchItem(
       (selectedOptions &&
-        selectedOptions.project &&
-        selectedOptions.project.length !== 0) ||
-      (selectedOptions &&
-        selectedOptions.techStack &&
-        selectedOptions.techStack.length !== 0)
-    ) {
-      setSearchItem(currProjects);
-    } else {
-      setSearchItem([]);
-    }
+        ((selectedOptions.project && selectedOptions.project.length !== 0) ||
+          (selectedOptions.techStack && selectedOptions.techStack.length !== 0)))
+        ? currProjects
+        : []
+    );
+
     if (
       selectedOptions &&
       selectedOptions.techStack &&
@@ -162,6 +149,7 @@ const ProjectsPage: NextPage = () => {
       return;
     }
   };
+
 
   useEffect(() => {
     getProjects(selectedOptions);
@@ -205,9 +193,13 @@ const ProjectsPage: NextPage = () => {
   };
 
   const handleClear = () => {
-    if (handleOptionClick) {
+    if (
+      selectedOptions.author !== "" ||
+      selectedOptions.project !== "" ||
+      selectedOptions.techStack.length != 0
+    ) {
       handleOptionClick("clear", "");
-      getProjects();
+      // getProjects();
     }
   };
   return (
@@ -222,7 +214,7 @@ const ProjectsPage: NextPage = () => {
             type="text"
             id="combo-box-demo"
             placeholder="Search by project name"
-            className={`border-2 text-white outline-none border-primary rounded-md p-2  bg-transparent `}
+            className={`border-2 text-white outline-none duration-200  border-gray-700 hover:border-primary rounded-md p-2  bg-transparent `}
             onChange={(e) => {
               handleOptionClick && handleOptionClick("project", e.target.value);
             }}
@@ -231,7 +223,7 @@ const ProjectsPage: NextPage = () => {
         </div>
         <div className="flex items-stretch">
           <button
-            className="border border-primary rounded-sm p-3 flex items-stretch text-white"
+            className="border border-gray-600 hover:border-gray-500 rounded-md p-2 flex items-stretch text-white"
             onClick={() => setOpenFilter(!openFilter)}
           >
             Filter{" "}
@@ -242,16 +234,16 @@ const ProjectsPage: NextPage = () => {
                 </div>
               ) : (
                 <div className="mt-1">
-                  <Filter size={20} />
+                  <BsFilter />
                 </div>
               )}
             </div>
           </button>
           <button
-            className="border border-primary rounded-sm p-3 mx-2 text-white"
+            className=" rounded-md border  border-gray-600 hover:border-gray-500 p-2 mx-2 text-white"
             onClick={() => handleClear()}
           >
-            Clear
+            <MdClear />
           </button>
         </div>
 
@@ -309,12 +301,11 @@ const ProjectsPage: NextPage = () => {
                           type="button"
                           key={index}
                           onClick={() => handleOptionClick("techStack", tech)}
-                          className={`${
-                            selectedOptions.techStack &&
+                          className={`${selectedOptions.techStack &&
                             selectedOptions.techStack.includes(tech)
-                              ? "bg-primary"
-                              : "border border-primary"
-                          } rounded-sm p-2`}
+                            ? "bg-primary"
+                            : "border border-primary"
+                            } rounded-sm p-2`}
                           style={{
                             color: "black",
                           }}
@@ -365,7 +356,7 @@ const ProjectsPage: NextPage = () => {
             </InfiniteScroll>
           ) : (
             <div className="flex justify-center items-center h-[50vh]">
-              <h1 className="text-2xl font-bold text-center">
+              <h1 className="text-2xl font-bold text-center text-white ">
                 No Projects Found
               </h1>
             </div>
