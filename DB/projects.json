@@ -3814,6 +3814,12 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": ["reactjs JS", "nodejs"]
+      } , 
+       {
+        "link": "https://github.com/TechNodes2-0/Contentify",
+        "title": "Contentify",
+        "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
+        "tech": ["reactjs JS", "nodejs"]
       }
     ]
   },
@@ -3924,6 +3930,25 @@
       "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
       "tech": ["reactjs", "mongodb"]
     }
+  ]
+},
+  {
+  "github_username": "Nishitbaria",
+  "Social_media": {
+    "gitHub": "https://github.com/Nishitbaria",
+    "LinkedIn": "https://www.linkedin.com/in/nishitbaria/",
+    "Instagram": "#",
+    "YouTube": "#",
+    "Twitter": "https://twitter.com/Nishitbaria1"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Nishitbaria/Laughhub",
+      "title": "Laughhub",
+      "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
+      "tech": ["React JS", "Nodejs"]
+    }
+    
   ]
 }
 ]
