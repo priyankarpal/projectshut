@@ -3916,7 +3916,7 @@
       "link": "https://github.com/Bilal1204/Expense-Tracker",
       "title": "Expense Tracker",
       "description": "Track you daily transactions in 3 categories namely Savings, Expenses, Investment",
-      "tech": ["React JS", "MongoDB"]
+      "tech": ["reactjs", "mongodb"]
     },
     {
       "link": "https://github.com/Bilal1204/linker",
