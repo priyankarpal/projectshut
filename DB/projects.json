@@ -3922,7 +3922,7 @@
       "link": "https://github.com/Bilal1204/linker",
       "title": "Linker",
       "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
-      "tech": ["React JS", "MongDB","Vercel"]
+      "tech": ["reactjs", "mongodb"]
     }
   ]
 }
