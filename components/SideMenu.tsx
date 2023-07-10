@@ -1,6 +1,6 @@
 import React from "react";
 import IconButton from "@mui/material/IconButton";
-import { X } from "react-feather";
+import { VscClose } from "react-icons/vsc";
 import Link from "next/link";
 
 function SideMenu(props: { handleDrawerToggle: () => void }) {
@@ -46,7 +46,7 @@ function SideMenu(props: { handleDrawerToggle: () => void }) {
             onClick={() => props.handleDrawerToggle()}
             className="text-white"
           >
-            <X />
+            <VscClose className="text-white" />
           </IconButton>
         </span>
         <div className="flex items-center ml-[25%]">
