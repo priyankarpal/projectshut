@@ -2393,6 +2393,12 @@
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["CSS", "JavaScript", "HTML"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Music-Player",
+        "title": "Music Player",
+        "description": "Music Player",
+        "tech": ["CSS", "JavaScript", "HTML"]
       }
     ]
   },
@@ -3850,6 +3856,6 @@
         "description": "AI Fusion is one place for all your AI needs. It serves as your ultimate destination for streamlined access to a curated collection of powerful AI tools and prompts. With direct links to a variety of resources, our website eliminates hassle and empowers you to effortlessly enhance your productivity.",
         "tech": ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"]
       }
-      ]
-    }
+    ]
+  }
 ]
