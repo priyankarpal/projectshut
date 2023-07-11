@@ -3,7 +3,8 @@ import Link from "next/link";
 import Banner from "../components/Banner";
 import Image from "next/image";
 import images from "../DB/homepage-image.json";
-import { Footer, Navbar } from "@/components";
+import { Navbar, } from "@/components";
+
 export default function HomePage() {
   return (
     <section>
@@ -87,7 +88,6 @@ export default function HomePage() {
         </div>
       </div>
       <Banner />
-      <Footer />
     </section>
   );
 }
