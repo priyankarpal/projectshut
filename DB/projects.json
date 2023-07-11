@@ -3940,7 +3940,7 @@
       "link": "https://github.com/akshaysoni10/MiniInsta-client",
       "title": "Mini-Insta",
       "description": "A social media MERN stack project in which a user can sign in and after then can create their own posts and also likes & comments on other posts.",
-      "tech": ["react.js", "node.js", "express.js", "mongodb", "rest api"]
+      "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "api"]
     },
     {
       "link": "https://github.com/akshaysoni10/Dragon-Dino-Game-",
