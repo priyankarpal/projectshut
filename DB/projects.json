@@ -3925,5 +3925,29 @@
       "tech": ["reactjs", "mongodb"]
     }
   ]
+},
+{
+  "github_username": "akshaysoni10",
+  "Social_media": {
+    "gitHub": "https://github.com/akshaysoni10",
+    "LinkedIn": "https://www.linkedin.com/in/akshay-soni-a37a2b222/",
+    "Instagram": "https://www.instagram.com/ak_soni_10/",
+    "YouTube": "#",
+    "Twitter": "#"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/akshaysoni10/MiniInsta-client",
+      "title": "Mini-Insta",
+      "description": "A social media MERN stack project in which a user can sign in and after then can create their own posts and also likes & comments on other posts.",
+      "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "api"]
+    },
+    {
+      "link": "https://github.com/akshaysoni10/Dragon-Dino-Game-",
+      "title": "Dragon-Dino Game",
+      "description": "A dragon-dino game in which a dino is jump over a dragon and a scoreboard at the top is automatically increases.",
+      "tech": ["html", "css", "javascript"]
+    }
+  ]
 }
 ]
