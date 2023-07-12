@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Link from "next/link";
-import { ArrowRight } from "react-feather";
+import { BsArrowRightShort } from "react-icons/bs";
 import Image from "next/image";
 
 interface ProjectType {
@@ -47,7 +47,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
             className="group-hover:translate-x-1 duration-300 block"
             aria-hidden="true"
           >
-            <ArrowRight size={15} />
+            <BsArrowRightShort size={15} />
           </span>
         </a>
         {/* for user profile card page button  */}
@@ -61,7 +61,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
             className="group-hover:translate-x-1 duration-300 block"
             aria-hidden="true"
           >
-            <ArrowRight size={15} />
+            <BsArrowRightShort size={15} />
           </span>
         </Link>
       </div>
