@@ -3949,5 +3949,22 @@
       "tech": ["html", "css", "javascript"]
     }
   ]
-}
+  },
+  {
+  "github_username": "BhumicaPG",
+  "Social_media": {
+    "gitHub": "https://github.com/BhumicaPG",
+    "LinkedIn": "https://www.linkedin.com/in/bhumica-gangurde-104277230",
+    "Instagram": "https://www.instagram.com/bhumica_08/"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/BhumicaPG/CodePen-Clone",
+      "title": "CodePen Clone",
+      "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
+      "tech": ["html", "css","reactjs","nodejs"]
+    } 
+  ]
+  }
 ]
+
