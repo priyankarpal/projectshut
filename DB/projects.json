@@ -4024,6 +4024,23 @@
       "tech": ["html", "css", "javascript"]
     }
   ]
+},
+{
+  "github_username": "panditshivammishra",
+  "Social_media": {
+    "gitHub": "https://github.com/panditshivammishra",
+    "LinkedIn": "https://www.linkedin.com/in/shivam-mishra-42226522b/",
+    "Instagram": "",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/panditshivammishra/Mytextutil",
+      "title": "TEXT CONVERTER",
+      "description": "A text converter",
+      "tech": ["html", "css", "javascript","reactjs"]
+    }
+  ]
 }
 ]
 
