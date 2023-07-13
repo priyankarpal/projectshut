@@ -3969,7 +3969,7 @@
       "link": "https://github.com/BhumicaPG/ToDo-List",
       "title": "To-do list",
       "description": "This project is a to-do list, where users can add new items, in different lists, strike-out them to mark as completed.",
-      "tech": ["html", "css","expressjs","EJS","nodejs"]
+      "tech": ["html", "css","expressjs","ejs","nodejs"]
     }
   ]
   },
