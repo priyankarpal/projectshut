@@ -4,71 +4,69 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+dependencies:
+  '@emotion/react':
+    specifier: ^11.11.1
+    version: 11.11.1(@types/react@18.2.14)(react@18.2.0)
+  '@emotion/styled':
+    specifier: ^11.11.0
+    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.14)(react@18.2.0)
+  '@headlessui/react':
+    specifier: ^1.7.15
+    version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
+  '@types/node':
+    specifier: 20.4.2
+    version: 20.4.2
+  '@types/react':
+    specifier: 18.2.14
+    version: 18.2.14
+  '@types/react-dom':
+    specifier: 18.2.6
+    version: 18.2.6
+  autoprefixer:
+    specifier: 10.4.14
+    version: 10.4.14(postcss@8.4.25)
+  eslint:
+    specifier: 8.44.0
+    version: 8.44.0
+  eslint-config-next:
+    specifier: 13.4.9
+    version: 13.4.9(eslint@8.44.0)(typescript@5.1.6)
+  next:
+    specifier: ^13.4.9
+    version: 13.4.9(react-dom@18.2.0)(react@18.2.0)
+  postcss:
+    specifier: 8.4.25
+    version: 8.4.25
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: ^4.10.1
+    version: 4.10.1(react@18.2.0)
+  react-infinite-scroll-component:
+    specifier: ^6.1.0
+    version: 6.1.0(react@18.2.0)
+  react-router-dom:
+    specifier: ^6.14.1
+    version: 6.14.1(react-dom@18.2.0)(react@18.2.0)
+  react-syntax-highlighter:
+    specifier: ^15.5.0
+    version: 15.5.0(react@18.2.0)
+  tailwindcss:
+    specifier: 3.3.2
+    version: 3.3.2
+  typescript:
+    specifier: 5.1.6
+    version: 5.1.6
 
-  .:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.11.1
-        version: 11.11.1(@types/react@18.2.14)(react@18.2.0)
-      '@emotion/styled':
-        specifier: ^11.11.0
-        version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.14)(react@18.2.0)
-      '@headlessui/react':
-        specifier: ^1.7.15
-        version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
-      '@types/node':
-        specifier: 20.4.1
-        version: 20.4.1
-      '@types/react':
-        specifier: 18.2.14
-        version: 18.2.14
-      '@types/react-dom':
-        specifier: 18.2.6
-        version: 18.2.6
-      autoprefixer:
-        specifier: 10.4.14
-        version: 10.4.14(postcss@8.4.25)
-      eslint:
-        specifier: 8.44.0
-        version: 8.44.0
-      eslint-config-next:
-        specifier: 13.4.9
-        version: 13.4.9(eslint@8.44.0)(typescript@5.1.6)
-      next:
-        specifier: ^13.4.9
-        version: 13.4.9(react-dom@18.2.0)(react@18.2.0)
-      postcss:
-        specifier: 8.4.25
-        version: 8.4.25
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.10.1
-        version: 4.10.1(react@18.2.0)
-      react-infinite-scroll-component:
-        specifier: ^6.1.0
-        version: 6.1.0(react@18.2.0)
-      react-router-dom:
-        specifier: ^6.14.1
-        version: 6.14.1(react-dom@18.2.0)(react@18.2.0)
-      react-syntax-highlighter:
-        specifier: ^15.5.0
-        version: 15.5.0(react@18.2.0)
-      tailwindcss:
-        specifier: 3.3.2
-        version: 3.3.2
-      typescript:
-        specifier: 5.1.6
-        version: 5.1.6
-    devDependencies:
-      '@types/react-syntax-highlighter':
-        specifier: ^15.5.7
-        version: 15.5.7
+devDependencies:
+  '@types/react-syntax-highlighter':
+    specifier: ^15.5.7
+    version: 15.5.7
 
 packages:
 
@@ -499,8 +497,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node@20.4.1:
-    resolution: {integrity: sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==}
+  /@types/node@20.4.2:
+    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
     dev: false
 
   /@types/parse-json@4.0.0:
