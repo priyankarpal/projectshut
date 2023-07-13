@@ -3963,6 +3963,7 @@
       "title": "CodePen Clone",
       "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
       "tech": ["html", "css","reactjs","nodejs"]
+
     },
     {
       "link": "https://github.com/BhumicaPG/ToDo-List",
@@ -3971,6 +3972,20 @@
       "tech": ["html", "css","expressjs","EJS","nodejs"]
     }
   ]
-  }
+  },
+{
+  "github_username": "Kalivarapubindusree",
+  "Social_media": {
+    "gitHub": "https://github.com/Kalivarapubindusree"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Kalivarapubindusree/blood-and-plasma-management-system",
+      "title": "Blood_And_Plasma_Management_System",
+      "description": "blood management system project is an like overall blood management system in our hands, Register,Logins, adding Events and showing Interest  to go and donate the blood seraching the donar near by the searched location showing the total donorslist and total bloodbanks and videos and contact us page and updating user profile within the working database",
+      "tech": ["html", "css","reactjs"]
+    }
+  ]
+}
 ]
 
