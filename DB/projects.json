@@ -1,5 +1,19 @@
 [
   {
+    "github_username": "Shreyans2004",
+    "Social_media": {
+      "gitHub": "https://github.com/Shreyans2004"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Shreyans2004/traits_2",
+        "title": "Trait-generator",
+        "description": "A trait generator which decribers differnt traits on clicking the generate button",
+        "tech": ["html","css","javascript"]
+      }
+    ]
+  },
+  {
     "github_username": "sabhisharma-ise",
     "Social_media": {
       "gitHub": "https://github.com/sabhisharma-ise",
