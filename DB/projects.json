@@ -6,7 +6,7 @@
     },
     "Projects": [
       {
-        "link": "https://shreyans2004.github.io/traits_2/",
+        "link": "https://github.com/Shreyans2004/traits_2",
         "title": "Trait-generator",
         "description": "A trait generator which decribers differnt traits on clicking the generate button",
         "tech": ["html","css","javascript"]
