@@ -3814,7 +3814,14 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": ["reactjs JS", "nodejs"]
-      }
+      }    ,  
+ {
+        "link": "https://github.com/TechNodes2-0/Contentify",
+        "title": "Contentify",
+        "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
+        "tech": ["reactjs", "nodejs"]
+ }
+      
     ]
   },
   {
