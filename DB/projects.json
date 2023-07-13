@@ -3819,7 +3819,7 @@
         "link": "https://github.com/TechNodes2-0/Contentify",
         "title": "Contentify",
         "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
-        "tech": ["reactjs JS", "nodejs"]
+        "tech": ["reactjs", "nodejs"]
  }
       
     ]
