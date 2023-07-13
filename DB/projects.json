@@ -3970,7 +3970,14 @@
       "title": "CodePen Clone",
       "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
       "tech": ["html", "css","reactjs","nodejs"]
-    } 
+
+    },
+    {
+      "link": "https://github.com/BhumicaPG/ToDo-List",
+      "title": "To-do list",
+      "description": "This project is a to-do list, where users can add new items, in different lists, strike-out them to mark as completed.",
+      "tech": ["html", "css","expressjs","ejs","nodejs"]
+    }
   ]
   },
 {
@@ -4005,3 +4012,4 @@
   ]
 }
 ]
+
