@@ -3979,5 +3979,22 @@
       "tech": ["html", "css","reactjs"]
     }
   ]
+},
+{
+  "github_username": "blindaks",
+  "Social_media": {
+    "gitHub": "https://github.com/",
+    "LinkedIn": "https://www.linkedin.com/in/akrati-verma-a8574a234/",
+    "Instagram": "https://www.instagram.com/_akrati_23/?hl=en",
+    "Twitter": "https://twitter.com/blindaks23"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/blindaks/temperature-converter",
+      "title": "TEMPERATURE CONVERTER",
+      "description": "A simple temperature converter website built using HTML, CSS, and JavaScript. The website allows users to convert temperature in Celsius, Fahrenheit, and Kelvin.",
+      "tech": ["html", "css", "javascript"]
+    }
+  ]
 }
 ]
