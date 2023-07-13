@@ -4036,7 +4036,7 @@
   "Projects": [
     {
       "link": "https://github.com/panditshivammishra/Mytextutil",
-      "title": "TEXT CONVERTER",
+      "title": "TextUtils a text coverter",
       "description": "A text converter",
       "tech": ["html", "css", "javascript","reactjs"]
     }
