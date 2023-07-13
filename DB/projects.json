@@ -3828,7 +3828,14 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": ["reactjs JS", "nodejs"]
-      }
+      }    ,  
+ {
+        "link": "https://github.com/TechNodes2-0/Contentify",
+        "title": "Contentify",
+        "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
+        "tech": ["reactjs", "nodejs"]
+ }
+      
     ]
   },
   {
@@ -3977,7 +3984,14 @@
       "title": "CodePen Clone",
       "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
       "tech": ["html", "css","reactjs","nodejs"]
-    } 
+
+    },
+    {
+      "link": "https://github.com/BhumicaPG/ToDo-List",
+      "title": "To-do list",
+      "description": "This project is a to-do list, where users can add new items, in different lists, strike-out them to mark as completed.",
+      "tech": ["html", "css","expressjs","ejs","nodejs"]
+    }
   ]
   },
 {
@@ -4012,3 +4026,4 @@
   ]
 }
 ]
+
