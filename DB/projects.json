@@ -3965,6 +3965,19 @@
       "tech": ["html", "css","reactjs","nodejs"]
     } 
   ]
-  }
+  },
+{
+  "github_username": "Kalivarapubindusree",
+  "Social_media": {
+    "gitHub": "https://github.com/Kalivarapubindusree"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Kalivarapubindusree/blood-and-plasma-management-system",
+      "title": "Blood_And_Plasma_Management_System",
+      "description": "blood management system project is an like overall blood management system in our hands, Register,Logins, adding Events and showing Interest  to go and donate the blood seraching the donar near by the searched location showing the total donorslist and total bloodbanks and videos and contact us page and updating user profile within the working database",
+      "tech": ["html", "css","reactjs"]
+    }
+  ]
+}
 ]
-
