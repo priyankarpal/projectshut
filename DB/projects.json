@@ -4026,4 +4026,26 @@
   ]
 }
 ]
-
+{
+  "github_username": "panth1823",
+  "Social_media": {
+    "gitHub": "https://github.com/Panth1823",
+    "LinkedIn": "https://www.linkedin.com/in/panth1823/",
+    "Instagram": "https://www.instagram.com/_panth_18/?hl=en",
+    "Twitter": "https://twitter.com/Panth_1823"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Panth1823/Textplorer-react",
+      "title": "Textplorer",
+      "description": "Textplorer is a React-based text manipulation web app that simplifies modifying text. It offers various features such as formatting, editing, and searching to boost productivity",
+      "tech": ["reactjs", "tailwind"]
+    },
+    {
+      "link": "https://github.com/Panth1823/NexusNews.",
+      "title": "NexusNews",
+      "description": "NexusNews is a React-based news website that offers real-time updates, personalized news experience, and expert analysis with a clean and intuitive interface.",
+      "tech": ["reactjs", "css","json","nodejs"]
+    }
+  ]
+}
