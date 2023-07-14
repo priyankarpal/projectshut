@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer
       aria-label="Site Footer"
-      className={`bg-gray-300 dark:bg-gray-900 rounded-none`}
+      className={`bg-gray-900 rounded-none`}
     >
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
