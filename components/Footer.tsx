@@ -1,44 +1,150 @@
 import React from "react";
+import { SiTwitter, SiGithub, SiLinkedin } from "react-icons/si";
+import Link from "next/link";
 
 function Footer() {
   const getCurrentYear = () => new Date().getFullYear();
 
-  return (
-    <footer
-      aria-label="Site Footer"
-      className={`bg-gray-900 rounded-none`}
-    >
-      <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
-        <div className="text-center">
-          <h2 className="text-3xl font-extrabold  sm:text-5xl mb-4 text-white">
-            open source is awesome 💜
-          </h2>
-          <p className={` max-w-sm mx-auto mt-4 text-white `}>
-            ProjectsHut is an open-source project. Feel free to contribute and
-            help us to make this project better
-          </p>
-        </div>
-      </div>
 
-      <div
-        className="flex justify-center items-center px-[7vw] sm:flex-row flex-col py-1 sm:py-2"
-        style={{ height: "79px" }}
-      >
-        <div className="flex flex-col items-center">
-          <p className={`max-w-md mx-auto text-gray-400 text-center`}>
-            Copyright &copy; {getCurrentYear()} by ProjectsHut. Under{" "}
-            <a
-              href="https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
-              className="underline"
-              target="_blank"
-              rel="noreferrer"
+  const footerLinks = [
+    {
+      name: "Twitter",
+      link: "https://twitter.com/priyankarpal",
+      icon: <SiTwitter />
+    },
+    {
+      name: "GitHub",
+      link: "https://github.com/priyankarpal",
+      icon: <SiGithub />
+    },
+    {
+      name: "Linkedin",
+      link: "https://linkedin.com/in/priyankarpal",
+      icon: <SiLinkedin />
+    }
+  ]
+
+  const footerdocsLinks = [
+    {
+      title: "Documentation",
+      child: [
+        {
+          name: "Contributing Guide",
+          link: "https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md"
+        },
+        {
+          name: "Add projects via GitHub",
+          link: "https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md#how-to-add-your-projects-to-projectshut"
+        },
+        {
+          name: "Run the project locally",
+          link: "https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md#note-alternatively-if-you-prefer-to-run-the-project-locally-follow-these-steps"
+        }
+
+      ]
+    }
+
+  ]
+
+  const footerServiceLinks = [
+    {
+
+      title: "License",
+      child: [
+        {
+          name: "MIT License",
+          link: "https://github.com/priyankarpal/ProjectsHut/blob/main/LICENSE"
+        },
+        {
+          name: "Code of Conduct",
+          link: "https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md"
+        },
+      ]
+    }
+
+
+  ]
+
+  return (
+    < footer className="border-t border-gray-800 " >
+      <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+        <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+          <div className="mx-auto max-w-sm lg:max-w-none">
+            <p
+              className="mt-4 text-center text-gray-500 dark:text-gray-400 lg:text-left lg:text-lg"
             >
-              MIT License
-            </a>
+              Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform
+            </p>
+
+            {/*  for footer nav links */}
+            <div className="mt-6 flex justify-center gap-4 lg:justify-start">
+              {footerLinks.map((footerLink) => (
+                <li key={footerLink.link}>
+                  <Link
+                    href={footerLink.link}
+                    target="_blank"
+                    className={
+                      " text-xl hover:text-gray-200 text-white"
+                    }
+                  >
+                    {footerLink.icon}
+                  </Link>
+                </li>
+
+              ))}
+
+
+            </div>
+          </div>
+
+          <div
+            className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left"
+          >
+            {/* for footer docs links */}
+            <ul className="font-medium text-gray-900 dark:text-white">
+              {footerdocsLinks.map((section, index) => (
+                <div key={index}>
+                  <h3 className="mb-8">{section.title}</h3>
+                  <ul>
+                    {section.child.map((link, linkIndex) => (
+                      <li key={linkIndex} className="pt-2">
+                        <a href={link.link} className="hover:text-primary " target="_blank">{link.name}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </ul>
+
+            <div>
+
+              {/* for footer service links */}
+              <ul className="font-medium text-gray-900 dark:text-white">
+                {footerServiceLinks.map((section, index) => (
+                  <div key={index}>
+                    <h3 className="mb-8">{section.title}</h3>
+                    <ul>
+                      {section.child.map((link, linkIndex) => (
+                        <li key={linkIndex} className="pt-2">
+                          <a href={link.link} className="hover:text-primary " target="_blank">{link.name}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 pt-8 dark:border-gray-800">
+          <p className="text-center text-xl text-gray-400">
+            ©projectshut {getCurrentYear()} All rights reserved
           </p>
         </div>
       </div>
-    </footer>
+    </footer >
+
   );
 }
 
