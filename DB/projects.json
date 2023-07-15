@@ -13,6 +13,22 @@
       }
     ]
   },
+   {
+    "github_username": "HarshSharma0801",
+    "Social_media": {
+      "gitHub": "https://github.com/HarshSharma0801",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-sharma-18a72b26a/"
+    
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/HarshSharma0801/SignUp-UsingNodejs",
+        "title": "SignUp Form Nodejs",
+        "description": "This is a database SignUp form for admin ",
+        "tech": ["html", "css", "javascript", "nodejs" , "expressjs" , "mailchimpApi" ]
+      }
+    ]
+  },
   {
     "github_username": "sabhisharma-ise",
     "Social_media": {
