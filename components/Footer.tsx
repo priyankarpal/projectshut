@@ -108,7 +108,7 @@ function Footer() {
                   <ul>
                     {section.child.map((link, linkIndex) => (
                       <li key={linkIndex} className="pt-2">
-                        <a href={link.link} className="hover:text-primary " target="_blank">{link.name}</a>
+                        <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
                       </li>
                     ))}
                   </ul>
@@ -126,7 +126,7 @@ function Footer() {
                     <ul>
                       {section.child.map((link, linkIndex) => (
                         <li key={linkIndex} className="pt-2">
-                          <a href={link.link} className="hover:text-primary " target="_blank">{link.name}</a>
+                          <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
                         </li>
                       ))}
                     </ul>
