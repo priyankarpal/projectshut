@@ -25,7 +25,7 @@
         "link": "https://github.com/HarshSharma0801/SignUp-UsingNodejs",
         "title": "SignUp Form Nodejs",
         "description": "This is a database SignUp form for admin ",
-        "tech": ["html", "css", "javascript", "Nodejs" , "Expressjs" , "MailchimpApi" ]
+        "tech": ["html", "css", "javascript", "nodejs" , "nxpressjs" , "mailchimpApi" ]
       }
     ]
   },
