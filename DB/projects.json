@@ -8,32 +8,32 @@
     },
     "Projects": [
       {
-        "link": "videochat-ebon.vercel.app",
+        "link": "https://github.com/Sahilll15/Video-chat",
         "title": "VideoVerse",
         "description": "An Simple video chat applciation",
         "tech": ["reactjs", "zegocloud"]
       },
       {
-        "link": "tastybites-flax.vercel.app",
+        "link": "https://github.com/Sahilll15/TastyBites.git",
         "title": "TastyBites",
         "description": "TastyBites is an recipe finder application",
         "tech": ["reactjs", "firebase"]
       },
       {
-        "link": "https://sahilchalke-444ac.web.app/",
+        "link": "https://github.com/Sahilll15/PortFolio-SahilChalke",
         "title": "Portfolio",
         "description": "Portfolio webiste",
         "tech": ["reactjs", "nextjs"]
       }
       ,
       {
-        "link": "github-search-57626.web.app/",
+        "link": "https://github.com/Sahilll15/Github-User-Data",
         "title": "Github-user-data",
         "description": "getData of the github users",
         "tech": ["reactjs", "Git"]
       },
       {
-        "link": "https://filedroppp.netlify.app/",
+        "link": "https://github.com/Sahilll15/FileDrop-Client",
         "title": "FileDrop",
         "description": "FileDrop is an FileSharing Application ",
         "tech": ["reactjs", "Nodejs","jwt","js","ejs"]
