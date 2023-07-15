@@ -3,7 +3,7 @@
     "github_username": "Sahilll15",  
     "Social_media": {
       "gitHub": "https://github.com/Sahilll15",
-      "LinkedIn": "https://www.linkedin.com/in/sahil-chalke-a7ab741a3/",
+      "LinkedIn": "https://www.linkedin.com/in/sahil-chalke-a7ab741a3/"
       
     },
     "Projects": [
@@ -39,19 +39,19 @@
         "tech": ["reactjs", "Nodejs","jwt","js","ejs"]
       },
       {
-        "link": "songyyfy.web.app/",
+        "link": "https://github.com/Sahilll15/Songyfy",
         "title": "An spotify Clone",
         "description": "wesbite made using spotify api",
         "tech": ["reactjs", "Spotify API"]
       }
       ,
       {
-        "link": "https://bookify-f8b3a.web.app/",
+        "link": "https://github.com/Sahilll15/bookify-firebase",
         "title": "bookify",
         "description": "An ecom for books",
         "tech": ["reactjs", "nodejs","jwt","postman"]
       },{
-        "link": "https://theanxioustravel.netlify.app/",
+        "link": "https://github.com/Sahilll15/Travel-website-css",
         "title": "TravelWebsite",
         "description": "An Basic Travel webiste",
         "tech": ["html","css","js"]
