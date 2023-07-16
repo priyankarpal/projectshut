@@ -1,5 +1,65 @@
 [
   {
+    "github_username": "Sahilll15",  
+    "Social_media": {
+      "gitHub": "https://github.com/Sahilll15",
+      "LinkedIn": "https://www.linkedin.com/in/sahil-chalke-a7ab741a3/"
+
+      
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sahilll15/Video-chat",
+        "title": "VideoVerse",
+        "description": "An Simple video chat applciation",
+        "tech": ["reactjs", "zegocloud"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/TastyBites.git",
+        "title": "TastyBites",
+        "description": "TastyBites is an recipe finder application",
+        "tech": ["reactjs", "firebase"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/PortFolio-SahilChalke",
+        "title": "Portfolio",
+        "description": "Portfolio webiste",
+        "tech": ["reactjs", "nextjs"]
+      }
+      ,
+      {
+        "link": "https://github.com/Sahilll15/Github-User-Data",
+        "title": "Github-user-data",
+        "description": "getData of the github users",
+        "tech": ["reactjs", "Git"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/FileDrop-Client",
+        "title": "FileDrop",
+        "description": "FileDrop is an FileSharing Application ",
+        "tech": ["reactjs", "Nodejs","jwt","js","ejs"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Songyfy",
+        "title": "An spotify Clone",
+        "description": "wesbite made using spotify api",
+        "tech": ["reactjs", "Spotify API"]
+      }
+      ,
+      {
+        "link": "https://github.com/Sahilll15/bookify-firebase",
+        "title": "bookify",
+        "description": "An ecom for books",
+        "tech": ["reactjs", "nodejs","jwt","postman"]
+      },{
+        "link": "https://github.com/Sahilll15/Travel-website-css",
+        "title": "TravelWebsite",
+        "description": "An Basic Travel webiste",
+        "tech": ["html","css","js"]
+      }
+    ]
+  },
+  {
     "github_username": "Shreyans2004",
     "Social_media": {
       "gitHub": "https://github.com/Shreyans2004"
@@ -10,6 +70,22 @@
         "title": "Trait-generator",
         "description": "A trait generator which decribers differnt traits on clicking the generate button",
         "tech": ["html","css","javascript"]
+      }
+    ]
+  },
+   {
+    "github_username": "HarshSharma0801",
+    "Social_media": {
+      "gitHub": "https://github.com/HarshSharma0801",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-sharma-18a72b26a/"
+    
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/HarshSharma0801/SignUp-UsingNodejs",
+        "title": "SignUp Form Nodejs",
+        "description": "This is a database SignUp form for admin ",
+        "tech": ["html", "css", "javascript", "nodejs" , "expressjs" , "mailchimpApi" ]
       }
     ]
   },
@@ -2432,6 +2508,12 @@
         "link": "https://github.com/vaibhav-xt/Music-Player",
         "title": "Music Player",
         "description": "Music Player",
+        "tech": ["css", "javascript", "html"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
+        "title": "Testimonials Carousal",
+        "description": "This is the testimonial carousal made with vanilla javascript. ",
         "tech": ["css", "javascript", "html"]
       }
     ]
