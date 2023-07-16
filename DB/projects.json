@@ -2509,6 +2509,12 @@
         "title": "Music Player",
         "description": "Music Player",
         "tech": ["css", "javascript", "html"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
+        "title": "Testimonials Carousal",
+        "description": "This is the testimonial carousal made with vanilla javascript. ",
+        "tech": ["css", "javascript", "html"]
       }
     ]
   },
