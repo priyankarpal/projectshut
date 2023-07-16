@@ -1,13 +1,15 @@
-const getAllProjects = async()=>{
- try {
-  const data = await ProjectModel.find({})
-  return data
- } catch (error) {
-  return null
- }
+import { AllProjectsType } from './project.interface'
+
+const getAllProjects = async () => {
+  try {
+    const data = await ProjectModel.find({})
+    return data
+  } catch (error) {
+    return null
+  }
 }
 
-const getProjectById = async (id) => {
+const getProjectById = async (id: string) => {
   try {
     const data = await ProjectModel.find({ _id: { $eq: id } })
     return data
@@ -16,16 +18,16 @@ const getProjectById = async (id) => {
   }
 }
 
-const getProjectBySlug = async (slug) => {
+const getProjectBySlug = async (slug: string) => {
   try {
-    const data = await ProjectModel.find({slug:{$eq: slug}})
+    const data = await ProjectModel.find({ slug: { $eq: slug } })
     return data
   } catch (error) {
     return null
   }
 }
 
-const createProject = async (project) => {
+const createProject = async (project: AllProjectsType) => {
   try {
     const createProject = await new ProjectModel(project)
     await createProject.save()
@@ -35,7 +37,7 @@ const createProject = async (project) => {
   }
 }
 
-const updateProject = async (id, project) => {
+const updateProject = async (id: string, project: AllProjectsType) => {
   try {
     const data = await ProjectModel.findOneAndUpdate(
       { _id: { $eq: id } },
@@ -49,11 +51,20 @@ const updateProject = async (id, project) => {
   }
 }
 
-const deleteProject = async (id) => {
+const deleteProject = async (id: string) => {
   try {
     const data = await ProjectModel.deleteOne({ id: { $eq: id } })
     return data
   } catch (error) {
     return null
   }
+}
+
+export const ProjectService = {
+  getAllProjects,
+  getProjectById,
+  getProjectBySlug,
+  createProject,
+  updateProject,
+  deleteProject,
 }
