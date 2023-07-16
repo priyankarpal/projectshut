@@ -12,7 +12,6 @@ import { shuffleProjects } from "../../utils/paginate";
 import ProjectCard from "../../components/ProjectCard";
 import projects from "../../DB/projects.json";
 import { useRouter } from "next/navigation";
-import { Navbar } from "@/components";
 
 interface NewProjectsType {
   username: string;
@@ -203,8 +202,6 @@ const ProjectsPage: NextPage = () => {
     }
   };
   return (
-    <>
-      <Navbar />
       <section className="my-8 max-w-6xl w-11/12 mx-auto sm:my-10">
         <div className="text-[2.5rem] font-bold text-center text-white">
           Search for <span className="text-primary">cool </span> Projects
@@ -363,7 +360,6 @@ const ProjectsPage: NextPage = () => {
           )}
         </div>
       </section>
-    </>
   );
 };
 

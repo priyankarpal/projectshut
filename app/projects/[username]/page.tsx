@@ -17,7 +17,6 @@ import { IoClose } from "react-icons/io5";
 
 import projects from "../../../DB/projects.json";
 import Image from "next/image";
-import { Navbar } from "@/components";
 interface userType {
   bio?: string;
 }
@@ -91,8 +90,6 @@ function ProjectList() {
   };
 
   return (
-    <>
-      <Navbar />
       <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
         {initialLoading}
         {/* Left side profile section */}
@@ -302,7 +299,6 @@ function ProjectList() {
           </div>
         )}{" "}
       </section>
-    </>
   );
 }
 export default ProjectList;
