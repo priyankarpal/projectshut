@@ -84,7 +84,7 @@ function Footer() {
                     href={footerLink.link}
                     target="_blank"
                     className={
-                      " text-xl hover:text-gray-200 text-white"
+                      " text-xl hover:text-primary text-white"
                     }
                   >
                     {footerLink.icon}
