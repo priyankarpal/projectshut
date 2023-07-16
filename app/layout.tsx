@@ -1,7 +1,8 @@
+"use client"
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { MobileNavBar } from "@/components/MobileNavbar";
-import { Footer } from "@/components"
+import { Footer, ScrollToTop } from "@/components"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,6 +24,7 @@ export default function RootLayout({
         {children}
 
         <MobileNavBar />
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
