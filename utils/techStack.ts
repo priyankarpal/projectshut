@@ -6,6 +6,8 @@ const techStack = [
   "python",
   "mongodb",
   "typescript",
+  "express",
+  "firebase"
 ];
 
 export default techStack;
