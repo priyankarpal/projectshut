@@ -2,7 +2,6 @@
 import { useEffect, ReactNode, useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import { Navbar } from "@/components";
 import Image from "next/image";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { BsCheck2Circle } from "react-icons/bs";
@@ -224,62 +223,59 @@ function AddYourProjectsGuide(): JSX.Element {
   ));
 
   return (
-    <>
-      <Navbar />
-      <section className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-500 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] opacity-20"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                width={180}
-                height={180}
-                x="50%"
-                y={-1}
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M100 180V.5M.5 .5H180" fill="none" />
-              </pattern>
-            </defs>
-            <rect
-              width="100%"
-              height="100%"
-              strokeWidth={0}
-              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
-            />
-          </svg>
-        </div>
-        <div className="flex justify-center mt-10">
-          <button
-            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 0
-              ? "bg-indigo-600 text-white"
-              : "border border-gray-700 text-gray-300"
-              }`}
-            onClick={() => selectOption(0)}
-          >
-            Add Projects Directly From GitHub
-          </button>
-          <button
-            className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 1
-              ? "bg-indigo-600 text-white"
-              : "border border-gray-700 text-gray-300"
-              }`}
-            onClick={() => selectOption(1)}
-          >
-            Set Up Projects Locally
-          </button>
-        </div>
-        <article className="items-center max-w-5xl mx-auto">
-          <p className="mb-5 text-xl font-bold tracking-tight text-red-500">
-            Follow the following steps to add your projects to ProjectsHut:
-          </p>
-          <div className="option">{stepsRender}</div>
-        </article>
-      </section>
-    </>
+    <section className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <svg
+          className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-500 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] opacity-20"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+              width={180}
+              height={180}
+              x="50%"
+              y={-1}
+              patternUnits="userSpaceOnUse"
+            >
+              <path d="M100 180V.5M.5 .5H180" fill="none" />
+            </pattern>
+          </defs>
+          <rect
+            width="100%"
+            height="100%"
+            strokeWidth={0}
+            fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+          />
+        </svg>
+      </div>
+      <div className="flex justify-center mt-10">
+        <button
+          className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 0
+            ? "bg-indigo-600 text-white"
+            : "border border-gray-700 text-gray-300"
+            }`}
+          onClick={() => selectOption(0)}
+        >
+          Add Projects Directly From GitHub
+        </button>
+        <button
+          className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 1
+            ? "bg-indigo-600 text-white"
+            : "border border-gray-700 text-gray-300"
+            }`}
+          onClick={() => selectOption(1)}
+        >
+          Set Up Projects Locally
+        </button>
+      </div>
+      <article className="items-center max-w-5xl mx-auto">
+        <p className="mb-5 text-xl font-bold tracking-tight text-red-500">
+          Follow the following steps to add your projects to ProjectsHut:
+        </p>
+        <div className="option">{stepsRender}</div>
+      </article>
+    </section>
   );
 }
 
