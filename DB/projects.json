@@ -2449,6 +2449,12 @@
         "title": "Music Player",
         "description": "Music Player",
         "tech": ["css", "javascript", "html"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
+        "title": "Color Flipper",
+        "description": "Color Flipper is a vanilla javascript project.",
+        "tech": ["css", "javascript", "html"]
       }
     ]
   },
