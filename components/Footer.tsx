@@ -71,7 +71,7 @@ function Footer() {
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p
-              className="mt-4 text-center text-gray-500 dark:text-gray-400 lg:text-left lg:text-lg"
+              className="mt-4 text-center text-gray-200 dark:text-gray-400 lg:text-left lg:text-lg"
             >
               Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform
             </p>
@@ -84,7 +84,7 @@ function Footer() {
                     href={footerLink.link}
                     target="_blank"
                     className={
-                      " text-xl hover:text-primary text-white"
+                      " text-xl hover:text-primary text-gray-200"
                     }
                   >
                     {footerLink.icon}
@@ -101,7 +101,7 @@ function Footer() {
             className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left"
           >
             {/* for footer docs links */}
-            <ul className="font-medium text-gray-900 dark:text-white">
+            <ul className="font-medium text-gray-200">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
                   <h3 className="mb-8">{section.title}</h3>
@@ -119,7 +119,7 @@ function Footer() {
             <div>
 
               {/* for footer service links */}
-              <ul className="font-medium text-gray-900 dark:text-white">
+              <ul className="font-medium text-gray-200">
                 {footerServiceLinks.map((section, index) => (
                   <div key={index}>
                     <h3 className="mb-8">{section.title}</h3>
@@ -138,7 +138,7 @@ function Footer() {
         </div>
 
         <div className="mt-16 pt-8 dark:border-gray-800">
-          <p className="text-center text-xl text-gray-400">
+          <p className="text-center text-xl text-gray-200">
             ©projectshut {getCurrentYear()} All rights reserved
           </p>
         </div>
