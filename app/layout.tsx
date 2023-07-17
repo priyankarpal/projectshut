@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { MobileNavBar } from "@/components/MobileNavbar";
-import { Navbar, Footer } from "@/components";
+import { Navbar, Footer, ScrollToTop } from "@/components";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +25,7 @@ export default function RootLayout({
         {children}
 
         <MobileNavBar />
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
