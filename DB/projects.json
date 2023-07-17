@@ -2511,6 +2511,12 @@
         "tech": ["css", "javascript", "html"]
       },
       {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
+        "title": "Color Flipper",
+        "description": "Color Flipper is a vanilla javascript project.",
+        "tech": ["css", "javascript", "html"]
+      },
+      {
         "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
         "title": "Testimonials Carousal",
         "description": "This is the testimonial carousal made with vanilla javascript. ",
