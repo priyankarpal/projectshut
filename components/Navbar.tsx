@@ -1,3 +1,4 @@
+"use client";
 import React, { Suspense } from "react";
 import { NextPage } from "next";
 import Link from "next/link";

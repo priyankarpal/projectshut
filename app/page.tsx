@@ -3,12 +3,10 @@ import Link from "next/link";
 import Banner from "../components/Banner";
 import Image from "next/image";
 import images from "../DB/homepage-image.json";
-import { Navbar, } from "@/components";
 
 export default function HomePage() {
   return (
     <section>
-      <Navbar />
       <div className="relative overflow-hidden">
         <div className="pt-16 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
