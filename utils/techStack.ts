@@ -6,7 +6,7 @@ const techStack = [
   "python",
   "mongodb",
   "typescript",
-  "express",
+  "expressjs",
   "firebase"
 ];
 
