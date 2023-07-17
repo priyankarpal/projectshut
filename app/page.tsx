@@ -20,7 +20,7 @@ export default function HomePage() {
                 projects with the world.
               </p>
 
-              <div className="mt-14">
+              <div className="mt-14 my-1">
                 <Link
                   href="/projects"
                   className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 ease-in duration-200 text-white hover:text-gray-900 "
