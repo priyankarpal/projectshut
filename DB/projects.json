@@ -98,7 +98,7 @@
       "link": "https://github.com/Palakkgoyal/cryptoApp",
       "title": "Crypto Landing Page",
       "description": "It is a clone of crypto.com landing page",
-      "tech": ["React", "Tailwind"]
+      "tech": ["reactjs", "tailwindcss"]
     }
   ]
 },
