@@ -5396,9 +5396,9 @@
     },
     "Projects": [
       {
-        "link": "https://github.com/anshulsoni4/landing-web",
-        "title": "Nike Website",
-        "description": "a basic webpage, which is a replica of the bike shoe store",
+        "link": "https://github.com/anshulsoni4/CodeClause_music_player",
+        "title": "Music Player",
+        "description": "music player just like spotify",
         "tech": [
           "html",
           "tailwind-css",
