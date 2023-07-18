@@ -5388,4 +5388,24 @@
       }
     ]
   }
+  {
+    "github_username": "anshulsoni4",
+    "Social_media": {
+      "gitHub": "https://github.com/anshulsoni4",
+      "LinkedIn": "https://www.linkedin.com/in/-anshul-soni/",
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anshulsoni4/landing-web",
+        "title": "Nike Website",
+        "description": "a basic webpage, which is a replica of the bike shoe store",
+        "tech": [
+          "html",
+          "tailwind-css",
+          "javascript",
+          "reactjs"
+        ]
+      }
+    ]
+  }
 ]
