@@ -87,6 +87,22 @@
     ]
   },
   {
+  "github_username": "Palakkgoyal",
+  "Social_media": {
+    "gitHub": "https://github.com/Palakkgoyal",
+    "LinkedIn": "https://www.linkedin.com/in/palak-goyal-037a02269/",
+    "Twitter": "https://twitter.com/Palaktwts"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Palakkgoyal/cryptoApp",
+      "title": "Crypto Landing Page",
+      "description": "It is a clone of crypto.com landing page",
+      "tech": ["reactjs", "tailwindcss"]
+    }
+  ]
+},
+  {
     "github_username": "Shreyans2004",
     "Social_media": {
       "gitHub": "https://github.com/Shreyans2004"
