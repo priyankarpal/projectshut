@@ -5387,23 +5387,23 @@
         ]
       }
     ]
-  }
+  },
   {
     "github_username": "anshulsoni4",
     "Social_media": {
       "gitHub": "https://github.com/anshulsoni4",
       "LinkedIn": "https://www.linkedin.com/in/-anshul-soni/",
+      "Twitter": "https://twitter.com/Anshul_the_soni"
     },
     "Projects": [
       {
         "link": "https://github.com/anshulsoni4/CodeClause_music_player",
-        "title": "Music Player",
-        "description": "music player just like spotify",
+        "title": "web music player",
+        "description": "online web music player just like spotify",
         "tech": [
           "html",
-          "tailwind-css",
-          "javascript",
-          "reactjs"
+          "css",
+          "javascript"
         ]
       }
     ]
