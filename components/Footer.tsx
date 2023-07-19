@@ -10,17 +10,17 @@ function Footer() {
     {
       name: "Twitter",
       link: "https://twitter.com/priyankarpal",
-      icon: <SiTwitter />
+      icon: <SiTwitter aria-label="Visit us on Twitter" />
     },
     {
       name: "GitHub",
       link: "https://github.com/priyankarpal",
-      icon: <SiGithub />
+      icon: <SiGithub aria-label="Visit us on Github" />
     },
     {
       name: "Linkedin",
       link: "https://linkedin.com/in/priyankarpal",
-      icon: <SiLinkedin />
+      icon: <SiLinkedin aria-label="Visit us on LinkedIn" />
     }
   ]
 
