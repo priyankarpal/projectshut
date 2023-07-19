@@ -31,6 +31,15 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ## 🤝 Our Contributors
 
+<details>
+  <summary>Contributors</summary>
+    <div>
+      <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=priyankarpal/projectshut"/>
+      </a>
+    </div>
+</details>
+
 Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
 
 We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
