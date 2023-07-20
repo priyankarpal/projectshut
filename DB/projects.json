@@ -5421,7 +5421,7 @@
       "link": "https://github.com/ankit-0369/portfolio-template",
       "title": "portfolio-template",
       "description": "this is a protfolio website which can be used to get an idea about animations and design of a portfolio website.",
-      "tech": ["html5", "css"]
+      "tech": ["html", "css"]
     },
   ]
 }
