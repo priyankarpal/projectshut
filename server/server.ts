@@ -1,9 +1,11 @@
 import express,{Express, Response, Request} from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import {projectRouter} from './src'
+import { mongoConnect } from './src/schema/mongo.connect';
+import { projectRouter } from './src/projects/projects.router';
+import { userRouter } from './src/user/user.router';
 const app:Express = express();
-const port = 8000
+const port = process.env.PORT
 
 dotenv.config()
 app.use(cors())
@@ -14,7 +16,15 @@ app.get('/', (req: Request, res: Response) => {
 })
 app.use('/api/project',projectRouter)
 app.use('api/user', userRouter)
-app.listen(port,()=>{
- console.log("app is listening on port: ",port)
-})
 
+async function startServer() {
+  try {
+    await mongoConnect()
+    app.listen(port, () => console.log(`Server is running on port ${port}`))
+  } catch (error) {
+    console.error('Error starting the server:', error)
+    process.exit(1) 
+  }
+}
+
+startServer()

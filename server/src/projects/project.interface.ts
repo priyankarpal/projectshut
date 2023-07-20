@@ -12,4 +12,6 @@ export interface AllProjectsType {
   github_username: string
   Social_media: SocialMediaType[]
   projects: ProjectsType[]
+  github_repo_link: string
+  deployment_url: string
 }
