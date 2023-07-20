@@ -5407,5 +5407,22 @@
         ]
       }
     ]
-  }
+  },
+  {
+  "github_username": "ankit-0369",
+  "Social_media": {
+    "gitHub": "https://github.com/ankit-0369",
+    "LinkedIn": "https://www.linkedin.com/in/ankit0369/",
+    "Instagram": "https://www.instagram.com/_k.ankit__/",
+    "Twitter": "https://twitter.com/k_ankit1001"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/ankit-0369/portfolio-template",
+      "title": "portfolio-template",
+      "description": "this is a protfolio website which can be used to get an idea about animations and design of a portfolio website.",
+      "tech": ["html", "css"]
+    }
+  ]
+}
 ]
