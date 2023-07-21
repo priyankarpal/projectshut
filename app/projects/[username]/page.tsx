@@ -86,7 +86,19 @@ function ProjectList() {
 
   // to copy the link to the clipboard
   const copyText = async () => {
-    setIsCopied(true);
+    const textToCopy = window.location.href;
+    navigator.clipboard.writeText(textToCopy)
+    .then(
+      () => {
+        setIsCopied(true);
+        // Reset the "Copied" state after a short delay (e.g., 2 seconds)
+        setTimeout(() => setIsCopied(false), 2000);
+      },
+      () => {
+        // Handling the error, if any, while copying
+        console.error("Failed to copy the text.");
+      }
+    );
   };
 
   return (
