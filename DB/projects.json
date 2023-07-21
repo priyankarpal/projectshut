@@ -1509,26 +1509,15 @@
       "gitHub": "https://github.com/oyepriyansh",
       "LinkedIn": "https://linkedin.com/in/oyepriyansh",
       "Instagram": "https://instagram.com/oyepriyansh",
-      "Twitter": "https://twitter.com/oyepriyansh",
-      "YouTube": ""
+      "Twitter": "https://twitter.com/oyepriyansh"
     },
     "Projects": [
       {
-        "link": "https://oye.pages.dev/erjkg5",
-        "title": "URL Shortener",
-        "description": "simple replit database url shortner to shorten your messy links",
+        "link": "https://github.com/oyepriyansh/DevTweet",
+        "title": "DevTweet",
+        "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community",
         "tech": [
-          "nodejs"
-        ]
-      },
-      {
-        "link": "https://itxpp.github.io/todo",
-        "title": "ToDo List",
-        "description": "A to do list web application which allow user to save tasks, even after closing browser",
-        "tech": [
-          "html",
-          "css",
-          "javascript"
+          "astro"
         ]
       }
     ]
