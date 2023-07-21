@@ -1517,7 +1517,7 @@
         "title": "DevTweet",
         "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community",
         "tech": [
-          "Astro"
+          "astro"
         ]
       }
     ]
