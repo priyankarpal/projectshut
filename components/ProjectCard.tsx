@@ -40,7 +40,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project }) => {
           href={link}
           target="_blank"
           rel="noreferrer"
-          className=" px-4 items-center group flex gap-2 justify-center text-center text-white border w-1/2 border-gray-700  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
+          className="cursor-pointer px-4 items-center group flex gap-2 justify-center text-center text-white border w-1/2 border-gray-700  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
         >
           GitHub
           <span
