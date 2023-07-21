@@ -137,7 +137,7 @@ function ProjectList() {
                     href={userObj.Social_media?.gitHub}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaGithub />
@@ -150,7 +150,7 @@ function ProjectList() {
                     href={userObj.Social_media?.LinkedIn}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaLinkedin />
@@ -163,7 +163,7 @@ function ProjectList() {
                     href={userObj.Social_media?.Twitter}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaTwitter />
@@ -176,7 +176,7 @@ function ProjectList() {
                     href={userObj.Social_media?.YouTube}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaYoutube />
@@ -189,7 +189,7 @@ function ProjectList() {
                     href={userObj.Social_media?.Instagram}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaInstagram />
