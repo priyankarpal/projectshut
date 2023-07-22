@@ -4201,5 +4201,35 @@
         "tech": ["html", "css"]
       }
     ]
+  },
+  {
+    "github_username": "ighoshsubho",
+    "Social_media": {
+      "gitHub": "https://github.com/ighoshsubho",
+      "LinkedIn": "https://www.linkedin.com/in/thesubhoghosh/",
+      "Instagram": "https://www.instagram.com/subhoghosh02/",
+      "YouTube": "https://www.youtube.com/channel/UCScMqKdOvBMJWLJ0sjfkIsg",
+      "Twitter": "https://twitter.com/subhoghosh02"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ighoshsubho/Cloud-Reminder",
+        "title": "Cloud Reminder",
+        "description": "A reminder app that reminds you about particular task via mail and phone number.",
+        "tech": ["javascript", "firebase", "nodemailer", "twilio"]
+      },
+      {
+        "link": "https://github.com/ighoshsubho/wildfire-saviour-backend",
+        "title": "Wildfire Saviour",
+        "description": "The ultimate application for detecting wildfire and notifying in time!",
+        "tech": ["next", "firebase", "opencv", "aws"]
+      },
+      {
+        "link": "https://github.com/ighoshsubho/SuperChat",
+        "title": "Super Chat",
+        "description": "A realtime chat app built using react and firebase!",
+        "tech": ["react", "firebase"]
+      }
+    ]
   }
 ]
