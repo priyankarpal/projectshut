@@ -36,12 +36,12 @@ export default function HomePage() {
                   {images.slice(0, 2).map((image, index) => (
                     <div
                       key={index}
-                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                      className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
                       <Image
                         src={image.url}
                         alt={image.alt}
-                        className="floating-image h-full w-full object-cover object-center"
+                        className="h-full w-full object-cover object-center"
                         width={500}
                         height={500}
                       />
@@ -52,12 +52,12 @@ export default function HomePage() {
                   {images.slice(2, 5).map((image, index) => (
                     <div
                       key={index}
-                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                      className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
                       <Image
                         src={image.url}
                         alt={image.alt}
-                        className="floating-image h-full w-full object-cover object-center"
+                        className="h-full w-full object-cover object-center"
                         width={500}
                         height={500}
                       />
@@ -68,12 +68,12 @@ export default function HomePage() {
                   {images.slice(5).map((image, i) => (
                     <div
                       key={i}
-                      className="h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
+                      className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
                     >
                       <Image
                         src={image.url}
                         alt={image.alt}
-                        className="floating-image h-full w-full object-cover object-center"
+                        className="h-full w-full object-cover object-center"
                         width={500}
                         height={500}
                       />
