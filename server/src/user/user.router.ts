@@ -1,6 +1,5 @@
 import express, { Response, Request } from 'express'
 import { UserService } from '../user/user.service'
-import { UserType } from './user.interface'
 import { checkSchema, validationResult } from 'express-validator'
 import { userValidationSchema } from '../validations/user.validation'
 
@@ -10,9 +9,7 @@ interface RequestParams {
   id: string
 }
 
-interface RequestBody {
-  body: UserType
-}
+
 // //to login a registered user
 // userRouter.get(
 //   '/login',

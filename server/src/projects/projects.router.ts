@@ -1,5 +1,4 @@
 import express, { Response, Request } from 'express'
-import { AllProjectsType } from './project.interface'
 import { ProjectService } from './projects.service'
 import { checkSchema, validationResult } from 'express-validator'
 import { projectValidationSchema } from '../validations/project.validation'
@@ -8,9 +7,6 @@ export const projectRouter = express.Router()
 interface RequestParams {
   id: string
   slug: string
-}
-interface RequestBody {
-  body: AllProjectsType
 }
 
 //to get all projects
