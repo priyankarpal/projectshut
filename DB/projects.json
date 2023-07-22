@@ -4167,13 +4167,13 @@
     },
     "Projects": [
       {
-        "link": "https://discord-clone-sepia.vercel.app/",
+        "link": "https://github.com/ratishjain12/Discord-clone-tailwind",
         "title": "Discord Clone",
         "description": "A Fully Responsive Discord Landing Page UI Clone with animations ",
-        "tech": ["html", "tailwindcss", "javascript", "GSAP"]
+        "tech": ["html", "tailwindcss", "javascript", "gsap"]
       },
       {
-        "link": "https://blogify-mern-app.vercel.app/",
+        "link": "https://github.com/ratishjain12/Blogify-mern-app",
         "title": "Blogify",
         "description": "A Fullstack MERN blogging platform",
         "tech": ["reactjs", "expressjs", "mongodb", "nodejs", "tailwindcss"]
