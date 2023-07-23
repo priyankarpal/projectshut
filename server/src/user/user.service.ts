@@ -1,5 +1,6 @@
 import { UserModel } from "../schema/User/user.schema"
 import { UserType } from "./user.interface"
+import { UserModel } from "../schema/User/user.schema"
 
 
 // Get a user by id
