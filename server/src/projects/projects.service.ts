@@ -1,3 +1,4 @@
+import { ProjectModel } from '../schema/Projects/project.schema'
 import { AllProjectsType } from './project.interface'
 
 const getAllProjects = async () => {
