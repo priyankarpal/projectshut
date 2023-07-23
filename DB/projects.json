@@ -4231,5 +4231,35 @@
         "tech": ["react", "firebase"]
       }
     ]
+  },
+  {
+    "github_username": "AdityaLahane-2003",
+    "Social_media": {
+      "gitHub": "https://github.com/AdityaLahane-2003",
+      "LinkedIn": "https://www.linkedin.com/in/aditya-lahane-772919242/",
+      "Instagram": "https://www.instagram.com/adi_lahane_/",
+      "YouTube": "#",
+      "Twitter": "https://twitter.com/Adi_Lahane_"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/AdityaLahane-2003/Memoir_App",
+        "title": "Blog Application",
+        "description": "Hey ! Here is the Full Stack Blog Application Project!",
+        "tech": ["html",
+          "css",
+          "javascript",
+          "reactjs",
+          "nodejs",
+          "Express.js",
+          "mongodb"]
+      },
+      {
+        "link": "https://github.com/AdityaLahane-2003/API_MAGIC",
+        "title": "API MAGIC",
+        "description": "Hey There here is a project made by using a collection of APIs. Go through it and experience the magic of APIs",
+        "tech": ["javascript", "html", "css"]
+      }
+    ]
   }
 ]
