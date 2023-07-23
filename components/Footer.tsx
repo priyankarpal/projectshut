@@ -70,6 +70,7 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
+          <div className="inline-flex h-10 items-center text-white rounded-lg font-extrabold text-[2rem]"> Ph <span className="text-primary">.</span></div>
             <p
               className="mt-4 text-center text-gray-200 dark:text-gray-400 lg:text-left lg:text-lg"
             >
@@ -104,7 +105,7 @@ function Footer() {
             <ul className="font-medium text-gray-200">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="mb-8">{section.title}</h3>
+                  <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
                   <ul>
                     {section.child.map((link, linkIndex) => (
                       <li key={linkIndex} className="pt-2">
@@ -122,7 +123,7 @@ function Footer() {
               <ul className="font-medium text-gray-200">
                 {footerServiceLinks.map((section, index) => (
                   <div key={index}>
-                    <h3 className="mb-8">{section.title}</h3>
+                    <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
                     <ul>
                       {section.child.map((link, linkIndex) => (
                         <li key={linkIndex} className="pt-2">
