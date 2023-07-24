@@ -3643,11 +3643,9 @@
           "html",
           "css",
           "javascript",
-          "reactjs JS",
-          "useContext",
-          "API",
-          "Vercel",
-          "React-Native"
+          "reactjs",
+          "api",
+          "reactnative"
         ]
       }
 
