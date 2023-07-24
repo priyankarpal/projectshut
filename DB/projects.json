@@ -3634,7 +3634,21 @@
           "API",
           "Vercel"
         ]
+      },
+      {
+        "link": "https://github.com/Harshu467/NFT",
+        "title": "NFT Market",
+        "description": "Master React Native by building a modern NFT Marketplace iOS and Android #ReactNative Application ",
+        "tech": [
+          "html",
+          "css",
+          "javascript",
+          "reactjs",
+          "api",
+          "reactnative"
+        ]
       }
+
     ]
   },
   {
