@@ -4245,7 +4245,7 @@
         "link": "https://github.com/karthiknadar1204/Crypto",
         "title": "CryptoWatchr",
         "description": "CryptoWatchr is an innovative crypto project that provides users with a comprehensive platform to access and explore various cryptocurrency exchanges from around the world. Leveraging the power of the CoinGecko API users can seamlessly connect to different exchanges access real-time data and make informed decisions about their crypto investments.",
-        "tech": ["react js", "chakra ui"]
+        "tech": ["reactjs", "chakraui"]
       }
     ]
   }
