@@ -4246,6 +4246,12 @@
         "title": "CryptoWatchr",
         "description": "CryptoWatchr is an innovative crypto project that provides users with a comprehensive platform to access and explore various cryptocurrency exchanges from around the world. Leveraging the power of the CoinGecko API users can seamlessly connect to different exchanges access real-time data and make informed decisions about their crypto investments.",
         "tech": ["reactjs", "chakraui"]
+      },
+      {
+        "link": "https://github.com/karthiknadar1204/Tripme",
+        "title": "TripMe",
+        "description": "Tripme is a frontend project for a travel website that aims to provide an immersive and user-friendly experience for travelers seeking inspiration planning and booking their next adventure. The project focuses on creating a visually appealing and intuitive interface that captures the essence of exploration and discovery.",
+        "tech": ["reactjs", "css"]
       }
     ]
   }
