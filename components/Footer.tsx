@@ -10,17 +10,20 @@ function Footer() {
     {
       name: "Twitter",
       link: "https://twitter.com/priyankarpal",
-      icon: <SiTwitter aria-label="Visit us on Twitter" />
+      icon: <SiTwitter aria-label="Visit us on Twitter" />,
+      hover : " text-xl  text-gray-200 cursor-pointer hover:text-blue-500 ",      
     },
     {
       name: "GitHub",
       link: "https://github.com/priyankarpal",
-      icon: <SiGithub aria-label="Visit us on Github" />
+      icon: <SiGithub aria-label="Visit us on Github" />,
+      hover: " text-xl  text-gray-200 cursor-pointer hover:text-gray-500 ",
     },
     {
       name: "Linkedin",
       link: "https://linkedin.com/in/priyankarpal",
-      icon: <SiLinkedin aria-label="Visit us on LinkedIn" />
+      icon: <SiLinkedin aria-label="Visit us on LinkedIn" />,
+      hover: " text-xl  text-gray-200 cursor-pointer hover:text-blue-700 ",
     }
   ]
 
@@ -84,9 +87,7 @@ function Footer() {
                   <Link
                     href={footerLink.link}
                     target="_blank"
-                    className={
-                      " text-xl hover:text-primary text-gray-200"
-                    }
+                    className={footerLink.hover}
                   >
                     {footerLink.icon}
                   </Link>
