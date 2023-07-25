@@ -70,7 +70,7 @@ function Footer() {
 
   return (
     < footer className="border-t border-gray-800 " >
-      <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl pt-16 sm:px-4 sm:pb-[5.65rem] lg:px-8 lg:pb-8">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
           <div className="inline-flex h-10 items-center text-white rounded-lg font-extrabold text-[2rem]"> Ph <span className="text-primary">.</span></div>
@@ -140,7 +140,7 @@ function Footer() {
         </div>
 
         <div className="mt-16 pt-8 dark:border-gray-800">
-          <p className="text-center text-xl text-gray-200">
+          <p className="text-center sm:text-xs lg:text-xl text-gray-200">
             ©projectshut {getCurrentYear()} All rights reserved
           </p>
         </div>
