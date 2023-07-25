@@ -4268,5 +4268,20 @@
         "tech": ["reactjs", "css"]
       }
     ]
-  }
+  },{
+  "github_username": "AbhishekPSingh07",
+  "Social_media": {
+    "gitHub": "https://github.com/AbhishekPSingh07",
+    "LinkedIn": "https://www.linkedin.com/in/abhishek-singh-3719941ab/",
+    "Twitter": "https://twitter.com/SinghAbhi1205"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/AbhishekPSingh07/AnimeRecomendation",
+      "title": "Anime-Recomendation",
+      "description": "Building anime recommendation system based only on user viewing history, Genre and other features",
+      "tech": ["python", "ml"]
+    }
+  ]
+}
 ]
