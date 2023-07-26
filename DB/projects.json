@@ -4295,7 +4295,7 @@
       "link": "https://github.com/k-deepak04/DHT11RealTime",
       "title": "IOT ESP32",
       "description": "Building Real-time Temperature & Humidity sensor using ESP32 & DHT11",
-      "tech": ["C++", "Arduino IDE"]
+      "tech": ["c++", "arduino"]
     }
   ]
 }
