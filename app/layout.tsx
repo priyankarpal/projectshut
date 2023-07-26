@@ -19,6 +19,30 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="title" content="ProjectHut-Learn.Build.Share" />
+        <meta
+          name="description"
+          content="ProjectsHut is an open source web app that enables users to freely publish their projects and create user profiles within the platform "
+        />
+        <meta name="language" content="en" />
+        <meta name="keywords" content="ProjectHut, projects, educational resources, wide range of projects, high-quality projects, React, Nodejs , javascript, open source, contribution , learners" />
+        <meta name="author" content="Priyankar Pal" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Open Graph meta tags for website preview */}
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description}  />
+        <meta property="og:url" content="https://projectshut.vercel.app/" /> 
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="ProjectHut" />
+        {/* Twitter meta tags for website preview */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content={metadata.title} />
+        <meta property="twitter:description" content={metadata.description} />
+        <meta property="twitter:image" content="" /> {/* Replace with the actual preview image URL */}
+      </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <Navbar />
 
