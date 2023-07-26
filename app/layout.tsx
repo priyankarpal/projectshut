@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="title" content="ProjectHut-Learn.Build.Share" />
+      <meta name="title" content={metadata.description} />
         <meta
           name="description"
-          content="ProjectsHut is an open source web app that enables users to freely publish their projects and create user profiles within the platform "
+          content={metadata.description}
         />
         <meta name="language" content="en" />
         <meta name="keywords" content="ProjectHut, projects, educational resources, wide range of projects, high-quality projects, React, Nodejs , javascript, open source, contribution , learners" />
@@ -41,7 +41,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content={metadata.title} />
         <meta property="twitter:description" content={metadata.description} />
-        <meta property="twitter:image" content="" /> {/* Replace with the actual preview image URL */}
+        <meta property="twitter:image" content="https://user-images.githubusercontent.com/88102392/251507361-e71396f9-92c6-4664-b7e4-4275cb902e65.png" /> 
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <Navbar />
