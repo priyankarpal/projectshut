@@ -17,7 +17,6 @@ import { IoClose } from "react-icons/io5";
 
 import projects from "../../../DB/projects.json";
 import Image from "next/image";
-import { Navbar } from "@/components";
 interface userType {
   bio?: string;
 }
@@ -87,12 +86,22 @@ function ProjectList() {
 
   // to copy the link to the clipboard
   const copyText = async () => {
-    setIsCopied(true);
+    const textToCopy = window.location.href;
+    navigator.clipboard.writeText(textToCopy)
+    .then(
+      () => {
+        setIsCopied(true);
+        // Reset the "Copied" state after a short delay (e.g., 2 seconds)
+        setTimeout(() => setIsCopied(false), 2000);
+      },
+      () => {
+        // Handling the error, if any, while copying
+        console.error("Failed to copy the text.");
+      }
+    );
   };
 
   return (
-    <>
-      <Navbar />
       <section className="flex flex-col gap-4 md:flex-row xsm:my-2 p-4 md:p-8">
         {initialLoading}
         {/* Left side profile section */}
@@ -140,7 +149,7 @@ function ProjectList() {
                     href={userObj.Social_media?.gitHub}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaGithub />
@@ -153,7 +162,7 @@ function ProjectList() {
                     href={userObj.Social_media?.LinkedIn}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaLinkedin />
@@ -166,7 +175,7 @@ function ProjectList() {
                     href={userObj.Social_media?.Twitter}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaTwitter />
@@ -179,7 +188,7 @@ function ProjectList() {
                     href={userObj.Social_media?.YouTube}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaYoutube />
@@ -192,7 +201,7 @@ function ProjectList() {
                     href={userObj.Social_media?.Instagram}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
                     aria-label="Github"
                   >
                     <FaInstagram />
@@ -302,7 +311,6 @@ function ProjectList() {
           </div>
         )}{" "}
       </section>
-    </>
   );
 }
 export default ProjectList;

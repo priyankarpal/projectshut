@@ -1,7 +1,13 @@
 name: 🌱 Project Addition
 description: Add a new project to the list
-title: 'chore: project addition by '
-labels: ['projects addition', '🚦status: awaiting triage', 'good first issue', '🟩 priority: low']
+title: "chore: project addition by "
+labels:
+  [
+    "projects addition",
+    "🚦status: awaiting triage",
+    "good first issue",
+    "🟩 priority: low",
+  ]
 body:
   - type: textarea
     id: project-add
@@ -12,9 +18,15 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 'Record'
+      label: "Record"
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have checked the existing [issues](https://github.com/priyankarpal/ProjectsHut/issues)
+          required: true
+
+        - label: I have read the [Contributing Guidelines](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md)
+          required: true
+
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md)
           required: true
 
         - label: I want to work on this issue
