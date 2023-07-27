@@ -4312,7 +4312,7 @@
   },
   "Projects": [
     {
-      "link": "https://github.com/pewpewnor/HyperSpace.git",
+      "link": "https://github.com/pewpewnor/HyperSpace",
       "title": "HyperSpace",
       "description": "Forum-based and community-based social media website",
       "tech": ["reactjs", "nodejs", "javascript", "mongodb", "expressjs"]
