@@ -1,5 +1,114 @@
 [
   {
+    "github_username": "Sahilll15",
+    "Social_media": {
+      "gitHub": "https://github.com/Sahilll15",
+      "LinkedIn": "https://www.linkedin.com/in/sahil-chalke-a7ab741a3/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Sahilll15/Video-chat",
+        "title": "VideoVerse",
+        "description": "An Simple video chat applciation",
+        "tech": ["reactjs", "zegocloud"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/TastyBites.git",
+        "title": "TastyBites",
+        "description": "TastyBites is an recipe finder application",
+        "tech": ["reactjs", "firebase"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/PortFolio-SahilChalke",
+        "title": "Portfolio",
+        "description": "Portfolio webiste",
+        "tech": ["reactjs", "nextjs"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Github-User-Data",
+        "title": "Github-user-data",
+        "description": "getData of the github users",
+        "tech": ["reactjs", "Git"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/FileDrop-Client",
+        "title": "FileDrop",
+        "description": "FileDrop is an FileSharing Application ",
+        "tech": ["reactjs", "Nodejs", "jwt", "js", "ejs"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Songyfy",
+        "title": "An spotify Clone",
+        "description": "wesbite made using spotify api",
+        "tech": ["reactjs", "Spotify API"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/bookify-firebase",
+        "title": "bookify",
+        "description": "An ecom for books",
+        "tech": ["reactjs", "nodejs", "jwt", "postman"]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Travel-website-css",
+        "title": "TravelWebsite",
+        "description": "An Basic Travel webiste",
+        "tech": ["html", "css", "js"]
+      }
+    ]
+  },
+  {
+    "github_username": "Palakkgoyal",
+    "Social_media": {
+      "gitHub": "https://github.com/Palakkgoyal",
+      "LinkedIn": "https://www.linkedin.com/in/palak-goyal-037a02269/",
+      "Twitter": "https://twitter.com/Palaktwts"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Palakkgoyal/cryptoApp",
+        "title": "Crypto Landing Page",
+        "description": "It is a clone of crypto.com landing page",
+        "tech": ["reactjs", "tailwindcss"]
+      }
+    ]
+  },
+  {
+    "github_username": "Shreyans2004",
+    "Social_media": {
+      "gitHub": "https://github.com/Shreyans2004"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Shreyans2004/traits_2",
+        "title": "Trait-generator",
+        "description": "A trait generator which decribers differnt traits on clicking the generate button",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "HarshSharma0801",
+    "Social_media": {
+      "gitHub": "https://github.com/HarshSharma0801",
+      "LinkedIn": "https://www.linkedin.com/in/harsh-sharma-18a72b26a/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/HarshSharma0801/SignUp-UsingNodejs",
+        "title": "SignUp Form Nodejs",
+        "description": "This is a database SignUp form for admin ",
+        "tech": [
+          "html",
+          "css",
+          "javascript",
+          "nodejs",
+          "expressjs",
+          "mailchimpApi"
+        ]
+      }
+    ]
+  },
+  {
     "github_username": "sabhisharma-ise",
     "Social_media": {
       "gitHub": "https://github.com/sabhisharma-ise",
@@ -65,7 +174,6 @@
       }
     ]
   },
-
   {
     "github_username": "5h0ov",
     "Social_media": {
@@ -84,7 +192,6 @@
       }
     ]
   },
-
   {
     "github_username": "junaid-arif-24",
     "Social_media": {
@@ -1022,21 +1129,14 @@
       "gitHub": "https://github.com/oyepriyansh",
       "LinkedIn": "https://linkedin.com/in/oyepriyansh",
       "Instagram": "https://instagram.com/oyepriyansh",
-      "Twitter": "https://twitter.com/oyepriyansh",
-      "YouTube": ""
+      "Twitter": "https://twitter.com/oyepriyansh"
     },
     "Projects": [
       {
-        "link": "https://oye.pages.dev/erjkg5",
-        "title": "URL Shortener",
-        "description": "simple replit database url shortner to shorten your messy links",
-        "tech": ["nodejs"]
-      },
-      {
-        "link": "https://itxpp.github.io/todo",
-        "title": "ToDo List",
-        "description": "A to do list web application which allow user to save tasks, even after closing browser",
-        "tech": ["html", "css", "javascript"]
+        "link": "https://github.com/oyepriyansh/DevTweet",
+        "title": "DevTweet",
+        "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community",
+        "tech": ["astro"]
       }
     ]
   },
@@ -1330,7 +1430,6 @@
       }
     ]
   },
-
   {
     "github_username": "Niladri2003",
     "Social_media": {
@@ -2418,6 +2517,18 @@
         "link": "https://github.com/vaibhav-xt/Music-Player",
         "title": "Music Player",
         "description": "Music Player",
+        "tech": ["css", "javascript", "html"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
+        "title": "Color Flipper",
+        "description": "Color Flipper is a vanilla javascript project.",
+        "tech": ["css", "javascript", "html"]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
+        "title": "Testimonials Carousal",
+        "description": "This is the testimonial carousal made with vanilla javascript. ",
         "tech": ["css", "javascript", "html"]
       }
     ]
@@ -3529,7 +3640,21 @@
           "API",
           "Vercel"
         ]
+      },
+      {
+        "link": "https://github.com/Harshu467/NFT",
+        "title": "NFT Market",
+        "description": "Master React Native by building a modern NFT Marketplace iOS and Android #ReactNative Application ",
+        "tech": [
+          "html",
+          "css",
+          "javascript",
+          "reactjs",
+          "api",
+          "reactnative"
+        ]
       }
+
     ]
   },
   {
@@ -3640,7 +3765,6 @@
       }
     ]
   },
-
   {
     "github_username": "abrehan2",
     "Social_media": {
@@ -3820,6 +3944,12 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": ["reactjs JS", "nodejs"]
+      },
+      {
+        "link": "https://github.com/TechNodes2-0/Contentify",
+        "title": "Contentify",
+        "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
+        "tech": ["reactjs", "nodejs"]
       }
     ]
   },
@@ -3841,7 +3971,6 @@
       }
     ]
   },
-
   {
     "github_username": "Siddhant-Patil0203",
     "Social_media": {
@@ -3909,26 +4038,270 @@
     ]
   },
   {
-  "github_username": "Bilal1204",
+    "github_username": "Bilal1204",
+    "Social_media": {
+      "gitHub": "https://github.com/Bilal1204",
+      "LinkedIn": "https://www.linkedin.com/in/bilalshaikh04/",
+      "Instagram": "https://www.instagram.com/_bilalshaikh_1204/",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Bilal1204/Expense-Tracker",
+        "title": "Expense Tracker",
+        "description": "Track you daily transactions in 3 categories namely Savings, Expenses, Investment",
+        "tech": ["reactjs", "mongodb"]
+      },
+      {
+        "link": "https://github.com/Bilal1204/linker",
+        "title": "Linker",
+        "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
+        "tech": ["reactjs", "mongodb"]
+      }
+    ]
+  },
+  {
+    "github_username": "akshaysoni10",
+    "Social_media": {
+      "gitHub": "https://github.com/akshaysoni10",
+      "LinkedIn": "https://www.linkedin.com/in/akshay-soni-a37a2b222/",
+      "Instagram": "https://www.instagram.com/ak_soni_10/",
+      "YouTube": "#",
+      "Twitter": "#"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/akshaysoni10/MiniInsta-client",
+        "title": "Mini-Insta",
+        "description": "A social media MERN stack project in which a user can sign in and after then can create their own posts and also likes & comments on other posts.",
+        "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "api"]
+      },
+      {
+        "link": "https://github.com/akshaysoni10/Dragon-Dino-Game-",
+        "title": "Dragon-Dino Game",
+        "description": "A dragon-dino game in which a dino is jump over a dragon and a scoreboard at the top is automatically increases.",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "BhumicaPG",
+    "Social_media": {
+      "gitHub": "https://github.com/BhumicaPG",
+      "LinkedIn": "https://www.linkedin.com/in/bhumica-gangurde-104277230",
+      "Instagram": "https://www.instagram.com/bhumica_08/"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/BhumicaPG/CodePen-Clone",
+        "title": "CodePen Clone",
+        "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
+        "tech": ["html", "css", "reactjs", "nodejs"]
+      },
+      {
+        "link": "https://github.com/BhumicaPG/ToDo-List",
+        "title": "To-do list",
+        "description": "This project is a to-do list, where users can add new items, in different lists, strike-out them to mark as completed.",
+        "tech": ["html", "css", "expressjs", "ejs", "nodejs"]
+      }
+    ]
+  },
+  {
+    "github_username": "Kalivarapubindusree",
+    "Social_media": {
+      "gitHub": "https://github.com/Kalivarapubindusree"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Kalivarapubindusree/blood-and-plasma-management-system",
+        "title": "Blood_And_Plasma_Management_System",
+        "description": "blood management system project is an like overall blood management system in our hands, Register,Logins, adding Events and showing Interest  to go and donate the blood seraching the donar near by the searched location showing the total donorslist and total bloodbanks and videos and contact us page and updating user profile within the working database",
+        "tech": ["html", "css", "reactjs"]
+      }
+    ]
+  },
+  {
+    "github_username": "blindaks",
+    "Social_media": {
+      "gitHub": "https://github.com/",
+      "LinkedIn": "https://www.linkedin.com/in/akrati-verma-a8574a234/",
+      "Instagram": "https://www.instagram.com/_akrati_23/?hl=en",
+      "Twitter": "https://twitter.com/blindaks23"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/blindaks/temperature-converter",
+        "title": "TEMPERATURE CONVERTER",
+        "description": "A simple temperature converter website built using HTML, CSS, and JavaScript. The website allows users to convert temperature in Celsius, Fahrenheit, and Kelvin.",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "parasss19",
+    "Social_media": {
+      "gitHub": "https://github.com/parasss19",
+      "LinkedIn": "https://www.linkedin.com/in/paras-mehta19/",
+      "YouTube": "https://www.youtube.com/channel/UCjHy-POmwFytrt93jVgxSEQ"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/parasss19/JavaScript-Game-",
+        "title": "Guess-It",
+        "description": "A ming-googling guessing game. Computer genarate random number between 1 to 100 and you have to two choices Easy and Hard to guess it in minimum number of attempts",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "anshulsoni4",
+    "Social_media": {
+      "gitHub": "https://github.com/anshulsoni4",
+      "LinkedIn": "https://www.linkedin.com/in/-anshul-soni/",
+      "Twitter": "https://twitter.com/Anshul_the_soni"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/anshulsoni4/CodeClause_music_player",
+        "title": "web music player",
+        "description": "online web music player just like spotify",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
+    "github_username": "ratishjain12",
+    "Social_media": {
+      "gitHub": "https://github.com/ratishjain12",
+      "LinkedIn": "https://www.linkedin.com/in/ratish-jain/",
+      "Instagram": "https://www.instagram.com/ratish_45/",
+      "Twitter": "https://twitter.com/ratishtwts"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ratishjain12/Discord-clone-tailwind",
+        "title": "Discord Clone",
+        "description": "A Fully Responsive Discord Landing Page UI Clone with animations ",
+        "tech": ["html", "tailwindcss", "javascript", "gsap"]
+      },
+      {
+        "link": "https://github.com/ratishjain12/Blogify-mern-app",
+        "title": "Blogify",
+        "description": "A Fullstack MERN blogging platform",
+        "tech": ["reactjs", "expressjs", "mongodb", "nodejs", "tailwindcss"]
+      },
+      {
+        "link": "https://github.com/ratishjain12/Budget-Tracker-App",
+        "title": "Pocket Planner: A expense and budget tracker",
+        "description": "An expense and budget tracker app is a mobile application designed to help users manage their personal finances.",
+        "tech": ["flutter", "firebase", "dart"]
+      },
+      {
+        "link": "https://github.com/ratishjain12/Notes-App-Flutter-Nodejs-",
+        "title": "Notes App",
+        "description": "A note taking app like google keep which helps you note down and store anything.",
+        "tech": ["flutter", "dart", "mongodb", "nodejs"]
+      }
+    ]
+  },
+  {
+    "github_username": "ankit-0369",
+    "Social_media": {
+      "gitHub": "https://github.com/ankit-0369",
+      "LinkedIn": "https://www.linkedin.com/in/ankit0369/",
+      "Instagram": "https://www.instagram.com/_k.ankit__/",
+      "Twitter": "https://twitter.com/k_ankit1001"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ankit-0369/portfolio-template",
+        "title": "portfolio-template",
+        "description": "this is a protfolio website which can be used to get an idea about animations and design of a portfolio website.",
+        "tech": ["html", "css"]
+      }
+    ]
+  },
+  {
+    "github_username": "ighoshsubho",
+    "Social_media": {
+      "gitHub": "https://github.com/ighoshsubho",
+      "LinkedIn": "https://www.linkedin.com/in/thesubhoghosh/",
+      "Instagram": "https://www.instagram.com/subhoghosh02/",
+      "YouTube": "https://www.youtube.com/channel/UCScMqKdOvBMJWLJ0sjfkIsg",
+      "Twitter": "https://twitter.com/subhoghosh02"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/ighoshsubho/Cloud-Reminder",
+        "title": "Cloud Reminder",
+        "description": "A reminder app that reminds you about particular task via mail and phone number.",
+        "tech": ["javascript", "firebase", "nodemailer", "twilio"]
+      },
+      {
+        "link": "https://github.com/ighoshsubho/wildfire-saviour-backend",
+        "title": "Wildfire Saviour",
+        "description": "The ultimate application for detecting wildfire and notifying in time!",
+        "tech": ["next", "firebase", "opencv", "aws"]
+      },
+      {
+        "link": "https://github.com/ighoshsubho/SuperChat",
+        "title": "Super Chat",
+        "description": "A realtime chat app built using react and firebase!",
+        "tech": ["react", "firebase"]
+      }
+    ]
+  },
+  {
+    "github_username": "karthiknadar1204",
+    "Social_media": {
+      "gitHub": "https://github.com/karthiknadar1204",
+      "LinkedIn": "https://www.linkedin.com/in/karthik-nadar-b2155a25b/",
+      "Instagram": "https://www.instagram.com/karthiknadar1204/",
+      "Twitter": "https://twitter.com/Karthikreincar1"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/karthiknadar1204/Crypto",
+        "title": "CryptoWatchr",
+        "description": "CryptoWatchr is an innovative crypto project that provides users with a comprehensive platform to access and explore various cryptocurrency exchanges from around the world. Leveraging the power of the CoinGecko API users can seamlessly connect to different exchanges access real-time data and make informed decisions about their crypto investments.",
+        "tech": ["reactjs", "chakraui"]
+      },
+      {
+        "link": "https://github.com/karthiknadar1204/Tripme",
+        "title": "TripMe",
+        "description": "Tripme is a frontend project for a travel website that aims to provide an immersive and user-friendly experience for travelers seeking inspiration planning and booking their next adventure. The project focuses on creating a visually appealing and intuitive interface that captures the essence of exploration and discovery.",
+        "tech": ["reactjs", "css"]
+      }
+    ]
+  },{
+  "github_username": "AbhishekPSingh07",
   "Social_media": {
-    "gitHub": "https://github.com/Bilal1204",
-    "LinkedIn": "https://www.linkedin.com/in/bilalshaikh04/",
-    "Instagram": "https://www.instagram.com/_bilalshaikh_1204/",
-    "YouTube": "#",
-    "Twitter": "#"
+    "gitHub": "https://github.com/AbhishekPSingh07",
+    "LinkedIn": "https://www.linkedin.com/in/abhishek-singh-3719941ab/",
+    "Twitter": "https://twitter.com/SinghAbhi1205"
   },
   "Projects": [
     {
-      "link": "https://github.com/Bilal1204/Expense-Tracker",
-      "title": "Expense Tracker",
-      "description": "Track you daily transactions in 3 categories namely Savings, Expenses, Investment",
-      "tech": ["reactjs", "mongodb"]
-    },
+      "link": "https://github.com/AbhishekPSingh07/AnimeRecomendation",
+      "title": "Anime-Recomendation",
+      "description": "Building anime recommendation system based only on user viewing history, Genre and other features",
+      "tech": ["python", "ml"]
+    }
+  ]
+},{
+  "github_username": "k-deepak04",
+  "Social_media": {
+    "gitHub": "https://github.com/k-deepak04",
+    "LinkedIn": "https://www.linkedin.com/in/k-deepak04/",
+    "Twitter": "https://twitter.com/k_deepak04"
+  },
+  "Projects": [
     {
-      "link": "https://github.com/Bilal1204/linker",
-      "title": "Linker",
-      "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
-      "tech": ["reactjs", "mongodb"]
+      "link": "https://github.com/k-deepak04/DHT11RealTime",
+      "title": "IOT ESP32",
+      "description": "Building Real-time Temperature & Humidity sensor using ESP32 & DHT11",
+      "tech": ["c++", "arduino"]
     }
   ]
 }

@@ -28,8 +28,18 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 - Go through the [CONTRIBUTING.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
 - Do check out the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
+- we are using `pnpm` so please use `pnpm` 
 
 ## 🤝 Our Contributors
+
+<details>
+  <summary>Contributors</summary>
+    <div>
+      <a href="https://github.com/priyankarpal/ProjectsHut/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=priyankarpal/projectshut"/>
+      </a>
+    </div>
+</details>
 
 Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
 
@@ -59,5 +69,3 @@ We value the time and effort you put into contributing, and we look forward to r
 ## ©️ License
 
 The project is licensed under the [MIT License](https://github.com/neelshah2409/Bot-Collection/blob/main/LICENSE).
-
----

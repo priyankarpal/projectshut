@@ -90,18 +90,7 @@ pnpm dev
 - `git commit -m "feat/docs/fix: <EXPLAIN-YOUR_CHANGES>"`
 
   > **Note**: Replace `<EXPLAIN-YOUR_CHANGES>` with the changes you have made. Also, follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
-  > If you encounter this error while commits
-  >
-  > ```diff
-  > husky - pre-commit hook exited with code 1(error)
-  > ```
-  >
-  > use this command
-  >
-  > ```diff
-  > pnpm format
-  > ```
-
+  
 - `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
 - `git push origin fix-issue-<ISSUE-NUMBER>`
 
