@@ -3477,7 +3477,7 @@
         "link": "https://github.com/Avdhesh-Varshney/TimeWatcher",
         "title": "Time Watcher",
         "description": "This project can tell you about how much time has gone from the entered date and time even in milli-seconds.",
-        "tech": ["HTML", "CSS", "JAVASCRIPT"]
+        "tech": ["html", "css", "javascript"]
       }
     ]
   },
