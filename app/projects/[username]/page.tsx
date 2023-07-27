@@ -163,7 +163,7 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-blue-900"
-                    aria-label="Github"
+                    aria-label="Linkedin"
                   >
                     <FaLinkedin  />
                   </a>
@@ -176,7 +176,7 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-blue-500"
-                    aria-label="Github"
+                    aria-label="Twitter"
                   >
                     <FaTwitter  />
                   </a>
@@ -189,7 +189,7 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-red-900"
-                    aria-label="Github"
+                    aria-label="Youtube"
                   >
                     <FaYoutube />
                   </a>
@@ -202,7 +202,7 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-red-500"
-                    aria-label="Github"
+                    aria-label="Instagram "
                   >
                     <FaInstagram  />
                   </a>
