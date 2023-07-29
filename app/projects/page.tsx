@@ -279,6 +279,14 @@ const ProjectsPage: NextPage = () => {
                       color: "black",
                     }}
                   >
+                    <div className="flex justify-end w-full">
+                      <button
+                        className="bg-red-600 hover:bg-red-500 rounded-md border p-2 mx-2 gap-1 text-white"
+                        onClick={() => setOpenFilter(false)}
+                      >
+                        <MdClear />
+                      </button>
+                    </div>
                     <div className="flex items-center justify-center my-7 mx-20">
                       <input
                         type="text"
