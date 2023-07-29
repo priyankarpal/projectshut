@@ -9,7 +9,7 @@ const nextConfig = {
       "github.com",
     ],
   },
-  trailingSlash: true,
+  trailingSlash: false,
 };
 
 module.exports = nextConfig;
