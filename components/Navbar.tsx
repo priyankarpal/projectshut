@@ -11,7 +11,7 @@ interface NavLink {
 }
 
 const Navbar: NextPage = () => {
-  const activePath = usePathname();
+  const path = usePathname();
   const navLinks: NavLink[] = [
     {
       name: "Home",
@@ -31,6 +31,8 @@ const Navbar: NextPage = () => {
       external: true,
     },
   ];
+
+  const activePath = path !== "/" ? path.replace(/\/$/, "") : path
 
   return (
     <Suspense>
