@@ -4304,5 +4304,21 @@
       "tech": ["c++", "arduino"]
     }
   ]
+},{
+  "github_username": "rishabhchaudhary0210",
+  "Social_media": {
+    "gitHub": "https://github.com/rishabhchaudhary0210",
+    "LinkedIn": "https://www.linkedin.com/in/rishabh-chaudhary-108564154",
+    "Instagram": "https://instagram.com/_.rishabh.chaudhary._?igshid=MzNlNGNkZWQ4Mg==",
+    "Twitter": "https://twitter.com/ItsRishabh02?t=C_PAIivEq-r3hcAxAEURpg&s=08"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/rishabhchaudhary0210/Grocery-Website",
+      "title": "Groco-Grocery Website",
+      "description": "A website to fulfill your daily grocery needs. A static fronted designed to practice my skills and try out the Swiper.",
+      "tech": ["html", "css", "javascript", "swiperjs"]
+    }
+  ]
 }
 ]
