@@ -3653,6 +3653,16 @@
           "api",
           "reactnative"
         ]
+      },
+      {
+        "link":"https://github.com/Akash-Tandale001/Water-Quality-Prediction/tree/main",
+        "title":"Water Quality Prediction",
+        "description":"This project is based on the prediction of water quality using machine learning algorithms.",
+        "tech":[
+          "python",
+          "machine learning",
+          "data science"
+        ]
       }
 
     ]
