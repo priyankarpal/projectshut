@@ -4317,8 +4317,8 @@
       "link": "https://github.com/rishabhchaudhary0210/Grocery-Website",
       "title": "Groco-Grocery Website",
       "description": "A website to fulfill your daily grocery needs. A static fronted designed to practice my skills and try out the Swiper.",
-      "tech": ["HTML", "CSS", "JavaScript", "SwiperJs"]
-    },
+      "tech": ["html", "css", "javascript", "swiperjs"]
+    }
   ]
 }
 ]
