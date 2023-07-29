@@ -60,7 +60,8 @@ const Navbar: NextPage = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className={
-                        activePath === navLink.path
+                        activePath === navLink.path ||
+                        activePath === navLink.path + "/"
                           ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
                           : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
                       }
@@ -71,7 +72,8 @@ const Navbar: NextPage = () => {
                     <Link
                       href={navLink.path}
                       className={
-                        activePath === navLink.path
+                        activePath === navLink.path ||
+                        activePath === navLink.path + "/"
                           ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
                           : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
                       }
