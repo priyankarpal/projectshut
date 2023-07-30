@@ -150,7 +150,8 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-gray-500"
-                    aria-label="Github"
+                    aria-label="Follow us on GitHub"
+                    title="GitHub(External Link)"
                   >
                     <FaGithub  />
                   </a>
@@ -163,7 +164,8 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-blue-900"
-                    aria-label="Linkedin"
+                    aria-label="Follow us on LinkedIn"
+                    title="LinkedIn(External Link)"
                   >
                     <FaLinkedin  />
                   </a>
@@ -176,7 +178,8 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-blue-500"
-                    aria-label="Twitter"
+                    aria-label="Follow us on Twitter"
+                    title="Twitter(External Link)"
                   >
                     <FaTwitter  />
                   </a>
@@ -189,7 +192,8 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-red-900"
-                    aria-label="Youtube"
+                    aria-label="Follow us on YouTube"
+                    title="YouTube(External Link)"
                   >
                     <FaYoutube />
                   </a>
@@ -202,7 +206,8 @@ function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-red-500"
-                    aria-label="Instagram "
+                    aria-label="Follow us on Instagram "
+                    title="Instagram(External Link)"
                   >
                     <FaInstagram  />
                   </a>
@@ -238,7 +243,8 @@ function ProjectList() {
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-gray-500 "
-                      aria-label="Github"
+                      aria-label="Follow us on GitHub"
+                      title="GitHub(External Link)"
                     >
                       <FaGithub  size={30} />
                     </a>
