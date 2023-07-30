@@ -1,10 +1,9 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import { MobileNavBar } from '@/components/MobileNavbar'
-import { Navbar, Footer, ScrollToTop } from '@/components'
 import ProviderWrapper from './ProviderWrapper'
 // import { SessionProvider } from 'next-auth/react'
-
+import "./globals.css";
+import { Inter } from "next/font/google";
+import { MobileNavBar } from "@/components/MobileNavbar";
+import { Navbar, Footer, ScrollToTop } from "@/components";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

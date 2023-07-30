@@ -11,6 +11,13 @@ interface NavLink {
   external?: boolean
 }
 
+
+interface NavLink {
+  name: string;
+  path: string;
+  external?: boolean;
+}
+
 const Navbar: NextPage = () => {
   const activePath = usePathname()
   const [isSession, setIsSession] = useState<boolean>(false);
@@ -29,12 +36,12 @@ const Navbar: NextPage = () => {
       path: '/docs',
     },
     {
-      name: 'GitHub',
-      path: 'https://github.com/priyankarpal/ProjectsHut',
+      name: "GitHub",
+      path: "https://github.com/priyankarpal/ProjectsHut",
       external: true,
     },
   ]
-useEffect(() => {
+  useEffect(() => {
     if (session && session.user) {
       setIsSession(true);
     } else {
@@ -60,19 +67,23 @@ useEffect(() => {
           </div>
 
           {/* Main element of navbar */}
-          <div className='item-navbar hidden md:block' id='elements-of-navbar'>
-            <ul className='flex items-center gap-5 text-[1rem]'>
+          <div
+            className="item-navbar hidden md:block"
+            id="elements-of-navbar"
+          >
+            <ul className="flex items-center gap-5 text-[1rem]">
               {navLinks.map((navLink) => (
                 <li key={navLink.path}>
                   {navLink.external ? (
                     <a
                       href={navLink.path}
-                      target='_blank'
-                      rel='noopener noreferrer'
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={
-                        activePath === navLink.path
-                          ? 'inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg'
-                          : 'inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg'
+                        activePath === navLink.path ||
+                          activePath === navLink.path + "/"
+                          ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
+                          : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
                       }
                     >
                       {navLink.name}
@@ -81,9 +92,10 @@ useEffect(() => {
                     <Link
                       href={navLink.path}
                       className={
-                        activePath === navLink.path
-                          ? 'inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg'
-                          : 'inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg'
+                        activePath === navLink.path ||
+                          activePath === navLink.path + "/"
+                          ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
+                          : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
                       }
                     >
                       {navLink.name}
@@ -91,7 +103,7 @@ useEffect(() => {
                   )}
                 </li>
               ))}
-              {isSession  ? (
+              {isSession ? (
                 <button
                   className='inline-block py-2 px-3 text-center text-white border border-primary hover:text-primary rounded-lg'
                   onClick={() => signOut({ callbackUrl: '/' })}
@@ -109,8 +121,8 @@ useEffect(() => {
             </ul>
           </div>
         </div>
-      </nav>
-    </Suspense>
+      </nav >
+    </Suspense >
   )
 }
 
