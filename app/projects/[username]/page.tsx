@@ -223,7 +223,7 @@ function ProjectList() {
             Object.keys(userObj).length > 0 &&
             userObj?.Projects.map((project, index) => (
               <div
-                className="w-100 my-1 p-4 mb-4 text-white border border-gray-800 "
+                className="w-100 my-1 p-4 mb-4 text-white  hover:border-primary border border-gray-800 "
                 key={index}
                 style={{
                   borderRadius: "10px",
