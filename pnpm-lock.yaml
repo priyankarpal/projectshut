@@ -36,8 +36,8 @@ importers:
         specifier: 13.4.12
         version: 13.4.12(eslint@8.46.0)(typescript@5.1.6)
       framer-motion:
-        specifier: ^10.14.0
-        version: 10.14.0(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^10.15.0
+        version: 10.15.0(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: ^13.4.12
         version: 13.4.12(react-dom@18.2.0)(react@18.2.0)
@@ -1549,7 +1549,7 @@ packages:
       eslint-import-resolver-typescript: 3.5.5(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5)(eslint@8.46.0)
       eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.46.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.46.0)
-      eslint-plugin-react: 7.33.0(eslint@8.46.0)
+      eslint-plugin-react: 7.33.1(eslint@8.46.0)
       eslint-plugin-react-hooks: 5.0.0-canary-7118f5dd7-20230705(eslint@8.46.0)
       typescript: 5.1.6
     transitivePeerDependencies:
@@ -1688,8 +1688,8 @@ packages:
       eslint: 8.46.0
     dev: false
 
-  /eslint-plugin-react@7.33.0(eslint@8.46.0):
-    resolution: {integrity: sha512-qewL/8P34WkY8jAqdQxsiL82pDUeT7nhs8IsuXgfgnsEloKCT4miAV9N9kGtx7/KM9NH/NCGUE7Edt9iGxLXFw==}
+  /eslint-plugin-react@7.33.1(eslint@8.46.0):
+    resolution: {integrity: sha512-L093k0WAMvr6VhNwReB8VgOq5s2LesZmrpPdKz/kZElQDzqS7G7+DnKoqT+w4JwuiGeAhAvHO0fvy0Eyk4ejDA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -1932,8 +1932,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: false
 
-  /framer-motion@10.14.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-XMZCbki8+9+D9of6P0cFtGrSGItNvXUJqvGI8O5v5aSvprA3PNlcpgfLEfTIZ9woNuZtYv56dprktuQ+S2welw==}
+  /framer-motion@10.15.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-HDjWrYWgbO5orKuhnXETLFzk7UUvwWur2HFs2elAZ8lVpI49ClHql31DNTVvVBcOrSHfAOS4eBDBedIvOx634w==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0

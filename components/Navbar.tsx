@@ -66,7 +66,7 @@ const Navbar: NextPage = () => {
                           : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
                       }
                     >
-                      {navLink.name}
+                      {navLink.name} 
                     </a>
                   ) : (
                     <Link
