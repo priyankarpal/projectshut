@@ -3283,11 +3283,11 @@
         "title": "Pizza Delivery Web App",
         "description": "Full Stack Pizza Delivery Application",
         "tech": [
-          "React",
-          "Redux",
-          "MongoDB",
-          "Node Js",
-          "Express JS"
+          "react",
+          "redux",
+          "mongodb",
+          "nodejs",
+          "expressjs"
         ]
       }
     ]
