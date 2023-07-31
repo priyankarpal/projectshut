@@ -37,7 +37,7 @@ const navbarItemsData: NavbarItem[] = [
 export const MobileNavBar = () => {
     return (
         <footer className="fixed bottom-4 w-1/11  left-0 right-0 bg-gray-800 text-white py-4 md:hidden rounded-xl mx-5">
-            <div className="container mx-auto text-xl flex justify-between items-center px-4">
+            <div className="mx-auto text-xl flex justify-evenly items-center px-4">
                 {navbarItemsData.map((link, idx) => (
                     <Link href={link.url} key={idx}>
                         <div className="flex flex-col items-center cursor-pointer transition-all hover:text-primary">
