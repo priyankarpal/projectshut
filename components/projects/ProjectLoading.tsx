@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProjectLoading() {
   return (
     <div className="h-full shadow rounded-md p-4 max-w-sm w-full mx-auto">

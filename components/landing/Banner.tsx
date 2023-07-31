@@ -1,3 +1,4 @@
+'use client'
 import { FaGithub, FaShareAlt, FaMoneyBillAlt } from "react-icons/fa";
 import { SlGlobe } from "react-icons/sl";
 import { motion } from "framer-motion";
