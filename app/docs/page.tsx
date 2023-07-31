@@ -168,6 +168,7 @@ function Step({ icon, text, code, image, index }: StepProps): JSX.Element {
 
       <div className="flex items-center justify-between ">
         <motion.div
+        key={text}
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -201,6 +202,7 @@ function Step({ icon, text, code, image, index }: StepProps): JSX.Element {
       </div>
       {code && (
         <motion.div
+          key={code}
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
