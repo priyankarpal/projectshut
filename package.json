@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "commitlint": "commitlint --edit"
+    "prepare": "pnpx husky install",
+    "commitlint": "commitlint --edit",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -18,7 +20,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
-    "framer-motion": "^10.14.0",
+    "framer-motion": "^10.15.0",
     "next": "^13.4.12",
     "postcss": "8.4.27",
     "react": "18.2.0",

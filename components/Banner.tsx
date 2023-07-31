@@ -31,6 +31,14 @@ export default function Banner() {
     <div className="bg-inherit py-24 sm:py-32 select-none">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
+        <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
+            className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Why should you use this?
+          </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -39,14 +47,6 @@ export default function Banner() {
             className="text-base font-semibold leading-7 text-primary">
             Showcase your projects
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
-            className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Why should you use this?
-          </motion.p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">

@@ -6,12 +6,15 @@ import Image from "next/image";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { BsCheck2Circle } from "react-icons/bs";
 import { PiArrowFatLineRightFill } from "react-icons/pi";
+import { motion } from "framer-motion";
+
 
 type StepProps = {
   icon: ReactNode;
   text: string;
   code: string;
   image?: string;
+  index: number;
 };
 
 const codeString = `{
@@ -143,7 +146,7 @@ const option2Steps = [
   },
 ];
 
-function Step({ icon, text, code, image }: StepProps): JSX.Element {
+function Step({ icon, text, code, image, index }: StepProps): JSX.Element {
   const [copyCodeButton, setcopyCodeButton] = useState(true);
   const copyCode = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
@@ -156,9 +159,21 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
   };
 
   return (
-    <div className="mt-5 flex flex-col gap-5">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center justify-between gap-5 w-full">
+    <motion.div className="mt-5 flex flex-col gap-5 "
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
+    >
+
+      <div className="flex items-center justify-between ">
+        <motion.div
+        key={text}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: index * 0.15 }}
+          className="flex items-center justify-between gap-5 w-full ">
           <div className="flex items-center gap-5">
             <span>{icon}</span>
             <p className="text-base font-semibold leading-7 text-indigo-600">
@@ -166,7 +181,12 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
             </p>
           </div>
           {code && (
-            <div className="flex items-end justify-end">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: index * 0.20 }}
+              className="flex items-end justify-end">
               <button
                 onClick={copyCode}
                 className="cursor-pointer text-indigo-600"
@@ -176,27 +196,40 @@ function Step({ icon, text, code, image }: StepProps): JSX.Element {
                 )}
                 {!copyCodeButton && <BsCheck2Circle size="18" color="green" />}
               </button>
-            </div>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
       {code && (
-        <div className="mt-2">
+        <motion.div
+          key={code}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: index * 0.25 }}
+          className="mt-2">
           <SyntaxHighlighter language="nginx" style={anOldHope}>
             {code}
           </SyntaxHighlighter>
-        </div>
+        </motion.div>
       )}
       {image && (
-        <Image
-          src={image}
-          alt={text}
-          className="mt-2"
-          width={10000}
-          height={600}
-        />
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: index * 0.30 }}
+        >
+          <Image
+            src={image}
+            alt={text}
+            className="mt-2"
+            width={10000}
+            height={600}
+          />
+        </motion.div>
       )}
-    </div>
+    </motion.div>
   );
 }
 
@@ -214,6 +247,7 @@ function AddYourProjectsGuide(): JSX.Element {
   const renderSteps = selectedOption === 0 ? option1Steps : option2Steps;
   const stepsRender = renderSteps.map((step: any, index: number) => (
     <Step
+      index={index}
       key={index}
       icon={step.icon}
       text={step.text}
@@ -250,7 +284,11 @@ function AddYourProjectsGuide(): JSX.Element {
         </svg>
       </div>
       <div className="flex justify-center mt-10">
-        <button
+        <motion.button
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
           className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 0
             ? "bg-indigo-600 text-white"
             : "border border-gray-700 text-gray-300"
@@ -258,8 +296,13 @@ function AddYourProjectsGuide(): JSX.Element {
           onClick={() => selectOption(0)}
         >
           Add Projects Directly From GitHub
-        </button>
-        <button
+        </motion.button>
+        <motion.button
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
+
           className={`mx-2 px-4 py-2 rounded-lg mb-4 ${selectedOption === 1
             ? "bg-indigo-600 text-white"
             : "border border-gray-700 text-gray-300"
@@ -267,12 +310,17 @@ function AddYourProjectsGuide(): JSX.Element {
           onClick={() => selectOption(1)}
         >
           Set Up Projects Locally
-        </button>
+        </motion.button>
       </div>
       <article className="items-center max-w-5xl mx-auto">
-        <p className="mb-5 text-xl font-bold tracking-tight text-red-500">
+        <motion.p className="mb-5 text-xl font-bold tracking-tight text-red-500"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
+        >
           Follow the following steps to add your projects to ProjectsHut:
-        </p>
+        </motion.p>
         <div className="option">{stepsRender}</div>
       </article>
     </section>
