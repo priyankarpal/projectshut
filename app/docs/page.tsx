@@ -161,7 +161,7 @@ function Step({ icon, text, code, image, index }: StepProps): JSX.Element {
   return (
     <motion.div className="mt-5 flex flex-col gap-5 "
       initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
     >
@@ -169,7 +169,7 @@ function Step({ icon, text, code, image, index }: StepProps): JSX.Element {
       <div className="flex items-center justify-between ">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: index * 0.15 }}
           className="flex items-center justify-between gap-5 w-full ">
