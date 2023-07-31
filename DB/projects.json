@@ -3261,7 +3261,7 @@
         ]
       },
       {
-        "link": "https://vaibhav-maurya.netlify.app/",
+        "link": "https://github.com/vaibhav-xt/Portfolio",
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": [
@@ -3298,6 +3298,18 @@
           "css",
           "javascript",
           "html"
+        ]
+      },
+      {
+        "link": "https://github.com/vaibhav-xt/OIBSIP_Pizza-delivery-app",
+        "title": "Pizza Delivery Web App",
+        "description": "Full Stack Pizza Delivery Application",
+        "tech": [
+          "react",
+          "redux",
+          "mongodb",
+          "nodejs",
+          "expressjs"
         ]
       }
     ]
