@@ -8,7 +8,7 @@ body:
     attributes:
       label: File Name
       description: "Enter the file that you want to refactor in the codebase."
-      placeholder: "For example - searchProject.ts"
+      placeholder: "For example - app/projects/page.tsx"
     validations:
       required: true
   - type: textarea
