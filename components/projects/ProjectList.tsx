@@ -15,7 +15,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 
-import projects from "../../../DB/projects.json";
+import projects from "@/DB/projects.json";
 import Image from "next/image";
 interface userType {
     bio?: string;
