@@ -4344,5 +4344,19 @@
       "tech": ["html", "css", "javascript", "swiperjs"]
     }
   ]
+},{
+  "github_username": "PVBharadwaj",
+  "Social_media": {
+    "gitHub": "https://github.com/PVBharadwaj",
+    "LinkedIn": "https://www.linkedin.com/in/vinathi-bharadwaj-pakki-2545b5230/"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/PVBharadwaj/PVBharadwaj.github.io",
+      "title": "Astromania",
+      "description": "Space-themed website with all space related stuff",
+      "tech": ["html", "css", "bootstrap"]
+    }
+    ]
 }
 ]
