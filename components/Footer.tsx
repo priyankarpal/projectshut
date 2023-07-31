@@ -11,19 +11,19 @@ function Footer() {
       name: "Twitter",
       link: "https://twitter.com/priyankarpal",
       icon: <SiTwitter aria-label="Follow us on Twitter" title="Twitter(External Link)"/>,
-      hover : " text-xl  text-gray-200 cursor-pointer hover:text-blue-500 ",      
+      hover : " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",      
     },
     {
       name: "GitHub",
       link: "https://github.com/priyankarpal",
       icon: <SiGithub aria-label="Follow us on GitHub" title="GitHub(External Link)" />,
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-gray-500 ",
+      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",
     },
     {
       name: "Linkedin",
       link: "https://linkedin.com/in/priyankarpal",
       icon: <SiLinkedin aria-label="Follow us on LinkedIn" title="LinkedIn(External Link)" />,
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-blue-700 ",
+      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",
     }
   ]
 
