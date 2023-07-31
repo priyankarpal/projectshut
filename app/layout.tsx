@@ -7,7 +7,10 @@ import { Navbar, Footer, ScrollToTop } from "@/components";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ProjectsHut - Learn. Build. Share.",
+  title: {
+    default: "ProjectsHut - Learn. Build. Share.",
+    template: '%s - ProjectsHut',
+  },
   description:
     "A platform where you can share your open source projects with the world.",
 };
@@ -32,14 +35,14 @@ export default function RootLayout({
         <meta name="revisit-after" content="7 days" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Open Graph meta tags for website preview */}
-        <meta property="og:title" content={metadata.title} />
+        <meta property="og:title" content={metadata.title.default} />
         <meta property="og:description" content={metadata.description}  />
         <meta property="og:url" content="https://projectshut.vercel.app/" /> 
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="ProjectHut" />
         {/* Twitter meta tags for website preview */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content={metadata.title} />
+        <meta property="twitter:title" content={metadata.title.default} />
         <meta property="twitter:description" content={metadata.description} />
         <meta property="twitter:image" content="https://user-images.githubusercontent.com/88102392/251507361-e71396f9-92c6-4664-b7e4-4275cb902e65.png" /> 
       </head>

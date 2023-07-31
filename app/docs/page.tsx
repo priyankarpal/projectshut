@@ -1,5 +1,9 @@
 import AddYourProjectsGuide from "@/components/AddYourProjectsGuide";
 
+export const metadata = {
+  title: 'Docs',
+}
+
 export default function page() {
   return (
     <section className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
