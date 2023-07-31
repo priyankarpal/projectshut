@@ -38,3 +38,6 @@ next-env.d.ts
 
 # ignore package-lock
 package-lock.json
+
+yarn.lock
+
