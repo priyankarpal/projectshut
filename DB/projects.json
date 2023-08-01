@@ -81,7 +81,7 @@
         "tech": [
           "html",
           "css",
-          "js"
+          "javascript"
         ]
       }
     ]
@@ -853,7 +853,7 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "redux "
+          "redux"
         ]
       }
     ]
@@ -1051,7 +1051,7 @@
           "html",
           "css",
           "javascript",
-          "Ruby"
+          "ruby"
         ]
       },
       {
@@ -1617,7 +1617,7 @@
           "html",
           "css",
           "javascript",
-    "api",
+          "api",
           "tailwindcss"
         ]
       },
@@ -1714,7 +1714,7 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "redux Toolkit",
+          "redux toolkit",
           "redux"
         ]
       },
@@ -1850,7 +1850,7 @@
           "reactjs",
           "javascript",
           "tailwindcss",
-          "sanity "
+          "sanity"
         ]
       }
     ]
@@ -1938,7 +1938,7 @@
         "tech": [
           "html",
           "css",
-          "Js"
+          "javascript"
         ]
       },
       {
@@ -1948,7 +1948,7 @@
         "tech": [
           "html",
           "css",
-          "Js"
+          "javascript"
         ]
       }
     ]
@@ -2074,7 +2074,7 @@
         "tech": [
           "html",
           "css",
-          "Js"
+          "javascript"
         ]
       }
     ]
@@ -2395,7 +2395,7 @@
         "title": "Travel Agency",
         "description": "Jadoo is the Name, it's a travel agency website that can helps people with their traveling into another country and enable them book any flight of their choice ",
         "tech": [
-          "reactjs js",
+          "reactjs",
           "tailwindcss",
           "api",
           "redux",
@@ -5251,7 +5251,6 @@
         "tech": [
           "nextjs",
           "tailwindcss",
-   
           "typescript"
         ]
       }
@@ -5534,7 +5533,7 @@
         "title": "Wildfire Saviour",
         "description": "The ultimate application for detecting wildfire and notifying in time!",
         "tech": [
-          "next",
+          "nextjs",
           "firebase",
           "opencv",
           "aws"
@@ -5545,7 +5544,7 @@
         "title": "Super Chat",
         "description": "A realtime chat app built using react and firebase!",
         "tech": [
-          "react",
+          "reactjs",
           "firebase"
         ]
       }
@@ -5594,7 +5593,7 @@
         "description": "Building anime recommendation system based only on user viewing history, Genre and other features",
         "tech": [
           "python",
-          "ml"
+          "machine learning"
         ]
       }
     ]
