@@ -1,7 +1,7 @@
 import Projects from "@/components/projects/Projects";
-import { NextPage } from "next";
+import { Metadata, NextPage } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Projects',
 }
 
