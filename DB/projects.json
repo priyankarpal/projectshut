@@ -2282,8 +2282,8 @@
         "tech": [
           "mongodb",
           "reactjs",
-          "node",
-          "express"
+          "nodejs",
+          "expressjs"
         ]
       },
       {
@@ -2372,11 +2372,11 @@
         "description": "A bot that generates text and images for the given prompts.",
         "tech": [
           "reactjs",
-          "node",
-          "express",
+          "nodejs",
+          "expressjs",
           "javascript",
           "css",
-          "openai api"
+          "api"
         ]
       }
     ]
@@ -2398,7 +2398,7 @@
         "tech": [
           "reactjs js",
           "tailwindcss",
-          "rapid api",
+          "api",
           "redux",
           "firebase"
         ]
@@ -2441,8 +2441,7 @@
           "html",
           "css",
           "javascript",
-          "fetch api",
-          "json"
+          "api"
         ]
       }
     ]
@@ -2681,7 +2680,7 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "openai api",
+          "api",
           "typescript"
         ]
       }
@@ -2701,7 +2700,6 @@
         "title": "AR Watches",
         "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
         "tech": [
-          "android studio",
           "java",
           "unity",
           "vuforia",
@@ -2765,7 +2763,7 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": [
-          "nextJs",
+          "nextjs",
           "solidity",
           "css"
         ]
@@ -3371,7 +3369,7 @@
         "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
         "tech": [
           "python",
-          "discord api"
+          "api"
         ]
       }
     ]
@@ -3765,7 +3763,7 @@
           "nodejs",
           "expressjs",
           "discordjs",
-          "rapidapi"
+          "api"
         ]
       }
     ]
@@ -3955,7 +3953,7 @@
           "javascript",
           "css",
           "html",
-          "rapidapi",
+          "api",
           "bootstrap v5"
         ]
       }
@@ -4213,7 +4211,7 @@
           "html",
           "tailwindcss",
           "reactjs",
-          "rapid api",
+          "api",
           "javascript"
         ]
       },
@@ -4251,8 +4249,7 @@
           "css",
           "reactjs",
           "styled component",
-          "context api",
-          "emailjs api"
+          "api"
         ]
       },
       {
@@ -4301,7 +4298,7 @@
         "title": "Personal Portfolio Using threejs",
         "description": "This is my personal portfolio website made using ThreeJs and Vite + reactjs",
         "tech": [
-          "express",
+          "expressjs",
           "mongodb",
           "nodejs",
           "reactjs",
@@ -4314,7 +4311,7 @@
         "title": "LetsNote",
         "description": "This is a note-taking web application that is reactjs Based",
         "tech": [
-          "express",
+          "expressjs",
           "mongodb",
           "nodejs",
           "reactjs",
@@ -4402,9 +4399,8 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "tailwind",
-          "react",
-          "rapidapi",
+          "tailwindcss",
+          "reactjs"
           "javascript"
         ]
       }
@@ -4493,7 +4489,7 @@
           "html",
           "tailwindcss",
           "reactjs",
-          "rapid api",
+          "api",
           "javascript"
         ]
       },
@@ -4516,8 +4512,8 @@
         "description": "This is simply a news app which keeps you updated with the latest news and not only the latest but the most relevant one ",
         "tech": [
           "html",
-          "tailwind",
-          "react",
+          "tailwindcss",
+          "reactjs",
           "javascript"
         ]
       }
@@ -4542,7 +4538,7 @@
           "mui",
           "reactjs",
           "css",
-          "coingeckoapi",
+          "api",
           "javascript"
         ]
       },
@@ -4755,9 +4751,7 @@
           "javascript",
           "bootstrap",
           "reactjs",
-          "usecontext",
-          "api",
-          "vercel"
+          "api"
         ]
       },
       {
@@ -4913,7 +4907,7 @@
           "html",
           "css",
           "mui",
-          "imdb api"
+          "api"
         ]
       }
     ]
@@ -5069,7 +5063,7 @@
           "reactjs",
           "chartjs",
           "mui",
-          "context api"
+          "api"
         ]
       }
     ]
@@ -5111,7 +5105,7 @@
         "description": "CocktailDB is a web application that allows users to explore a vast collection of cocktails, along with their prices, ingredients, and details",
         "tech": [
           "reactjs",
-          "rapid api",
+          "api",
           "css"
         ]
       },
@@ -5120,7 +5114,7 @@
         "title": "job-update-reactNative-app",
         "description": "JobPilot is a cross-platform job update app built using reactjs-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
         "tech": [
-          "reactjs native",
+          "reactnative",
           "expo",
           "css"
         ]
@@ -5258,7 +5252,7 @@
         "tech": [
           "nextjs",
           "tailwindcss",
-          "vercel",
+   
           "typescript"
         ]
       }
