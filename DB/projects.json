@@ -38,8 +38,8 @@
         "title": "Github-user-data",
         "description": "getData of the github users",
         "tech": [
-          "reactjs",
-          "Git"
+          "reactjs"
+     
         ]
       },
       {
@@ -50,7 +50,7 @@
           "reactjs",
           "nodejs",
           "jwt",
-          "js",
+          "javascript",
           "ejs"
         ]
       },
@@ -60,7 +60,7 @@
         "description": "wesbite made using spotify api",
         "tech": [
           "reactjs",
-          "Spotify API"
+          "api"
         ]
       },
       {
@@ -140,7 +140,7 @@
           "javascript",
           "nodejs",
           "expressjs",
-          "mailchimpApi"
+          "api"
         ]
       }
     ]
@@ -360,7 +360,7 @@
           "javascript",
           "html",
           "css",
-          "Express",
+          "expressjs",
           "nodejs"
         ]
       },
@@ -391,8 +391,8 @@
         "title": "Medical Chatbot using Google Cloud",
         "description": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies. The big cities have many facilities but small village people cannot go to big cities and afford the cost. With the use of these ChatBots, if they have small smartphones they can easily get the solution.",
         "tech": [
-          "Dialogflow",
-          "Google Cloud"
+          "dialogflow",
+          "google cloud"
         ]
       },
       {
@@ -648,7 +648,7 @@
         "title": "ZORIN Search Page",
         "description": "This is a wbesite is a modified version of ZORIN Browser Homepage. This website uses NeuMorphism with Light and Dark theme in System Mode. It also gives Weather Update",
         "tech": [
-          "NextJs",
+          "nextjs",
           "typescript",
           "scss"
         ]
@@ -714,9 +714,9 @@
         "description": "This project is based on EditorJS. A user can edit text on the go and save it in the database. The user gets a wide variety of options to edit and save documents.",
         "tech": [
           "html",
-          "SCSS",
+          "scss",
           "javascript",
-          "EditorJS"
+          "editorjs"
         ]
       },
       {
@@ -1023,8 +1023,8 @@
         "description": "Here is the android clean architecture based Note taking application take a look off it !!",
         "tech": [
           "kotlin",
-          "Jetpack Compose",
-          "Clean Architecture"
+          "jetpack compose",
+          "clean architecture"
         ]
       }
     ]
@@ -1042,9 +1042,9 @@
         "title": "Credit Card Fraud Detection",
         "description": "Credit Card Fraud Detection Using Machine Learning & Python",
         "tech": [
-          "Python",
-          "Data Science",
-          "Machine Learning"
+          "python",
+          "data science",
+          "machine learning"
         ]
       }
     ]
@@ -1081,7 +1081,7 @@
         "title": "Phonebook Management System",
         "description": "It is a software application that allows users to store, organize and manage large numbers of contact records efficiently. The system is designed to have functions such as adding, updating, viewing, listing and deleting contacts.",
         "tech": [
-          "C"
+          "c"
         ]
       }
     ]
@@ -1135,7 +1135,7 @@
         "title": "Sober-Sense",
         "description": "An AI/ML solution to prevent drunk drive accidents using Face recognition & Speech Recognition.",
         "tech": [
-          "Python",
+          "python",
           "javascript",
           "bootstrap",
           "html"
@@ -1156,8 +1156,8 @@
         "title": "Image-Classifier",
         "description": "Built an image classifier using Python, Tensorflow and Keras with Jupyter Notebook to classify sad and happy faces.",
         "tech": [
-          "Python",
-          "Tensorflow"
+          "python",
+          "tensorflow"
         ]
       },
       {
@@ -1225,8 +1225,8 @@
         "title": "Login PyQt5 Awesome GUI",
         "description": "It's a minimalist login in the Python language using the PyQt5 library. ",
         "tech": [
-          "Python",
-          "PyQt5"
+          "python",
+          "pyqt5"
         ]
       }
     ]
@@ -1254,7 +1254,7 @@
         "title": "T-Regx",
         "tech": [
           "php",
-          "Regexp"
+          "regexp"
         ]
       }
     ]
@@ -1268,8 +1268,8 @@
         "title": "Filmpire",
         "tech": [
           "reactjs",
-          "MUI",
-          "Alan AI"
+          "mui",
+          "alan ai"
         ]
       }
     ]
@@ -1283,7 +1283,7 @@
         "description": "Designing a multi step form and implementing js functionality",
         "tech": [
           "html",
-          "SCSS",
+          "scss",
           "javascript"
         ]
       }
@@ -1329,7 +1329,7 @@
           "reactjs",
           "typescript",
           "tailwindcss",
-          "Solidity"
+          "solidity"
         ]
       }
     ]
@@ -1357,8 +1357,8 @@
         "title": "JobSpot",
         "description": "A Mobile Application for both Android and iOS for Job Opportunities.",
         "tech": [
-          "reactjs Native",
-          "Expo"
+          "reactnative",
+          "expo"
         ]
       }
     ]
@@ -1373,7 +1373,7 @@
         "tech": [
           "reactjs",
           "redux",
-          "TMDB API"
+          "api"
         ]
       }
     ]
@@ -1387,7 +1387,7 @@
         "description": "My portfolio website made in reactjs.",
         "tech": [
           "reactjs",
-          "BootStrap"
+          "bootstrap"
         ]
       },
       {
@@ -1396,7 +1396,7 @@
         "description": "Elpha is a verified discord bot made with discord.js and hosted on Railway. Its development aims to make server moderation easier",
         "tech": [
           "nodejs",
-          "DiscordJS",
+          "discordjs",
           "mongodb"
         ]
       }
@@ -1413,8 +1413,8 @@
           "nodejs",
           "reactjs",
           "mongodb",
-          "Express.js",
-          "MUI"
+          "expressjs",
+          "mui"
         ]
       }
     ]
@@ -1429,10 +1429,10 @@
         "tech": [
           "nextjs",
           "reactjs",
-          "PlanetScale",
-          "Typescript",
+          "planetscale",
+          "typescript",
           "tailwindcss",
-          "T3"
+          "t3"
         ]
       }
     ]
@@ -1476,8 +1476,8 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "MUI",
-          "Rapid API"
+          "mui",
+          "api"
         ]
       }
     ]
@@ -1522,8 +1522,8 @@
         "title": "Line Following Robot",
         "description": "A robot which follows a dark colored line with the help of sensors.",
         "tech": [
-          "Raspberry Pi",
-          "Python 3"
+          "raspberry pi",
+          "python 3"
         ]
       }
     ]
@@ -1559,8 +1559,7 @@
           "css",
           "javascript",
           "html",
-          "TMD API",
-          "Youtube API"
+          "api"
         ]
       }
     ]
@@ -1640,8 +1639,7 @@
           "html",
           "css",
           "javascript",
-          "Vite",
-          "Spotify API",
+    "api",
           "tailwindcss"
         ]
       },
@@ -1653,7 +1651,7 @@
           "html",
           "css",
           "javascript",
-          "Weather API",
+          "api",
           "bootstrap"
         ]
       }
@@ -1672,8 +1670,8 @@
         "title": "WaveSlayer",
         "description": "A simple python chatbot that interacts using voice ",
         "tech": [
-          "Python",
-          "OpenAi"
+          "python",
+          "openai"
         ]
       },
       {
@@ -1681,7 +1679,7 @@
         "title": "BotForge-Discord",
         "description": "A discord bot that does wonders ",
         "tech": [
-          "DiscordJS",
+          "discordjs",
           "nodejs"
         ]
       },
@@ -1748,7 +1746,7 @@
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
         "tech": [
           "reactjs",
-          "EmailJS",
+          "emailjs",
           "framer-motion"
         ]
       }
@@ -1769,10 +1767,10 @@
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, css and JSX.",
         "tech": [
           "reactjs",
-          "MUI",
+          "mui",
           "javascript",
-          "css",
-          "JSX"
+          "css"
+       
         ]
       },
       {
@@ -1781,7 +1779,6 @@
         "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
         "tech": [
           "javascript",
-          "DOM",
           "html",
           "css"
         ]
@@ -1802,7 +1799,7 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": [
-          "C"
+          "c"
         ]
       },
       {
@@ -1830,10 +1827,8 @@
         "description": "This is a Google Clone application built with reactjs JS, featuring a home page, search component, and search results page. It utilizes reactjs JS, Material UI, reactjs Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. firebase is used for authentication and backend functionalities.",
         "tech": [
           "reactjs",
-          "MUI",
-          "reactjs Router",
-          "Context API",
-          "Google Custom Search API",
+          "mui",
+          "api",
           "firebase"
         ]
       }
@@ -1855,7 +1850,7 @@
           "javascript",
           "css",
           "html",
-          "ipify API"
+          "api"
         ]
       }
     ]
@@ -1876,8 +1871,8 @@
         "tech": [
           "reactjs",
           "javascript",
-          "TailWindCss",
-          "Sanity "
+          "tailwindcss",
+          "sanity "
         ]
       }
     ]
@@ -1898,7 +1893,7 @@
           "javascript",
           "css",
           "html",
-          "Rapid API"
+          "api"
         ]
       }
     ]
@@ -1919,7 +1914,7 @@
           "javascript",
           "css",
           "html",
-          "Weather-api",
+          "api",
           "tailwindcss"
         ]
       },
@@ -2013,7 +2008,7 @@
         "title": "Start Contributing",
         "description": "This project aims to help beginners get started with contributing to open source by providing a substantial amount of useful resources. Everyone is welcome to contribute and be a part of this project.",
         "tech": [
-          "Open Source"
+          "open source"
         ]
       }
     ]
@@ -2033,9 +2028,8 @@
         "description": "Github Finder is a website that helps finding usernames on github where they analyse their daily activites as well as check their statistics. There is also functionality for searching and getting information about Github organizations along with their recent projects.",
         "tech": [
           "reactjs",
-          "MUI",
-          "GitHubAPI",
-          "Context API"
+          "mui",
+          "api"
         ]
       }
     ]
@@ -2058,7 +2052,7 @@
           "mongodb",
           "firebase",
           "nodejs",
-          "Cloudinary"
+          "cloudinary"
         ]
       }
     ]
@@ -2077,10 +2071,10 @@
         "description": "A fully working clone of YouTube made using reactjs, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
         "tech": [
           "reactjs",
-          "Material UI",
-          "reactjs Router",
+          "mui",
+          "reactjs",
           "css",
-          "Youtube API"
+          "api"
         ]
       }
     ]
@@ -2141,8 +2135,8 @@
         "description": "This a news API/Rss feed parser which scrapes news from websites and provides them in simple json format for the ease of developers. Read the docs and use the console page to live test the API.",
         "tech": [
           "reactjs",
-          "Material UI",
-          "Express js",
+          "mui",
+          "expressjs",
           "cherrio"
         ]
       }
@@ -2164,7 +2158,7 @@
         "description": "The Recipe application is a web-based platform designed to store and organize recipes for users. It assists users in remembering the cooking methods and step-by-step instructions involved in preparing each recipe.",
         "tech": [
           "vue",
-          "Vuex"
+          "vuex"
         ]
       }
     ]
@@ -2184,8 +2178,8 @@
         "tech": [
           "javascript",
           "reactjs",
-          "Node",
-          "RapidApi",
+          "node",
+          "api",
           "tailwindcss"
         ]
       }
@@ -2224,10 +2218,10 @@
         "title": "Diagnose",
         "description": "Skin cancer detection from your skin images.",
         "tech": [
-          "Python",
-          "TensorFlow",
-          "Streamlit",
-          "Machine learning"
+          "python",
+          "tensorflow",
+          "streamlit",
+          "machine learning"
         ]
       }
     ]
@@ -2245,10 +2239,10 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": [
-          "Python",
-          "OpenCV",
-          "Keras",
-          "Tensorflow"
+          "python",
+          "opencv",
+          "keras",
+          "tensorflow"
         ]
       },
       {
@@ -2309,8 +2303,8 @@
         "tech": [
           "mongodb",
           "reactjs",
-          "Node",
-          "Express"
+          "nodejs",
+          "expressjs"
         ]
       },
       {
@@ -2319,9 +2313,9 @@
         "description": "This is a portfolio website made using reactjs, and javascript. It contains my projects and experience.",
         "tech": [
           "javascript",
-          "SCSS",
+          "scss",
           "reactjs",
-          "Sanity"
+          "sanity"
         ]
       }
     ]
@@ -2359,7 +2353,7 @@
         "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
         "tech": [
           "c++",
-          "SFML"
+          "sfml"
         ]
       }
     ]
@@ -2399,11 +2393,11 @@
         "description": "A bot that generates text and images for the given prompts.",
         "tech": [
           "reactjs",
-          "Node",
-          "Express",
+          "nodejs",
+          "expressjs",
           "javascript",
           "css",
-          "OpenAi API"
+          "api"
         ]
       }
     ]
@@ -2425,7 +2419,7 @@
         "tech": [
           "reactjs js",
           "tailwindcss",
-          "Rapid API",
+          "api",
           "redux",
           "firebase"
         ]
@@ -2468,8 +2462,7 @@
           "html",
           "css",
           "javascript",
-          "Fetch API",
-          "JSON"
+          "api"
         ]
       }
     ]
@@ -2509,7 +2502,7 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "tsPartciles"
+          "tspartciles"
         ]
       }
     ]
@@ -2568,7 +2561,7 @@
         "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
         "tech": [
           "reactjs",
-          "SCSS"
+          "scss"
         ]
       }
     ]
@@ -2589,8 +2582,8 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "Python",
-          "DJANGO"
+          "python",
+          "django"
         ]
       },
       {
@@ -2600,7 +2593,7 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "Python",
+          "python",
           "django"
         ]
       }
@@ -2620,11 +2613,11 @@
         "description": "An Artificial Intelligence application for predicting skin diseases.",
         "tech": [
           "nodejs",
-          "Express.js",
+          "expressjs",
           "mongodb",
           "reactjs",
-          "Python",
-          "Tensorflow"
+          "python",
+          "tensorflow"
         ]
       },
       {
@@ -2656,7 +2649,7 @@
           "html",
           "css",
           "javascript",
-          "D3.js"
+          "d3js"
         ]
       },
       {
@@ -2708,8 +2701,8 @@
         "tech": [
           "reactjs",
           "tailwindcss",
-          "OpenAI API",
-          "Typescript"
+          "api",
+          "typescript"
         ]
       }
     ]
@@ -2728,13 +2721,12 @@
         "title": "AR Watches",
         "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
         "tech": [
-          "Android Studio",
           "java",
-          "Unity",
-          "Vuforia",
-          "C#",
+          "unity",
+          "vuforia",
+          "c#",
           "firebase",
-          "XML"
+          "xml"
         ]
       }
     ]
@@ -2774,7 +2766,7 @@
         "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like html, php except the backend code files to ensure safety!",
         "tech": [
           "nodejs",
-          "Express.js"
+          "expressjs"
         ]
       }
     ]
@@ -2792,8 +2784,8 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": [
-          "NextJs",
-          "Solidity",
+          "nextjs",
+          "solidity",
           "css"
         ]
       },
@@ -2803,7 +2795,7 @@
         "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
         "tech": [
           "reactjs",
-          "Solidity",
+          "solidity",
           "tailwindcss"
         ]
       }
@@ -2842,8 +2834,8 @@
         "title": "Personality Analysis",
         "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
         "tech": [
-          "Python",
-          "Machine Learning"
+          "python",
+          "machine learning"
         ]
       }
     ]
@@ -2933,8 +2925,8 @@
         "tech": [
           "html",
           "css",
-          "Flask-WTF",
-          "Flask-bootstrap"
+          "flask-wtf",
+          "flask-bootstrap"
         ]
       }
     ]
@@ -2973,11 +2965,11 @@
         "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
         "tech": [
           "nodejs",
-          "Express js",
+          "expressjs",
           "mongodb",
           "html",
           "css",
-          "EJS"
+          "ejs"
         ]
       }
     ]
@@ -3062,9 +3054,9 @@
         "title": "Find Your Job",
         "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
         "tech": [
-          "reactjs JS",
-          "Node JS",
-          "Express JS",
+          "reactjs",
+          "nodejs",
+          "expressjs",
           "mongodb",
           "tailwindcss"
         ]
@@ -3104,7 +3096,7 @@
         "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
         "tech": [
           "python",
-          "Machine learning"
+          "machine learning"
         ]
       }
     ]
@@ -3233,7 +3225,7 @@
         "tech": [
           "html",
           "css",
-          "Node JS",
+          "nodejs",
           "javascript"
         ]
       }
@@ -3349,10 +3341,10 @@
         "title": "TextGo",
         "description": "Using TextGo you can perform multiple operations on your text.",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "html",
           "css",
-          "BootStrap",
+          "bootstrap",
           "javascript"
         ]
       },
@@ -3389,7 +3381,7 @@
         "title": "Movie Rental and Buying System",
         "description": "This project is a movie rental and buying system implemented in Cpp. The system allows users to browse catalog of movies, rent and buy movies, manage their rentals and purchases, and store user data using file handling.",
         "tech": [
-          "CPP"
+          "cpp"
         ]
       },
       {
@@ -3398,7 +3390,7 @@
         "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
         "tech": [
           "python",
-          "Discord API"
+          "api"
         ]
       }
     ]
@@ -3425,7 +3417,7 @@
         "title": "MovieApp",
         "description": "The MovieApp is built with reactjs, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
         "tech": [
-          "reactjs js",
+          "reactjs",
           "html",
           "css",
           "javascript"
@@ -3477,9 +3469,9 @@
         "tech": [
           "html",
           "tailwindcss",
-          "Node JS",
+          "nodejs",
           "typescript",
-          "Angular"
+          "angular"
         ]
       },
       {
@@ -3487,8 +3479,8 @@
         "title": "Credit-Card-Fraud-Detection",
         "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
         "tech": [
-          "Python",
-          "Jupyter Notebook"
+          "python",
+          "jupyter notebook"
         ]
       }
     ]
@@ -3539,7 +3531,7 @@
         "tech": [
           "html",
           "css",
-          "MySQL",
+          "mysql",
           "php"
         ]
       },
@@ -3548,7 +3540,7 @@
         "title": "Chrome Dinosaur Game",
         "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
         "tech": [
-          "Python"
+          "python"
         ]
       },
       {
@@ -3556,9 +3548,9 @@
         "title": "User Database Management",
         "description": "A User Database Management System is a project built with mongodb, Express.js, and nodejs that allows you to manage user data efficiently",
         "tech": [
-          "EJS",
+          "ejs",
           "mongodb",
-          "Mongoose",
+          "mongoose",
           "expressjs"
         ]
       },
@@ -3634,8 +3626,8 @@
         "title": "miniURL-URL Shortener",
         "description": "Flask web app to shorten long URLs",
         "tech": [
-          "Flask",
-          "Python"
+          "flask",
+          "python"
         ]
       }
     ]
@@ -3790,9 +3782,9 @@
         "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, c++, Python, java, javascript, Golang, C# etc.",
         "tech": [
           "nodejs",
-          "Express.js",
-          "Discord.js",
-          "RapidApi"
+          "expressjs",
+          "discordjs",
+          "api"
         ]
       }
     ]
@@ -3844,7 +3836,7 @@
           "reactjs",
           "javascript",
           "tailwindcss",
-          "GPT-3"
+          "gpt-3"
         ]
       },
       {
@@ -3934,7 +3926,7 @@
           "html",
           "css",
           "javascript",
-          "JQuery"
+          "jquery"
         ]
       },
       {
@@ -3943,7 +3935,7 @@
         "description": "Playlist in java{DSA} for better understanding of Data Structures.",
         "tech": [
           "java",
-          "DSA"
+          "dsa"
         ]
       },
       {
@@ -3951,7 +3943,7 @@
         "title": "Telegram Bot",
         "description": "This is a .py script to Automate the Telegram using the Bot with the {'/'} commands.",
         "tech": [
-          "Python"
+          "python"
         ]
       },
       {
@@ -3982,7 +3974,7 @@
           "javascript",
           "css",
           "html",
-          "RapidAPI",
+          "api",
           "bootstrap v5"
         ]
       }
@@ -4000,7 +3992,7 @@
         "title": "Dungeon_Crawler",
         "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "javascript",
           "css"
         ]
@@ -4010,7 +4002,7 @@
         "title": "LinkedIn_Clone",
         "description": "It is a clone of LinkedIn website.",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "firebase"
         ]
       },
@@ -4019,7 +4011,7 @@
         "title": "Stock-Price-Prediction",
         "description": "Stock price prediction using Machine Learning.",
         "tech": [
-          "Python"
+          "python"
         ]
       }
     ]
@@ -4072,7 +4064,7 @@
         "title": "Terminal games in python",
         "description": "This repository contains terminal games in Python.",
         "tech": [
-          "Python"
+          "python"
         ]
       },
       {
@@ -4083,7 +4075,7 @@
           "html",
           "javascript",
           "css",
-          "Python"
+          "python"
         ]
       },
       {
@@ -4092,7 +4084,7 @@
         "description": "In this project, an automatic obstacle detecting car was made. The car uses ultrasonic sensors to detect obstacles and avoid them. A color sensor is used to start and stop the car. An algorithm for the navigation of the car was created and implemented on the Arduino.",
         "tech": [
           "c++",
-          "Arduino IDE"
+          "arduino ide"
         ]
       }
     ]
@@ -4112,8 +4104,8 @@
         "title": "Web_Scrapper-News",
         "description": "Hello! This Project is related to scrapping news from online articles",
         "tech": [
-          "Python",
-          "Beautiful Soup"
+          "python",
+          "beautiful soup"
         ]
       }
     ]
@@ -4136,7 +4128,7 @@
           "html",
           "css",
           "javascript",
-          "API"
+          "api"
         ]
       }
     ]
@@ -4159,7 +4151,7 @@
           "html",
           "css",
           "javascript",
-          "API"
+          "api"
         ]
       },
       {
@@ -4195,7 +4187,7 @@
           "javascript",
           "reactjs",
           "nodejs",
-          "Express.js",
+          "expressjs",
           "mongodb"
         ]
       }
@@ -4238,10 +4230,10 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "TAILWIND",
-          "REACT",
-          "RAPIDAPI",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "reactjs",
+          "api",
+          "javascript"
         ]
       },
       {
@@ -4250,11 +4242,11 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "TAILWIND",
-          "NEXT.js",
-          "STRAPI",
-          "STRIPE",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "nextjs",
+          "strapi",
+          "stripe",
+          "javascript"
         ]
       }
     ]
@@ -4276,10 +4268,9 @@
         "tech": [
           "html",
           "css",
-          "reactjs js",
-          "Styled component",
-          "Context Api",
-          "Email js Api"
+          "reactjs",
+          "styled component",
+          "api"
         ]
       },
       {
@@ -4289,7 +4280,7 @@
         "tech": [
           "html",
           "css",
-          "reactjs js",
+          "reactjs",
           "redux"
         ]
       },
@@ -4328,7 +4319,7 @@
         "title": "Personal Portfolio Using threejs",
         "description": "This is my personal portfolio website made using ThreeJs and Vite + reactjs",
         "tech": [
-          "Express",
+          "expressjs",
           "mongodb",
           "nodejs",
           "reactjs",
@@ -4341,7 +4332,7 @@
         "title": "LetsNote",
         "description": "This is a note-taking web application that is reactjs Based",
         "tech": [
-          "Express",
+          "expressjs",
           "mongodb",
           "nodejs",
           "reactjs",
@@ -4377,7 +4368,7 @@
           "html",
           "css",
           "javascript",
-          "API"
+          "api"
         ]
       },
       {
@@ -4429,10 +4420,9 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "TAILWIND",
-          "REACT",
-          "RAPIDAPI",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "reactjs",
+          "javascript"
         ]
       }
     ]
@@ -4452,8 +4442,8 @@
         "title": "Web_Scrapper-News",
         "description": "Hello! This Project is related to scrapping news from online articles",
         "tech": [
-          "Python",
-          "Beautiful Soup"
+          "python",
+          "beautiful soup"
         ]
       }
     ]
@@ -4476,7 +4466,7 @@
           "html",
           "css",
           "javascript",
-          "API"
+          "api"
         ]
       }
     ]
@@ -4518,10 +4508,10 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "TAILWIND",
-          "REACT",
-          "RAPIDAPI",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "reactjs",
+          "api",
+          "javascript"
         ]
       },
       {
@@ -4530,11 +4520,11 @@
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": [
           "html",
-          "TAILWIND",
-          "NEXT.js",
-          "STRAPI",
-          "STRIPE",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "nextjs",
+          "strapi",
+          "stripe",
+          "javascript"
         ]
       },
       {
@@ -4543,9 +4533,9 @@
         "description": "This is simply a news app which keeps you updated with the latest news and not only the latest but the most relevant one ",
         "tech": [
           "html",
-          "TAILWIND",
-          "REACT",
-          "JAVASCRIPT"
+          "tailwindcss",
+          "reactjs",
+          "javascript"
         ]
       }
     ]
@@ -4566,11 +4556,11 @@
         "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
         "tech": [
           "html",
-          "MATERIALUI",
-          "REACT",
+          "mui",
+          "reactjs",
           "css",
-          "COINGECKOAPI",
-          "JAVASCRIPT"
+          "api",
+          "javascript"
         ]
       },
       {
@@ -4580,7 +4570,7 @@
         "tech": [
           "html",
           "css",
-          "JAVASCRIPT"
+          "javascript"
         ]
       },
       {
@@ -4590,7 +4580,7 @@
         "tech": [
           "html",
           "css",
-          "JAVASCRIPT"
+          "javascript"
         ]
       }
     ]
@@ -4610,14 +4600,14 @@
         "title": "Health-Manegment-System",
         "description": "Build a hospital management system with an MVC design pattern that provides 6 different facilities for users to book, claim and inquire about various services. Reviewed under Admin dashboard with all CRUD operations under secured access control.",
         "tech": [
-          "Spring Boot MVC",
-          "Spring Security",
-          "Spring JPA",
-          "Thymleaf",
-          "AWS mysql (RDS)",
-          "java Mail Services",
-          "Docker",
-          "Kubernetes"
+          "spring boot mvc",
+          "spring security",
+          "spring jpa",
+          "thymleaf",
+          "aws mysql (rds)",
+          "java mail services",
+          "docker",
+          "kubernetes"
         ]
       },
       {
@@ -4625,10 +4615,10 @@
         "title": "CryptoQuest",
         "description": "Developed a Crypto tracking web application, that provides over 2000+ crypto coin details with a graphical representation of each crypto coin trend history over the last year, month, or day and can view pricing in various currencies.",
         "tech": [
-          "reactjs JS",
-          "redux Toolkit",
-          "Material UI",
-          "ChartJs"
+          "reactjs",
+          "redux toolkit",
+          "mui",
+          "chartjs"
         ]
       },
       {
@@ -4636,12 +4626,12 @@
         "title": "Medcare",
         "description": "Analyzed and developed an E-commerce application with 1000+ products in different categories such as Entertainment, Mobile, Laptops,etc. With payment feature integrated through Stripe payment.",
         "tech": [
-          "reactjs JS",
-          "redux Toolkit",
-          "Material UI",
-          "ChartJs",
+          "reactjs",
+          "redux toolkit",
+          "mui",
+          "chartjs",
           "tailwindcss",
-          "STRIPE"
+          "stripe"
         ]
       },
       {
@@ -4649,7 +4639,7 @@
         "title": "TodoList",
         "description": "Created simple todo list app",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "bootstrap v5"
         ]
       },
@@ -4658,7 +4648,7 @@
         "title": "NewsHash",
         "description": "NewsHash is simple,fast,userfriendly website to fetch updated news from verious domain such as Entertainment,Spots,Technology etc...",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "bootstrap v5"
         ]
       }
@@ -4679,7 +4669,7 @@
         "title": "Bingo Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn javascript as this project is a beginner-friendly.",
         "tech": [
-          "JAVASCRIPT",
+          "javascript",
           "css",
           "html"
         ]
@@ -4691,7 +4681,7 @@
         "tech": [
           "html",
           "css",
-          "JAVASCRIPT"
+          "javascript"
         ]
       },
       {
@@ -4701,7 +4691,7 @@
         "tech": [
           "html",
           "css",
-          "JAVASCRIPT"
+          "javascript"
         ]
       },
       {
@@ -4734,7 +4724,7 @@
           "html",
           "css",
           "javascript",
-          "reactjs JS"
+          "reactjs"
         ]
       },
       {
@@ -4745,7 +4735,7 @@
           "html",
           "css",
           "javascript",
-          "BootStrap"
+          "bootstrap"
         ]
       },
       {
@@ -4756,8 +4746,8 @@
           "html",
           "css",
           "javascript",
-          "BootStrap",
-          "reactjs JS"
+          "bootstrap",
+          "reactjs"
         ]
       },
       {
@@ -4768,8 +4758,8 @@
           "html",
           "css",
           "javascript",
-          "BootStrap",
-          "reactjs JS"
+          "bootstrap",
+          "reactjs"
         ]
       },
       {
@@ -4780,11 +4770,9 @@
           "html",
           "css",
           "javascript",
-          "BootStrap",
-          "reactjs JS",
-          "useContext",
-          "API",
-          "Vercel"
+          "bootstrap",
+          "reactjs",
+          "api"
         ]
       },
       {
@@ -4850,7 +4838,7 @@
         "title": "Caesar Cipher",
         "description": "An encryptor decryptor app based on ancient Caesar and cipher technique",
         "tech": [
-          "JAVASCRIPT",
+          "javascript",
           "css",
           "html"
         ]
@@ -4860,7 +4848,7 @@
         "title": "Cookie Clicker Bot",
         "description": "A bot that can play the classic cookie clicker game",
         "tech": [
-          "Python"
+          "python"
         ]
       },
       {
@@ -4868,7 +4856,7 @@
         "title": "Audio Book",
         "description": "Give a pdf and the bot can read it out for you",
         "tech": [
-          "Python"
+          "python"
         ]
       }
     ]
@@ -4888,7 +4876,7 @@
         "title": "News App",
         "description": "This is a basic clone of Inshort that makes use of the Api key.",
         "tech": [
-          "PYTHON"
+          "python"
         ]
       }
     ]
@@ -4908,7 +4896,7 @@
         "title": "Digital Clock(Time Zone)",
         "description": "Digital clock with time zone selection and GUI design.",
         "tech": [
-          "PYTHON"
+          "python"
         ]
       },
       {
@@ -4916,7 +4904,7 @@
         "title": "Countdown Timer",
         "description": "Customisable Countdown Timer with real time updates ",
         "tech": [
-          "PYTHON"
+          "python"
         ]
       }
     ]
@@ -4939,8 +4927,8 @@
           "reactjs",
           "html",
           "css",
-          "Material UI",
-          "IMDB API"
+          "mui",
+          "api"
         ]
       }
     ]
@@ -5006,7 +4994,7 @@
           "html",
           "css",
           "javascript",
-          "Express.js",
+          "expressjs",
           "nodejs"
         ]
       },
@@ -5030,7 +5018,7 @@
           "javascript",
           "reactjs",
           "nodejs",
-          "Express.js",
+          "expressjs",
           "mongodb"
         ]
       }
@@ -5093,10 +5081,10 @@
         "title": "CoinMeter",
         "description": "CoinMeter is a completely responsive and functional real-time Cryptocurrency data fetching app. This app gives you the facility to analyze the top cryptocurrencies across the world and see their real-time market cap and exchanges with the help of a properly designed historical chart for each coin with a clean UI experience. It also has a trending section where the last 24 hours profitable coins are shown.",
         "tech": [
-          "reactjs JS",
-          "Chart JS",
-          "Material UI",
-          "Context API"
+          "reactjs",
+          "chartjs",
+          "mui",
+          "api"
         ]
       }
     ]
@@ -5137,8 +5125,8 @@
         "title": "CocktailDB",
         "description": "CocktailDB is a web application that allows users to explore a vast collection of cocktails, along with their prices, ingredients, and details",
         "tech": [
-          "reactjs JS",
-          "Rapid API",
+          "reactjs",
+          "api",
           "css"
         ]
       },
@@ -5147,8 +5135,8 @@
         "title": "job-update-reactNative-app",
         "description": "JobPilot is a cross-platform job update app built using reactjs-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
         "tech": [
-          "reactjs Native",
-          "Expo",
+          "reactnative",
+          "expo",
           "css"
         ]
       }
@@ -5169,7 +5157,7 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "nodejs"
         ]
       },
@@ -5201,7 +5189,7 @@
         "tech": [
           "html",
           "css",
-          "JAVASCRIPT"
+          "javascript"
         ]
       }
     ]
@@ -5221,9 +5209,9 @@
         "title": "StichHub",
         "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
         "tech": [
-          "MERN",
-          "AR",
-          "Threejs",
+          "mern",
+          "ar",
+          "threejs",
           "tailwindcss"
         ]
       }
@@ -5244,7 +5232,7 @@
         "title": "Portfolio Website",
         "description": "My Personal Portfolio made in reactjs and TailwindCss deployed on Vercel",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "tailwindcss"
         ]
       },
@@ -5253,8 +5241,8 @@
         "title": "Movie App",
         "description": "A Movie app made in reactjs using TMDB api deployed on Vercel",
         "tech": [
-          "reactjs JS",
-          "Sass"
+          "reactjs",
+          "sass"
         ]
       },
       {
@@ -5262,7 +5250,7 @@
         "title": "Weather App",
         "description": "Weather app made in reactjs using OpenWeather Api and GeoDbApi for city suggestions",
         "tech": [
-          "reactjs JS",
+          "reactjs",
           "css"
         ]
       }
@@ -5285,7 +5273,7 @@
         "tech": [
           "nextjs",
           "tailwindcss",
-          "Vercel",
+   
           "typescript"
         ]
       }
