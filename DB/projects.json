@@ -1630,7 +1630,7 @@
           "html",
           "css",
           "javascript",
-          "weather api",
+          "api",
           "bootstrap"
         ]
       }
@@ -1748,8 +1748,8 @@
           "reactjs",
           "mui",
           "javascript",
-          "css",
-          "jsx"
+          "css"
+       
         ]
       },
       {
@@ -1758,7 +1758,6 @@
         "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
         "tech": [
           "javascript",
-          "dom",
           "html",
           "css"
         ]
@@ -1808,9 +1807,7 @@
         "tech": [
           "reactjs",
           "mui",
-          "reactjs router",
-          "context api",
-          "google custom search api",
+          "api",
           "firebase"
         ]
       }
@@ -1832,7 +1829,7 @@
           "javascript",
           "css",
           "html",
-          "ipify api"
+          "api"
         ]
       }
     ]
@@ -1875,7 +1872,7 @@
           "javascript",
           "css",
           "html",
-          "rapid api"
+          "api"
         ]
       }
     ]
@@ -1896,7 +1893,7 @@
           "javascript",
           "css",
           "html",
-          "weather-api",
+          "api",
           "tailwindcss"
         ]
       },
@@ -2011,8 +2008,7 @@
         "tech": [
           "reactjs",
           "mui",
-          "githubapi",
-          "context api"
+          "api"
         ]
       }
     ]
@@ -2055,9 +2051,9 @@
         "tech": [
           "reactjs",
           "mui",
-          "reactjs router",
+          "reactjs",
           "css",
-          "youtube api"
+          "api"
         ]
       }
     ]
@@ -2119,7 +2115,7 @@
         "tech": [
           "reactjs",
           "mui",
-          "express js",
+          "expressjs",
           "cherrio"
         ]
       }
@@ -2162,7 +2158,7 @@
           "javascript",
           "reactjs",
           "node",
-          "rapidapi",
+          "api",
           "tailwindcss"
         ]
       }
