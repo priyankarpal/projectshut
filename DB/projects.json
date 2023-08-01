@@ -38,8 +38,8 @@
         "title": "Github-user-data",
         "description": "getData of the github users",
         "tech": [
-          "reactjs",
-          "git"
+          "reactjs"
+     
         ]
       },
       {
@@ -50,7 +50,7 @@
           "reactjs",
           "nodejs",
           "jwt",
-          "js",
+          "javascript",
           "ejs"
         ]
       },
@@ -140,7 +140,7 @@
           "javascript",
           "nodejs",
           "expressjs",
-          "mailchimpapi"
+          "api"
         ]
       }
     ]
@@ -338,7 +338,7 @@
           "javascript",
           "html",
           "css",
-          "express",
+          "expressjs",
           "nodejs"
         ]
       },
@@ -1335,7 +1335,7 @@
         "title": "JobSpot",
         "description": "A Mobile Application for both Android and iOS for Job Opportunities.",
         "tech": [
-          "reactjs native",
+          "reactnative",
           "expo"
         ]
       }
@@ -1351,7 +1351,7 @@
         "tech": [
           "reactjs",
           "redux",
-          "tmdb api"
+          "api"
         ]
       }
     ]
@@ -1455,7 +1455,7 @@
           "reactjs",
           "tailwindcss",
           "mui",
-          "rapid api"
+          "api"
         ]
       }
     ]
@@ -1537,8 +1537,8 @@
           "css",
           "javascript",
           "html",
-          "tmd api",
-          "youtube api"
+          "api",
+          "api"
         ]
       }
     ]
@@ -1618,8 +1618,7 @@
           "html",
           "css",
           "javascript",
-          "vite",
-          "spotify api",
+    "api",
           "tailwindcss"
         ]
       },
