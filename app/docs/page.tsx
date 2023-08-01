@@ -1,4 +1,9 @@
 import AddYourProjectsGuide from "@/components/AddYourProjectsGuide";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Docs',
+}
 
 export default function page() {
   return (
