@@ -1,7 +1,7 @@
 name: 👯‍♂️ Style Changing Request
 description: Suggest a style designs
 title: '[style]: '
-labels: ['enhancement']
+labels: ["✨ goal: improvement","🚦status: awaiting triage","🕹 aspect: interface"]
 body:
   - type: markdown
     attributes:
