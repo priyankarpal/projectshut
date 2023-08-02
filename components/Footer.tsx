@@ -103,10 +103,10 @@ function Footer() {
             className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left"
           >
             {/* for footer docs links */}
-            <ul className="font-medium text-gray-200">
+            <ul className="font-medium text-gray-200 pt-5">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
+                  <h3 className="text-xl font-extrabold mb-4 text-gray-200">{section.title}</h3>
                   <ul>
                     {section.child.map((link, linkIndex) => (
                       <li key={linkIndex} className="pt-2">
@@ -124,7 +124,7 @@ function Footer() {
               <ul className="font-medium text-gray-200">
                 {footerServiceLinks.map((section, index) => (
                   <div key={index}>
-                    <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
+                    <h3 className="text-xl font-extrabold mt-10 mb-4 text-gray-200">{section.title}</h3>
                     <ul>
                       {section.child.map((link, linkIndex) => (
                         <li key={linkIndex} className="pt-2">
