@@ -34,7 +34,7 @@ const Navbar: NextPage = () => {
 
   return (
     <Suspense>
-      <nav className="bg-black top-0 z-10 sticky border-b border-gray-800">
+      <nav className="top-0 z-10 sticky border-b border-gray-800 mx-auto bg-transparent backdrop-blur-sm">
         <div className="flex justify-between md:justify-around p-5 w-full ">
           {/* Logo for project Hut */}
           <div className="item-navbar" id="logo-ph">
