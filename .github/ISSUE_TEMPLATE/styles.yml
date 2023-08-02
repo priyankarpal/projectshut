@@ -21,7 +21,7 @@ body:
       label: Add screenshots
       description: Add screenshots to see the demo
       placeholder: Add screenshots
-      value: 'Add screenshots'
+      
   - type: checkboxes
     id: terms
     attributes:
