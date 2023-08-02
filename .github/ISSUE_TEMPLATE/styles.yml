@@ -25,7 +25,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
+      label: "Record"
       
       options:
         - label: I have checked the existing [issues](https://github.com/priyankarpal/ProjectsHut/issues)
