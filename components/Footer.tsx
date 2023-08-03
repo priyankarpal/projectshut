@@ -23,7 +23,7 @@ function Footer() {
       name: "Linkedin",
       link: "https://linkedin.com/in/priyankarpal",
       icon: <SiLinkedin aria-label="Follow us on LinkedIn" title="LinkedIn(External Link)" />,
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",
+      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-700 ",
     }
   ]
 
@@ -73,7 +73,8 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl pt-16 sm:px-4 sm:pb-[5.65rem] lg:px-8 lg:pb-8">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
-            <div className="inline-flex h-10 items-center text-white rounded-lg font-extrabold text-[2rem]"> Ph <span className="text-primary">.</span></div>
+
+            <div className="flex h-10 items-center justify-center lg:justify-start text-white rounded-lg font-extrabold text-[2rem] text-center"> Ph <span className="text-primary">.</span></div>
             <p
               className="mt-4 text-center text-gray-200 dark:text-gray-400 lg:text-left lg:text-lg"
             >
@@ -88,6 +89,7 @@ function Footer() {
                     href={footerLink.link}
                     target="_blank"
                     className={footerLink.hover}
+                    aria-label={`footer link of ${footerLink.link}`}
                   >
                     {footerLink.icon}
                   </Link>
@@ -103,14 +105,14 @@ function Footer() {
             className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left"
           >
             {/* for footer docs links */}
-            <ul className="font-medium text-gray-200">
+            <ul className="font-medium text-gray-200 pt-5">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
+                  <h3 className="text-xl font-extrabold mb-4 text-gray-200">{section.title}</h3>
                   <ul>
                     {section.child.map((link, linkIndex) => (
                       <li key={linkIndex} className="pt-2">
-                        <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
+                        <Link href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank" aria-label="footer docs link" >{link.name}</Link>
                       </li>
                     ))}
                   </ul>
@@ -124,11 +126,11 @@ function Footer() {
               <ul className="font-medium text-gray-200">
                 {footerServiceLinks.map((section, index) => (
                   <div key={index}>
-                    <h3 className="text-xl font-extrabold mb-8 text-gray-200">{section.title}</h3>
+                    <h3 className="text-xl font-extrabold mt-10 mb-4 text-gray-200">{section.title}</h3>
                     <ul>
                       {section.child.map((link, linkIndex) => (
                         <li key={linkIndex} className="pt-2">
-                          <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
+                          <Link href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank" aria-label="footer service link">{link.name}</Link>
                         </li>
                       ))}
                     </ul>
@@ -140,8 +142,8 @@ function Footer() {
         </div>
 
         <div className="mt-16 pt-8 dark:border-gray-800">
-          <p className="text-center sm:text-xs lg:text-xl text-gray-200">
-            ©projectshut {getCurrentYear()} All rights reserved
+          <p className="text-center text-gray-200">
+            © ProjectsHut {getCurrentYear()} All rights reserved
           </p>
         </div>
       </div>

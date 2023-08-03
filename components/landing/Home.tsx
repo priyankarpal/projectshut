@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function Landing() {
   return (
-    <div className="relative sm:pb-4 select-none overflow-hidden">
-      <div className="pt-16 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+    <div className="relative sm:pb-0 select-none overflow-hidden">
+        <div className="pt-16 sm:pt-10 sm:pb-0 lg:pt-40 lg:pb-48">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <section className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
             <motion.div
@@ -57,6 +57,7 @@ export default function Landing() {
                 href="/projects"
                 className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 ease-in duration-200 text-white hover:text-gray-900 "
                 type="button"
+                aria-label="link to projects section"
               >
                 Browse Projects
               </Link>

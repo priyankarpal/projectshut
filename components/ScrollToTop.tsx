@@ -19,7 +19,7 @@ function BackToTopButton() {
   }, []);
 
   return (
-    <button onClick={handleScroll}>
+    <button onClick={handleScroll} aria-label="smooth scroll">
       <div
         className={` ${!btnVisiblity ? 'translate-y-32 md:translate-y-20' : 'translate-y-0'
           } fixed bottom-20 md:bottom-10 right-8 z-50 w-10 h-10 rounded-lg bg-primary text-white cursor-pointer flex justify-center items-center transform transition-all delay-100 duration-500 `}

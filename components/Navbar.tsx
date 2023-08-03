@@ -75,8 +75,9 @@ const Navbar: NextPage = () => {
               {navLinks.map((navLink) => (
                 <li key={navLink.path}>
                   {navLink.external ? (
-                    <a
+                    <Link
                       href={navLink.path}
+                      aria-label="desktop navbar link"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={
@@ -87,7 +88,7 @@ const Navbar: NextPage = () => {
                       }
                     >
                       {navLink.name}
-                    </a>
+                    </Link>
                   ) : (
                     <Link
                       href={navLink.path}
