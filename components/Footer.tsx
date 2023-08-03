@@ -88,6 +88,7 @@ function Footer() {
                     href={footerLink.link}
                     target="_blank"
                     className={footerLink.hover}
+                    aria-label={`footer link of ${footerLink.link}`}
                   >
                     {footerLink.icon}
                   </Link>
@@ -110,7 +111,7 @@ function Footer() {
                   <ul>
                     {section.child.map((link, linkIndex) => (
                       <li key={linkIndex} className="pt-2">
-                        <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
+                        <Link href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank" aria-label="footer docs link" >{link.name}</Link>
                       </li>
                     ))}
                   </ul>
@@ -128,7 +129,7 @@ function Footer() {
                     <ul>
                       {section.child.map((link, linkIndex) => (
                         <li key={linkIndex} className="pt-2">
-                          <a href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank">{link.name}</a>
+                          <Link href={link.link} className="hover:text-primary " rel="noopener noreferrer" target="_blank" aria-label="footer service link">{link.name}</Link>
                         </li>
                       ))}
                     </ul>

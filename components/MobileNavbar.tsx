@@ -39,7 +39,7 @@ export const MobileNavBar = () => {
     <footer className="fixed bottom-4 w-1/11  left-0 right-0 bg-transparent backdrop-blur-md border-gray-700 border text-white py-4 md:hidden rounded-xl mx-5">
       <div className="mx-auto text-xl flex justify-evenly items-center px-4">
         {navbarItemsData.map((link, idx) => (
-          <Link href={link.url} key={idx}>
+          <Link href={link.url} key={idx} aria-label="mobile navbar link">
             <div className="flex flex-col items-center cursor-pointer transition-all hover:text-primary">
               {link.icon}
               <div className="text-sm">{link.text}</div>

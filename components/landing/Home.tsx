@@ -57,6 +57,7 @@ export default function Landing() {
                 href="/projects"
                 className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 ease-in duration-200 text-white hover:text-gray-900 "
                 type="button"
+                aria-label="link to projects section"
               >
                 Browse Projects
               </Link>

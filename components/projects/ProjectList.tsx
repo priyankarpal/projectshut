@@ -111,7 +111,7 @@ function ProjectList() {
                     <div className="flex items-center justify-between my-4">
                         <div>
                             <div className="hover:text-purple-500 transition-all duration-300 ease-in-out flex-grow flex gap-2  items-center">
-                                <Link href="/projects" className="flex items-stretch">
+                                <Link href="/projects" className="flex items-stretch" aria-label="Back to projects link">
                                     <MdArrowBackIosNew className="mt-0.5 text-[1.5rem]" />
                                 </Link>
                             </div>
@@ -289,7 +289,7 @@ function ProjectList() {
                                             value={window.location.href}
                                             disabled
                                         />
-                                        <button onClick={() => copyText()}>
+                                        <button onClick={() => copyText()} aria-label="copy">
                                             {isCopied ? (
                                                 <div className="flex items-stretch ">
                                                     <BsCheck2Circle
