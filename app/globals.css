@@ -1,5 +1,51 @@
+/* Add new utility classes */
+
+/* Center an element horizontally and vertically */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add some padding to the top and bottom of an element */
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Add a custom font size utility */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+/* Create a simple border utility */
+.border {
+  border: 1px solid #dddddd;
+}
+
+/* Add a utility to give a blurred effect */
+.blurred {
+  filter: blur(5px);
+}
+
+/* Add a utility to make an element rotate continuously */
+.rotating {
+  animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Tailwind CSS base styles */
 @tailwind base;
 
+/* Custom scrollbar styles */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -9,21 +55,23 @@
   border-radius: 10px;
 }
 
+/* Tailwind CSS components */
+@tailwind components;
+
+/* Custom styles */
 html {
   font-family: "Inter", sans-serif;
   background-color: #000000;
 }
 
-/* animated image */
+/* Animated image */
 @keyframes floating {
   0% {
     transform: translate(0, 0);
   }
-
   50% {
     transform: translate(0, 8px);
   }
-
   100% {
     transform: translate(0, 0);
   }
@@ -36,5 +84,5 @@ html {
   animation-iteration-count: infinite;
 }
 
-@tailwind components;
+/* Tailwind CSS utilities */
 @tailwind utilities;
