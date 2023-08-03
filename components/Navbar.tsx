@@ -57,6 +57,7 @@ const Navbar: NextPage = () => {
                   {navLink.external ? (
                     <Link
                       href={navLink.path}
+                      aria-label="desktop navbar link"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={

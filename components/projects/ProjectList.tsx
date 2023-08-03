@@ -289,7 +289,7 @@ function ProjectList() {
                                             value={window.location.href}
                                             disabled
                                         />
-                                        <button onClick={() => copyText()} aria-label="copy text">
+                                        <button onClick={() => copyText()} aria-label="copy">
                                             {isCopied ? (
                                                 <div className="flex items-stretch ">
                                                     <BsCheck2Circle
