@@ -78,7 +78,9 @@ function Footer() {
   ];
 
   return (
-    <footer className="border-t border-gray-800 ">
+
+    <footer className="border-t border-gray-800">
+
       <div className="mx-auto max-w-screen-xl pt-16 sm:px-4 sm:pb-[5.65rem] lg:px-8 lg:pb-8">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
@@ -109,7 +111,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:text-left">
             {/* for footer docs links */}
             <ul className="font-medium text-gray-200 pt-5">
               {footerdocsLinks.map((section, index) => (
@@ -176,6 +178,7 @@ function Footer() {
                 />
               </a>
             </div>
+
           </div>
         </div>
 
