@@ -80,6 +80,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
           href={`/projects/${username.toLowerCase()}`}
           className="w-1/2  px-4 items-center group flex gap-2 justify-center text-center text-white border border-gray-700  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem] "
         // state={{ filter }}
+          aria-label="visit user profile"
         >
           <motion.div
             initial={{ opacity: 0, x: -50 }}

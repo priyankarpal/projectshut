@@ -55,7 +55,7 @@ const Navbar: NextPage = () => {
               {navLinks.map((navLink) => (
                 <li key={navLink.path}>
                   {navLink.external ? (
-                    <a
+                    <Link
                       href={navLink.path}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Navbar: NextPage = () => {
                       }
                     >
                       {navLink.name}
-                    </a>
+                    </Link>
                   ) : (
                     <Link
                       href={navLink.path}
