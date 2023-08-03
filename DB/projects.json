@@ -1,4 +1,4 @@
-[
+`[
   {
     "github_username": "Sahilll15",
     "Social_media": {
@@ -346,6 +346,17 @@
         "link": "https://github.com/PatilHarshh/Nexter",
         "title": "Nexter",
         "description": "This is the Frontend project, Business website , House renting Website  ",
+        "tech": [
+          "javascript",
+          "html",
+          "css",
+          "nodejs"
+        ]
+      },
+      {
+        "link": "https://github.com/PatilHarshh/Ludo-Game",
+        "title": "Ludo game",
+        "description": "This is the Frontend project, Game four player game ",
         "tech": [
           "javascript",
           "html",
