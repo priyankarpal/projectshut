@@ -3972,7 +3972,7 @@
         "title": "Discord Bot",
         "description": "This is a .py script to Automate the Dicord using the Bot with the {'.'} commands.",
         "tech": [
-          "Python"
+          "python"
         ]
       }
     ]
