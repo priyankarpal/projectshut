@@ -352,6 +352,17 @@
           "css",
           "nodejs"
         ]
+      },
+      {
+        "link": "https://github.com/PatilHarshh/Ludo-Game",
+        "title": "Ludo game",
+        "description": "This is the Frontend project, Game four player game ",
+        "tech": [
+          "javascript",
+          "html",
+          "css",
+          "nodejs"
+        ]
       }
     ]
   },
