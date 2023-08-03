@@ -141,8 +141,8 @@ function Footer() {
         </div>
 
         <div className="mt-16 pt-8 dark:border-gray-800">
-          <p className="text-center sm:text-xs lg:text-xl text-gray-200">
-            ©projectshut {getCurrentYear()} All rights reserved
+          <p className="text-center text-gray-200">
+            © ProjectsHut {getCurrentYear()} All rights reserved
           </p>
         </div>
       </div>
