@@ -78,9 +78,7 @@ function Footer() {
   ];
 
   return (
-
     <footer className="border-t border-gray-800">
-
       <div className="mx-auto max-w-screen-xl pt-16 sm:px-4 sm:pb-[5.65rem] lg:px-8 lg:pb-8">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
@@ -111,7 +109,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:text-left">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:text-left">
             {/* for footer docs links */}
             <ul className="font-medium text-gray-200 pt-5">
               {footerdocsLinks.map((section, index) => (
@@ -138,47 +136,46 @@ function Footer() {
               ))}
             </ul>
 
+            {/* for footer service links */}
+            <ul className="font-medium text-gray-200">
+              {footerServiceLinks.map((section, index) => (
+                <div key={index}>
+                  <h3 className="text-xl font-extrabold mt-4 mb-4 text-gray-200">
+                    {section.title}
+                  </h3>
+                  <ul>
+                    {section.child.map((link, linkIndex) => (
+                      <li key={linkIndex} className="pt-2">
+                        <Link
+                          href={link.link}
+                          className="hover:text-primary "
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label="footer service link"
+                        >
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </ul>
             <div>
-              {/* for footer service links */}
-              <ul className="font-medium text-gray-200 ">
-                {footerServiceLinks.map((section, index) => (
-                  <div key={index}>
-                    <h3 className="text-xl font-extrabold mt-10 mb-4 text-gray-200">
-                      {section.title}
-                    </h3>
-                    <ul>
-                      {section.child.map((link, linkIndex) => (
-                        <li key={linkIndex} className="pt-2">
-                          <Link
-                            href={link.link}
-                            className="hover:text-primary "
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            aria-label="footer service link"
-                          >
-                            {link.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </ul>
+              <div className="github-button p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
+                <a
+                  className="github"
+                  href="https://github.com/priyankarpal/ProjectsHut"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0fa9e8f0-349d-4cc8-8e01-1b6e2c27dbbb"
+                    alt="Github-Share-Button"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="github-button p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
-              <a
-                className="github"
-                href="https://github.com/priyankarpal/ProjectsHut"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0fa9e8f0-349d-4cc8-8e01-1b6e2c27dbbb"
-                  alt="Github-Share-Button"
-                />
-              </a>
-            </div>
-
           </div>
         </div>
 
