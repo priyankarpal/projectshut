@@ -3966,6 +3966,14 @@
           "api",
           "bootstrap v5"
         ]
+      },
+      {
+        "link": "https://github.com/SyedImtiyaz-1/Auto-Discord",
+        "title": "Discord Bot",
+        "description": "This is a .py script to Automate the Dicord using the Bot with the {'.'} commands.",
+        "tech": [
+          "python"
+        ]
       }
     ]
   },
