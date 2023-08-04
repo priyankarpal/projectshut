@@ -1,7 +1,7 @@
 import React from "react";
 import { SiTwitter, SiGithub, SiLinkedin } from "react-icons/si";
 import Link from "next/link";
-
+import Image from "next/image";
 function Footer() {
   const getCurrentYear = () => new Date().getFullYear();
 
@@ -161,19 +161,22 @@ function Footer() {
                 </div>
               ))}
             </ul>
+            {/* GitHub link */}
             <div className="mt-[25px]">
               <div className="p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
                 <Link
-                  className="github"
                   href="https://github.com/priyankarpal/ProjectsHut"
                   target="_blank"
                   rel="noreferrer"
-                />
+                  aria-label="GitHub repository"
+                >
                   <Image
                     src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0fa9e8f0-349d-4cc8-8e01-1b6e2c27dbbb"
                     alt="Github-Share-Button"
+                    width={144}
+                    height={46}
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
