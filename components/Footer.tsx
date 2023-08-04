@@ -161,7 +161,7 @@ function Footer() {
                 </div>
               ))}
             </ul>
-            <div>
+            <div className="mt-[25px]">
               <div className="github-button p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
                 <a
                   className="github"
