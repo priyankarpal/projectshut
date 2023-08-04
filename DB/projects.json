@@ -5693,7 +5693,7 @@
         "link": "https://github.com/Parul1606/Fake-News-Detection",
         "title": "Fake-News-Detection",
         "description": "Fake News Detection using ML, DL, LSTM, NLP, Stemming, Lemmatization, and Data Visualization for classifying news articles.",
-        "tech": ["python", "jupyter notebook"]
+        "tech": ["python", "flask"]
       }
     ]
   }
