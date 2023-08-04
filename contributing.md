@@ -59,7 +59,17 @@ git clone https://github.com/<YOUR-USERNAME>/ProjectsHut.git
 cd ProjectsHut
 ```
 
-3.  Install dependencies
+3. Add a reference(remote) to the original repository.
+```
+git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
+```
+
+4. Check the remotes for this repository.
+```
+git remote -v
+```
+
+5.  Install dependencies
 
 ```bash
 pnpm i
@@ -67,7 +77,7 @@ pnpm i
 
 > **Note**: If you don't have pnpm installed in your system then run this command `npm i -g pnpm`
 
-4.  Now do ahead and create a new branch and move to the branch
+6.  Now do ahead and create a new branch and move to the branch
 
 ```bash
 git checkout -b fix-issue-<ISSUE-NUMBER>
@@ -75,7 +85,7 @@ git checkout -b fix-issue-<ISSUE-NUMBER>
 
 > **Note**: Replace `<ISSUE-NUMBER>` with the issue number you are working on
 
-5.  Run in local
+7.  Run in local
 
 ```bash
 pnpm dev
@@ -83,7 +93,7 @@ pnpm dev
 
 > Add new features or fix bugs according to your issue number
 
-6.  After done you can now push this changes, for doing that follow the following command chain
+8.  After done you can now push this changes, for doing that follow the following command chain
 
 - `git status -s` (Shows the changed files)
 - `git add --all` (Will add all the files to staging area)
@@ -91,18 +101,17 @@ pnpm dev
 
   > **Note**: Replace `<EXPLAIN-YOUR_CHANGES>` with the changes you have made. Also, follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
   
-- `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
 - `git push origin fix-issue-<ISSUE-NUMBER>`
 
-7.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
+9.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
 
-8.  Now fill in the form template of the pull request and give the necessary description.
+10.  Now fill in the form template of the pull request and give the necessary description.
 
-9.  Click on **Submit**
+11.  Click on **Submit**
 
-10. Hurray! You just made your first contribution to this project 🎉
+12. Hurray! You just made your first contribution to this project 🎉
 
-11. Wait for your pull request to be reviewed and merged.
+13. Wait for your pull request to be reviewed and merged.
 
 ## Useful Links
 
