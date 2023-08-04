@@ -140,7 +140,7 @@ function Footer() {
             <ul className="font-medium text-gray-200">
               {footerServiceLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mt-4 mb-4 text-gray-200">
+                  <h3 className="text-xl font-extrabold mt-5 mb-4 text-gray-200">
                     {section.title}
                   </h3>
                   <ul>
