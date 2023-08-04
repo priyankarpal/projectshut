@@ -5678,5 +5678,23 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "Parul1606",
+    "Social_media": {
+      "gitHub": "https://github.com/Parul1606",
+      "LinkedIn": "https://www.linkedin.com/in/parul-pandey-4243aa206/",
+      "Instagram": "https://www.instagram.com/parulll_16/",
+      "YouTube": "https://www.youtube.com/channel/UC4vSo8W9-1U5zZzXmn4usYw",
+      "Twitter": "https://twitter.com/parulpa37629488"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Parul1606/Fake-News-Detection",
+        "title": "Fake-News-Detection",
+        "description": "Fake News Detection using ML, DL, LSTM, NLP, Stemming, Lemmatization, and Data Visualization for classifying news articles.",
+        "tech": ["python", "flask"]
+      }
+    ]
   }
 ]
