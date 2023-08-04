@@ -79,21 +79,18 @@ function Footer() {
 
   return (
     <footer className="border-t border-gray-800">
-      <div className="mx-auto max-w-screen-xl pt-16 sm:px-4 sm:pb-[5.65rem] lg:px-8 lg:pb-8">
-        <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
-          <div className="mx-auto max-w-sm lg:max-w-none">
-            <div className="flex h-10 items-center justify-center lg:justify-start text-white rounded-lg font-extrabold text-[2rem] text-center">
-              {" "}
+      <div className="mx-auto max-w-screen-xl pt-8 sm:pt-16 px-4 sm:px-6 lg:px-8 pb-8">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-4">
+          <div className="text-center lg:text-left">
+            <div className="flex h-10 items-center justify-center lg:justify-start text-white rounded-lg font-extrabold text-2xl">
               Ph <span className="text-primary">.</span>
             </div>
             <p className="mt-4 text-center text-gray-200 dark:text-gray-400 lg:text-left lg:text-lg">
               Projectshut is an open source web app that enables users to freely
-              publish their projects and create user profiles within the
-              platform
+              publish their projects and create user profiles within the platform.
             </p>
 
-            {/*  for footer nav links */}
-            <div className="mt-6 flex justify-center gap-4 lg:justify-start">
+            <div className="mt-6 flex justify-center lg:justify-start gap-4">
               {footerLinks.map((footerLink) => (
                 <li key={footerLink.link}>
                   <Link
@@ -109,8 +106,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:text-left">
-            {/* for footer docs links */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto">
             <ul className="font-medium text-gray-200 pt-5">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
@@ -122,7 +118,7 @@ function Footer() {
                       <li key={linkIndex} className="pt-2">
                         <Link
                           href={link.link}
-                          className="hover:text-primary "
+                          className="hover:text-primary"
                           rel="noopener noreferrer"
                           target="_blank"
                           aria-label="footer docs link"
@@ -136,11 +132,10 @@ function Footer() {
               ))}
             </ul>
 
-            {/* for footer service links */}
             <ul className="font-medium text-gray-200">
               {footerServiceLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mt-5   mb-4 text-gray-200">
+                  <h3 className="text-xl font-extrabold mt-5 mb-4 text-gray-200">
                     {section.title}
                   </h3>
                   <ul>
@@ -148,7 +143,7 @@ function Footer() {
                       <li key={linkIndex} className="pt-2">
                         <Link
                           href={link.link}
-                          className="hover:text-primary "
+                          className="hover:text-primary"
                           rel="noopener noreferrer"
                           target="_blank"
                           aria-label="footer service link"
@@ -161,9 +156,8 @@ function Footer() {
                 </div>
               ))}
             </ul>
-            {/* GitHub link */}
-            <div className="mt-[25px]">
-              <div className="p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
+            <div className="mt-[25px] ">
+              <div className="p-2 bg-white rounded-lg max-w-[160px] mx-auto">
                 <Link
                   href="https://github.com/priyankarpal/ProjectsHut"
                   target="_blank"
@@ -181,14 +175,13 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        <div className="mt-16 pt-8 dark:border-gray-800">
-          <p className="text-center text-gray-200">
+        <div className="mt-16 pt-8 dark:border-gray-800 text-center lg:text-center lg:text-left">
+          <p className="text-gray-200 mx-auto lg:mx-0">
             © ProjectsHut {getCurrentYear()} All rights reserved
           </p>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
 
