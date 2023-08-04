@@ -61,7 +61,7 @@ cd ProjectsHut
 
 3. Add a reference(remote) to the original repository.
 ```
-git remote add upstream https://github.com/<YOUR_USERNAME>/ProjectsHut.git
+git remote add upstream https://github.com/priyankarpal/ProjectsHut.git
 ```
 
 4. Check the remotes for this repository.
@@ -101,7 +101,6 @@ pnpm dev
 
   > **Note**: Replace `<EXPLAIN-YOUR_CHANGES>` with the changes you have made. Also, follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
   
-- `git remote add upstream https://github.com/priyankarpal/ProjectsHut.git`
 - `git push origin fix-issue-<ISSUE-NUMBER>`
 
 9.  After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
