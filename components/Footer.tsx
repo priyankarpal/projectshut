@@ -162,14 +162,14 @@ function Footer() {
               ))}
             </ul>
             <div className="mt-[25px]">
-              <div className="github-button p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
-                <a
+              <div className="p-2 bg-white rounded-lg max-w-[170px] mx-auto  ">
+                <Link
                   className="github"
                   href="https://github.com/priyankarpal/ProjectsHut"
                   target="_blank"
                   rel="noreferrer"
-                >
-                  <img
+                />
+                  <Image
                     src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0fa9e8f0-349d-4cc8-8e01-1b6e2c27dbbb"
                     alt="Github-Share-Button"
                   />
