@@ -100,7 +100,7 @@
         ]
       },
       {
-        "link": "https://github.com/Sahilll15/Anonymous_Social_frontend",
+        "link": "https://github.com/Sahilll15/Chat_App",
         "title": "Chat App",
         "description": "Chat App is a real-time messaging application developed with Node.js and Socket.IO. Engage in seamless conversations with friends and family through this chat app, which utilizes HTML, ExpressJS, EJS, and CSS for the user interface.",
         "tech": [
