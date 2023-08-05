@@ -9,7 +9,7 @@
       {
         "link": "https://github.com/Sahilll15/Video-chat",
         "title": "VideoVerse",
-        "description": "An Simple video chat applciation",
+        "description": "VideoVerse is a user-friendly video chat application built using ReactJS and ZegoCloud. With VideoVerse, users can easily initiate video calls, making real-time communication a breeze.",
         "tech": [
           "reactjs",
           "zegocloud"
@@ -18,7 +18,7 @@
       {
         "link": "https://github.com/Sahilll15/TastyBites.git",
         "title": "TastyBites",
-        "description": "TastyBites is an recipe finder application",
+        "description": "TastyBites is a delightful recipe finder application created with ReactJS and Firebase. Explore a vast collection of recipes and discover new culinary experiences to tantalize your taste buds.",
         "tech": [
           "reactjs",
           "firebase"
@@ -27,7 +27,7 @@
       {
         "link": "https://github.com/Sahilll15/PortFolio-SahilChalke",
         "title": "Portfolio",
-        "description": "Portfolio webiste",
+        "description":"Portfolio is a dynamic website showcasing the impressive work and projects of Sahil Chalke. Crafted using ReactJS and NextJS, this portfolio website elegantly presents Sahil's skills and achievements.",
         "tech": [
           "reactjs",
           "nextjs"
@@ -36,16 +36,17 @@
       {
         "link": "https://github.com/Sahilll15/Github-User-Data",
         "title": "Github-user-data",
-        "description": "getData of the github users",
+        "description": "Github-user-data is a ReactJS-based application that allows users to retrieve valuable data of GitHub users. Stay informed about user profiles, repositories, and contributions in a seamless user interface.",
         "tech": [
-          "reactjs"
+          "reactjs",
+          "github Api"
      
         ]
       },
       {
         "link": "https://github.com/Sahilll15/FileDrop-Client",
         "title": "FileDrop",
-        "description": "FileDrop is an FileSharing Application ",
+        "description": "FileDrop is a feature-rich File Sharing Application built with ReactJS, NodeJS, and JWT authentication. Securely share files with friends and colleagues using this powerful platform, which also utilizes JavaScript and EJS templating.",
         "tech": [
           "reactjs",
           "nodejs",
@@ -57,7 +58,7 @@
       {
         "link": "https://github.com/Sahilll15/Songyfy",
         "title": "An spotify Clone",
-        "description": "wesbite made using spotify api",
+        "description": "Songyfy is an outstanding Spotify Clone leveraging ReactJS and the Spotify API. Immerse yourself in the world of music as you explore your favorite tunes, artists, and playlists, all within this impressive web application.",
         "tech": [
           "reactjs",
           "api"
@@ -66,7 +67,7 @@
       {
         "link": "https://github.com/Sahilll15/bookify-firebase",
         "title": "bookify",
-        "description": "An ecom for books",
+        "description": "bookify is an e-commerce platform specialized in selling books. Built with ReactJS, NodeJS, JWT authentication, and integrated with Postman for API testing, bookify offers a wide selection of books for book lovers.",
         "tech": [
           "reactjs",
           "nodejs",
@@ -77,11 +78,49 @@
       {
         "link": "https://github.com/Sahilll15/Travel-website-css",
         "title": "TravelWebsite",
-        "description": "An Basic Travel webiste",
+        "description": "TravelWebsite is a basic travel website designed with HTML, CSS, and JavaScript. Experience the allure of various travel destinations showcased in this simple yet visually appealing website.",
         "tech": [
           "html",
           "css",
           "javascript"
+        ]
+      }
+      ,
+      {
+        "link": "https://github.com/Sahilll15/Anonymous_Social_frontend",
+        "title": "Anonymous_Social",
+        "description": "Anonymous_Social is a unique social media platform where users can post comments and manage their profiles anonymously. Built using Node.js, ReactJS, ExpressJS, Tailwind CSS, and MongoDB, this platform ensures user privacy while fostering engaging interactions.",
+        "tech": [
+          "nodejs",
+          "reactjs",
+          "expressjs",
+          "tailwindcss",
+          "mongodb"
+
+        ]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Chat_App",
+        "title": "Chat App",
+        "description": "Chat App is a real-time messaging application developed with Node.js and Socket.IO. Engage in seamless conversations with friends and family through this chat app, which utilizes HTML, ExpressJS, EJS, and CSS for the user interface.",
+        "tech": [
+          "nodejs",
+          "html",
+          "expressjs",
+          "ejs",
+          "css"
+        ]
+      },
+      {
+        "link": "https://github.com/Sahilll15/Coupon_code_Frontend",
+        "title": "Coupon_code",
+        "description": "Coupon_code is a sophisticated coupon code management system built with ReactJS, Django, Django Rest Framework, and SQLite. Users can add, update, and delete their coupons effortlessly using this efficient platform.",
+        "tech": [
+          "reactjs",
+          "django",
+          "djangorestframework",
+          "sqllite"
+
         ]
       }
     ]
