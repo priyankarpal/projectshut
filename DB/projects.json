@@ -5696,5 +5696,22 @@
         "tech": ["python", "flask"]
       }
     ]
+  },
+  {
+    "github_username": "pavitrachavda97",
+    "Social_media": {
+      "gitHub": "https://github.com/pavitrachavda97",
+      "LinkedIn": "https://www.linkedin.com/in/pavitra-chavda-254b8122a/",
+      "Instagram": "https://www.instagram.com/pavitrachavda_0408/",
+      "Twitter": "https://twitter.com/pavitrachavda"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/pavitrachavda97/speech-to-text",
+        "title": "Speech-to-text",
+        "description": "The Speech-to-Text system is a powerful tool that allows you to convert spoken language into written text.",
+        "tech": ["reactjs", "html", "css"]
+      }
+    ]
   }
 ]
