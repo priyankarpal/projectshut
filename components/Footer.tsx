@@ -107,7 +107,7 @@ function Footer() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto">
-            <ul className="font-medium text-gray-200 pt-5">
+            <ul className="font-medium text-gray-200 pt-5 text-center lg:text-left">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
                   <h3 className="text-xl font-extrabold mb-4 text-gray-200">
@@ -118,7 +118,7 @@ function Footer() {
                       <li key={linkIndex} className="pt-2">
                         <Link
                           href={link.link}
-                          className="hover:text-primary"
+                          className="hover:text-primary "
                           rel="noopener noreferrer"
                           target="_blank"
                           aria-label="footer docs link"
@@ -132,7 +132,7 @@ function Footer() {
               ))}
             </ul>
 
-            <ul className="font-medium text-gray-200">
+            <ul className="font-medium text-gray-200 text-center lg:text-left">
               {footerServiceLinks.map((section, index) => (
                 <div key={index}>
                   <h3 className="text-xl font-extrabold mt-5 mb-4 text-gray-200">
@@ -143,9 +143,10 @@ function Footer() {
                       <li key={linkIndex} className="pt-2">
                         <Link
                           href={link.link}
-                          className="hover:text-primary"
+                          className="hover:text-primary  "
                           rel="noopener noreferrer"
                           target="_blank"
+
                           aria-label="footer service link"
                         >
                           {link.name}
