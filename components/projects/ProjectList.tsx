@@ -227,7 +227,7 @@ function ProjectList() {
                             href={project.link}
                             target="_blank"
                             rel="noreferrer"
-                            className="w-100 my-1 p-4 mb-4 text-white transition-[.3s_ease-in] hover:bg-[#A66EFC57] hover:scale-[1.025] hover:shadow-[inset_0_0_50px_#fff3] border border-gray-800 "
+                            className="w-100 my-1 p-4 mb-4 text-white hover:border-primary border border-gray-800"
                             key={index}
                             style={{
                                 borderRadius: "10px",
@@ -243,7 +243,7 @@ function ProjectList() {
                                 </p>
                                 <span className="absolute top-[-.5rem] right-[-.2rem]">
                                     <div
-                                        className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem]"
+                                        className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-primary"
                                     >
                                         <LuExternalLink size={25} />
                                     </div>
