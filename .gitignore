@@ -7,6 +7,9 @@
 .next
 .env
 
+# .vscode
+/.vscode
+
 # testing
 /coverage
 

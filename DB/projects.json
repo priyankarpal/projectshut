@@ -39,7 +39,6 @@
         "description": "getData of the github users",
         "tech": [
           "reactjs"
-     
         ]
       },
       {
@@ -1781,7 +1780,6 @@
           "mui",
           "javascript",
           "css"
-       
         ]
       },
       {
@@ -5716,6 +5714,48 @@
           "html",
           "css",
           "bootstrap"
+        ]
+      }
+    ]
+  },
+  {
+    "github_username": "Parul1606",
+    "Social_media": {
+      "gitHub": "https://github.com/Parul1606",
+      "LinkedIn": "https://www.linkedin.com/in/parul-pandey-4243aa206/",
+      "Instagram": "https://www.instagram.com/parulll_16/",
+      "YouTube": "https://www.youtube.com/channel/UC4vSo8W9-1U5zZzXmn4usYw",
+      "Twitter": "https://twitter.com/parulpa37629488"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/Parul1606/Fake-News-Detection",
+        "title": "Fake-News-Detection",
+        "description": "Fake News Detection using ML, DL, LSTM, NLP, Stemming, Lemmatization, and Data Visualization for classifying news articles.",
+        "tech": [
+          "python",
+          "flask"
+        ]
+      }
+    ]
+  },
+  {
+    "github_username": "pavitrachavda97",
+    "Social_media": {
+      "gitHub": "https://github.com/pavitrachavda97",
+      "LinkedIn": "https://www.linkedin.com/in/pavitra-chavda-254b8122a/",
+      "Instagram": "https://www.instagram.com/pavitrachavda_0408/",
+      "Twitter": "https://twitter.com/pavitrachavda"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/pavitrachavda97/speech-to-text",
+        "title": "Speech-to-text",
+        "description": "The Speech-to-Text system is a powerful tool that allows you to convert spoken language into written text.",
+        "tech": [
+          "reactjs",
+          "html",
+          "css"
         ]
       }
     ]
