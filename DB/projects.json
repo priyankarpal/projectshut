@@ -5711,6 +5711,24 @@
         "title": "Speech-to-text",
         "description": "The Speech-to-Text system is a powerful tool that allows you to convert spoken language into written text.",
         "tech": ["reactjs", "html", "css"]
+      },
+      {
+        "link": "https://github.com/pavitrachavda97/background-creator",
+        "title": "background-creator",
+        "description": "You can create two types of background using this project. 1)Linear Background 2)Radial Background",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "link": "https://github.com/pavitrachavda97/Whack-A-Mole-React",
+        "title": "Whack-a-mole",
+        "description": "This is a simple and entertaining game where your task is to hit the moles as they randomly pop up from their holes. The objective is to score as many points as possible",
+        "tech": ["reactjs"]
+      },
+      {
+        "link": "https://github.com/pavitrachavda97/Shipment-booking",
+        "title": "Shipment-booking",
+        "description": "The shipment booking website is a platform that allows users to book shipments for their products or goods.",
+        "tech": ["java", "jsp", "mysql"]
       }
     ]
   }
