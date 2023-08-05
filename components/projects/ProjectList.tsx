@@ -9,6 +9,7 @@ import {
     FaTwitter,
     FaYoutube,
 } from "react-icons/fa";
+import { LuExternalLink } from "react-icons/lu";
 import { MdArrowBackIosNew } from "react-icons/md";
 import { FiShare2 } from "react-icons/fi";
 import { BsCheck2Circle } from "react-icons/bs";
@@ -106,7 +107,7 @@ function ProjectList() {
             {initialLoading}
             {/* Left side profile section */}
             {!initialLoading && userObj && Object.keys(userObj).length > 0 && (
-                <div className=" w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 text-white border border-gray-800">
+                <div className="w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 text-white border border-gray-800">
                     {/* Back to projects link */}
                     <div className="flex items-center justify-between my-4">
                         <div>
@@ -222,8 +223,11 @@ function ProjectList() {
                     userObj &&
                     Object.keys(userObj).length > 0 &&
                     userObj?.Projects.map((project, index) => (
-                        <div
-                            className="w-100 my-1 p-4 mb-4 text-white  hover:border-primary border border-gray-800 "
+                        <Link
+                            href={project.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="w-100 my-1 p-4 mb-4 text-white hover:border-primary border border-gray-800"
                             key={index}
                             style={{
                                 borderRadius: "10px",
@@ -237,17 +241,12 @@ function ProjectList() {
                                 <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">
                                     {project.description}
                                 </p>
-                                <span className="absolute top-0 right-2">
-                                    <Link
-                                        href={project.link}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex h-10 items-center rounded-lg  font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-gray-500 "
-                                        aria-label="Follow us on GitHub"
-                                        title="GitHub(External Link)"
+                                <span className="absolute top-[-.5rem] right-[-.2rem]">
+                                    <div
+                                        className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-primary"
                                     >
-                                        <FaGithub size={30} />
-                                    </Link>
+                                        <LuExternalLink size={25} />
+                                    </div>
                                 </span>
                             </div>
                             {/* Tech Stack section */}
@@ -263,7 +262,7 @@ function ProjectList() {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
             </div>
             {isOpenModal && (
