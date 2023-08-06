@@ -3925,44 +3925,6 @@
     ]
   },
   {
-    "github_username": "mswat5",
-    "Social_media": {
-      "LinkedIn": "https://www.linkedin.com/in/swatantra-%F0%9F%A6%A5-27b64b242/",
-      "Twitter": "https://twitter.com/itSwatantra"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/mswat5/Webscraper_news",
-        "title": "Web_Scrapper-News",
-        "description": "Hello! This Project is related to scrapping news from online articles",
-        "tech": [
-          "python",
-          "beautiful soup"
-        ]
-      }
-    ]
-  },
-  {
-    "github_username": "devWonderkind",
-    "Social_media": {
-      "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
-      "Twitter": "https://twitter.com/devWonderkind"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/devWonderkind/Random-Quote-Generator",
-        "title": "Random Quote Generator",
-        "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
-        "tech": [
-          "html",
-          "css",
-          "javascript",
-          "api"
-        ]
-      }
-    ]
-  },
-  {
     "github_username": "Prajwal0225",
     "Social_media": {
       "LinkedIn": "https://www.linkedin.com/in/prajwalsomalkar/",
@@ -4248,26 +4210,6 @@
         "tech": [
           "python",
           "beautiful soup"
-        ]
-      }
-    ]
-  },
-  {
-    "github_username": "devWonderkind",
-    "Social_media": {
-      "LinkedIn": "https://www.linkedin.com/in/devWonderkind/",
-      "Twitter": "https://twitter.com/devWonderkind"
-    },
-    "Projects": [
-      {
-        "link": "https://github.com/devWonderkind/Random-Quote-Generator",
-        "title": "Random Quote Generator",
-        "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
-        "tech": [
-          "html",
-          "css",
-          "javascript",
-          "api"
         ]
       }
     ]
