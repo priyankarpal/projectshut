@@ -5795,5 +5795,23 @@
       "tech": ["expressjs", "rest api"]
     }
   ]
+},
+{
+  "github_username": "soubhik-111",  
+  "Social_media": {
+    "gitHub": "https://github.com/soubhik-111",
+    "LinkedIn": "https://www.linkedin.com/in/soubhik-banerjee-3a571b223/",
+    "Instagram": "https://www.instagram.com/codewithcrazy/",
+    "YouTube": "https://www.youtube.com/@codewithcrazy",
+    "Twitter": ""
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/soubhik-111/Kaun_banega_crorepati",
+      "title": "Kaun Banega Crorepati",
+      "description": "Kaun Banega Crorepati Frontend Project is an interactive web app with HTML, CSS, JAVASCRIPT. Features include questions, timers,  scores, and animations for an engaging experience.",
+      "tech": ["HTML", "CSS", "JAVASCRIPT"]
+    }
+  ]
 }
 ]
