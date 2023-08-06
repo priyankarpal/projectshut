@@ -75,7 +75,9 @@ const option1Steps = [
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
-    text: "To create a pull request click on compare and pull request"
+    text: "To create a pull request click on compare and pull request",
+    image:
+      "https://user-images.githubusercontent.com/80768852/258657644-b1bc753b-3c0a-4853-8578-dde040c2665e.jpg"
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
@@ -86,7 +88,7 @@ const option1Steps = [
     text: "Click on Create Pull Request & wait for merge",
     code: "",
     image:
-      "https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png",
+      "https://user-images.githubusercontent.com/80768852/258657487-9fa9558c-e49b-4647-a9ee-50da86b9fccf.jpg",
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
@@ -202,7 +204,9 @@ const option2Steps = [
       "https://user-images.githubusercontent.com/80768852/258654547-7a0e300b-aada-4fa3-b1de-90d445c0311e.png"
   },{
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
-    text: "To create a pull request click on compare and pull request"
+    text: "To create a pull request click on compare and pull request",
+    image:
+      "https://user-images.githubusercontent.com/80768852/258657644-b1bc753b-3c0a-4853-8578-dde040c2665e.jpg"
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
@@ -213,7 +217,7 @@ const option2Steps = [
     text: "Click on Create Pull Request & wait for merge",
     code: "",
     image:
-      "https://user-images.githubusercontent.com/88102392/232193469-dcc2b0b8-ec6b-4023-a9f4-bb6900ae8aff.png",
+      "https://user-images.githubusercontent.com/80768852/258657487-9fa9558c-e49b-4647-a9ee-50da86b9fccf.jpg",
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
