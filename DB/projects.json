@@ -5770,5 +5770,30 @@
         "tech": ["java", "jsp", "mysql"]
       }
     ]
-  }
+  },
+
+{
+  "github_username": "Aryainguz",  
+  "Social_media": {
+    "gitHub": "https://github.com/Aryainguz",
+    "LinkedIn": "https://www.linkedin.com/in/aryan-inguz-b73150254/",
+    "Instagram": "https://instagram.com/aryainguz",
+    "YouTube": "https://www.youtube.com/@thexitingway",
+    "Twitter": "https://twitter.com/aryaninguz369"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/Aryainguz/Euphoria-Check-PERMA-Meter-Express",
+      "title": "EuphoriaCheck - A Modern PERMA Meter",
+      "description": "A powerful tool to help you assess and improve your well-being! This web application, built using Express and Node.js, measures your happiness and life satisfaction based on the PERMA model of well-being. With personalized insights, users gain a comprehensive breakdown of their PERMA scores, identifying areas for personal growth and well-being enhancement.Users recieves a personalized note on email that helps them set their targets and improve on specific score so they keep on evolving Key Features: 📊 Happiness Assessment: 📈 Personalized Insights: 🎯 Goal Setting",
+      "tech": ["expressjs", "nodejs"]
+    },
+    {
+      "link": "https://github.com/Aryainguz/Email-Newsletter-Subscription-Web-App-Using-ExpressJS",
+      "title": "Email-Newsletter-Subscription-Web-App-Using-ExpressJS",
+      "description": "Email Marketing is an important aspect of promotions of any kind, so here's a email newsletter subscription web app i made using expressjs to get subscribers for my email marketing and newsletters . Using Express JS and Mailchimp's API do use it for your personal project and share you insights with me, Aryan",
+      "tech": ["expressjs", "rest api"]
+    }
+  ]
+}
 ]
