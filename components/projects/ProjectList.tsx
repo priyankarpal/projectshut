@@ -144,10 +144,9 @@ function ProjectList() {
                         <p className="text-sm break-words">{user?.bio}</p>
                     </div>
                     <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-                        {userObj.Social_media?.gitHub !== "" && (
                             <div className="mx-5 xsm:mx-2">
                                 <Link
-                                    href={userObj.Social_media?.gitHub ?? ""}
+                                    href={`https://github.com/${params?.username}`}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
@@ -157,8 +156,8 @@ function ProjectList() {
                                     <FaGithub />
                                 </Link>
                             </div>
-                        )}
-                        {userObj.Social_media?.LinkedIn !== "" && (
+                            
+                        {userObj.Social_media?.LinkedIn && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.LinkedIn ?? ""}
@@ -172,7 +171,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.Twitter !== "" && (
+                        {userObj.Social_media?.Twitter && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.Twitter ?? ""}
@@ -186,7 +185,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.YouTube !== "" && (
+                        {userObj.Social_media?.YouTube && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.YouTube ?? ""}
@@ -200,7 +199,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.Instagram !== "" && (
+                        {userObj.Social_media?.Instagram && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.Instagram ?? ""}
