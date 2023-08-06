@@ -185,34 +185,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.YouTube && (
-                            <div className="mx-4">
-                                <Link
-                                    href={userObj.Social_media?.YouTube ?? ""}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on YouTube"
-                                    title="YouTube(External Link)"
-                                >
-                                    <FaYoutube />
-                                </Link>
-                            </div>
-                        )}
-                        {userObj.Social_media?.Instagram && (
-                            <div className="mx-4">
-                                <Link
-                                    href={userObj.Social_media?.Instagram ?? ""}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on Instagram "
-                                    title="Instagram(External Link)"
-                                >
-                                    <FaInstagram />
-                                </Link>
-                            </div>
-                        )}
+                        
                     </div>
                 </div>
             )}
