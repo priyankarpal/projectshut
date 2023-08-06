@@ -2,12 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import {
-    FaGithub,
-    FaInstagram,
-    FaLinkedin,
-    FaTwitter,
-    FaYoutube,
+import { FaGithub, FaLinkedin, FaTwitter,
 } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 import { MdArrowBackIosNew } from "react-icons/md";
@@ -29,11 +24,8 @@ interface userObjType {
 }
 
 interface socialMediaType {
-    gitHub?: string;
     LinkedIn?: string;
     Twitter?: string;
-    Instagram?: string;
-    YouTube?: string;
 }
 interface projectsType {
     link: string;
@@ -144,19 +136,19 @@ function ProjectList() {
                         <p className="text-sm break-words">{user?.bio}</p>
                     </div>
                     <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-                            <div className="mx-5 xsm:mx-2">
-                                <Link
-                                    href={`https://github.com/${params?.username}`}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on GitHub"
-                                    title="GitHub(External Link)"
-                                >
-                                    <FaGithub />
-                                </Link>
-                            </div>
-                            
+                        <div className="mx-5 xsm:mx-2">
+                            <Link
+                                href={`https://github.com/${params?.username}`}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                                aria-label="Follow us on GitHub"
+                                title="GitHub(External Link)"
+                            >
+                                <FaGithub />
+                            </Link>
+                        </div>
+
                         {userObj.Social_media?.LinkedIn && (
                             <div className="mx-4">
                                 <Link
@@ -185,7 +177,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        
+
                     </div>
                 </div>
             )}
