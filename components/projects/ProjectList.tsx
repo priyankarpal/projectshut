@@ -107,7 +107,7 @@ function ProjectList() {
             {initialLoading}
             {/* Left side profile section */}
             {!initialLoading && userObj && Object.keys(userObj).length > 0 && (
-                <div className="w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-2 px-8 text-white border border-gray-800">
+                <div className="w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-28 px-8 text-white border border-gray-800 mt-1">
                     {/* Back to projects link */}
                     <div className="flex items-center justify-between my-4">
                         <div>
