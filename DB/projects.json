@@ -5795,5 +5795,27 @@
       "tech": ["expressjs", "rest api"]
     }
   ]
+},
+  {
+  "github_username": "iqrasarwar",
+  "Social_media": {
+    "gitHub": "https://github.com/iqrasarwar",
+    "LinkedIn": "https://www.linkedin.com/in/iqrasarwar/",
+    "Twitter": "https://twitter.com/iqra_sarwar_"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/iqrasarwar/YouTube",
+      "title": "YouTube Clone",
+      "description": "Youtube Clone in C# that includes video player, video uploader and search option just like YouTube.",
+      "tech": ["c#", "dotnet"]
+    },
+    {
+      "link": "https://github.com/iqrasarwar/QuranAppV3",
+      "title": "Quran App",
+      "description": "A mobile application for quran with translation in urdu and English. You can view Quran surah wise and parah wise.",
+      "tech": ["java"]
+    }
+  ]
 }
 ]
