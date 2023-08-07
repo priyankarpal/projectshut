@@ -5361,5 +5361,19 @@
       "tech": ["java"]
     }
   ]
-}
+},
+  {
+    "github_username": "nc1z",  
+    "Social_media": {
+      "Twitter": "https://twitter.com/nc1zdev"
+    },
+    "Projects": [
+      {
+        "link": "https://github.com/nc1z/react-pwa-starter",
+        "title": "React PWA Starter Template",
+        "description": "Opinionated React PWA Starter built with Create-React-App, MUI and Firebase",
+        "tech": ["typescript", "reactjs", "firebase", "mui"]
+      }
+    ]
+  }
 ]
