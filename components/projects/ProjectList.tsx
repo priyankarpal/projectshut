@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import { FaGithub, FaLinkedin, FaTwitter,
 } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
@@ -66,9 +66,10 @@ function ProjectList() {
             }
             return null;
         });
-        if (filterdObj[0]) {
-            setObject(filterdObj[0]);
+        if (!filterdObj[0]) {
+            notFound();
         }
+        setObject(filterdObj[0]);
         getData();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
