@@ -171,11 +171,6 @@ const option2Steps = [
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
-    text: "Add following code to end of src/DB/projects.json",
-    code: codeString,
-  },
-  {
-    icon: <PiArrowFatLineRightFill size={18} color="white" />,
     text: "Check your changes",
     code: "git status",
     image:
