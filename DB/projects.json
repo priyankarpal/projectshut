@@ -5810,7 +5810,7 @@
       "link": "https://github.com/soubhik-111/Kaun_banega_crorepati",
       "title": "Kaun Banega Crorepati",
       "description": "Kaun Banega Crorepati Frontend Project is an interactive web app with HTML, CSS, JAVASCRIPT. Features include questions, timers,  scores, and animations for an engaging experience.",
-      "tech": ["HTML", "CSS", "JAVASCRIPT"]
+      "tech": ["html", "css", "javascript"]
     }
   ]
 }
