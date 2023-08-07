@@ -22,8 +22,8 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
 
   return (
     <motion.section
-      initial={{ opacity: 0, y: 50, scale : 0 }}
-      whileInView={{ opacity: 1, y: 0 , scale : 1}}
+      initial={{ opacity: 0, y: 50, scale: 0 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.1, type: "spring", stiffness: 110, delay: (index % 4) * 0.3 }}
       className="border shadow-sm rounded-xl py-5 px-3 w-full h-full mb-3 max-w-md mx-auto sm:m-0  border-gray-700 hover:border-primary duration-200 shadow-slate-700/[.7]">
@@ -55,31 +55,35 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
       <motion.div
         className="flex flex-row justify-between gap-5">
         {/*  GitHub Link Button */}
-        <motion.a
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.3, type: "spring", stiffness: 110, delay: (index % 4) * 0.3 + 0.5 }}
+        <Link
           href={link}
           target="_blank"
           rel="noreferrer"
           title="GitHub(External Link)"
           aria-label="Follow us on GitHub"
-          className="cursor-pointer px-4 items-center group flex gap-2 justify-center text-center text-white border w-1/2 border-gray-700  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
+          className="px-4 group active:scale-95 transition text-center text-white border w-1/2 border-gray-700 hover:border-gray-600  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
         >
-          GitHub
-          <span
-            className="group-hover:translate-x-1 duration-300 block"
-            aria-hidden="true"
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, type: "spring", stiffness: 110, delay: (index % 4) * 0.3 + 0.5 }}
+            className="flex gap-2 justify-center items-center"
           >
-            <BsArrowRightShort size={15} />
-          </span>
-        </motion.a>
+            GitHub
+            <span
+              className="group-hover:translate-x-1 duration-300 block"
+              aria-hidden="true"
+            >
+              <BsArrowRightShort size={15} />
+            </span>
+          </motion.div>
+        </Link>
         {/* for user profile card page button  */}
         <Link
           href={`/projects/${username.toLowerCase()}`}
-          className="w-1/2  px-4 items-center group flex gap-2 justify-center text-center text-white border border-gray-700  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-[0.35rem] "
-        // state={{ filter }}
+          className="w-1/2 px-4 group active:scale-95 transition text-center text-white border border-gray-700 hover:border-gray-600  xl:text-[1rem] md:text-[0.8rem] rounded-md py-[0.35rem] "
+          // state={{ filter }}
           aria-label="visit user profile"
         >
           <motion.div
@@ -87,17 +91,16 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.3, type: "spring", stiffness: 110, delay: (index % 4) * 0.3 + 0.5 }}
-          >More</motion.div>
-          <motion.span
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, type: "spring", stiffness: 110, delay: (index % 4) * 0.3 + 0.5 }}
-            className="group-hover:translate-x-1 duration-300 block"
-            aria-hidden="true"
+            className="flex gap-2 justify-center items-center"
           >
-            <BsArrowRightShort size={15} />
-          </motion.span>
+            More
+            <span
+              className="group-hover:translate-x-1 duration-300 block"
+              aria-hidden="true"
+            >
+              <BsArrowRightShort size={15} />
+            </span>
+          </motion.div>
         </Link>
       </motion.div>
     </motion.section>
