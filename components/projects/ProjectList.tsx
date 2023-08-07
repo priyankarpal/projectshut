@@ -2,12 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import {
-    FaGithub,
-    FaInstagram,
-    FaLinkedin,
-    FaTwitter,
-    FaYoutube,
+import { FaGithub, FaLinkedin, FaTwitter,
 } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 import { MdArrowBackIosNew } from "react-icons/md";
@@ -29,11 +24,8 @@ interface userObjType {
 }
 
 interface socialMediaType {
-    gitHub?: string;
     LinkedIn?: string;
     Twitter?: string;
-    Instagram?: string;
-    YouTube?: string;
 }
 interface projectsType {
     link: string;
@@ -144,21 +136,20 @@ function ProjectList() {
                         <p className="text-sm break-words">{user?.bio}</p>
                     </div>
                     <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-                        {userObj.Social_media?.gitHub !== "" && (
-                            <div className="mx-5 xsm:mx-2">
-                                <Link
-                                    href={userObj.Social_media?.gitHub ?? ""}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on GitHub"
-                                    title="GitHub(External Link)"
-                                >
-                                    <FaGithub />
-                                </Link>
-                            </div>
-                        )}
-                        {userObj.Social_media?.LinkedIn !== "" && (
+                        <div className="mx-5 xsm:mx-2">
+                            <Link
+                                href={`https://github.com/${params?.username}`}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                                aria-label="Follow us on GitHub"
+                                title="GitHub(External Link)"
+                            >
+                                <FaGithub />
+                            </Link>
+                        </div>
+
+                        {userObj.Social_media?.LinkedIn && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.LinkedIn ?? ""}
@@ -172,7 +163,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.Twitter !== "" && (
+                        {userObj.Social_media?.Twitter && (
                             <div className="mx-4">
                                 <Link
                                     href={userObj.Social_media?.Twitter ?? ""}
@@ -186,34 +177,7 @@ function ProjectList() {
                                 </Link>
                             </div>
                         )}
-                        {userObj.Social_media?.YouTube !== "" && (
-                            <div className="mx-4">
-                                <Link
-                                    href={userObj.Social_media?.YouTube ?? ""}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on YouTube"
-                                    title="YouTube(External Link)"
-                                >
-                                    <FaYoutube />
-                                </Link>
-                            </div>
-                        )}
-                        {userObj.Social_media?.Instagram !== "" && (
-                            <div className="mx-4">
-                                <Link
-                                    href={userObj.Social_media?.Instagram ?? ""}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                                    aria-label="Follow us on Instagram "
-                                    title="Instagram(External Link)"
-                                >
-                                    <FaInstagram />
-                                </Link>
-                            </div>
-                        )}
+
                     </div>
                 </div>
             )}
