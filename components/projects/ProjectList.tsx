@@ -188,12 +188,8 @@ function ProjectList() {
                     userObj &&
                     Object.keys(userObj).length > 0 &&
                     userObj?.Projects.map((project, index) => (
-                        <Link
-                            href={project.link}
-                            target="_blank"
-                            rel="noreferrer"
+                        <div key={index}
                             className="w-100 my-1 p-4 mb-4 text-white hover:border-primary border border-gray-800"
-                            key={index}
                             style={{
                                 borderRadius: "10px",
                                 minHeight: "100px",
@@ -206,13 +202,17 @@ function ProjectList() {
                                 <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">
                                     {project.description}
                                 </p>
-                                <span className="absolute top-[-.5rem] right-[-.2rem]">
+                                <Link
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="absolute top-[-.5rem] right-[-.2rem]">
                                     <div
                                         className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-primary"
                                     >
                                         <LuExternalLink size={25} />
                                     </div>
-                                </span>
+                                </Link>
                             </div>
                             {/* Tech Stack section */}
                             <div className="flex flex-row items-center m-4 gap-4">
@@ -227,7 +227,7 @@ function ProjectList() {
                                     ))}
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     ))}
             </div>
             {isOpenModal && (
