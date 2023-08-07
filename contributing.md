@@ -16,10 +16,7 @@
 {
   "github_username": "YOUR_GITHUB_USERNAME",
   "Social_media": {
-    "gitHub": "YOUR_GITHUB_ACCOUNT_LINK",
     "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-    "Instagram": "YOUR_INSTAGRAM_ACCOUNT_LINK",
-    "YouTube": "YOUR_YOUTUBE_ACCOUNT_LINK",
     "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
   },
   "Projects": [

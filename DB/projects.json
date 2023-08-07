@@ -5341,7 +5341,21 @@
     }
   ]
 },
-  {
+{
+  "github_username": "soubhik-111",  
+  "Social_media": {
+    "LinkedIn": "https://www.linkedin.com/in/soubhik-banerjee-3a571b223/"
+  },
+  "Projects": [
+    {
+      "link": "https://github.com/soubhik-111/Kaun_banega_crorepati",
+      "title": "Kaun Banega Crorepati",
+      "description": "Kaun Banega Crorepati Frontend Project is an interactive web app with HTML, CSS, JAVASCRIPT. Features include questions, timers,  scores, and animations for an engaging experience.",
+      "tech": ["html", "css", "javascript"]
+    }
+    ]
+},
+{
   "github_username": "iqrasarwar",
   "Social_media": {
     "LinkedIn": "https://www.linkedin.com/in/iqrasarwar/",
