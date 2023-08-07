@@ -167,7 +167,7 @@ const option2Steps = [
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
-    text: "Perform your desired Changes and if you are contributing a project then you can follow the below command",
+    text: "Perform your desired Changes to the code base",
   },
   {
     icon: <PiArrowFatLineRightFill size={18} color="white" />,
