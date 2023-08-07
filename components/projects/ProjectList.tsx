@@ -123,7 +123,7 @@ function ProjectList() {
                         <Image
                             src={`https://github.com/${params?.username}.png`}
                             alt={`${params?.username}'s github profile`}
-                            className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg"
+                            className="w-36 h-36 rounded-full transition-all duration-300 ease-in-out hover:shadow-lg border border-gray-800"
                             width={100}
                             height={100}
                         />
