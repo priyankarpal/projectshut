@@ -6,7 +6,7 @@ import { BsFilter } from "react-icons/bs";
 import { MdClear } from "react-icons/md";
 import techStack from "@/utils/techStack";
 import { searchProject } from "@/utils/searchProject";
-import ProjectLoading from "@/components/projects/ProjectLoading";
+import { Loading } from "./Loading";
 import { shuffleProjects } from "@/utils/paginate";
 import ProjectCard from "@/components/projects/ProjectCard";
 import projects from "@/DB/projects.json";
@@ -352,9 +352,9 @@ const Projects = () => {
                         hasMore={visibleProjects.length < Projects.length}
                         loader={
                             <>
-                                <ProjectLoading />
-                                <ProjectLoading />
-                                <ProjectLoading />
+                                <Loading.AllProjects />
+                                <Loading.AllProjects />
+                                <Loading.AllProjects />
                             </>
                         }
                         endMessage={

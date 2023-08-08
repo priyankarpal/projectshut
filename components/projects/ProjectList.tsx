@@ -188,9 +188,9 @@ function ProjectList() {
       <div className="w-full md:w-3/4 md:mx-2 flex flex-col rounded-md ">
         {initialLoading && (
           <>
-            <Loading.Project />
-            <Loading.Project />
-            <Loading.Project />
+            <Loading.UserProjects />
+            <Loading.UserProjects />
+            <Loading.UserProjects />
           </>
         )}
 
