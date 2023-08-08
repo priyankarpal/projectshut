@@ -1933,6 +1933,15 @@
         "tech": [
           "open source"
         ]
+      },
+      {
+        "link": "https://cozy-rabanadas-0580cb.netlify.app/",
+        "title": "Photography Website",
+        "description": "A frontend project made using HTML and pure CSS.",
+        "tech": [
+          "html",
+          "css"
+        ]
       }
     ]
   },
