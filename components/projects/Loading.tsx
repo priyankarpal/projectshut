@@ -28,7 +28,7 @@ export const Loading = {
       </div>
       {/* Tech Stack section */}
       <div className="flex flex-wrap flex-row items-center m-4 gap-2">
-        {[...Array(3)].map((i) => (
+        {[1, 2, 3].map((i) => (
           <div
             key={i}
             className="text-xs inline-block py-1 px-2 rounded mr-2 bg-slate-700 h-4 w-20"
