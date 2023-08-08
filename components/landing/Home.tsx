@@ -3,8 +3,30 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import images from "@/DB/homepage-image.json";
 import Image from "next/image";
+import { useState, useEffect } from 'react';
 
 export default function Landing() {
+  const phrases = ['Learn.', 'Build', 'Share'];
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
+  const [typedText, setTypedText] = useState('');
+
+  useEffect(() => {
+    let currentIndex = 0;
+    const typingInterval = setInterval(() => {
+      setTypedText((prevText) => prevText + phrases[currentPhraseIndex][currentIndex]);
+      currentIndex++;
+
+      if (currentIndex === phrases[currentPhraseIndex].length) {
+        clearInterval(typingInterval);
+        setTimeout(() => {
+          setTypedText('');
+          setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
+        }, 1000); // Wait for 1 second before clearing and changing phrase
+      }
+    }, 100); // Adjust the typing speed here
+
+    return () => clearInterval(typingInterval);
+  }, [currentPhraseIndex]);
   return (
     <div className="relative sm:pb-0 select-none overflow-hidden">
         <div className="pt-16 sm:pt-10 sm:pb-0 lg:pt-40 lg:pb-48">
@@ -22,7 +44,7 @@ export default function Landing() {
               }}
               className="text-4xl font-bold sm:text-[5vw] md:text-5xl lg:leading-[5.5rem] lg:text-[5rem] text-white"
             >
-              Learn. Build. Share.
+              {typedText}
             </motion.div>
 
             <motion.p
