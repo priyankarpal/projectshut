@@ -22,6 +22,8 @@
     "eslint-config-next": "13.4.13",
     "framer-motion": "^10.15.1",
     "next": "^13.4.13",
+    "next-pwa": "^5.6.0",
+    "pnpm": "^8.6.12",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -34,8 +36,8 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cli": "^17.7.0",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/react-syntax-highlighter": "^15.5.7",
     "husky": "^8.0.3"
   }
