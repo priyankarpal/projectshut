@@ -5,7 +5,7 @@ import { anOldHope } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Image from "next/image";
 import { MdOutlineContentCopy } from "react-icons/md";
 import { BsCheck2Circle } from "react-icons/bs";
-import { motion } from "framer-motion";
+import { Motion } from "@/components/framer-motion";
 
 
 type StepProps = {
@@ -222,7 +222,7 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
   };
 
   return (
-    <motion.div className="mt-5 flex flex-col gap-5 "
+    <Motion.div className="mt-5 flex flex-col gap-5 "
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -230,7 +230,7 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
     >
 
       <div className="flex items-center justify-between ">
-        <motion.div
+        <Motion.div
           key={text}
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -244,7 +244,7 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
             </p>
           </div>
           {code && (
-            <motion.div
+            <Motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -259,12 +259,12 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
                 )}
                 {!copyCodeButton && <BsCheck2Circle size="18" color="green" />}
               </button>
-            </motion.div>
+            </Motion.div>
           )}
-        </motion.div>
+        </Motion.div>
       </div>
       {code && (
-        <motion.div
+        <Motion.div
           key={code}
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -274,10 +274,10 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
           <SyntaxHighlighter language="nginx" style={anOldHope}>
             {code}
           </SyntaxHighlighter>
-        </motion.div>
+        </Motion.div>
       )}
       {image && (
-        <motion.div
+        <Motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -290,9 +290,9 @@ function Step({ steps, text, code, image, index }: StepProps): JSX.Element {
             width={10000}
             height={600}
           />
-        </motion.div>
+        </Motion.div>
       )}
-    </motion.div>
+    </Motion.div>
   );
 }
 
@@ -321,7 +321,7 @@ export default function AddYourProjectsGuide(): JSX.Element {
 
   return (<>
     <div className="flex justify-center mt-10">
-      <motion.button
+      <Motion.button
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
@@ -333,8 +333,8 @@ export default function AddYourProjectsGuide(): JSX.Element {
         onClick={() => selectOption(0)}
       >
         Add Projects Directly From GitHub
-      </motion.button>
-      <motion.button
+      </Motion.button>
+      <Motion.button
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
@@ -347,17 +347,17 @@ export default function AddYourProjectsGuide(): JSX.Element {
         onClick={() => selectOption(1)}
       >
         Set Up Projects Locally
-      </motion.button>
+      </Motion.button>
     </div>
     <article className="items-center max-w-5xl mx-auto">
-      <motion.p className="mb-5 text-xl font-bold tracking-tight text-white"
+      <Motion.p className="mb-5 text-xl font-bold tracking-tight text-white"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
       >
         Follow the following steps to add your projects to ProjectsHut :
-      </motion.p>
+      </Motion.p>
       <div className="option">{stepsRender}</div>
     </article>
   </>
