@@ -13,13 +13,16 @@ import { IoClose } from "react-icons/io5";
 import projects from "@/DB/projects.json";
 import Image from "next/image";
 import { Loading } from "./Loading";
-interface userType {
-  bio?: string;
-}
+import { getUserData } from "@/API/user";
 
 interface userObjType {
   github_username: string;
   Projects: projectsType[];
+}
+
+interface userType {
+  bio?: string;
+  social_accounts: socialMediaType[];
 }
 
 interface socialMediaType {
@@ -27,6 +30,7 @@ interface socialMediaType {
   url?: string;
   icon?: JSX.Element;
 }
+
 interface projectsType {
   link: string;
   title: string;
@@ -38,43 +42,18 @@ function ProjectList() {
   const params = useParams();
   const [userObj, setObject] = useState<userObjType | undefined>();
   const [user, setUser] = useState<userType | undefined>();
-  const [social, setSocial] = useState<socialMediaType[] | undefined>();
   const [initialLoading, setInitialLoading] = useState(true);
   const [isOpenModal, setIsOpenModal] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
 
   // to get the user data from github
+
   const getData = async () => {
-    setInitialLoading(true);
-    try {
-      const [res, socRes] = await Promise.all([
-        fetch(`https://api.github.com/users/${params?.username}`).then((res) =>
-          res.json()
-        ),
-        fetch(`https://api.github.com/users/${params?.username}/social_accounts`).then(
-          (res) => res.json()
-        ),
-      ]);
-
-      setUser(res);
-
-      const filteredSoc = socRes.filter((obj: socialMediaType) =>
-      obj.provider === "linkedin" || obj.provider === "twitter"
-      );
-
-      const githubUrl = {
-        provider: "github",
-        url: `https://github.com/${params?.username}`,
-        icon: <FaGithub />,
-      }
-
-      setSocial([githubUrl, ...filteredSoc]);
-
-      setInitialLoading(false);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
+    setInitialLoading(true); 
+    const userData = await  getUserData(params?.username as string) as userType;
+    setUser(userData);
+    setInitialLoading(false);
+  }
 
   useEffect(() => {
     // make the scroll bar start from the top of the page
@@ -162,7 +141,7 @@ function ProjectList() {
             <p className="text-sm break-words">{user?.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            {social && social.map(({ provider, url, icon }: socialMediaType) => (
+            {user?.social_accounts && user?.social_accounts.map(({ provider, url, icon }: socialMediaType) => (
               <div className="mx-4" key={provider}>
                 <Link
                   href={url ?? ""}
