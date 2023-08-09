@@ -13,20 +13,24 @@ import { IoClose } from "react-icons/io5";
 import projects from "@/DB/projects.json";
 import Image from "next/image";
 import { Loading } from "./Loading";
-interface userType {
-  bio?: string;
-}
+import { getUserData } from "@/API/user";
 
 interface userObjType {
   github_username: string;
-  Social_media?: socialMediaType;
   Projects: projectsType[];
 }
 
-interface socialMediaType {
-  LinkedIn?: string;
-  Twitter?: string;
+interface userType {
+  bio?: string;
+  social_accounts: socialMediaType[];
 }
+
+interface socialMediaType {
+  provider?: string;
+  url?: string;
+  icon?: JSX.Element;
+}
+
 interface projectsType {
   link: string;
   title: string;
@@ -43,16 +47,13 @@ function ProjectList() {
   const [isCopied, setIsCopied] = useState(false);
 
   // to get the user data from github
+
   const getData = async () => {
-    setInitialLoading(true);
-    const res = await fetch(
-      `https://api.github.com/users/${params?.username}`
-    ).then((result) => result.json());
-    if (res) {
-      setUser(res);
-      setInitialLoading(false);
-    }
-  };
+    setInitialLoading(true); 
+    const userData = await  getUserData(params?.username as string) as userType;
+    setUser(userData);
+    setInitialLoading(false);
+  }
 
   useEffect(() => {
     // make the scroll bar start from the top of the page
@@ -140,47 +141,20 @@ function ProjectList() {
             <p className="text-sm break-words">{user?.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            <div className="mx-5 xsm:mx-2">
-              <Link
-                href={`https://github.com/${params?.username}`}
-                target="_blank"
-                rel="noreferrer"
-                className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                aria-label="Follow us on GitHub"
-                title="GitHub(External Link)"
-              >
-                <FaGithub />
-              </Link>
-            </div>
-
-            {userObj.Social_media?.LinkedIn && (
-              <div className="mx-4">
+            {user?.social_accounts && user?.social_accounts.map(({ provider, url, icon }: socialMediaType) => (
+              <div className="mx-4" key={provider}>
                 <Link
-                  href={userObj.Social_media?.LinkedIn ?? ""}
+                  href={url ?? ""}
                   target="_blank"
                   rel="noreferrer"
                   className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Follow us on LinkedIn"
-                  title="LinkedIn(External Link)"
+                  aria-label={`Follow us on ${provider}`}
+                  title={`${provider}(External Link)`}
                 >
-                  <FaLinkedin />
+                  {icon ? icon : provider === "linkedin" ? <FaLinkedin /> : <FaTwitter />}
                 </Link>
               </div>
-            )}
-            {userObj.Social_media?.Twitter && (
-              <div className="mx-4">
-                <Link
-                  href={userObj.Social_media?.Twitter ?? ""}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Follow us on Twitter"
-                  title="Twitter(External Link)"
-                >
-                  <FaTwitter />
-                </Link>
-              </div>
-            )}
+            ))}
           </div>
         </div>
       )}
