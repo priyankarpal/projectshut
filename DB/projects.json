@@ -5406,6 +5406,11 @@
     },
     "Projects": [
       {
+        "link": "https://github.com/Sushilverma002/flipkart-scraping",
+        "title": "Flipkart Data Scraping",
+        "description": "A project based on data scraping of flipkart.",
+        "tech": ["python"]
+  },{
         "link": "https://github.com/Sushilverma002/applanding",
         "title": "App Landing Page",
         "description": "An App landing page which shows the features of your app on website.",
