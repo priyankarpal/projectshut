@@ -11,7 +11,7 @@ import { shuffleProjects } from "@/utils/paginate";
 import ProjectCard from "@/components/projects/ProjectCard";
 import projects from "@/DB/projects.json";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
+import { Motion } from "@/components/framer-motion";
 
 interface NewProjectsType {
     username: string;
@@ -203,15 +203,15 @@ const Projects = () => {
     };
     return (
         <section className="my-8 max-w-6xl w-11/12 mx-auto sm:my-10">
-            <motion.div
+            <Motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, type: "spring", stiffness: 110, delay: 0.2 }}
                 className="text-[2.5rem] font-bold text-center text-white">
                 Search for <span className="text-primary">cool</span> Projects
-            </motion.div>
-            <motion.div
+            </Motion.div>
+            <Motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -228,8 +228,8 @@ const Projects = () => {
                     }}
                     value={selectedOptions.project}
                 />
-            </motion.div>
-            <motion.div
+            </Motion.div>
+            <Motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -259,7 +259,7 @@ const Projects = () => {
                 >
                     <MdClear />
                 </button>
-            </motion.div>
+            </Motion.div>
 
             <Transition appear show={openFilter} as={Fragment}>
                 <Dialog
