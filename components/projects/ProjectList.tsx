@@ -19,13 +19,13 @@ interface userType {
 
 interface userObjType {
   github_username: string;
-  Social_media?: socialMediaType;
   Projects: projectsType[];
 }
 
 interface socialMediaType {
-  LinkedIn?: string;
-  Twitter?: string;
+  provider?: string;
+  url?: string;
+  icon?: JSX.Element;
 }
 interface projectsType {
   link: string;
@@ -38,6 +38,7 @@ function ProjectList() {
   const params = useParams();
   const [userObj, setObject] = useState<userObjType | undefined>();
   const [user, setUser] = useState<userType | undefined>();
+  const [social, setSocial] = useState<socialMediaType[] | undefined>();
   const [initialLoading, setInitialLoading] = useState(true);
   const [isOpenModal, setIsOpenModal] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
@@ -45,12 +46,33 @@ function ProjectList() {
   // to get the user data from github
   const getData = async () => {
     setInitialLoading(true);
-    const res = await fetch(
-      `https://api.github.com/users/${params?.username}`
-    ).then((result) => result.json());
-    if (res) {
+    try {
+      const [res, socRes] = await Promise.all([
+        fetch(`https://api.github.com/users/${params?.username}`).then((res) =>
+          res.json()
+        ),
+        fetch(`https://api.github.com/users/${params?.username}/social_accounts`).then(
+          (res) => res.json()
+        ),
+      ]);
+
       setUser(res);
+
+      const filteredSoc = socRes.filter((obj: socialMediaType) =>
+      obj.provider === "linkedin" || obj.provider === "twitter"
+      );
+
+      const githubUrl = {
+        provider: "github",
+        url: `https://github.com/${params?.username}`,
+        icon: <FaGithub />,
+      }
+
+      setSocial([githubUrl, ...filteredSoc]);
+
       setInitialLoading(false);
+    } catch (error) {
+      console.error("Error fetching data:", error);
     }
   };
 
@@ -140,47 +162,20 @@ function ProjectList() {
             <p className="text-sm break-words">{user?.bio}</p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            <div className="mx-5 xsm:mx-2">
-              <Link
-                href={`https://github.com/${params?.username}`}
-                target="_blank"
-                rel="noreferrer"
-                className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                aria-label="Follow us on GitHub"
-                title="GitHub(External Link)"
-              >
-                <FaGithub />
-              </Link>
-            </div>
-
-            {userObj.Social_media?.LinkedIn && (
-              <div className="mx-4">
+            {social && social.map(({ provider, url, icon }: socialMediaType) => (
+              <div className="mx-4" key={provider}>
                 <Link
-                  href={userObj.Social_media?.LinkedIn ?? ""}
+                  href={url ?? ""}
                   target="_blank"
                   rel="noreferrer"
                   className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Follow us on LinkedIn"
-                  title="LinkedIn(External Link)"
+                  aria-label={`Follow us on ${provider}`}
+                  title={`${provider}(External Link)`}
                 >
-                  <FaLinkedin />
+                  {icon ? icon : provider === "linkedin" ? <FaLinkedin /> : <FaTwitter />}
                 </Link>
               </div>
-            )}
-            {userObj.Social_media?.Twitter && (
-              <div className="mx-4">
-                <Link
-                  href={userObj.Social_media?.Twitter ?? ""}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label="Follow us on Twitter"
-                  title="Twitter(External Link)"
-                >
-                  <FaTwitter />
-                </Link>
-              </div>
-            )}
+            ))}
           </div>
         </div>
       )}
