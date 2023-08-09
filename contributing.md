@@ -70,7 +70,7 @@ pnpm i
 
 > **Note**: If you don't have pnpm installed in your system then run this command `npm i -g pnpm`
 
-6.  Now do ahead and create a new branch and move to the branch
+6.  Now go ahead and create a new branch and move to the branch
 
 ```bash
 git checkout -b fix-issue-<ISSUE-NUMBER>
