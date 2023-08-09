@@ -15,10 +15,6 @@
 ```json
 {
   "github_username": "YOUR_GITHUB_USERNAME",
-  "Social_media": {
-    "LinkedIn": "YOUR_LINKEDIN_ACCOUNT_LINK",
-    "Twitter": "YOUR_TWITTER_ACCOUNT_LINK"
-  },
   "Projects": [
     {
       "link": "PROJECT_LINK",
