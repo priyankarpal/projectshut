@@ -36,7 +36,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.0",
+    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@types/react-syntax-highlighter": "^15.5.7",
     "husky": "^8.0.3"
