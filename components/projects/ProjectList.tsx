@@ -32,7 +32,7 @@ interface socialMediaType {
 }
 
 interface projectsType {
-  link: string;
+  github_url: string;
   title: string;
   description: string;
   tech: string[];
@@ -187,7 +187,7 @@ function ProjectList() {
                   {project.description}
                 </p>
                 <Link
-                  href={project.link}
+                  href={project.github_url}
                   target="_blank"
                   rel="noreferrer"
                   className="absolute top-[-.5rem] right-[-.2rem]"
