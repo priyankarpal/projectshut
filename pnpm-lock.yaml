@@ -4,92 +4,90 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+dependencies:
+  '@emotion/react':
+    specifier: ^11.11.1
+    version: 11.11.1(@types/react@18.2.20)(react@18.2.0)
+  '@emotion/styled':
+    specifier: ^11.11.0
+    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.20)(react@18.2.0)
+  '@headlessui/react':
+    specifier: ^1.7.16
+    version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
+  '@types/node':
+    specifier: 20.4.9
+    version: 20.4.9
+  '@types/react':
+    specifier: 18.2.20
+    version: 18.2.20
+  '@types/react-dom':
+    specifier: 18.2.7
+    version: 18.2.7
+  autoprefixer:
+    specifier: 10.4.14
+    version: 10.4.14(postcss@8.4.27)
+  eslint:
+    specifier: 8.46.0
+    version: 8.46.0
+  eslint-config-next:
+    specifier: 13.4.13
+    version: 13.4.13(eslint@8.46.0)(typescript@5.1.6)
+  framer-motion:
+    specifier: ^10.15.1
+    version: 10.15.1(react-dom@18.2.0)(react@18.2.0)
+  next:
+    specifier: ^13.4.13
+    version: 13.4.13(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
+  next-pwa:
+    specifier: ^5.6.0
+    version: 5.6.0(@babel/core@7.22.10)(next@13.4.13)(webpack@5.88.2)
+  pnpm:
+    specifier: ^8.6.12
+    version: 8.6.12
+  postcss:
+    specifier: 8.4.27
+    version: 8.4.27
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: ^4.10.1
+    version: 4.10.1(react@18.2.0)
+  react-infinite-scroll-component:
+    specifier: ^6.1.0
+    version: 6.1.0(react@18.2.0)
+  react-router-dom:
+    specifier: ^6.14.2
+    version: 6.14.2(react-dom@18.2.0)(react@18.2.0)
+  react-syntax-highlighter:
+    specifier: ^15.5.0
+    version: 15.5.0(react@18.2.0)
+  sharp:
+    specifier: ^0.32.4
+    version: 0.32.4
+  tailwindcss:
+    specifier: 3.3.3
+    version: 3.3.3
+  typescript:
+    specifier: 5.1.6
+    version: 5.1.6
 
-  .:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.11.1
-        version: 11.11.1(@types/react@18.2.19)(react@18.2.0)
-      '@emotion/styled':
-        specifier: ^11.11.0
-        version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.19)(react@18.2.0)
-      '@headlessui/react':
-        specifier: ^1.7.16
-        version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
-      '@types/node':
-        specifier: 20.4.9
-        version: 20.4.9
-      '@types/react':
-        specifier: 18.2.19
-        version: 18.2.19
-      '@types/react-dom':
-        specifier: 18.2.7
-        version: 18.2.7
-      autoprefixer:
-        specifier: 10.4.14
-        version: 10.4.14(postcss@8.4.27)
-      eslint:
-        specifier: 8.46.0
-        version: 8.46.0
-      eslint-config-next:
-        specifier: 13.4.13
-        version: 13.4.13(eslint@8.46.0)(typescript@5.1.6)
-      framer-motion:
-        specifier: ^10.15.1
-        version: 10.15.1(react-dom@18.2.0)(react@18.2.0)
-      next:
-        specifier: ^13.4.13
-        version: 13.4.13(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
-      next-pwa:
-        specifier: ^5.6.0
-        version: 5.6.0(@babel/core@7.22.10)(next@13.4.13)(webpack@5.88.2)
-      pnpm:
-        specifier: ^8.6.12
-        version: 8.6.12
-      postcss:
-        specifier: 8.4.27
-        version: 8.4.27
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.10.1
-        version: 4.10.1(react@18.2.0)
-      react-infinite-scroll-component:
-        specifier: ^6.1.0
-        version: 6.1.0(react@18.2.0)
-      react-router-dom:
-        specifier: ^6.14.2
-        version: 6.14.2(react-dom@18.2.0)(react@18.2.0)
-      react-syntax-highlighter:
-        specifier: ^15.5.0
-        version: 15.5.0(react@18.2.0)
-      sharp:
-        specifier: ^0.32.4
-        version: 0.32.4
-      tailwindcss:
-        specifier: 3.3.3
-        version: 3.3.3
-      typescript:
-        specifier: 5.1.6
-        version: 5.1.6
-    devDependencies:
-      '@commitlint/cli':
-        specifier: ^17.7.0
-        version: 17.7.0(@types/node@20.4.9)(typescript@5.1.6)
-      '@commitlint/config-conventional':
-        specifier: ^17.7.0
-        version: 17.7.0
-      '@types/react-syntax-highlighter':
-        specifier: ^15.5.7
-        version: 15.5.7
-      husky:
-        specifier: ^8.0.3
-        version: 8.0.3
+devDependencies:
+  '@commitlint/cli':
+    specifier: ^17.7.0
+    version: 17.7.0(@types/node@20.4.9)(typescript@5.1.6)
+  '@commitlint/config-conventional':
+    specifier: ^17.7.0
+    version: 17.7.0
+  '@types/react-syntax-highlighter':
+    specifier: ^15.5.7
+    version: 15.5.7
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
 
 packages:
 
@@ -1493,7 +1491,7 @@ packages:
     resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
     dev: false
 
-  /@emotion/react@11.11.1(@types/react@18.2.19)(react@18.2.0):
+  /@emotion/react@11.11.1(@types/react@18.2.20)(react@18.2.0):
     resolution: {integrity: sha512-5mlW1DquU5HaxjLkfkGN1GA/fvVGdyHURRiX/0FHl2cfIfRxSOfmxEH5YS43edp0OldZrZ+dkBKbngxcNCdZvA==}
     peerDependencies:
       '@types/react': '*'
@@ -1509,7 +1507,7 @@ packages:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
       '@emotion/weak-memoize': 0.3.1
-      '@types/react': 18.2.19
+      '@types/react': 18.2.20
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
     dev: false
@@ -1528,7 +1526,7 @@ packages:
     resolution: {integrity: sha512-0QBtGvaqtWi+nx6doRwDdBIzhNdZrXUppvTM4dtZZWEGTXL/XE/yJxLMGlDT1Gt+UHH5IX1n+jkXyytE/av7OA==}
     dev: false
 
-  /@emotion/styled@11.11.0(@emotion/react@11.11.1)(@types/react@18.2.19)(react@18.2.0):
+  /@emotion/styled@11.11.0(@emotion/react@11.11.1)(@types/react@18.2.20)(react@18.2.0):
     resolution: {integrity: sha512-hM5Nnvu9P3midq5aaXj4I+lnSfNi7Pmd4EWk1fOZ3pxookaQTNew6bp4JaCBYM4HVFZF9g7UjJmsUmC2JlxOng==}
     peerDependencies:
       '@emotion/react': ^11.0.0-rc.0
@@ -1541,11 +1539,11 @@ packages:
       '@babel/runtime': 7.22.10
       '@emotion/babel-plugin': 11.11.0
       '@emotion/is-prop-valid': 1.2.1
-      '@emotion/react': 11.11.1(@types/react@18.2.19)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.20)(react@18.2.0)
       '@emotion/serialize': 1.1.2
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
-      '@types/react': 18.2.19
+      '@types/react': 18.2.20
       react: 18.2.0
     dev: false
 
@@ -1933,17 +1931,17 @@ packages:
   /@types/react-dom@18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.19
+      '@types/react': 18.2.20
     dev: false
 
   /@types/react-syntax-highlighter@15.5.7:
     resolution: {integrity: sha512-bo5fEO5toQeyCp0zVHBeggclqf5SQ/Z5blfFmjwO5dkMVGPgmiwZsJh9nu/Bo5L7IHTuGWrja6LxJVE2uB5ZrQ==}
     dependencies:
-      '@types/react': 18.2.19
+      '@types/react': 18.2.20
     dev: true
 
-  /@types/react@18.2.19:
-    resolution: {integrity: sha512-e2S8wmY1ePfM517PqCG80CcE48Xs5k0pwJzuDZsfE8IZRRBfOMCF+XqnFxu6mWtyivum1MQm4aco+WIt6Coimw==}
+  /@types/react@18.2.20:
+    resolution: {integrity: sha512-WKNtmsLWJM/3D5mG4U84cysVY31ivmyw85dE84fOCk5Hx78wezB/XEjVPWl2JTZ5FkEeaTJf+VgUAUn3PE7Isw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
