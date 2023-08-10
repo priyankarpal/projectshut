@@ -15,7 +15,7 @@ import { Motion } from "@/components/framer-motion";
 
 interface NewProjectsType {
     username: string;
-    link: string;
+    github_url: string;
     title: string;
     description: string;
     tech: string[];
