@@ -1,5 +1,4 @@
-"use client";
-import { motion } from "framer-motion";
+import { Motion } from "@/components/framer-motion";
 import Link from "next/link";
 import images from "@/DB/homepage-image.json";
 import Image from "next/image";
@@ -7,10 +6,10 @@ import Image from "next/image";
 export default function Landing() {
   return (
     <div className="relative sm:pb-0 select-none overflow-hidden">
-        <div className="pt-16 sm:pt-10 sm:pb-0 lg:pt-40 lg:pb-48">
+      <div className="pt-16 sm:pt-10 sm:pb-0 lg:pt-40 lg:pb-48">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <section className="sm:max-w-[19.5rem] md:max-w-[24.5rem] tab:max-w-[28rem] lg:max-w-[30rem]">
-            <motion.div
+            <Motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -23,9 +22,9 @@ export default function Landing() {
               className="text-4xl font-bold sm:text-[5vw] md:text-5xl lg:leading-[5.5rem] lg:text-[5rem] text-white"
             >
               Learn. Build. Share.
-            </motion.div>
+            </Motion.div>
 
-            <motion.p
+            <Motion.p
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -39,9 +38,9 @@ export default function Landing() {
             >
               ProjectsHut is a platform where you can share your open source
               projects with the world.
-            </motion.p>
+            </Motion.p>
 
-            <motion.div
+            <Motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -61,13 +60,13 @@ export default function Landing() {
               >
                 Browse Projects
               </Link>
-            </motion.div>
+            </Motion.div>
           </section>
           <div className="hidden md:block py-8 xsm:px-0 md:px-4 absolute transform left-2 xs:left-1/4 xsm:-translate-x-1/5 xs:-translate-x-1/4 sm:left-1/2 sm:top-0 sm:translate-x-0 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 ">
             <div className="flex justify-center flex-grow items-center space-x-6 lg:space-x-8">
               <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 {images.slice(0, 2).map((image, index) => (
-                  <motion.div
+                  <Motion.div
                     initial={{ opacity: 0, y: -640 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -87,12 +86,12 @@ export default function Landing() {
                       width={500}
                       height={500}
                     />
-                  </motion.div>
+                  </Motion.div>
                 ))}
               </div>
               <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-5">
                 {images.slice(2, 5).map((image, index) => (
-                  <motion.div
+                  <Motion.div
                     initial={{ opacity: 0, y: -640 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -112,12 +111,12 @@ export default function Landing() {
                       width={500}
                       height={500}
                     />
-                  </motion.div>
+                  </Motion.div>
                 ))}
               </div>
               <div className="hidden xl:grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 {images.slice(5).map((image, i) => (
-                  <motion.div
+                  <Motion.div
                     initial={{ opacity: 0, y: -640 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -137,7 +136,7 @@ export default function Landing() {
                       width={500}
                       height={500}
                     />
-                  </motion.div>
+                  </Motion.div>
                 ))}
               </div>
             </div>
