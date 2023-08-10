@@ -17,13 +17,13 @@
   "github_username": "YOUR_GITHUB_USERNAME",
   "Projects": [
     {
-      "link": "PROJECT_LINK",
+      "github_url": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
       "tech": ["tech1", "tech2"]
     },
     {
-      "link": "PROJECT_LINK",
+      "github_url": "PROJECT_LINK",
       "title": "PROJECT_NAME",
       "description": "PROJECT_DESCRIPTION",
       "tech": ["tech1", "tech2"]
