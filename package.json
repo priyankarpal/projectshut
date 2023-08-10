@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.16",
     "@types/node": "20.4.9",
-    "@types/react": "18.2.19",
+    "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
@@ -36,7 +36,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.0",
+    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@types/react-syntax-highlighter": "^15.5.7",
     "husky": "^8.0.3"
