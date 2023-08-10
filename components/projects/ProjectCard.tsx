@@ -7,7 +7,7 @@ import { Motion } from "@/components/framer-motion";
 
 interface ProjectType {
   username: string;
-  link: string;
+  github_url: string;
   title: string;
   description: string;
 }
@@ -18,7 +18,7 @@ interface ProjectCardType {
 }
 
 const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
-  const { username, title, description, link } = project;
+  const { username, title, description, github_url } = project;
 
   return (
     <Motion.section
@@ -56,7 +56,7 @@ const ProjectCard: NextPage<ProjectCardType> = ({ project, index }) => {
         className="flex flex-row justify-between gap-5">
         {/*  GitHub Link Button */}
         <Link
-          href={link}
+          href={github_url}
           target="_blank"
           rel="noreferrer"
           title="GitHub(External Link)"
