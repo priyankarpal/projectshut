@@ -1,4 +1,38 @@
 [
+   {
+    "github_username": "SubhamB2003",
+    "Projects": [
+      {
+        "link": "https://github.com/SubhamB2003/Firebase-Authentication",
+        "title": "Firebase-Authentication-template",
+        "description": "Learn how to add email password and google authentication service using firebase.",
+        "tech": [
+          "reactjs",
+          "firebase",
+          "tailwindcss"
+        ]
+      },
+      {
+        "link": "https://github.com/SubhamB2003/QR_Code_Generator",
+        "title": "Input data to qr code generator",
+        "description": "It was convert your input data to qr code.",
+        "tech": [
+          "reactjs",
+          "tailwindcss"
+        ]
+      },
+      {
+        "link": "https://github.com/SubhamB2003/Tic-Tac-Toe-Game",
+        "title": "Tic Tac Toe game",
+        "description": "Make Tic Tac Toe game.",
+        "tech": [
+          "html",
+          "css",
+          "javascript"
+        ]
+      }
+    ]
+  },
   {
     "github_username": "Sahilll15",
     "Projects": [
