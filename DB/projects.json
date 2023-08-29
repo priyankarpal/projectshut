@@ -154,7 +154,20 @@
           "djangorestframework",
           "sqllite"
         ]
-      }
+      },
+   {
+     "github_url": "https://github.com/Sahilll15/ServerSideNotes.git",
+    "title": "ServerSideNotes - Collaborative Note-Sharing Website",
+    "description": "ServerSideNotes is a dynamic web platform designed for seamless collaboration on note-sharing. Users can easily create, edit, and share their notes, fostering efficient knowledge exchange and teamwork.",
+    "tech": [
+    "html",
+    "css",
+    "django",
+    "sqlite"
+]
+}
+
+
     ]
   },
   {
