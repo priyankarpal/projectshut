@@ -4638,5 +4638,21 @@
         ]
       }
     ]
+  },
+  {
+		"github_username": "ChiragAgg5k",
+		"Projects": [
+			{
+				"github_url": "https://github.com/ChiragAgg5k/profile-website",
+				"title": "Portfolio Website",
+				"description": "A single page portfolio website with a minimalistic design and emphasis on animations.",
+				"tech": [
+          "react",
+          "nextjs",
+          "tailwindcss",
+          "framermotion"
+        ]
+			}
+		]
   }
 ]
