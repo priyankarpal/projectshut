@@ -4675,7 +4675,7 @@
         "description": "simple e-commerce website built with react, zustand and with functional cart CRUD operations",
         "tech": [
           "reactjs",
-          "ZUSTAND",
+          "zustand",
           "tailwindcss"
         ]
       }
