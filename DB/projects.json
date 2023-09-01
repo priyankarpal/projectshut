@@ -4654,5 +4654,31 @@
         ]
 			}
 		]
+  },
+	
+  {
+    "github_username": "Muhammadrabi",
+    "Projects": [
+      {
+        "github_url": "https://github.com/MuhammadRabi/react-old-portfolio",
+        "title": "Personal Portfolio",
+        "description": "a portfolio website using React and Tailwind CSS.",
+        "tech": [
+          "reactjs",
+          "tailwindcss",
+	  "framermotion"
+        ]
+      },
+      {
+        "github_url": "https://github.com/MuhammadRabi/React-E-Commerce",
+        "title": "E-commerce website",
+        "description": "simple e-commerce website built with react, zustand and with functional cart CRUD operations",
+        "tech": [
+          "reactjs",
+          "zustand",
+          "tailwindcss"
+        ]
+      }
+    ]
   }
 ]
