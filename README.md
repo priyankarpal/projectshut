@@ -1,6 +1,5 @@
 <h1 align=left> ProjectsHut </h1>
 Welcome 👋
-
 <p>
  ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating user profiles
 
