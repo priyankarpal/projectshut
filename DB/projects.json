@@ -1,5 +1,22 @@
 [
   {
+    "github_username": "Uzumaki4303",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Uzumaki4303/terminal",
+        "title": "terminal",
+        "description": "A web project that replicates the UI design of the Kali Linux home screen and terminal. The webpage is built using HTML, CSS, and JavaScript and is hosted on GitHub Pages.",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/Uzumaki4303/King-of-spices",
+        "title": "Restaurant Website",
+        "description": "King of Spices is a responsive restaurant website made with HTML, CSS and JavaScript. It has menu, about us page & reservation page.",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
     "github_username": "RaviSolanki27",
     "Projects": [
       {
