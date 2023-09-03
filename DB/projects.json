@@ -4697,5 +4697,18 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "lorenzomiscoli",
+    "Projects": [
+      {
+        "github_url": "https://github.com/lorenzomiscoli/developer-portfolio",
+        "title": "Developer Portfolio",
+        "description": "Software developer portfolio to showcase your work and skills.",
+        "tech": [
+          "angular"
+        ]
+      }
+    ]
   }
 ]
