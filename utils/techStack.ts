@@ -8,7 +8,8 @@ const techStack = [
   "typescript",
   "expressjs",
   "firebase",
-  "tailwindcss"
+  "tailwindcss",
+  "angular"
 ];
 
 export default techStack;
