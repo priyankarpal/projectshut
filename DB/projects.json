@@ -4710,5 +4710,22 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "tedante",
+    "Projects": [
+      {
+        "github_url": "https://github.com/justcodebeast/zoom-api-helper",
+        "title": "zoom-api-helper",
+        "description": "Zoom API Helper is a Node.js package that provides a helper for simplifies managing meet.",
+        "tech": ["typescript"]
+      },
+      {
+        "github_url": "https://github.com/justcodebeast/gsheet-api-helper",
+        "title": "gsheet-api-helper",
+        "description": "Google Spreadsheet API Helper is a Node.js package that provides a helper for simplifies the process of accessing, retrieving and updating data from Gsheet using the Gsheet API.",
+        "tech": ["typescript"]
+      }
+    ]
   }
 ]
