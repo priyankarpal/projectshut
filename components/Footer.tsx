@@ -1,5 +1,6 @@
 import React from "react";
-import { SiTwitter, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiX, SiGithub, SiLinkedin } from "react-icons/si";
+
 import Link from "next/link";
 import Image from "next/image";
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
       name: "Twitter",
       link: "https://twitter.com/priyankarpal",
       icon: (
-        <SiTwitter
+        <SiX
           aria-label="Follow us on Twitter"
           title="Twitter(External Link)"
         />
