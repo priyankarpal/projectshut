@@ -150,6 +150,23 @@
         ]
       },
       {
+  "github_username": "https://github.com/AdityaShah7867",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/AdityaShah7867/NDS",
+      "title": "NDS -  A Clothing Store Website",
+      "description": "A clothing store website made with HTML< CSS, Js, Bootstrap",
+      "tech": ["html", "css", "js", "bootstrapcss"]
+    },
+    {
+      "github_url": "PROJECT_LINK",
+      "title": "PROJECT_NAME",
+      "description": "PROJECT_DESCRIPTION",
+      "tech": ["tech1", "tech2"]
+    }
+  ]
+},	
+      {
         "github_url": "https://github.com/Sahilll15/Chat_App",
         "title": "Chat App",
         "description": "Chat App is a real-time messaging application developed with Node.js and Socket.IO. Engage in seamless conversations with friends and family through this chat app, which utilizes HTML, ExpressJS, EJS, and CSS for the user interface.",
