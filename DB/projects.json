@@ -4727,5 +4727,22 @@
         "tech": ["typescript"]
       }
     ]
+  },
+  {
+    "github_username": "surya-mu",
+    "Projects": [
+      {
+        "github_url": "http://github.com/surya-mu/surya-mu.github.io",
+        "title": "Personal Portfolio",
+        "description": "A person porfolio showcasing my talents and works, also serves a template.",
+        "tech": [
+          "html",
+          "css",
+          "scss",
+          "bootstrap",
+          "javascript"
+        ]
+      }
+    ]
   }
 ]
