@@ -17,6 +17,17 @@
     ]
   },
   {
+    "github_username": "trishit78",
+    "Projects": [
+      {
+        "github_url": "https://github.com/trishit78/IMDB-Clone",
+        "title": "IMDB-Clone",
+        "description": "A Web project that creates a similar use case webpage of IMDB Website, using React,Tailwind CSS,Material UI,TMDB API",
+        "tech": ["reactjs","tailwindcss"]
+      }
+    ]
+  },
+  {
     "github_username": "RaviSolanki27",
     "Projects": [
       {
