@@ -4765,8 +4765,7 @@
         "description": "A food ordering web application",
         "tech": [
           "html",
-          "css",
-          "tailwind css",
+          "tailwindcss",
           "reactjs",
           "javascript",
           "redux toolkit",
