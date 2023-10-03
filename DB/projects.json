@@ -4755,5 +4755,24 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "Manoj-Kumar-Munda",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Manoj-Kumar-Munda/CraveBite",
+        "title": "CraveBite",
+        "description": "A food ordering web application",
+        "tech": [
+          "html",
+          "css",
+          "tailwind css",
+          "reactjs",
+          "javascript",
+          "redux toolkit",
+          "redux"
+        ]
+      }
+    ]
   }
 ]
