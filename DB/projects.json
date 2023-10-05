@@ -4764,10 +4764,10 @@
         "title": "Threads-Clone",
         "description": "Threads Clone, a web application where users can create their accounts, post their thoughts, read other users' threads, and interact with them.",
         "tech": [
-          "NextJS13",
-          "TailwindCss",
-          "Typescript",
-          "MongoDB"
+          "nexxtjs",
+          "tailwindcss",
+          "typescript",
+          "mongodb"
         ]
       }
     ]
