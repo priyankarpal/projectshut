@@ -4755,5 +4755,22 @@
         ]
       }
     ]
-  }
+  },
+	{
+  "github_username": "shivam250702",
+  "Projects": [
+    {
+      "github_url": "https://github.com/Shivam250702/cryptoApp",
+      "title": "CryptoApp",
+      "description": "This Web based App gives Information about various Crypto and their prices in day and week wise also in USD and INR form",
+      "tech": ["React", "Material UI"]
+    },
+    {
+      "github_url": "https://github.com/Shivam250702/Movie-App",
+      "title": "Movie Database",
+      "description": "Movie Database tells us about various trending and famous movies with their ratings and critics review",
+      "tech": ["Vite JS", "Sass","React Lazy Loading"]
+    }
+  ]
+}
 ]
