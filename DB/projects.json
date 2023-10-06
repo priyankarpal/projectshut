@@ -4764,7 +4764,7 @@
         "title": "Threads-Clone",
         "description": "Threads Clone, a web application where users can create their accounts, post their thoughts, read other users' threads, and interact with them.",
         "tech": [
-          "nexxtjs",
+          "nextjs",
           "tailwindcss",
           "typescript",
           "mongodb"
