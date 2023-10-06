@@ -4377,6 +4377,45 @@
     ]
   },
   {
+    "github_username": "Sakhi29",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Sakhi29/Book-Recommendation-system",
+        "title": "Book Recommendation System",
+        "description": "A book recommendation system using content and collaborative filtering based techniques with good frontend using Flask",
+        "tech": [
+          "python 3",
+          "flask",
+          "flask-bootstrap",
+          "jupyter notebook"
+        ]
+      },
+      {
+        "github_url": "https://github.com/Sakhi29/Task-Trove",
+        "title": "Task Trove",
+        "description": "A to-do list to maintain and list out our daily tasks",
+        "tech": [
+          "python 3",
+          "django",
+          "djangorestframework",
+          "sqlite3",
+          "html-css"
+        ]
+      },
+      {
+        "github_url": "https://github.com/Sakhi29/Flower-Image-Classification-Model",
+        "title": "Flower Images Classification Model",
+        "description": "A Machine learning model for classifying different species of flowers based on their petal sizes using IRIS dataset",
+        "tech": [
+          "tensorflow",
+          "keras",
+          "python",
+          "jupyter notebook"
+        ]
+      }
+    ]
+  },
+  {
     "github_username": "ankit-0369",
     "Projects": [
       {
