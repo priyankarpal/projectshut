@@ -4755,5 +4755,21 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "Darkrider0007",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Darkrider0007/Threads-Clone",
+        "title": "Threads-Clone",
+        "description": "Threads Clone, a web application where users can create their accounts, post their thoughts, read other users' threads, and interact with them.",
+        "tech": [
+          "nextjs",
+          "tailwindcss",
+          "typescript",
+          "mongodb"
+        ]
+      }
+    ]
   }
 ]
