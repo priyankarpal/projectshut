@@ -4779,5 +4779,19 @@
         ]
       }
     ]
+  },
+    {
+    "github_username": "btreezy",
+    "Projects": [
+      {
+        "github_url": "https://btrezzy.github.io/Oder-summary",
+        "title": "Order-Summary",
+        "description": "Made an attractive checkout page.",
+        "tech": [
+	   "html",
+           "css",
+           "javascript"
+	]
+      }	
+    ]
   }
-]
