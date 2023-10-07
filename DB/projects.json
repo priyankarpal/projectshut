@@ -311,6 +311,21 @@
     ]
   },
   {
+    "github_username": "mrswastik-robot",
+    "Projects": [
+      {
+        "github_url": "https://github.com/mrswastik-robot/bloJs",
+        "title": "bloJs",
+        "description": "A simple blogging website made using NextJs where me any my friends regularly blog about cool tech stuff.",
+        "tech": [
+          "nextjs",
+          "firebase",
+          "tailwindcss"
+        ]
+      }
+    ]
+  },
+  {
     "github_username": "5h0ov",
     "Projects": [
       {
