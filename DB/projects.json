@@ -3507,7 +3507,7 @@
       "github_url": "https://github.com/blindaks/Quiz-App",
       "title": "Quiz App",
       "description": "A quiz app based on front wnd development questions.",
-      "tech": ["HTML", "CSS", "JavaScript"]
+      "tech": ["html", "css", "javascript"]
     }
   ]
 }
