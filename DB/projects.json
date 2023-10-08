@@ -3499,5 +3499,15 @@
         "tech": ["flutter", "hive", "dart"]
     }
   ]
-  }
+  },
+{
+	"github_url": "https://github.com/blindaks/Quiz-App",
+	"title": "Quiz App",
+	"description": "A quiz app based on front wnd development questions.",
+	"tech": [
+	        "html",
+	        "css",
+	        "javascript"
+	]
+}
 ]	
