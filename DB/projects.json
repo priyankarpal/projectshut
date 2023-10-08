@@ -3512,7 +3512,7 @@
         "github_url": "https://github.com/ayan-joshi/Sorting-Visualizer",
         "title": "Sorting Visualizer",
         "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
-        "tech": ["Javascript","html", "css"]
+        "tech": ["javascript","html", "css"]
     }
   ]
   }
