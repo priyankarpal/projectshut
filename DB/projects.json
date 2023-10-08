@@ -161,6 +161,24 @@
     ]
   },
   {
+    "github_username": "VinayKokate22",
+    "Projects": [
+      {
+        "github_url": "https://github.com/VinayKokate22/shopio_ecommerce",
+        "title": "Ecommerce website",
+        "description": "Ecomerce website where user can view various products with admin dashboard",
+        "tech": [
+          "reactjs",
+          "scss",
+          "mongodb",
+          "nodejs",
+          "mongoose",
+          "jwt"
+        ]
+      }
+    ]
+  },
+  {
     "github_username": "Shreyans2004",
     "Projects": [
       {
