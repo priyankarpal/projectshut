@@ -3439,5 +3439,22 @@
         ]
       }
     ]
+  },
+  {
+    "github_username": "kaushal1717",
+    "Projects": [
+      {
+        "github_url": "https://github.com/kaushal1717/youtube-home-page-clone",
+        "title": "Youtube-HomePage-clone",
+        "description": "It is the clone of the old Youtube homepage UI made in html and js",
+        "tech": ["html", "css"]
+      },
+      {
+        "github_url": "https://github.com/kaushal1717/todo-List",
+        "title": "To-Do App",
+        "description": "A simple To-Do app made on Flutter and used Hive as a local storage",
+        "tech": ["flutter", "hive", "dart"]
+    }
+  ]
   }
 ]
