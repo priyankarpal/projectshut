@@ -3441,6 +3441,16 @@
     ]
   },
   {
+  "github_username": "Prakhar-Shankar",
+  "Projects": [
+    {
+      "github_url": "https://github.com/Prakhar-Shankar/crypto-tracker",
+      "title": "crypto-tracker",
+      "description": "A website which tracks and provides details about the real time trend in crypto currency.",
+      "tech": ["reactjs", "javascript"]
+    }
+  ]
+},{
     "github_username": "kaushal1717",
     "Projects": [
       {
