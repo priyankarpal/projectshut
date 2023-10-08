@@ -2374,13 +2374,26 @@
     ]
   },
   {
-    "github_username": "MisterMickey",
+    "github_username": "singodiyashubham87",
     "Projects": [
       {
-        "github_url": "https://github.com/MisterMickey/Navbar-using-Pure-reactjs-Project1",
+        "github_url": "https://github.com/singodiyashubham87/Navbar-using-Pure-React-Project1",
         "title": "Navbar using Pure reactjs",
         "description": "Basic Navbar using reactjs and no JSX",
-        "tech": ["html", "javascript"]
+        "tech": [
+          "html",
+          "javascript"
+        ]
+      },
+      {
+        "github_url": "https://github.com/singodiyashubham87/ScanVerse",
+        "title": "ScanVerse",
+        "description": "QR code reader & generator",
+        "tech": [
+          "html",
+          "css",
+          "javascript"
+        ]
       }
     ]
   },
