@@ -3128,6 +3128,33 @@
     ]
   },
   {
+    "github_username": "Sakhi29",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Sakhi29/Task-Trove",
+        "title": "Task Trove",
+        "description": "A to-do list to maintain and list out our daily tasks",
+        "tech": [
+          "python",
+          "django",
+          "sqlite",
+          "html",
+	  "css"
+        ]
+      },
+      {
+        "github_url": "https://github.com/Sakhi29/Book-Recommendation-system",
+        "title": "Book Recommendation System",
+        "description": "A book recommendation system using content and collaborative filtering based techniques with good frontend using Flask",
+        "tech": [
+          "python",
+          "flask",
+          "jupyternotebook"
+        ]
+      }
+    ]
+  },
+  {
     "github_username": "karthiknadar1204",
     "Projects": [
       {
