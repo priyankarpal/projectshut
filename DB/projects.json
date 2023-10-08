@@ -3103,6 +3103,12 @@
         "title": "Notes App",
         "description": "A note taking app like google keep which helps you note down and store anything.",
         "tech": ["flutter", "dart", "mongodb", "nodejs"]
+      },
+      {
+        "github_url": "https://github.com/ratishjain12/dashboard-nextjs",
+        "title": "Dashboard Nextjs",
+        "description": "A Responsive Dashboard created using nextjs and tailwindcss",
+        "tech": ["reactjs", "nextjs", "tailwindcss"]
       }
     ]
   },
