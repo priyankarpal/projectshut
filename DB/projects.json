@@ -3425,5 +3425,19 @@
         "tech": ["nextjs", "tailwindcss", "typescript", "mongodb"]
       }
     ]
+  },{
+    "github_username": "vinay-s36",
+    "Projects": [
+      {
+        "github_url": "https://github.com/vinay-s36/HumorBlast",
+        "title": "HumorBlast",
+        "description": "Are you ready to burst into laughter? Welcome to HumorBlast, the ultimate destination for an explosion of jokes and endless giggles! ",
+        "tech": [
+          "html",
+          "css",
+          "javascript"
+        ]
+      }
+    ]
   }
 ]
