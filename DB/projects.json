@@ -3499,6 +3499,22 @@
         "tech": ["flutter", "hive", "dart"]
     }
   ]
+  },{
+    "github_username": "ayan-joshi",
+    "Projects": [
+      {
+        "github_url": "https://github.com/ayan-joshi/Ping_Pong",
+        "title": "Ping Pomg",
+        "description": "It is a ping pong multiplayer game made with javascript html and css",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/ayan-joshi/Sorting-Visualizer",
+        "title": "Sorting Visualizer",
+        "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
+        "tech": ["javascript","html", "css"]
+    }
+  ]
   },
   {
     "github_username": "vrundraval24",
