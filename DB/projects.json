@@ -3499,5 +3499,22 @@
         "tech": ["flutter", "hive", "dart"]
     }
   ]
+  },
+  {
+    "github_username": "vrundraval24",
+    "Projects": [
+      {
+        "github_url": "https://github.com/vrundraval24/vrundraval24.github.io",
+        "title": "Personal Portfolio",
+        "description": "My portfolio, showcasing my about, skills, projects etc.",
+        "tech": ["flutter", "dart"]
+      },
+      {
+        "github_url": "https://github.com/vrundraval24/Picme-Unsplash_Clone",
+        "title": "Picme - Unsplash Clone",
+        "description": "Website showcasing images in masonary grid view.",
+        "tech": ["html", "css"]
+      }
+    ]
   }
 ]	
