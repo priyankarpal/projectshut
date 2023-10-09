@@ -3555,5 +3555,21 @@
         "tech": ["html", "css"]
       }
     ]
+  },
+  {
+    "github_username": "Gourav2609",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Gourav2609/TO_DO_LIST",
+        "title": "To_Do_List_App",
+        "description": "Learned using React and different React Hooks",
+        "tech": ["React"]
+      },{
+        "github_url": "https://github.com/Gourav2609/codepen_amazing",
+        "title": "Amazing animation",
+        "description": "replicated it using HTML and CSS",
+        "tech": ["HTML" , "CSS"]
+      }
+    ]
   }
 ]
