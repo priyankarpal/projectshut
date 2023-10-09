@@ -3458,6 +3458,18 @@
       }
     ]
   },
+  {
+  "github_username": "mohit-dhote",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/mohit-dhote/mohitdhote.github.io",
+      "title": "my_portfolio",
+      "description": "A clean, beautiful, responsive portfolio template for Software Developers!",
+      "tech": ["html", "javascript", "css"]
+    }
+  ]
+},
+
     {
     "github_username": "btreezy",
     "Projects": [
@@ -3544,5 +3556,4 @@
       }
     ]
   }
-
-]	
+]
