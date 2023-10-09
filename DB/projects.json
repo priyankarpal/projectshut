@@ -3471,22 +3471,16 @@
       "github_url": "https://github.com/mohit-dhote/StucKart-App",
       "title": "StucKart-App",
       "description": "Stuckart Is a Marketplace Application for students in college, students can sell their old books, gadgets, and many more goods. They can find Their Housing, roommates, Rootesharing & carpooling etc. on our community Groups. This is a revolutionary app for college students.",
-      "tech": ["Java", "Android studio, Firebase"]
+      "tech": ["java", "firebase"]
     },
-   
-    ]
-  },
-  {
-  "github_username": "mohit-dhote",  
-  "Projects": [
-    {
+	{
       "github_url": "https://github.com/mohit-dhote/mohitdhote.github.io",
       "title": "my_portfolio",
       "description": "A clean, beautiful, responsive portfolio template for Software Developers!",
       "tech": ["html", "javascript", "css"]
     }
-  ]
-},
+    ]
+  },
 
     {
     "github_username": "btreezy",
