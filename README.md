@@ -52,7 +52,7 @@ We value the time and effort you put into contributing, and we look forward to r
 </div>
 
 # This Project is Part of HacktoberFest 2023 🎉 
-![HacktoberFest 2021](https://github.com/ossamamehmood/Hacktoberfest2023/raw/main/.github/logo.png)
+![HacktoberFest 2021](https://github.com/vivekBoii/ProjectsHut/blob/boii/.github/logo.png)
 
 ## ©️ License
 
