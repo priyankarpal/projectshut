@@ -3510,5 +3510,39 @@
       "tech": ["html", "css", "javascript"]
     }
   ]
-}
+  },{
+    "github_username": "ayan-joshi",
+    "Projects": [
+      {
+        "github_url": "https://github.com/ayan-joshi/Ping_Pong",
+        "title": "Ping Pomg",
+        "description": "It is a ping pong multiplayer game made with javascript html and css",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/ayan-joshi/Sorting-Visualizer",
+        "title": "Sorting Visualizer",
+        "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
+        "tech": ["javascript","html", "css"]
+    }
+  ]
+  },
+  {
+    "github_username": "vrundraval24",
+    "Projects": [
+      {
+        "github_url": "https://github.com/vrundraval24/vrundraval24.github.io",
+        "title": "Personal Portfolio",
+        "description": "My portfolio, showcasing my about, skills, projects etc.",
+        "tech": ["flutter", "dart"]
+      },
+      {
+        "github_url": "https://github.com/vrundraval24/Picme-Unsplash_Clone",
+        "title": "Picme - Unsplash Clone",
+        "description": "Website showcasing images in masonary grid view.",
+        "tech": ["html", "css"]
+      }
+    ]
+  }
+
 ]	
