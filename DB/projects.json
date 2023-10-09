@@ -3536,6 +3536,12 @@
         "title": "Sorting Visualizer",
         "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
         "tech": ["javascript","html", "css"]
+    },
+     {
+        "github_url": "https://github.com/ayan-joshi/Google-Clone",
+        "title": "Google Clone",
+        "description": "This web application is a clone of Google, featuring image search and advanced search options.",
+        "tech": ["html", "css"]
     }
   ]
   },
