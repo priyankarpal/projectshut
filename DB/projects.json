@@ -3555,5 +3555,22 @@
         "tech": ["html", "css"]
       }
     ]
+  },
+   {
+    "github_username": "utsavbhattarai007",
+    "Projects": [
+      {
+        "github_url": "https://github.com/utsavbhattarai007/devhub-with-appwrite",
+        "title": "Hackathon project",
+        "description": "This project is the alternative twitter for developers",
+        "tech": ["reactjs", "appwrite"]
+      },
+      {
+        "github_url": "https://github.com/utsavbhattarai007/Portfolio",
+        "title": "My portfolio",
+        "description": "This is my portfolio website for showcasing my projects,blogs and achivements",
+        "tech": ["nextjs", "chakraui"]
+      }
+    ]
   }
 ]
