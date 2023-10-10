@@ -42,8 +42,8 @@ dependencies:
     specifier: ^5.6.0
     version: 5.6.0(@babel/core@7.22.10)(next@13.5.4)(webpack@5.88.2)
   pnpm:
-    specifier: ^8.8.0
-    version: 8.8.0
+    specifier: ^8.9.0
+    version: 8.9.0
   postcss:
     specifier: 8.4.31
     version: 8.4.31
@@ -4927,8 +4927,8 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /pnpm@8.8.0:
-    resolution: {integrity: sha512-eY5rMiZpzmPI2oVr1irR97bzb036oKwCWvK91wDQndXcqUPlytPtrF0bO668Syw/uA+7hTf5NnM8Mr4ux4BRRA==}
+  /pnpm@8.9.0:
+    resolution: {integrity: sha512-74hZk44fBTe5/PAwkEQxE5Lzs4s0QXbmzU/e4hsiVSSwrCobCK4q4t3Vs/9LjKSW1neOlQ8+fJ9VW4EyWYJEHA==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: false
