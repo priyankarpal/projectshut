@@ -3555,5 +3555,18 @@
         "tech": ["html", "css"]
       }
     ]
-  }
+  },
+
+{
+  "github_username": "Sanyam-2026",
+  "Projects": [
+    {
+      "github_url": "https://sanyam-2026.github.io/MicrosoftPRoject/",
+      "title": "Let's Travel",
+      "description": "This is my Final Project that I made for Microsoft Future Ready Internship where I have made an website Travel Booking Website",
+      "tech": ["html", "css"]
+    },
+ 
+  ]
+}
 ]
