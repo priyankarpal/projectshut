@@ -3556,4 +3556,21 @@
       }
     ]
   }
+{
+  "github_username": "shruti-sen2004",
+  "Projects": [
+    {
+      "github_url": "https://github.com/shruti-sen2004/CodeClause_url-shortener",
+      "title": "URL Shortener",
+      "description": "This website will help you to shorten any long web address",
+      "tech": ["html", "css","javascript"]
+    },
+    {
+      "github_url": "https://github.com/shruti-sen2004/CodeClause_unit-converter",
+      "title": "Unit Converter(Inches -> Feet)",
+      "description": "It can convert inches to feet and vice-versa",
+      "tech": ["html", "css", "javascript"]
+    }
+  ]
+}
 ]
