@@ -3555,10 +3555,10 @@
         "tech": ["html", "css"]
       }
     ]
-  }
-{
-  "github_username": "shruti-sen2004",
-  "Projects": [
+  },
+  {
+   "github_username": "shruti-sen2004",
+   "Projects": [
     {
       "github_url": "https://github.com/shruti-sen2004/CodeClause_url-shortener",
       "title": "URL Shortener",
@@ -3570,7 +3570,7 @@
       "title": "Unit Converter(Inches -> Feet)",
       "description": "It can convert inches to feet and vice-versa",
       "tech": ["html", "css", "javascript"]
-    }
-  ]
-}
+      }
+    ]
+  }
 ]
