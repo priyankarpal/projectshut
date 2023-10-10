@@ -3455,6 +3455,14 @@
           "css",
           "javascript"
         ]
+      },{
+	"github_url": "https://github.com/vinay-s36/Snake-Water-Gun",
+        "title": "Snake-Water-Gun",
+        "description": "Digital Snake-Water-Gun is a computer game that lets players test their luck and decision-making skills in quick rounds against the computer, based on the traditional hand game Snake-Water-Gun.",
+        "tech": [
+          "html",
+          "css",
+          "javascript"
       }
     ]
   },
