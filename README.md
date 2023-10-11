@@ -1,8 +1,28 @@
-<h1 align=left> ProjectsHut </h1>
-Welcome 👋
+<h1 align=center> ProjectsHut </h1>
+
+<p align="center">
+    <a href="https://github.com/priyankarpal/ProjectsHut/blob/master/LICENSE" target="blank">
+      <img src="https://img.shields.io/github/license/priyankarpal/ProjectsHut?style=for-the-badge&logo=appveyor" alt="License" />
+    </a>
+    <a href="https://github.com/priyankarpal/ProjectsHut/fork" target="blank">
+      <img src="https://img.shields.io/github/forks/priyankarpal/ProjectsHut?style=for-the-badge&logo=appveyor" alt="Forks"/>
+    </a>
+    <a href="https://github.com/priyankarpal/ProjectsHut/stargazers" target="blank">
+    <img src="https://img.shields.io/github/stars/priyankarpal/ProjectsHut?style=for-the-badge&logo=appveyor" alt="Star"/>
+    </a>
+    <a href="https://github.com/priyankarpal/ProjectsHut/issues" target="blank">
+      <img src="https://img.shields.io/github/issues/priyankarpal/ProjectsHut.svg?style=for-the-badge&logo=appveyor" alt=" Issue"/>
+    </a>
+    <a href="https://github.com/priyankarpal/ProjectsHut/pulls" target="blank">
+      <img src=" 	https://img.shields.io/github/issues-pr/priyankarpal/ProjectsHut.svg?style=for-the-badge&logo=appveyor" alt=" Open Pull Request"/>
+    </a>
+  </p>
 
 <p>
- ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating user profiles
+
+<h1 align=Left> Welcome 👋 </h1>
+
+ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating user profiles
 
 The main aim of ProjectsHut is to foster a collaborative community of creative individuals, where ideas grow and innovation flourishes. Whether you're a developer, designer, or simply someone passionate about projects, ProjectsHut provides an ideal platform to display your work and connect with others who share similar interests.
 
