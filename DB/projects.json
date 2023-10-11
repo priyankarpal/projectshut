@@ -3555,5 +3555,22 @@
         "tech": ["html", "css"]
       }
     ]
-  }
+  },
+  {
+    "github_username": "AaadityaG",
+    "Projects": [
+      {
+        "github_url": "https://github.com/AaadityaG/AI-Images-Generator",
+        "title": "AI image Generator",
+        "description": "An image generator using the OpenAI's official API",
+        "tech": ["HTML5", "CSS3", "JS"]
+      },
+      {
+        "github_url": "https://netflix-ui-clone-gamma.vercel.app/",
+        "title": "Netflix UI Clone",
+        "description": "A responsive Netflix Clone made from scratch.",
+        "tech": ["HTML5", "CSS3"]
+       }
+     ]
+   }
 ]
