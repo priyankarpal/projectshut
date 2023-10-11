@@ -16,6 +16,17 @@
       }
     ]
   },
+    {
+    "github_username": "aditya7302",
+    "Projects": [
+      {
+        "github_url": "https://github.com/aditya7302/Ecommerce",
+        "title": "Ecommerce",
+        "description": "A web project which lets the user experience an attractive UI of a modern Ecommerce website with all its functionalities",
+        "tech": ["html", "css", "javascript","react","node.js","express.js","mongodb"]
+      }
+    ]
+  },
   {
     "github_username": "trishit78",
     "Projects": [
