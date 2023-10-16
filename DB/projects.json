@@ -3455,6 +3455,15 @@
           "css",
           "javascript"
         ]
+      },{
+	      "github_url": "https://github.com/vinay-s36/PasswordGeneratorChecker",
+        "title": "Password-Generator-Checker",
+        "description": "This project helps users create and evaluate strong and secure passwords. It offers the ability to generate complex and unique passwords with a combination of letters, numbers, and symbols, and assesses their strength based on various criteria, including length and complexity. By using this tool, users can enhance their online security and adopt better password practices. ",
+        "tech": [
+          "html",
+          "css",
+          "javascript"
+	]
       }
     ]
   },
