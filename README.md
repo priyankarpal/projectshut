@@ -2,7 +2,7 @@
 Welcome 👋
 
 <p>
- ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating user profiles
+ ProjectsHut is an open-source web application that empowers users to share and promote their projects with ease. Our platform provides a user-friendly interface for publishing projects and creating user profiles.
 
 The main aim of ProjectsHut is to foster a collaborative community of creative individuals, where ideas grow and innovation flourishes. Whether you're a developer, designer, or simply someone passionate about projects, ProjectsHut provides an ideal platform to display your work and connect with others who share similar interests.
 
@@ -28,7 +28,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 - Go through the [CONTRIBUTING.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
 - Do check out the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
-- we are using `pnpm` so please use `pnpm` 
+- we are using `pnpm` so please use `pnpm`
 
 ## 🤝 Our Contributors
 
