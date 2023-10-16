@@ -83,8 +83,8 @@ devDependencies:
     specifier: ^17.7.0
     version: 17.7.0
   '@types/react-syntax-highlighter':
-    specifier: ^15.5.7
-    version: 15.5.7
+    specifier: ^15.5.8
+    version: 15.5.8
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -1965,8 +1965,8 @@ packages:
       '@types/react': 18.2.25
     dev: false
 
-  /@types/react-syntax-highlighter@15.5.7:
-    resolution: {integrity: sha512-bo5fEO5toQeyCp0zVHBeggclqf5SQ/Z5blfFmjwO5dkMVGPgmiwZsJh9nu/Bo5L7IHTuGWrja6LxJVE2uB5ZrQ==}
+  /@types/react-syntax-highlighter@15.5.8:
+    resolution: {integrity: sha512-GT1PLGzhF3ilGaQiCHFDShxDBb014s01MQi0nWfXJ23efjWfUrZ2i0g4tH1JGdfnIGBtQDge/k3ON3fLoAuU/w==}
     dependencies:
       '@types/react': 18.2.25
     dev: true
