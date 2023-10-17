@@ -28,6 +28,17 @@
     ]
   },
   {
+    "github_username": "Bratajit-03",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Bratajit-03/Hand-cricket-game",
+        "title": "Hand cricket game",
+        "description": "A console based hand cricket game made using C++ programming language",
+        "tech": ["C++"]
+      }
+    ]
+  },
+  {
     "github_username": "RaviSolanki27",
     "Projects": [
       {
