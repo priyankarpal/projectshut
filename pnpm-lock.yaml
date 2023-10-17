@@ -4,92 +4,90 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+dependencies:
+  '@emotion/react':
+    specifier: ^11.11.1
+    version: 11.11.1(@types/react@18.2.25)(react@18.2.0)
+  '@emotion/styled':
+    specifier: ^11.11.0
+    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.25)(react@18.2.0)
+  '@headlessui/react':
+    specifier: ^1.7.17
+    version: 1.7.17(react-dom@18.2.0)(react@18.2.0)
+  '@types/node':
+    specifier: 20.8.6
+    version: 20.8.6
+  '@types/react':
+    specifier: 18.2.25
+    version: 18.2.25
+  '@types/react-dom':
+    specifier: 18.2.13
+    version: 18.2.13
+  autoprefixer:
+    specifier: 10.4.16
+    version: 10.4.16(postcss@8.4.31)
+  eslint:
+    specifier: 8.51.0
+    version: 8.51.0
+  eslint-config-next:
+    specifier: 13.5.4
+    version: 13.5.4(eslint@8.51.0)(typescript@5.2.2)
+  framer-motion:
+    specifier: ^10.16.4
+    version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
+  next:
+    specifier: ^13.5.4
+    version: 13.5.4(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
+  next-pwa:
+    specifier: ^5.6.0
+    version: 5.6.0(@babel/core@7.22.10)(next@13.5.4)(webpack@5.88.2)
+  pnpm:
+    specifier: ^8.9.2
+    version: 8.9.2
+  postcss:
+    specifier: 8.4.31
+    version: 8.4.31
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: ^4.11.0
+    version: 4.11.0(react@18.2.0)
+  react-infinite-scroll-component:
+    specifier: ^6.1.0
+    version: 6.1.0(react@18.2.0)
+  react-router-dom:
+    specifier: ^6.16.0
+    version: 6.16.0(react-dom@18.2.0)(react@18.2.0)
+  react-syntax-highlighter:
+    specifier: ^15.5.0
+    version: 15.5.0(react@18.2.0)
+  sharp:
+    specifier: ^0.32.6
+    version: 0.32.6
+  tailwindcss:
+    specifier: 3.3.3
+    version: 3.3.3(ts-node@10.9.1)
+  typescript:
+    specifier: 5.2.2
+    version: 5.2.2
 
-  .:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.11.1
-        version: 11.11.1(@types/react@18.2.25)(react@18.2.0)
-      '@emotion/styled':
-        specifier: ^11.11.0
-        version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.25)(react@18.2.0)
-      '@headlessui/react':
-        specifier: ^1.7.17
-        version: 1.7.17(react-dom@18.2.0)(react@18.2.0)
-      '@types/node':
-        specifier: 20.8.6
-        version: 20.8.6
-      '@types/react':
-        specifier: 18.2.25
-        version: 18.2.25
-      '@types/react-dom':
-        specifier: 18.2.13
-        version: 18.2.13
-      autoprefixer:
-        specifier: 10.4.16
-        version: 10.4.16(postcss@8.4.31)
-      eslint:
-        specifier: 8.51.0
-        version: 8.51.0
-      eslint-config-next:
-        specifier: 13.5.4
-        version: 13.5.4(eslint@8.51.0)(typescript@5.2.2)
-      framer-motion:
-        specifier: ^10.16.4
-        version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
-      next:
-        specifier: ^13.5.4
-        version: 13.5.4(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
-      next-pwa:
-        specifier: ^5.6.0
-        version: 5.6.0(@babel/core@7.22.10)(next@13.5.4)(webpack@5.88.2)
-      pnpm:
-        specifier: ^8.9.2
-        version: 8.9.2
-      postcss:
-        specifier: 8.4.31
-        version: 8.4.31
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.11.0
-        version: 4.11.0(react@18.2.0)
-      react-infinite-scroll-component:
-        specifier: ^6.1.0
-        version: 6.1.0(react@18.2.0)
-      react-router-dom:
-        specifier: ^6.16.0
-        version: 6.16.0(react-dom@18.2.0)(react@18.2.0)
-      react-syntax-highlighter:
-        specifier: ^15.5.0
-        version: 15.5.0(react@18.2.0)
-      sharp:
-        specifier: ^0.32.6
-        version: 0.32.6
-      tailwindcss:
-        specifier: 3.3.3
-        version: 3.3.3(ts-node@10.9.1)
-      typescript:
-        specifier: 5.2.2
-        version: 5.2.2
-    devDependencies:
-      '@commitlint/cli':
-        specifier: ^17.7.2
-        version: 17.7.2
-      '@commitlint/config-conventional':
-        specifier: ^17.7.0
-        version: 17.7.0
-      '@types/react-syntax-highlighter':
-        specifier: ^15.5.8
-        version: 15.5.8
-      husky:
-        specifier: ^8.0.3
-        version: 8.0.3
+devDependencies:
+  '@commitlint/cli':
+    specifier: ^17.7.2
+    version: 17.7.2
+  '@commitlint/config-conventional':
+    specifier: ^17.8.0
+    version: 17.8.0
+  '@types/react-syntax-highlighter':
+    specifier: ^15.5.8
+    version: 15.5.8
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
 
 packages:
 
@@ -1365,8 +1363,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional@17.7.0:
-    resolution: {integrity: sha512-iicqh2o6et+9kWaqsQiEYZzfLbtoWv9uZl8kbI8EGfnc0HeGafQBF7AJ0ylN9D/2kj6txltsdyQs8+2fTMwWEw==}
+  /@commitlint/config-conventional@17.8.0:
+    resolution: {integrity: sha512-MgiFXujmqAvi7M33C7OSMTznwrVkckrbXe/aZWQ/+KFGLLF6IE50XIcjGrW0/uiDGb/im5qbqF2dh1dCFNa+sQ==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 6.1.0
