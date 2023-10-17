@@ -3555,5 +3555,22 @@
         "tech": ["html", "css"]
       }
     ]
-  }
+  },
+	{
+  "github_username": "AlfatTaufik",
+  "Projects": [
+    {
+      "github_url": "https://github.com/AlfatTaufik/JCLothes-2.0.0",
+      "title": "JClothes",
+      "description": "Frontend for my own ecommerce",
+      "tech": ["HTML", "CSS", "Javascript", "Swipper-js"]
+    },
+    {
+      "github_url": "https://github.com/AlfatTaufik/crudPhpMySQL",
+      "title": "CRUD PHP MYsql",
+      "description": "I create it for my future, so if i had to make CRUD i just modify this one",
+      "tech": ["PHP", "MYSQL", "Bootstrap"]
+    }
+  ]
+}
 ]
