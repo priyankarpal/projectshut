@@ -34,7 +34,7 @@
         "github_url": "https://github.com/Bratajit-03/Web-Development/tree/main/text-analyzer",
         "title": "Text Analyzer",
         "description": "A simple text analyze to analyze and change modes of any text.",
-        "tech": ["HTML","CSS","Javascript","Bootstrap"]
+        "tech": ["html","css","javascript","bootstrap"]
       }
     ]
   },
