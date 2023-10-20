@@ -17,6 +17,23 @@
     ]
   },
   {
+    "github_username": "Upendra2003",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Upendra2003/MedicalSymptomPredictor",
+        "title": "MedicalSymptomPredictor",
+        "description": "Empower users to input symptoms for accurate disease prediction. This cutting-edge application, built with React and Django, employs a machine learning model for precise diagnoses.",
+        "tech": ["React", "Django", "Machine-learning","Python"]
+      },
+      {
+        "github_url": "https://github.com/Upendra2003/metaV2-site",
+        "title": "Metaverse Site",
+        "description": "Experience our college society's vibrant metaverse platform! Developed using the MERN stack, users can seamlessly register and login.",
+        "tech": ["react", "tailwind-css", "mongodb","express js","node js"]
+      }
+    ]
+  },
+  {
     "github_username": "trishit78",
     "Projects": [
       {
