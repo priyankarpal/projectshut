@@ -24,7 +24,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 > **Note**: If you are new to open source contributions, you can refer to [this](https://opensource.guide/how-to-contribute/) guide by GitHub.
 
-> **Warning**: Please do not spam the repository with unnecessary PRs. Make sure to follow the project's [code of conduct](/CODE_OF_CONDUCT.md).
+> **Warning**: Please do not spam the repository with unnecessary PRs. Make sure to follow the project's [Code of Conduct](https://github.com/priyankarpal/ProjectsHut/blob/main/CODE_OF_CONDUCT.md)).
 
 - Go through the [CONTRIBUTING.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
 - Do check out the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
