@@ -3555,5 +3555,16 @@
         "tech": ["html", "css"]
       }
     ]
+  },
+  {
+    "github_username": "psykat1116",
+    "Projects":[
+      {
+        "github_url": "https://github.com/psykat1116/Color-World",
+        "title": "Color World",
+        "description": "A website to explore different colors, their shades and theme.",
+        "tech":["html","css","javascript"]
+      }
+    ]
   }
 ]
