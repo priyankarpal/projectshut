@@ -3564,7 +3564,7 @@
         "title": "Toppings",
         "description": "Toppings adds an extra layer of flavor for a more efficient and convenient web.",
         "tech": ["javascript", "typescript", "nodejs"]
-      },
+      }
     ]
   }
 ]
