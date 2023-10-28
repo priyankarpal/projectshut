@@ -3577,5 +3577,22 @@
         "tech": ["javascript", "typescript", "nodejs"]
       }
     ]
-  }
+  },
+ {
+  "github_username": "heysagnik",
+  "Projects": [
+    {
+      "github_url": "https://github.com/heysagnik/Linkees",
+      "title": "Linkees",
+      "description": "A hub for all your social links",
+      "tech": ["javascript", "css"]
+    },
+    {
+      "github_url": "https://github.com/heysagnik/screenREC",
+      "title": "Screen-REC",
+      "description": "An app to record studio quality videos directly from your browser",
+      "tech": ["pug", "scss"]
+    }
+  ]
+}
 ]
