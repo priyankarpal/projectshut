@@ -167,14 +167,7 @@
         "github_url": "https://github.com/VinayKokate22/shopio_ecommerce",
         "title": "Ecommerce website",
         "description": "Ecomerce website where user can view various products with admin dashboard",
-        "tech": [
-          "reactjs",
-          "scss",
-          "mongodb",
-          "nodejs",
-          "mongoose",
-          "jwt"
-        ]
+        "tech": ["reactjs", "scss", "mongodb", "nodejs", "mongoose", "jwt"]
       }
     ]
   },
@@ -2398,20 +2391,13 @@
         "github_url": "https://github.com/singodiyashubham87/Navbar-using-Pure-React-Project1",
         "title": "Navbar using Pure reactjs",
         "description": "Basic Navbar using reactjs and no JSX",
-        "tech": [
-          "html",
-          "javascript"
-        ]
+        "tech": ["html", "javascript"]
       },
       {
         "github_url": "https://github.com/singodiyashubham87/ScanVerse",
         "title": "ScanVerse",
         "description": "QR code reader & generator",
-        "tech": [
-          "html",
-          "css",
-          "javascript"
-        ]
+        "tech": ["html", "css", "javascript"]
       }
     ]
   },
@@ -3171,23 +3157,13 @@
         "github_url": "https://github.com/Sakhi29/Task-Trove",
         "title": "Task Trove",
         "description": "A to-do list to maintain and list out our daily tasks",
-        "tech": [
-          "python",
-          "django",
-          "sqlite",
-          "html",
-	  "css"
-        ]
+        "tech": ["python", "django", "sqlite", "html", "css"]
       },
       {
         "github_url": "https://github.com/Sakhi29/Book-Recommendation-system",
         "title": "Book Recommendation System",
         "description": "A book recommendation system using content and collaborative filtering based techniques with good frontend using Flask",
-        "tech": [
-          "python",
-          "flask",
-          "jupyternotebook"
-        ]
+        "tech": ["python", "flask", "jupyternotebook"]
       }
     ]
   },
@@ -3443,59 +3419,53 @@
         "tech": ["nextjs", "tailwindcss", "typescript", "mongodb"]
       }
     ]
-  },{
+  },
+  {
     "github_username": "vinay-s36",
     "Projects": [
       {
         "github_url": "https://github.com/vinay-s36/HumorBlast",
         "title": "HumorBlast",
         "description": "Are you ready to burst into laughter? Welcome to HumorBlast, the ultimate destination for an explosion of jokes and endless giggles! ",
-        "tech": [
-          "html",
-          "css",
-          "javascript"
-        ]
+        "tech": ["html", "css", "javascript"]
       }
     ]
   },
   {
-  "github_username": "mohit-dhote",  
-  "Projects": [
-    {
-      "github_url": "https://github.com/mohit-dhote/mohitdhote.github.io",
-      "title": "my_portfolio",
-      "description": "A clean, beautiful, responsive portfolio template for Software Developers!",
-      "tech": ["html", "javascript", "css"]
-    }
-  ]
-},
+    "github_username": "mohit-dhote",
+    "Projects": [
+      {
+        "github_url": "https://github.com/mohit-dhote/mohitdhote.github.io",
+        "title": "my_portfolio",
+        "description": "A clean, beautiful, responsive portfolio template for Software Developers!",
+        "tech": ["html", "javascript", "css"]
+      }
+    ]
+  },
 
-    {
+  {
     "github_username": "btreezy",
     "Projects": [
       {
         "github_url": "https://github.com/btrezzy/Oder-summary",
         "title": "Order-Summary",
         "description": "Made an attractive checkout page.",
-        "tech": [
-	   "html",
-           "css",
-           "javascript"
-	]
-      }	
+        "tech": ["html", "css", "javascript"]
+      }
     ]
-    },
+  },
   {
-  "github_username": "Prakhar-Shankar",
-  "Projects": [
-    {
-      "github_url": "https://github.com/Prakhar-Shankar/crypto-tracker",
-      "title": "crypto-tracker",
-      "description": "A website which tracks and provides details about the real time trend in crypto currency.",
-      "tech": ["reactjs", "javascript"]
-    }
-  ]
-},{
+    "github_username": "Prakhar-Shankar",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Prakhar-Shankar/crypto-tracker",
+        "title": "crypto-tracker",
+        "description": "A website which tracks and provides details about the real time trend in crypto currency.",
+        "tech": ["reactjs", "javascript"]
+      }
+    ]
+  },
+  {
     "github_username": "kaushal1717",
     "Projects": [
       {
@@ -3509,20 +3479,21 @@
         "title": "To-Do App",
         "description": "A simple To-Do app made on Flutter and used Hive as a local storage",
         "tech": ["flutter", "hive", "dart"]
-    }
-  ]
+      }
+    ]
   },
-{
-  "github_username": "blindaks",  
-  "Projects": [
-    {
-      "github_url": "https://github.com/blindaks/Quiz-App",
-      "title": "Quiz App",
-      "description": "A quiz app based on front wnd development questions.",
-      "tech": ["html", "css", "javascript"]
-    }
-  ]
-  },{
+  {
+    "github_username": "blindaks",
+    "Projects": [
+      {
+        "github_url": "https://github.com/blindaks/Quiz-App",
+        "title": "Quiz App",
+        "description": "A quiz app based on front wnd development questions.",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
+  },
+  {
     "github_username": "ayan-joshi",
     "Projects": [
       {
@@ -3535,9 +3506,9 @@
         "github_url": "https://github.com/ayan-joshi/Sorting-Visualizer",
         "title": "Sorting Visualizer",
         "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
-        "tech": ["javascript","html", "css"]
-    }
-  ]
+        "tech": ["javascript", "html", "css"]
+      }
+    ]
   },
   {
     "github_username": "vrundraval24",
@@ -3558,12 +3529,12 @@
   },
   {
     "github_username": "psykat1116",
-    "Projects":[
+    "Projects": [
       {
         "github_url": "https://github.com/psykat1116/Color-World",
         "title": "Color World",
         "description": "A website to explore different colors, their shades and theme.",
-        "tech":["html","css","javascript"]
+        "tech": ["html", "css", "javascript"]
       }
     ]
   },
@@ -3575,6 +3546,24 @@
         "title": "Toppings",
         "description": "Toppings adds an extra layer of flavor for a more efficient and convenient web.",
         "tech": ["javascript", "typescript", "nodejs"]
+      }
+    ]
+  },
+  {
+    "github_username": "AbhishekCS3459",
+    "Projects": [
+      {
+        "github_url": "https://github.com/AbhishekCS3459/BookYourPlace",
+        "title": "Book Your Place",
+        "description": "This is a full-stack application built using React.js as the frontend, Node.js and Express as the backend, and MongoDB as the database. The application allows users to explore, book, and share their favorite places.",
+        "tech": [
+          "javascript",
+          "typescript",
+          "nodejs",
+          "react",
+          "mongodb",
+          "redis"
+        ]
       }
     ]
   },
