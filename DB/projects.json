@@ -1017,6 +1017,12 @@
         "title": "DevTweet",
         "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community",
         "tech": ["astro"]
+      },
+      {
+        "github_url": "https://github.com/oyepriyansh/DevProfiles",
+        "title": "DevProfiles",
+        "description": "DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.",
+        "tech": ["html", "css"]
       }
     ]
   },
