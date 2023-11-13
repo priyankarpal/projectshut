@@ -17,6 +17,17 @@
     ]
   },
   {
+    "github_username": "Kei-K23",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Kei-K23/saveUp-expense-tracker",
+        "title": "saveUp-expense-tracker",
+        "description": "SaveUp is a small expense tracker web application that provide to tracker budget and expenses. Using React, tailwind and LocalStorage Web API.",
+        "tech": ["reactjs", "tailwindcss"]
+      }
+    ]
+  },
+  {
     "github_username": "trishit78",
     "Projects": [
       {
@@ -3573,21 +3584,21 @@
       }
     ]
   },
- {
-  "github_username": "heysagnik",
-  "Projects": [
-    {
-      "github_url": "https://github.com/heysagnik/Linkees",
-      "title": "Linkees",
-      "description": "A hub for all your social links",
-      "tech": ["javascript", "css"]
-    },
-    {
-      "github_url": "https://github.com/heysagnik/screenREC",
-      "title": "Screen-REC",
-      "description": "An app to record studio quality videos directly from your browser",
-      "tech": ["pug", "scss"]
-    }
-  ]
-}
+  {
+    "github_username": "heysagnik",
+    "Projects": [
+      {
+        "github_url": "https://github.com/heysagnik/Linkees",
+        "title": "Linkees",
+        "description": "A hub for all your social links",
+        "tech": ["javascript", "css"]
+      },
+      {
+        "github_url": "https://github.com/heysagnik/screenREC",
+        "title": "Screen-REC",
+        "description": "An app to record studio quality videos directly from your browser",
+        "tech": ["pug", "scss"]
+      }
+    ]
+  }
 ]
