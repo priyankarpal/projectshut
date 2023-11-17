@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^18.4.2
     version: 18.4.2(typescript@5.2.2)
   '@commitlint/config-conventional':
-    specifier: ^18.1.0
-    version: 18.1.0
+    specifier: ^18.4.2
+    version: 18.4.2
   '@types/react-syntax-highlighter':
     specifier: ^15.5.10
     version: 15.5.10
@@ -1291,8 +1291,8 @@ packages:
       - typescript
     dev: true
 
-  /@commitlint/config-conventional@18.1.0:
-    resolution: {integrity: sha512-8vvvtV3GOLEMHeKc8PjRL1lfP1Y4B6BG0WroFd9PJeRiOc3nFX1J0wlJenLURzl9Qus6YXVGWf+a/ZlbCKT3AA==}
+  /@commitlint/config-conventional@18.4.2:
+    resolution: {integrity: sha512-qFjIqgKGV89lzUGHxanq2WJDXk5wZIxoZmZvf0I4i4CirL06Xj8qRh1shPsXNyI15d8Rj2HExww6cGJSFU9DdA==}
     engines: {node: '>=v18'}
     dependencies:
       conventional-changelog-conventionalcommits: 7.0.2
