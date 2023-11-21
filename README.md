@@ -18,6 +18,22 @@ The main aim of ProjectsHut is to foster a collaborative community of creative i
 - [Typescript](https://www.typescriptlang.org) - TypeScript is a free and open-source high-level programming language.
 - [TailwindCSS](https://tailwindcss.com) - Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
 
+## 👩‍💻 Run the project locally
+
+Start project :
+
+```bash
+pnpm install && pnpm run build
+```
+
+Start the project :
+
+```bash
+pnpm run start
+```
+
+Finally, visit http://localhost:3000 on your favourite browser 🌐.
+
 ## 🚀 Quick start
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an [issue](https://github.com/priyankarpal/ProjectsHut/issues/new/choose) or submit a pull request. Make sure to follow the project's code of conduct.
