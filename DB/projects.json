@@ -1,5 +1,16 @@
 [
   {
+    "github_username": "RoopkumarD",
+    "Projects": [
+      {
+        "github_url": "https://github.com/RoopkumarD/introspecta",
+        "title": "Introspecta",
+        "description": "A web diary app which let's you write encrypted diary entries stored securely in your browser.",
+        "tech": ["svelte", "sveltekit", "tailwindcss", "libsodium", "msgpackr", "typescript"]
+      }
+    ]
+  },
+  {
     "github_username": "Uzumaki4303",
     "Projects": [
       {
