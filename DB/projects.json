@@ -3616,7 +3616,7 @@
       "github_url": "https://github.com/MohamedBoukthir/Wave",
       "title": "Wave",
       "description": "Wave: Next.js 13 app. Explore Next.js, MongoDB, TailwindCSS, Clerk, real-time events, and more.",
-      "tech": ["NextJs", "TailwindCSS", "TypeScript", "Clerk"]
+      "tech": ["nextjs", "tailwindcss", "typescript", "clerk"]
     },
     {
       "github_url": "https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack",
