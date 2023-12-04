@@ -3622,7 +3622,7 @@
       "github_url": "https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack",
       "title": "MediCare",
       "description": "A feature-rich MERN web app for booking doctor appointments. Uses React, Node.js, MongoDB, and Stripe for payment processing",
-      "tech": ["ReactJs", "TailwindCSS", "JavaScript", "ExpressJs", "NodeJs", "MongoDB"]
+      "tech": ["reactjs", "tailwindcss", "javascript", "expressjs", "nodejs", "mongodb"]
     }
   ]
 }
