@@ -3597,7 +3597,7 @@
     {
       "github_url": "https://github.com/heysagnik/screenREC",
       "title": "Screen-REC",
-      "description": "An app to record studio quality videos directly from your browser",
+      "description": "An app to record studio-quality videos directly from your browser",
       "tech": ["pug", "scss"]
     }
   ]
@@ -3608,8 +3608,8 @@
     {
       "github_url": "https://github.com/MohamedBoukthir/Freeppy",
       "title": "Freeppy",
-      "description": "About Freeppy is a Sustainable Fashion E-commerce Platform. Discover curated, pre-loved pieces that blend style with eco-conscious choices. Join us in redefining fashion with a conscience.",
-      "tech": ["NextJs", "MongoDB", "NextAuth", "TailwindCSS"]
+      "description": "About Freeppy is a Sustainable Fashion E-commerce Platform. Discover curated pre-loved pieces that blend style with eco-conscious choices. Join us in redefining fashion with a conscience.",
+      "tech": ["nextJs", "mongodb", "tailwindcss"]
     },
     {
       "github_url": "https://github.com/MohamedBoukthir/Wave",
