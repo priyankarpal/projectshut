@@ -36,6 +36,7 @@
         "description": "A Web project that creates a similar use case webpage of IMDB Website, using React,Tailwind CSS,Material UI,TMDB API",
         "tech": ["reactjs", "tailwindcss"]
       }
+      
     ]
   },
   {
@@ -3596,8 +3597,31 @@
     {
       "github_url": "https://github.com/heysagnik/screenREC",
       "title": "Screen-REC",
-      "description": "An app to record studio quality videos directly from your browser",
+      "description": "An app to record studio-quality videos directly from your browser",
       "tech": ["pug", "scss"]
+    }
+  ]
+},
+{
+  "github_username": "MohamedBoukthir",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/MohamedBoukthir/Freeppy",
+      "title": "Freeppy",
+      "description": "About Freeppy is a Sustainable Fashion E-commerce Platform. Discover curated pre-loved pieces that blend style with eco-conscious choices. Join us in redefining fashion with a conscience.",
+      "tech": ["nextJs", "mongodb", "tailwindcss"]
+    },
+    {
+      "github_url": "https://github.com/MohamedBoukthir/Wave",
+      "title": "Wave",
+      "description": "Wave: Next.js 13 app. Explore Next.js, MongoDB, TailwindCSS, Clerk, real-time events, and more.",
+      "tech": ["nextjs", "tailwindcss", "typescript", "clerk"]
+    },
+    {
+      "github_url": "https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack",
+      "title": "MediCare",
+      "description": "A feature-rich MERN web app for booking doctor appointments. Uses React, Node.js, MongoDB, and Stripe for payment processing",
+      "tech": ["reactjs", "tailwindcss", "javascript", "expressjs", "nodejs", "mongodb"]
     }
   ]
 }
