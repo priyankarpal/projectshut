@@ -28,7 +28,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 - Go through the [CONTRIBUTING.md](https://github.com/priyankarpal/ProjectsHut/blob/main/contributing.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
 - Do check out the [project issue tracker](https://github.com/priyankarpal/ProjectsHut/issues) section.
-- we are using `pnpm` so please use `pnpm` 
+- We are using `pnpm` so please use `pnpm` 
 
 ## 🤝 Our Contributors
 
