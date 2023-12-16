@@ -4,92 +4,90 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+dependencies:
+  '@emotion/react':
+    specifier: ^11.11.1
+    version: 11.11.1(@types/react@18.2.43)(react@18.2.0)
+  '@emotion/styled':
+    specifier: ^11.11.0
+    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.43)(react@18.2.0)
+  '@headlessui/react':
+    specifier: ^1.7.17
+    version: 1.7.17(react-dom@18.2.0)(react@18.2.0)
+  '@types/node':
+    specifier: 20.10.4
+    version: 20.10.4
+  '@types/react':
+    specifier: 18.2.43
+    version: 18.2.43
+  '@types/react-dom':
+    specifier: 18.2.17
+    version: 18.2.17
+  autoprefixer:
+    specifier: 10.4.16
+    version: 10.4.16(postcss@8.4.32)
+  eslint:
+    specifier: 8.55.0
+    version: 8.55.0
+  eslint-config-next:
+    specifier: 14.0.4
+    version: 14.0.4(eslint@8.55.0)(typescript@5.3.3)
+  framer-motion:
+    specifier: ^10.16.16
+    version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
+  next:
+    specifier: ^14.0.4
+    version: 14.0.4(@babel/core@7.23.5)(react-dom@18.2.0)(react@18.2.0)
+  next-pwa:
+    specifier: ^5.6.0
+    version: 5.6.0(@babel/core@7.23.5)(next@14.0.4)(webpack@5.89.0)
+  pnpm:
+    specifier: ^8.12.0
+    version: 8.12.0
+  postcss:
+    specifier: 8.4.32
+    version: 8.4.32
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: ^4.12.0
+    version: 4.12.0(react@18.2.0)
+  react-infinite-scroll-component:
+    specifier: ^6.1.0
+    version: 6.1.0(react@18.2.0)
+  react-router-dom:
+    specifier: ^6.21.0
+    version: 6.21.0(react-dom@18.2.0)(react@18.2.0)
+  react-syntax-highlighter:
+    specifier: ^15.5.0
+    version: 15.5.0(react@18.2.0)
+  sharp:
+    specifier: ^0.33.0
+    version: 0.33.0
+  tailwindcss:
+    specifier: 3.3.6
+    version: 3.3.6
+  typescript:
+    specifier: 5.3.3
+    version: 5.3.3
 
-  .:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.11.1
-        version: 11.11.1(@types/react@18.2.43)(react@18.2.0)
-      '@emotion/styled':
-        specifier: ^11.11.0
-        version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.43)(react@18.2.0)
-      '@headlessui/react':
-        specifier: ^1.7.17
-        version: 1.7.17(react-dom@18.2.0)(react@18.2.0)
-      '@types/node':
-        specifier: 20.10.4
-        version: 20.10.4
-      '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
-      '@types/react-dom':
-        specifier: 18.2.17
-        version: 18.2.17
-      autoprefixer:
-        specifier: 10.4.16
-        version: 10.4.16(postcss@8.4.32)
-      eslint:
-        specifier: 8.55.0
-        version: 8.55.0
-      eslint-config-next:
-        specifier: 14.0.4
-        version: 14.0.4(eslint@8.55.0)(typescript@5.3.3)
-      framer-motion:
-        specifier: ^10.16.16
-        version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
-      next:
-        specifier: ^14.0.4
-        version: 14.0.4(@babel/core@7.23.5)(react-dom@18.2.0)(react@18.2.0)
-      next-pwa:
-        specifier: ^5.6.0
-        version: 5.6.0(@babel/core@7.23.5)(next@14.0.4)(webpack@5.89.0)
-      pnpm:
-        specifier: ^8.12.0
-        version: 8.12.0
-      postcss:
-        specifier: 8.4.32
-        version: 8.4.32
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
-      react-infinite-scroll-component:
-        specifier: ^6.1.0
-        version: 6.1.0(react@18.2.0)
-      react-router-dom:
-        specifier: ^6.20.1
-        version: 6.20.1(react-dom@18.2.0)(react@18.2.0)
-      react-syntax-highlighter:
-        specifier: ^15.5.0
-        version: 15.5.0(react@18.2.0)
-      sharp:
-        specifier: ^0.33.0
-        version: 0.33.0
-      tailwindcss:
-        specifier: 3.3.6
-        version: 3.3.6
-      typescript:
-        specifier: 5.3.3
-        version: 5.3.3
-    devDependencies:
-      '@commitlint/cli':
-        specifier: ^18.4.3
-        version: 18.4.3(typescript@5.3.3)
-      '@commitlint/config-conventional':
-        specifier: ^18.4.3
-        version: 18.4.3
-      '@types/react-syntax-highlighter':
-        specifier: ^15.5.11
-        version: 15.5.11
-      husky:
-        specifier: ^8.0.3
-        version: 8.0.3
+devDependencies:
+  '@commitlint/cli':
+    specifier: ^18.4.3
+    version: 18.4.3(typescript@5.3.3)
+  '@commitlint/config-conventional':
+    specifier: ^18.4.3
+    version: 18.4.3
+  '@types/react-syntax-highlighter':
+    specifier: ^15.5.11
+    version: 15.5.11
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
 
 packages:
 
@@ -1993,8 +1991,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@remix-run/router@1.13.1:
-    resolution: {integrity: sha512-so+DHzZKsoOcoXrILB4rqDkMDy7NLMErRdOxvzvOKb507YINKUP4Di+shbTZDhSE/pBZ+vr7XGIpcOO0VLSA+Q==}
+  /@remix-run/router@1.14.0:
+    resolution: {integrity: sha512-WOHih+ClN7N8oHk9N4JUiMxQJmRVaOxcg8w7F/oHUXzJt920ekASLI/7cYX8XkntDWRhLZtsk6LbGrkgOAvi5A==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -5227,26 +5225,26 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-router-dom@6.20.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-npzfPWcxfQN35psS7rJgi/EW0Gx6EsNjfdJSAk73U/HqMEJZ2k/8puxfwHFgDQhBGmS3+sjnGbMdMSV45axPQw==}
+  /react-router-dom@6.21.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-1dUdVj3cwc1npzJaf23gulB562ESNvxf7E4x8upNJycqyUm5BRRZ6dd3LrlzhtLaMrwOCO8R0zoiYxdaJx4LlQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.13.1
+      '@remix-run/router': 1.14.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.20.1(react@18.2.0)
+      react-router: 6.21.0(react@18.2.0)
     dev: false
 
-  /react-router@6.20.1(react@18.2.0):
-    resolution: {integrity: sha512-ccvLrB4QeT5DlaxSFFYi/KR8UMQ4fcD8zBcR71Zp1kaYTC5oJKYAp1cbavzGrogwxca+ubjkd7XjFZKBW8CxPA==}
+  /react-router@6.21.0(react@18.2.0):
+    resolution: {integrity: sha512-hGZ0HXbwz3zw52pLZV3j3+ec+m/PQ9cTpBvqjFQmy2XVUWGn5MD+31oXHb6dVTxYzmAeaiUBYjkoNz66n3RGCg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.13.1
+      '@remix-run/router': 1.14.0
       react: 18.2.0
     dev: false
 
