@@ -3624,5 +3624,16 @@
       "tech": ["reactjs", "tailwindcss", "javascript", "expressjs", "nodejs", "mongodb"]
     }
   ]
+},
+{
+  "github_username": "pranshugupta54",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/digitomize/digitomize",
+      "title": "digitomize",
+      "description": "Digitomize, part of Microsoft for Startups Founders Hub, is an open-source platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming coding contests and dynamically create developer portfolios.",
+      "tech": ["reactjs", "mongodb", "tailwindcss", "nodejs", "mui", "daisyui", "firebase", "expressjs", "javascript"]
+    }
+  ]
 }
 ]
