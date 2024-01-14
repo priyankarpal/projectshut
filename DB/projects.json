@@ -3635,5 +3635,16 @@
       "tech": ["reactjs", "mongodb", "tailwindcss", "nodejs", "mui", "daisyui", "firebase", "expressjs", "javascript"]
     }
   ]
+},
+  {
+  "github_username": "himanshuchandola",
+  "Projects": [
+    {
+      "github_url": "https://github.com/himanshuchandola/Amar-Ujala-E-Paper",
+      "title": "Amar Ujala E-Paper",
+      "description": "Amar Ujala Hindi E-Newspaper with all available cities developed in React JS. A completely free version of amar ujala hindi epaper",
+      "tech": ["reactjs"]
+    }
+  ]
 }
 ]
