@@ -3647,4 +3647,21 @@
     }
   ]
 }
+{
+  "github_username": "Psykoxen",
+  "Projects": [
+    {
+      "github_url": "https://github.com/Psykoxen/SauverDesVies",
+      "title": "SauverDesVies",
+      "description": "Project aims to democratize first aid skills through an interactive platform for beginners, young learners, and experienced individuals. It provides essential techniques, annual updates, and a quick knowledge memo space.",
+      "tech": ["nuxtjs","vuejs", "tailwindcss","nuxtui"]
+    },
+    {
+      "github_url": "https://github.com/Psykoxen/GeoRisk",
+      "title": "GeoRisk",
+      "description": "GeoRisk is a powerful web app that lets you find risks in France, with a historic.",
+      "tech": ["nuxjs","vuejs", "tailwindcss","nuxtui"]
+    }
+  ]
+},
 ]
