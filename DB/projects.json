@@ -3646,5 +3646,40 @@
       "tech": ["reactjs"]
     }
   ]
+},
+  {
+  "github_username": "sahilatahar",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/sahilatahar/markdown2pdf",
+      "title": "markdown2pdf",
+      "description": "An Impressive Markdown to PDF Converter!",
+      "tech": ["reactjs"]
+    },
+    {
+      "github_url": "https://github.com/sahilatahar/Front-End-Challenges",
+      "title": "Front-End-Challenges",
+      "description": "Collection of front-end challenges using HTML, CSS / SCSS, JavaScript, React with Vite",
+      "tech": ["html","css", "javascript", "reactjs", "tailwindcss"]
+    },
+    {
+      "github_url": "https://github.com/sahilatahar/github-profile",
+      "title": "github-profile",
+      "description": "Explore GitHub Page: Showcasing user data via GitHub API integration, alongside an enhanced user interface for a richer browsing experience",
+      "tech": ["html","css", "javascript", "reactjs", "github-api"]
+    },
+    {
+      "github_url": "https://github.com/sahilatahar/HTML-CSS-JavaScript",
+      "title": "HTML-CSS-JavaScript",
+      "description": "40 HTML, CSS, JavaScript Projects",
+      "tech": ["html", "css", "javascript"]
+    },
+    {
+      "github_url": "https://github.com/sahilatahar/Real-Notes",
+      "title": "Real-Notes",
+      "description": "Real-Notes is a react app offering efficient note management. Secure Firebase integration provides user authentication and data storage.",
+      "tech": ["reactjs", "firebase", "css"]
+    }
+  ]
 }
 ]
