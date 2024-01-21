@@ -3679,7 +3679,16 @@
       "title": "Real-Notes",
       "description": "Real-Notes is a react app offering efficient note management. Secure Firebase integration provides user authentication and data storage.",
       "tech": ["reactjs", "firebase", "css"]
-    }
   ]
-}
+},
+    
+  {
+  "github_username": "gaurabsaha12345",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/gaurabsaha12345/TextUtils.git",
+      "title": "Text Utils",
+      "description": "Utilize the Text with functionality",
+      "tech": ["reactjs", "html"]
+    }
 ]
