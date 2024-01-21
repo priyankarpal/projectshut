@@ -3679,6 +3679,7 @@
       "title": "Real-Notes",
       "description": "Real-Notes is a react app offering efficient note management. Secure Firebase integration provides user authentication and data storage.",
       "tech": ["reactjs", "firebase", "css"]
+    }
   ]
 },
     
