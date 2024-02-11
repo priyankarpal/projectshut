@@ -3693,5 +3693,108 @@
       "tech": ["reactjs", "html"]
     }
 ]
+  },
+  {
+    "github_username": "juanPabloDiaz",
+    "Projects": [
+      {
+        "github_url": "https://github.com/juanPabloDiaz/freecodecamp",
+        "title": "FreeCodeCamp Collection",
+        "description": "A Collection of all the FreeCodeCamp projects: a Simon Game, Tic Tac Toe, Calculator, Markdown Previewer and more",
+        "tech": [
+          "javascript",
+          "reactjs",
+          "redux",
+          "html",
+          "markdown",
+          "git",
+          "nodejs",
+          "jquery",
+          "rest api",
+          "css",
+          "sass",
+          "bootstrap",
+          "tailwindcss"
+        ]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/doc",
+        "title": "Juan Diaz Documentation Site",
+        "description": "My Documentation Site for projects, tech notes, and career advancement",
+        "tech": ["jekyll", "sass"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/jpshop",
+        "title": "Jp-Shop (E-commerce)",
+        "description": "e-Commerce that consumes an API to fetch products. Features include a sign in, product filtering, skeleton screens, and pagination",
+        "tech": ["reactjs", "tailwindcss", "rest api"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/brothers-landingPage",
+        "title": "Landing Page",
+        "description": "Landing page from a Figma project. Features include a responsive design and a mobile menu",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/random-quote-generator",
+        "title": "Random Quote Generator",
+        "description": "Responsive web application that allows users to generate endless random quotes with the click of a button",
+        "tech": ["reactjs", "tailwindcss", "rest api"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/markdownPreviewer",
+        "title": "Markdown Previewer",
+        "description": "Responsive web application that allows users to write and preview markdown syntax in real-time",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/wikipediaViewer",
+        "title": "Wikipedia Viewer",
+        "description": "Responsive react project that fetch data from the Wikipedia API",
+        "tech": ["reactjs", "tailwindcss", "rest api"]
+      },
+      {
+        "github_url": "https://github.com/JuanPabloDiaz/calculator",
+        "title": "Calculator",
+        "description": "Simple calculator build with React, Tailwind CSS and Vite.js",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/devMemes-RapidAPI",
+        "title": "Dev Memes",
+        "description": "A fun project that consumes an API to fetch memes",
+        "tech": ["reactjs", "tailwindcss", "rest api"]
+      },
+      {
+        "github_url": "https://github.com/JuanPabloDiaz/ticTacToe",
+        "title": "Tic Tac Toe Game",
+        "description": "Classic game, reborn for the web",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/JuanPabloDiaz/simonGame",
+        "title": "Simon Game",
+        "description": "Memory matching game. Fully responsive React project.",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/youtube",
+        "title": "Youtube Clone",
+        "description": "A Youtube clone that consumes the Youtube API to fetch videos. Features include a search bar, video player, and video list",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/pinterest",
+        "title": "Pinterest Clone",
+        "description": "A Pinterest Clone",
+        "tech": ["reactjs", "html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/SelfHosting-PiServer",
+        "title": "Self Hosting - Pi Server",
+        "description": "Setup a home server using a Raspberry Pi",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
   }
 ]
