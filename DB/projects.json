@@ -3693,5 +3693,72 @@
       "tech": ["reactjs", "html"]
     }
 ]
+  },
+  {
+    "github_username": "juanPabloDiaz",
+    "Projects": [
+      {
+        "github_url": "https://github.com/juanPabloDiaz/doc",
+        "title": "Juan Diaz Documentation Site",
+        "description": "My Documentation Site for projects, tech notes, and career advancement",
+        "tech": ["jekyll", "sass"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/brothers-landingPage",
+        "title": "Landing Page",
+        "description": "Landing page from a Figma project. Features include a responsive design and a mobile menu",
+        "tech": ["reactjs", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/jpshop",
+        "title": "Jp-Shop",
+        "description": "e-Commerce that consumes an API to fetch products. Features include a sign in, product filtering, skeleton screens, and pagination",
+        "tech": ["javascript", "reactjs", "vite.js", "tailwindcss"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/freecodecamp",
+        "title": "github-profile",
+        "description": "A Collection of all the FreeCodeCamp projects",
+        "tech": [
+          "javascript",
+          "reactjs",
+          "redux",
+          "html",
+          "markdown",
+          "git",
+          "nodejs",
+          "jquery",
+          "rest api",
+          "css",
+          "sass",
+          "bootstrap",
+          "tailwindcss"
+        ]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/youtube",
+        "title": "Youtube Clone",
+        "description": "A Youtube clone that consumes the Youtube API to fetch videos. Features include a search bar, video player, and video list",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/pinterest",
+        "title": "Pinterest Clone",
+        "description": "A Pinterest Clone",
+        "tech": ["reactjs", "html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/devMemes-RapidAPI",
+        "title": "Dev Memes",
+        "description": "A fun project that consumes an API to fetch memes",
+        "tech": ["html", "css", "javascript"]
+      },
+      {
+        "github_url": "https://github.com/juanPabloDiaz/SelfHosting-PiServer",
+        "title": "Self Hosting - Pi Server",
+        "description": "Setup a home server using a Raspberry Pi",
+        "tech": ["html", "css", "javascript"]
+      }
+    ]
   }
 ]
