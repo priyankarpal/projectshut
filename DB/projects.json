@@ -2113,7 +2113,7 @@
     "Projects": [
       {
         "github_url": "https://github.com/AmanSingh6574/tic-tac-toe-game",
-        "title": "TIC-TAK-TOE Game",
+        "title": "TIC-TAC-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with html, css, and javascript.",
         "tech": ["html", "css", "javascript"]
       },
@@ -2266,7 +2266,7 @@
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/java",
-        "title": "java DSA Project",
+        "title": "Java DSA Project",
         "description": "Playlist in java{DSA} for better understanding of Data Structures.",
         "tech": ["java", "dsa"]
       },
