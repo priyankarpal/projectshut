@@ -3804,7 +3804,7 @@
             "github_url": "https://github.com/Siddharth-Dagar-25/Geet-Music-Player",
             "title": "Geet - Music Player",
             "description": "Geet is a music player, sleek and intuitive web-based music player designed to bring your favorite tunes to life with ease and style.",
-            "tech": ["React", "JavaScript"]
+            "tech": ["react", "javascript"]
           }
         ]
   },
