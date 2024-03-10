@@ -11,7 +11,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.3",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.18",
     "@types/node": "20.11.25",
