@@ -50,7 +50,7 @@ export default function Landing() {
                 stiffness: 110,
                 delay: 0.2,
               }}
-              className="mt-14 my-1"
+              className="mt-14 my-3"
             >
               <Link
                 href="/projects"
