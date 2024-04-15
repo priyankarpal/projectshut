@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.11.5",
     "@headlessui/react": "^1.7.18",
     "@types/node": "20.12.2",
-    "@types/react": "18.2.73",
+    "@types/react": "18.2.78",
     "@types/react-dom": "18.2.23",
     "autoprefixer": "10.4.19",
     "eslint": "8.57.0",
