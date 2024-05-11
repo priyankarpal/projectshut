@@ -108,11 +108,6 @@ pnpm dev
 
 ## An example video guide on how to make your first PR.
 
-
-https://github.com/Sahilll15/ProjectsHut/assets/109215419/d83dfc39-d594-4098-a3e0-8f8d8595366b
-
-
-
 ## Useful Links
 
 - [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
