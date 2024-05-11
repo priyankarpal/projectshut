@@ -3807,5 +3807,22 @@
             "tech": ["react", "javascript"]
           }
         ]
+  },
+  {
+    "github_username": "Adeesh-bode",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Adeesh-bode/E-comXboAt",
+        "title": "E-comXboAt",
+        "description": "Developed an e-commerce platform with React and Strapi CMS",
+        "tech": ["react", "js" , "strapi" , "sass css"]
+      },
+      {
+        "github_url": "https://github.com/Adeesh-bode/Shelf-Space",
+        "title": "Shelf-space",
+        "description": "Built an online book store management web app",
+        "tech": ["react", "tailwindcss","postmanapi","expressjs","nodejs","mongoosejs","mongodb"]
+      }
+    ]
   }
 ]
