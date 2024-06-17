@@ -69,8 +69,8 @@ dependencies:
     specifier: ^0.33.3
     version: 0.33.3
   tailwindcss:
-    specifier: 3.4.3
-    version: 3.4.3
+    specifier: 3.4.4
+    version: 3.4.4
   typescript:
     specifier: 5.4.4
     version: 5.4.4
@@ -3949,6 +3949,7 @@ packages:
 
   /glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -5925,8 +5926,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /tailwindcss@3.4.3:
-    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
+  /tailwindcss@3.4.4:
+    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
