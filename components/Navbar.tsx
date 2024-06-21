@@ -2,7 +2,7 @@
 import React, { Suspense } from "react";
 import { NextPage } from "next";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { NavLink } from "./NavLink";
 
 interface NavLink {
   name: string;
@@ -11,7 +11,6 @@ interface NavLink {
 }
 
 const Navbar: NextPage = () => {
-  const activePath = usePathname();
   const navLinks: NavLink[] = [
     {
       name: "Home",
@@ -55,32 +54,22 @@ const Navbar: NextPage = () => {
               {navLinks.map((navLink) => (
                 <li key={navLink.path}>
                   {navLink.external ? (
-                    <Link
+                    <NavLink
                       href={navLink.path}
                       aria-label="desktop navbar link"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={
-                        activePath === navLink.path ||
-                          activePath === navLink.path + "/"
-                          ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
-                          : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
-                      }
+                      className={(active)=> active ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg" : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"}
                     >
                       {navLink.name}
-                    </Link>
+                    </NavLink>
                   ) : (
-                    <Link
+                    <NavLink
                       href={navLink.path}
-                      className={
-                        activePath === navLink.path ||
-                          activePath === navLink.path + "/"
-                          ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg"
-                          : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"
-                      }
+                      className={(active)=> active ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg" : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"}
                     >
                       {navLink.name}
-                    </Link>
+                    </NavLink>
                   )}
                 </li>
               ))}
