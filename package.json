@@ -14,7 +14,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@headlessui/react": "^2.1.0",
-    "@types/node": "20.14.7",
+    "@types/node": "22.4.1",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.19",
