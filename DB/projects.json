@@ -1,5 +1,112 @@
 [
   {
+  "github_username": "r2hu1",
+  "Projects": [
+    {
+      "github_url": "https://github.com/r2hu1/Shield",
+      "title": "Shield",
+      "description": "Open-source secure password manager with encryption, authentication and email verification.",
+      "tech": ["nextjs","shadcn/ui","mongodb","crypto","bycrypt","nodemailer","next-auth"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/u-sh",
+      "title": "u-sh",
+      "description": "Open-Source url shortener built with nextjs, mongodb, shadcn/ui & clerk auth with user dashboard and analytics",
+      "tech": ["nextjs","shadcn/ui","mongodb","clerk"]
+    },
+     {
+      "github_url": "https://github.com/r2hu1/az-avatar",
+      "title": "az-avatar",
+      "description": "Generate an customized avatar for your users/project without desigining it!",
+      "tech": ["nextjs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/more-shadcn-buttons",
+      "title": "more-shadcn-buttons",
+      "description": "Explore a collection of more variants for shadcn/ui buttons built using javascript and tailwindcss.",
+      "tech": ["nextjs","shadcn/ui"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/r2hu1",
+      "title": "r2hu1",
+      "description": "Minimal portfolio built with nextjs and shadcn-ui",
+      "tech": ["reactjs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/nsmc-stack",
+      "title": "nsmc-stack",
+      "description": "This is a starter template for Next.js with Tailwind CSS, Shadcn-UI, Mongoose and Clerk Auth!",
+      "tech": ["nextjs","shadcn/ui","mongodb","clerk"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/Sorting-Visualizer",
+      "title": "Sorting-Visualizer",
+      "description": "This sorting visualizer is a tool designed to help users understand and visualize various sorting algorithms in action. It provides a graphical representation of how different sorting algorithms rearrange elements in a list to achieve a sorted order.",
+      "tech": ["nextjs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/Mail-Server",
+      "title": "Mail-Server",
+      "description": "This code allows you to set up a local SMTP server on port 2525.",
+      "tech": ["nodejs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/BooksHub",
+      "title": "BooksHub",
+      "description": "A platform for searching and saving books built with nextjs, tailwindcss and shadcn-ui with google books api (internship assignment).",
+      "tech": ["nextjs","shadcn/ui","books-api"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/Culina-Share",
+      "title": "Culina-Share",
+      "description": "A recipe app with the ability to save, share and discover recipes from various cuisines. (an assignment for internship)",
+      "tech": ["nextjs","shadcn/ui","mongodb","clerk"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/IDE",
+      "title": "IDE",
+      "description": "A lightweight online html, css, and javascript editor and compiler built using nextjs, tailwindcss and shadcn-ui.",
+      "tech": ["nextjs","shadcn/ui"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/typed-h",
+      "title": "typed-h",
+      "description": "A simple, lightweight Typewritting effect for your HTML elements.",
+      "tech": ["javascript"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/shadcn-cookie-consent",
+      "title": "shadcn-cookie-consent",
+      "description": "Beautifully designed, customizable cookie consent for web built on top of shadcn-ui and tailwind-css!",
+      "tech": ["nextjs","shadcn/ui"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/Tailwind-Bg",
+      "title": "Tailwind-Bg",
+      "description": "A list of Talwind CSS background grids, dots and gradients to use in your projects.",
+      "tech": ["nextjs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/PortfolioV2",
+      "title": "PortfolioV2",
+      "description": "PortfolioV2 is a portfolio website for developers and ui designers to showcase their skills and projects along with a fully working contact form.",
+      "tech": ["nextjs"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/MusicHub",
+      "title": "MusicHub",
+      "description": "A stylish web music app built with Next.js 14, featuring a responsive design and a user-friendly interface. Discover and listen to a variety of music seamlessly. Supports Light and Dark modes for a personalized experience.",
+      "tech": ["nextjs","shadcn/ui","jiosavan-api"]
+    },
+    {
+      "github_url": "https://github.com/r2hu1/ZenPay",
+      "title": "ZenPay",
+      "description": "ZenPay is a virtual currency system developed with JavaScript, Next.js, MongoDB, Shadow-cljs, and Clerk authentication. This project enables secure and seamless virtual transactions, providing users with a modern and efficient platform for digital currency management.",
+      "tech": ["nextjs","shadcn/ui","mongodb","clerk"]
+    },
+   ]
+  },
+  {
     "github_username": "RoopkumarD",
     "Projects": [
       {
