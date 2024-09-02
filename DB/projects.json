@@ -1,4 +1,4 @@
-{
+[{
   "github_username": "Virajjai",  
   "Projects": [
     {
@@ -14,8 +14,7 @@
       "tech": ["Cloudflares", "Hono"]
     }
   ]
-}
-[
+},
   {
     "github_username": "RoopkumarD",
     "Projects": [
