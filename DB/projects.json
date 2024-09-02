@@ -1,4 +1,20 @@
-[
+[{
+  "github_username": "Virajjai",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/Virajjai/pay-2",
+      "title": "PayFlex",
+      "description": "PayFlex: A secure, scalable payment gateway with seamless API integration for real-time transaction processing and analytics.",
+      "tech": ["Turborepo", "typescript","Prisma"]
+    },
+    {
+      "github_url": "https://github.com/Virajjai/Blogging-Site",
+      "title": "Blogify",
+      "description": "Blogify: A scalable, serverless blogging platform powered by Hono, Prisma, and PostgreSQL. Features include real-time content publishing, robust API integration, and customizable user interfaces.",
+      "tech": ["Cloudflares", "Hono"]
+    }
+  ]
+},
   {
     "github_username": "RoopkumarD",
     "Projects": [
