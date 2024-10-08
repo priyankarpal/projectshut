@@ -45,8 +45,8 @@ importers:
         specifier: ^5.6.0
         version: 5.6.0(@babel/core@7.25.2)(next@14.2.14(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.95.0)
       pnpm:
-        specifier: ^9.11.0
-        version: 9.11.0
+        specifier: ^9.12.1
+        version: 9.12.1
       postcss:
         specifier: 8.4.47
         version: 8.4.47
@@ -2882,8 +2882,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pnpm@9.11.0:
-    resolution: {integrity: sha512-CiA/+u1aP2MkLNBkyPtYkjZsED4ygHkxj3gGLyTqjJ1QvGpHqjVnyr79gk0XDnj6J0XtHxaxMuFkNhRrdojxmw==}
+  pnpm@9.12.1:
+    resolution: {integrity: sha512-5aflKkGDoC1ZMQV/eg2/+dXpzjFh4z+miuOSElt5KCqKikcKUd/IoO2GIhRC6y+1cBmwmQ7ST6tRm/DhvFzPxA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -6845,7 +6845,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pnpm@9.11.0: {}
+  pnpm@9.12.1: {}
 
   possible-typed-array-names@1.0.0: {}
 
