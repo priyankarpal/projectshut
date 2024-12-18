@@ -39,6 +39,6 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "husky": "^9.1.6"
+    "husky": "^9.1.7"
   }
 }
