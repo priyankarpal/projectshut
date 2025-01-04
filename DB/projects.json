@@ -34,6 +34,12 @@
         "title": "Chatbot-project",
         "description": "mini chatbot",
         "tech": ["python","NLP","Machine learning"]
+      },
+       {
+        "github_url": "https://github.com/salmasyed1909/MY_PORTFOLIO",
+        "title": "portfolio",
+        "description": "DEScribes about me",
+        "tech": ["HTML","CSS","JavaScript"]
       }
     ]
   },
