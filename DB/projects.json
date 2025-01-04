@@ -26,6 +26,17 @@
       }
     ]
   },
+   {
+    "github_username": "salmasyed1909",
+    "Projects": [
+      {
+        "github_url": "https://github.com/salmasyed1909/chatbot-project",
+        "title": "Chatbot-project",
+        "description": "mini chatbot",
+        "tech": ["python","NLP","Machine learning"]
+      }
+    ]
+  },
   {
     "github_username": "Uzumaki4303",
     "Projects": [
