@@ -16,6 +16,17 @@
   ]
 },
   {
+  "github_username": "salmasyed1909",  
+  "Projects": [
+    {
+      "github_url": "https://github.com/salmasyed1909/MY_PORTFOLIO",
+      "title": "MY_PORTFOLIO",
+      "description": "DESCRIBES ABOUT ME ",
+      "tech": ["HTML", "CSS","JAVASCRIPT"]
+    }
+  ] 
+},   
+  {
     "github_username": "RoopkumarD",
     "Projects": [
       {
