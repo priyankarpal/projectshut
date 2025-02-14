@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
+  darkMode: 'class', // create dark mode class
+
   theme: {
     screens: {
       xsm: "240px",
