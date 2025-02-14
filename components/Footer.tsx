@@ -11,12 +11,10 @@ function Footer() {
       name: "Twitter",
       link: "https://twitter.com/priyankarpal",
       icon: (
-        <SiX
-          aria-label="Follow us on Twitter"
-          title="Twitter(External Link)"
-        />
+        <SiX aria-label="Follow us on Twitter" title="Twitter(External Link)" />
       ),
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",
+      hover:
+        "text-xl text-gray-700 dark:text-gray-200 cursor-pointer hover:text-purple-500",
     },
     {
       name: "GitHub",
@@ -27,7 +25,8 @@ function Footer() {
           title="GitHub(External Link)"
         />
       ),
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-500 ",
+      hover:
+        "text-xl text-gray-700 dark:text-gray-200 cursor-pointer hover:text-purple-500",
     },
     {
       name: "Linkedin",
@@ -38,7 +37,8 @@ function Footer() {
           title="LinkedIn(External Link)"
         />
       ),
-      hover: " text-xl  text-gray-200 cursor-pointer hover:text-purple-700 ",
+      hover:
+        "text-xl text-gray-700 dark:text-gray-200 cursor-pointer hover:text-purple-700",
     },
   ];
 
@@ -79,16 +79,17 @@ function Footer() {
   ];
 
   return (
-    <footer className="w-full border-t border-gray-800 py-24">
+    <footer className="w-full border-t border-gray-200 dark:border-gray-800 py-24">
       <div className="mx-auto max-w-screen-xl pt-8 sm:pt-16 px-4 sm:px-6 lg:px-8 pb-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-4">
           <div className="text-center lg:text-left">
-            <div className="flex h-10 items-center justify-center lg:justify-start text-white rounded-lg font-extrabold text-2xl">
+            <div className="flex h-10 items-center justify-center lg:justify-start text-gray-900 dark:text-white rounded-lg font-extrabold text-2xl">
               Ph <span className="text-primary">.</span>
             </div>
-            <p className="mt-4 text-center text-gray-200 dark:text-gray-400 lg:text-left lg:text-lg">
+            <p className="mt-4 text-center text-gray-600 dark:text-gray-400 lg:text-left lg:text-lg">
               Projectshut is an open source web app that enables users to freely
-              publish their projects and create user profiles within the platform.
+              publish their projects and create user profiles within the
+              platform.
             </p>
 
             <div className="mt-6 flex justify-center lg:justify-start gap-4">
@@ -98,8 +99,7 @@ function Footer() {
                     href={footerLink.link}
                     target="_blank"
                     className={footerLink.hover}
-                    aria-label={`footer link of ${footerLink.link}`}
-                  >
+                    aria-label={`footer link of ${footerLink.link}`}>
                     {footerLink.icon}
                   </Link>
                 </li>
@@ -108,10 +108,10 @@ function Footer() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto">
-            <ul className="font-medium text-gray-200 pt-5 text-center lg:text-left">
+            <ul className="font-medium text-gray-700 dark:text-gray-200 pt-5 text-center lg:text-left">
               {footerdocsLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mb-4 text-gray-200">
+                  <h3 className="text-xl font-extrabold mb-4 text-gray-900 dark:text-gray-200">
                     {section.title}
                   </h3>
                   <ul>
@@ -122,8 +122,7 @@ function Footer() {
                           className="hover:text-primary "
                           rel="noopener noreferrer"
                           target="_blank"
-                          aria-label="footer docs link"
-                        >
+                          aria-label="footer docs link">
                           {link.name}
                         </Link>
                       </li>
@@ -133,10 +132,10 @@ function Footer() {
               ))}
             </ul>
 
-            <ul className="font-medium text-gray-200 text-center lg:text-left">
+            <ul className="font-medium text-gray-700 dark:text-gray-200 text-center lg:text-left">
               {footerServiceLinks.map((section, index) => (
                 <div key={index}>
-                  <h3 className="text-xl font-extrabold mt-5 mb-4 text-gray-200">
+                  <h3 className="text-xl font-extrabold mt-5 mb-4 text-gray-900 dark:text-gray-200">
                     {section.title}
                   </h3>
                   <ul>
@@ -147,9 +146,7 @@ function Footer() {
                           className="hover:text-primary  "
                           rel="noopener noreferrer"
                           target="_blank"
-
-                          aria-label="footer service link"
-                        >
+                          aria-label="footer service link">
                           {link.name}
                         </Link>
                       </li>
@@ -164,8 +161,7 @@ function Footer() {
                   href="https://github.com/priyankarpal/ProjectsHut"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="GitHub repository"
-                >
+                  aria-label="GitHub repository">
                   <Image
                     src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0fa9e8f0-349d-4cc8-8e01-1b6e2c27dbbb"
                     alt="Github-Share-Button"
@@ -177,13 +173,13 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 pt-8 dark:border-gray-800 text-center lg:text-center lg:text-left">
-          <p className="text-gray-200 mx-auto lg:mx-0">
+        <div className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800 text-center lg:text-left">
+          <p className="text-gray-700 dark:text-gray-200 mx-auto lg:mx-0">
             © ProjectsHut {getCurrentYear()} All rights reserved
           </p>
         </div>
       </div>
-    </footer >
+    </footer>
   );
 }
 

@@ -212,8 +212,7 @@ const Projects = () => {
           stiffness: 110,
           delay: 0.2,
         }}
-        className="text-[2.5rem] font-bold text-center text-white"
-      >
+        className="text-[2.5rem] font-bold text-center text-gray-900 dark:text-white">
         Search for <span className="text-primary">cool</span> Projects
       </Motion.div>
       <Motion.div
@@ -226,13 +225,12 @@ const Projects = () => {
           stiffness: 110,
           delay: 0.3,
         }}
-        className="flex items-center justify-center my-7 mx-20"
-      >
+        className="flex items-center justify-center my-7 mx-20">
         <input
           type="text"
           id="combo-box-demo"
           placeholder="Search by project name"
-          className={`border-2 text-white outline-none duration-200  border-gray-700 hover:border-primary rounded-md p-2  bg-transparent `}
+          className={`border-2 text-gray-900 dark:text-white outline-none duration-200  border-gray-700 hover:border-primary rounded-md p-2  bg-transparent `}
           onChange={(e) => {
             handleOptionClick && handleOptionClick("project", e.target.value);
           }}
@@ -249,12 +247,10 @@ const Projects = () => {
           stiffness: 110,
           delay: 0.4,
         }}
-        className="flex items-stretch"
-      >
+        className="flex items-stretch">
         <button
-          className="border border-gray-600 hover:border-gray-500 rounded-md p-2 flex items-stretch text-white"
-          onClick={() => setOpenFilter(!openFilter)}
-        >
+          className="border border-gray-600 hover:border-gray-500 rounded-md p-2 flex items-stretch text-gray-900 dark:text-white"
+          onClick={() => setOpenFilter(!openFilter)}>
           Filter{" "}
           <div className="ml-2 ">
             {filterCount > 0 ? (
@@ -270,9 +266,8 @@ const Projects = () => {
         </button>
         {filterCount > 0 && (
           <button
-            className=" rounded-md border  border-gray-600 hover:border-gray-500 py-2 px-3 mx-2 text-white"
-            onClick={() => handleClear()}
-          >
+            className=" rounded-md border  border-gray-600 hover:border-gray-500 py-2 px-3 mx-2 text-gray-900 dark:text-white"
+            onClick={() => handleClear()}>
             <MdClear />
           </button>
         )}
@@ -282,8 +277,7 @@ const Projects = () => {
         <Dialog
           as="div"
           className="relative z-10"
-          onClose={() => setOpenFilter(false)}
-        >
+          onClose={() => setOpenFilter(false)}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -291,8 +285,7 @@ const Projects = () => {
             enterTo="opacity-100"
             leave="ease-in duration-200"
             leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
+            leaveTo="opacity-0">
             <div className="fixed inset-0 bg-black bg-opacity-25" />
           </Transition.Child>
 
@@ -305,19 +298,16 @@ const Projects = () => {
                 enterTo="opacity-100 scale-100"
                 leave="ease-in duration-200"
                 leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
+                leaveTo="opacity-0 scale-95">
                 <Dialog.Panel
                   className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all"
                   style={{
                     color: "black",
-                  }}
-                >
+                  }}>
                   <div className="flex justify-end w-full">
                     <button
                       className="bg-red-600 hover:bg-red-500 rounded-md border p-2 mx-2 gap-1 text-white"
-                      onClick={() => setOpenFilter(false)}
-                    >
+                      onClick={() => setOpenFilter(false)}>
                       <MdClear />
                     </button>
                   </div>
@@ -348,8 +338,7 @@ const Projects = () => {
                         } rounded-sm p-2`}
                         style={{
                           color: "black",
-                        }}
-                      >
+                        }}>
                         <span>{tech.toLowerCase()}</span>
                       </button>
                     ))}
@@ -377,10 +366,11 @@ const Projects = () => {
             }
             endMessage={
               <p style={{ textAlign: "center" }} className="py-5">
-                <b>Yay! You have seen it all</b>
+                <b className="text-gray-900 dark:text-white">
+                  Yay! You have seen it all
+                </b>
               </p>
-            }
-          >
+            }>
             {(searchitem.length == 0 ? visibleProjects : searchitem).map(
               (project: NewProjectsType, index: number) => (
                 <ProjectCard
@@ -397,7 +387,7 @@ const Projects = () => {
           </InfiniteScroll>
         ) : (
           <div className="flex justify-center items-center h-[50vh]">
-            <h1 className="text-2xl font-bold text-center text-white ">
+            <h1 className="text-2xl font-bold text-center text-gray-900 dark:text-white ">
               No Projects Found
             </h1>
           </div>
