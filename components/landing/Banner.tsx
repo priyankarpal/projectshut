@@ -36,8 +36,7 @@ export default function Banner() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
-            className="mt-2 sm:mt-0 text-3xl font-bold tracking-tight text-white sm:text-4xl"
-          >
+            className="mt-2 sm:mt-0 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             Why should you use this?
           </Motion.p>
           <Motion.h2
@@ -45,8 +44,7 @@ export default function Banner() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, type: "spring", stiffness: 110 }}
-            className="text-base font-semibold leading-7 text-primary"
-          >
+            className="text-base font-semibold leading-7 text-primary">
             Showcase your projects
           </Motion.h2>
         </div>
@@ -54,15 +52,10 @@ export default function Banner() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature, i) => (
               <Motion.div
-                // initial={{ opacity: 0, x: -640 }}
-                // whileInView={{ opacity: 1, x: 0 }}
-                // viewport={{ once: true }}
-                // transition={{ duration: 0.5, type: "spring", stiffness: 110, delay: i * 0.2 }}
                 key={feature.name}
-                className=" p-5 hover:outline outline-1 outline-gray-600 rounded"
-              >
+                className="p-5 hover:outline outline-1 outline-gray-600 rounded">
                 <div className="relative pl-16">
-                  <div className="text-base font-semibold leading-7 text-white">
+                  <div className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
                     <Motion.div
                       initial={{ opacity: 0, x: -40 }}
                       whileInView={{ opacity: 1, x: 0 }}
@@ -73,8 +66,7 @@ export default function Banner() {
                         stiffness: 110,
                         delay: i * 0.2,
                       }}
-                      className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary"
-                    >
+                      className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <feature.icon
                         className="h-6 w-6 text-white"
                         aria-hidden="true"
@@ -89,8 +81,7 @@ export default function Banner() {
                         type: "spring",
                         stiffness: 110,
                         delay: i * 0.2 + 0.1,
-                      }}
-                    >
+                      }}>
                       {feature.name}
                     </Motion.div>
                   </div>
@@ -104,8 +95,7 @@ export default function Banner() {
                       stiffness: 110,
                       delay: i * 0.2 + 0.2,
                     }}
-                    className="mt-2 text-base leading-7 text-gray-400"
-                  >
+                    className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-400">
                     {feature.description}
                   </Motion.div>
                 </div>

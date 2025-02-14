@@ -66,12 +66,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="light">
-      <body
-        className={`${inter.className} bg-white dark:bg-secondary transition-colors duration-300`}
-        suppressHydrationWarning={true}>
+    <html lang="en">
+      <body className={inter.className} suppressHydrationWarning={true}>
         <Navbar />
+
         {children}
+
         <MobileNavBar />
         <ScrollToTop />
         <Footer />
