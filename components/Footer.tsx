@@ -94,7 +94,7 @@ function Footer() {
 
             <div className="mt-6 flex justify-center lg:justify-start gap-4">
               {footerLinks.map((footerLink) => (
-                <li key={footerLink.link}>
+                <li key={footerLink.link} className="list-none">
                   <Link
                     href={footerLink.link}
                     target="_blank"
