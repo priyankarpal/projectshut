@@ -1,79 +1,84 @@
 "use client";
-import React, { Suspense } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { NextPage } from "next";
 import Link from "next/link";
-import { NavLink } from "./NavLink";
-
-interface NavLink {
-  name: string;
-  path: string;
-  external?: boolean;
-}
+import { FiSun, FiMoon } from "react-icons/fi";
 
 const Navbar: NextPage = () => {
-  const navLinks: NavLink[] = [
-    {
-      name: "Home",
-      path: "/",
-    },
-    {
-      name: "Projects",
-      path: "/projects",
-    },
-    {
-      name: "Docs",
-      path: "/docs",
-    },
-    {
-      name: "GitHub",
-      path: "https://github.com/priyankarpal/ProjectsHut",
-      external: true,
-    },
-  ];
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Check for initial theme
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      setDarkMode(true);
+      document.documentElement.classList.add("dark");
+    } else {
+      setDarkMode(false);
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    if (darkMode) {
+      document.documentElement.classList.remove("dark");
+      localStorage.theme = "light";
+      setDarkMode(false);
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.theme = "dark";
+      setDarkMode(true);
+    }
+  };
 
   return (
     <Suspense>
-      <nav className="top-0 z-10 sticky border-b border-gray-800 mx-auto bg-transparent backdrop-blur-sm">
-        <div className="flex justify-between md:justify-around p-5 w-full ">
-          {/* Logo for project Hut */}
-          <div className="item-navbar" id="logo-ph">
+      <nav className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-secondary/80 backdrop-blur-md transition-colors duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
             <Link
               href="/"
-              className="inline-flex h-10 items-center text-white rounded-lg font-extrabold text-[2rem]"
-            >
-              Ph <span className="text-primary">.</span>
+              className="text-xl font-bold text-gray-800 dark:text-white">
+              Ph<span className="text-primary">.</span>
             </Link>
-          </div>
-
-          {/* Main element of navbar */}
-          <div
-            className="item-navbar hidden md:block"
-            id="elements-of-navbar"
-          >
-            <ul className="flex items-center gap-5 text-[1rem]">
-              {navLinks.map((navLink) => (
-                <li key={navLink.path}>
-                  {navLink.external ? (
-                    <NavLink
-                      href={navLink.path}
-                      aria-label="desktop navbar link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={(active)=> active ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg" : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"}
-                    >
-                      {navLink.name}
-                    </NavLink>
-                  ) : (
-                    <NavLink
-                      href={navLink.path}
-                      className={(active)=> active ? "inline-block py-2 px-3 text-center text-primary hover:text-primary rounded-lg" : "inline-block py-2 px-3 text-center text-white hover:text-primary rounded-lg"}
-                    >
-                      {navLink.name}
-                    </NavLink>
-                  )}
-                </li>
-              ))}
-            </ul>
+            
+            <div className="hidden md:flex items-center space-x-4">
+              <Link
+                href="/"
+                className="text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
+                Home
+              </Link>
+              <Link
+                href="/projects"
+                className="text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
+                Projects
+              </Link>
+              <Link
+                href="/docs"
+                className="text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
+                Docs
+              </Link>
+              <a
+                href="https://github.com/priyankarpal/ProjectsHut"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
+                GitHub
+              </a>
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
+                aria-label="Toggle theme">
+                {darkMode ? (
+                  <FiSun className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+                ) : (
+                  <FiMoon className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </nav>

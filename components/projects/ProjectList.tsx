@@ -49,11 +49,13 @@ function ProjectList() {
   // to get the user data from github
 
   const getData = async () => {
-    setInitialLoading(true); 
-    const userData = await  getUserData(params?.username as string) as userType;
+    setInitialLoading(true);
+    const userData = (await getUserData(
+      params?.username as string
+    )) as userType;
     setUser(userData);
     setInitialLoading(false);
-  }
+  };
 
   useEffect(() => {
     // make the scroll bar start from the top of the page
@@ -100,7 +102,7 @@ function ProjectList() {
       {initialLoading && <Loading.Profile />}
       {/* Left side profile section */}
       {!initialLoading && userObj && Object.keys(userObj).length > 0 && (
-        <div className="w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-28 px-8 text-white border border-gray-800 mt-1">
+        <div className="w-full md:w-[50%] md:h-5/6 lg:max-w-[35%] flex flex-col shadow-xl rounded-md mb-4 md:mb-0 md:sticky md:top-28 px-8 text-gray-900 dark:text-white border border-gray-800 mt-1">
           {/* Back to projects link */}
           <div className="flex items-center justify-between my-4">
             <div>
@@ -108,8 +110,7 @@ function ProjectList() {
                 <Link
                   href="/projects"
                   className="flex items-stretch"
-                  aria-label="Back to projects link"
-                >
+                  aria-label="Back to projects link">
                   <MdArrowBackIosNew className="mt-0.5 text-[1.5rem]" />
                 </Link>
               </div>
@@ -117,8 +118,7 @@ function ProjectList() {
             {/* share button */}
             <div
               className="hover:text-purple-500 transition-all duration-500 ease-in-out flex cursor-pointer"
-              onClick={() => handleShareProfile()}
-            >
+              onClick={() => handleShareProfile()}>
               <FiShare2 className="text-[1.5rem]" />
             </div>
           </div>
@@ -137,24 +137,34 @@ function ProjectList() {
               @{params?.username}
             </h3>
           </div>
-          <div className="justify-center items-center text-center py-5 ">
-            <p className="text-sm break-words">{user?.bio}</p>
+          <div className="justify-center items-center text-center py-5">
+            <p className="text-sm break-words text-gray-700 dark:text-gray-300">
+              {user?.bio}
+            </p>
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center xsm:mx-auto my-2 mb-5">
-            {user?.social_accounts && user?.social_accounts.map(({ provider, url, icon }: socialMediaType) => (
-              <div className="mx-4" key={provider}>
-                <Link
-                  href={url ?? ""}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
-                  aria-label={`Follow us on ${provider}`}
-                  title={`${provider}(External Link)`}
-                >
-                  {icon ? icon : provider === "linkedin" ? <FaLinkedin /> : <FaTwitter />}
-                </Link>
-              </div>
-            ))}
+            {user?.social_accounts &&
+              user?.social_accounts.map(
+                ({ provider, url, icon }: socialMediaType) => (
+                  <div className="mx-4" key={provider}>
+                    <Link
+                      href={url ?? ""}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="cursor-pointer inline-flex h-10 items-center rounded-lg  font-extrabold text-[1.5rem] hover:scale-110 transition-all duration-300 ease-in-out hover:text-purple-500"
+                      aria-label={`Follow us on ${provider}`}
+                      title={`${provider}(External Link)`}>
+                      {icon ? (
+                        icon
+                      ) : provider === "linkedin" ? (
+                        <FaLinkedin />
+                      ) : (
+                        <FaTwitter />
+                      )}
+                    </Link>
+                  </div>
+                )
+              )}
           </div>
         </div>
       )}
@@ -172,26 +182,25 @@ function ProjectList() {
           userObj &&
           Object.keys(userObj).length > 0 &&
           userObj?.Projects.map((project, index) => (
-            <div key={index}
-              className="w-100 my-1 p-4 mb-4 text-white hover:border-primary border border-gray-800"
+            <div
+              key={index}
+              className="w-100 my-1 p-4 mb-4 text-gray-900 dark:text-white hover:border-primary border border-gray-800"
               style={{
                 borderRadius: "10px",
                 minHeight: "100px",
-              }}
-            >
+              }}>
               <div className=" border-b border-gray-600 p-4 relative">
                 <p className="capitalize text-lg/5 font-bold basis-full line-clamp-1">
                   {project.title}
                 </p>
-                <p className=" pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4">
+                <p className="pr-[.5rem] text-[.9rem] my-4 xsm:mx-0 mx-4 text-gray-700 dark:text-gray-300">
                   {project.description}
                 </p>
                 <Link
                   href={project.github_url}
                   target="_blank"
                   rel="noreferrer"
-                  className="absolute top-[-.5rem] right-[-.2rem]"
-                >
+                  className="absolute top-[-.5rem] right-[-.2rem]">
                   <div className="inline-flex h-10 items-center rounded-lg font-extrabold text-[2rem] hover:scale-110 transition-all duration-300 ease-in-out  hover:text-primary">
                     <LuExternalLink size={25} />
                   </div>
@@ -203,8 +212,7 @@ function ProjectList() {
                   {project.tech.map((tag, i) => (
                     <p
                       className={`text-xs font-semibold inline-block py-1 px-2 .uppercase rounded-full uppercase mr-2 `}
-                      key={i}
-                    >
+                      key={i}>
                       {tag}
                     </p>
                   ))}
@@ -218,8 +226,7 @@ function ProjectList() {
           className="relative z-10"
           aria-labelledby="modal-title"
           role="dialog"
-          aria-modal="true"
-        >
+          aria-modal="true">
           <div className="fixed inset-0 bg-gray-500 bg-opacity-70 transition-opacity" />
 
           <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -251,8 +258,7 @@ function ProjectList() {
 
                   <button
                     className="absolute top-5 right-7 duration-500"
-                    onClick={() => setIsOpenModal(false)}
-                  >
+                    onClick={() => setIsOpenModal(false)}>
                     <IoClose />
                   </button>
                 </div>

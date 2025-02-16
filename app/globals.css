@@ -5,13 +5,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  @apply bg-gray-300 dark:bg-gray-600;
   border-radius: 10px;
 }
 
 html {
   font-family: "Inter", sans-serif;
-  background-color: #000000;
+}
+
+body {
+  @apply bg-white dark:bg-secondary text-gray-900 dark:text-gray-100 transition-colors duration-300;
 }
 
 /* animated image */

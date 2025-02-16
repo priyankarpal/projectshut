@@ -19,8 +19,7 @@ export default function Landing() {
                 stiffness: 110,
                 delay: 0,
               }}
-              className="text-4xl font-bold sm:text-[5vw] md:text-5xl lg:leading-[5.5rem] lg:text-[5rem] text-white"
-            >
+              className="text-4xl font-bold sm:text-[5vw] md:text-5xl lg:leading-[5.5rem] lg:text-[5rem] text-gray-900 dark:text-white">
               Learn. Build. Share.
             </Motion.div>
 
@@ -34,8 +33,7 @@ export default function Landing() {
                 stiffness: 110,
                 delay: 0.1,
               }}
-              className="mt-4 text-xl text-gray-400 tracking-wide "
-            >
+              className="mt-4 text-xl text-gray-600 dark:text-gray-400 tracking-wide">
               ProjectsHut is a platform where you can share your open source
               projects with the world.
             </Motion.p>
@@ -50,14 +48,12 @@ export default function Landing() {
                 stiffness: 110,
                 delay: 0.2,
               }}
-              className="mt-14 my-3"
-            >
+              className="mt-14 my-3">
               <Link
                 href="/projects"
-                className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 ease-in duration-200 text-white hover:text-gray-900 "
+                className="p-3 rounded-md border border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-800 ease-in duration-200 text-gray-900 dark:text-white"
                 type="button"
-                aria-label="link to projects section"
-              >
+                aria-label="link to projects section">
                 Browse Projects
               </Link>
             </Motion.div>
@@ -77,8 +73,7 @@ export default function Landing() {
                       delay: Math.random(),
                     }}
                     key={index}
-                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
-                  >
+                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                     <Image
                       src={image.url}
                       alt={image.alt}
@@ -102,8 +97,7 @@ export default function Landing() {
                       delay: Math.random(),
                     }}
                     key={index}
-                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg "
-                  >
+                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg ">
                     <Image
                       src={image.url}
                       alt={image.alt}
@@ -127,8 +121,7 @@ export default function Landing() {
                       delay: Math.random(),
                     }}
                     key={i}
-                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg"
-                  >
+                    className="floating-image h-52 w-36 md:h-64 md:w-44 overflow-hidden rounded-lg">
                     <Image
                       src={image.url}
                       alt={image.alt}
