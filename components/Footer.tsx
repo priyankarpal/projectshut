@@ -1,8 +1,7 @@
-import React from "react";
-import { SiX, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 function Footer() {
   const getCurrentYear = () => new Date().getFullYear();
 
@@ -173,7 +172,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800 text-center lg:text-left">
+        <div className="flex item-center justify-center mt-16 pt-8 border-t border-gray-200 dark:border-gray-800 text-center lg:text-left">
           <p className="text-gray-700 dark:text-gray-200 mx-auto lg:mx-0">
             © ProjectsHut {getCurrentYear()} All rights reserved
           </p>
