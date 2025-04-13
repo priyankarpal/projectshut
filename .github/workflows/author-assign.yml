@@ -1,13 +1,13 @@
-name: 'Author Assign'
+# name: 'Author Assign'
 
-on:
-  pull_request_target:
-    types: [opened, reopened]
+# on:
+#   pull_request_target:
+#     types: [opened, reopened]
 
-jobs:
-  assign-author:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: toshimaru/auto-author-assign@v1.1.0
-        with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+# jobs:
+#   assign-author:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: toshimaru/auto-author-assign@v1.1.0
+#         with:
+#           repo-token: '${{ secrets.GITHUB_TOKEN }}'
