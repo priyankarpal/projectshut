@@ -16,6 +16,23 @@
   ]
 },
   {
+  "github_username": "vittoriocostantini",
+  "Projects": [
+    {
+      "github_url": "https://github.com/vittoriocostantini/Abra-support-costumer-Client---APP.git",
+      "title": "abra",
+      "description": "costumer service in real time chat app",
+      "tech": ["ionic, react, typescript"]
+    },
+    {
+      "github_url": "https://github.com/vittoriocostantini/seel.git",
+      "title": "Seel",
+      "description": "a travel app for discover the world",
+      "tech": ["react native", "typescript"]
+    }
+  ]
+},
+  {
     "github_username": "RoopkumarD",
     "Projects": [
       {
