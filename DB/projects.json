@@ -3874,5 +3874,16 @@
         "tech": ["react", "tailwindcss","postmanapi","expressjs","nodejs","mongoosejs","mongodb"]
       }
     ]
+  },
+  {
+    "github_username": "nopara73",
+    "Projects": [
+      {
+        "github_url": "https://github.com/nopara73/LongevityWorldCup",
+        "title": "Longevity World Cup",
+        "description": "Open-source longevity sport platform with biological-age calculators, athlete profiles, public leaderboards, and a no-auth public API.",
+        "tech": ["csharp", "aspnetcore", "javascript", "openapi"]
+      }
+    ]
   }
 ]
